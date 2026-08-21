@@ -118,10 +118,19 @@ def show_cover(out_path: Path) -> None:
 
 
 def site_icons(cover_path: Path, docs: Path) -> None:
-    """Square icons for feed readers / browser tabs, derived from the show cover."""
-    cover = Image.open(cover_path).convert("RGB")
-    # tighter crop of the cover's title block reads better at small sizes
-    crop = cover.crop((int(SIZE * 0.04), int(SIZE * 0.16), int(SIZE * 0.84), int(SIZE * 0.96)))
+    """Square icons for feed readers / browser tabs: dark tile, big 'A', small waveform in the accent colour."""
+    base = 1024
+    im = Image.new("RGB", (base, base), (28, 31, 38))
+    d = ImageDraw.Draw(im)
+    f = _font(BOLD, 700)
+    bbox = d.textbbox((0, 0), "A", font=f)
+    w, h = bbox[2] - bbox[0], bbox[3] - bbox[1]
+    d.text(((base - w) / 2 - bbox[0] - 60, (base - h) / 2 - bbox[1] - 90), "A", font=f, fill=CREAM)
+    # waveform bars bottom-right
+    heights = [90, 160, 240, 170, 110, 200, 130]
+    x = base - 60 - len(heights) * 46
+    for hh in heights:
+        d.rounded_rectangle((x, base - 120 - hh, x + 30, base - 120), radius=15, fill=(230, 170, 110))
+        x += 46
     for name, px in (("icon.png", 400), ("favicon.png", 64), ("apple-touch-icon.png", 180)):
-        im = ImageOps.fit(crop, (px, px), Image.LANCZOS)
-        im.save(docs / name, "PNG", optimize=True)
+        im.resize((px, px), Image.LANCZOS).save(docs / name, "PNG", optimize=True)
