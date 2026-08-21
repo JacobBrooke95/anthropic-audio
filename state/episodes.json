@@ -4378,6 +4378,14 @@
       "status": "skipped",
       "updated": "2026-08-21T13:37:08+00:00",
       "reason": "lastmod 2024-04-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/the-ai-native-sdlc-playbook": {
+      "first_seen": "2026-08-21T16:44:07+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T16:44:07+00:00",
+      "slug": "claude-blog-2026-08-21-the-ai-native-sdlc-playbook",
+      "episode": 12
     }
   },
   "episodes": [
@@ -4977,8 +4985,138 @@
       "episode": 7,
       "created": "2026-08-21T13:19:28+00:00",
       "hero": ""
+    },
+    {
+      "slug": "claude-blog-2026-08-21-the-ai-native-sdlc-playbook",
+      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "source": "claude-blog",
+      "title": "The AI-Native SDLC playbook",
+      "subtitle": "How to transform your software development lifecycle with AI—stage by stage.",
+      "date": "2026-08-21T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Code",
+          "href": "https://claude.com/product/claude-code"
+        },
+        {
+          "text": "Cowork",
+          "href": "https://claude.com/product/cowork"
+        },
+        {
+          "text": "skills",
+          "href": "https://code.claude.com/docs/en/skills"
+        },
+        {
+          "text": "Claude Design",
+          "href": "https://claude.com/product/design"
+        },
+        {
+          "text": "plan mode",
+          "href": "https://code.claude.com/docs/en/permission-modes"
+        },
+        {
+          "text": "MCP",
+          "href": "https://code.claude.com/docs/en/mcp"
+        },
+        {
+          "text": "CLAUDE.md",
+          "href": "https://code.claude.com/docs/en/memory"
+        },
+        {
+          "text": "plugin",
+          "href": "https://code.claude.com/docs/en/plugin-marketplaces"
+        },
+        {
+          "text": "hook",
+          "href": "https://code.claude.com/docs/en/hooks"
+        },
+        {
+          "text": "git worktree",
+          "href": "https://code.claude.com/docs/en/worktrees"
+        },
+        {
+          "text": "subagent",
+          "href": "https://code.claude.com/docs/en/sub-agents"
+        },
+        {
+          "text": "Code Review",
+          "href": "https://code.claude.com/docs/en/code-review"
+        },
+        {
+          "text": "claude-code-action",
+          "href": "https://code.claude.com/docs/en/github-actions"
+        },
+        {
+          "text": "code.claude.com/docs/en/settings",
+          "href": "https://code.claude.com/docs/en/settings"
+        },
+        {
+          "text": "Claude Tag",
+          "href": "https://claude.com/product/tag"
+        },
+        {
+          "text": "Agent SDK",
+          "href": "https://platform.claude.com/docs/en/agent-sdk/overview"
+        },
+        {
+          "text": "Set up Claude Code for your organization — the admin decision map; start here code.claude.com/docs/en/admin-setup",
+          "href": "https://code.claude.com/docs/en/admin-setup"
+        },
+        {
+          "text": "Server-managed settings from the Claude admin console code.claude.com/docs/en/server-managed-settings",
+          "href": "https://code.claude.com/docs/en/server-managed-settings"
+        },
+        {
+          "text": "Permissions code.claude.com/docs/en/permissions",
+          "href": "https://code.claude.com/docs/en/permissions"
+        },
+        {
+          "text": "Sandboxing — OS-level filesystem and network isolation code.claude.com/docs/en/sandboxing",
+          "href": "https://code.claude.com/docs/en/sandboxing"
+        },
+        {
+          "text": "Hooks — guide code.claude.com/docs/en/hooks-guide",
+          "href": "https://code.claude.com/docs/en/hooks-guide"
+        },
+        {
+          "text": "Managed MCP — central control of the agent's tool surface code.claude.com/docs/en/managed-mcp",
+          "href": "https://code.claude.com/docs/en/managed-mcp"
+        },
+        {
+          "text": "Enterprise deployment overview — Bedrock, Vertex, Foundry code.claude.com/docs/en/third-party-integrations",
+          "href": "https://code.claude.com/docs/en/third-party-integrations"
+        },
+        {
+          "text": "Enterprise network configuration code.claude.com/docs/en/network-config",
+          "href": "https://code.claude.com/docs/en/network-config"
+        },
+        {
+          "text": "Monitoring (OpenTelemetry) code.claude.com/docs/en/monitoring-usage",
+          "href": "https://code.claude.com/docs/en/monitoring-usage"
+        },
+        {
+          "text": "The analytics dashboard code.claude.com/docs/en/analytics",
+          "href": "https://code.claude.com/docs/en/analytics"
+        },
+        {
+          "text": "Compliance API — Enterprise activity feed, chat retrieval and deletion platform.claude.com/docs/en/manage-claude/compliance-api",
+          "href": "https://platform.claude.com/docs/en/manage-claude/compliance-api"
+        },
+        {
+          "text": "Security model code.claude.com/docs/en/security",
+          "href": "https://code.claude.com/docs/en/security"
+        }
+      ],
+      "word_count": 9873,
+      "duration": 4373.498776,
+      "bytes": 35203529,
+      "episode": 12,
+      "created": "2026-08-21T16:44:07+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg"
     }
   ],
-  "next_episode": 12,
+  "next_episode": 13,
   "baseline_date": "2026-08-14"
 }

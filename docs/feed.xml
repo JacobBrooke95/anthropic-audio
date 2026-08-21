@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 13:37:29 +0000</lastBuildDate>
-    <pubDate>Thu, 20 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2026 16:44:07 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,98 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: The AI-Native SDLC playbook</title>
+      <itunes:title>Claude Blog: The AI-Native SDLC playbook</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-the-ai-native-sdlc-playbook/</link>
+      <guid isPermaLink="false">https://claude.com/blog/the-ai-native-sdlc-playbook</guid>
+      <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
+      <description>How to transform your software development lifecycle with AI—stage by stage.
+
+Source: https://claude.com/blog/the-ai-native-sdlc-playbook
+Published August 21, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Code: https://claude.com/product/claude-code
+• Cowork: https://claude.com/product/cowork
+• skills: https://code.claude.com/docs/en/skills
+• Claude Design: https://claude.com/product/design
+• plan mode: https://code.claude.com/docs/en/permission-modes
+• MCP: https://code.claude.com/docs/en/mcp
+• CLAUDE.md: https://code.claude.com/docs/en/memory
+• plugin: https://code.claude.com/docs/en/plugin-marketplaces
+• hook: https://code.claude.com/docs/en/hooks
+• git worktree: https://code.claude.com/docs/en/worktrees
+• subagent: https://code.claude.com/docs/en/sub-agents
+• Code Review: https://code.claude.com/docs/en/code-review
+• claude-code-action: https://code.claude.com/docs/en/github-actions
+• code.claude.com/docs/en/settings: https://code.claude.com/docs/en/settings
+• Claude Tag: https://claude.com/product/tag
+• Agent SDK: https://platform.claude.com/docs/en/agent-sdk/overview
+• Set up Claude Code for your organization — the admin decision map; start here code.claude.com/docs/en/admin-setup: https://code.claude.com/docs/en/admin-setup
+• Server-managed settings from the Claude admin console code.claude.com/docs/en/server-managed-settings: https://code.claude.com/docs/en/server-managed-settings
+• Permissions code.claude.com/docs/en/permissions: https://code.claude.com/docs/en/permissions
+• Sandboxing — OS-level filesystem and network isolation code.claude.com/docs/en/sandboxing: https://code.claude.com/docs/en/sandboxing
+• Hooks — guide code.claude.com/docs/en/hooks-guide: https://code.claude.com/docs/en/hooks-guide
+• Managed MCP — central control of the agent's tool surface code.claude.com/docs/en/managed-mcp: https://code.claude.com/docs/en/managed-mcp
+• Enterprise deployment overview — Bedrock, Vertex, Foundry code.claude.com/docs/en/third-party-integrations: https://code.claude.com/docs/en/third-party-integrations
+• Enterprise network configuration code.claude.com/docs/en/network-config: https://code.claude.com/docs/en/network-config
+• Monitoring (OpenTelemetry) code.claude.com/docs/en/monitoring-usage: https://code.claude.com/docs/en/monitoring-usage
+• The analytics dashboard code.claude.com/docs/en/analytics: https://code.claude.com/docs/en/analytics
+• Compliance API — Enterprise activity feed, chat retrieval and deletion platform.claude.com/docs/en/manage-claude/compliance-api: https://platform.claude.com/docs/en/manage-claude/compliance-api
+• Security model code.claude.com/docs/en/security: https://code.claude.com/docs/en/security
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-the-ai-native-sdlc-playbook/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How to transform your software development lifecycle with AI—stage by stage.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/the-ai-native-sdlc-playbook">https://claude.com/blog/the-ai-native-sdlc-playbook</a><br/><strong>Published:</strong> August 21, 2026 · Claude Blog<br/><strong>Length:</strong> 9,873 words · 1h 12m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/product/claude-code">Claude Code</a></li><li><a href="https://claude.com/product/cowork">Cowork</a></li><li><a href="https://code.claude.com/docs/en/skills">skills</a></li><li><a href="https://claude.com/product/design">Claude Design</a></li><li><a href="https://code.claude.com/docs/en/permission-modes">plan mode</a></li><li><a href="https://code.claude.com/docs/en/mcp">MCP</a></li><li><a href="https://code.claude.com/docs/en/memory">CLAUDE.md</a></li><li><a href="https://code.claude.com/docs/en/plugin-marketplaces">plugin</a></li><li><a href="https://code.claude.com/docs/en/hooks">hook</a></li><li><a href="https://code.claude.com/docs/en/worktrees">git worktree</a></li><li><a href="https://code.claude.com/docs/en/sub-agents">subagent</a></li><li><a href="https://code.claude.com/docs/en/code-review">Code Review</a></li><li><a href="https://code.claude.com/docs/en/github-actions">claude-code-action</a></li><li><a href="https://code.claude.com/docs/en/settings">code.claude.com/docs/en/settings</a></li><li><a href="https://claude.com/product/tag">Claude Tag</a></li><li><a href="https://platform.claude.com/docs/en/agent-sdk/overview">Agent SDK</a></li><li><a href="https://code.claude.com/docs/en/admin-setup">Set up Claude Code for your organization — the admin decision map; start here code.claude.com/docs/en/admin-setup</a></li><li><a href="https://code.claude.com/docs/en/server-managed-settings">Server-managed settings from the Claude admin console code.claude.com/docs/en/server-managed-settings</a></li><li><a href="https://code.claude.com/docs/en/permissions">Permissions code.claude.com/docs/en/permissions</a></li><li><a href="https://code.claude.com/docs/en/sandboxing">Sandboxing — OS-level filesystem and network isolation code.claude.com/docs/en/sandboxing</a></li><li><a href="https://code.claude.com/docs/en/hooks-guide">Hooks — guide code.claude.com/docs/en/hooks-guide</a></li><li><a href="https://code.claude.com/docs/en/managed-mcp">Managed MCP — central control of the agent&#x27;s tool surface code.claude.com/docs/en/managed-mcp</a></li><li><a href="https://code.claude.com/docs/en/third-party-integrations">Enterprise deployment overview — Bedrock, Vertex, Foundry code.claude.com/docs/en/third-party-integrations</a></li><li><a href="https://code.claude.com/docs/en/network-config">Enterprise network configuration code.claude.com/docs/en/network-config</a></li><li><a href="https://code.claude.com/docs/en/monitoring-usage">Monitoring (OpenTelemetry) code.claude.com/docs/en/monitoring-usage</a></li><li><a href="https://code.claude.com/docs/en/analytics">The analytics dashboard code.claude.com/docs/en/analytics</a></li><li><a href="https://platform.claude.com/docs/en/manage-claude/compliance-api">Compliance API — Enterprise activity feed, chat retrieval and deletion platform.claude.com/docs/en/manage-claude/compliance-api</a></li><li><a href="https://code.claude.com/docs/en/security">Security model code.claude.com/docs/en/security</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-the-ai-native-sdlc-playbook/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.mp3" length="35203529" type="audio/mpeg"/>
+      <itunes:duration>4373</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>How to transform your software development lifecycle with AI—stage by stage.</itunes:subtitle>
+      <itunes:summary>How to transform your software development lifecycle with AI—stage by stage.
+
+Source: https://claude.com/blog/the-ai-native-sdlc-playbook
+Published August 21, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Code: https://claude.com/product/claude-code
+• Cowork: https://claude.com/product/cowork
+• skills: https://code.claude.com/docs/en/skills
+• Claude Design: https://claude.com/product/design
+• plan mode: https://code.claude.com/docs/en/permission-modes
+• MCP: https://code.claude.com/docs/en/mcp
+• CLAUDE.md: https://code.claude.com/docs/en/memory
+• plugin: https://code.claude.com/docs/en/plugin-marketplaces
+• hook: https://code.claude.com/docs/en/hooks
+• git worktree: https://code.claude.com/docs/en/worktrees
+• subagent: https://code.claude.com/docs/en/sub-agents
+• Code Review: https://code.claude.com/docs/en/code-review
+• claude-code-action: https://code.claude.com/docs/en/github-actions
+• code.claude.com/docs/en/settings: https://code.claude.com/docs/en/settings
+• Claude Tag: https://claude.com/product/tag
+• Agent SDK: https://platform.claude.com/docs/en/agent-sdk/overview
+• Set up Claude Code for your organization — the admin decision map; start here code.claude.com/docs/en/admin-setup: https://code.claude.com/docs/en/admin-setup
+• Server-managed settings from the Claude admin console code.claude.com/docs/en/server-managed-settings: https://code.claude.com/docs/en/server-managed-settings
+• Permissions code.claude.com/docs/en/permissions: https://code.claude.com/docs/en/permissions
+• Sandboxing — OS-level filesystem and network isolation code.claude.com/docs/en/sandboxing: https://code.claude.com/docs/en/sandboxing
+• Hooks — guide code.claude.com/docs/en/hooks-guide: https://code.claude.com/docs/en/hooks-guide
+• Managed MCP — central control of the agent's tool surface code.claude.com/docs/en/managed-mcp: https://code.claude.com/docs/en/managed-mcp
+• Enterprise deployment overview — Bedrock, Vertex, Foundry code.claude.com/docs/en/third-party-integrations: https://code.claude.com/docs/en/third-party-integrations
+• Enterprise network configuration code.claude.com/docs/en/network-config: https://code.claude.com/docs/en/network-config
+• Monitoring (OpenTelemetry) code.claude.com/docs/en/monitoring-usage: https://code.claude.com/docs/en/monitoring-usage
+• The analytics dashboard code.claude.com/docs/en/analytics: https://code.claude.com/docs/en/analytics
+• Compliance API — Enterprise activity feed, chat retrieval and deletion platform.claude.com/docs/en/manage-claude/compliance-api: https://platform.claude.com/docs/en/manage-claude/compliance-api
+• Security model code.claude.com/docs/en/security: https://code.claude.com/docs/en/security
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-the-ai-native-sdlc-playbook/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>12</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: The Claude Code guide for startups</title>
       <itunes:title>Claude Blog: The Claude Code guide for startups</itunes:title>
