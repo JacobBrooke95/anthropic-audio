@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.500 --> 00:00:06.440
+Build production agents with computer use, the Skills A P I, and the Files A P I.
+
+2
+00:00:06.890 --> 00:00:11.106
+From Claude Blog, published August 20, 2026.
+
+3
+00:00:12.106 --> 00:00:33.642
+Computer use, the Skills A P I, and the Files A P I are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files.
+
+4
+00:00:34.442 --> 00:00:36.799
+Building agents on the Claude Platform.
+
+5
+00:00:37.249 --> 00:00:56.158
+Computer use lets you build agents that operate software they can see. Given a screenshot, the agent clicks, types, and scrolls the way someone at the keyboard would. That lets it work in applications that were never built for automation. The new browser use tool extends this to the web.
+
+6
+00:00:56.278 --> 00:01:05.264
+Alongside the screenshot, the agent reads the structure of the page and acts on a specific field or button rather than a position on screen.
+
+7
+00:01:05.714 --> 00:01:25.825
+The Skills A P I and the Files A P I let you give that agent your expertise and your documents. A skill is a folder of instructions, scripts, and templates that Claude loads only when a task calls for it. With the Skills A P I you upload and version your own skills, then attach them to any request.
+
+8
+00:01:25.945 --> 00:01:46.736
+They run in Claude's code execution sandbox, so there is nothing for you to host. The Files A P I is storage for the documents an agent reads and writes: upload a P D F or spreadsheet once, reference it by I D in later requests instead of re-sending it, and download the files the agent creates.
+
+9
+00:01:47.186 --> 00:02:10.396
+Say you're building a claims agent. It reads the intake document from the Files A P I, follows a skill that encodes the team's filing procedure, completes the submission in an insurer's web portal with the browser use tool, and saves the confirmation back as a file. Code execution and web search, already generally available, fit into the same loop.
+
+10
+00:02:11.196 --> 00:02:13.421
+What's new with general availability.
+
+11
+00:02:13.871 --> 00:02:31.288
+Computer use: the updated computer use tool lets Claude take several actions per turn instead of one per model call, so tasks finish in fewer calls and less time. Computer use is also now eligible for HIPAA-regulated workloads under our BAA.
+
+12
+00:02:31.528 --> 00:02:44.076
+Browser use tool: new in computer use today. It uses the same multi-action turns and adds page structure, so agents target web elements more reliably than with pixels alone.
+
+13
+00:02:44.316 --> 00:02:49.617
+Skills A P I: a simpler A P I for uploading and versioning your own skills.
+
+14
+00:02:49.857 --> 00:02:58.730
+Files A P I: automatic file expiration, 5 x higher rate limits, and 1 terabytes of storage per organization.
+
+15
+00:02:59.730 --> 00:03:21.012
+That was Build production agents with computer use, the Skills A P I, and the Files A P I, from Claude Blog, published August 20, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -1,0 +1,300 @@
+{
+ "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-08-19-turning-conversation-into-knowledge-how-slack-builds-human-a",
+ "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+ "subtitle": "A conversation with Jaime DeLanghe, Chief Product Officer at Slack.",
+ "date": "2026-08-19T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fdd8c172c1f5ac0f312c_og_turning-conversation-into-knowledge-how-slack-builds-human-agent-teams.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "This is the second post in our series on building human-agent teams. The first shared what we've learned building teams with multiplayer AI at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before AI arrived.",
+   "html": "<em>This is the second post in our series on building human-agent teams. The </em><a href=\"https://claude.com/blog/building-effective-human-agent-teams\"><em>first</em></a><em> shared what we&#x27;ve learned building teams with multiplayer AI at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before AI arrived.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start that to achieve this goal, people need to work in the open, keeping conversations, decisions, and work in progress in channels anyone at the company can read and search. In her recent essay The Work is the Conversation , she makes the same case for agents: The conversation around the work is the context that agents need to be useful and finally help us achieve this decades-old goal of turning scattered knowledge into productivity.",
+   "html": "Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start that to achieve this goal, people need to work in the open, keeping conversations, decisions, and work in progress in channels anyone at the company can read and search. In her recent essay <a href=\"https://jaimedelanghe.medium.com/the-work-is-the-conversation-50a1d61f8f9e\"><em>The Work is the Conversation</em></a>, she makes the same case for agents: The conversation around the work is the context that agents need to be useful and finally help us achieve this decades-old goal of turning scattered knowledge into productivity. "
+  },
+  {
+   "type": "paragraph",
+   "text": "To learn what this looks like in practice at Slack, we talked with Jaime about her best practices for building effective human-agent teams and spreading these new ways of working.",
+   "html": "To learn what this looks like in practice at Slack, we talked with Jaime about her best practices for building effective human-agent teams and spreading these new ways of working."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Treat your conversation history like a knowledge base",
+   "html": "Treat your conversation history like a knowledge base"
+  },
+  {
+   "type": "paragraph",
+   "text": "For years, the promise that workplace conversation—the \"exhaust\" of people working together—would compound into organizational knowledge never materialized.",
+   "html": "For years, the promise that workplace conversation—the &quot;exhaust&quot; of people working together—would compound into organizational knowledge never materialized. "
+  },
+  {
+   "type": "paragraph",
+   "text": "\"I have so many research papers from the early days at Slack that showed that, actually, no, conversation doesn't turn into knowledge,\" Jaime says. \"You wish it did, but really it's just a lot of stuff that just hangs out there and people still have to repeat themselves.\"",
+   "html": "&quot;I have so many research papers from the early days at Slack that showed that, actually, no, conversation doesn&#x27;t turn into knowledge,&quot; Jaime says. &quot;You wish it did, but really it&#x27;s just a lot of stuff that just hangs out there and people still have to repeat themselves.&quot; "
+  },
+  {
+   "type": "paragraph",
+   "text": "Making sense of all that exhaust simply wasn't humanly possible. Now it's an agent's job.",
+   "html": "Making sense of all that exhaust simply wasn&#x27;t humanly possible. Now it&#x27;s an agent&#x27;s job."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How to put this into practice",
+   "html": "How to put this into practice"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Default to public channels : Agents can only learn from what they can see. Decisions made in DMs or private threads are invisible to them—and stay lost to the organization.",
+     "html": "<strong>Default to public channels</strong>:<strong> </strong>Agents can only learn from what they can see. Decisions made in DMs or private threads are invisible to them—and stay lost to the organization."
+    },
+    {
+     "text": "Ask agents for the reasoning, not just the record : Instead of searching for what was decided, ask an agent to reconstruct why it was decided, and how the context has shifted since.",
+     "html": "<strong>Ask agents for the reasoning, not just the record</strong>: Instead of searching for what was decided, ask an agent to reconstruct <em>why</em> it was decided, and how the context has shifted since."
+    },
+    {
+     "text": "Widen the surface area : Tools like Slack and Claude are stitching meetings, emails, calendars, and document repositories together—the more of that context you connect, the less your team repeats itself.",
+     "html": "<strong>Widen the surface area</strong>: Tools like Slack and Claude are stitching meetings, emails, calendars, and document repositories together—the more of that context you connect, the less your team repeats itself."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Learn when to handoff tasks between agents and humans",
+   "html": "Learn when to handoff tasks between agents and humans"
+  },
+  {
+   "type": "paragraph",
+   "text": "The core rhythm of a human-agent team is a cycle of handoffs. Powered by Claude in Slack, agents handle the production work—drafting, summarizing, monitoring, preparing—and pass the results to a person. The person reviews, decides, and redirects, then hands the work back for agents to carry out the next step.",
+   "html": "The core rhythm of a human-agent team is a cycle of handoffs. Powered by Claude in Slack, agents handle the production work—drafting, summarizing, monitoring, preparing—and pass the results to a person. The person reviews, decides, and redirects, then hands the work back for agents to carry out the next step. "
+  },
+  {
+   "type": "paragraph",
+   "text": "To see all this in practice, look no further than how Jaime starts her week.",
+   "html": "To see all this in practice, look no further than how Jaime starts her week."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"It’s Monday morning, and I’ve just had my daily briefing that an agent has built for me,” Jaime says.",
+   "html": "&quot;It’s Monday morning, and I’ve just had my daily briefing that an agent has built for me,” Jaime says. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Also waiting for her review is a recap of the previous week's product workshops with flagged escalations, a report on AI developments across the web, briefings for the day's meetings, and a stale bio she'd handed to an agent to rewrite. At the end of each loop, humans review and make decisions based on the agent’s actions.",
+   "html": "Also waiting for her review is a recap of the previous week&#x27;s product workshops with flagged escalations, a report on AI developments across the web, briefings for the day&#x27;s meetings, and a stale bio she&#x27;d handed to an agent to rewrite. At the end of each loop, humans review and make decisions based on the agent’s actions. "
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How to put this into practice:",
+   "html": "How to put this into practice:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Start the day with agent-built briefings. Recaps, escalations, meeting prep, and web roundups are great tasks for agents to drive, with human review.",
+     "html": "<strong>Start the day with agent-built briefings.</strong> Recaps, escalations, meeting prep, and web roundups are great tasks for agents to drive, with human review."
+    },
+    {
+     "text": "Anchor the work in a shared channel. Share all work in a shared channel so that humans and agents can triage it together, with humans leading the charge on prioritization.",
+     "html": "<strong>Anchor the work in a shared channel.</strong> Share all work in a shared channel so that humans and agents can triage it together, with humans leading the charge on prioritization. "
+    },
+    {
+     "text": "Make lightweight signals actionable. In Jaime's channel, an emoji reaction adds an item to the list and an agent picks up the task.",
+     "html": "<strong>Make lightweight signals actionable.</strong> In Jaime&#x27;s channel, an emoji reaction adds an item to the list and an agent picks up the task. "
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Delegate clear roles for agents",
+   "html": "Delegate clear roles for agents"
+  },
+  {
+   "type": "paragraph",
+   "text": "Working with a fleet of specialized Claude agents can feel disorienting if your mental model is a one-on-one chatbot. Jaime's approach is social rather than technical: \"I like to think that agents are kind of like coworkers.\"",
+   "html": "Working with a fleet of specialized Claude agents can feel disorienting if your mental model is a one-on-one chatbot. Jaime&#x27;s approach is social rather than technical: &quot;I like to think that agents are kind of like coworkers.&quot; "
+  },
+  {
+   "type": "paragraph",
+   "text": "In the same way that human teammates have roles and responsibilities, agents should also have clear goals and focus areas. \"If the value of the agent feels mandated rather than very clearly felt and understood by the people using it, it's really hard to remember what the thing is for,” she says.",
+   "html": "In the same way that human teammates have roles and responsibilities, agents should also have clear goals and focus areas. &quot;If the value of the agent feels mandated rather than very clearly felt and understood by the people using it, it&#x27;s really hard to remember what the thing is for,” she says."
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Route routine, transactional tasks to a general agent. Rather than asking people to remember a specialized tool, train an agent to tackle a repetitive task, like filing a help desk ticket or pulling last week's metrics into a status update.",
+     "html": "<strong>Route routine, transactional tasks to a general agent. </strong>Rather than asking people to remember a specialized tool, train an agent to tackle a repetitive task, like filing a help desk ticket or pulling last week&#x27;s metrics into a status update."
+    },
+    {
+     "text": "Let value be felt, not mandated. If people can't articulate what an agent is for, it may be time to retire it.",
+     "html": "<strong>Let value be felt, not mandated.</strong> If people can&#x27;t articulate what an agent is for, it may be time to retire it."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Default shared channels to public; go private on purpose",
+   "html": "Default shared channels to public; go private on purpose"
+  },
+  {
+   "type": "paragraph",
+   "text": "Slack has recommended public-by-default channels since its earliest days: \"You're building a shared understanding, a shared context for all of the work that's going to come next,” Jaime says.",
+   "html": "Slack has recommended public-by-default channels since its earliest days: &quot;You&#x27;re building a shared understanding, a shared context for all of the work that&#x27;s going to come next,” Jaime says. "
+  },
+  {
+   "type": "paragraph",
+   "text": "She suggests keeping channels public unless there is a specific reason to gate context and knowledge. The most information agents have to pull from and inform their work, the more effective team mates they’ll be.",
+   "html": "She suggests keeping channels public unless there is a specific reason to gate context and knowledge. The most information agents have to pull from and inform their work, the more effective team mates they’ll be. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Open context compounds—new people onboard into history instead of an empty inbox, and no one repeats themselves. Now agents benefit too, and that context and working memory flows back to humans.",
+   "html": "Open context compounds—new people onboard into history instead of an empty inbox, and no one repeats themselves. Now agents benefit too, and that context and working memory flows back to humans. "
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Keep business-as-usual work in the open. Make non-sensitive projects, announcements, and Q&A channels public so that agent coworkers can gain the knowledge they need to be most useful. .",
+     "html": "<strong>Keep business-as-usual work in the open. </strong>Make<strong> </strong>non-sensitive<strong> </strong>projects, announcements, and Q&amp;A channels public so that agent coworkers can gain the knowledge they need to be most useful. ."
+    },
+    {
+     "text": "Remember your agents read what your team reads. A private channel is a blind spot for every agent that reports on it.",
+     "html": "<strong>Remember your agents read what your team reads.</strong> A private channel is a blind spot for every agent that reports on it."
+    },
+    {
+     "text": "Let psychological safety drive the line. Once genuinely sensitive material is walled off, the main reason work retreats into DMs isn't secrecy—it's discomfort with being seen mid-process. People should feel confident doing everyday work in the open, rough drafts and half-formed questions included, trusting their coworkers to meet it in good faith. And that openness compounds: \"you gain trust by giving trust.\"",
+     "html": "<strong>Let psychological safety drive the line.</strong> Once genuinely sensitive material is walled off, the main reason work retreats into DMs isn&#x27;t secrecy—it&#x27;s discomfort with being seen mid-process. People should feel confident doing everyday work in the open, rough drafts and half-formed questions included, trusting their coworkers to meet it in good faith. And that openness compounds: &quot;you gain trust by giving trust.&quot;"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Spread adoption by showing the art of the possible",
+   "html": "Spread adoption by showing the art of the possible"
+  },
+  {
+   "type": "paragraph",
+   "text": "The fastest way to learn a new way of working is to watch a teammate do it. Jaime has seen this at Salesforce, where employees share skills, debugging tips, and workflow tricks in a company-wide channel called How I Slackbot , which by her count has thousands of members. In that channel, which is public by default, a trick from a sales process can end up reshaping an engineering process.",
+   "html": "The fastest way to learn a new way of working is to watch a teammate do it. Jaime has seen this at Salesforce, where employees share skills, debugging tips, and workflow tricks in a company-wide channel called <em>How I Slackbot</em>, which by her count has thousands of members. In that channel, which is public by default, a trick from a sales process can end up reshaping an engineering process."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inside Slack, a push to get product managers using Claude \"was the most self-organized thing you could possibly imagine.\" One PM got the developer experience lead to help him get set up, then he wrote up a canvas showing what he did and how he did it. Other PMs copied the format. Teams organized workshops and built their own git repos.",
+   "html": "Inside Slack, a push to get product managers using Claude &quot;was the most self-organized thing you could possibly imagine.&quot; One PM got the developer experience lead to help him get set up, then he wrote up a canvas showing what he did and how he did it. Other PMs copied the format. Teams organized workshops and built their own git repos. "
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Stand up a company-wide show-and-tell channel. Give employees one public place to share skills, debugging tips, and workflow tricks, so a trick from one function can reshape another.",
+     "html": "<strong>Stand up a company-wide show-and-tell channel. </strong>Give employees one public place to share skills, debugging tips, and workflow tricks, so a trick from one function can reshape another."
+    },
+    {
+     "text": "Encourage write-ups others can copy. A short \"what I did and how\" doc turns one person's setup into a team template or skill.",
+     "html": "<strong>Encourage write-ups others can copy.</strong> A short &quot;what I did and how&quot; doc turns one person&#x27;s setup into a team template or skill."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Measure outcomes, not activity",
+   "html": "Measure outcomes, not activity"
+  },
+  {
+   "type": "paragraph",
+   "text": "Since her early days at Slack, Jaime has grappled with the question of how to measure productivity. \"Do we want people to send more messages?” she says. “Maybe not. Sending messages might not actually mean that they're getting more out of Slack. More messages can mean people can't find what they need, or can't say what they mean the first time.\"",
+   "html": "Since her early days at Slack, Jaime has grappled with the question of how to measure productivity. &quot;Do we want people to send more messages?” she says. “Maybe not. Sending messages might not actually mean that they&#x27;re getting more out of Slack. More messages can mean people can&#x27;t find what they need, or can&#x27;t say what they mean the first time.&quot;"
+  },
+  {
+   "type": "paragraph",
+   "text": "Now, the question of measuring the value of AI looks quite similar—and with something that complex, simple metrics don’t do the job. Token usage tells you the lights are on, but while that’s important to know, it’s not sufficient.",
+   "html": "Now, the question of measuring the value of AI looks quite similar—and with something that complex, simple metrics don’t do the job. Token usage tells you the lights are on, but while that’s important to know, it’s not sufficient. "
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Treat usage metrics as a pulse check, not proof of value. Activity tells you adoption is happening, not that it's working.",
+     "html": "<strong>Treat usage metrics as a pulse check, not proof of value.</strong> Activity tells you adoption is happening, not that it&#x27;s working."
+    },
+    {
+     "text": "Be ready to use your own judgment. There's no clean way to prove that how people use these tools leads to better business results. As Jaime puts it, connecting the two still takes \"a lot of leaps of faith,\" and no dashboard or usage stat will prove it for you.",
+     "html": "<strong>Be ready to use your own judgment. </strong>There&#x27;s no clean way to prove that how people use these tools leads to better business results. As Jaime puts it, connecting the two still takes &quot;a lot of leaps of faith,&quot; and no dashboard or usage stat will prove it for you."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Change how you work, together",
+   "html": "Change how you work, together"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jaime's biggest piece of advice for organizations trying to implement human-agent teams is to reimagine every workflow: \"We're going to have to figure out how to change the ways that we're working, not just do more of the same kind of work faster. And that is going to be a team sport.\"",
+   "html": "Jaime&#x27;s biggest piece of advice for organizations trying to implement human-agent teams is to reimagine every workflow: &quot;We&#x27;re going to have to figure out how to change the ways that we&#x27;re working, not just do more of the same kind of work faster. And that is going to be a team sport.&quot;"
+  },
+  {
+   "type": "paragraph",
+   "text": "Her biggest advice for building an effective human-agent team? Start soon, but start small. Bring a group of people into a shared channel with Claude, give them the same set of resources, and let them work. If Slack's experience is any guide, what they build will spread on its own.",
+   "html": "Her biggest advice for building an effective human-agent team? Start soon, but start small. Bring a group of people into a shared channel with Claude, give them the same set of resources, and let them work. If Slack&#x27;s experience is any guide, what they build will spread on its own."
+  }
+ ],
+ "links": [
+  {
+   "text": "first",
+   "href": "https://claude.com/blog/building-effective-human-agent-teams"
+  },
+  {
+   "text": "The Work is the Conversation",
+   "href": "https://jaimedelanghe.medium.com/the-work-is-the-conversation-50a1d61f8f9e"
+  }
+ ],
+ "word_count": 1475,
+ "fetched_at": "2026-08-21T13:27:32+00:00"
+}

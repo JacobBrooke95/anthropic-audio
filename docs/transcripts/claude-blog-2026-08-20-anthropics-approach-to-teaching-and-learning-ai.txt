@@ -1,0 +1,73 @@
+Anthropic’s approach to teaching and learning A I.
+
+Claude Academy gives users the educational tools they need to learn how to use A I effectively. In this post, we highlight why we’re launching it and how our own approach to teaching and learning influenced its development.
+
+From Claude Blog, published August 20, 2026.
+
+Millions of people visit Anthropic.com every month to learn about how to use A I. At Anthropic, we consider this a tremendous responsibility, and we have a team of educators dedicated to creating educational materials about how to use A I safely, effectively, and with intention. A I instruction should increase agency and empower learners to expand their capabilities.
+
+Today, we’re sharing our approach to designing and scaling A I instruction to millions of learners worldwide via Claude Academy.
+
+Why is it important to learn about A I now?
+
+As model intelligence continues to evolve, the need for everyone to understand how to use A I safely and effectively becomes more urgent. Not only does A I education help people accomplish more, it helps them make informed decisions about how they want A I to show up in their communities and workplaces.
+
+Learning to use A I will help individuals and organizations take advantage of the potential benefits of A I while mitigating some of the risk. This includes things like reducing manual work, unlocking new ways of working, and upskilling in new areas.
+
+Claude Academy instruction mirrors Anthropic’s approach to educating its own employees.
+
+At Anthropic, we believe the journey to A I fluency begins on an employee’s first day. During onboarding, we teach all employees the 4D A I Fluency Framework, best practices on managing what agents know, and how fast the A I exponential moves. Learners practice making intentional decisions about what tasks should be done by A I and what tasks they should do themselves. They also learn the mistakes that A I tends to make so they can review A I-generated work more effectively. After onboarding, we offer a variety of “ever-boarding” (always-on onboarding) programs that deeply explore A I’s capabilities and limitations as well as evidence-based practices for working on human-agent teams. In a field moving this fast, continuous learning is an expectation for every role.
+
+In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like Claude Tag) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
+
+When employees become A I fluent, we see them forming teams flexibly around real problems, taking on projects with expanded scope, and learning from company experts at scale. For Anthropic, A I fluency is the foundation required to have impact
+
+Breaking down our approach.
+
+In Claude Academy, all educational materials are designed to be broadly accessible, facilitating access to the most current information on how to work with A I and how A I works. Of course we offer learning about how to use Claude, but we also offer product and model agnostic learning that democratizes key information about this new technology that will have a wide-ranging impact on the world. In addition, we adhere to the following learning design principles.
+
+A I education should increase human agency.
+
+Learning to use A I well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life. Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this collection of legal use cases teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
+
+Figure 1: Claude Academy is organized around problems you need to solve with A I.
+
+Mindsets matter.
+
+Given how fast A I is changing, mastering features alone won’t lead to lasting A I fluency. Even specific behaviors like “describe your audience” that were once useful have become less important when using the newest models. For example, where you used to have to tell Claude that your task is intended for “colleagues working in legal” now Claude will simply ask you for that information if it’s needed for a high quality output. Our education team has shifted away from emphasizing specific behaviors for A I fluency towards cultivating broader, more durable mindsets for using A I. Things like “today’s A I is the worst A I you’ll ever use” and “verify in proportion to the stakes” help people exercise good judgement with A I even as products and features change.
+
+Figure 2: Claude Academy’s curriculum is built from a set of mindsets that support intentional A I adoption.
+
+Safe and effective A I use extends far beyond the interactions someone has with A I.
+
+Most learning about A I focuses almost exclusively on a user’s conversation with an agent. While that’s critical, we also believe that the moments surrounding A I use are just as important. For example, we encourage learners to ask themselves what tasks should be delegated to A I in the first place and which tasks should stay with them. For example, you may want to draft sensitive parts of a memo but leave putting together summary slides to A I. Or you may want Claude to help with some exploratory data analysis but do final checks yourself. We also educate learners on how to ethically disclose A I use to colleagues, customers, and other stakeholders. This includes explicitly stating how A I was used in the production of documents, analyses, or media before you share it with others. This broader perspective ensures that learners build an intentional relationship with A I from the start.
+
+Figure 3: Claude Academy tutorials give you the building blocks to delegate effectively with A I.
+
+Learning takes effort.
+
+Our use cases, tutorials, and courses encourage you to practice with Claude as you go. Our learning exercises encourage reflection and experimentation so learners can discover what works best for them when using A I. Of note, we believe that today’s Claude Academy experience is the most rigid it’ll ever be. With Claude, we’ll be able to deliver very personalized learning activities and exercises at a scale that hasn’t been possible before.
+
+Figure 4: Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.
+
+Once you learn to use A I, it can supercharge your learning on any topic.
+
+Learning how to use A I effectively doesn’t just make it easier to become fluent in A I; it also helps individuals and organizations alike upskill on virtually any topic. Trying to understand a dense explanation? Ask Claude to draw you a diagram explaining it. With Claude as your learning partner, socratic discussions or interactive explainers are simply a prompt away. Today’s products and models merely scratch the surface of what’s possible.
+
+Using Claude Academy.
+
+Whether you’re an individual using A I in your day to day or a leader driving organizational transformation, Claude Academy has the tools to help you learn how to apply A I effectively and safely. Here’s how to use it:
+
+Get recommended courses based on areas of interest and completed learning. Track course completion and badges. To have Claude to recommend courses or learning paths from Claude Academy based on how you work, you can install the Claude Academy Skill.
+
+You can access Claude Academy today directly at academy.claude.com or the “Learn more” tab in your Claude profile menu.
+
+Looking ahead.
+
+We believe that Claude can be a tremendous learning partner, and we have big plans to fully realize that vision inside Claude Academy, but there’s still a lot of work ahead of us. As Claude becomes more capable, we anticipate new opportunities for personalized and interactive learning will emerge, and we are excited to partner with our users to shape the future of Claude Academy.
+
+We welcome your feedback about what learning works best for you. Every course, tutorial, and use case offers you the chance to share what worked for you and how we can improve.
+
+Start learning at Claude Academy today.
+
+That was Anthropic’s approach to teaching and learning A I, from Claude Blog, published August 20, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

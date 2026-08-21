@@ -44,7 +44,8 @@ def process(url: str, source: str, st: State, *, episode_no: int | None = None) 
     log.info("  artwork: %d bytes", len(art))
     res = synthesize(segs, mp3)
     log.info("  audio: %s, %.1f MB, %d chunks (%.0fs)", f"{res['duration']:.0f}s", res["bytes"] / 1e6, len(res["cues"]), time.time() - t0)
-    ep_no = episode_no or st.next_episode
+    existing = next((e for e in st.episodes if e["url"] == url), None)
+    ep_no = episode_no or (existing["episode"] if existing else st.next_episode)
     tag_mp3(mp3, title=post.title, artist=", ".join(post.authors) or "Anthropic", album=PODCAST["title"], date=post.date,
             comment=post.url, art_jpeg=art, track=ep_no)
     res["bytes"] = mp3.stat().st_size
@@ -55,7 +56,7 @@ def process(url: str, source: str, st: State, *, episode_no: int | None = None) 
           "duration": res["duration"], "bytes": res["bytes"], "episode": ep_no, "created": iso_now(), "hero": post.hero}
     write_episode_assets(post, ep, transcript_text(segs))
     st.add_episode(ep)
-    if episode_no is None:
+    if episode_no is None and not existing:
         st.next_episode = ep_no + 1
     st.mark(url, "published", slug=slug, episode=ep_no)
     st.save()
