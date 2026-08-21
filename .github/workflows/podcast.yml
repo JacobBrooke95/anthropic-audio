@@ -1,0 +1,104 @@
+name: podcast
+
+on:
+  schedule:
+    # Every hour, covering 8am–6pm Pacific in both PDT (UTC-7) and PST (UTC-8).
+    # The "business hours" step below skips runs outside Mon–Fri 08:00–18:59 America/Los_Angeles.
+    - cron: "7 15-23 * * 1-5"
+    - cron: "7 0-2 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Optional: space-separated post URLs to force-process (skips discovery)"
+        required: false
+        default: ""
+      max:
+        description: "Max new episodes this run"
+        required: false
+        default: "3"
+      ignore_hours:
+        description: "Run even outside PT business hours"
+        type: boolean
+        default: true
+
+concurrency:
+  group: podcast-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Business-hours guard (Mon–Fri 08:00–18:59 America/Los_Angeles)
+        id: guard
+        env:
+          IGNORE: ${{ github.event_name == 'workflow_dispatch' && inputs.ignore_hours }}
+        run: |
+          H=$(TZ=America/Los_Angeles date +%H); D=$(TZ=America/Los_Angeles date +%u)
+          echo "PT now: $(TZ=America/Los_Angeles date)"
+          if [ "$IGNORE" = "true" ] || { [ "$D" -le 5 ] && [ "$H" -ge 8 ] && [ "$H" -le 18 ]; }; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Outside PT business hours — skipping."; echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.go == 'true'
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/setup-uv@v6
+        if: steps.guard.outputs.go == 'true'
+        with:
+          enable-cache: true
+
+      - name: Install deps
+        if: steps.guard.outputs.go == 'true'
+        run: |
+          uv sync --frozen
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+
+      - name: Cache Kokoro model
+        if: steps.guard.outputs.go == 'true'
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0-int8-voices-v1.0
+
+      - name: Fetch Kokoro model
+        if: steps.guard.outputs.go == 'true'
+        run: bash scripts/fetch-models.sh
+
+      - name: Discover + generate episodes
+        if: steps.guard.outputs.go == 'true'
+        env:
+          TTS_WORKERS: "4"
+          URLS: ${{ inputs.urls }}
+          MAXN: ${{ inputs.max || '3' }}
+        run: |
+          if [ -n "$URLS" ]; then
+            uv run python -m pipeline add $URLS
+          else
+            uv run python -m pipeline run --max "$MAXN"
+          fi
+          uv run python -m pipeline list
+
+      - name: Validate feed
+        if: steps.guard.outputs.go == 'true'
+        run: uv run python scripts/validate_feed.py docs/feed.xml
+
+      - name: Commit and push
+        if: steps.guard.outputs.go == 'true'
+        run: |
+          git config user.name "anthropic-audio bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A docs state
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          N=$(git diff --cached --name-only | grep -c '^docs/audio/.*\.mp3$' || true)
+          git commit -m "episodes: +$N ($(TZ=America/Los_Angeles date '+%Y-%m-%d %H:%M %Z'))"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main
