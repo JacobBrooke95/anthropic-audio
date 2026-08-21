@@ -8,6 +8,8 @@ import soundfile as sf
 from .config import TTS
 from .util import log
 
+import logging
+logging.getLogger("phonemizer").setLevel(logging.ERROR)
 SR = 24000
 _engine = None
 WORKERS = int(os.environ.get("TTS_WORKERS") or max(1, min(4, (os.cpu_count() or 2) // 2)))

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Anthropic, Read Aloud</title>
+    <link>https://jacobbrooke95.github.io/anthropic-audio/</link>
+    <atom:link href="https://jacobbrooke95.github.io/anthropic-audio/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
+    <language>en-us</language>
+    <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
+    <lastBuildDate>Fri, 21 Aug 2026 12:37:46 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Aug 2026 19:16:00 +0000</pubDate>
+    <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
+    <itunes:author>Jacob Brooke</itunes:author>
+    <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
+    <itunes:summary>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Jacob Brooke</itunes:name>
+      <itunes:email>jacob.brooke95@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
+    <image><url>https://jacobbrooke95.github.io/anthropic-audio/cover.jpg</url><title>Anthropic, Read Aloud</title><link>https://jacobbrooke95.github.io/anthropic-audio/</link></image>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Science"/>
+    <itunes:category text="News"><itunes:category text="Tech News"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <podcast:guid>5c0c0a9e-3c0e-5b51-9c4a-4f2c3c7c6b7a</podcast:guid>
+    <podcast:medium>podcast</podcast:medium>
+    <podcast:locked>no</podcast:locked>
+    <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: How Claude’s text watermark works</title>
+      <itunes:title>News: How Claude’s text watermark works</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
+      <pubDate>Fri, 14 Aug 2026 19:16:00 +0000</pubDate>
+      <description>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.
+
+Source: https://www.anthropic.com/news/claude-text-watermark
+Published August 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• SynthID-Text paper: https://www.nature.com/articles/s41586-024-08025-4
+• 190 total signatories: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content
+• C2PA: https://c2pa.org/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/claude-text-watermark">https://www.anthropic.com/news/claude-text-watermark</a><br/><strong>Published:</strong> August 14, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 2,119 words · 15 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.nature.com/articles/s41586-024-08025-4">SynthID-Text paper</a></li><li><a href="https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content">190 total signatories</a></li><li><a href="https://c2pa.org/">C2PA</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-08-14-claude-text-watermark.mp3" length="7597180" type="audio/mpeg"/>
+      <itunes:duration>922</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-14-claude-text-watermark.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply w</itunes:subtitle>
+      <itunes:summary>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.
+
+Source: https://www.anthropic.com/news/claude-text-watermark
+Published August 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• SynthID-Text paper: https://www.nature.com/articles/s41586-024-08025-4
+• 190 total signatories: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content
+• C2PA: https://c2pa.org/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.txt" type="text/plain" language="en"/>
+    </item>
+  </channel>
+</rss>

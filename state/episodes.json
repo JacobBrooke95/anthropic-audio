@@ -1,0 +1,46 @@
+{
+  "seen": {
+    "https://www.anthropic.com/news/claude-text-watermark": {
+      "first_seen": "2026-08-21T12:37:46+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T12:37:46+00:00",
+      "slug": "news-2026-08-14-claude-text-watermark",
+      "episode": 1
+    }
+  },
+  "episodes": [
+    {
+      "slug": "news-2026-08-14-claude-text-watermark",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "source": "news",
+      "title": "How Claude’s text watermark works",
+      "subtitle": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+      "date": "2026-08-14T19:16:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "SynthID-Text paper",
+          "href": "https://www.nature.com/articles/s41586-024-08025-4"
+        },
+        {
+          "text": "190 total signatories",
+          "href": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content"
+        },
+        {
+          "text": "C2PA",
+          "href": "https://c2pa.org/"
+        }
+      ],
+      "word_count": 2119,
+      "duration": 922.455079,
+      "bytes": 7597180,
+      "episode": 1,
+      "created": "2026-08-21T12:37:46+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather"
+    }
+  ],
+  "next_episode": 2,
+  "baseline_date": "2026-08-14"
+}
