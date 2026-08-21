@@ -78,7 +78,7 @@ USER_AGENT = (
 TTS = {
     "model": MODELS / "kokoro-v1.0.int8.onnx",
     "voices": MODELS / "voices-v1.0.bin",
-    "voice": "am_michael",
+    "voice": "af_heart",
     "speed": 1.0,
     "lang": "en-us",
     "max_chunk_chars": 380,       # sentence-grouped chunk size fed to Kokoro
