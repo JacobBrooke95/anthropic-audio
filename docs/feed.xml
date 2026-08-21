@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 13:33:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:37:29 +0000</lastBuildDate>
     <pubDate>Thu, 20 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -140,7 +140,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>4</itunes:episode>
+      <itunes:episode>3</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-claude-code-guide-for-startups.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-claude-code-guide-for-startups.txt" type="text/plain" language="en"/>
     </item>
@@ -172,7 +172,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>5</itunes:episode>
+      <itunes:episode>4</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-computer-use-skills-api-files-api.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-computer-use-skills-api-files-api.txt" type="text/plain" language="en"/>
     </item>
@@ -220,7 +220,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>7</itunes:episode>
+      <itunes:episode>6</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-anthropics-approach-to-teaching-and-learning-ai.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-anthropics-approach-to-teaching-and-learning-ai.txt" type="text/plain" language="en"/>
     </item>
@@ -260,7 +260,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>8</itunes:episode>
+      <itunes:episode>7</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-how-monday-com-transformed-its-platform-into-an-agent-first.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-20-how-monday-com-transformed-its-platform-into-an-agent-first.txt" type="text/plain" language="en"/>
     </item>
@@ -300,7 +300,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>10</itunes:episode>
+      <itunes:episode>9</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-19-turning-conversation-into-knowledge-how-slack-builds-human-a.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-19-turning-conversation-into-knowledge-how-slack-builds-human-a.txt" type="text/plain" language="en"/>
     </item>
@@ -360,7 +360,7 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>6</itunes:episode>
+      <itunes:episode>5</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.txt" type="text/plain" language="en"/>
     </item>
@@ -434,9 +434,49 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>9</itunes:episode>
+      <itunes:episode>8</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-18-claude-accelerates-protein-design.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-18-claude-accelerates-protein-design.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: How ABC Legal turned every employee into a builder with Claude Managed Agents</title>
+      <itunes:title>Claude Blog: How ABC Legal turned every employee into a builder with Claude Managed Agents</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents</guid>
+      <pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
+      <description>ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.
+
+Source: https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents
+Published August 17, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Enterprise: https://claude.com/solutions/enterprise
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents">https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents</a><br/><strong>Published:</strong> August 17, 2026 · Claude Blog<br/><strong>Length:</strong> 2,421 words · 19 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/solutions/enterprise">Claude Enterprise</a></li><li><a href="https://platform.claude.com/docs/en/managed-agents/overview">Claude Managed Agents</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau.mp3" length="9418814" type="audio/mpeg"/>
+      <itunes:duration>1145</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.</itunes:subtitle>
+      <itunes:summary>ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.
+
+Source: https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents
+Published August 17, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Enterprise: https://claude.com/solutions/enterprise
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>10</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: How Claude’s text watermark works</title>
@@ -476,9 +516,47 @@ Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes
 Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>3</itunes:episode>
+      <itunes:episode>1</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Maximizing the value of your Claude Code sessions</title>
+      <itunes:title>Claude Blog: Maximizing the value of your Claude Code sessions</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions/</link>
+      <guid isPermaLink="false">https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions</guid>
+      <pubDate>Fri, 14 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Practical tips for how to run efficient sessions that get the most value from every token.
+
+Source: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+Published August 14, 2026 · Claude Blog
+
+Links referenced in the post:
+• Choosing a Claude model and effort level in Claude Code: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Practical tips for how to run efficient sessions that get the most value from every token.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions">https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions</a><br/><strong>Published:</strong> August 14, 2026 · Claude Blog<br/><strong>Length:</strong> 544 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/blog/claude-model-and-effort-level-in-claude-code">Choosing a Claude model and effort level in Claude Code</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions.mp3" length="2194054" type="audio/mpeg"/>
+      <itunes:duration>250</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Practical tips for how to run efficient sessions that get the most value from every token.</itunes:subtitle>
+      <itunes:summary>Practical tips for how to run efficient sessions that get the most value from every token.
+
+Source: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+Published August 14, 2026 · Claude Blog
+
+Links referenced in the post:
+• Choosing a Claude model and effort level in Claude Code: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>11</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Claude Blog: Claude Code now supports artifacts</title>

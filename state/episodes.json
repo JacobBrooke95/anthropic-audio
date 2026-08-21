@@ -6,7 +6,7 @@
       "status": "published",
       "updated": "2026-08-21T12:58:01+00:00",
       "slug": "news-2026-08-14-claude-text-watermark",
-      "episode": 3
+      "episode": 1
     },
     "https://claude.com/blog/artifacts-in-claude-code": {
       "first_seen": "2026-08-21T12:51:55+00:00",
@@ -22,7 +22,7 @@
       "status": "published",
       "updated": "2026-08-21T13:08:03+00:00",
       "slug": "claude-blog-2026-08-20-claude-code-guide-for-startups",
-      "episode": 4
+      "episode": 3
     },
     "https://claude.com/blog/computer-use-skills-api-files-api": {
       "first_seen": "2026-08-21T13:09:06+00:00",
@@ -30,7 +30,7 @@
       "status": "published",
       "updated": "2026-08-21T13:09:06+00:00",
       "slug": "claude-blog-2026-08-20-computer-use-skills-api-files-api",
-      "episode": 5
+      "episode": 4
     },
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
       "first_seen": "2026-08-21T13:09:06+00:00",
@@ -45,7 +45,7 @@
       "status": "published",
       "updated": "2026-08-21T13:13:08+00:00",
       "slug": "claude-blog-2026-08-18-ai-ci-cd-on-call",
-      "episode": 6
+      "episode": 5
     },
     "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai": {
       "first_seen": "2026-08-21T13:15:56+00:00",
@@ -53,7 +53,7 @@
       "status": "published",
       "updated": "2026-08-21T13:15:56+00:00",
       "slug": "claude-blog-2026-08-20-anthropics-approach-to-teaching-and-learning-ai",
-      "episode": 7
+      "episode": 6
     },
     "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills": {
       "first_seen": "2026-08-21T13:15:57+00:00",
@@ -159,7 +159,7 @@
       "status": "published",
       "updated": "2026-08-21T13:19:28+00:00",
       "slug": "claude-blog-2026-08-20-how-monday-com-transformed-its-platform-into-an-agent-first",
-      "episode": 8
+      "episode": 7
     },
     "https://www.anthropic.com/research/Claude-accelerates-protein-design": {
       "first_seen": "2026-08-21T13:27:32+00:00",
@@ -167,7 +167,7 @@
       "status": "published",
       "updated": "2026-08-21T13:27:32+00:00",
       "slug": "research-2026-08-18-claude-accelerates-protein-design",
-      "episode": 9
+      "episode": 8
     },
     "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5": {
       "first_seen": "2026-08-21T13:27:32+00:00",
@@ -182,7 +182,7 @@
       "status": "published",
       "updated": "2026-08-21T13:30:32+00:00",
       "slug": "claude-blog-2026-08-19-turning-conversation-into-knowledge-how-slack-builds-human-a",
-      "episode": 10
+      "episode": 9
     },
     "https://claude.com/blog/claude-managed-agents-updates": {
       "first_seen": "2026-08-21T13:30:32+00:00",
@@ -190,6 +190,4194 @@
       "status": "skipped",
       "updated": "2026-08-21T13:30:32+00:00",
       "reason": "published 2026-05-19 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents": {
+      "first_seen": "2026-08-21T13:35:50+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T13:35:50+00:00",
+      "slug": "claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau",
+      "episode": 10
+    },
+    "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "slug": "claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions",
+      "episode": 11
+    },
+    "https://www.anthropic.com/research/multiagent-systems": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "published 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "published 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/riemann-zeta": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropic-teams-use-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-marketing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/key-benefits-transitioning-agentic-coding": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-with-claude-managed-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-api-skill": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/multi-agent-coordination-patterns": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/seeing-like-an-agent": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/subagents-in-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/using-claude-code-session-management-and-1m-context": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/your-thinking-partner": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-chrome-side-panel": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/compliance-api-cowork-and-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/the-claude-cowork-product-guide": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-sonnet-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-10 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/auto-mode-default-in-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-10 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-enterprise-inference-hooks": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-10 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/auto-mode-in-production": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-07 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-07 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-06 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/tino-cuellar": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-nonprofits": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/best-practices-for-prompt-engineering": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-for-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/enterprise-managed-auth": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-08-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-29 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/position-open-weights-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/cognizant-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/economic-futures-research-fund-agenda": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/ai-code-migration": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/four-role-based-claude-certifications": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/think-through-hard-problems-in-voice-mode": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/project-pilot": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-7": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-economic-index-connector": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/donation-public-first-action": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-8": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-sonnet-4-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-haiku-4-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-design-anthropic-labs": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-small-business": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-6": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-sonnet-4-6": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-teachers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-for-the-legal-industry": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-rakuten": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/rare-disease-research-grants": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-20 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-cursor": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-17 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-17 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-claude-tag": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/finance-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/canadian-ai-research": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/how-canada-uses-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-14 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/auto-mode": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-14 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-effective-human-agent-teams": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-14 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-for-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-14 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-web-mobile": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-values-models-languages": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-managed-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-managed-agents-memory": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/harnessing-claudes-intelligence": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-people-are-using-claude-cowork": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/introducing-routines-in-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/new-in-claude-managed-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/what-is-model-context-protocol": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/whats-new-in-claude-managed-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/agentic-misalignment": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-plays-robotics": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-creative-work": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/global-workspace": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/ust-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/golden-gate-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/the-long-term-benefit-trust": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/ben-bernanke": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/hard-questions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/reflect-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/off-switch-dual-use": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-policy-responses": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/charting-a-path-to-ai-accountability": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/core-views-on-ai-safety": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/tracing-thoughts-language-model": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/alignment-faking": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/AI-fluency-index": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/2028-ai-leadership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/labor-market-impacts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-index-primitives": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/estimating-productivity-gains": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-index-geography": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/impact-software-development": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/disempowerment-patterns": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/AI-assistance-coding-skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/building-ai-cyber-defenders": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/constitutional-classifiers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/values-wild": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/mapping-mind-language-model": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/measuring-model-persuasiveness": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/persona-vectors": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/introspection": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/emergent-misalignment-reward-hacking": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-index-march-2026-report": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/biorisk": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/assistant-axis": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/persona-selection-model": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/emotion-concepts-function": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-interviewer": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/project-vend-2": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-08 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-personal-guidance": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/building-safeguards-for-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-agents-with-the-claude-agent-sdk": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/scaling-agentic-coding": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/alberta-government-claude-cybersecurity": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/visible-extended-thinking": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropics-responsible-scaling-policy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/redeploying-fable-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-science-ai-workbench": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-07-01 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/introducing-the-claude-apps-gateway": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-30 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-30 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-in-microsoft-foundry": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-29 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-index-june-2026-report": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-on-the-web": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/create-files": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-plugins": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-for-chrome": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/context-management": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/memory": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/agents-in-biology": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/making-claude-a-chemist": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/critical-infrastructure-defense": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/exploit": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-corps": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/dxc-anthropic-alliance": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/tcs-anthropic-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/exploit-evals": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/attack-navigator": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/gates-foundation-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/81k-economics": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/project-fetch-phase-two": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/mythos-preview": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-code-expertise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/nuclear-safeguards-for-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-24 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/agent-identity-access-model": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-23 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/observability-for-developers-building-connectors": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-23 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/the-founders-playbook": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/1m-context-ga": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-excel-powerpoint-updates": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-security-public-beta": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/code-review": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/complete-guide-to-building-skills-for-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-plugins-across-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-plugins-finance": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-to-configure-hooks": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/improved-web-search-with-dynamic-filtering": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/making-claude-a-better-electrical-engineer": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/opus-4-6-finance": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/organization-skills-and-directory": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/preview-review-and-merge-with-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/productivity-platforms": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/running-an-ai-native-engineering-org": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/self-serve-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/skills-explained": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/workload-identity-federation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-22 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/build-artifacts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/introduction-to-agentic-coding": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-and-slack": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/workspaces": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/token-saving-updates": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-remote-mcp": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/optimize-code-performance-quickly": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/agent-capabilities-api": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-2-1-prompting": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/web-search-api": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/prompt-improver": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/introducing-citations-api": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/prompt-generator": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/fix-software-bugs-faster-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/team-plan-and-ios": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/fine-tune-claude-3-haiku": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/connectors-directory": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/research": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/analysis-tool": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/amazon-bedrock-general-availability": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/tool-use-ga": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/integrations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/android-app": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/trainium2-and-distillation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-ai-agents-for-startups": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-2-amazon-bedrock": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-ai-agents-in-financial-services": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/build-responsive-web-layouts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/automate-security-reviews-with-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-powered-artifacts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/integrate-apis-seamlessly": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/driving-ai-transformation-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/1m-context": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/message-batches-api": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/prompt-caching": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/upgraded-anthropic-console": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/evaluate-prompts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-on-google-cloud-fedramp-high": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-now-available-in-microsoft-365-copilot": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/structured-outputs-on-the-claude-developer-platform": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/improving-frontend-design-through-skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/using-claude-md-files": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-legal": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/interactive-tools-in-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-companies-with-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-and-slack": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/web-search": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/compliance-api-security-partners": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/product-development-in-the-agentic-era": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/zero-trust-for-ai-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-platform-on-aws": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-for-foundation-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/carta-healthcare-clinical-abstractor": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/deploying-claude-across-the-legal-industry": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/building-ai-agents-for-the-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/code-w-claude-sf-2026-sf": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/agent-view-in-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/deploying-claude-across-financial-services": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/cowork-plugins": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-builds-visuals": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/the-advisor-strategy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-platform-compliance-api": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/dispatch-and-computer-use": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/using-llms-to-secure-source-code": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/contribution-metrics": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-team-updates": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/connectors-for-everyday-life": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/claude-code-desktop-redesign": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/n-days": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/zero-days": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/property-based-testing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/cyber-toolkits-update": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/smart-contracts": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/cyber-toolkits": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/cyber-competitions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-4-cyber": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/fable-mythos-access": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-public-record": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/measuring-agent-autonomy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/next-generation-constitutional-classifiers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/automated-alignment-researchers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/natural-language-autoencoders": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/widening-conversation-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/services-track-partner-hub": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/expanding-project-glasswing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/confidential-draft-s1-sec": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/series-h": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-06-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/milan-office-opening": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/coding-agents-social-sciences": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/glasswing-initial-update": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/teaching-claude-why": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-acquires-stainless": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-kpmg": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/pwc-expanded-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/donating-open-source-petri": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/model-context-protocol": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-institute-agenda": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/higher-limits-spacex": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/enterprise-ai-services-company": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-05-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/election-safeguards-update": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-amazon-compute": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-nec": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/economic-index-survey-announcement": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/narasimhan-board": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-financial-services": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/healthcare-life-sciences": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/trustworthy-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/google-broadcom-partnership-compute": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/diff-tool": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-04-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/australia-MOU": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-31 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/how-australia-uses-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-31 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/project-fetch-robot-dog": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/mozilla-firefox-security": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/project-vend-1": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/introducing-anthropic-science": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/long-running-Claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/vibe-physics": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-partner-network": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/the-anthropic-institute": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/where-stand-department-war": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-03-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/statement-comments-secretary-war": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/statement-department-of-war": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/responsible-scaling-policy-v3": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/deprecation-updates-opus-3": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/acquires-vercept": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-code-security": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/india-brief-economic-index": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-rwanda-mou": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-infosys": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-codepath-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/donate-public-first-action": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/covering-electricity-price-increases": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-is-a-space-to-think": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/protecting-well-being-of-users": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-02-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/servicenow-anthropic-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/gov-UK-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claudes-constitution": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-teach-for-all": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-new-constitution": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/accelerating-scientific-research": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-anthropic-labs": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/prompting-long-context": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2026-01-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/bloom": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/compliance-framework-SB53": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/genesis-mission-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/political-even-handedness": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-accenture-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/the-anthropic-economic-index": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-12-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/prompt-injection-defenses": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/toy-models-of-superposition": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-character": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/auditing-hidden-objectives": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/reward-tampering": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-in-microsoft-foundry": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/rwandan-government-partnership-ai-education": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/disrupting-AI-espionage": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/maryland-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/cognizant-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/economic-futures-uk-europe": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/deprecation-commitments": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-11-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/opening-our-tokyo-office": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-29 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/advancing-claude-for-financial-services": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-for-life-sciences": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/small-samples-poison": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/expanding-global-operations-to-india": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/rahul-patil-joins-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/deloitte-anthropic-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/petri-open-source-auditing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-10-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/updates-to-our-consumer-terms": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-3-7-sonnet": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-4": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-in-xcode": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-09-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/developing-computer-use": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-3-5-sonnet": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/clio": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-higher-education-initiatives": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-code-on-team-and-enterprise": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/usage-policy-update": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/end-subset-conversations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-1": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/head-of-japan-hiring-plans": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-30 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/build-ai-in-america": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/activating-asl3-protections": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/advancing-claude-for-education": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-the-anthropic-economic-advisory-council": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/ai-for-science-program": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/mou-uk-government": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-claude-for-education": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/3-5-models-and-computer-use": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/head-of-EMEA-new-roles": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/eu-code-practice": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/paul-smith-to-join-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-07-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/shade-arena-sabotage-monitoring": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-06-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/github-copilot": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-06-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/confidential-inference-trusted-vms": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-06-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/open-source-circuit-tracing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-05-29 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/reed-hastings": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-05-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-05-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-series-c": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-05-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/100k-context-windows": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-05-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/exploring-model-welfare": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-04-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/releasing-claude-instant-1-2": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-04-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-04-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/Introducing-code-with-claude": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-04-03 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/forecasting-rare-behaviors": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-anthropic-transparency-hub": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-28 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-and-alexa-plus": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/crosscoder-model-diffing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/paris-ai-summit": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/lyft-announcement": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-02-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2025-01-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/evaluating-ai-systems": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/preparing-for-global-elections-in-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/policy-recap-q4-2023": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/frontier-model-security": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/expanded-legal-protections-api-improvements": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/contextual-retrieval": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-3-family": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/swe-bench-sonnet": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/superposition-memorization-and-double-descent": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/softmax-linear-units": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/interpretability-dreams": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/language-models-mostly-know-what-they-know": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/many-shot-jailbreaking": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/influence-functions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/evaluating-feature-steering": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/distributed-representations-composition-superposition": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-may-2023": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/third-party-testing": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/prompt-engineering-for-business-performance": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/google-vertex-general-availability": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-brazil": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/child-safety-principles": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/building-effective-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/elections-ai-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-12-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-amazon-trainium": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-11-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-amazon": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-11-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/statistical-approach-to-model-evals": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-11-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/fine-tune-claude-3-haiku": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-11-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/the-case-for-targeted-regulation": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-31 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/sabotage-evaluations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/features-as-classifiers": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/salesforce-partnership": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/us-elections-readiness": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-june-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-sept-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-10-01 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/accenture-aws-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-europe": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/expanding-access-to-claude-for-government": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/introducing-claude-to-canada": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/mike-krieger-joins-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/model-safety-bug-bounty": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/projects": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/updating-our-usage-policy": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-august-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-09-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/in-context-learning-and-induction-heads": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/transformer-circuits": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-bcg": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-partners-with-google-cloud": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-2": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-2-1": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-3-haiku": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/claude-pro": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/partnering-with-scale": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/skt-partnership-announcement": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/uk-ai-safety-summit": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/zoom-partnership-and-investment": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-08-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-july-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-07-31 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/engineering-challenges-interpretability": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-06-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/krishna-rao-joins-anthropic": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-05-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/probes-catch-sleeper-agents": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-05-02 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/circuits-updates-april-2024": {
+      "first_seen": "2026-08-21T13:37:08+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-08-21T13:37:08+00:00",
+      "reason": "lastmod 2024-04-26 < baseline 2026-08-14"
     }
   },
   "episodes": [
@@ -214,6 +4402,28 @@
       "episode": 2,
       "created": "2026-08-21T12:51:55+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "source": "claude-blog",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "subtitle": "Practical tips for how to run efficient sessions that get the most value from every token.",
+      "date": "2026-08-14T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Choosing a Claude model and effort level in Claude Code",
+          "href": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+        }
+      ],
+      "word_count": 544,
+      "duration": 250.057415,
+      "bytes": 2194054,
+      "episode": 11,
+      "created": "2026-08-21T13:37:08+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1f51730ca89a4d571062_og_maximizing-the-value-of-your-claude-code-sessions.jpg"
     },
     {
       "slug": "news-2026-08-14-claude-text-watermark",
@@ -241,9 +4451,35 @@
       "word_count": 2119,
       "duration": 890.603673,
       "bytes": 7342179,
-      "episode": 3,
+      "episode": 1,
       "created": "2026-08-21T12:58:01+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather"
+    },
+    {
+      "slug": "claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau",
+      "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "source": "claude-blog",
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "subtitle": "ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.",
+      "date": "2026-08-17T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Enterprise",
+          "href": "https://claude.com/solutions/enterprise"
+        },
+        {
+          "text": "Claude Managed Agents",
+          "href": "https://platform.claude.com/docs/en/managed-agents/overview"
+        }
+      ],
+      "word_count": 2421,
+      "duration": 1144.80805,
+      "bytes": 9418814,
+      "episode": 10,
+      "created": "2026-08-21T13:35:50+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a834019da1fda63e77b2a20_og_how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents.jpg"
     },
     {
       "slug": "research-2026-08-18-claude-accelerates-protein-design",
@@ -335,7 +4571,7 @@
       "word_count": 3482,
       "duration": 1808.741587,
       "bytes": 14792181,
-      "episode": 9,
+      "episode": 8,
       "created": "2026-08-21T13:27:32+00:00",
       "hero": "https://cdn.sanity.io/images/4zrzovbb/website/e3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png"
     },
@@ -401,7 +4637,7 @@
       "word_count": 1980,
       "duration": 879.751088,
       "bytes": 7286951,
-      "episode": 6,
+      "episode": 5,
       "created": "2026-08-21T13:13:08+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a84a8dee0d08841721bbc53_og_ai-ci-cd-on-call.jpg"
     },
@@ -427,7 +4663,7 @@
       "word_count": 1475,
       "duration": 636.24551,
       "bytes": 5339018,
-      "episode": 10,
+      "episode": 9,
       "created": "2026-08-21T13:30:32+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fdd8c172c1f5ac0f312c_og_turning-conversation-into-knowledge-how-slack-builds-human-agent-teams.jpg"
     },
@@ -653,7 +4889,7 @@
       "word_count": 4718,
       "duration": 2166.274671,
       "bytes": 17542764,
-      "episode": 4,
+      "episode": 3,
       "created": "2026-08-21T13:08:03+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a86fd47dbdb6a1fb6d6bb19_og_claude-code-guide-for-startups.jpg"
     },
@@ -670,7 +4906,7 @@
       "word_count": 398,
       "duration": 202.461837,
       "bytes": 1850656,
-      "episode": 5,
+      "episode": 4,
       "created": "2026-08-21T13:09:06+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg"
     },
@@ -712,7 +4948,7 @@
       "word_count": 1249,
       "duration": 608.036916,
       "bytes": 5076394,
-      "episode": 7,
+      "episode": 6,
       "created": "2026-08-21T13:15:56+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a87352164143e387edeb760_og_anthropics-approach-to-teaching-and-learning-ai.jpg"
     },
@@ -738,11 +4974,11 @@
       "word_count": 1396,
       "duration": 748.504422,
       "bytes": 6222506,
-      "episode": 8,
+      "episode": 7,
       "created": "2026-08-21T13:19:28+00:00",
       "hero": ""
     }
   ],
-  "next_episode": 11,
+  "next_episode": 12,
   "baseline_date": "2026-08-14"
 }
