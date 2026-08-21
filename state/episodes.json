@@ -7,9 +7,39 @@
       "updated": "2026-08-21T12:37:46+00:00",
       "slug": "news-2026-08-14-claude-text-watermark",
       "episode": 1
+    },
+    "https://claude.com/blog/artifacts-in-claude-code": {
+      "first_seen": "2026-08-21T12:51:55+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T12:51:55+00:00",
+      "slug": "claude-blog-2026-06-18-artifacts-in-claude-code",
+      "episode": 2
     }
   },
   "episodes": [
+    {
+      "slug": "claude-blog-2026-06-18-artifacts-in-claude-code",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "source": "claude-blog",
+      "title": "Claude Code now supports artifacts",
+      "subtitle": "Preview your in-progress work in Claude Code as a live, interactive artifact—built from your full session context and shareable with your team.",
+      "date": "2026-06-18T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Get started today",
+          "href": "http://code.claude.com/docs/en/artifacts"
+        }
+      ],
+      "word_count": 827,
+      "duration": 386.377143,
+      "bytes": 3284490,
+      "episode": 2,
+      "created": "2026-08-21T12:51:55+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg"
+    },
     {
       "slug": "news-2026-08-14-claude-text-watermark",
       "url": "https://www.anthropic.com/news/claude-text-watermark",
@@ -41,6 +71,6 @@
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather"
     }
   ],
-  "next_episode": 2,
+  "next_episode": 3,
   "baseline_date": "2026-08-14"
 }

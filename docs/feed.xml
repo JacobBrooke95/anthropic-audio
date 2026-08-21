@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 12:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:51:55 +0000</lastBuildDate>
     <pubDate>Fri, 14 Aug 2026 19:16:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -69,6 +69,44 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>1</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-14-claude-text-watermark.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude Code now supports artifacts</title>
+      <itunes:title>Claude Blog: Claude Code now supports artifacts</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-06-18-artifacts-in-claude-code/</link>
+      <guid isPermaLink="false">https://claude.com/blog/artifacts-in-claude-code</guid>
+      <pubDate>Thu, 18 Jun 2026 16:00:00 +0000</pubDate>
+      <description>Preview your in-progress work in Claude Code as a live, interactive artifact—built from your full session context and shareable with your team.
+
+Source: https://claude.com/blog/artifacts-in-claude-code
+Published June 18, 2026 · Claude Blog
+
+Links referenced in the post:
+• Get started today: http://code.claude.com/docs/en/artifacts
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-06-18-artifacts-in-claude-code/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Preview your in-progress work in Claude Code as a live, interactive artifact—built from your full session context and shareable with your team.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/artifacts-in-claude-code">https://claude.com/blog/artifacts-in-claude-code</a><br/><strong>Published:</strong> June 18, 2026 · Claude Blog<br/><strong>Length:</strong> 827 words · 6 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="http://code.claude.com/docs/en/artifacts">Get started today</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-06-18-artifacts-in-claude-code/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-06-18-artifacts-in-claude-code.mp3" length="3284490" type="audio/mpeg"/>
+      <itunes:duration>386</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-06-18-artifacts-in-claude-code.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Preview your in-progress work in Claude Code as a live, interactive artifact—built from your full session context and shareable with your team.</itunes:subtitle>
+      <itunes:summary>Preview your in-progress work in Claude Code as a live, interactive artifact—built from your full session context and shareable with your team.
+
+Source: https://claude.com/blog/artifacts-in-claude-code
+Published June 18, 2026 · Claude Blog
+
+Links referenced in the post:
+• Get started today: http://code.claude.com/docs/en/artifacts
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-06-18-artifacts-in-claude-code/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-06-18-artifacts-in-claude-code.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-06-18-artifacts-in-claude-code.txt" type="text/plain" language="en"/>
     </item>
   </channel>
 </rss>
