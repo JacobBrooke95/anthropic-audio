@@ -8,7 +8,8 @@ publishes everything — audio, artwork, transcripts, a full-text copy of each p
 Apple-Podcasts-ready RSS feed — to GitHub Pages.
 
 * **Site:** https://jacobbrooke95.github.io/anthropic-audio/
-* **Feed:** https://jacobbrooke95.github.io/anthropic-audio/feed.xml
+* **Podcast feed:** https://jacobbrooke95.github.io/anthropic-audio/feed.xml
+* **Text feed (full posts, for feed readers):** https://jacobbrooke95.github.io/anthropic-audio/posts.xml
 
 Not affiliated with or endorsed by Anthropic. Post content © Anthropic, PBC.
 
@@ -65,7 +66,7 @@ more post URLs to force-process them (re-rendering an existing episode replaces 
 
 ```
 docs/
-  index.html  feed.xml  cover.jpg  style.css  .nojekyll
+  index.html  feed.xml  posts.xml  cover.jpg  style.css  .nojekyll
   audio/<slug>.mp3          art/<slug>.jpg          transcripts/<slug>.{vtt,txt}
   episodes/<slug>/index.html                      # player + show notes + full post text
   posts/<slug>/{post.json,post.md,img/*}          # structured + markdown copy of the post

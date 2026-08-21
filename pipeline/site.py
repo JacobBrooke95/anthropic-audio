@@ -34,7 +34,8 @@ def _layout(title: str, body: str, *, depth: int = 0, extra_head: str = "") -> s
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{H.escape(title)}</title>
-<link rel="alternate" type="application/rss+xml" title="{H.escape(PODCAST['title'])}" href="{FEED_URL}">
+<link rel="alternate" type="application/rss+xml" title="{H.escape(PODCAST['title'])} (podcast)" href="{FEED_URL}">
+<link rel="alternate" type="application/rss+xml" title="{H.escape(PODCAST['title'])} (full-text posts)" href="{SITE_URL}/posts.xml">
 <link rel="stylesheet" href="{rel}style.css">{extra_head}
 </head><body>
 <header class="site"><h1><a href="{rel}" style="text-decoration:none;color:inherit">{H.escape(PODCAST['title'])}</a></h1>
@@ -50,8 +51,9 @@ def _subscribe_box() -> str:
 <div class="btns"><a href="podcast://{feed.replace('https://','')}">Apple Podcasts</a>
 <a href="https://overcast.fm/itunes?url={feed}" title="Overcast">Overcast</a>
 <a href="pktc://subscribe/{feed.replace('https://','')}">Pocket Casts</a>
-<a href="{feed}">Raw RSS</a></div>
-<p class="small" style="margin:.6rem 0 0">New episodes appear within about an hour of a new post during Pacific business hours (Mon–Fri, 8am–6pm PT). Sources: <a href="https://www.anthropic.com/research">Research</a> · <a href="https://www.anthropic.com/news">News</a> · <a href="https://claude.com/blog">Claude Blog</a>.</p></div>"""
+<a href="{feed}">Podcast RSS</a>
+<a href="{SITE_URL}/posts.xml" title="Full-text RSS of the posts, for feed readers">Text RSS (full posts)</a></div>
+<p class="small" style="margin:.6rem 0 0">Prefer reading? The <a href="{SITE_URL}/posts.xml">text RSS feed</a> carries each post in full (Anthropic publishes no RSS of its own). New episodes appear within about an hour of a new post during Pacific business hours (Mon–Fri, 8am–6pm PT). Sources: <a href="https://www.anthropic.com/research">Research</a> · <a href="https://www.anthropic.com/news">News</a> · <a href="https://claude.com/blog">Claude Blog</a>.</p></div>"""
 
 
 def render_blocks_html(blocks: list[dict], img_prefix: str = "") -> str:

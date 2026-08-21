@@ -18,7 +18,7 @@ from .speech import build_script, transcript_text
 from .tts import synthesize, tag_mp3, write_vtt
 from .artwork import episode_art, show_cover
 from .site import write_episode_assets, write_index, localize_images
-from .feed import build_feed
+from .feed import build_feed, build_text_feed, TEXT_FEED_FILE
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
 logging.getLogger("phonemizer").setLevel(logging.ERROR)
@@ -75,7 +75,15 @@ def rebuild(st: State):
             write_episode_assets(post, ep, txt_path.read_text() if txt_path.exists() else "")
     write_index(st.episodes)
     (DOCS / "feed.xml").write_text(build_feed(st.episodes))
-    log.info("site + feed rebuilt: %d episodes", len(st.episodes))
+
+    def load_post(ep):
+        pj = DOCS / "posts" / ep["slug"] / "post.json"
+        if pj.exists():
+            import json
+            return Post.from_dict(json.loads(pj.read_text()))
+        return None
+    (DOCS / TEXT_FEED_FILE).write_text(build_text_feed(st.episodes, load_post))
+    log.info("site + feeds rebuilt: %d episodes", len(st.episodes))
 
 
 def cmd_run(args):
@@ -122,8 +130,8 @@ def cmd_run(args):
             log.debug(traceback.format_exc())
             st.mark(url, "failed", error=str(e)[:300])
             st.save()
-    if not args.dry_run:
-        rebuild(st)
+    if not args.dry_run and done:
+        rebuild(st)          # only touch the site/feeds when something new was published
     st.save()
     log.info("run complete: %d new episode(s)", done)
 

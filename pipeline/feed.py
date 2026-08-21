@@ -131,3 +131,58 @@ def build_feed(episodes: list[dict]) -> str:
         ]
     out += ["  </channel>", "</rss>", ""]
     return "\n".join(out)
+
+
+# ----------------------------------------------------------------------------- text (full-post) feed
+
+TEXT_FEED_FILE = "posts.xml"
+
+
+def build_text_feed(episodes: list[dict], load_post) -> str:
+    """Plain RSS 2.0 feed of the posts themselves (full HTML in content:encoded) for feed readers.
+    `load_post(ep)` returns the stored Post (or None)."""
+    from .site import render_blocks_html
+    P = PODCAST
+    now = datetime.now(timezone.utc)
+    eps = sorted(episodes, key=lambda e: e["date"], reverse=True)
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" '
+        'xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">',
+        "  <channel>",
+        f"    <title>{escape(P['title'])} — full-text posts</title>",
+        f"    <link>{SITE_URL}/</link>",
+        f'    <atom:link href="{SITE_URL}/{TEXT_FEED_FILE}" rel="self" type="application/rss+xml"/>',
+        "    <description>Unofficial full-text RSS feed of new posts on Anthropic's research blog, newsroom, and the Claude blog "
+        "(which publish no RSS of their own). Each item carries the complete post and a link to its audio edition. "
+        "Not affiliated with Anthropic; content © Anthropic, PBC.</description>",
+        f"    <language>{P['language']}</language>",
+        f"    <lastBuildDate>{rfc2822(now)}</lastBuildDate>",
+        "    <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>",
+    ]
+    for ep in eps:
+        src = SOURCES[ep["source"]]
+        post = load_post(ep)
+        page = f"{SITE_URL}/episodes/{ep['slug']}/"
+        audio = f"{SITE_URL}/audio/{ep['slug']}.mp3"
+        body = render_blocks_html(post.blocks, img_prefix=f"{SITE_URL}/posts/{ep['slug']}/") if post else ""
+        meta = (f"<p><em>{H.escape(src['name'])} · {parse_iso(ep['date']).strftime('%B %-d, %Y')}"
+                + (f" · {H.escape(', '.join(ep['authors']))}" if ep.get("authors") else "") + "</em><br/>"
+                f"Original: <a href=\"{H.escape(ep['url'])}\">{H.escape(ep['url'])}</a> · "
+                f"<a href=\"{audio}\">Listen ({_mmss(ep['duration'])})</a> · <a href=\"{page}\">Episode page</a></p>")
+        content = meta + (f"<p><strong>{H.escape(ep['subtitle'])}</strong></p>" if ep.get("subtitle") else "") + body + \
+                  "<hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>"
+        out += [
+            "    <item>",
+            f"      <title>{escape(src['label'] + ': ' + ep['title'])}</title>",
+            f"      <link>{escape(ep['url'])}</link>",
+            f'      <guid isPermaLink="true">{escape(ep["url"])}</guid>',
+            f"      <pubDate>{rfc2822(parse_iso(ep['date']))}</pubDate>",
+            f"      <dc:creator>{escape(', '.join(ep['authors']) if ep.get('authors') else 'Anthropic')}</dc:creator>",
+            f"      <category>{escape(src['name'])}</category>",
+            f"      <description>{escape((ep.get('subtitle') or ep['title']) + ' — ' + src['name'] + '. Audio edition: ' + audio)}</description>",
+            f"      <content:encoded>{_cdata(content)}</content:encoded>",
+            "    </item>",
+        ]
+    out += ["  </channel>", "</rss>", ""]
+    return "\n".join(out)
