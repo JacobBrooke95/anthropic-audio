@@ -40,7 +40,7 @@ def _money(m):
 
 def normalize(text: str) -> str:
     """Make text friendlier for TTS without changing its meaning."""
-    t = text
+    t = re.sub(r"[\u200b-\u200f\u2060\ufeff\u00ad]", "", text)   # zero-width / soft-hyphen junk
     t = re.sub(r"https?://\S+", lambda m: _url_words(m.group(0)), t)
     for pat, rep in ABBREV:
         t = re.sub(pat, rep, t)
@@ -116,11 +116,15 @@ def build_script(post) -> list[dict]:
 
     def add(text, pause, kind="body"):
         text = normalize(text)
-        if not text:
+        if not re.search(r"[A-Za-z0-9]", text):
             return
+        added = False
         for c in chunk(text, TTS["max_chunk_chars"]):
-            segs.append({"text": c, "pause": P["sentence"], "kind": kind})
-        segs[-1]["pause"] = pause
+            if not re.search(r"[A-Za-z0-9]", c):
+                continue
+            segs.append({"text": c, "pause": P["sentence"], "kind": kind}); added = True
+        if added:
+            segs[-1]["pause"] = pause
 
     # ---- intro
     add(_end(post.title), P["heading_after"], "title")
