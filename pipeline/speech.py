@@ -123,9 +123,9 @@ def build_script(post) -> list[dict]:
         segs[-1]["pause"] = pause
 
     # ---- intro
-    add(post.title + ".", P["heading_after"], "title")
-    if post.subtitle and post.subtitle.strip().rstrip(".") != post.title.strip().rstrip("."):
-        add(post.subtitle.rstrip(".") + ".", P["paragraph"], "subtitle")
+    add(_end(post.title), P["heading_after"], "title")
+    if post.subtitle and not _redundant_subtitle(post):
+        add(_end(post.subtitle), P["paragraph"], "subtitle")
     by = f" By {_join(post.authors)}." if post.authors else ""
     add(f"From {src['name']}, published {_spoken_date(post.date)}.{by}", P["section"], "meta")
 
@@ -136,7 +136,7 @@ def build_script(post) -> list[dict]:
         if t == "heading":
             if segs:
                 segs[-1]["pause"] = max(segs[-1]["pause"], P["heading_before"])
-            add(b["text"].rstrip(".:") + ".", P["heading_after"], "heading")
+            add(_end(b["text"].rstrip(":")), P["heading_after"], "heading")
         elif t == "paragraph":
             add(b["text"], P["paragraph"])
         elif t == "list":
@@ -188,6 +188,23 @@ def build_script(post) -> list[dict]:
         f"Read the original at {_url_words(post.url)}. This unofficial audio edition was generated automatically "
         f"for the podcast {PODCAST['title']}.", P["paragraph"], "outro")
     return segs
+
+
+def _end(text: str) -> str:
+    """Ensure a chunk ends with terminal punctuation (adds a period when there is none)."""
+    t = text.strip()
+    return t if re.search(r"[.!?…]['\")”’]*$", t) else t + "."
+
+
+def _redundant_subtitle(post) -> bool:
+    """anthropic.com's og:description is often just the first body paragraph(s); don't read it twice."""
+    sub = re.sub(r"\s+", " ", post.subtitle).strip().lower()
+    if not sub or sub.rstrip(".") == post.title.strip().lower().rstrip("."):
+        return True
+    body = " ".join(b["text"] for b in post.blocks[:3] if b["type"] == "paragraph")
+    body = re.sub(r"\s+", " ", body).lower()
+    probe = sub[:80]
+    return bool(probe) and probe in body
 
 
 def _join(names: list[str]) -> str:
