@@ -4386,6 +4386,14 @@
       "updated": "2026-08-21T16:44:07+00:00",
       "slug": "claude-blog-2026-08-21-the-ai-native-sdlc-playbook",
       "episode": 12
+    },
+    "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders": {
+      "first_seen": "2026-08-21T17:51:45+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-21T17:51:45+00:00",
+      "slug": "claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders",
+      "episode": 13
     }
   },
   "episodes": [
@@ -5115,8 +5123,78 @@
       "episode": 12,
       "created": "2026-08-21T16:44:07+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "source": "claude-blog",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "subtitle": "We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.",
+      "date": "2026-08-21T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Mythos 5",
+          "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        },
+        {
+          "text": "Claude Security",
+          "href": "https://claude.com/product/claude-security"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet"
+        },
+        {
+          "text": "Project Glasswing",
+          "href": "https://www.anthropic.com/glasswing"
+        },
+        {
+          "text": "safety classifiers",
+          "href": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+        },
+        {
+          "text": "built cyber products on Claude Opus",
+          "href": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity"
+        },
+        {
+          "text": "register your interest here",
+          "href": "https://claude.com/form/mythos-cyber-partner"
+        },
+        {
+          "text": "admin console",
+          "href": "http://claude.ai/admin-settings/claude-code"
+        },
+        {
+          "text": "claude.ai/security",
+          "href": "http://claude.ai/security"
+        },
+        {
+          "text": "CWE",
+          "href": "https://cwe.mitre.org/"
+        },
+        {
+          "text": "guide to getting started",
+          "href": "https://claude.com/resources/tutorials/getting-started-with-claude-security"
+        },
+        {
+          "text": "Akrites",
+          "href": "https://akrites.org/"
+        },
+        {
+          "text": "Gold Eagle",
+          "href": "https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/"
+        }
+      ],
+      "word_count": 1420,
+      "duration": 691.513469,
+      "bytes": 5769398,
+      "episode": 13,
+      "created": "2026-08-21T17:51:45+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg"
     }
   ],
-  "next_episode": 13,
+  "next_episode": 14,
   "baseline_date": "2026-08-14"
 }

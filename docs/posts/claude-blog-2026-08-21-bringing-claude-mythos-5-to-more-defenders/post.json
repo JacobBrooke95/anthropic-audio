@@ -1,0 +1,244 @@
+{
+ "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders",
+ "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+ "subtitle": "We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.",
+ "date": "2026-08-21T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "We're sharing an update on our efforts to help more teams use frontier capabilities for cyber defense. Claude Mythos 5 is now available in Claude Security , and coming soon to partners' cyber defense tools. We're also launching a $35M fund to help secure open-source software and sharing plans to expand our Cyber Verification Program .",
+   "html": "<em>We&#x27;re sharing an update on our efforts to help more teams use frontier capabilities for cyber defense. </em><a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\"><em>Claude Mythos 5</em></a><em> is now available in </em><a href=\"https://claude.com/product/claude-security\"><em>Claude Security</em></a><em>, and coming soon to partners&#x27; cyber defense tools. We&#x27;re also launching a $35M fund to help secure open-source software and sharing plans to expand our </em><a href=\"https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet\"><em>Cyber Verification Program</em></a><em>.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "In April, we launched Project Glasswing to put our most capable frontier model, Claude Mythos Preview (and its successor, Claude Mythos 5), in the hands of a small group of organizations securing the world’s most critical software. This gave defenders a window of time to find and fix vulnerabilities ahead of models with similar capabilities becoming generally available or reaching malicious actors.",
+   "html": "In April, we launched <a href=\"https://www.anthropic.com/glasswing\">Project Glasswing</a> to put our most capable frontier model, Claude Mythos Preview (and its successor, Claude Mythos 5), in the hands of a small group of organizations securing the world’s most critical software. This gave defenders a window of time to find and fix vulnerabilities ahead of models with similar capabilities becoming generally available or reaching malicious actors."
+  },
+  {
+   "type": "paragraph",
+   "text": "Our goal has always been to expand Mythos-level defense to as many defenders as we safely can. To do that, we've been working on safety classifiers and safeguards that let us expand access to Mythos-class models without putting their offensive cyber capabilities in the wrong hands. Claude Fable 5 was the first step: it made the model broadly available while blocking dual-use cyber work.",
+   "html": "Our goal has always been to expand Mythos-level defense to as many defenders as we safely can. To do that, we&#x27;ve been working on <a href=\"https://www.anthropic.com/research/next-generation-constitutional-classifiers\">safety classifiers</a> and safeguards that let us expand access to Mythos-class models without putting their offensive cyber capabilities in the wrong hands. <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\">Claude Fable 5</a> was the first step: it made the model broadly available while blocking dual-use cyber work."
+  },
+  {
+   "type": "paragraph",
+   "text": "Today, we’re taking the next steps. The riskiest behavior occurs when a user has direct access to a model, where a malicious actor can try to steer it toward harmful uses. But if users can only receive specific outputs, such as a patch for a vulnerability or a security alert, that risk is much lower. The changes we’re announcing give users greater access to the defensive results, while maintaining appropriate guardrails around direct access to the model:",
+   "html": "Today, we’re taking the next steps. The riskiest behavior occurs when a user has direct access to a model, where a malicious actor can try to steer it toward harmful uses. But if users can only receive specific outputs, such as a patch for a vulnerability or a security alert, that risk is much lower. The changes we’re announcing give users greater access to the defensive results, while maintaining appropriate guardrails around direct access to the model:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Claude Mythos 5 integration into the tools defenders rely on. We’re working with our cybersecurity technology and services partners to integrate Claude Mythos 5 into the products and services defenders already use to secure their software.",
+     "html": "<strong>Claude Mythos 5 integration into the tools defenders rely on.</strong> We’re working with our cybersecurity technology and services partners to integrate Claude Mythos 5 into the products and services defenders already use to secure their software."
+    },
+    {
+     "text": "Claude Security scans can now run on Claude Mythos 5. Customers on Claude Enterprise plans can now run our most capable model in Claude Security, using it to scan their codebases for security vulnerabilities and suggest patches.",
+     "html": "<strong>Claude Security scans can now run on Claude Mythos 5.</strong> Customers on Claude Enterprise plans can now run our most capable model in Claude Security, using it to scan their codebases for security vulnerabilities and suggest patches."
+    },
+    {
+     "text": "$35 million in credits for open-source security. Our new Defender Advantage Fund (0xDAF) will provide $35 million in credits to organizations working to patch vulnerabilities in open-source projects, automate parts of the process of scanning and patching open-source software, and experiment with new security approaches.",
+     "html": "<strong>$35 million in credits for open-source security.</strong> Our new Defender Advantage Fund (0xDAF) will provide $35 million in credits to organizations working to patch vulnerabilities in open-source projects, automate parts of the process of scanning and patching open-source software, and experiment with new security approaches. "
+    },
+    {
+     "text": "Expanding our Cyber Verification Program. The program already gives vetted defenders reduced safeguards on Opus and Sonnet models. In the coming weeks, we will expand this program to include broader dual-use capabilities on Opus and Sonnet, with Mythos-class access to follow.",
+     "html": "<strong>Expanding our Cyber Verification Program.</strong> The program already gives vetted defenders reduced safeguards on Opus and Sonnet models. In the coming weeks, we will expand this program to include broader dual-use capabilities on Opus and Sonnet, with Mythos-class access to follow. "
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Our aim remains to help organizations adapt to the pace and demands of cybersecurity as AI models become increasingly powerful. We will continue to develop safeguards, access programs, and community support to make our most capable models safely available to a wide range of people and organizations.",
+   "html": "Our aim remains to help organizations adapt to the pace and demands of cybersecurity as AI models become increasingly powerful. We will continue to develop safeguards, access programs, and community support to make our most capable models safely available to a wide range of people and organizations."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating Mythos into existing cyberdefensive tools",
+   "html": "Integrating Mythos into existing cyberdefensive tools"
+  },
+  {
+   "type": "paragraph",
+   "text": "The teams defending hospitals, utilities, financial systems, and the software supply chain already rely on a suite of products and services for security operations, incident response, threat intelligence, and detection engineering. The fastest way to make frontier capabilities available to those defenders is to integrate Mythos-class models into the tools they already run.",
+   "html": "The teams defending hospitals, utilities, financial systems, and the software supply chain already rely on a suite of products and services for security operations, incident response, threat intelligence, and detection engineering. The fastest way to make frontier capabilities available to those defenders is to integrate Mythos-class models into the tools they already run."
+  },
+  {
+   "type": "paragraph",
+   "text": "Many of our partners have already built cyber products on Claude Opus that help security teams triage alerts, identify threats, and remediate vulnerabilities faster. We’re now working with these partners and more to build Claude Mythos 5 into their products and services, so they can deliver Mythos-level defensive outcomes to their customers.",
+   "html": "Many of our partners have already <a href=\"https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity\">built cyber products on Claude Opus</a> that help security teams triage alerts, identify threats, and remediate vulnerabilities faster. We’re now working with these partners and more to build Claude Mythos 5 into their products and services, so they can deliver Mythos-level defensive outcomes to their customers. "
+  },
+  {
+   "type": "paragraph",
+   "text": "When an end user uses one of these products, they’re not interacting with Mythos directly. Instead, they work through a purpose-built interface that runs Mythos in the background for a defined task and only receive the specific artifact the product is intended to provide. For example, a tool to remediate vulnerabilities might provide a list of suggested patches as its output. This output would be generated by Mythos, but the user would not have a way to prompt the model to, say, develop an exploit for a vulnerability. We and our partners also have abuse prevention measures in place to verify the model stays within its intended scope.",
+   "html": "When an end user uses one of these products, they’re not interacting with Mythos directly. Instead, they work through a purpose-built interface that runs Mythos in the background for a defined task and only receive the specific artifact the product is intended to provide. For example, a tool to remediate vulnerabilities might provide a list of suggested patches as its output. This output would be generated by Mythos, but the user would not have a way to prompt the model to, say, develop an exploit for a vulnerability. We and our partners also have abuse prevention measures in place to verify the model stays within its intended scope."
+  },
+  {
+   "type": "paragraph",
+   "text": "We're early in this work and expect it to expand over time. If you build security products or services and want to bring Claude Mythos 5 to your customers, you can register your interest here .",
+   "html": "We&#x27;re early in this work and expect it to expand over time. If you build security products or services and want to bring Claude Mythos 5 to your customers, you can <a href=\"https://claude.com/form/mythos-cyber-partner\">register your interest here</a>. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Making Claude Security available with Claude Mythos 5 for Enterprise customers",
+   "html": "Making Claude Security available with Claude Mythos 5 for Enterprise customers"
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting today, Claude Security scans now run on Claude Mythos 5. Claude Security scans codebases for vulnerabilities and suggests patches for human review; it’s currently in public beta for Claude Enterprise customers, and scans with Mythos 5 are billed as standard token usage under your existing plan, with no separate add-on.",
+   "html": "Starting today, <a href=\"https://claude.com/product/claude-security\">Claude Security</a> scans now run on Claude Mythos 5. Claude Security scans codebases for vulnerabilities and suggests patches for human review; it’s currently in public beta for Claude Enterprise customers, and scans with Mythos 5 are billed as standard token usage under your existing plan, with no separate add-on. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Enterprise admins can enable Claude Security in the admin console . From claude.ai/security , users can select a repository to scan using Claude Mythos 5. Claude then scans the codebase for vulnerabilities, and returns each finding with a CWE (Common Weakness Enumeration) category, confidence and severity ratings, and a suggested fix.",
+   "html": "Enterprise admins can enable Claude Security in the <a href=\"http://claude.ai/admin-settings/claude-code\">admin console</a>. From <a href=\"http://claude.ai/security\">claude.ai/security</a>, users can select a repository to scan using Claude Mythos 5. Claude then scans the codebase for vulnerabilities, and returns each finding with a <a href=\"https://cwe.mitre.org/\">CWE</a> (Common Weakness Enumeration) category, confidence and severity ratings, and a suggested fix. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Users can then open Claude Code on the web to implement the fix. Interactive patching uses the models your organization has access to in Claude Code. The Mythos scan itself does not extend Mythos access to other surfaces. Every patch must be reviewed and approved by a human before it can be implemented.",
+   "html": "Users can then open Claude Code on the web to implement the fix. Interactive patching uses the models your organization has access to in Claude Code. The Mythos scan itself does not extend Mythos access to other surfaces. Every patch must be reviewed and approved by a human before it can be implemented."
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude Security uses Mythos 5 to scan code you own, and returns detailed findings rather than raw outputs without exposing the model itself. This means defenders can access the capabilities of Claude Mythos 5 without the model becoming accessible to those who might misuse it.",
+   "html": "Claude Security uses Mythos 5 to scan code you own, and returns detailed findings rather than raw outputs without exposing the model itself. This means defenders can access the capabilities of Claude Mythos 5 without the model becoming accessible to those who might misuse it. "
+  },
+  {
+   "type": "paragraph",
+   "text": "For more about Claude Security, see our guide to getting started .",
+   "html": "For more about Claude Security, see our <a href=\"https://claude.com/resources/tutorials/getting-started-with-claude-security\">guide to getting started</a>. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Launching the Defender Advantage Fund to secure open-source software",
+   "html": "Launching the Defender Advantage Fund to secure open-source software"
+  },
+  {
+   "type": "paragraph",
+   "text": "Some of the world’s most widely used programs run on open-source software. Yet these projects are often maintained by volunteers or nonprofit foundations, who may lack the resources or personnel to comprehensively defend their projects against attack. Through Project Glasswing, we made $4M in direct donations to open-source security organizations, provided credits to the open-source security foundations in the program, helped scan and patch widely used projects, and support coordinated vulnerability-fixing efforts like Akrites and Gold Eagle .",
+   "html": "Some of the world’s most widely used programs run on open-source software. Yet these projects are often maintained by volunteers or nonprofit foundations, who may lack the resources or personnel to comprehensively defend their projects against attack. Through Project Glasswing, we made $4M in direct donations to open-source security organizations, provided credits to the open-source security foundations in the program, helped scan and patch widely used projects, and support coordinated vulnerability-fixing efforts like <a href=\"https://akrites.org/\">Akrites</a> and <a href=\"https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/\">Gold Eagle</a>."
+  },
+  {
+   "type": "paragraph",
+   "text": "Our new Defender Advantage Fund (0xDAF) builds on that work with $35 million in Claude credits for organizations helping open-source maintainers secure their software. Grants will focus on three areas: patching live vulnerabilities in widely used projects, automating scanning and patching in ways other projects can replicate, and helping projects pursue more ambitious security approaches that make them resistant to whole classes of attack.",
+   "html": "Our new Defender Advantage Fund (0xDAF) builds on that work with $35 million in Claude credits for organizations helping open-source maintainers secure their software. Grants will focus on three areas: patching live vulnerabilities in widely used projects, automating scanning and patching in ways other projects can replicate, and helping projects pursue more ambitious security approaches that make them resistant to whole classes of attack."
+  },
+  {
+   "type": "paragraph",
+   "text": "We're starting with a small number of larger, pilot grants to learn what works and scales best. We will share details on initial recipients in the coming weeks.",
+   "html": "We&#x27;re starting with a small number of larger, pilot grants to learn what works and scales best. We will share details on initial recipients in the coming weeks."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Expanding our Cyber Verification Program",
+   "html": "Expanding our Cyber Verification Program"
+  },
+  {
+   "type": "paragraph",
+   "text": "To date, our Cyber Verification Program has provided organizations with access to dual-use capabilities when using Claude Opus and Sonnet models. Organizations in the program experience reduced safeguards, minimizing interruptions for accepted teams doing legitimate cybersecurity work on systems they’re authorized to protect.",
+   "html": "To date, our Cyber Verification Program has provided organizations with access to dual-use capabilities when using Claude Opus and Sonnet models. Organizations in the program experience reduced safeguards, minimizing interruptions for accepted teams doing legitimate cybersecurity work on systems they’re authorized to protect."
+  },
+  {
+   "type": "paragraph",
+   "text": "Over the coming weeks, we are evolving the program to expand safeguarded access to Claude Mythos. As part of this, access to defensive capabilities like vulnerability triaging and validation will expand to Mythos-class models, and cyber defenders will see reduced blocks on Claude Opus and Sonnet-class models. Additionally, we are continuing to expand access to Claude Mythos through Project Glasswing in collaboration with our partners in the U.S. Government, focused on protectors of critically important infrastructure that meet strict security control requirements.",
+   "html": "Over the coming weeks, we are evolving the program to expand safeguarded access to Claude Mythos. As part of this, access to defensive capabilities like vulnerability triaging and validation will expand to Mythos-class models, and cyber defenders will see reduced blocks on Claude Opus and Sonnet-class models. Additionally, we are continuing to expand access to Claude Mythos through Project Glasswing in collaboration with our partners in the U.S. Government, focused on protectors of critically important infrastructure that meet strict security control requirements."
+  },
+  {
+   "type": "paragraph",
+   "text": "We'll share more details about the Cyber Verification Program expansion in the coming weeks. In the meantime, we encourage all security teams performing legitimate cybersecurity work to apply for the program for reduced safeguards on Claude Opus and Sonnet models. If you are already enrolled and accepted, no action is needed; we’ll reach out with updates.",
+   "html": "We&#x27;ll share more details about the Cyber Verification Program expansion in the coming weeks. In the meantime, we encourage all security teams performing legitimate cybersecurity work to apply for the program for reduced safeguards on Claude Opus and Sonnet models. If you are already enrolled and accepted, no action is needed; we’ll reach out with updates."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What’s next",
+   "html": "What’s next"
+  },
+  {
+   "type": "paragraph",
+   "text": "These initiatives are a continuation of our efforts to make the defensive capabilities of frontier models available to more people and organizations, and to support the open-source community in hardening their projects against attack. We will continue to work with government partners, organizations, open-source maintainers, and the broader industry to build the resilient cyber infrastructure today’s highly capable AI models demand.",
+   "html": "These initiatives are a continuation of our efforts to make the defensive capabilities of frontier models available to more people and organizations, and to support the open-source community in hardening their projects against attack. We will continue to work with government partners, organizations, open-source maintainers, and the broader industry to build the resilient cyber infrastructure today’s highly capable AI models demand. "
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Apply for the Cyber Verification Program .",
+     "html": "Apply for the <a href=\"https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet\">Cyber Verification Program</a>."
+    },
+    {
+     "text": "Register your interest in building cyber products and offerings with Mythos.",
+     "html": "<a href=\"https://claude.com/form/mythos-cyber-partner\">Register your interest</a> in building cyber products and offerings with Mythos."
+    },
+    {
+     "text": "Claude Security is available in public beta for Enterprise customers. Admins can enable Claude Security in the admin console . For a full walkthrough, see our guide to getting started .",
+     "html": "Claude Security is available in public beta for Enterprise customers. Admins can enable Claude Security in the <a href=\"http://claude.ai/admin-settings/claude-code\">admin console</a>. For a full walkthrough, see our <a href=\"https://claude.com/resources/tutorials/getting-started-with-claude-security\">guide to getting started</a>. "
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "text": "Claude Mythos 5",
+   "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+  },
+  {
+   "text": "Claude Security",
+   "href": "https://claude.com/product/claude-security"
+  },
+  {
+   "text": "Cyber Verification Program",
+   "href": "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet"
+  },
+  {
+   "text": "Project Glasswing",
+   "href": "https://www.anthropic.com/glasswing"
+  },
+  {
+   "text": "safety classifiers",
+   "href": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+  },
+  {
+   "text": "built cyber products on Claude Opus",
+   "href": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity"
+  },
+  {
+   "text": "register your interest here",
+   "href": "https://claude.com/form/mythos-cyber-partner"
+  },
+  {
+   "text": "admin console",
+   "href": "http://claude.ai/admin-settings/claude-code"
+  },
+  {
+   "text": "claude.ai/security",
+   "href": "http://claude.ai/security"
+  },
+  {
+   "text": "CWE",
+   "href": "https://cwe.mitre.org/"
+  },
+  {
+   "text": "guide to getting started",
+   "href": "https://claude.com/resources/tutorials/getting-started-with-claude-security"
+  },
+  {
+   "text": "Akrites",
+   "href": "https://akrites.org/"
+  },
+  {
+   "text": "Gold Eagle",
+   "href": "https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/"
+  }
+ ],
+ "word_count": 1420,
+ "fetched_at": "2026-08-21T17:38:57+00:00"
+}

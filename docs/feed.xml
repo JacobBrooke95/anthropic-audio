@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 16:47:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 17:51:45 +0000</lastBuildDate>
     <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -119,6 +119,68 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>12</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-the-ai-native-sdlc-playbook.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</title>
+      <itunes:title>Claude Blog: Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders/</link>
+      <guid isPermaLink="false">https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</guid>
+      <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
+      <description>We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.
+
+Source: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders
+Published August 21, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Mythos 5: https://www.anthropic.com/news/claude-fable-5-mythos-5
+• Claude Security: https://claude.com/product/claude-security
+• Cyber Verification Program: https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet
+• Project Glasswing: https://www.anthropic.com/glasswing
+• safety classifiers: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• built cyber products on Claude Opus: https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity
+• register your interest here: https://claude.com/form/mythos-cyber-partner
+• admin console: http://claude.ai/admin-settings/claude-code
+• claude.ai/security: http://claude.ai/security
+• CWE: https://cwe.mitre.org/
+• guide to getting started: https://claude.com/resources/tutorials/getting-started-with-claude-security
+• Akrites: https://akrites.org/
+• Gold Eagle: https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</a><br/><strong>Published:</strong> August 21, 2026 · Claude Blog<br/><strong>Length:</strong> 1,420 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Mythos 5</a></li><li><a href="https://claude.com/product/claude-security">Claude Security</a></li><li><a href="https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet">Cyber Verification Program</a></li><li><a href="https://www.anthropic.com/glasswing">Project Glasswing</a></li><li><a href="https://www.anthropic.com/research/next-generation-constitutional-classifiers">safety classifiers</a></li><li><a href="https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity">built cyber products on Claude Opus</a></li><li><a href="https://claude.com/form/mythos-cyber-partner">register your interest here</a></li><li><a href="http://claude.ai/admin-settings/claude-code">admin console</a></li><li><a href="http://claude.ai/security">claude.ai/security</a></li><li><a href="https://cwe.mitre.org/">CWE</a></li><li><a href="https://claude.com/resources/tutorials/getting-started-with-claude-security">guide to getting started</a></li><li><a href="https://akrites.org/">Akrites</a></li><li><a href="https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/">Gold Eagle</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders.mp3" length="5769398" type="audio/mpeg"/>
+      <itunes:duration>692</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.</itunes:subtitle>
+      <itunes:summary>We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.
+
+Source: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders
+Published August 21, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Mythos 5: https://www.anthropic.com/news/claude-fable-5-mythos-5
+• Claude Security: https://claude.com/product/claude-security
+• Cyber Verification Program: https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet
+• Project Glasswing: https://www.anthropic.com/glasswing
+• safety classifiers: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• built cyber products on Claude Opus: https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity
+• register your interest here: https://claude.com/form/mythos-cyber-partner
+• admin console: http://claude.ai/admin-settings/claude-code
+• claude.ai/security: http://claude.ai/security
+• CWE: https://cwe.mitre.org/
+• guide to getting started: https://claude.com/resources/tutorials/getting-started-with-claude-security
+• Akrites: https://akrites.org/
+• Gold Eagle: https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>13</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Claude Blog: The Claude Code guide for startups</title>
