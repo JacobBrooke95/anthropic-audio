@@ -148,7 +148,8 @@ def build_text_feed(episodes: list[dict], load_post) -> str:
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" '
-        'xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">',
+        'xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" '
+        'xmlns:webfeeds="http://webfeeds.org/rss/1.0">',
         "  <channel>",
         f"    <title>{escape(P['title'])} — full-text posts</title>",
         f"    <link>{SITE_URL}/</link>",
@@ -157,6 +158,10 @@ def build_text_feed(episodes: list[dict], load_post) -> str:
         "(which publish no RSS of their own). Each item carries the complete post and a link to its audio edition. "
         "Not affiliated with Anthropic; content © Anthropic, PBC.</description>",
         f"    <language>{P['language']}</language>",
+        f"    <image><url>{SITE_URL}/icon.png</url><title>{escape(P['title'])} — full-text posts</title><link>{SITE_URL}/</link></image>",
+        f"    <webfeeds:icon>{SITE_URL}/icon.png</webfeeds:icon>",
+        f'    <webfeeds:cover image="{SITE_URL}/{P["cover_file"]}"/>',
+        "    <webfeeds:accentColor>b5532e</webfeeds:accentColor>",
         f"    <lastBuildDate>{rfc2822(now)}</lastBuildDate>",
         "    <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>",
     ]

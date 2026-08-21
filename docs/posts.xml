@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>Anthropic, Read Aloud — full-text posts</title>
     <link>https://jacobbrooke95.github.io/anthropic-audio/</link>
     <atom:link href="https://jacobbrooke95.github.io/anthropic-audio/posts.xml" rel="self" type="application/rss+xml"/>
     <description>Unofficial full-text RSS feed of new posts on Anthropic's research blog, newsroom, and the Claude blog (which publish no RSS of their own). Each item carries the complete post and a link to its audio edition. Not affiliated with Anthropic; content © Anthropic, PBC.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 17:57:44 +0000</lastBuildDate>
+    <image><url>https://jacobbrooke95.github.io/anthropic-audio/icon.png</url><title>Anthropic, Read Aloud — full-text posts</title><link>https://jacobbrooke95.github.io/anthropic-audio/</link></image>
+    <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
+    <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
+    <webfeeds:accentColor>b5532e</webfeeds:accentColor>
+    <lastBuildDate>Fri, 21 Aug 2026 18:20:22 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <item>
       <title>Claude Blog: The AI-Native SDLC playbook</title>

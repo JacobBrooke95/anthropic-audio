@@ -16,7 +16,7 @@ from .discover import discover
 from .extract import extract, Post
 from .speech import build_script, transcript_text
 from .tts import synthesize, tag_mp3, write_vtt
-from .artwork import episode_art, show_cover
+from .artwork import episode_art, show_cover, site_icons
 from .site import write_episode_assets, write_index, localize_images
 from .feed import build_feed, build_text_feed, TEXT_FEED_FILE
 
@@ -66,6 +66,7 @@ def process(url: str, source: str, st: State, *, episode_no: int | None = None) 
 
 def rebuild(st: State):
     show_cover(DOCS / PODCAST["cover_file"])
+    site_icons(DOCS / PODCAST["cover_file"], DOCS)
     for ep in st.episodes:
         pj = DOCS / "posts" / ep["slug"] / "post.json"
         if pj.exists():

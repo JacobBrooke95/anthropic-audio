@@ -115,3 +115,13 @@ def show_cover(out_path: Path) -> None:
     d.text((int(SIZE * 0.08), SIZE - 260), "Not affiliated with Anthropic, PBC", font=f_small, fill=(140, 145, 155))
     out_path.parent.mkdir(parents=True, exist_ok=True)
     canvas.save(out_path, "JPEG", quality=85, optimize=True, progressive=True)
+
+
+def site_icons(cover_path: Path, docs: Path) -> None:
+    """Square icons for feed readers / browser tabs, derived from the show cover."""
+    cover = Image.open(cover_path).convert("RGB")
+    # tighter crop of the cover's title block reads better at small sizes
+    crop = cover.crop((int(SIZE * 0.04), int(SIZE * 0.16), int(SIZE * 0.84), int(SIZE * 0.96)))
+    for name, px in (("icon.png", 400), ("favicon.png", 64), ("apple-touch-icon.png", 180)):
+        im = ImageOps.fit(crop, (px, px), Image.LANCZOS)
+        im.save(docs / name, "PNG", optimize=True)

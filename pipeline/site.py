@@ -36,7 +36,9 @@ def _layout(title: str, body: str, *, depth: int = 0, extra_head: str = "") -> s
 <title>{H.escape(title)}</title>
 <link rel="alternate" type="application/rss+xml" title="{H.escape(PODCAST['title'])} (podcast)" href="{FEED_URL}">
 <link rel="alternate" type="application/rss+xml" title="{H.escape(PODCAST['title'])} (full-text posts)" href="{SITE_URL}/posts.xml">
-<link rel="stylesheet" href="{rel}style.css">{extra_head}
+<link rel="stylesheet" href="{rel}style.css">
+<link rel="icon" type="image/png" sizes="64x64" href="{rel}favicon.png">
+<link rel="apple-touch-icon" href="{rel}apple-touch-icon.png">{extra_head}
 </head><body>
 <header class="site"><h1><a href="{rel}" style="text-decoration:none;color:inherit">{H.escape(PODCAST['title'])}</a></h1>
 <p>{H.escape(PODCAST['subtitle'])}</p></header>
