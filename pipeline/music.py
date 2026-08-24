@@ -1,27 +1,23 @@
-"""Deterministic intro music bed: a warm ambient Fmaj9 synth pad under a sparse
-pluck motif, ducked when the voice enters and faded out by ~9.5 s.
+"""Deterministic music beds: a warm ambient Fmaj9 synth pad (plus a sparse pluck
+motif on the intro) that sits under the cold open and the spoken outro.
 
-Everything here is pure numpy with fixed constants — calling intro_bed() twice
-always yields bit-identical audio. Bed generation runs in the parent process
-only (synthesize() / the `intro` backfill); TTS workers never import-execute it.
+Everything here is pure numpy with fixed constants — the same arguments always
+yield bit-identical audio. Bed generation runs in the parent process only
+(synthesize()); TTS workers never import-execute it.
 """
 from __future__ import annotations
 import numpy as np
 from .config import MUSIC
 
-# ---- timeline (seconds) -----------------------------------------------------
-DURATION = 9.5                    # total bed length
-ATTACK = 1.5                      # slow pad fade-in
-SOLO = float(MUSIC.get("solo", 2.5))   # full level until here (voice enters)
-DUCK_END = SOLO + 0.8             # ducked to DUCK_LEVEL by here (~3.3 s)
-DUCK_LEVEL = 0.25                 # bed level under the voice
-FADE_START = 7.0                  # cosine fade FADE_START → DURATION
+ATTACK = 1.2                      # slow pad fade-in
+DUCK_LEVEL = 0.27                 # bed level under the voice
 
 # ---- level ------------------------------------------------------------------
 # Speech leaves ffmpeg loudnorm with true peaks at -1.5 dBTP (~0.84 linear).
 # Solo-section bed peak 0.70 (~ -3.1 dBFS) is clearly audible but soft; ducked
-# it peaks ~0.175 (~ -15 dBFS), i.e. ~13.5 dB under speech peaks.
+# it peaks ~0.19 (~ -14.4 dBFS), i.e. ~13 dB under speech peaks.
 SOLO_PEAK = 0.70
+OUTRO_PEAK = 0.30                 # outro pad is accompaniment only, never solo-loud
 
 # ---- pad: Fmaj9 voicing (F2 sub + F3 A3 C4 E4 G4) --------------------------
 PAD_NOTES = [                     # (freq Hz, relative amplitude)
@@ -35,13 +31,13 @@ PAD_NOTES = [                     # (freq Hz, relative amplitude)
 DETUNE = 0.0022                   # ±0.22 % pairwise detune → slow chorus beating
 PARTIAL_ROLLOFF = (1.00, 0.30, 0.10)   # harmonics 1..3
 
-# ---- motif: 5 soft plucks on Fmaj9 chord tones ------------------------------
+# ---- motif: soft plucks on Fmaj9 chord tones (intro only) -------------------
 MOTIF = [                         # (onset s, freq Hz, relative amplitude)
-    (0.55, 440.000, 1.00),        # A4
-    (1.30, 523.251, 0.85),        # C5
-    (2.00, 391.995, 0.80),        # G4
-    (2.75, 329.628, 0.70),        # E4
-    (3.50, 440.000, 0.55),        # A4
+    (0.45, 440.000, 1.00),        # A4
+    (1.15, 523.251, 0.85),        # C5
+    (1.90, 391.995, 0.75),        # G4
+    (2.70, 329.628, 0.65),        # E4
+    (3.50, 440.000, 0.50),        # A4
 ]
 PLUCK_TAU = 0.6                   # exponential decay time constant
 PLUCK_H2 = 0.18                   # faint 2nd harmonic
@@ -85,47 +81,65 @@ def _lowpass(x: np.ndarray, sr: int, fc: float = LOWPASS_HZ) -> np.ndarray:
     return np.fft.irfft(spec, n=len(x))
 
 
-def _duck_fade(t: np.ndarray) -> np.ndarray:
-    env = np.ones_like(t)
-    m = (t >= SOLO) & (t < DUCK_END)                      # smooth duck as voice enters
-    x = (t[m] - SOLO) / (DUCK_END - SOLO)
-    env[m] = DUCK_LEVEL + (1.0 - DUCK_LEVEL) * (0.5 + 0.5 * np.cos(np.pi * x))
-    env[(t >= DUCK_END)] = DUCK_LEVEL
-    m = (t >= FADE_START) & (t < DURATION)                # cosine fade to silence
-    x = (t[m] - FADE_START) / (DURATION - FADE_START)
-    env[m] *= 0.5 + 0.5 * np.cos(np.pi * x)
-    env[t >= DURATION] = 0.0
-    return env
+def _cos_step(t: np.ndarray, t0: float, t1: float, from_v: float, to_v: float, env: np.ndarray):
+    """In-place raised-cosine ramp of env from from_v to to_v over [t0, t1]."""
+    m = (t >= t0) & (t < t1)
+    x = (t[m] - t0) / max(t1 - t0, 1e-6)
+    env[m] = from_v + (to_v - from_v) * (0.5 - 0.5 * np.cos(np.pi * x))
+    env[t >= t1] = to_v
 
 
-def intro_bed(sr: int = 24000) -> np.ndarray:
-    """The full ~9.5 s intro bed as mono float32, deterministic for a given sr."""
-    n = int(round(DURATION * sr))
+def intro_bed(sr: int, *, duck_at: float, fade_from: float, duration: float) -> np.ndarray:
+    """Intro bed as mono float32: full level until `duck_at` (the slate voice
+    entry), ducked under the voice, cosine-faded to silence over
+    [fade_from, duration]. Deterministic for given arguments."""
+    n = int(round(duration * sr))
     t = np.arange(n, dtype=np.float64) / sr
-    bed = _lowpass(_pad(t) + _plucks(t), sr) * _duck_fade(t)
+    env = np.ones_like(t)
+    _cos_step(t, duck_at - 0.25, duck_at + 0.55, 1.0, DUCK_LEVEL, env)
+    fade = np.ones_like(t)
+    _cos_step(t, fade_from, duration, 1.0, 0.0, fade)
+    bed = _lowpass(_pad(t) + _plucks(t), sr) * env * fade
     peak = float(np.max(np.abs(bed)))
     if peak > 0:
         bed *= SOLO_PEAK / peak                            # peak lands in the solo section
     return bed.astype(np.float32)
 
 
-def mix_intro(speech: np.ndarray, sr: int, *, limit: float | None = None) -> np.ndarray:
-    """Mix the bed (from t=0) into speech PCM that already starts with the solo
-    lead-in silence. Scales the whole mix down if its peak would exceed `limit`
+def outro_pad(sr: int, *, fade_from: float, duration: float) -> np.ndarray:
+    """Pad-only tail under the spoken outro: fades in over ATTACK, holds low
+    beneath the voice, then cosine-fades to silence over [fade_from, duration]."""
+    n = int(round(duration * sr))
+    t = np.arange(n, dtype=np.float64) / sr
+    fade = np.ones_like(t)
+    _cos_step(t, fade_from, duration, 1.0, 0.0, fade)
+    pad = _lowpass(_pad(t), sr) * fade
+    peak = float(np.max(np.abs(pad)))
+    if peak > 0:
+        pad *= OUTRO_PEAK / peak
+    return pad.astype(np.float32)
+
+
+def mix_beds(speech: np.ndarray, sr: int, *, intro: np.ndarray | None,
+             outro: np.ndarray | None = None, outro_at: float = 0.0,
+             limit: float | None = None) -> np.ndarray:
+    """Mix the intro bed (from t=0) and the outro pad (from `outro_at` seconds)
+    into speech PCM. Scales the whole mix down iff its peak would exceed `limit`
     so the encoded file can never clip."""
     limit = float(MUSIC.get("limit", 0.89)) if limit is None else float(limit)
-    bed = intro_bed(sr)
-    n = max(len(speech), len(bed))
+    n = len(speech)
+    if outro is not None:
+        n = max(n, int(round(outro_at * sr)) + len(outro))
+    if intro is not None:
+        n = max(n, len(intro))
     out = np.zeros(n, dtype=np.float32)
     out[: len(speech)] += np.asarray(speech, dtype=np.float32)
-    out[: len(bed)] += bed
+    if intro is not None:
+        out[: len(intro)] += intro
+    if outro is not None:
+        o = int(round(outro_at * sr))
+        out[o: o + len(outro)] += outro
     peak = float(np.max(np.abs(out))) if n else 0.0
     if peak > limit:
         out *= limit / peak
     return out
-
-
-def add_intro(speech: np.ndarray, sr: int) -> np.ndarray:
-    """Prepend SOLO seconds of silence to speech, then mix the bed (backfill path)."""
-    lead = np.zeros(int(round(SOLO * sr)), dtype=np.float32)
-    return mix_intro(np.concatenate([lead, np.asarray(speech, dtype=np.float32)]), sr)

@@ -28,6 +28,7 @@ CSS = """
   }
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;font:16px/1.6 "Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
 img{max-width:100%}
@@ -77,6 +78,12 @@ main{padding:0 0 4.5rem}
   background:var(--card);color:var(--muted);cursor:pointer;transition:all .15s ease}
 .filter button:hover{border-color:var(--accent);color:var(--link)}
 .filter button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.idx-tools{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.search{font:inherit;font-size:.85rem;padding:.38rem .95rem;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--fg);min-width:200px}
+.search::placeholder{color:var(--muted)}
+.stats{margin:.3rem 0 0;font-size:.82rem;color:var(--muted)}
+.no-results{color:var(--muted);font-size:.95rem;margin:1.2rem 0}
 
 .badge{display:inline-block;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
   padding:.2rem .6rem;border-radius:999px;color:var(--cream);background:#555}
@@ -118,6 +125,46 @@ h1.ep-title{margin:.1rem 0 .5rem;font-size:clamp(1.55rem,3.4vw,2.35rem);line-hei
   font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .player .plabel .dur{letter-spacing:.02em}
 audio{width:100%;display:block}
+
+/* ---- custom player (progressive enhancement over the native <audio>) ---- */
+.player.enhanced>audio{display:none}
+.p-main{display:flex;align-items:center;gap:.9rem;margin-top:.2rem}
+.p-play{flex:none;width:54px;height:54px;border-radius:50%;border:none;background:var(--accent);color:var(--ink);
+  display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;
+  box-shadow:0 2px 8px rgba(204,120,92,.35);transition:transform .15s ease,background .15s ease}
+.p-play:hover{background:#d8896d;transform:scale(1.06)}
+.p-play svg{width:24px;height:24px;fill:currentColor;display:block}
+.p-right{flex:1;min-width:0}
+.p-bar{position:relative;height:24px;cursor:pointer;touch-action:none}
+.p-bar::before{content:"";position:absolute;left:0;right:0;top:50%;height:6px;transform:translateY(-50%);border-radius:999px;background:var(--line)}
+.p-buf,.p-fill{position:absolute;left:0;top:50%;height:6px;max-width:100%;transform:translateY(-50%);border-radius:999px;pointer-events:none}
+.p-buf{background:color-mix(in srgb,var(--muted) 28%,transparent)}
+.p-fill{background:var(--accent)}
+.p-knob{position:absolute;top:50%;left:0;width:14px;height:14px;border-radius:50%;background:var(--accent);
+  border:2px solid var(--card);box-shadow:0 1px 4px rgba(0,0,0,.35);transform:translate(-50%,-50%);pointer-events:none}
+.p-times{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;margin-top:.1rem;
+  font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.p-chap{flex:1;min-width:0;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--fg);font-weight:500}
+.p-ctl{display:flex;justify-content:center;align-items:center;gap:.45rem;margin-top:.6rem;flex-wrap:wrap}
+.p-ctl button{font:inherit;font-size:.78rem;font-weight:600;padding:.34rem .72rem;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--fg);cursor:pointer;font-variant-numeric:tabular-nums;transition:border-color .15s ease,color .15s ease}
+.p-ctl button:hover{border-color:var(--accent);color:var(--link)}
+.p-rate{min-width:4.6em}
+.p-resume{margin:.6rem .1rem 0;font-size:.8rem;color:var(--muted)}
+.p-resume button{font:inherit;font-size:.8rem;border:none;background:none;padding:0;color:var(--link);cursor:pointer;text-decoration:underline}
+
+/* ---- chapters ---- */
+.chapters{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);margin:0 0 .9rem;padding:.85rem 1.05rem .55rem}
+.chapters .c-h{margin:0 0 .35rem;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.chapters ol{list-style:none;margin:0;padding:0}
+.chapters li{border-top:1px solid var(--line)}
+.chapters li:first-child{border-top:none}
+.chapters li button{display:flex;align-items:baseline;gap:.75rem;width:100%;text-align:left;font:inherit;font-size:.9rem;
+  padding:.44rem .15rem;border:none;background:none;color:var(--fg);cursor:pointer}
+.chapters .c-t{flex:none;min-width:3.4em;font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.chapters li button:hover .c-n{color:var(--link)}
+.chapters li button.now .c-n{color:var(--link);font-weight:700}
+.chapters li button.now .c-t{color:var(--accent);font-weight:700}
 .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin:.9rem 0 0}
 .chip{font-size:.83rem;padding:.42rem .9rem;border-radius:999px;border:1px solid var(--line);background:var(--card);
   text-decoration:none;color:var(--fg);transition:border-color .15s ease,color .15s ease}
@@ -136,6 +183,11 @@ details.panel>.inner{padding:1.1rem 1.6rem 1.5rem;border-top:1px solid var(--lin
 .notes ul{padding-left:1.25rem}
 .notes li{margin:.3rem 0}
 .tr-out{white-space:pre-wrap;font-size:.98rem;line-height:1.7;margin:0}
+.tr-body{position:relative;max-height:min(62vh,540px);overflow-y:auto;padding-right:.4rem;overscroll-behavior:contain;scroll-behavior:smooth}
+.tr-body p{margin:0 0 1.05em;font-size:.98rem;line-height:1.72}
+.cue{cursor:pointer;border-radius:4px;padding:.04em .1em;transition:background .15s ease}
+.cue:hover,.cue:focus-visible{background:var(--code)}
+.cue.now{background:color-mix(in srgb,var(--accent) 30%,transparent)}
 
 /* ---- long-form post copy: editorial serif ---- */
 article.post{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:1.07rem;line-height:1.75}
@@ -240,21 +292,235 @@ document.querySelectorAll('[data-feed]').forEach(function(b){b.addEventListener(
   try{await navigator.clipboard.writeText(b.dataset.feed)}catch(e){window.prompt('Copy the feed URL:',b.dataset.feed);return}
   var t=b.textContent;b.textContent='Copied ✓';setTimeout(function(){b.textContent=t},1800)})});
 var fb=document.querySelectorAll('.filter button');
+var q=document.getElementById('epsearch');
+var nores=document.getElementById('noresults');
+var activeSrc='all';
+function applyFilters(){
+  var query=(q&&q.value||'').trim().toLowerCase(),shown=0;
+  document.querySelectorAll('[data-source]').forEach(function(c){
+    var hide=(activeSrc!=='all'&&c.dataset.source!==activeSrc)||
+             (query&&(c.dataset.search||'').indexOf(query)<0);
+    c.hidden=hide;if(!hide)shown++});
+  if(nores)nores.hidden=shown>0}
 fb.forEach(function(btn){btn.addEventListener('click',function(){
   fb.forEach(function(x){x.setAttribute('aria-pressed',String(x===btn))});
-  var s=btn.dataset.filter;
-  document.querySelectorAll('[data-source]').forEach(function(c){c.hidden=(s!=='all'&&c.dataset.source!==s)})})});
+  activeSrc=btn.dataset.filter;applyFilters()})});
+if(q)q.addEventListener('input',applyFilters);
 </script>"""
 
-EPISODE_JS = """<script>
-var d=document.getElementById('transcript');
-if(d){d.addEventListener('toggle',function(){
-  if(!d.open||d.dataset.done)return;d.dataset.done='1';
-  var o=d.querySelector('.tr-out');o.textContent='Loading transcript…';
-  fetch(d.dataset.src).then(function(r){if(!r.ok)throw 0;return r.text()})
-    .then(function(t){o.textContent=t})
-    .catch(function(){o.textContent='Could not load the transcript here — use the “Transcript (text)” link above instead.'})})}
-</script>"""
+# Shared episode-page script (docs/player.js): custom audio player, synced VTT
+# transcript, chapters. Pure progressive enhancement — with JS off the native
+# <audio controls> element stays visible and everything still works.
+PLAYER_JS = r"""(function(){
+'use strict';
+var player=document.getElementById('player');
+if(!player)return;
+var audio=player.querySelector('audio');
+if(!audio)return;
+
+function fmt(t){t=Math.max(0,Math.round(t));var h=Math.floor(t/3600),m=Math.floor(t%3600/60),s=t%60;
+  function p(n){return (n<10?'0':'')+n}
+  return h?h+':'+p(m)+':'+p(s):m+':'+p(s)}
+
+/* ---------- enhance the player ---------- */
+var ui=player.querySelector('.pui');
+audio.removeAttribute('controls');
+audio.preload='metadata';
+player.classList.add('enhanced');
+if(ui)ui.hidden=false;
+
+var slug=player.dataset.slug||location.pathname;
+var KEY='anthropic-audio:'+slug;
+var chapters=[],cues=[],trBody=null,activeCue=null,lastUserScroll=0,progScrollUntil=0;
+var epDur=parseFloat(player.dataset.dur)||0;
+function dur(){return (isFinite(audio.duration)&&audio.duration>0)?audio.duration:epDur}
+function store(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return {}}}
+function save(patch){try{var s=store();for(var k in patch)s[k]=patch[k];s.t=Date.now();
+  localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+
+var playBtn=player.querySelector('.p-play'),bar=player.querySelector('.p-bar'),
+    fill=player.querySelector('.p-fill'),buf=player.querySelector('.p-buf'),
+    knob=player.querySelector('.p-knob'),curEl=player.querySelector('.p-cur'),
+    durEl=player.querySelector('.p-dur'),chapEl=player.querySelector('.p-chap'),
+    rateBtn=player.querySelector('.p-rate'),resumeEl=player.querySelector('.p-resume');
+
+var ICON_PLAY='<path d="M8 5v14l11-7z"/>',ICON_PAUSE='<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
+function setIcon(){playBtn.querySelector('svg').innerHTML=audio.paused?ICON_PLAY:ICON_PAUSE;
+  playBtn.setAttribute('aria-label',audio.paused?'Play':'Pause')}
+
+/* speed */
+var RATES=[1,1.25,1.5,1.75,2],rate=1,st0=store();
+if(st0.r&&RATES.indexOf(st0.r)>-1)rate=st0.r;
+audio.playbackRate=rate;
+function rateLabel(){rateBtn.textContent=rate+'×'}
+rateLabel();
+rateBtn.addEventListener('click',function(){
+  rate=RATES[(RATES.indexOf(rate)+1)%RATES.length];
+  audio.playbackRate=rate;rateLabel();save({r:rate})});
+
+/* resume */
+var pendingSeek=null;
+if(st0.p>30&&epDur-st0.p>60){
+  pendingSeek=st0.p;
+  if(resumeEl){resumeEl.querySelector('.p-resume-t').textContent=fmt(st0.p);resumeEl.hidden=false}
+}
+var restart=player.querySelector('.p-restart');
+if(restart)restart.addEventListener('click',function(){
+  pendingSeek=null;try{audio.currentTime=0}catch(e){}
+  save({p:0});resumeEl.hidden=true;paint()});
+audio.addEventListener('loadedmetadata',function(){
+  if(pendingSeek!=null&&pendingSeek<audio.duration-1)audio.currentTime=pendingSeek;
+  pendingSeek=null;paint()});
+
+/* paint loop */
+function pos(){return pendingSeek!=null?pendingSeek:audio.currentTime}
+function paint(){
+  var d=dur()||1,t=pos(),pct=Math.min(100,t/d*100);
+  fill.style.width=pct+'%';knob.style.left=pct+'%';
+  curEl.textContent=fmt(t);durEl.textContent=fmt(d);
+  bar.setAttribute('aria-valuemax',String(Math.round(d)));
+  bar.setAttribute('aria-valuenow',String(Math.round(t)));
+  bar.setAttribute('aria-valuetext',fmt(t)+' of '+fmt(d));
+  try{var b=audio.buffered;if(b.length)buf.style.width=Math.min(100,b.end(b.length-1)/d*100)+'%'}catch(e){}
+  syncChapter(t);syncCue(t)}
+
+function seekTo(t){
+  t=Math.max(0,Math.min(t,(dur()||1)-.05));
+  if(audio.readyState<1){pendingSeek=t;try{audio.load()}catch(e){}}
+  else{audio.currentTime=t}
+  save({p:t});paint()}
+function skip(d){seekTo(pos()+d)}
+function toggle(){if(audio.paused)audio.play();else audio.pause()}
+
+playBtn.addEventListener('click',toggle);
+player.querySelectorAll('[data-skip]').forEach(function(b){
+  b.addEventListener('click',function(){skip(parseFloat(b.dataset.skip))})});
+
+/* seek bar: click + drag */
+var dragging=false;
+function barSeek(ev){var r=bar.getBoundingClientRect();
+  seekTo(Math.max(0,Math.min(1,(ev.clientX-r.left)/r.width))*dur())}
+bar.addEventListener('pointerdown',function(e){
+  dragging=true;try{bar.setPointerCapture(e.pointerId)}catch(x){}barSeek(e);e.preventDefault()});
+bar.addEventListener('pointermove',function(e){if(dragging)barSeek(e)});
+bar.addEventListener('pointerup',function(){dragging=false});
+bar.addEventListener('pointercancel',function(){dragging=false});
+
+/* keyboard: space play/pause, arrows seek — when focus is inside the player */
+player.addEventListener('keydown',function(e){
+  if(e.key===' '||e.code==='Space'){
+    if(e.target.tagName==='BUTTON')return;
+    e.preventDefault();toggle()}
+  else if(e.key==='ArrowLeft'){e.preventDefault();skip(-15)}
+  else if(e.key==='ArrowRight'){e.preventDefault();skip(15)}});
+
+audio.addEventListener('play',setIcon);
+audio.addEventListener('pause',function(){setIcon();save({p:audio.currentTime})});
+audio.addEventListener('ended',function(){setIcon();save({p:0})});
+var lastSave=0;
+audio.addEventListener('timeupdate',function(){paint();
+  var n=Date.now();if(!audio.paused&&n-lastSave>5000){lastSave=n;save({p:audio.currentTime})}});
+audio.addEventListener('progress',paint);
+audio.addEventListener('ratechange',function(){if(RATES.indexOf(audio.playbackRate)>-1){rate=audio.playbackRate;rateLabel()}});
+window.addEventListener('pagehide',function(){
+  if(audio.currentTime>1&&!audio.ended)save({p:audio.currentTime})});
+setIcon();paint();
+
+/* ---------- chapters ---------- */
+var chapNav=document.getElementById('chapters');
+function syncChapter(t){
+  if(!chapters.length)return;
+  var c=null;
+  for(var i=0;i<chapters.length;i++){if(t>=chapters[i].startTime-.3)c=chapters[i];else break}
+  if(chapEl)chapEl.textContent=c?c.title:'';
+  chapters.forEach(function(x){if(x.el)x.el.classList.toggle('now',x===c)})}
+if(chapNav&&window.fetch){
+  fetch(chapNav.dataset.src).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+    chapters=(j.chapters||[]).filter(function(c){
+      return typeof c.startTime==='number'&&c.title}).sort(function(a,b){return a.startTime-b.startTime});
+    if(!chapters.length)return;
+    var h=document.createElement('h2');h.className='c-h';h.textContent='Chapters';
+    var ol=document.createElement('ol');
+    chapters.forEach(function(c){
+      var li=document.createElement('li'),b=document.createElement('button');
+      b.type='button';
+      var tt=document.createElement('span');tt.className='c-t';tt.textContent=fmt(c.startTime);
+      var nn=document.createElement('span');nn.className='c-n';nn.textContent=c.title;
+      b.appendChild(tt);b.appendChild(nn);
+      b.addEventListener('click',function(){seekTo(c.startTime);if(audio.paused)audio.play()});
+      c.el=b;li.appendChild(b);ol.appendChild(li)});
+    chapNav.appendChild(h);chapNav.appendChild(ol);chapNav.hidden=false;paint()
+  }).catch(function(){})}
+
+/* ---------- synced transcript ---------- */
+var tr=document.getElementById('transcript');
+
+function parseVTT(text){
+  var out=[],lines=text.replace(/\r/g,'').split('\n'),i=0;
+  var TIME=/(?:(\d+):)?(\d+):(\d+)[.,](\d+)\s*-->\s*(?:(\d+):)?(\d+):(\d+)[.,](\d+)/;
+  while(i<lines.length){
+    var m=TIME.exec(lines[i]);
+    if(m){
+      var s=(m[1]?+m[1]*3600:0)+ +m[2]*60+ +m[3]+ +('0.'+m[4]);
+      var e=(m[5]?+m[5]*3600:0)+ +m[6]*60+ +m[7]+ +('0.'+m[8]);
+      i++;var txt=[];
+      while(i<lines.length&&lines[i].trim()!==''){txt.push(lines[i].trim());i++}
+      var body=txt.join(' ').replace(/<[^>]+>/g,'').trim();
+      if(body)out.push({s:s,e:e,text:body})
+    }
+    i++}
+  return out}
+
+function buildSynced(vtt){
+  cues=parseVTT(vtt);
+  if(!cues.length)return false;
+  trBody=tr.querySelector('.tr-body');
+  trBody.innerHTML='';
+  var p=null,plen=0,prevEnd=-10;
+  cues.forEach(function(c){
+    if(!p||c.s-prevEnd>1.4||plen>650){
+      p=document.createElement('p');trBody.appendChild(p);plen=0}
+    else p.appendChild(document.createTextNode(' '));
+    var sp=document.createElement('span');
+    sp.className='cue';sp.textContent=c.text;sp.tabIndex=0;sp.setAttribute('role','button');
+    sp.setAttribute('aria-label','Play from '+fmt(c.s));
+    function go(){seekTo(c.s+.01);if(audio.paused)audio.play()}
+    sp.addEventListener('click',go);
+    sp.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();go()}});
+    p.appendChild(sp);c.el=sp;plen+=c.text.length;prevEnd=c.e});
+  trBody.addEventListener('scroll',function(){
+    if(Date.now()<progScrollUntil)return;lastUserScroll=Date.now()});
+  syncCue(pos());
+  return true}
+
+function syncCue(t){
+  if(!cues.length||!tr||!tr.open)return;
+  var c=null;
+  for(var i=0;i<cues.length;i++){
+    if(t>=cues[i].s-.15&&t<cues[i].e+.35){c=cues[i];break}}
+  if(c===activeCue)return;
+  if(activeCue&&activeCue.el)activeCue.el.classList.remove('now');
+  activeCue=c;
+  if(c&&c.el){
+    c.el.classList.add('now');
+    if(!audio.paused&&trBody&&Date.now()-lastUserScroll>4000){
+      var top=c.el.getBoundingClientRect().top-trBody.getBoundingClientRect().top+trBody.scrollTop;
+      progScrollUntil=Date.now()+1200;
+      trBody.scrollTop=Math.max(0,top-trBody.clientHeight/2)}}}
+
+if(tr){tr.addEventListener('toggle',function(){
+  if(!tr.open||tr.dataset.done)return;tr.dataset.done='1';
+  var o=tr.querySelector('.tr-out');
+  o.textContent='Loading transcript…';
+  function fallback(){
+    fetch(tr.dataset.txt).then(function(r){if(!r.ok)throw 0;return r.text()})
+      .then(function(t){o.textContent=t})
+      .catch(function(){o.textContent='Could not load the transcript here — use the “Transcript (text)” link above instead.'})}
+  fetch(tr.dataset.vtt).then(function(r){if(!r.ok)throw 0;return r.text()})
+    .then(function(t){if(!buildSynced(t))fallback()})
+    .catch(fallback)})}
+})();
+"""
 
 
 def render_blocks_html(blocks: list[dict], img_prefix: str = "") -> str:
@@ -378,8 +644,30 @@ def write_episode_assets(post, ep: dict, transcript_txt: str) -> None:
 <div class="row">{_badge(post.source)}<span class="meta">{epno}{parse_iso(post.date).strftime('%B %-d, %Y')}{authors} · {post.word_count:,} words</span></div>
 <h1 class="ep-title">{H.escape(post.title)}</h1>
 {subtitle_html}
-<div class="player"><p class="plabel"><span>Listen to this episode</span><span class="dur">{hms(ep['duration'])}</span></p>
-<audio controls preload="none" src="../../audio/{post.slug}.mp3"></audio></div>
+<div class="player" id="player" data-slug="{post.slug}" data-dur="{ep['duration']:.1f}">
+<p class="plabel"><span>Listen to this episode</span><span class="dur">{hms(ep['duration'])}</span></p>
+<audio controls preload="none" src="../../audio/{post.slug}.mp3"></audio>
+<div class="pui" hidden>
+<div class="p-main">
+<button type="button" class="p-play" aria-label="Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+<div class="p-right">
+<div class="p-bar" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="{ep['duration']:.0f}" aria-valuenow="0" aria-valuetext="0:00">
+<div class="p-buf"></div><div class="p-fill"></div><div class="p-knob"></div>
+</div>
+<div class="p-times"><span class="p-cur">0:00</span><span class="p-chap"></span><span class="p-dur">{hms(ep['duration'])}</span></div>
+</div>
+</div>
+<div class="p-ctl">
+<button type="button" data-skip="-30" title="Back 30 seconds" aria-label="Back 30 seconds">−30s</button>
+<button type="button" data-skip="-15" title="Back 15 seconds" aria-label="Back 15 seconds">−15s</button>
+<button type="button" class="p-rate" title="Playback speed" aria-label="Playback speed">1×</button>
+<button type="button" data-skip="15" title="Forward 15 seconds" aria-label="Forward 15 seconds">+15s</button>
+<button type="button" data-skip="30" title="Forward 30 seconds" aria-label="Forward 30 seconds">+30s</button>
+</div>
+<p class="p-resume" hidden>Resumed at <span class="p-resume-t"></span> — <button type="button" class="p-restart">start over</button></p>
+</div>
+</div>
+<nav class="chapters" id="chapters" hidden aria-label="Chapters" data-src="../../chapters/{post.slug}.json"></nav>
 <div class="actions">
 <a class="chip" href="../../audio/{post.slug}.mp3" download>Download MP3</a>
 <a class="chip" href="../../transcripts/{post.slug}.vtt">Transcript (VTT)</a>
@@ -394,10 +682,11 @@ def write_episode_assets(post, ep: dict, transcript_txt: str) -> None:
 <summary>Show notes &amp; every link in the post</summary>
 <div class="inner">{show_notes_html(ep)}</div>
 </details>
-<details class="panel" id="transcript" data-src="../../transcripts/{post.slug}.txt">
+<details class="panel" id="transcript" data-vtt="../../transcripts/{post.slug}.vtt" data-txt="../../transcripts/{post.slug}.txt">
 <summary>Transcript</summary>
-<div class="inner"><p class="meta">Also available as <a href="../../transcripts/{post.slug}.vtt">WebVTT (timed)</a> or <a href="../../transcripts/{post.slug}.txt">plain text</a>.</p>
-<pre class="tr-out"></pre></div>
+<div class="inner"><p class="meta">Click any line to jump the audio there. Also available as <a href="../../transcripts/{post.slug}.vtt">WebVTT (timed)</a> or <a href="../../transcripts/{post.slug}.txt">plain text</a>.</p>
+<div class="tr-body"><pre class="tr-out"></pre></div>
+<noscript><p class="meta">JavaScript is off — read the transcript via the links above.</p></noscript></div>
 </details>
 <details class="panel" open>
 <summary>Full text of the post</summary>
@@ -407,7 +696,7 @@ def write_episode_assets(post, ep: dict, transcript_txt: str) -> None:
 </article></div>
 </details>
 </article>
-{EPISODE_JS}"""
+<script src="../../player.js" defer></script>"""
     html_page = _layout(f"{post.title} — {PODCAST['title']}", page, depth=2,
                         header_html=_topnav(),
                         description=(post.subtitle or post.title),
@@ -415,10 +704,16 @@ def write_episode_assets(post, ep: dict, transcript_txt: str) -> None:
     (edir / "index.html").write_text(html_page)
 
 
+def _search_attr(ep: dict) -> str:
+    """Lower-cased title+subtitle blob for the client-side search box."""
+    blob = f"{ep.get('title') or ''} {ep.get('subtitle') or ''}".lower()
+    return H.escape(re.sub(r"\s+", " ", blob).strip(), quote=True)
+
+
 def _card(ep: dict) -> str:
     sub = (ep.get("subtitle") or "").strip()
     sub_html = f'<p class="sub">{H.escape(sub[:200])}</p>' if sub else ""
-    return f"""<a class="card" data-source="{H.escape(ep['source'])}" href="episodes/{ep['slug']}/">
+    return f"""<a class="card" data-source="{H.escape(ep['source'])}" data-search="{_search_attr(ep)}" href="episodes/{ep['slug']}/">
 <img src="art/{ep['slug']}.600.jpg" alt="" loading="lazy">
 <div class="body">
 <div class="row">{_badge(ep['source'])}<span class="meta">Ep. {ep['episode']} · {parse_iso(ep['date']).strftime('%b %-d, %Y')} · {hms(ep['duration'])}</span></div>
@@ -430,7 +725,7 @@ def _card(ep: dict) -> str:
 def _feature(ep: dict) -> str:
     sub = (ep.get("subtitle") or "").strip()
     sub_html = f'<p class="sub">{H.escape(sub[:260])}</p>' if sub else ""
-    return f"""<section aria-label="Latest episode" data-source="{H.escape(ep['source'])}">
+    return f"""<section aria-label="Latest episode" data-source="{H.escape(ep['source'])}" data-search="{_search_attr(ep)}">
 <div class="section-head"><h2 class="sec">Latest episode</h2></div>
 <article class="feature">
 <a class="feature-art" href="episodes/{ep['slug']}/" aria-hidden="true" tabindex="-1"><img src="art/{ep['slug']}.600.jpg" alt=""></a>
@@ -443,9 +738,18 @@ def _feature(ep: dict) -> str:
 </div></article></section>"""
 
 
+def _listen_time(total_seconds: float) -> str:
+    """'6.4 hours' / '54 minutes' for the index stats strip."""
+    if total_seconds >= 3600:
+        h = total_seconds / 3600
+        return f"{h:.1f} hours".replace(".0 ", " ")
+    return f"{max(1, round(total_seconds / 60))} minutes"
+
+
 def write_index(episodes: list[dict]) -> None:
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "style.css").write_text(CSS)
+    (DOCS / "player.js").write_text(PLAYER_JS)
     (DOCS / ".nojekyll").write_text("")
     eps = sorted(episodes, key=lambda e: e["date"], reverse=True)
     body = ""
@@ -455,11 +759,15 @@ def write_index(episodes: list[dict]) -> None:
         filt = "".join(
             f'<button type="button" data-filter="{k}" aria-pressed="false">{H.escape(s["label"])}</button>'
             for k, s in SOURCES.items())
+        stats = f"{len(eps)} episodes · {_listen_time(sum(e['duration'] for e in eps))} of listening"
         body += f"""<section aria-label="All episodes">
-<div class="section-head"><h2 class="sec">All episodes <span aria-hidden="true">·</span> {len(eps)}</h2>
+<div class="section-head"><div><h2 class="sec">All episodes</h2><p class="stats">{stats}</p></div>
+<div class="idx-tools">
+<input class="search" id="epsearch" type="search" placeholder="Search episodes…" aria-label="Search episodes by title">
 <div class="filter" role="group" aria-label="Filter by source">
-<button type="button" data-filter="all" aria-pressed="true">All</button>{filt}</div></div>
-<div class="grid">{''.join(_card(e) for e in rest)}</div></section>"""
+<button type="button" data-filter="all" aria-pressed="true">All</button>{filt}</div></div></div>
+<div class="grid">{''.join(_card(e) for e in rest)}</div>
+<p class="no-results" id="noresults" hidden>No episodes match — try a different search or filter.</p></section>"""
     body += INDEX_JS
     (DOCS / "index.html").write_text(_layout(
         f"{PODCAST['title']} — unofficial audio editions of Anthropic's posts",

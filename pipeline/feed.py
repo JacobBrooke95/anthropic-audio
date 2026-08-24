@@ -129,6 +129,9 @@ def build_feed(episodes: list[dict]) -> str:
             f'      <enclosure url="{audio}" length="{ep["bytes"]}" type="audio/mpeg"/>',
             f"      <itunes:duration>{int(round(ep['duration']))}</itunes:duration>",
             f'      <itunes:image href="{art}"/>',
+            f'      <podcast:transcript url="{SITE_URL}/transcripts/{ep["slug"]}.vtt" type="text/vtt"/>',
+            *([f'      <podcast:chapters url="{SITE_URL}/chapters/{ep["slug"]}.json" type="application/json+chapters"/>']
+              if (DOCS / "chapters" / f"{ep['slug']}.json").exists() else []),
             f"      <itunes:author>{escape(', '.join(ep['authors']) if ep.get('authors') else 'Anthropic')}</itunes:author>",
             f"      <itunes:subtitle>{escape((ep.get('subtitle') or src['name'])[:250])}</itunes:subtitle>",
             f"      <itunes:summary>{escape(show_notes_text(ep))}</itunes:summary>",
