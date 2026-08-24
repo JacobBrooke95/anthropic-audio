@@ -89,6 +89,13 @@ TTS = {
     "max_code_lines_read": 3,
 }
 
+# ---- Intro music -------------------------------------------------------------
+MUSIC = {
+    "enabled": True,   # mix the deterministic intro bed (pipeline/music.py) into new episodes
+    "solo": 2.5,       # seconds of music alone before the speech timeline starts (VTT cues shift by this)
+    "limit": 0.89,     # post-mix peak ceiling (~ -1 dBFS) so the encoded MP3 cannot clip
+}
+
 # ---- Run policy ---------------------------------------------------------------
 MAX_PER_RUN = 3          # safety valve: episodes generated per invocation
 MAX_RETRIES = 3          # failed posts are retried on later runs up to this many times

@@ -26,7 +26,8 @@ GitHub Actions (hourly cron, PT business-hours guard)
      │                long code blocks summarised, footnotes at the end, TTS normalisation)
      ├─ tts.py        Kokoro-82M ONNX (CPU, multi-process) → loudness-normalised 64 kbps MP3,
      │                ID3 tags + embedded art, WebVTT transcript from per-chunk timings
-     ├─ artwork.py    3000×3000 JPEG episode art from the post's og:image + show cover
+     ├─ artwork.py    3000×3000 JPEG episode art: keys the post's og:image illustration out of
+     │                its flat background, floats it on a gradient of the same colour + show cover
      ├─ site.py       docs/: index, episode pages (player + show notes + full text), post.md/.json
      ├─ feed.py       docs/feed.xml (RSS 2.0 + itunes + podcast namespaces)
      └─ state.py      state/episodes.json (seen URLs, episode catalogue, baseline date)

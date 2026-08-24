@@ -1,825 +1,825 @@
 WEBVTT
 
 1
-00:00:00.500 --> 00:00:02.674
+00:00:03.000 --> 00:00:05.174
 The Claude Code guide for startups.
 
 2
-00:00:03.124 --> 00:00:16.018
+00:00:05.624 --> 00:00:18.518
 The five rules startups use with Claude Code to ship like teams 10 x their size, Anthropic's guide to A I-native building, from everyone-ships culture to A I-native SDLCs.
 
 3
-00:00:16.468 --> 00:00:20.684
+00:00:18.968 --> 00:00:23.184
 From Claude Blog, published August 20, 2026.
 
 4
-00:00:21.684 --> 00:00:28.838
+00:00:24.184 --> 00:00:31.338
 cs- shared styles for The Claude Code Guide for Startups. Paste once at the top of the body. v5
 
 5
-00:00:29.288 --> 00:00:30.732
+00:00:31.788 --> 00:00:33.232
 Prefer a P D F?
 
 6
-00:00:31.182 --> 00:00:41.590
+00:00:33.682 --> 00:00:44.090
 This guide is also available for download, the same five rules, founder insights, and checklist, laid out for reading offline or sharing with your team.
 
 7
-00:00:42.040 --> 00:00:44.105
+00:00:44.540 --> 00:00:46.605
 Download the P D F ↓
 
 8
-00:00:44.905 --> 00:00:47.005
+00:00:47.405 --> 00:00:49.505
 A I natives working at the frontier.
 
 9
-00:00:47.455 --> 00:00:53.876
+00:00:49.955 --> 00:00:56.376
 If you want to take a peek at the future of work, ask startups how they are operating today. So we did.
 
 10
-00:00:54.326 --> 00:01:12.603
+00:00:56.826 --> 00:01:15.103
 We spoke with more than a dozen fast-growing startups about how they use agentic coding tools to build products and scale their companies. These startups are changing the rules of who gets to build, what gets scrapped, and how to create a flywheel between how you build and what you build.
 
 11
-00:01:13.053 --> 00:01:16.866
+00:01:15.553 --> 00:01:19.366
 And they are shipping like organizations ten times their size.
 
 12
-00:01:17.316 --> 00:01:31.288
+00:01:19.816 --> 00:01:33.788
 ClickHouse 30 percent more features shippedOmni 2 to 3 x engineering productivityClay 100 percent of bug triage automatedArtemis Security 6000+ P Rs a week
 
 13
-00:01:31.738 --> 00:01:42.533
+00:01:34.238 --> 00:01:45.033
 In this guide, we'll dive into the unique deployments of these organizations to learn the rules they follow to ship fast and maintain their competitive advantage.
 
 14
-00:01:42.983 --> 00:01:54.448
+00:01:45.483 --> 00:01:56.948
 In doing so we'll also start to glean an answer to the question: what would it look like if an organization built their product development lifecycle with Claude Code from the ground up?
 
 15
-00:01:54.898 --> 00:01:55.991
+00:01:57.398 --> 00:01:58.491
 The five rules
 
 16
-00:01:56.441 --> 00:01:57.859
+00:01:58.941 --> 00:02:00.359
 1. Everyone ships.
 
 17
-00:01:58.099 --> 00:01:59.641
+00:02:00.599 --> 00:02:02.141
 2. Automate the tedium.
 
 18
-00:01:59.881 --> 00:02:01.643
+00:02:02.381 --> 00:02:04.143
 3. Trust, but verify.
 
 19
-00:02:01.883 --> 00:02:03.586
+00:02:04.383 --> 00:02:06.086
 4. Build for rebuilding.
 
 20
-00:02:03.826 --> 00:02:06.951
+00:02:06.326 --> 00:02:09.451
 5. Prototype, dogfood, productionize.
 
 21
-00:02:07.401 --> 00:02:09.290
+00:02:09.901 --> 00:02:11.790
 Featuring founder insights from
 
 22
-00:02:09.740 --> 00:02:11.127
+00:02:12.240 --> 00:02:13.627
 Artemis Security
 
 23
-00:02:11.577 --> 00:02:12.298
+00:02:14.077 --> 00:02:14.798
 Cainex
 
 24
-00:02:12.748 --> 00:02:13.335
+00:02:15.248 --> 00:02:15.835
 Clay
 
 25
-00:02:13.785 --> 00:02:14.676
+00:02:16.285 --> 00:02:17.176
 ClickHouse
 
 26
-00:02:15.126 --> 00:02:15.983
+00:02:17.626 --> 00:02:18.483
 Cognition
 
 27
-00:02:16.433 --> 00:02:17.142
+00:02:18.933 --> 00:02:19.642
 Commure
 
 28
-00:02:17.592 --> 00:02:18.361
+00:02:20.092 --> 00:02:20.861
 Crosby
 
 29
-00:02:18.811 --> 00:02:19.657
+00:02:21.311 --> 00:02:22.157
 Emergent
 
 30
-00:02:20.107 --> 00:02:20.779
+00:02:22.607 --> 00:02:23.279
 Harvey
 
 31
-00:02:21.229 --> 00:02:21.912
+00:02:23.729 --> 00:02:24.412
 Heidi
 
 32
-00:02:22.362 --> 00:02:23.253
+00:02:24.862 --> 00:02:25.753
 Higgsfield
 
 33
-00:02:23.703 --> 00:02:24.368
+00:02:26.203 --> 00:02:26.868
 Omni
 
 34
-00:02:24.818 --> 00:02:25.601
+00:02:27.318 --> 00:02:28.101
 Parahelp
 
 35
-00:02:26.051 --> 00:02:27.007
+00:02:28.551 --> 00:02:29.507
 Translucent
 
 36
-00:02:27.457 --> 00:02:28.356
+00:02:29.957 --> 00:02:30.856
 Zingage
 
 37
-00:02:28.806 --> 00:02:39.247
+00:02:31.306 --> 00:02:41.747
 Tip: Only interested in the practical next steps? We've put a checklist at the end of this guide that consolidates the key technical tips contained in each chapter.
 
 38
-00:02:39.697 --> 00:02:40.627
+00:02:42.197 --> 00:02:43.127
 01
 
 39
-00:02:41.427 --> 00:02:42.530
+00:02:43.927 --> 00:02:45.030
 Everyone ships.
 
 40
-00:02:42.980 --> 00:02:50.763
+00:02:45.480 --> 00:02:53.263
 Agentic coding lowers the barrier to entry, so the person who understands the problem can ship the first version of the fix.
 
 41
-00:02:51.213 --> 00:03:05.665
+00:02:53.713 --> 00:03:08.165
 Agentic coding lowers the barrier to entry for non-technical employees to build products. With Claude Code, you can create functional features without being fluent in a coding language or how to use an I D E.
 
 42
-00:03:06.115 --> 00:03:08.481
+00:03:08.615 --> 00:03:10.981
 Figure 1: Mads Lunau Liechti.
 
 43
-00:03:08.931 --> 00:03:23.867
+00:03:11.431 --> 00:03:26.367
 Quote: "Not only were engineers shipping much more, but non-technical people (like me) were also suddenly shipping U I changes and other product improvements." Mads Lunau Liechti · co-founder, Parahelp. End quote.
 
 44
-00:03:24.317 --> 00:03:43.002
+00:03:26.817 --> 00:03:45.502
 For startup founders this has obvious advantages. For one, they don't have the headcount of their larger competitors so it's "all hands on deck." But it's not just raw capacity that founders are after to these non-technical members of the team bring domain expertise as well.
 
 45
-00:03:43.452 --> 00:03:45.431
+00:03:45.952 --> 00:03:47.931
 Figure 2: Ryan Daniels.
 
 46
-00:03:45.881 --> 00:04:01.546
+00:03:48.381 --> 00:04:04.046
 Quote: "Claude Code changed what it meant to be a lawyer at Crosby. The lawyers have the best product insights, because they are the users. It's been amazing to watch them cook." Ryan Daniels · co-founder and C E O, Crosby. End quote.
 
 47
-00:04:01.996 --> 00:04:07.155
+00:04:04.496 --> 00:04:09.655
 We heard the same thing from Doctor Thomas Kelly, co-founder and C E O of Heidi.
 
 48
-00:04:07.605 --> 00:04:09.750
+00:04:10.105 --> 00:04:12.250
 Figure 3: Doctor Thomas Kelly.
 
 49
-00:04:10.200 --> 00:04:34.411
+00:04:12.700 --> 00:04:36.911
 Quote: "For us, Claude Code solved the broken telephone problem. The way a new idea used to move through a team was the person with the idea tells a PM, who tells a designer, who then tells an engineer... and inevitably the essence of the idea gets lost in that chain. By the time something shipped, it often didn't resemble what the person had in mind. And it took weeks.
 
 50
-00:04:34.531 --> 00:04:50.386
+00:04:37.031 --> 00:04:52.886
 Claude Code collapses that chain. The person who actually understands the problem can ship a P R bringing in designers and engineers for the parts where their expertise matters." Doctor Thomas Kelly · co-founder and C E O, Heidi. End quote.
 
 51
-00:04:50.836 --> 00:05:05.018
+00:04:53.336 --> 00:05:07.518
 Saying "everyone ships" makes for a great LinkedIn post, but how does that work in reality? Is the marketing team approving pull requests? Is the legal team working through the intricacies of bisecting flaky tests?
 
 52
-00:05:05.468 --> 00:05:22.977
+00:05:07.968 --> 00:05:25.477
 The answer we got is that there is still a division of labor. Marketers still focus on marketing and developers still focus on developing. But the all important first step of getting an idea to working prototype, of going from 0 to 1, is open to everyone.
 
 53
-00:05:23.427 --> 00:05:34.150
+00:05:25.927 --> 00:05:36.650
 We also saw the most effective startups create mechanisms to make these contributions systemic rather than leaving it to chance or individual ambition.
 
 54
-00:05:34.950 --> 00:05:36.210
+00:05:37.450 --> 00:05:38.710
 Create connections.
 
 55
-00:05:36.660 --> 00:05:45.603
+00:05:39.160 --> 00:05:48.103
 It's one thing to create expectations for employees to use A I, it's another to give them access to Claude Code and the tools they need.
 
 56
-00:05:46.053 --> 00:05:47.782
+00:05:48.553 --> 00:05:50.282
 Figure 4: Kareem Amin.
 
 57
-00:05:48.232 --> 00:06:09.052
+00:05:50.732 --> 00:06:11.552
 Quote: "We're actually not running away from [having non-technical employees contribute], we're going towards it. Our take is every role is becoming an engineering role because you can build software for it... so we hire people who are tinkerers, who are interested in building" Kareem Amin · co-founder and C E O, Clay. End quote.
 
 58
-00:06:09.502 --> 00:06:21.667
+00:06:12.002 --> 00:06:24.167
 At Crosby, the team didn't bring lawyers to Claude Code, they brought Claude Code to the lawyers by connecting it to the tools and operating systems they were familiar with and worked in every day.
 
 59
-00:06:22.117 --> 00:06:43.413
+00:06:24.617 --> 00:06:45.913
 Tip: Claude can't understand what it can't see. One of the most effective ways to extend Claude's value is to connect it to sources of truth and the tools your team uses every day. M C P is an open source standard for A I-tool integrations that give Claude Code access to your tools, databases, and A P Is.
 
 60
-00:06:43.533 --> 00:07:06.598
+00:06:46.033 --> 00:07:09.098
 Explore adding these connections whenever your team finds itself copying and pasting information from a tool into Claude.Connecting via C L I can be more token-efficient when a mature command-line tool already exists ( gh, kubectl, bq, psql ) and you want Claude working against the same ground truth your engineers do.
 
 61
-00:07:07.048 --> 00:07:11.702
+00:07:09.548 --> 00:07:14.202
 Figure 5: M C P Connector Directory in Claude Code desktop.
 
 62
-00:07:12.502 --> 00:07:13.931
+00:07:15.002 --> 00:07:16.431
 Standup showcases.
 
 63
-00:07:14.381 --> 00:07:31.674
+00:07:16.881 --> 00:07:34.174
 At some point, ideas need to be given the opportunity to be prioritized so that organizational resources can help bring them to market. That road is clear for product managers, it's their job after all, but not as clear for non-technical employees.
 
 64
-00:07:32.124 --> 00:07:53.532
+00:07:34.624 --> 00:07:56.032
 Clay creates quarterly reviews where prototypes are considered and can enter the formal roadmap. This is how a go-to-market team member at Clay built an autonomous agent that visits your websites, fills out your lead-capture forms, times how long it takes to respond, rates the experience, and generates a performance report.
 
 65
-00:07:53.982 --> 00:08:09.931
+00:07:56.482 --> 00:08:12.431
 Omni has a dedicated Slack channel for Claude generated prototypes with contributions from everyone including senior technical staff. They also practice the corollary of "everyone ships," which is "everyone talks with customers."
 
 66
-00:08:10.381 --> 00:08:12.052
+00:08:12.881 --> 00:08:14.552
 Figure 6: Chris Merrick.
 
 67
-00:08:12.502 --> 00:08:28.181
+00:08:15.002 --> 00:08:30.681
 Quote: Even though engineers don't naturally gravitate toward customer calls, Omni deliberately puts them in front of customers because it closes the feedback loop faster. Chris Merrick · co-founder and C T O, Omni. End quote.
 
 68
-00:08:28.981 --> 00:08:29.948
+00:08:31.481 --> 00:08:32.448
 Share skills.
 
 69
-00:08:30.398 --> 00:08:42.834
+00:08:32.898 --> 00:08:45.334
 The line between "everyone ships" and "piecemeal" can be a thin one. Feature prototypes, whoever they come from, still need to be integrated into a product that feels like a cohesive whole.
 
 70
-00:08:42.954 --> 00:08:56.230
+00:08:45.454 --> 00:08:58.730
 This is where skills, reusable instruction files that encode your team's standards and context, can help ensure development stays aligned even as the process becomes increasingly democratized.
 
 71
-00:08:56.680 --> 00:09:15.990
+00:08:59.180 --> 00:09:18.490
 "Anyone on the team can draft product components, marketing collateral or deck material from Claude Code using our design system as reference. A I that touches the product must clear a much higher bar, which Claude Code helps us meet with more precision," said Doctor Thomas Kelly, Heidi.
 
 72
-00:09:16.440 --> 00:09:23.108
+00:09:18.940 --> 00:09:25.608
 They can also get new developers and non-technical employees onboarded and up and running quickly.
 
 73
-00:09:23.558 --> 00:09:25.932
+00:09:26.058 --> 00:09:28.432
 Figure 7: Mukund Jha.
 
 74
-00:09:26.382 --> 00:09:46.239
+00:09:28.882 --> 00:09:48.739
 Quote: "...we also have a GitHub repo of Claude Code skills which works as a shared knowledge base to quickly bootstrap a Claude Code session with known Emergent details like database [and data warehouse] location, some schema [information], overall company context....instead of trying to be perfect here,
 
 75
-00:09:46.359 --> 00:09:58.697
+00:09:48.859 --> 00:10:01.197
 it is ok to live with slightly outdated context files as long as the agent can quickly verify and course correct." Mukund Jha · co-founder and C E O, Emergent.
 
 76
-00:09:58.817 --> 00:09:59.818
+00:10:01.317 --> 00:10:02.318
 End quote.
 
 77
-00:10:00.268 --> 00:10:02.088
+00:10:02.768 --> 00:10:04.588
 Figure 8: Jack O'Hara.
 
 78
-00:10:02.538 --> 00:10:21.763
+00:10:05.038 --> 00:10:24.263
 Quote: "Our engineers use Claude Code to spin up an in-house marketplace of specialized internal agents, organized by role, so engineering, delivery, and sales each get tools built for how they actually work." Jack O'Hara · founder and C E O, Translucent. End quote.
 
 79
-00:10:22.213 --> 00:10:44.049
+00:10:24.713 --> 00:10:46.549
 Tip: Skills can be shared across the company using a directory so one employee's best practice can be instantly transferred to another. Use CLAUDE.md files in each subdirectory of your repo for coding conventions specific to that subdirectory that apply every time. Use skills for on-demand procedural workflows.
 
 80
-00:10:44.169 --> 00:10:51.181
+00:10:46.669 --> 00:10:53.681
 For more information, read: Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents.
 
 81
-00:10:51.631 --> 00:10:52.629
+00:10:54.131 --> 00:10:55.129
 02
 
 82
-00:10:53.429 --> 00:10:54.803
+00:10:55.929 --> 00:10:57.303
 Automate the tedium.
 
 83
-00:10:55.253 --> 00:11:03.380
+00:10:57.753 --> 00:11:05.880
 Agents own the mechanical 80 percent of the lifecycle so engineers spend their time on the cases that actually need judgment.
 
 84
-00:11:03.830 --> 00:11:15.536
+00:11:06.330 --> 00:11:18.036
 All companies have sought to gain efficiencies through technology since the dawn of the industrial revolution, but these startups separated themselves by the speed and depth of their adoption.
 
 85
-00:11:15.986 --> 00:11:29.147
+00:11:18.486 --> 00:11:31.647
 These founders believe A I is an essential component of their mission. Many are explicit that agents own the mechanical 80 percent so engineers spend their time on the cases that actually need judgment.
 
 86
-00:11:29.597 --> 00:11:31.771
+00:11:32.097 --> 00:11:34.271
 Figure 9: Shachar Hirshberg.
 
 87
-00:11:32.221 --> 00:11:48.761
+00:11:34.721 --> 00:11:51.261
 Quote: "Everyone's racing to build A I products. Far fewer are rebuilding how their company actually runs. The second one is the bigger unlock. Artemis Security runs as an A I-native company, not a company that happens to use A I.
 
 88
-00:11:48.881 --> 00:12:00.814
+00:11:51.381 --> 00:12:03.314
 This supercharges our velocity and allows us to help customers stop attacks at machine speed." Shachar Hirshberg · co-founder and C E O, Artemis Security. End quote.
 
 89
-00:12:01.264 --> 00:12:16.163
+00:12:03.764 --> 00:12:18.663
 Specifically, we saw A I more tightly integrated across their SDLC stages than others as well as more purpose built agents designed to take recurring tasks end-to-end. Let's look at a couple examples of both.
 
 90
-00:12:16.963 --> 00:12:18.722
+00:12:19.463 --> 00:12:21.222
 A I-native SDLCs.
 
 91
-00:12:19.172 --> 00:12:43.716
+00:12:21.672 --> 00:12:46.216
 Many of these featured startups have implemented means of accelerating their teams' onboarding into their agentic coding processes. For example, at Emergent, Mukund told us, "on day one, a new hire bootstraps their entire dev setup by pointing Claude at the right markdown file. If Claude hits anything broken or out of date during onboarding, it updates that file."
 
 92
-00:12:44.166 --> 00:13:05.577
+00:12:46.666 --> 00:13:08.077
 Tip: Code Review (research preview) is a managed multi-agent service in Claude Code. It runs an automated review pass on P Rs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting @Claude on the finding (if you've set up and configured GitHub Actions).
 
 93
-00:13:06.027 --> 00:13:10.360
+00:13:08.527 --> 00:13:12.860
 Figure 10: Code Review tags each finding with a severity level.
 
 94
-00:13:10.810 --> 00:13:15.674
+00:13:13.310 --> 00:13:18.174
 These engineers need to be onboarded quickly because these teams ship fast.
 
 95
-00:13:16.124 --> 00:13:18.230
+00:13:18.624 --> 00:13:20.730
 Figure 11: Tanay Tandon.
 
 96
-00:13:18.680 --> 00:13:42.697
+00:13:21.180 --> 00:13:45.197
 Quote: "Engineers here are orchestrating agent fleets, shipping fixes to production data problems the same day they're found, and running multiple P Rs in flight simultaneously. One engineer ran a about 13-ticket initiative with Claude subagents in parallel, each owning a ticket and its P R." Tanay Tandon · C E O and founder, Commure. End quote.
 
 97
-00:13:43.147 --> 00:14:03.642
+00:13:45.647 --> 00:14:06.142
 At these organizations, Claude Code not only helps generate code, but reviews it too. "We run automated code reviews against our vetted technical and compliance frameworks, flagging critical issues and routing suggested changes to the right reviewers before anything ships," said Doctor Kelly of Heidi.
 
 98
-00:14:04.092 --> 00:14:16.793
+00:14:06.592 --> 00:14:19.293
 Some of these organizations have also built custom agents for code review, testing, and CI. These startups have placed considerable attention on building loops versus just deploying code.
 
 99
-00:14:17.243 --> 00:14:34.769
+00:14:19.743 --> 00:14:37.269
 "My favorite [agent] is the "Translucent code reviewer," which fans out across a change, reviews it from multiple angles, and synthesizes the results the way one of our senior engineers would but faster than any one person could," said Translucent founder Jack.
 
 100
-00:14:35.219 --> 00:14:43.627
+00:14:37.719 --> 00:14:46.127
 Clay "...built an agent that handles...bug triage, from first pass to suggesting code changes for fixes," said Kareem.
 
 101
-00:14:44.077 --> 00:15:10.448
+00:14:46.577 --> 00:15:12.948
 Tip: For the last several months Claude Tag has been the on-call first responder for CI/CD failures at Anthropic. Claude authored the first situation report in every recent incident that had one, typically publishing its first analysis within 15 minutes. Claude Tag has its own service account and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana.
 
 102
-00:15:10.568 --> 00:15:23.615
+00:15:13.068 --> 00:15:26.115
 Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code.
 
 103
-00:15:24.065 --> 00:15:30.230
+00:15:26.565 --> 00:15:32.730
 Figure 12: Claude Tag picks up an on-call thread in Slack and reports progress in-channel.
 
 104
-00:15:30.680 --> 00:15:30.980
+00:15:33.180 --> 00:15:33.480
 ‍
 
 105
-00:15:31.430 --> 00:15:34.057
+00:15:33.930 --> 00:15:36.557
 Figure 13: Alexey Milovidov.
 
 106
-00:15:34.507 --> 00:15:57.966
+00:15:37.007 --> 00:16:00.466
 Quote: This was most pronounced at ClickHouse, where co-founder and C T O Alexey Milovidov reported the database company had turned nearly every SDLC stage into an autonomous loop. Two purpose-built agents designed to fix flaky tests and find missing test coverage are now the #2 and #3 contributors to the ClickHouse repo.
 
 107
-00:15:58.086 --> 00:16:07.519
+00:16:00.586 --> 00:16:10.019
 A separate family of agents handles operations, and the team uses Claude Code to build and iterate on those agents themselves. End quote.
 
 108
-00:16:08.319 --> 00:16:10.647
+00:16:10.819 --> 00:16:13.147
 Accelerating processes with agents.
 
 109
-00:16:11.097 --> 00:16:26.145
+00:16:13.597 --> 00:16:28.645
 Another consistent pattern was that these startups were not only using agentic loops in Claude Code to accelerate their development efforts, but they were also creating agents to accelerate recurring and often tedious processes.
 
 110
-00:16:26.595 --> 00:16:43.039
+00:16:29.095 --> 00:16:45.539
 This was often routine work so that more attention could be focused on their competitive advantage, customer relationships, and on top-line growth. One of the most common processes we saw accelerated by Claude was self-service data analytics.
 
 111
-00:16:43.489 --> 00:16:56.701
+00:16:45.989 --> 00:16:59.201
 Nearly every one of these companies had some process in place so they could make quick decisions with fresh data, including unstructured data, that fuels the pivoting so essential in the life of a startup.
 
 112
-00:16:57.151 --> 00:17:11.133
+00:16:59.651 --> 00:17:13.633
 For example, Clay built an internal analytics agent and Heidi uses Claude Code to categorize customer and clinician feedback alongside usage data to surface signals that matter for product insights.
 
 113
-00:17:11.583 --> 00:17:19.512
+00:17:14.083 --> 00:17:22.012
 Both ClickHouse and Omni ship products that package this type of A I data analysis within them, all powered by Claude.
 
 114
-00:17:19.962 --> 00:17:38.606
+00:17:22.462 --> 00:17:41.106
 Other examples include summarizing thousands of legal documents with subagents (Crosby), sweeping claims data to flag anomalies across sites (Commure), and continuously mining hospital financial data for warning signs no analyst team could catch in time (Translucent).
 
 115
-00:17:39.056 --> 00:17:59.139
+00:17:41.556 --> 00:18:01.639
 Tip: Dynamic workflows can be used to fan multiple subagents to analyze large amounts of data in parallel or to conduct an adversarial review of another agent's work. When using a model like Claude Opus or Claude Fable say "fan out multiple subagents," or "use a workflow."
 
 116
-00:17:59.589 --> 00:18:00.616
+00:18:02.089 --> 00:18:03.116
 03
 
 117
-00:18:01.416 --> 00:18:02.771
+00:18:03.916 --> 00:18:05.271
 Trust, but verify.
 
 118
-00:18:03.221 --> 00:18:10.054
+00:18:05.721 --> 00:18:12.554
 You can't automate a process unless you have a reliable means of monitoring and verifying the outcome.
 
 119
-00:18:10.504 --> 00:18:22.491
+00:18:13.004 --> 00:18:24.991
 This rule is the necessary corollary to Rule 2: Automate the tedium. You can't automate a process, unless you have a reliable means of monitoring and verifying the outcome.
 
 120
-00:18:22.941 --> 00:18:24.951
+00:18:25.441 --> 00:18:27.451
 Figure 14: Dan Shiebler.
 
 121
-00:18:25.401 --> 00:18:41.477
+00:18:27.901 --> 00:18:43.977
 Quote: Artemis Security co-founder Dan Shiebler said their increased deployment speed only works..."because we've invested deeply in testing infrastructure, codebase organization, and team knowledge systems that let agents ship end to end.
 
 122
-00:18:41.597 --> 00:18:54.904
+00:18:44.097 --> 00:18:57.404
 This is the flywheel we've built with Claude: structure your codebase, knowledge base, and team the right way, and every contribution compounds." Dan Shiebler · co-founder, Artemis Security. End quote.
 
 123
-00:18:55.354 --> 00:18:57.275
+00:18:57.854 --> 00:18:59.775
 Figure 15: Victor Hunt.
 
 124
-00:18:57.725 --> 00:19:20.362
+00:19:00.225 --> 00:19:22.862
 Quote: "Early on we gave Claude full autonomy and it did what A I does. It shipped plausible code fast. The problem was it drifted from our architecture in ways that looked right but weren't. So we...wrote down every invariant. How we frame problems. What has to be true no matter what. How to prove something works instead of trusting a confident answer.
 
 125
-00:19:20.482 --> 00:19:28.420
+00:19:22.982 --> 00:19:30.920
 567 lines of how this team thinks." Victor Hunt · co-founder and C E O, Zingage. End quote.
 
 126
-00:19:28.870 --> 00:19:43.075
+00:19:31.370 --> 00:19:45.575
 Tip: Put what can't change in CLAUDE.md at the root of your repo. Claude reads it at the start of every session, so your architecture rules, security boundaries, and non-negotiables travel with every session.
 
 127
-00:19:43.525 --> 00:20:06.690
+00:19:46.025 --> 00:20:09.190
 To be clear, none of these startups are having agents merge to main and hoping for the best. Many of them operate in highly regulated industries and require strong governance frameworks. Cainex is a particularly illustrative example of combining agents with deterministic checks to read medical records and generate codes that direct hospital billing.
 
 128
-00:20:07.140 --> 00:20:09.549
+00:20:09.640 --> 00:20:12.049
 Figure 16: Uriah Israel.
 
 129
-00:20:09.999 --> 00:20:23.731
+00:20:12.499 --> 00:20:26.231
 Quote: "In medical coding, a wrong code isn't a typo. It's a billing and compliance event. That one fact governs how we build." Uriah Israel · co-founder and C T O, Cainex. End quote.
 
 130
-00:20:24.181 --> 00:20:40.883
+00:20:26.681 --> 00:20:43.383
 "Here's the loop Claude Code runs for us. We process a batch with an agent, and our auditors review the output in an internal app. They don't just see the codes. They see the model's reasoning, and they comment on both....Everything is versioned and auditable," he said.
 
 131
-00:20:41.333 --> 00:21:05.233
+00:20:43.833 --> 00:21:07.733
 "Then Claude Code takes over. It reads the original predictions, along with every correction and comment, straight from the database. Each correction is tagged by the kind of code involved, so Claude Code knows whether it's looking at a diagnosis issue, a procedure issue, or another category, and it can go straight to the guidance that governs that specific kind of coding.
 
 132
-00:21:05.683 --> 00:21:27.359
+00:21:08.183 --> 00:21:29.859
 From there, it finds the part of the agent's instructions that produced the mistake and revises it, or writes new guidance when the case is genuinely new. Every change is made against a versioned set of instructions and tested against the records that failed. The rule we enforce: fix the principle, not the example," he continued.
 
 133
-00:21:27.809 --> 00:21:47.117
+00:21:30.309 --> 00:21:49.617
 "Then the back-test. A record can have more than one acceptable coding, so it's not a string match. The check combines semantic matching against our accepted sets with a judge that asks, 'Is this a real error or just a different valid path,' and Claude Code adds its own comparisons on top.
 
 134
-00:21:47.567 --> 00:22:09.976
+00:21:50.067 --> 00:22:12.476
 It runs the candidate change across a golden set plus random samples and surfaces any regressions before anything ships. What comes back is a short list: suggested edits, the records it couldn't resolve, and the questions it wants answered. Engineers spend their time on genuinely hard cases rather than the mechanical 80 percent," he said.
 
 135
-00:22:10.426 --> 00:22:16.857
+00:22:12.926 --> 00:22:19.357
 There are many generalized takeaways that founders can glean from this healthcare billing specific workflow.
 
 136
-00:22:17.307 --> 00:22:39.744
+00:22:19.807 --> 00:22:42.244
 For example, Cainex uses subject matter experts to routinely review and guide Claude's reasoning, and ensure that guidance becomes part of a self-improvement loop. However, those experts aren't there to fix example by example, their guidance is used as part of a self-improvement loop. As Uriah puts it "fix the principle, not the example."
 
 137
-00:22:40.194 --> 00:22:51.947
+00:22:42.694 --> 00:22:54.447
 Tip: Loops are agents that repeat cycles of work until a stop condition is met. They can be effective ways to use Claude Code for more autonomous or long-horizon work.
 
 138
-00:22:52.067 --> 00:23:16.312
+00:22:54.567 --> 00:23:18.812
 You can use skills to define what criteria the agent needs to meet (the more clearly defined the better) and have the agent iterate until it reaches its goal.For example, many organizations create flaky test agents, or loops, because the stop condition is clear and self-contained: the agent can verify its own fix by rerunning the test until it passes.
 
 139
-00:23:16.762 --> 00:23:21.888
+00:23:19.262 --> 00:23:24.388
 Figure 17: Loops repeat cycles of work until a stop condition is met.
 
 140
-00:23:22.338 --> 00:23:22.638
+00:23:24.838 --> 00:23:25.138
 ‍
 
 141
-00:23:23.088 --> 00:23:46.202
+00:23:25.588 --> 00:23:48.702
 The other takeaway is the diligence placed on maintaining a strong evaluation "golden set," or group of verified question answer pairs the team uses to verify the agent's accuracy. Every startup should maintain multiple sets of evals for their key use cases, and update them regularly, so they can prevent drift and evaluate future models.
 
 142
-00:23:46.652 --> 00:23:49.051
+00:23:49.152 --> 00:23:51.551
 Figure 18: Alex Mashrabov.
 
 143
-00:23:49.501 --> 00:24:05.365
+00:23:52.001 --> 00:24:07.865
 Quote: "[Claude Code has] also transformed how we manage model velocity. New video and image models arrive constantly. Each requires new skills, evaluations, routing logic, and production testing before deployment.
 
 144
-00:24:05.485 --> 00:24:26.089
+00:24:07.985 --> 00:24:28.589
 Claude Code has compressed that cycle from days to hours, allowing us to identify issues in production and deploy fixes in the same session....When you're competing against companies with 10 x the headcount, that kind of leverage changes everything." Alex Mashrabov · co-founder and C E O, Higgsfield. End quote.
 
 145
-00:24:26.539 --> 00:24:47.630
+00:24:29.039 --> 00:24:50.130
 Tip: When teams first start building agents, they can get surprisingly far through a combination of manual testing, dogfooding, and intuition. The breaking point often comes when users report the agent feels worse after changes, and the team is "flying blind" with no way to verify except to guess and check.
 
 146
-00:24:47.750 --> 00:25:02.982
+00:24:50.250 --> 00:25:05.482
 Teams can't distinguish real regressions from noise, automatically test changes against hundreds of scenarios before shipping, or measure improvements. For more information read: Demystifying evals for A I agents.
 
 147
-00:25:03.432 --> 00:25:25.250
+00:25:05.932 --> 00:25:27.750
 The final point Uriah makes is that this process can take some work. "It didn't start this clean. Our first version overfitted. It would 'fix' things by encoding the specific case, and we were accumulating patches instead of getting smarter. We changed the approach to force general principles and to cap how many specifics can enter a change at all."
 
 148
-00:25:25.700 --> 00:25:49.274
+00:25:28.200 --> 00:25:51.774
 Tip: A I agents are not deterministic, but a lot of highly regulated work requires processes to be done the same way every time. Claude Code has features that can help combine frontier intelligence with deterministic processes. Hooks are user-defined commands that fire at fixed points in Claude Code's lifecycle and can serve as hard gates.
 
 149
-00:25:49.394 --> 00:26:04.178
+00:25:51.894 --> 00:26:06.678
 They execute every time regardless of what the model decides. For example they can be used to block a write that fails a lint, require a test pass before commit, or strip secrets before anything leaves the sandbox.
 
 150
-00:26:04.298 --> 00:26:24.237
+00:26:06.798 --> 00:26:26.737
 Dynamic workflows orchestrate subagents with deterministic sequencing, separate context windows, and focused goals. /goal is helpful for long complex tasks where Claude may prematurely call the job done, prefer its own findings when reviewing, and drift from its original goals.
 
 151
-00:26:24.687 --> 00:26:25.693
+00:26:27.187 --> 00:26:28.193
 04
 
 152
-00:26:26.493 --> 00:26:27.720
+00:26:28.993 --> 00:26:30.220
 Build for rebuilding.
 
 153
-00:26:28.170 --> 00:26:34.164
+00:26:30.670 --> 00:26:36.664
 Model capability keeps shifting underneath these teams, so very little is treated as permanent.
 
 154
-00:26:34.614 --> 00:26:39.538
+00:26:37.114 --> 00:26:42.038
 Many of these A I-native startups are in a state of constant reinvention.
 
 155
-00:26:39.988 --> 00:27:00.929
+00:26:42.488 --> 00:27:03.429
 A I is often at the heart of what they are building as well as how they are building it. Since model capability continuously evolves, groundbreaking features and critical scaffolding were discarded the minute they became sunk costs. Many of these organizations saw this constant rebuilding as part of their competitive advantage.
 
 156
-00:27:01.379 --> 00:27:19.026
+00:27:03.879 --> 00:27:21.526
 "What we do at Clay is you build it and then you build it again and then you build it again. And then the fourth time you build it, you know everything that's needed and you get it right. And so we don't necessarily throw away things. We just rebuild it: and this time with more clarity," said Kareem.
 
 157
-00:27:19.476 --> 00:27:33.694
+00:27:21.976 --> 00:27:36.194
 "A rebuild isn't done when the new path ships. It's done when the old path is gone. Teardown always lost the prioritization fight before: it's tedious and it ships no features," said Commure co-founder Tanay.
 
 158
-00:27:33.814 --> 00:27:55.446
+00:27:36.314 --> 00:27:57.946
 "Now one of Commure's engineers just invokes a Claude skill to the tune of 'for every feature flag already released to everyone, open a P R removing it and the associated code,' then the engineer reviews what comes back. Migrations that used to eat a lot of dev cycles are now a plan and a fan out, done in a couple of hours."
 
 159
-00:27:55.896 --> 00:28:16.684
+00:27:58.396 --> 00:28:19.184
 Tip: Use git worktrees to run a rebuild in an isolated copy of the repo while the current version stays untouched. Claude Code can spin one up for you, you get v2 running next to v1, run your evals against both, and only merge when the new one wins. This is what makes "build it four times" cheap.
 
 160
-00:28:17.134 --> 00:28:25.923
+00:28:19.634 --> 00:28:28.423
 Figure 19: One repository, one object store, three checkouts you can work in simultaneously, each on its own branch.
 
 161
-00:28:26.373 --> 00:28:35.786
+00:28:28.873 --> 00:28:38.286
 Each linked worktree is an ordinary directory with its own checked-out branch; all three share the single.git object store inside acme-web.
 
 162
-00:28:36.236 --> 00:28:44.684
+00:28:38.736 --> 00:28:47.184
 Kareem also described part of Clay's moat as the ability to constantly rebuild, evolve, and create self-improvement loops.
 
 163
-00:28:45.134 --> 00:29:03.174
+00:28:47.634 --> 00:29:05.674
 "I think the moat for any company right now is that it needs to be self-improving. So Clay is a self-learning revenue engine. So the more you use this, the more we know who your best customers are, what should you say, what's worked, what hasn't and that's changing over time," he said.
 
 164
-00:29:03.294 --> 00:29:11.348
+00:29:05.794 --> 00:29:13.848
 "The race is really, whoever can get to the distribution fastest... so you can help each [customer] so that you can self-improve."
 
 165
-00:29:11.798 --> 00:29:30.649
+00:29:14.298 --> 00:29:33.149
 At a May 2026 Code with Claude event, Niko Grupen, Harvey's Head of Applied A I spoke about how each new wave of model capabilities, emergent reasoning, agentic automation, planning and orchestration, required a full re-architecture of the platform.
 
 166
-00:29:31.099 --> 00:29:33.123
+00:29:33.599 --> 00:29:35.623
 Figure 20: Niko Grupen.
 
 167
-00:29:33.573 --> 00:29:54.735
+00:29:36.073 --> 00:29:57.235
 Quote: "If you asked me six months ago what our architecture looks like, I'd give a fundamentally different answer from what it looks like today. If we hadn't been willing to say 'Hey, we need to scrap this and go agent native' we simply could not have these capabilities in our platform right now." Niko Grupen · Head of Applied A I, Harvey. End quote.
 
 168
-00:29:55.185 --> 00:29:58.940
+00:29:57.685 --> 00:30:01.440
 At the same event, Cognition co-founder Walden Yan said:
 
 169
-00:29:59.390 --> 00:30:01.621
+00:30:01.890 --> 00:30:04.121
 Figure 21: Walden Yan.
 
 170
-00:30:02.071 --> 00:30:23.682
+00:30:04.571 --> 00:30:26.182
 Quote: "The way of life of building A I right now is accepting that the thing you build today is very likely going to be scrapped in six months to a year.... [Devin] was very much not possible with the set of models we had two years ago, [but the bet was] this may not work today, but it will soon." Walden Yan · co-founder, Cognition. End quote.
 
 171
-00:30:24.132 --> 00:30:43.849
+00:30:26.632 --> 00:30:46.349
 Tip: For non-trivial rewrites, start Claude Code in plan mode ( --plan or hit Shift+Tab). Claude will explore the codebase and propose the rebuild approach before writing any code, you approve or redirect. It's the cheapest place to catch a rebuild that's about to drift from your architecture.
 
 172
-00:30:44.299 --> 00:30:45.379
+00:30:46.799 --> 00:30:47.879
 05
 
 173
-00:30:46.179 --> 00:30:48.634
+00:30:48.679 --> 00:30:51.134
 Prototype, dogfood, productionize.
 
 174
-00:30:49.084 --> 00:30:56.755
+00:30:51.584 --> 00:30:59.255
 Building with A I helps these startups create disruptive products with A I, the flywheel at the heart of their process.
 
 175
-00:30:57.205 --> 00:31:06.999
+00:30:59.705 --> 00:31:09.499
 Many of these startups have a key flywheel at the heart of their development process. Building with A I helps them create disruptive products with A I.
 
 176
-00:31:07.449 --> 00:31:23.061
+00:31:09.949 --> 00:31:25.561
 When developers advance their agentic coding practices, they have a stronger grasp on the model's capabilities and insights into how harness design evolves at the frontier. They can then use this inspiration in their own agents and products.
 
 177
-00:31:23.511 --> 00:31:46.407
+00:31:26.011 --> 00:31:48.907
 "We took inspiration from [Anthropic's] file versus embedding approach, which emboldened us to keep things simple in our own product. We avoided a lot of complexity that would have come from a rag pipeline," said Chris, Omni. "We also saw how Claude Code's harness was enabling users to do things in parallel and adapted some of those concepts into our own U I."
 
 178
-00:31:46.857 --> 00:31:50.532
+00:31:49.357 --> 00:31:53.032
 It also helps them stay attuned to their own product performance.
 
 179
-00:31:50.982 --> 00:32:11.221
+00:31:53.482 --> 00:32:13.721
 "Because our app builder also uses Anthropic models behind the scenes, if we ever see a behavior on our product... we can quickly debug locally via Claude Code to tell whether it's model behavior or a harness issue. This has tremendously helped improve our triage cycles," said Mukund, Emergent.
 
 180
-00:32:11.671 --> 00:32:28.855
+00:32:14.171 --> 00:32:31.355
 The pattern we heard repeatedly was build an internal agent with Claude Code, use internally (dogfood), and depending on the response, promote to a customer facing product often using the Claude A P I, S D K, or Claude Managed Agents.
 
 181
-00:32:29.305 --> 00:32:51.237
+00:32:31.805 --> 00:32:53.737
 "We built our own A I agents [in our product] that teams interact with directly, including an agent in the sequel console and an A I SRE. We use Claude Code to build and iterate on these agents themselves. The tooling that powers our customers' A I experiences is, in part, built with A I," said Alexey, ClickHouse.
 
 182
-00:32:52.037 --> 00:32:53.008
+00:32:54.537 --> 00:32:55.508
 The Checklist.
 
 183
-00:32:53.458 --> 00:32:58.872
+00:32:55.958 --> 00:33:01.372
 This guide covered a lot of ground. Here are the key tips consolidated on one page:
 
 184
-00:32:59.672 --> 00:33:01.579
+00:33:02.172 --> 00:33:04.079
 Chapter 1: Everyone ships.
 
 185
-00:33:02.029 --> 00:33:11.772
+00:33:04.529 --> 00:33:14.272
 Claude can't understand what it can't see. Connect it to sources of truth and the tools your team uses every day via M C P or C L I.
 
 186
-00:33:12.222 --> 00:33:32.723
+00:33:14.722 --> 00:33:35.223
 Create a company plugin marketplace so one employee's best practice can be instantly transferred to another via a skill. Use CLAUDE.md files in each subdirectory of your repo for coding conventions specific to that subdirectory that apply every time. Use skills for on-demand procedural workflows.
 
 187
-00:33:33.523 --> 00:33:35.503
+00:33:36.023 --> 00:33:38.003
 Chapter 2: Automate Tedium.
 
 188
-00:33:35.953 --> 00:33:42.590
+00:33:38.453 --> 00:33:45.090
 Set up Code Review (research preview) on a repo for an automated review pass on P Rs.
 
 189
-00:33:43.040 --> 00:33:49.803
+00:33:45.540 --> 00:33:52.303
 Make Claude Tag (public beta) part of your CI/CD on-call response and bug triage.
 
 190
-00:33:50.253 --> 00:34:01.485
+00:33:52.753 --> 00:34:03.985
 Dynamic workflows can be used to fan multiple subagents to analyze large amounts of data in parallel or to conduct an adversarial review of another agent's work.
 
 191
-00:34:02.285 --> 00:34:04.477
+00:34:04.785 --> 00:34:06.977
 Chapter 3: Trust, but verify.
 
 192
-00:34:04.927 --> 00:34:08.815
+00:34:07.427 --> 00:34:11.315
 Put what can't change in CLAUDE.md at the root of your repo.
 
 193
-00:34:09.265 --> 00:34:17.670
+00:34:11.765 --> 00:34:20.170
 Use loops, agents that repeat cycles of work until a stop condition is met, for more autonomous or long-horizon work.
 
 194
-00:34:18.120 --> 00:34:22.664
+00:34:20.620 --> 00:34:25.164
 Establish a process for creating and maintaining agent evaluations.
 
 195
-00:34:23.114 --> 00:34:35.237
+00:34:25.614 --> 00:34:37.737
 Hooks are user-defined commands that fire at fixed points in Claude Code's lifecycle and can serve as hard gates. Use these when components of the work need to be deterministic.
 
 196
-00:34:36.037 --> 00:34:38.219
+00:34:38.537 --> 00:34:40.719
 Chapter 4: Build for rebuilding.
 
 197
-00:34:38.669 --> 00:34:49.420
+00:34:41.169 --> 00:34:51.920
 Use git worktrees to run a rebuild in an isolated copy of the repo while the current version stays untouched. This is what makes "build it four times" cheap.
 
 198
-00:34:49.870 --> 00:35:09.337
+00:34:52.370 --> 00:35:11.837
 For non-trivial rewrites, start Claude Code in plan mode (/plan or hit Shift+Tab). Claude will explore the codebase and propose the rebuild approach before writing any code, you approve or redirect. It's the cheapest place to catch a rebuild that's about to drift from your architecture.
 
 199
-00:35:10.137 --> 00:35:12.726
+00:35:12.637 --> 00:35:15.226
 Startups on the frontier build at the frontier.
 
 200
-00:35:13.176 --> 00:35:28.364
+00:35:15.676 --> 00:35:30.864
 These insights come from your peers building at the frontier and we hope you found them practical and actionable. The Claude startup community is a constant source of inspiration, best practices, and advice. You can join this community by:
 
 201
-00:35:28.814 --> 00:35:33.000
+00:35:31.314 --> 00:35:35.500
 Subscribing to the Startup Newsletter and joining the startup program.
 
 202
-00:35:33.240 --> 00:35:35.945
+00:35:35.740 --> 00:35:38.445
 Bookmarking upcoming Claude Code webinars.
 
 203
-00:35:36.185 --> 00:35:37.837
+00:35:38.685 --> 00:35:40.337
 Attending an event near you.
 
 204
-00:35:38.077 --> 00:35:40.208
+00:35:40.577 --> 00:35:42.708
 Contributing on Reddit and Discord.
 
 205
-00:35:40.448 --> 00:35:46.371
+00:35:42.948 --> 00:35:48.871
 Early-stage companies can also apply to the Claude for Startups program for credits and support.
 
 206
-00:35:47.371 --> 00:36:04.825
+00:35:49.871 --> 00:36:07.325
 That was The Claude Code guide for startups, from Claude Blog, published August 20, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

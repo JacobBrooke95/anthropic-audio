@@ -4,6 +4,7 @@
   uv run python -m pipeline add URL [URL...]         # force-process specific posts
   uv run python -m pipeline rebuild                    # regenerate site + feed from stored posts
   uv run python -m pipeline art                        # re-render episode artwork (no TTS) + rebuild
+  uv run python -m pipeline intro                      # backfill the intro music bed onto existing episodes
   uv run python -m pipeline list                       # show episodes
 """
 from __future__ import annotations
@@ -41,12 +42,12 @@ def process(url: str, source: str, st: State, *, episode_no: int | None = None) 
     slug = post.slug
     mp3 = DOCS / "audio" / f"{slug}.mp3"
     art_path = DOCS / "art" / f"{slug}.jpg"
-    art = episode_art(post, art_path)
+    existing = next((e for e in st.episodes if e["url"] == url), None)
+    ep_no = episode_no or (existing["episode"] if existing else st.next_episode)
+    art = episode_art(post, art_path, episode=ep_no)
     log.info("  artwork: %d bytes", len(art))
     res = synthesize(segs, mp3)
     log.info("  audio: %s, %.1f MB, %d chunks (%.0fs)", f"{res['duration']:.0f}s", res["bytes"] / 1e6, len(res["cues"]), time.time() - t0)
-    existing = next((e for e in st.episodes if e["url"] == url), None)
-    ep_no = episode_no or (existing["episode"] if existing else st.next_episode)
     tag_mp3(mp3, title=post.title, artist=", ".join(post.authors) or "Anthropic", album=PODCAST["title"], date=post.date,
             comment=post.url, art_jpeg=art, track=ep_no)
     res["bytes"] = mp3.stat().st_size
@@ -167,7 +168,7 @@ def cmd_art(args):
             log.warning("no post.json for %s — skipping", ep["slug"])
             continue
         post = Post.from_dict(json.loads(pj.read_text()))
-        art = episode_art(post, DOCS / "art" / f"{ep['slug']}.jpg")
+        art = episode_art(post, DOCS / "art" / f"{ep['slug']}.jpg", episode=ep["episode"])
         mp3 = DOCS / "audio" / f"{ep['slug']}.mp3"
         if mp3.exists():
             tag_mp3(mp3, title=ep["title"], artist=", ".join(ep.get("authors") or []) or "Anthropic",
@@ -176,6 +177,52 @@ def cmd_art(args):
         log.info("✔ art %s (%d bytes)", ep["slug"], len(art))
     st.save()
     rebuild(st)
+
+
+def cmd_intro(args):
+    """Backfill the intro music bed onto already-published episodes: decode the MP3,
+    prepend the solo lead-in, mix the bed, re-encode/re-tag, shift the VTT cues.
+    Idempotent — episodes with intro_bed set are skipped."""
+    import numpy as np
+    from .config import MUSIC
+    from .music import add_intro
+    from .tts import decode_mp3, encode_mp3, mp3_duration, shift_vtt
+    if not MUSIC.get("enabled"):
+        log.info("MUSIC disabled in config — nothing to do")
+        return
+    st = State()
+    sr = int(TTS["mp3_rate"])
+    solo = float(MUSIC["solo"])
+    done = 0
+    for ep in st.episodes:
+        if ep.get("intro_bed"):
+            log.info("· %s already has the intro bed — skipping", ep["slug"])
+            continue
+        mp3 = DOCS / "audio" / f"{ep['slug']}.mp3"
+        if not mp3.exists():
+            log.warning("no mp3 for %s — skipping", ep["slug"])
+            continue
+        t0 = time.time()
+        mix = add_intro(decode_mp3(mp3, sr), sr)
+        encode_mp3(mix, sr, mp3)
+        art_path = DOCS / "art" / f"{ep['slug']}.jpg"
+        tag_mp3(mp3, title=ep["title"], artist=", ".join(ep.get("authors") or []) or "Anthropic",
+                album=PODCAST["title"], date=ep["date"], comment=ep["url"],
+                art_jpeg=art_path.read_bytes() if art_path.exists() else None, track=ep["episode"])
+        vtt = DOCS / "transcripts" / f"{ep['slug']}.vtt"
+        if vtt.exists():
+            shift_vtt(vtt, solo)
+        ep["duration"] = mp3_duration(mp3) or (ep["duration"] + solo)
+        ep["bytes"] = mp3.stat().st_size
+        ep["intro_bed"] = 1
+        st.save()
+        done += 1
+        log.info("✔ intro %s (%.1fs audio, peak %.3f, %.0fs)", ep["slug"], ep["duration"],
+                 float(np.max(np.abs(mix))), time.time() - t0)
+    if done:
+        rebuild(st)
+    st.save()
+    log.info("intro backfill complete: %d episode(s) updated", done)
 
 
 def cmd_list(args):
@@ -195,6 +242,7 @@ def main(argv=None):
     a = sub.add_parser("add"); a.add_argument("urls", nargs="+"); a.set_defaults(fn=cmd_add)
     sub.add_parser("rebuild").set_defaults(fn=cmd_rebuild)
     sub.add_parser("art").set_defaults(fn=cmd_art)
+    sub.add_parser("intro").set_defaults(fn=cmd_intro)
     sub.add_parser("list").set_defaults(fn=cmd_list)
     args = ap.parse_args(argv)
     args.fn(args)

@@ -1,229 +1,229 @@
 WEBVTT
 
 1
-00:00:00.500 --> 00:00:05.299
+00:00:03.000 --> 00:00:07.799
 Turning conversation into knowledge: how Slack builds human-agent teams.
 
 2
-00:00:05.749 --> 00:00:10.091
+00:00:08.249 --> 00:00:12.591
 A conversation with Jaime DeLanghe, Chief Product Officer at Slack.
 
 3
-00:00:10.541 --> 00:00:14.857
+00:00:13.041 --> 00:00:17.357
 From Claude Blog, published August 19, 2026.
 
 4
-00:00:15.857 --> 00:00:34.690
+00:00:18.357 --> 00:00:37.190
 This is the second post in our series on building human-agent teams. The first shared what we've learned building teams with multiplayer A I at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before A I arrived.
 
 5
-00:00:35.140 --> 00:00:46.047
+00:00:37.640 --> 00:00:48.547
 Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge.
 
 6
-00:00:46.167 --> 00:01:01.811
+00:00:48.667 --> 00:01:04.311
 Now the company’s Chief Product Officer, she has believed from the start that to achieve this goal, people need to work in the open, keeping conversations, decisions, and work in progress in channels anyone at the company can read and search.
 
 7
-00:01:01.931 --> 00:01:19.553
+00:01:04.431 --> 00:01:22.053
 In her recent essay The Work is the Conversation, she makes the same case for agents: The conversation around the work is the context that agents need to be useful and finally help us achieve this decades-old goal of turning scattered knowledge into productivity.
 
 8
-00:01:20.003 --> 00:01:30.747
+00:01:22.503 --> 00:01:33.247
 To learn what this looks like in practice at Slack, we talked with Jaime about her best practices for building effective human-agent teams and spreading these new ways of working.
 
 9
-00:01:31.547 --> 00:01:34.978
+00:01:34.047 --> 00:01:37.478
 Treat your conversation history like a knowledge base.
 
 10
-00:01:35.428 --> 00:01:46.230
+00:01:37.928 --> 00:01:48.730
 For years, the promise that workplace conversation, the "exhaust" of people working together, would compound into organizational knowledge never materialized.
 
 11
-00:01:46.680 --> 00:02:04.164
+00:01:49.180 --> 00:02:06.664
 "I have so many research papers from the early days at Slack that showed that, actually, no, conversation doesn't turn into knowledge," Jaime says. "You wish it did, but really it's just a lot of stuff that just hangs out there and people still have to repeat themselves."
 
 12
-00:02:04.614 --> 00:02:10.713
+00:02:07.114 --> 00:02:13.213
 Making sense of all that exhaust simply wasn't humanly possible. Now it's an agent's job.
 
 13
-00:02:11.513 --> 00:02:13.220
+00:02:14.013 --> 00:02:15.720
 How to put this into practice.
 
 14
-00:02:13.670 --> 00:02:25.804
+00:02:16.170 --> 00:02:28.304
 Default to public channels: Agents can only learn from what they can see. Decisions made in DMs or private threads are invisible to them, and stay lost to the organization.
 
 15
-00:02:26.044 --> 00:02:38.485
+00:02:28.544 --> 00:02:40.985
 Ask agents for the reasoning, not just the record: Instead of searching for what was decided, ask an agent to reconstruct why it was decided, and how the context has shifted since.
 
 16
-00:02:38.725 --> 00:02:52.627
+00:02:41.225 --> 00:02:55.127
 Widen the surface area: Tools like Slack and Claude are stitching meetings, emails, calendars, and document repositories together, the more of that context you connect, the less your team repeats itself.
 
 17
-00:02:53.427 --> 00:02:56.774
+00:02:55.927 --> 00:02:59.274
 Learn when to handoff tasks between agents and humans.
 
 18
-00:02:57.224 --> 00:03:18.514
+00:02:59.724 --> 00:03:21.014
 The core rhythm of a human-agent team is a cycle of handoffs. Powered by Claude in Slack, agents handle the production work, drafting, summarizing, monitoring, preparing, and pass the results to a person. The person reviews, decides, and redirects, then hands the work back for agents to carry out the next step.
 
 19
-00:03:18.964 --> 00:03:23.681
+00:03:21.464 --> 00:03:26.181
 To see all this in practice, look no further than how Jaime starts her week.
 
 20
-00:03:24.131 --> 00:03:30.455
+00:03:26.631 --> 00:03:32.955
 "It’s Monday morning, and I’ve just had my daily briefing that an agent has built for me,” Jaime says.
 
 21
-00:03:30.905 --> 00:03:52.092
+00:03:33.405 --> 00:03:54.592
 Also waiting for her review is a recap of the previous week's product workshops with flagged escalations, a report on A I developments across the web, briefings for the day's meetings, and a stale bio she'd handed to an agent to rewrite. At the end of each loop, humans review and make decisions based on the agent’s actions.
 
 22
-00:03:52.892 --> 00:03:54.599
+00:03:55.392 --> 00:03:57.099
 How to put this into practice.
 
 23
-00:03:55.049 --> 00:04:05.507
+00:03:57.549 --> 00:04:08.007
 Start the day with agent-built briefings. Recaps, escalations, meeting prep, and web roundups are great tasks for agents to drive, with human review.
 
 24
-00:04:05.747 --> 00:04:16.886
+00:04:08.247 --> 00:04:19.386
 Anchor the work in a shared channel. Share all work in a shared channel so that humans and agents can triage it together, with humans leading the charge on prioritization.
 
 25
-00:04:17.126 --> 00:04:26.114
+00:04:19.626 --> 00:04:28.614
 Make lightweight signals actionable. In Jaime's channel, an emoji reaction adds an item to the list and an agent picks up the task.
 
 26
-00:04:26.914 --> 00:04:29.046
+00:04:29.414 --> 00:04:31.546
 Delegate clear roles for agents.
 
 27
-00:04:29.496 --> 00:04:44.854
+00:04:31.996 --> 00:04:47.354
 Working with a fleet of specialized Claude agents can feel disorienting if your mental model is a one-on-one chatbot. Jaime's approach is social rather than technical: "I like to think that agents are kind of like coworkers."
 
 28
-00:04:45.304 --> 00:05:04.343
+00:04:47.804 --> 00:05:06.843
 In the same way that human teammates have roles and responsibilities, agents should also have clear goals and focus areas. "If the value of the agent feels mandated rather than very clearly felt and understood by the people using it, it's really hard to remember what the thing is for,” she says.
 
 29
-00:05:04.793 --> 00:05:06.513
+00:05:07.293 --> 00:05:09.013
 How to put this into practice:
 
 30
-00:05:06.963 --> 00:05:23.914
+00:05:09.463 --> 00:05:26.414
 Route routine, transactional tasks to a general agent. Rather than asking people to remember a specialized tool, train an agent to tackle a repetitive task, like filing a help desk ticket or pulling last week's metrics into a status update.
 
 31
-00:05:24.154 --> 00:05:32.066
+00:05:26.654 --> 00:05:34.566
 Let value be felt, not mandated. If people can't articulate what an agent is for, it may be time to retire it.
 
 32
-00:05:32.866 --> 00:05:36.522
+00:05:35.366 --> 00:05:39.022
 Default shared channels to public; go private on purpose.
 
 33
-00:05:36.972 --> 00:05:49.141
+00:05:39.472 --> 00:05:51.641
 Slack has recommended public-by-default channels since its earliest days: "You're building a shared understanding, a shared context for all of the work that's going to come next,” Jaime says.
 
 34
-00:05:49.591 --> 00:06:02.990
+00:05:52.091 --> 00:06:05.490
 She suggests keeping channels public unless there is a specific reason to gate context and knowledge. The most information agents have to pull from and inform their work, the more effective team mates they’ll be.
 
 35
-00:06:03.440 --> 00:06:17.793
+00:06:05.940 --> 00:06:20.293
 Open context compounds, new people onboard into history instead of an empty inbox, and no one repeats themselves. Now agents benefit too, and that context and working memory flows back to humans.
 
 36
-00:06:18.243 --> 00:06:19.963
+00:06:20.743 --> 00:06:22.463
 How to put this into practice:
 
 37
-00:06:20.413 --> 00:06:33.353
+00:06:22.913 --> 00:06:35.853
 Keep business-as-usual work in the open. Make non-sensitive projects, announcements, and Q and A channels public so that agent coworkers can gain the knowledge they need to be most useful..
 
 38
-00:06:33.593 --> 00:06:41.278
+00:06:36.093 --> 00:06:43.778
 Remember your agents read what your team reads. A private channel is a blind spot for every agent that reports on it.
 
 39
-00:06:41.518 --> 00:07:05.175
+00:06:44.018 --> 00:07:07.675
 Let psychological safety drive the line. Once genuinely sensitive material is walled off, the main reason work retreats into DMs isn't secrecy, it's discomfort with being seen mid-process. People should feel confident doing everyday work in the open, rough drafts and half-formed questions included, trusting their coworkers to meet it in good faith.
 
 40
-00:07:05.295 --> 00:07:09.350
+00:07:07.795 --> 00:07:11.850
 And that openness compounds: "you gain trust by giving trust.".
 
 41
-00:07:10.150 --> 00:07:13.065
+00:07:12.650 --> 00:07:15.565
 Spread adoption by showing the art of the possible.
 
 42
-00:07:13.515 --> 00:07:30.926
+00:07:16.015 --> 00:07:33.426
 The fastest way to learn a new way of working is to watch a teammate do it. Jaime has seen this at Salesforce, where employees share skills, debugging tips, and workflow tricks in a company-wide channel called How I Slackbot, which by her count has thousands of members.
 
 43
-00:07:31.046 --> 00:07:38.633
+00:07:33.546 --> 00:07:41.133
 In that channel, which is public by default, a trick from a sales process can end up reshaping an engineering process.
 
 44
-00:07:39.083 --> 00:08:01.782
+00:07:41.583 --> 00:08:04.282
 Inside Slack, a push to get product managers using Claude "was the most self-organized thing you could possibly imagine." One PM got the developer experience lead to help him get set up, then he wrote up a canvas showing what he did and how he did it. Other PMs copied the format. Teams organized workshops and built their own git repos.
 
 45
-00:08:02.232 --> 00:08:03.952
+00:08:04.732 --> 00:08:06.452
 How to put this into practice:
 
 46
-00:08:04.402 --> 00:08:16.239
+00:08:06.902 --> 00:08:18.739
 Stand up a company-wide show-and-tell channel. Give employees one public place to share skills, debugging tips, and workflow tricks, so a trick from one function can reshape another.
 
 47
-00:08:16.479 --> 00:08:25.253
+00:08:18.979 --> 00:08:27.753
 Encourage write-ups others can copy. A short "what I did and how" doc turns one person's setup into a team template or skill.
 
 48
-00:08:26.053 --> 00:08:28.142
+00:08:28.553 --> 00:08:30.642
 Measure outcomes, not activity.
 
 49
-00:08:28.592 --> 00:08:50.258
+00:08:31.092 --> 00:08:52.758
 Since her early days at Slack, Jaime has grappled with the question of how to measure productivity. "Do we want people to send more messages?” she says. “Maybe not. Sending messages might not actually mean that they're getting more out of Slack. More messages can mean people can't find what they need, or can't say what they mean the first time."
 
 50
-00:08:50.708 --> 00:09:05.585
+00:08:53.208 --> 00:09:08.085
 Now, the question of measuring the value of A I looks quite similar, and with something that complex, simple metrics don’t do the job. Token usage tells you the lights are on, but while that’s important to know, it’s not sufficient.
 
 51
-00:09:06.035 --> 00:09:07.755
+00:09:08.535 --> 00:09:10.255
 How to put this into practice:
 
 52
-00:09:08.205 --> 00:09:16.409
+00:09:10.705 --> 00:09:18.909
 Treat usage metrics as a pulse check, not proof of value. Activity tells you adoption is happening, not that it's working.
 
 53
-00:09:16.649 --> 00:09:33.893
+00:09:19.149 --> 00:09:36.393
 Be ready to use your own judgment. There's no clean way to prove that how people use these tools leads to better business results. As Jaime puts it, connecting the two still takes "a lot of leaps of faith," and no dashboard or usage stat will prove it for you.
 
 54
-00:09:34.693 --> 00:09:36.280
+00:09:37.193 --> 00:09:38.780
 Change how you work, together.
 
 55
-00:09:36.730 --> 00:09:54.527
+00:09:39.230 --> 00:09:57.027
 Jaime's biggest piece of advice for organizations trying to implement human-agent teams is to reimagine every workflow: "We're going to have to figure out how to change the ways that we're working, not just do more of the same kind of work faster. And that is going to be a team sport."
 
 56
-00:09:54.977 --> 00:10:13.442
+00:09:57.477 --> 00:10:15.942
 Her biggest advice for building an effective human-agent team? Start soon, but start small. Bring a group of people into a shared channel with Claude, give them the same set of resources, and let them work. If Slack's experience is any guide, what they build will spread on its own.
 
 57
-00:10:14.442 --> 00:10:34.796
+00:10:16.942 --> 00:10:37.296
 That was Turning conversation into knowledge: how Slack builds human-agent teams, from Claude Blog, published August 19, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

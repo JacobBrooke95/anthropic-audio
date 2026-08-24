@@ -1,201 +1,201 @@
 WEBVTT
 
 1
-00:00:00.500 --> 00:00:03.372
+00:00:03.000 --> 00:00:05.872
 Anthropic’s approach to teaching and learning A I.
 
 2
-00:00:03.822 --> 00:00:18.513
+00:00:06.322 --> 00:00:21.013
 Claude Academy gives users the educational tools they need to learn how to use A I effectively. In this post, we highlight why we’re launching it and how our own approach to teaching and learning influenced its development.
 
 3
-00:00:18.963 --> 00:00:23.179
+00:00:21.463 --> 00:00:25.679
 From Claude Blog, published August 20, 2026.
 
 4
-00:00:24.179 --> 00:00:49.525
+00:00:26.679 --> 00:00:52.025
 Millions of people visit Anthropic.com every month to learn about how to use A I. At Anthropic, we consider this a tremendous responsibility, and we have a team of educators dedicated to creating educational materials about how to use A I safely, effectively, and with intention. A I instruction should increase agency and empower learners to expand their capabilities.
 
 5
-00:00:49.975 --> 00:00:58.515
+00:00:52.475 --> 00:01:01.015
 Today, we’re sharing our approach to designing and scaling A I instruction to millions of learners worldwide via Claude Academy.
 
 6
-00:00:59.315 --> 00:01:01.825
+00:01:01.815 --> 00:01:04.325
 Why is it important to learn about A I now?
 
 7
-00:01:02.275 --> 00:01:22.916
+00:01:04.775 --> 00:01:25.416
 As model intelligence continues to evolve, the need for everyone to understand how to use A I safely and effectively becomes more urgent. Not only does A I education help people accomplish more, it helps them make informed decisions about how they want A I to show up in their communities and workplaces.
 
 8
-00:01:23.366 --> 00:01:40.775
+00:01:25.866 --> 00:01:43.275
 Learning to use A I will help individuals and organizations take advantage of the potential benefits of A I while mitigating some of the risk. This includes things like reducing manual work, unlocking new ways of working, and upskilling in new areas.
 
 9
-00:01:41.575 --> 00:01:47.649
+00:01:44.075 --> 00:01:50.149
 Claude Academy instruction mirrors Anthropic’s approach to educating its own employees.
 
 10
-00:01:48.099 --> 00:02:13.525
+00:01:50.599 --> 00:02:16.025
 At Anthropic, we believe the journey to A I fluency begins on an employee’s first day. During onboarding, we teach all employees the 4D A I Fluency Framework, best practices on managing what agents know, and how fast the A I exponential moves. Learners practice making intentional decisions about what tasks should be done by A I and what tasks they should do themselves.
 
 11
-00:02:13.645 --> 00:02:35.085
+00:02:16.145 --> 00:02:37.585
 They also learn the mistakes that A I tends to make so they can review A I-generated work more effectively. After onboarding, we offer a variety of “ever-boarding” (always-on onboarding) programs that deeply explore A I’s capabilities and limitations as well as evidence-based practices for working on human-agent teams.
 
 12
-00:02:35.205 --> 00:02:40.566
+00:02:37.705 --> 00:02:43.066
 In a field moving this fast, continuous learning is an expectation for every role.
 
 13
-00:02:41.016 --> 00:03:06.783
+00:02:43.516 --> 00:03:09.283
 In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like Claude Tag) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
 
 14
-00:03:07.233 --> 00:03:24.663
+00:03:09.733 --> 00:03:27.163
 When employees become A I fluent, we see them forming teams flexibly around real problems, taking on projects with expanded scope, and learning from company experts at scale. For Anthropic, A I fluency is the foundation required to have impact
 
 15
-00:03:25.463 --> 00:03:27.083
+00:03:27.963 --> 00:03:29.583
 Breaking down our approach.
 
 16
-00:03:27.533 --> 00:03:40.056
+00:03:30.033 --> 00:03:42.556
 In Claude Academy, all educational materials are designed to be broadly accessible, facilitating access to the most current information on how to work with A I and how A I works.
 
 17
-00:03:40.176 --> 00:03:59.458
+00:03:42.676 --> 00:04:01.958
 Of course we offer learning about how to use Claude, but we also offer product and model agnostic learning that democratizes key information about this new technology that will have a wide-ranging impact on the world. In addition, we adhere to the following learning design principles.
 
 18
-00:04:00.258 --> 00:04:03.165
+00:04:02.758 --> 00:04:05.665
 A I education should increase human agency.
 
 19
-00:04:03.615 --> 00:04:24.487
+00:04:06.115 --> 00:04:26.987
 Learning to use A I well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life.
 
 20
-00:04:24.607 --> 00:04:44.784
+00:04:27.107 --> 00:04:47.284
 Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this collection of legal use cases teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
 
 21
-00:04:45.234 --> 00:04:50.867
+00:04:47.734 --> 00:04:53.367
 Figure 1: Claude Academy is organized around problems you need to solve with A I.
 
 22
-00:04:51.667 --> 00:04:52.824
+00:04:54.167 --> 00:04:55.324
 Mindsets matter.
 
 23
-00:04:53.274 --> 00:05:08.783
+00:04:55.774 --> 00:05:11.283
 Given how fast A I is changing, mastering features alone won’t lead to lasting A I fluency. Even specific behaviors like “describe your audience” that were once useful have become less important when using the newest models.
 
 24
-00:05:08.903 --> 00:05:32.305
+00:05:11.403 --> 00:05:34.805
 For example, where you used to have to tell Claude that your task is intended for “colleagues working in legal” now Claude will simply ask you for that information if it’s needed for a high quality output. Our education team has shifted away from emphasizing specific behaviors for A I fluency towards cultivating broader, more durable mindsets for using A I.
 
 25
-00:05:32.425 --> 00:05:45.073
+00:05:34.925 --> 00:05:47.573
 Things like “today’s A I is the worst A I you’ll ever use” and “verify in proportion to the stakes” help people exercise good judgement with A I even as products and features change.
 
 26
-00:05:45.523 --> 00:05:52.918
+00:05:48.023 --> 00:05:55.418
 Figure 2: Claude Academy’s curriculum is built from a set of mindsets that support intentional A I adoption.
 
 27
-00:05:53.718 --> 00:05:59.404
+00:05:56.218 --> 00:06:01.904
 Safe and effective A I use extends far beyond the interactions someone has with A I.
 
 28
-00:05:59.854 --> 00:06:21.281
+00:06:02.354 --> 00:06:23.781
 Most learning about A I focuses almost exclusively on a user’s conversation with an agent. While that’s critical, we also believe that the moments surrounding A I use are just as important. For example, we encourage learners to ask themselves what tasks should be delegated to A I in the first place and which tasks should stay with them.
 
 29
-00:06:21.401 --> 00:06:42.855
+00:06:23.901 --> 00:06:45.355
 For example, you may want to draft sensitive parts of a memo but leave putting together summary slides to A I. Or you may want Claude to help with some exploratory data analysis but do final checks yourself. We also educate learners on how to ethically disclose A I use to colleagues, customers, and other stakeholders.
 
 30
-00:06:42.975 --> 00:06:59.139
+00:06:45.475 --> 00:07:01.639
 This includes explicitly stating how A I was used in the production of documents, analyses, or media before you share it with others. This broader perspective ensures that learners build an intentional relationship with A I from the start.
 
 31
-00:06:59.589 --> 00:07:06.114
+00:07:02.089 --> 00:07:08.614
 Figure 3: Claude Academy tutorials give you the building blocks to delegate effectively with A I.
 
 32
-00:07:06.914 --> 00:07:08.179
+00:07:09.414 --> 00:07:10.679
 Learning takes effort.
 
 33
-00:07:08.629 --> 00:07:30.232
+00:07:11.129 --> 00:07:32.732
 Our use cases, tutorials, and courses encourage you to practice with Claude as you go. Our learning exercises encourage reflection and experimentation so learners can discover what works best for them when using A I. Of note, we believe that today’s Claude Academy experience is the most rigid it’ll ever be.
 
 34
-00:07:30.352 --> 00:07:39.322
+00:07:32.852 --> 00:07:41.822
 With Claude, we’ll be able to deliver very personalized learning activities and exercises at a scale that hasn’t been possible before.
 
 35
-00:07:39.772 --> 00:07:47.875
+00:07:42.272 --> 00:07:50.375
 Figure 4: Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.
 
 36
-00:07:48.675 --> 00:07:53.520
+00:07:51.175 --> 00:07:56.020
 Once you learn to use A I, it can supercharge your learning on any topic.
 
 37
-00:07:53.970 --> 00:08:18.389
+00:07:56.470 --> 00:08:20.889
 Learning how to use A I effectively doesn’t just make it easier to become fluent in A I; it also helps individuals and organizations alike upskill on virtually any topic. Trying to understand a dense explanation? Ask Claude to draw you a diagram explaining it. With Claude as your learning partner, socratic discussions or interactive explainers are simply a prompt away.
 
 38
-00:08:18.509 --> 00:08:22.977
+00:08:21.009 --> 00:08:25.477
 Today’s products and models merely scratch the surface of what’s possible.
 
 39
-00:08:23.777 --> 00:08:25.327
+00:08:26.277 --> 00:08:27.827
 Using Claude Academy.
 
 40
-00:08:25.777 --> 00:08:40.916
+00:08:28.277 --> 00:08:43.416
 Whether you’re an individual using A I in your day to day or a leader driving organizational transformation, Claude Academy has the tools to help you learn how to apply A I effectively and safely. Here’s how to use it:
 
 41
-00:08:41.366 --> 00:08:46.138
+00:08:43.866 --> 00:08:48.638
 Get recommended courses based on areas of interest and completed learning.
 
 42
-00:08:46.378 --> 00:08:48.510
+00:08:48.878 --> 00:08:51.010
 Track course completion and badges.
 
 43
-00:08:48.750 --> 00:08:57.613
+00:08:51.250 --> 00:09:00.113
 To have Claude to recommend courses or learning paths from Claude Academy based on how you work, you can install the Claude Academy Skill.
 
 44
-00:08:58.063 --> 00:09:06.280
+00:09:00.563 --> 00:09:08.780
 You can access Claude Academy today directly at academy.claude.com or the “Learn more” tab in your Claude profile menu.
 
 45
-00:09:07.080 --> 00:09:08.063
+00:09:09.580 --> 00:09:10.563
 Looking ahead.
 
 46
-00:09:08.513 --> 00:09:19.601
+00:09:11.013 --> 00:09:22.101
 We believe that Claude can be a tremendous learning partner, and we have big plans to fully realize that vision inside Claude Academy, but there’s still a lot of work ahead of us.
 
 47
-00:09:19.721 --> 00:09:32.821
+00:09:22.221 --> 00:09:35.321
 As Claude becomes more capable, we anticipate new opportunities for personalized and interactive learning will emerge, and we are excited to partner with our users to shape the future of Claude Academy.
 
 48
-00:09:33.271 --> 00:09:44.347
+00:09:35.771 --> 00:09:46.847
 We welcome your feedback about what learning works best for you. Every course, tutorial, and use case offers you the chance to share what worked for you and how we can improve.
 
 49
-00:09:44.797 --> 00:09:47.080
+00:09:47.297 --> 00:09:49.580
 Start learning at Claude Academy today.
 
 50
-00:09:48.080 --> 00:10:06.587
+00:09:50.580 --> 00:10:09.087
 That was Anthropic’s approach to teaching and learning A I, from Claude Blog, published August 20, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
