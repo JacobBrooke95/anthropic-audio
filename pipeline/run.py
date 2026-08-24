@@ -3,6 +3,7 @@
   uv run python -m pipeline run [--max N] [--dry-run] [--since YYYY-MM-DD]
   uv run python -m pipeline add URL [URL...]         # force-process specific posts
   uv run python -m pipeline rebuild                    # regenerate site + feed from stored posts
+  uv run python -m pipeline art                        # re-render episode artwork (no TTS) + rebuild
   uv run python -m pipeline list                       # show episodes
 """
 from __future__ import annotations
@@ -155,6 +156,28 @@ def cmd_rebuild(args):
     rebuild(State())
 
 
+def cmd_art(args):
+    """Re-render artwork for every published episode from its stored post.json and
+    re-embed it in the MP3's ID3 tags — no TTS involved."""
+    import json
+    st = State()
+    for ep in st.episodes:
+        pj = DOCS / "posts" / ep["slug"] / "post.json"
+        if not pj.exists():
+            log.warning("no post.json for %s — skipping", ep["slug"])
+            continue
+        post = Post.from_dict(json.loads(pj.read_text()))
+        art = episode_art(post, DOCS / "art" / f"{ep['slug']}.jpg")
+        mp3 = DOCS / "audio" / f"{ep['slug']}.mp3"
+        if mp3.exists():
+            tag_mp3(mp3, title=ep["title"], artist=", ".join(ep.get("authors") or []) or "Anthropic",
+                    album=PODCAST["title"], date=ep["date"], comment=ep["url"], art_jpeg=art, track=ep["episode"])
+            ep["bytes"] = mp3.stat().st_size
+        log.info("✔ art %s (%d bytes)", ep["slug"], len(art))
+    st.save()
+    rebuild(st)
+
+
 def cmd_list(args):
     st = State()
     for ep in sorted(st.episodes, key=lambda e: e["date"]):
@@ -171,6 +194,7 @@ def main(argv=None):
     r.set_defaults(fn=cmd_run)
     a = sub.add_parser("add"); a.add_argument("urls", nargs="+"); a.set_defaults(fn=cmd_add)
     sub.add_parser("rebuild").set_defaults(fn=cmd_rebuild)
+    sub.add_parser("art").set_defaults(fn=cmd_art)
     sub.add_parser("list").set_defaults(fn=cmd_list)
     args = ap.parse_args(argv)
     args.fn(args)

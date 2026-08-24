@@ -1,10 +1,20 @@
 """Apple-Podcasts-ready RSS 2.0 feed with itunes + podcast namespaces."""
 from __future__ import annotations
+import hashlib
 import html as H
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
-from .config import PODCAST, SITE_URL, FEED_URL, SOURCES
+from .config import DOCS, PODCAST, SITE_URL, FEED_URL, SOURCES
 from .util import rfc2822, parse_iso
+
+
+def _art_url(slug: str) -> str:
+    """Episode art URL with a content-hash query so podcast apps refetch re-rendered art."""
+    url = f"{SITE_URL}/art/{slug}.jpg"
+    f = DOCS / "art" / f"{slug}.jpg"
+    if f.exists():
+        url += "?v=" + hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+    return url
 
 
 def _cdata(s: str) -> str:
@@ -105,7 +115,7 @@ def build_feed(episodes: list[dict]) -> str:
         src = SOURCES[ep["source"]]
         title = f"{src['label']}: {ep['title']}"
         audio = f"{SITE_URL}/audio/{ep['slug']}.mp3"
-        art = f"{SITE_URL}/art/{ep['slug']}.jpg"
+        art = _art_url(ep["slug"])
         page = f"{SITE_URL}/episodes/{ep['slug']}/"
         out += [
             "    <item>",

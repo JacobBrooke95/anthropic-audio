@@ -49,6 +49,7 @@ uv run python -m pipeline run --dry-run      # what would be processed
 uv run python -m pipeline run --max 3        # discover + generate up to 3 episodes
 uv run python -m pipeline add <post-url>     # force a specific post
 uv run python -m pipeline rebuild            # regenerate site + feed from stored posts
+uv run python -m pipeline art                # re-render all episode artwork (no TTS) + rebuild
 uv run python -m pipeline list
 uv run python scripts/validate_feed.py docs/feed.xml
 python3 -m http.server -d docs 8000          # preview the site
