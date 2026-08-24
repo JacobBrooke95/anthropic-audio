@@ -24,11 +24,17 @@ GitHub Actions (hourly cron, PT business-hours guard)
      │                 claude.com: Webflow rich text + JSON-LD BlogPosting)
      ├─ speech.py     blocks → speech script (figures read by caption/alt, tables linearised,
      │                long code blocks summarised, footnotes at the end, TTS normalisation)
-     ├─ tts.py        Kokoro-82M ONNX (CPU, multi-process) → loudness-normalised 64 kbps MP3,
-     │                ID3 tags + embedded art, WebVTT transcript from per-chunk timings
-     ├─ artwork.py    3000×3000 JPEG episode art from the post's og:image + show cover
+     ├─ music.py      deterministic synth beds: intro (pad + pluck motif under the announcer
+     │                slate) and outro pad — pure numpy, no audio assets
+     ├─ tts.py        Kokoro-82M ONNX (CPU, multi-process) → produced episode: cold open
+     │                (music bed + slate in a second voice), loudness-normalised read,
+     │                outro pad; 64 kbps MP3 with ID3 tags, embedded art, and ID3 chapters
+     │                (CHAP/CTOC from headings); WebVTT transcript from per-chunk timings
+     ├─ artwork.py    3000×3000 JPEG episode art: keys the post's og:image illustration out of
+     │                its flat background, floats it on a gradient of the same colour + show cover
      ├─ site.py       docs/: index, episode pages (player + show notes + full text), post.md/.json
-     ├─ feed.py       docs/feed.xml (RSS 2.0 + itunes + podcast namespaces)
+     ├─ feed.py       docs/feed.xml (RSS 2.0 + itunes + podcast namespaces, incl.
+     │                podcast:transcript → WebVTT and podcast:chapters → docs/chapters/*.json)
      └─ state.py      state/episodes.json (seen URLs, episode catalogue, baseline date)
  └─ scripts/validate_feed.py  → commit docs/ + state/ back to main → Pages redeploys
 ```
@@ -49,13 +55,16 @@ uv run python -m pipeline run --dry-run      # what would be processed
 uv run python -m pipeline run --max 3        # discover + generate up to 3 episodes
 uv run python -m pipeline add <post-url>     # force a specific post
 uv run python -m pipeline rebuild            # regenerate site + feed from stored posts
+uv run python -m pipeline art                # re-render all episode artwork (no TTS) + rebuild
+uv run python -m pipeline rerender           # re-synthesize audio for existing episodes (full TTS)
 uv run python -m pipeline list
 uv run python scripts/validate_feed.py docs/feed.xml
 python3 -m http.server -d docs 8000          # preview the site
 ```
 
 `TTS_WORKERS` (default: half the cores, max 4) controls parallel synthesis.
-Voice, speed, pauses, bitrate: `pipeline/config.py` (`TTS`). Feed metadata: `PODCAST` in the same file.
+Voice, speed, pauses, bitrate: `pipeline/config.py` (`TTS`). Cold open / outro music and the
+announcer voice: `MUSIC` in the same file. Feed metadata: `PODCAST` in the same file.
 
 ## Manual run on GitHub
 

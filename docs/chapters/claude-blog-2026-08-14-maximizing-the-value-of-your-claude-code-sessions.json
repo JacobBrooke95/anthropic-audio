@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 23.34,
+   "title": "TL;DR"
+  },
+  {
+   "startTime": 83.82,
+   "title": "Maximizing value"
+  },
+  {
+   "startTime": 157.3,
+   "title": "What decides the price of a token"
+  },
+  {
+   "startTime": 183.97,
+   "title": "Model"
+  },
+  {
+   "startTime": 219.49,
+   "title": "Outro"
+  }
+ ]
+}

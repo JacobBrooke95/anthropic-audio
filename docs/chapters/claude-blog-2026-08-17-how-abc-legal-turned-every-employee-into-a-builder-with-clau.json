@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 143.94,
+   "title": "From enthusiasm to engineering: treating every agent like software"
+  },
+  {
+   "startTime": 239.47,
+   "title": "Bridging the technical divide"
+  },
+  {
+   "startTime": 306.73,
+   "title": "An agent for most stages of the legal document process"
+  },
+  {
+   "startTime": 472.79,
+   "title": "Making the agents smarter: harvest, tune, repeat"
+  },
+  {
+   "startTime": 651.69,
+   "title": "Why Claude Managed Agents"
+  },
+  {
+   "startTime": 861.58,
+   "title": "Best practices for deploying a fleet of agents"
+  },
+  {
+   "startTime": 1001.11,
+   "title": "What's next"
+  },
+  {
+   "startTime": 1041.6,
+   "title": "Outro"
+  }
+ ]
+}

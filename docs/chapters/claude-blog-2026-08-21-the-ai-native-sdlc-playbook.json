@@ -1,0 +1,273 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 31.81,
+   "title": "Code is no longer the bottleneck"
+  },
+  {
+   "startTime": 257.85,
+   "title": "What is an A I-native SDLC?"
+  },
+  {
+   "startTime": 287.06,
+   "title": "The shifts"
+  },
+  {
+   "startTime": 472.63,
+   "title": "Plays"
+  },
+  {
+   "startTime": 566.57,
+   "title": "Plan"
+  },
+  {
+   "startTime": 578.64,
+   "title": "Capture as intent.md"
+  },
+  {
+   "startTime": 737.39,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 800.71,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 865.91,
+   "title": "Design"
+  },
+  {
+   "startTime": 875.94,
+   "title": "Requirements and design"
+  },
+  {
+   "startTime": 963.16,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 1057.6,
+   "title": "What it looks like (the prompt)"
+  },
+  {
+   "startTime": 1087.07,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 1137.8,
+   "title": "Build"
+  },
+  {
+   "startTime": 1149.62,
+   "title": "Claude Code plan mode as the default starting point"
+  },
+  {
+   "startTime": 1214.29,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 1275.68,
+   "title": "What it looks like (plan.md)"
+  },
+  {
+   "startTime": 1283.24,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 1333.46,
+   "title": "Claude Code on auto mode"
+  },
+  {
+   "startTime": 1390.86,
+   "title": "Legacy systems and the source of truth"
+  },
+  {
+   "startTime": 1507.97,
+   "title": "The CLAUDE.md"
+  },
+  {
+   "startTime": 1539.99,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 1582.6,
+   "title": "What it looks like (CLAUDE.md)"
+  },
+  {
+   "startTime": 1590.01,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 1626.5,
+   "title": "Skills as institutional knowledge"
+  },
+  {
+   "startTime": 1667.39,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 1720.73,
+   "title": "What it looks like (.claude/skills/secure-api-review/SKILL.md)"
+  },
+  {
+   "startTime": 1731.75,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 1793.31,
+   "title": "Hooks as build-time guardrails"
+  },
+  {
+   "startTime": 1853.59,
+   "title": "Parallel sessions and subagents"
+  },
+  {
+   "startTime": 1959.64,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 2034.85,
+   "title": "What it looks like (.claude/agents/verifier.md)"
+  },
+  {
+   "startTime": 2044.3,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 2079.85,
+   "title": "Give Claude a feedback loop"
+  },
+  {
+   "startTime": 2168.93,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 2273.38,
+   "title": "What it looks like (CLAUDE.md verification block)"
+  },
+  {
+   "startTime": 2347.47,
+   "title": "Continuous evals in CI"
+  },
+  {
+   "startTime": 2403.75,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 2454.67,
+   "title": "What it looks like (.github/workflows/agent-evals.yml)"
+  },
+  {
+   "startTime": 2464.59,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 2501.44,
+   "title": "Deploy"
+  },
+  {
+   "startTime": 2512.57,
+   "title": "A I in the P R review loop"
+  },
+  {
+   "startTime": 2597.6,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 2740.19,
+   "title": "What it looks like (REVIEW.md)"
+  },
+  {
+   "startTime": 2747.81,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 2793.79,
+   "title": "Hooks as approval gates"
+  },
+  {
+   "startTime": 2839.54,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 2884.06,
+   "title": "What it looks like (.claude/settings.json)"
+  },
+  {
+   "startTime": 2892.75,
+   "title": "And the gate itself (.claude/hooks/production-gate.sh)"
+  },
+  {
+   "startTime": 2902.8,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 2923.52,
+   "title": "Managed settings for a regulated enterprise"
+  },
+  {
+   "startTime": 3147.57,
+   "title": "CI/CD integration and deployment"
+  },
+  {
+   "startTime": 3239.28,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 3328.78,
+   "title": "What it looks like (pipeline step)"
+  },
+  {
+   "startTime": 3336.29,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 3391.74,
+   "title": "Maintain"
+  },
+  {
+   "startTime": 3402.72,
+   "title": "Maintenance and closing the loop"
+  },
+  {
+   "startTime": 3491.06,
+   "title": "Closing the loop"
+  },
+  {
+   "startTime": 3545.39,
+   "title": "How to execute it"
+  },
+  {
+   "startTime": 3668.38,
+   "title": "What it looks like (for example, a bands.yaml monitoring CI test failure rate)"
+  },
+  {
+   "startTime": 3679.29,
+   "title": "Governance considerations"
+  },
+  {
+   "startTime": 3733.29,
+   "title": "Examples"
+  },
+  {
+   "startTime": 3770.58,
+   "title": "Claude on call with Claude Tag"
+  },
+  {
+   "startTime": 3863.5,
+   "title": "Closing thoughts"
+  },
+  {
+   "startTime": 3901.52,
+   "title": "Resources and acknowledgments"
+  },
+  {
+   "startTime": 4027.0,
+   "title": "Outro"
+  }
+ ]
+}

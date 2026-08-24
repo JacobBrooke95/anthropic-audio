@@ -1,0 +1,49 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 95.26,
+   "title": "Treat your conversation history like a knowledge base"
+  },
+  {
+   "startTime": 131.78,
+   "title": "How to put this into practice"
+  },
+  {
+   "startTime": 169.86,
+   "title": "Learn when to handoff tasks between agents and humans"
+  },
+  {
+   "startTime": 224.86,
+   "title": "How to put this into practice"
+  },
+  {
+   "startTime": 255.97,
+   "title": "Delegate clear roles for agents"
+  },
+  {
+   "startTime": 316.4,
+   "title": "Default shared channels to public; go private on purpose"
+  },
+  {
+   "startTime": 406.31,
+   "title": "Spread adoption by showing the art of the possible"
+  },
+  {
+   "startTime": 477.06,
+   "title": "Measure outcomes, not activity"
+  },
+  {
+   "startTime": 539.07,
+   "title": "Change how you work, together"
+  },
+  {
+   "startTime": 575.97,
+   "title": "Outro"
+  }
+ ]
+}

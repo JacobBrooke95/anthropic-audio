@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 41.67,
+   "title": "A I incident response for CI/CD: Claude on call at Anthropic"
+  },
+  {
+   "startTime": 124.69,
+   "title": "Our Claude on call setup"
+  },
+  {
+   "startTime": 287.75,
+   "title": "Detection"
+  },
+  {
+   "startTime": 400.5,
+   "title": "Triage"
+  },
+  {
+   "startTime": 562.2,
+   "title": "Resolution"
+  },
+  {
+   "startTime": 632.35,
+   "title": "Verification, communication, and handoff"
+  },
+  {
+   "startTime": 713.03,
+   "title": "From monitoring incidents to monitoring an incident response system"
+  },
+  {
+   "startTime": 802.72,
+   "title": "Outro"
+  }
+ ]
+}

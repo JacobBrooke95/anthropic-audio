@@ -89,6 +89,16 @@ TTS = {
     "max_code_lines_read": 3,
 }
 
+# ---- Cold open / outro music (pipeline/music.py) ------------------------------
+MUSIC = {
+    "enabled": True,        # produce the cold open (bed + spoken slate) and outro pad
+    "slate_voice": "am_michael",  # announcer voice for the slate/cold open (contrasts the body voice)
+    "pre": 1.3,             # seconds of music alone before the slate voice enters
+    "gap": 0.8,             # pause between the slate and the article read
+    "tail": 3.2,            # music fade-out length after the outro voice ends
+    "limit": 0.89,          # post-mix peak ceiling (~ -1 dBFS) so the encoded MP3 cannot clip
+}
+
 # ---- Run policy ---------------------------------------------------------------
 MAX_PER_RUN = 3          # safety valve: episodes generated per invocation
 MAX_RETRIES = 3          # failed posts are retried on later runs up to this many times

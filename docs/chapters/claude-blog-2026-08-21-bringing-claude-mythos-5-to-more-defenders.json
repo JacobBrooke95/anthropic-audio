@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 220.43,
+   "title": "Integrating Mythos into existing cyberdefensive tools"
+  },
+  {
+   "startTime": 321.09,
+   "title": "Making Claude Security available with Claude Mythos 5 for Enterprise customers"
+  },
+  {
+   "startTime": 415.28,
+   "title": "Launching the Defender Advantage Fund to secure open-source software"
+  },
+  {
+   "startTime": 496.12,
+   "title": "Expanding our Cyber Verification Program"
+  },
+  {
+   "startTime": 578.96,
+   "title": "What’s next"
+  },
+  {
+   "startTime": 627.61,
+   "title": "Outro"
+  }
+ ]
+}

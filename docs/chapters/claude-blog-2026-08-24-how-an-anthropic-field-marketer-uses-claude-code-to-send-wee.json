@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 136.56,
+   "title": "You don't need to code, you need to explain"
+  },
+  {
+   "startTime": 253.12,
+   "title": "User feedback is the real prompt engineering"
+  },
+  {
+   "startTime": 361.94,
+   "title": "Rolling the digest out across the business"
+  },
+  {
+   "startTime": 487.07,
+   "title": "Best practices for getting started with Claude"
+  },
+  {
+   "startTime": 609.29,
+   "title": "Outro"
+  }
+ ]
+}

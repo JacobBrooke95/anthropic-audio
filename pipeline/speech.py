@@ -194,6 +194,12 @@ def build_script(post) -> list[dict]:
     return segs
 
 
+def slate_line(post) -> str:
+    """The cold-open line read by the announcer voice over the intro bed. Short on
+    purpose — the article read that follows opens with source, date, and authors."""
+    return normalize(f"This is {PODCAST['title']}. Today: {post.title.rstrip('.')}.")
+
+
 def _end(text: str) -> str:
     """Ensure a chunk ends with terminal punctuation (adds a period when there is none)."""
     t = text.strip()

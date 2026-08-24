@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 100.66,
+   "title": "Hitting the “A I dust” ceiling"
+  },
+  {
+   "startTime": 215.55,
+   "title": "Agents as teammates"
+  },
+  {
+   "startTime": 362.9,
+   "title": "Four ways to run Claude in monday"
+  },
+  {
+   "startTime": 436.45,
+   "title": "From brief to landing page without leaving the board"
+  },
+  {
+   "startTime": 502.61,
+   "title": "A family business at the A I frontier"
+  },
+  {
+   "startTime": 568.09,
+   "title": "What monday.com learned"
+  },
+  {
+   "startTime": 684.09,
+   "title": "Outro"
+  }
+ ]
+}

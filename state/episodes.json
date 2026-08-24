@@ -4421,11 +4421,13 @@
         }
       ],
       "word_count": 827,
-      "duration": 386.377143,
-      "bytes": 3284490,
+      "duration": 364.747755,
+      "bytes": 3673500,
       "episode": 2,
       "created": "2026-08-21T12:51:55+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-14-maximizing-the-value-of-your-claude-code-sessions",
@@ -4443,11 +4445,13 @@
         }
       ],
       "word_count": 544,
-      "duration": 250.057415,
-      "bytes": 2194054,
+      "duration": 240.404898,
+      "bytes": 2674951,
       "episode": 11,
       "created": "2026-08-21T13:37:08+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1f51730ca89a4d571062_og_maximizing-the-value-of-your-claude-code-sessions.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1f51730ca89a4d571062_og_maximizing-the-value-of-your-claude-code-sessions.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "news-2026-08-14-claude-text-watermark",
@@ -4473,11 +4477,13 @@
         }
       ],
       "word_count": 2119,
-      "duration": 890.603673,
-      "bytes": 7342179,
+      "duration": 824.764082,
+      "bytes": 7356154,
       "episode": 1,
       "created": "2026-08-21T12:58:01+00:00",
-      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather"
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-17-how-abc-legal-turned-every-employee-into-a-builder-with-clau",
@@ -4499,11 +4505,13 @@
         }
       ],
       "word_count": 2421,
-      "duration": 1144.80805,
-      "bytes": 9418814,
+      "duration": 1064.75102,
+      "bytes": 9344259,
       "episode": 10,
       "created": "2026-08-21T13:35:50+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a834019da1fda63e77b2a20_og_how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a834019da1fda63e77b2a20_og_how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "research-2026-08-18-claude-accelerates-protein-design",
@@ -4593,11 +4601,13 @@
         }
       ],
       "word_count": 3482,
-      "duration": 1808.741587,
-      "bytes": 14792181,
+      "duration": 1677.00898,
+      "bytes": 14259397,
       "episode": 8,
       "created": "2026-08-21T13:27:32+00:00",
-      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/e3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png"
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/e3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-18-ai-ci-cd-on-call",
@@ -4659,11 +4669,13 @@
         }
       ],
       "word_count": 1980,
-      "duration": 879.751088,
-      "bytes": 7286951,
+      "duration": 826.958367,
+      "bytes": 7391865,
       "episode": 5,
       "created": "2026-08-21T13:13:08+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a84a8dee0d08841721bbc53_og_ai-ci-cd-on-call.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a84a8dee0d08841721bbc53_og_ai-ci-cd-on-call.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-19-turning-conversation-into-knowledge-how-slack-builds-human-a",
@@ -4685,11 +4697,13 @@
         }
       ],
       "word_count": 1475,
-      "duration": 636.24551,
-      "bytes": 5339018,
+      "duration": 598.439184,
+      "bytes": 5584170,
       "episode": 9,
       "created": "2026-08-21T13:30:32+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fdd8c172c1f5ac0f312c_og_turning-conversation-into-knowledge-how-slack-builds-human-agent-teams.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fdd8c172c1f5ac0f312c_og_turning-conversation-into-knowledge-how-slack-builds-human-agent-teams.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-20-claude-code-guide-for-startups",
@@ -4911,11 +4925,13 @@
         }
       ],
       "word_count": 4718,
-      "duration": 2166.274671,
-      "bytes": 17542764,
+      "duration": 2009.39102,
+      "bytes": 16847531,
       "episode": 3,
       "created": "2026-08-21T13:08:03+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a86fd47dbdb6a1fb6d6bb19_og_claude-code-guide-for-startups.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a86fd47dbdb6a1fb6d6bb19_og_claude-code-guide-for-startups.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-20-computer-use-skills-api-files-api",
@@ -4928,11 +4944,13 @@
       "category": "",
       "links": [],
       "word_count": 398,
-      "duration": 202.461837,
-      "bytes": 1850656,
+      "duration": 198.269388,
+      "bytes": 2389108,
       "episode": 4,
       "created": "2026-08-21T13:09:06+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-20-anthropics-approach-to-teaching-and-learning-ai",
@@ -4970,11 +4988,13 @@
         }
       ],
       "word_count": 1249,
-      "duration": 608.036916,
-      "bytes": 5076394,
+      "duration": 568.816327,
+      "bytes": 5313891,
       "episode": 6,
       "created": "2026-08-21T13:15:56+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a87352164143e387edeb760_og_anthropics-approach-to-teaching-and-learning-ai.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a87352164143e387edeb760_og_anthropics-approach-to-teaching-and-learning-ai.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-20-how-monday-com-transformed-its-platform-into-an-agent-first",
@@ -4996,11 +5016,13 @@
         }
       ],
       "word_count": 1396,
-      "duration": 748.504422,
-      "bytes": 6222506,
+      "duration": 708.597551,
+      "bytes": 6480335,
       "episode": 7,
       "created": "2026-08-21T13:19:28+00:00",
-      "hero": ""
+      "hero": "",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-21-the-ai-native-sdlc-playbook",
@@ -5126,11 +5148,13 @@
         }
       ],
       "word_count": 9873,
-      "duration": 4373.498776,
-      "bytes": 35203529,
+      "duration": 4047.516735,
+      "bytes": 33157984,
       "episode": 12,
       "created": "2026-08-21T16:44:07+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders",
@@ -5196,11 +5220,13 @@
         }
       ],
       "word_count": 1420,
-      "duration": 691.513469,
-      "bytes": 5769398,
+      "duration": 650.266122,
+      "bytes": 5992843,
       "episode": 13,
       "created": "2026-08-21T17:51:45+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg",
+      "intro_bed": 1,
+      "audio_v": 2
     },
     {
       "slug": "claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee",
@@ -5218,11 +5244,13 @@
         }
       ],
       "word_count": 1567,
-      "duration": 619.206531,
-      "bytes": 5216333,
+      "duration": 633.652245,
+      "bytes": 5876965,
       "episode": 14,
       "created": "2026-08-24T16:01:21+00:00",
-      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8c5c59795765514bd8fd82_og_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-sales.jpg"
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8c5c59795765514bd8fd82_og_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-sales.jpg",
+      "audio_v": 2,
+      "intro_bed": 1
     }
   ],
   "next_episode": 15,

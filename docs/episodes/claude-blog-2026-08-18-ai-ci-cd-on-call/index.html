@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures — Anthropic, Read Aloud</title>
+<meta name="description" content="How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.">
+<meta property="og:title" content="Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures — Anthropic, Read Aloud">
+<meta property="og:description" content="How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.">
+<meta property="og:image" content="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-18-ai-ci-cd-on-call.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (podcast)" href="https://jacobbrooke95.github.io/anthropic-audio/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (full-text posts)" href="https://jacobbrooke95.github.io/anthropic-audio/posts.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../style.css">
 <link rel="icon" type="image/png" sizes="64x64" href="../../favicon.png">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 </head><body>
-<header class="site"><h1><a href="../../" style="text-decoration:none;color:inherit">Anthropic, Read Aloud</a></h1>
-<p>Unofficial audio editions of Anthropic&#x27;s research, news, and Claude blog posts</p></header>
-<main>
-<p><span class="badge">Claude Blog</span><span class="meta">August 18, 2026 · 14:40 · 1,980 words</span></p>
-<h1 style="margin:.2rem 0 .6rem">Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</h1>
-<img class="hero" src="../../art/claude-blog-2026-08-18-ai-ci-cd-on-call.jpg" alt="Episode artwork" style="max-width:360px">
+<nav class="topnav" aria-label="Site"><div class="wrap">
+<a class="brand" href="../../"><img src="../../cover.jpg" alt="">Anthropic, Read Aloud</a>
+<a class="back" href="../../">← All episodes</a>
+</div></nav>
+<main class="wrap">
+<article>
+<header class="ep-head">
+<img class="ep-art" src="../../art/claude-blog-2026-08-18-ai-ci-cd-on-call.jpg" alt="Episode artwork for “Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures”">
+<div class="ep-info">
+<div class="row"><span class="badge claude-blog">Claude Blog</span><span class="meta">Episode 5 · August 18, 2026 · 1,980 words</span></div>
+<h1 class="ep-title">Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</h1>
+<p class="ep-sub">How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.</p>
+<div class="player" id="player" data-slug="claude-blog-2026-08-18-ai-ci-cd-on-call" data-dur="827.0">
+<p class="plabel"><span>Listen to this episode</span><span class="dur">13:47</span></p>
 <audio controls preload="none" src="../../audio/claude-blog-2026-08-18-ai-ci-cd-on-call.mp3"></audio>
-<p class="small"><a href="../../audio/claude-blog-2026-08-18-ai-ci-cd-on-call.mp3">Download MP3</a> · <a href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.vtt">Transcript (VTT)</a> · <a href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.txt">Transcript (text)</a> · <a href="../../posts/claude-blog-2026-08-18-ai-ci-cd-on-call/post.md">Markdown copy</a> · <a href="https://claude.com/blog/ai-ci-cd-on-call">Original post ↗</a></p>
-<div class="notes"><p>How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/ai-ci-cd-on-call">https://claude.com/blog/ai-ci-cd-on-call</a><br/><strong>Published:</strong> August 18, 2026 · Claude Blog<br/><strong>Length:</strong> 1,980 words · 14 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://github.com/anthropics/oncall-kit">Set up your own Claude on-call with our setup kit</a></li><li><a href="https://claude.com/product/tag">Claude Tag</a></li><li><a href="https://claude.com/blog/agent-identity-access-model">Claude Tag has its own service account</a></li><li><a href="https://claude.com/docs/claude-tag/admins/setup-overview#choose-which-tools-to-connect">here’s how</a></li><li><a href="https://github.com/anthropics/oncall-kit/blob/main/test-fixtures/RUNBOOK.md">You can watch it run against a fictional team&#x27;s history</a></li><li><a href="https://support.claude.com/en/collections/9387370-team-and-enterprise-plans">Claude Team or Claude Enterprise</a></li><li><a href="https://code.claude.com/docs/en/remote-control">Claude Code Remote</a></li><li><a href="https://github.com/anthropics/oncall-kit/blob/main/templates/ONCALL.md">root oncall.md file</a></li><li><a href="https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code">dynamic workflow</a></li><li><a href="https://code.claude.com/docs/en/mcp">MCP Connectors</a></li><li><a href="https://github.com/anthropics/oncall-kit/tree/main/skills/triage">more detailed reference markdown files for each bug class</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">ship 8x as much code per quarter</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-18-ai-ci-cd-on-call/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
-<article class="post"><h2 style="margin-top:0">Full text of the post</h2>
+<div class="pui" hidden>
+<div class="p-main">
+<button type="button" class="p-play" aria-label="Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+<div class="p-right">
+<div class="p-bar" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="827" aria-valuenow="0" aria-valuetext="0:00">
+<div class="p-buf"></div><div class="p-fill"></div><div class="p-knob"></div>
+</div>
+<div class="p-times"><span class="p-cur">0:00</span><span class="p-chap"></span><span class="p-dur">13:47</span></div>
+</div>
+</div>
+<div class="p-ctl">
+<button type="button" data-skip="-30" title="Back 30 seconds" aria-label="Back 30 seconds">−30s</button>
+<button type="button" data-skip="-15" title="Back 15 seconds" aria-label="Back 15 seconds">−15s</button>
+<button type="button" class="p-rate" title="Playback speed" aria-label="Playback speed">1×</button>
+<button type="button" data-skip="15" title="Forward 15 seconds" aria-label="Forward 15 seconds">+15s</button>
+<button type="button" data-skip="30" title="Forward 30 seconds" aria-label="Forward 30 seconds">+30s</button>
+</div>
+<p class="p-resume" hidden>Resumed at <span class="p-resume-t"></span> — <button type="button" class="p-restart">start over</button></p>
+</div>
+</div>
+<nav class="chapters" id="chapters" hidden aria-label="Chapters" data-src="../../chapters/claude-blog-2026-08-18-ai-ci-cd-on-call.json"></nav>
+<div class="actions">
+<a class="chip" href="../../audio/claude-blog-2026-08-18-ai-ci-cd-on-call.mp3" download>Download MP3</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.vtt">Transcript (VTT)</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.txt">Transcript (text)</a>
+<a class="chip" href="../../posts/claude-blog-2026-08-18-ai-ci-cd-on-call/post.md">Markdown</a>
+<a class="chip" href="../../posts/claude-blog-2026-08-18-ai-ci-cd-on-call/post.json">JSON</a>
+<a class="chip" href="https://claude.com/blog/ai-ci-cd-on-call">Original post ↗</a>
+</div>
+</div>
+</header>
+<details class="panel notes">
+<summary>Show notes &amp; every link in the post</summary>
+<div class="inner"><p>How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/ai-ci-cd-on-call">https://claude.com/blog/ai-ci-cd-on-call</a><br/><strong>Published:</strong> August 18, 2026 · Claude Blog<br/><strong>Length:</strong> 1,980 words · 13 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://github.com/anthropics/oncall-kit">Set up your own Claude on-call with our setup kit</a></li><li><a href="https://claude.com/product/tag">Claude Tag</a></li><li><a href="https://claude.com/blog/agent-identity-access-model">Claude Tag has its own service account</a></li><li><a href="https://claude.com/docs/claude-tag/admins/setup-overview#choose-which-tools-to-connect">here’s how</a></li><li><a href="https://github.com/anthropics/oncall-kit/blob/main/test-fixtures/RUNBOOK.md">You can watch it run against a fictional team&#x27;s history</a></li><li><a href="https://support.claude.com/en/collections/9387370-team-and-enterprise-plans">Claude Team or Claude Enterprise</a></li><li><a href="https://code.claude.com/docs/en/remote-control">Claude Code Remote</a></li><li><a href="https://github.com/anthropics/oncall-kit/blob/main/templates/ONCALL.md">root oncall.md file</a></li><li><a href="https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code">dynamic workflow</a></li><li><a href="https://code.claude.com/docs/en/mcp">MCP Connectors</a></li><li><a href="https://github.com/anthropics/oncall-kit/tree/main/skills/triage">more detailed reference markdown files for each bug class</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">ship 8x as much code per quarter</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-18-ai-ci-cd-on-call/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
+</details>
+<details class="panel" id="transcript" data-vtt="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.vtt" data-txt="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.txt">
+<summary>Transcript</summary>
+<div class="inner"><p class="meta">Click any line to jump the audio there. Also available as <a href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.vtt">WebVTT (timed)</a> or <a href="../../transcripts/claude-blog-2026-08-18-ai-ci-cd-on-call.txt">plain text</a>.</p>
+<div class="tr-body"><pre class="tr-out"></pre></div>
+<noscript><p class="meta">JavaScript is off — read the transcript via the links above.</p></noscript></div>
+</details>
+<details class="panel" open>
+<summary>Full text of the post</summary>
+<div class="inner"><article class="post">
 <p class="meta">Copied from <a href="https://claude.com/blog/ai-ci-cd-on-call">https://claude.com/blog/ai-ci-cd-on-call</a> on 2026-08-21 for the audio edition. © Anthropic, PBC.</p>
 <p><a href="https://github.com/anthropics/oncall-kit"><em>Set up your own Claude on-call with our setup kit</em></a><em>.</em></p>
 <h2>AI incident response for CI/CD: Claude on call at Anthropic</h2>
@@ -79,6 +134,9 @@
 <ul><li>You’ll need a <a href="https://support.claude.com/en/collections/9387370-team-and-enterprise-plans">Claude Team or Claude Enterprise</a> plan</li><li>The organization owner needs to add Claude to the on call Slack channel via Claude Tag</li><li>The org owner also needs to help connect Claude in the on-call Slack channel to the appropriate connectors, GitHub repo, and set up <a href="https://code.claude.com/docs/en/remote-control">Claude Code Remote</a>.</li><li>Add Claude to your incident channel and instruct it to monitor for incidents and immediately triage</li></ul>
 <p><a href="https://github.com/anthropics/oncall-kit"><em>Set up your own Claude on-call with our setup kit</em></a><em>.</em></p>
 <p><em>This article was written by Sachin Malhotra, technical member of Anthropic staff with contributions from Michael Segner, Anthropic staff.</em></p>
-</article></main>
-<footer>Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</footer>
+</article></div>
+</details>
+</article>
+<script src="../../player.js" defer></script></main>
+<footer><div class="wrap">Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</div></footer>
 </body></html>

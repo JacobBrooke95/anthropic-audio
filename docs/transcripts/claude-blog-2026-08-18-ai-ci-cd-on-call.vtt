@@ -1,301 +1,305 @@
 WEBVTT
 
 1
-00:00:00.500 --> 00:00:07.430
-Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures.
+00:00:01.300 --> 00:00:11.607
+This is Anthropic, Read Aloud. Today: Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures.
 
 2
-00:00:07.880 --> 00:00:22.280
-How Anthropic runs A I incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.
+00:00:12.907 --> 00:00:19.320
+Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures.
 
 3
-00:00:22.730 --> 00:00:27.074
-From Claude Blog, published August 18, 2026.
+00:00:19.770 --> 00:00:32.783
+How Anthropic runs A I incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.
 
 4
-00:00:28.074 --> 00:00:30.744
-Set up your own Claude on-call with our setup kit.
+00:00:33.233 --> 00:00:37.265
+From Claude Blog, published August 18, 2026.
 
 5
-00:00:31.544 --> 00:00:36.788
-A I incident response for CI/CD: Claude on call at Anthropic.
-
-6
-00:00:37.238 --> 00:00:46.570
-A few weeks ago, I was on-call and my colleague Slacked me a message at 10pm: roughly 44 tests on a new service weren’t firing.
-
-7
-00:00:47.020 --> 00:01:02.979
-In the past, I would have stopped what I was doing, sat down with my laptop, sighed wearily, and began an hour-long investigate-and-fix process. But now, my workflow is entirely different: I pull in @Claude, and ask what it sees.
-
-8
-00:01:03.429 --> 00:01:23.106
-In this case, Claude found the tests disappeared when a feature flag got turned on that morning, and also that it would be safe to revert. I asked my colleague to revert the flag. Claude pinged me on Slack 3 minutes later to verify the skip rules had indeed been removed and the error rate was back to baseline.
-
-9
-00:01:23.556 --> 00:01:27.513
-Figure 1: Redesigned from a real exchange for clarity.
-
-10
-00:01:27.963 --> 00:01:52.667
-For the last several months Claude Tag has been the on-call first responder for CI/CD failures at Anthropic. Not only has this helped with our social lives, it has given every CI incident an instant first responder: Claude authored the first situation report in every recent incident that had one, typically publishing its first analysis within 15 minutes.
-
-11
-00:01:53.117 --> 00:02:01.398
-In this article we’ll walk through what we built and how it works so you can build it yourself and stop dreading your turn in the rotation.
-
-12
-00:02:02.198 --> 00:02:03.796
-Our Claude on call setup.
-
-13
-00:02:04.246 --> 00:02:15.752
-Before we go into each stage of the incident response process, I’ll provide a general overview of our setup here so you have the big picture in mind as we fill in the details.
-
-14
-00:02:16.202 --> 00:02:30.958
-An on-call agent needs memory so it remembers what’s been done; connections and access so it can investigate, understand, and act; schedules so it knows when to get back to work; and instructions so it knows what to do.
-
-15
-00:02:31.408 --> 00:02:48.670
-Claude Tag is the backbone of our on-call agent. Claude Tag holds memory across our on-call Slack channel and the interface to provide per-turn instructions during an incident. Claude also acts in real time to events in the on-call channel and others.
-
-16
-00:02:48.790 --> 00:03:02.998
-The scheduling of routines, or the regular actions Claude takes, happens on this channel as well with natural language prompts like “run CI handoff every Monday at 9:00am EST.”
-
-17
-00:03:03.448 --> 00:03:17.651
-Claude Tag has its own service account and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. This was set up one time by an administrator for the channel ( here’s how ).
-
-18
-00:03:18.101 --> 00:03:33.724
-In addition to the on-call channel, we set up Claude to watch other relevant channels that also have Claude Tag as a member so it can get additional context like service alerts, configuration changes, or updates on P Rs.
-
-19
-00:03:34.174 --> 00:03:55.982
-Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code. It also includes key information like routing instructions, policies, and a log of lessons learned as part of a self-improvement loop.
-
-20
-00:03:56.432 --> 00:04:17.933
-This setup took us hours, not days. We created a generalized on-call setup kit in GitHub that can help get you started with a similar agent. It transforms your team's own incident history into triage playbooks and leaves you with a read-only Claude in your incident channel that diagnoses, escalates, and learns.
-
-21
-00:04:18.053 --> 00:04:22.640
-You can watch it run against a fictional team's history in about ten minutes.
-
-22
-00:04:23.090 --> 00:04:25.945
-To summarize the steps TL;DR fashion
-
-23
-00:04:26.395 --> 00:04:29.659
-You’ll need a Claude Team or Claude Enterprise plan.
-
-24
-00:04:29.899 --> 00:04:35.832
-The organization owner needs to add Claude to the on call Slack channel via Claude Tag.
-
-25
-00:04:36.072 --> 00:04:45.921
-The org owner also needs to help connect Claude in the on-call Slack channel to the appropriate connectors, GitHub repo, and set up Claude Code Remote.
-
-26
-00:04:46.161 --> 00:04:52.641
-Add Claude to your incident channel and instruct it to monitor for incidents and immediately triage.
-
-27
-00:04:53.091 --> 00:04:58.902
-Now, let’s dive into the details of what this transformation looks like at each step of an incident.
-
-28
-00:04:59.702 --> 00:05:00.553
-Detection.
-
-29
-00:05:01.003 --> 00:05:12.984
-Claude doesn’t just transform how you respond to incidents, it transforms how you detect them in the first place. Previously, there were two major failure modes for detecting incidents.
-
-30
-00:05:13.434 --> 00:05:24.698
-It's hard for humans to have the foresight to set perfect rules with perfect thresholds all the time. It's especially difficult when you don't have enough data to analyze traffic patterns.
-
-31
-00:05:25.148 --> 00:05:38.120
-To address this, we have Claude analyze the data and incoming alerts for the first few days of a new service to suggest additional rules and to fine-tune any that are overly broad or narrow.
-
-32
-00:05:38.570 --> 00:05:51.712
-The second major failure mode for detecting incidents was alert fatigue: checking and vetting every alert that fires is tedious. However, Claude doesn’t get fatigued the same way a human does.
-
-33
-00:05:52.162 --> 00:06:05.541
-Claude monitors every relevant alert in each alert channel and goes through the criteria in the root oncall.md file to determine if it can wait until the morning or if the on-call needs a page.
-
-34
-00:06:05.661 --> 00:06:22.297
-For example, once tuned from analyzing the data, a rule in the file could be, “If the error rate is greater than 2 percent for longer than 5 minutes AND it's not a known deploy window, page the on-call otherwise write it to lessons.md.”
-
-35
-00:06:22.747 --> 00:06:26.926
-There are two other ways the Claude on-call alert process can trigger:
-
-36
-00:06:27.376 --> 00:06:37.246
-A member of the CI team can report an issue in the on-call channel, as was the case in the opening example of 44 missing tests; or.
-
-37
-00:06:37.486 --> 00:06:51.109
-Anyone in the company can open an incident through an internal page. If it’s marked as a CI infrastructure incident then a Slack channel is provisioned for that incident and our on-call Claude picks it up.
-
-38
-00:06:51.559 --> 00:07:01.271
-The key takeaway here is that the alerting process is deterministic, while on-call escalation has both deterministic and agentic paths.
-
-39
-00:07:02.071 --> 00:07:02.909
-Triage.
-
-40
-00:07:03.359 --> 00:07:22.891
-It's one thing to have Claude filter through the alert noise, but the real savings comes from the investigation. Claude posts its first evidence-grounded analysis a median of 14 minutes after an incident opens, and in the fastest cases names the root cause within 4 minutes in its first report.
-
-41
-00:07:23.341 --> 00:07:43.211
-When an alert has been escalated to an incident, Claude is often ready in our Slack channel with a hypothesis grounded in evidence that we can review. Claude Tag kicks off a dynamic workflow with an orchestration agent that spins up executor subagents to investigate each dependency and source of truth.
-
-42
-00:07:43.661 --> 00:08:01.909
-For us that’s Grafana, our log store, PagerDuty, GitHub, Kubernetes and Slack incident channels to all wired up via M C P Connectors. Claude can chase multiple leads in parallel, helping to reduce MTTR (mean time to resolution).
-
-43
-00:08:02.359 --> 00:08:11.477
-Executors report the findings back to the orchestration agent which synthesizes and surfaces the information in a coherent SITREP.
-
-44
-00:08:11.927 --> 00:08:23.020
-The orchestrator and executor agents aren’t searching blind. They are guided by an investigation skill with more detailed reference markdown files for each bug class.
-
-45
-00:08:23.470 --> 00:08:42.400
-For example, a 617 line investigation skill for shadow divergence bugs encodes every step I take during a typical investigation. I built it by troubleshooting with Claude turn-by-turn during one of the incidents and then had it create the file from that experience.
-
-46
-00:08:42.850 --> 00:09:06.798
-Lessons.md also guides Claude’s troubleshooting. This markdown file is a running log of every incident we've resolved: what happened, the root cause, the fix, and the gotcha worth remembering. Claude appends to it on its own automatically. Every new investigation starts by reading it, so Claude's first hypothesis starts with what has happened recently.
-
-47
-00:09:07.248 --> 00:09:30.335
-If the same pattern shows up enough times, we promote it into the investigation skill itself. My favorite entry is one Claude wrote about me. I'd made an assumption from a config file before checking the metrics, and the lessons.md file now states, "query the data first, then theorize. Config tells you what could go wrong; metrics tell you what did."
-
-48
-00:09:30.785 --> 00:09:50.433
-Even with these tools and context, Claude doesn’t always get it right the first time. Human intuition and experience matter. Claude Tag allows the team to troubleshoot incidents in multi-player mode. Either of us can steer the investigation or add a hypothesis in real-time, together.
-
-49
-00:09:50.883 --> 00:09:55.218
-Figure 2: Recreated from a real conversation for clarity.
-
-50
-00:09:56.018 --> 00:09:56.982
-Resolution.
-
-51
-00:09:57.433 --> 00:10:06.922
-If Claude can escalate and troubleshoot alerts, can it fix them too? The answer to this question will vary from team to team, but here’s how we do it.
-
-52
-00:10:07.372 --> 00:10:20.707
-Most deployments within our team happen behind a feature flag. I have created a separate agent in Claude Code, with my permissions, capable of progressive deployment behind each of these feature flags.
-
-53
-00:10:21.158 --> 00:10:38.502
-The first stage of our rollout process usually involves Claude managing canary traffic, monitoring for issues, and automatically ramping a given feature flag up or down. This could be an entirely separate article, so I won't go into more detail here.
-
-54
-00:10:38.952 --> 00:10:42.771
-Other resolution paths that Claude Tag helps my team with are:
-
-55
-00:10:43.221 --> 00:10:49.152
-Letting us know if we need to drain or cordon off certain sections of our Kubernetes cluster.
-
-56
-00:10:49.392 --> 00:11:03.635
-Giving us instructions on how to scale up some of our infrastructure in responses to demand-surges (this is rare but it’s very helpful when Claude comes back with exactly what we can do for mitigation); and, most frequently.
-
-57
-00:11:03.875 --> 00:11:10.969
-Fixes in the form of a P R that the on-call can review, merge, and then deploy for a swift resolution.
-
-58
-00:11:11.769 --> 00:11:14.637
-Verification, communication, and handoff.
-
-59
-00:11:15.087 --> 00:11:32.928
-Claude uses many of the same M C P Connectors and tools that it did for its investigation to verify the fix worked as intended. As part of the standing instructions in oncall.md, it writes a post-mortem to lessons.md and for the handoff SITREP.
-
-60
-00:11:33.378 --> 00:11:53.606
-To communicate the full picture across multiple incidents, we created an agent called ci-weather. It compiles information from each incident Slack channel, build metrics, merge queue stats, and deploy lag. Then it posts a newsroom-style report to one public channel anyone in the company can read.
-
-61
-00:11:53.726 --> 00:12:04.838
-Now, our engineers can reference that channel rather than pinging us when they are trying to determine if they should hold their merges or if they’re trying to answer “what’s wrong with CI?”.
-
-62
-00:12:05.288 --> 00:12:20.549
-One honest note: we needed to iterate the report format several times. Claude can one-shot a skill that generates a status report, but what makes it readable is team-specific taste. It's human communication, not plumbing.
-
-63
-00:12:20.999 --> 00:12:37.161
-Finally, while Claude keeps a journal for itself in lessons.md, we also want to produce handoff reports for humans as well every Monday. Claude produces daily and weekly summaries so one member of the team can pick up where the other left off.
-
-64
-00:12:37.961 --> 00:12:42.465
-From monitoring incidents to monitoring an incident response system.
-
-65
-00:12:42.915 --> 00:13:08.177
-Our software engineers on average ship 8 x as much code per quarter as they did from 2021 to 2025. And while we have kept the quality bar high (every P R has a named human owner, every change requires approval to merge, every change goes through the same set of CI gates), the only way to keep up with agentic coding is agentic CI.
-
-66
-00:13:08.627 --> 00:13:24.167
-Claude has absorbed the tedious parts of my job, the after-hours disruptions and the incident comms, while allowing me to focus on the medium and long term architectural changes that truly move the needle for system reliability.
-
-67
-00:13:24.617 --> 00:13:33.336
-The best part of what we have built is that it doesn’t feel scattered. Our on-call processes live in Slack, but now Claude has joined the channel.
-
-68
-00:13:33.786 --> 00:13:34.982
-How to get started:
-
-69
-00:13:35.432 --> 00:13:38.697
-You’ll need a Claude Team or Claude Enterprise plan.
-
-70
-00:13:38.937 --> 00:13:44.870
-The organization owner needs to add Claude to the on call Slack channel via Claude Tag.
-
-71
-00:13:45.110 --> 00:13:54.958
-The org owner also needs to help connect Claude in the on-call Slack channel to the appropriate connectors, GitHub repo, and set up Claude Code Remote.
-
-72
-00:13:55.198 --> 00:14:01.678
-Add Claude to your incident channel and instruct it to monitor for incidents and immediately triage.
-
-73
-00:14:02.128 --> 00:14:04.798
+00:00:38.265 --> 00:00:40.874
 Set up your own Claude on-call with our setup kit.
 
+6
+00:00:41.674 --> 00:00:46.389
+A I incident response for CI/CD: Claude on call at Anthropic.
+
+7
+00:00:46.839 --> 00:00:55.245
+A few weeks ago, I was on-call and my colleague Slacked me a message at 10pm: roughly 44 tests on a new service weren’t firing.
+
+8
+00:00:55.695 --> 00:01:09.981
+In the past, I would have stopped what I was doing, sat down with my laptop, sighed wearily, and began an hour-long investigate-and-fix process. But now, my workflow is entirely different: I pull in @Claude, and ask what it sees.
+
+9
+00:01:10.431 --> 00:01:28.744
+In this case, Claude found the tests disappeared when a feature flag got turned on that morning, and also that it would be safe to revert. I asked my colleague to revert the flag. Claude pinged me on Slack 3 minutes later to verify the skip rules had indeed been removed and the error rate was back to baseline.
+
+10
+00:01:29.194 --> 00:01:32.675
+Figure 1: Redesigned from a real exchange for clarity.
+
+11
+00:01:33.125 --> 00:01:55.994
+For the last several months Claude Tag has been the on-call first responder for CI/CD failures at Anthropic. Not only has this helped with our social lives, it has given every CI incident an instant first responder: Claude authored the first situation report in every recent incident that had one, typically publishing its first analysis within 15 minutes.
+
+12
+00:01:56.444 --> 00:02:03.888
+In this article we’ll walk through what we built and how it works so you can build it yourself and stop dreading your turn in the rotation.
+
+13
+00:02:04.688 --> 00:02:06.063
+Our Claude on call setup.
+
+14
+00:02:06.513 --> 00:02:16.817
+Before we go into each stage of the incident response process, I’ll provide a general overview of our setup here so you have the big picture in mind as we fill in the details.
+
+15
+00:02:17.267 --> 00:02:30.844
+An on-call agent needs memory so it remembers what’s been done; connections and access so it can investigate, understand, and act; schedules so it knows when to get back to work; and instructions so it knows what to do.
+
+16
+00:02:31.294 --> 00:02:47.335
+Claude Tag is the backbone of our on-call agent. Claude Tag holds memory across our on-call Slack channel and the interface to provide per-turn instructions during an incident. Claude also acts in real time to events in the on-call channel and others.
+
+17
+00:02:47.455 --> 00:03:00.365
+The scheduling of routines, or the regular actions Claude takes, happens on this channel as well with natural language prompts like “run CI handoff every Monday at 9:00am EST.”
+
+18
+00:03:00.815 --> 00:03:13.824
+Claude Tag has its own service account and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. This was set up one time by an administrator for the channel ( here’s how ).
+
+19
+00:03:14.274 --> 00:03:28.269
+In addition to the on-call channel, we set up Claude to watch other relevant channels that also have Claude Tag as a member so it can get additional context like service alerts, configuration changes, or updates on P Rs.
+
+20
+00:03:28.719 --> 00:03:49.353
+Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code. It also includes key information like routing instructions, policies, and a log of lessons learned as part of a self-improvement loop.
+
+21
+00:03:49.803 --> 00:04:09.696
+This setup took us hours, not days. We created a generalized on-call setup kit in GitHub that can help get you started with a similar agent. It transforms your team's own incident history into triage playbooks and leaves you with a read-only Claude in your incident channel that diagnoses, escalates, and learns.
+
+22
+00:04:09.816 --> 00:04:13.796
+You can watch it run against a fictional team's history in about ten minutes.
+
+23
+00:04:14.246 --> 00:04:17.090
+To summarize the steps TL;DR fashion
+
+24
+00:04:17.540 --> 00:04:20.213
+You’ll need a Claude Team or Claude Enterprise plan.
+
+25
+00:04:20.453 --> 00:04:25.866
+The organization owner needs to add Claude to the on call Slack channel via Claude Tag.
+
+26
+00:04:26.106 --> 00:04:35.107
+The org owner also needs to help connect Claude in the on-call Slack channel to the appropriate connectors, GitHub repo, and set up Claude Code Remote.
+
+27
+00:04:35.347 --> 00:04:41.022
+Add Claude to your incident channel and instruct it to monitor for incidents and immediately triage.
+
+28
+00:04:41.472 --> 00:04:46.948
+Now, let’s dive into the details of what this transformation looks like at each step of an incident.
+
+29
+00:04:47.748 --> 00:04:48.517
+Detection.
+
+30
+00:04:48.967 --> 00:04:59.967
+Claude doesn’t just transform how you respond to incidents, it transforms how you detect them in the first place. Previously, there were two major failure modes for detecting incidents.
+
+31
+00:05:00.417 --> 00:05:10.933
+It's hard for humans to have the foresight to set perfect rules with perfect thresholds all the time. It's especially difficult when you don't have enough data to analyze traffic patterns.
+
+32
+00:05:11.383 --> 00:05:23.209
+To address this, we have Claude analyze the data and incoming alerts for the first few days of a new service to suggest additional rules and to fine-tune any that are overly broad or narrow.
+
+33
+00:05:23.659 --> 00:05:35.792
+The second major failure mode for detecting incidents was alert fatigue: checking and vetting every alert that fires is tedious. However, Claude doesn’t get fatigued the same way a human does.
+
+34
+00:05:36.242 --> 00:05:48.423
+Claude monitors every relevant alert in each alert channel and goes through the criteria in the root oncall.md file to determine if it can wait until the morning or if the on-call needs a page.
+
+35
+00:05:48.543 --> 00:06:03.606
+For example, once tuned from analyzing the data, a rule in the file could be, “If the error rate is greater than 2 percent for longer than 5 minutes AND it's not a known deploy window, page the on-call otherwise write it to lessons.md.”
+
+36
+00:06:04.056 --> 00:06:07.754
+There are two other ways the Claude on-call alert process can trigger:
+
+37
+00:06:08.204 --> 00:06:17.412
+A member of the CI team can report an issue in the on-call channel, as was the case in the opening example of 44 missing tests; or.
+
+38
+00:06:17.652 --> 00:06:30.100
+Anyone in the company can open an incident through an internal page. If it’s marked as a CI infrastructure incident then a Slack channel is provisioned for that incident and our on-call Claude picks it up.
+
+39
+00:06:30.550 --> 00:06:39.702
+The key takeaway here is that the alerting process is deterministic, while on-call escalation has both deterministic and agentic paths.
+
+40
+00:06:40.502 --> 00:06:41.189
+Triage.
+
+41
+00:06:41.639 --> 00:07:00.263
+It's one thing to have Claude filter through the alert noise, but the real savings comes from the investigation. Claude posts its first evidence-grounded analysis a median of 14 minutes after an incident opens, and in the fastest cases names the root cause within 4 minutes in its first report.
+
+42
+00:07:00.713 --> 00:07:19.684
+When an alert has been escalated to an incident, Claude is often ready in our Slack channel with a hypothesis grounded in evidence that we can review. Claude Tag kicks off a dynamic workflow with an orchestration agent that spins up executor subagents to investigate each dependency and source of truth.
+
+43
+00:07:20.134 --> 00:07:36.555
+For us that’s Grafana, our log store, PagerDuty, GitHub, Kubernetes and Slack incident channels to all wired up via M C P Connectors. Claude can chase multiple leads in parallel, helping to reduce MTTR (mean time to resolution).
+
+44
+00:07:37.005 --> 00:07:45.365
+Executors report the findings back to the orchestration agent which synthesizes and surfaces the information in a coherent SITREP.
+
+45
+00:07:45.815 --> 00:07:56.204
+The orchestrator and executor agents aren’t searching blind. They are guided by an investigation skill with more detailed reference markdown files for each bug class.
+
+46
+00:07:56.654 --> 00:08:14.315
+For example, a 617 line investigation skill for shadow divergence bugs encodes every step I take during a typical investigation. I built it by troubleshooting with Claude turn-by-turn during one of the incidents and then had it create the file from that experience.
+
+47
+00:08:14.765 --> 00:08:36.794
+Lessons.md also guides Claude’s troubleshooting. This markdown file is a running log of every incident we've resolved: what happened, the root cause, the fix, and the gotcha worth remembering. Claude appends to it on its own automatically. Every new investigation starts by reading it, so Claude's first hypothesis starts with what has happened recently.
+
+48
+00:08:37.244 --> 00:08:58.623
+If the same pattern shows up enough times, we promote it into the investigation skill itself. My favorite entry is one Claude wrote about me. I'd made an assumption from a config file before checking the metrics, and the lessons.md file now states, "query the data first, then theorize. Config tells you what could go wrong; metrics tell you what did."
+
+49
+00:08:59.073 --> 00:09:17.190
+Even with these tools and context, Claude doesn’t always get it right the first time. Human intuition and experience matter. Claude Tag allows the team to troubleshoot incidents in multi-player mode. Either of us can steer the investigation or add a hypothesis in real-time, together.
+
+50
+00:09:17.640 --> 00:09:21.397
+Figure 2: Recreated from a real conversation for clarity.
+
+51
+00:09:22.197 --> 00:09:23.057
+Resolution.
+
+52
+00:09:23.507 --> 00:09:32.091
+If Claude can escalate and troubleshoot alerts, can it fix them too? The answer to this question will vary from team to team, but here’s how we do it.
+
+53
+00:09:32.541 --> 00:09:44.698
+Most deployments within our team happen behind a feature flag. I have created a separate agent in Claude Code, with my permissions, capable of progressive deployment behind each of these feature flags.
+
+54
+00:09:45.148 --> 00:10:00.974
+The first stage of our rollout process usually involves Claude managing canary traffic, monitoring for issues, and automatically ramping a given feature flag up or down. This could be an entirely separate article, so I won't go into more detail here.
+
+55
+00:10:01.424 --> 00:10:04.869
+Other resolution paths that Claude Tag helps my team with are:
+
+56
+00:10:05.319 --> 00:10:10.905
+Letting us know if we need to drain or cordon off certain sections of our Kubernetes cluster.
+
+57
+00:10:11.145 --> 00:10:24.652
+Giving us instructions on how to scale up some of our infrastructure in responses to demand-surges (this is rare but it’s very helpful when Claude comes back with exactly what we can do for mitigation); and, most frequently.
+
+58
+00:10:24.892 --> 00:10:31.550
+Fixes in the form of a P R that the on-call can review, merge, and then deploy for a swift resolution.
+
+59
+00:10:32.350 --> 00:10:34.970
+Verification, communication, and handoff.
+
+60
+00:10:35.420 --> 00:10:52.358
+Claude uses many of the same M C P Connectors and tools that it did for its investigation to verify the fix worked as intended. As part of the standing instructions in oncall.md, it writes a post-mortem to lessons.md and for the handoff SITREP.
+
+61
+00:10:52.808 --> 00:11:11.643
+To communicate the full picture across multiple incidents, we created an agent called ci-weather. It compiles information from each incident Slack channel, build metrics, merge queue stats, and deploy lag. Then it posts a newsroom-style report to one public channel anyone in the company can read.
+
+62
+00:11:11.763 --> 00:11:22.186
+Now, our engineers can reference that channel rather than pinging us when they are trying to determine if they should hold their merges or if they’re trying to answer “what’s wrong with CI?”.
+
+63
+00:11:22.636 --> 00:11:36.826
+One honest note: we needed to iterate the report format several times. Claude can one-shot a skill that generates a status report, but what makes it readable is team-specific taste. It's human communication, not plumbing.
+
+64
+00:11:37.276 --> 00:11:52.229
+Finally, while Claude keeps a journal for itself in lessons.md, we also want to produce handoff reports for humans as well every Monday. Claude produces daily and weekly summaries so one member of the team can pick up where the other left off.
+
+65
+00:11:53.029 --> 00:11:56.946
+From monitoring incidents to monitoring an incident response system.
+
+66
+00:11:57.396 --> 00:12:20.807
+Our software engineers on average ship 8 x as much code per quarter as they did from 2021 to 2025. And while we have kept the quality bar high (every P R has a named human owner, every change requires approval to merge, every change goes through the same set of CI gates), the only way to keep up with agentic coding is agentic CI.
+
+67
+00:12:21.257 --> 00:12:35.665
+Claude has absorbed the tedious parts of my job, the after-hours disruptions and the incident comms, while allowing me to focus on the medium and long term architectural changes that truly move the needle for system reliability.
+
+68
+00:12:36.115 --> 00:12:44.097
+The best part of what we have built is that it doesn’t feel scattered. Our on-call processes live in Slack, but now Claude has joined the channel.
+
+69
+00:12:44.547 --> 00:12:45.713
+How to get started:
+
+70
+00:12:46.163 --> 00:12:48.836
+You’ll need a Claude Team or Claude Enterprise plan.
+
+71
+00:12:49.076 --> 00:12:54.490
+The organization owner needs to add Claude to the on call Slack channel via Claude Tag.
+
+72
+00:12:54.730 --> 00:13:03.730
+The org owner also needs to help connect Claude in the on-call Slack channel to the appropriate connectors, GitHub repo, and set up Claude Code Remote.
+
+73
+00:13:03.970 --> 00:13:09.645
+Add Claude to your incident channel and instruct it to monitor for incidents and immediately triage.
+
 74
-00:14:05.248 --> 00:14:14.868
-This article was written by Sachin Malhotra, technical member of Anthropic staff with contributions from Michael Segner, Anthropic staff.
+00:13:10.095 --> 00:13:12.704
+Set up your own Claude on-call with our setup kit.
 
 75
-00:14:15.868 --> 00:14:38.301
+00:13:13.154 --> 00:13:21.717
+This article was written by Sachin Malhotra, technical member of Anthropic staff with contributions from Michael Segner, Anthropic staff.
+
+76
+00:13:22.717 --> 00:13:42.966
 That was Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures, from Claude Blog, published August 18, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
