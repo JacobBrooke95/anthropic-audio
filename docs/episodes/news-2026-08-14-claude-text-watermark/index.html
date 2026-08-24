@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>How Claude’s text watermark works — Anthropic, Read Aloud</title>
+<meta name="description" content="Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.">
+<meta property="og:title" content="How Claude’s text watermark works — Anthropic, Read Aloud">
+<meta property="og:description" content="Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.">
+<meta property="og:image" content="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-14-claude-text-watermark.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (podcast)" href="https://jacobbrooke95.github.io/anthropic-audio/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (full-text posts)" href="https://jacobbrooke95.github.io/anthropic-audio/posts.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../style.css">
 <link rel="icon" type="image/png" sizes="64x64" href="../../favicon.png">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 </head><body>
-<header class="site"><h1><a href="../../" style="text-decoration:none;color:inherit">Anthropic, Read Aloud</a></h1>
-<p>Unofficial audio editions of Anthropic&#x27;s research, news, and Claude blog posts</p></header>
-<main>
-<p><span class="badge">News</span><span class="meta">August 14, 2026 · 14:51 · 2,119 words</span></p>
-<h1 style="margin:.2rem 0 .6rem">How Claude’s text watermark works</h1>
-<img class="hero" src="../../art/news-2026-08-14-claude-text-watermark.jpg" alt="Episode artwork" style="max-width:360px">
-<audio controls preload="none" src="../../audio/news-2026-08-14-claude-text-watermark.mp3"></audio>
-<p class="small"><a href="../../audio/news-2026-08-14-claude-text-watermark.mp3">Download MP3</a> · <a href="../../transcripts/news-2026-08-14-claude-text-watermark.vtt">Transcript (VTT)</a> · <a href="../../transcripts/news-2026-08-14-claude-text-watermark.txt">Transcript (text)</a> · <a href="../../posts/news-2026-08-14-claude-text-watermark/post.md">Markdown copy</a> · <a href="https://www.anthropic.com/news/claude-text-watermark">Original post ↗</a></p>
-<div class="notes"><p>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/claude-text-watermark">https://www.anthropic.com/news/claude-text-watermark</a><br/><strong>Published:</strong> August 14, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 2,119 words · 14 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.nature.com/articles/s41586-024-08025-4">SynthID-Text paper</a></li><li><a href="https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content">190 total signatories</a></li><li><a href="https://c2pa.org/">C2PA</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
-<article class="post"><h2 style="margin-top:0">Full text of the post</h2>
+<nav class="topnav" aria-label="Site"><div class="wrap">
+<a class="brand" href="../../"><img src="../../cover.jpg" alt="">Anthropic, Read Aloud</a>
+<a class="back" href="../../">← All episodes</a>
+</div></nav>
+<main class="wrap">
+<article>
+<header class="ep-head">
+<img class="ep-art" src="../../art/news-2026-08-14-claude-text-watermark.jpg" alt="Episode artwork for “How Claude’s text watermark works”">
+<div class="ep-info">
+<div class="row"><span class="badge news">News</span><span class="meta">Episode 1 · August 14, 2026 · 2,119 words</span></div>
+<h1 class="ep-title">How Claude’s text watermark works</h1>
+<p class="ep-sub">Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</p>
+<div class="player"><p class="plabel"><span>Listen to this episode</span><span class="dur">14:53</span></p>
+<audio controls preload="none" src="../../audio/news-2026-08-14-claude-text-watermark.mp3"></audio></div>
+<div class="actions">
+<a class="chip" href="../../audio/news-2026-08-14-claude-text-watermark.mp3" download>Download MP3</a>
+<a class="chip" href="../../transcripts/news-2026-08-14-claude-text-watermark.vtt">Transcript (VTT)</a>
+<a class="chip" href="../../transcripts/news-2026-08-14-claude-text-watermark.txt">Transcript (text)</a>
+<a class="chip" href="../../posts/news-2026-08-14-claude-text-watermark/post.md">Markdown</a>
+<a class="chip" href="../../posts/news-2026-08-14-claude-text-watermark/post.json">JSON</a>
+<a class="chip" href="https://www.anthropic.com/news/claude-text-watermark">Original post ↗</a>
+</div>
+</div>
+</header>
+<details class="panel notes">
+<summary>Show notes &amp; every link in the post</summary>
+<div class="inner"><p>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/claude-text-watermark">https://www.anthropic.com/news/claude-text-watermark</a><br/><strong>Published:</strong> August 14, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 2,119 words · 14 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.nature.com/articles/s41586-024-08025-4">SynthID-Text paper</a></li><li><a href="https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content">190 total signatories</a></li><li><a href="https://c2pa.org/">C2PA</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-14-claude-text-watermark/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
+</details>
+<details class="panel" id="transcript" data-src="../../transcripts/news-2026-08-14-claude-text-watermark.txt">
+<summary>Transcript</summary>
+<div class="inner"><p class="meta">Also available as <a href="../../transcripts/news-2026-08-14-claude-text-watermark.vtt">WebVTT (timed)</a> or <a href="../../transcripts/news-2026-08-14-claude-text-watermark.txt">plain text</a>.</p>
+<pre class="tr-out"></pre></div>
+</details>
+<details class="panel" open>
+<summary>Full text of the post</summary>
+<div class="inner"><article class="post">
 <p class="meta">Copied from <a href="https://www.anthropic.com/news/claude-text-watermark">https://www.anthropic.com/news/claude-text-watermark</a> on 2026-08-21 for the audio edition. © Anthropic, PBC.</p>
 <p>Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.</p>
 <p>In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change. To summarize:</p>
@@ -66,6 +98,17 @@
 <p>AI detection software uses a different method, because the companies that provide it don’t have our key. Among other things, those services look at aspects of the text like the subtle (and not-so-subtle) “tells” that often appear in AI’s phrasing. For example, AI models appear to be fond of the construction “this isn’t [X], it’s [Y]”, and use the word “quietly” a lot more than you might expect. Picking up on these patterns is fundamentally different from checking for a watermark.</p>
 <h3><strong>Does this change who owns a given output, or who is legally responsible for it?</strong></h3>
 <p>No. A watermark only helps test whether Claude might have produced or processed the content. It doesn’t say anything about ownership or authorship, and doesn’t change a user’s rights under our terms. We only apply the watermark when Claude was involved in processing the content or file.</p>
-</article></main>
-<footer>Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</footer>
+</article></div>
+</details>
+</article>
+<script>
+var d=document.getElementById('transcript');
+if(d){d.addEventListener('toggle',function(){
+  if(!d.open||d.dataset.done)return;d.dataset.done='1';
+  var o=d.querySelector('.tr-out');o.textContent='Loading transcript…';
+  fetch(d.dataset.src).then(function(r){if(!r.ok)throw 0;return r.text()})
+    .then(function(t){o.textContent=t})
+    .catch(function(){o.textContent='Could not load the transcript here — use the “Transcript (text)” link above instead.'})})}
+</script></main>
+<footer><div class="wrap">Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</div></footer>
 </body></html>

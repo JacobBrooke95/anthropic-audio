@@ -309,6 +309,9 @@ def episode_art(post, out_path: Path, episode: int | None = None) -> bytes:
         quality -= 7
     data = buf.getvalue()
     out_path.write_bytes(data)
+    # 600px companion thumbnail for the site's episode cards
+    thumb = canvas.resize((600, 600), Image.LANCZOS)
+    thumb.save(out_path.with_suffix(".600.jpg"), "JPEG", quality=80, optimize=True, progressive=True)
     return data
 
 
