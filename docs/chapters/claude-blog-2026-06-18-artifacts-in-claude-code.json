@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 71.87,
+   "title": "Built on the context from your session"
+  },
+  {
+   "startTime": 104.73,
+   "title": "Live pages that update in place"
+  },
+  {
+   "startTime": 164.7,
+   "title": "Private to your organization"
+  },
+  {
+   "startTime": 191.88,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 330.43,
+   "title": "Availability"
+  },
+  {
+   "startTime": 344.63,
+   "title": "Outro"
+  }
+ ]
+}

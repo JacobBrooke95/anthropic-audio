@@ -1,333 +1,329 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:08.680
-How ABC Legal turned every employee into a builder with Claude Managed Agents.
+00:00:01.300 --> 00:00:10.229
+This is Anthropic, Read Aloud. Today: How ABC Legal turned every employee into a builder with Claude Managed Agents.
 
 2
-00:00:09.130 --> 00:00:20.012
-ABC Legal transformed their organization’s A I adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.
+00:00:11.529 --> 00:00:16.649
+How ABC Legal turned every employee into a builder with Claude Managed Agents.
 
 3
-00:00:20.462 --> 00:00:24.903
-From Claude Blog, published August 17, 2026.
+00:00:17.099 --> 00:00:27.211
+ABC Legal transformed their organization’s A I adoption from scattered experiments to a governed fleet of specialized agents with Claude from Anthropic.
 
 4
-00:00:25.903 --> 00:00:41.624
-When Brandon Fuller, C T O of ABC Legal, a U S-based legal document delivery company, rolled out Claude Enterprise to the company's 1100 employees earlier this year, something clicked immediately.
+00:00:27.661 --> 00:00:31.896
+From Claude Blog, published August 17, 2026.
 
 5
-00:00:41.744 --> 00:00:55.642
-Teams across the company (service of process, eFiling, and appearance counsel operations, plus marketing, compliance, finance, and more) started building automations on their own, without being asked.
+00:00:32.896 --> 00:00:46.966
+When Brandon Fuller, C T O of ABC Legal, a U S-based legal document delivery company, rolled out Claude Enterprise to the company's 1100 employees earlier this year, something clicked immediately.
 
 6
-00:00:56.092 --> 00:01:09.478
-"Our users really flocked to it," Fuller recalls. "They saw the ease of use of connectors and tools, and suddenly we had people all over the organization automating the tasks that had always eaten up their day."
+00:00:47.086 --> 00:00:59.225
+Teams across the company (service of process, eFiling, and appearance counsel operations, plus marketing, compliance, finance, and more) started building automations on their own, without being asked.
 
 7
-00:01:09.928 --> 00:01:24.306
-It was exactly the kind of adoption any C T O hopes for. But Fuller saw an opportunity to go further: what if ABC Legal could also run a fleet of A I agents that were versioned, observable, and always on?
+00:00:59.675 --> 00:01:11.957
+"Our users really flocked to it," Fuller recalls. "They saw the ease of use of connectors and tools, and suddenly we had people all over the organization automating the tasks that had always eaten up their day."
 
 8
-00:01:24.756 --> 00:01:44.815
-That ambition came down to infrastructure. Early agents lived wherever their builder happened to put them, as scheduled tasks on individual desktops. Moving them off personal machines would let them run unattended and give Fuller a single view of what had been built, what it cost, and whether it ran last night.
+00:01:12.407 --> 00:01:25.572
+It was exactly the kind of adoption any C T O hopes for. But Fuller saw an opportunity to go further: what if ABC Legal could also run a fleet of A I agents that were versioned, observable, and always on?
 
 9
-00:01:45.265 --> 00:01:58.672
-So he deployed Claude Managed Agents: one common deployment structure, shared workspaces, a single audit and billing surface, and always-on agents in the cloud instead of on a person’s laptop.
+00:01:26.022 --> 00:01:44.307
+That ambition came down to infrastructure. Early agents lived wherever their builder happened to put them, as scheduled tasks on individual desktops. Moving them off personal machines would let them run unattended and give Fuller a single view of what had been built, what it cost, and whether it ran last night.
 
 10
-00:01:59.122 --> 00:02:04.756
-As of July 2026, Fuller and his team at ABC Legal have tracked:
+00:01:44.757 --> 00:01:57.112
+So he deployed Claude Managed Agents: one common deployment structure, shared workspaces, a single audit and billing surface, and always-on agents in the cloud instead of on a person’s laptop.
 
 11
-00:02:05.206 --> 00:02:09.184
-50+ agents built with Managed Agents in production.
+00:01:57.562 --> 00:02:02.838
+As of July 2026, Fuller and his team at ABC Legal have tracked:
 
 12
-00:02:09.424 --> 00:02:16.963
-Up to about 50 percent reduction in the cost of the human tasks some agents cover, before heavy optimization.
+00:02:03.288 --> 00:02:06.898
+50+ agents built with Managed Agents in production.
 
 13
-00:02:17.203 --> 00:02:23.036
-about 310 employees across every department using Claude for daily work.
+00:02:07.138 --> 00:02:14.152
+Up to about 50 percent reduction in the cost of the human tasks some agents cover, before heavy optimization.
 
 14
-00:02:23.486 --> 00:02:27.039
-Here’s how they got there and what they learned in the process.
+00:02:14.392 --> 00:02:19.640
+about 310 employees across every department using Claude for daily work.
 
 15
-00:02:27.839 --> 00:02:32.572
-From enthusiasm to engineering: treating every agent like software.
+00:02:20.090 --> 00:02:23.137
+Here’s how they got there and what they learned in the process.
 
 16
-00:02:33.022 --> 00:02:43.763
-When they first deployed Claude Managed Agents, Fuller had the team define every agent as code. He believes this is the natural form for an agent to take.
+00:02:23.937 --> 00:02:28.065
+From enthusiasm to engineering: treating every agent like software.
 
 17
-00:02:43.883 --> 00:03:08.064
-As he explains, “an agent is really just structured text, a prompt plus configuration, and anything that is text can live in a repository where the whole company can see it, review it, and improve it.” An agent's prompt, tool list, schedule, credentials, and memory all go into configuration files kept in a git repository alongside the company's software.
+00:02:28.515 --> 00:02:38.285
+When they first deployed Claude Managed Agents, Fuller had the team define every agent as code. He believes this is the natural form for an agent to take.
 
 18
-00:03:08.184 --> 00:03:19.281
-Nothing about an agent changes except through a pull request someone approves, which gives every agent version history, code review, rollback, and an audit trail.
+00:02:38.405 --> 00:03:00.144
+As he explains, “an agent is really just structured text, a prompt plus configuration, and anything that is text can live in a repository where the whole company can see it, review it, and improve it.” An agent's prompt, tool list, schedule, credentials, and memory all go into configuration files kept in a git repository alongside the company's software.
 
 19
-00:03:19.731 --> 00:03:40.930
-He spent a week building a starter kit with two templates, stored in dedicated git repositories. One is for event-driven agents, which start the moment something happens, like a new job arriving or a document coming back from a court. The other is for scheduled agents, which run on a timer: hourly, daily, or weekly.
+00:03:00.264 --> 00:03:10.188
+Nothing about an agent changes except through a pull request someone approves, which gives every agent version history, code review, rollback, and an audit trail.
 
 20
-00:03:41.050 --> 00:04:00.148
-Each agent lives in its own folder with a standard structure: a Jason config file, a system prompt in Markdown, deployment scripts, and operational documentation. Merging a change into the main branch deploys the agent automatically. A builder never has to write software.
+00:03:10.638 --> 00:03:30.017
+He spent a week building a starter kit with two templates, stored in dedicated git repositories. One is for event-driven agents, which start the moment something happens, like a new job arriving or a document coming back from a court. The other is for scheduled agents, which run on a timer: hourly, daily, or weekly.
 
 21
-00:04:00.268 --> 00:04:11.716
-They clone the repo, copy a starter template, tell Claude Code what the agent should do, and get back everything the agent needs: config, prompt, credential store, and memory.
+00:03:30.137 --> 00:03:47.801
+Each agent lives in its own folder with a standard structure: a Jason config file, a system prompt in Markdown, deployment scripts, and operational documentation. Merging a change into the main branch deploys the agent automatically. A builder never has to write software.
 
 22
-00:04:12.516 --> 00:04:14.412
-Bridging the technical divide.
+00:03:47.921 --> 00:03:58.665
+They clone the repo, copy a starter template, tell Claude Code what the agent should do, and get back everything the agent needs: config, prompt, credential store, and memory.
 
 23
-00:04:14.862 --> 00:04:30.438
-Fuller gathered the company’s 15-person steering committee, drawn from finance, marketing, operations, and development (none of them software developers), and had them clone the repository and build Managed Agents using Claude Code.
+00:03:59.465 --> 00:04:01.157
+Bridging the technical divide.
 
 24
-00:04:30.887 --> 00:04:53.410
-The goal was to prove that non-developers could build production agents themselves. If every agent had to route through the dev team, that bottleneck would cap how fast the whole company could move. What made it safe is that they were not writing software. Instead, they were filling in configuration and a prompt, and Managed Agents supplied the runtime.
+00:04:01.607 --> 00:04:16.180
+Fuller gathered the company’s 15-person steering committee, drawn from finance, marketing, operations, and development (none of them software developers), and had them clone the repository and build Managed Agents using Claude Code.
 
 25
-00:04:53.860 --> 00:05:07.811
-"I had to explain what a P R was to them. A lot of [the non-software engineers] thought it meant running, like a P R, the fastest you can,” he said. “Now they're doing pull requests and sending them to each other."
+00:04:16.630 --> 00:04:37.128
+The goal was to prove that non-developers could build production agents themselves. If every agent had to route through the dev team, that bottleneck would cap how fast the whole company could move. What made it safe is that they were not writing software. Instead, they were filling in configuration and a prompt, and Managed Agents supplied the runtime.
 
 26
-00:05:08.261 --> 00:05:25.219
-Within a week, all 15 employees had working agents. Those builders went back to their teams and trained others. Within a month, roughly 50+ agents were running across ABC Legal. Each agent has a name, an owner, and a single job.
+00:04:37.578 --> 00:04:50.316
+"I had to explain what a P R was to them. A lot of [the non-software engineers] thought it meant running, like a P R, the fastest you can,” he said. “Now they're doing pull requests and sending them to each other."
 
 27
-00:05:26.019 --> 00:05:29.942
-An agent for most stages of the legal document process.
+00:04:50.766 --> 00:05:05.928
+Within a week, all 15 employees had working agents. Those builders went back to their teams and trained others. Within a month, roughly 50+ agents were running across ABC Legal. Each agent has a name, an owner, and a single job.
 
 28
-00:05:30.392 --> 00:05:37.692
-ABC Legal now has an agent at most stages of the legal filing process and the operations around it.
+00:05:06.728 --> 00:05:10.184
+An agent for most stages of the legal document process.
 
 29
-00:05:38.142 --> 00:05:53.789
-The A I Code Reviewer reviews every pull request across four codebases, running multi-model analysis to catch security bugs, performance regressions, and committed credentials. Engineers now wait for its review before merging.
+00:05:10.634 --> 00:05:17.077
+ABC Legal now has an agent at most stages of the legal filing process and the operations around it.
 
 30
-00:05:54.239 --> 00:06:17.686
-The EvidenceChain Delivery Agent took over a weekly chore an account manager used to do by hand. ABC Legal runs a proprietary site, EvidenceChain.com, where courts, plaintiffs, and defendants look up the record of a service completed in the field, including who the process server was, when they attempted it, and photos of the document delivery.
+00:05:17.526 --> 00:05:32.015
+The A I Code Reviewer reviews every pull request across four codebases, running multi-model analysis to catch security bugs, performance regressions, and committed credentials. Engineers now wait for its review before merging.
 
 31
-00:06:17.806 --> 00:06:43.363
-One customer wanted specific records pulled from it on an ongoing basis. The agent now pulls a database report for matching jobs, retrieves each P D F with a browser built into the Managed Agent, and delivers it to the customer's FTP server daily. The account manager who set it up had never automated anything, and built it in about an hour by describing it to Claude Code.
+00:05:32.465 --> 00:05:53.740
+The EvidenceChain Delivery Agent took over a weekly chore an account manager used to do by hand. ABC Legal runs a proprietary site, EvidenceChain.com, where courts, plaintiffs, and defendants look up the record of a service completed in the field, including who the process server was, when they attempted it, and photos of the document delivery.
 
 32
-00:06:43.813 --> 00:07:05.312
-The eFiling Rejection Diagnoser fires automatically when a court rejects a filing, reads the job details, checks the court's rules, and posts a diagnosis to Slack in about a minute, work that used to consume hours of an employee’s day. A job-verification agent checks every incoming job against the courts.
+00:05:53.860 --> 00:06:17.239
+One customer wanted specific records pulled from it on an ongoing basis. The agent now pulls a database report for matching jobs, retrieves each P D F with a browser built into the Managed Agent, and delivers it to the customer's FTP server daily. The account manager who set it up had never automated anything, and built it in about an hour by describing it to Claude Code.
 
 33
-00:07:05.432 --> 00:07:22.558
-It navigates a court website in a browser, confirms the hearing or case is filed appropriately and actually occurring on the stated date, then adjusts the job based on what it found, flagging jurisdictions, courts, and statute-of-limitations timeframes.
+00:06:17.689 --> 00:06:37.676
+The eFiling Rejection Diagnoser fires automatically when a court rejects a filing, reads the job details, checks the court's rules, and posts a diagnosis to Slack in about a minute, work that used to consume hours of an employee’s day. A job-verification agent checks every incoming job against the courts.
 
 34
-00:07:23.008 --> 00:07:37.108
-The Attorney Coverage Agent works the network of attorneys to get hearings covered, checking availability, emailing them, and reading replies about availability and pricing so a coordinator can confirm coverage.
+00:06:37.796 --> 00:06:53.433
+It navigates a court website in a browser, confirms the hearing or case is filed appropriately and actually occurring on the stated date, then adjusts the job based on what it found, flagging jurisdictions, courts, and statute-of-limitations timeframes.
 
 35
-00:07:37.558 --> 00:08:01.644
-In finance, an AR-remittance agent parses a remittance email, builds the NetSuite payment-application file, and posts it to Slack for one-click approval, and then imports it, with a daily agent that renders a capitalize-or-expense verdict on each engineering ticket. Marketing runs a Google Ads analyst that posts a weekly recommendation for the channel lead.
+00:06:53.883 --> 00:07:06.534
+The Attorney Coverage Agent works the network of attorneys to get hearings covered, checking availability, emailing them, and reading replies about availability and pricing so a coordinator can confirm coverage.
 
 36
-00:08:01.764 --> 00:08:11.974
-In operations, a review agent called Charvis checks completed service jobs and now agrees with the compliance team about 98 percent of the time.
+00:07:06.984 --> 00:07:29.487
+In finance, an AR-remittance agent parses a remittance email, builds the NetSuite payment-application file, and posts it to Slack for one-click approval, and then imports it, with a daily agent that renders a capitalize-or-expense verdict on each engineering ticket. Marketing runs a Google Ads analyst that posts a weekly recommendation for the channel lead.
 
 37
-00:08:12.424 --> 00:08:26.171
-The Service-Overdue-Nudger works the tier-1 layer of ABC Legal's operational backlogs, the repetitive first pass a person would otherwise do, and drafts tiered daily outreach messages for human approval.
+00:07:29.607 --> 00:07:38.918
+In operations, a review agent called Charvis checks completed service jobs and now agrees with the compliance team about 98 percent of the time.
 
 38
-00:08:26.971 --> 00:08:30.319
-Making the agents smarter: harvest, tune, repeat.
+00:07:39.368 --> 00:07:51.988
+The Service-Overdue-Nudger works the tier-1 layer of ABC Legal's operational backlogs, the repetitive first pass a person would otherwise do, and drafts tiered daily outreach messages for human approval.
 
 39
-00:08:30.769 --> 00:08:41.844
-ABC Legal's agents work under human supervision, posting what they did or what they recommend to Slack, where people reply in threads and react with emoji.
+00:07:52.788 --> 00:07:55.965
+Making the agents smarter: harvest, tune, repeat.
 
 40
-00:08:42.294 --> 00:08:57.852
-Figure 1: Hank, an internal code review agent, posts every review to a shared Slack channel. Each entry names the pull request and the counts that came out of it so the trail of what the agent decided is public and searchable.
+00:07:56.415 --> 00:08:06.728
+ABC Legal's agents work under human supervision, posting what they did or what they recommend to Slack, where people reply in threads and react with emoji.
 
 41
-00:08:58.302 --> 00:09:11.996
-Fuller saw all that reaction data as a training signal going to waste. Not every agent needs the signal, though. Most of the fleet are single-task runners whose output no one grades, and they work alone.
+00:08:07.178 --> 00:08:21.326
+Figure 1: Hank, an internal code review agent, posts every review to a shared Slack channel. Each entry names the pull request and the counts that came out of it so the trail of what the agent decided is public and searchable.
 
 42
-00:09:12.116 --> 00:09:32.007
-For the agents that do collect graded feedback, ABC Legal uses a three-role architecture: separate agents that share one workspace, environment, and credential vault but run on different schedules. The pattern turns messages in Slack into versioned, human-approved changes to the agent:
+00:08:21.776 --> 00:08:34.217
+Fuller saw all that reaction data as a training signal going to waste. Not every agent needs the signal, though. Most of the fleet are single-task runners whose output no one grades, and they work alone.
 
 43
-00:09:32.457 --> 00:09:43.209
-1. The Initial Agent does the work, usually in real time as a job comes in or a document comes back, and records an audit trail of each action.
+00:08:34.337 --> 00:08:53.059
+For the agents that do collect graded feedback, ABC Legal uses a three-role architecture: separate agents that share one workspace, environment, and credential vault but run on different schedules. The pattern turns messages in Slack into versioned, human-approved changes to the agent:
 
 44
-00:09:43.449 --> 00:09:55.917
-2. The Harvester runs hourly or daily and gathers human feedback from Slack, where it arrives as thread replies and emoji reactions. Each one becomes a labeled data point.
+00:08:53.509 --> 00:09:03.122
+1. The Initial Agent does the work, usually in real time as a job comes in or a document comes back, and records an audit trail of each action.
 
 45
-00:09:56.157 --> 00:10:10.411
-3. The Tuner runs weekly, looks across everything at once, and proposes a change to the prompt or config rather than the model's weights. It drafts only. A human reviews and merges the pull request.
+00:09:03.362 --> 00:09:14.924
+2. The Harvester runs hourly or daily and gathers human feedback from Slack, where it arrives as thread replies and emoji reactions. Each one becomes a labeled data point.
 
 46
-00:10:10.861 --> 00:10:32.773
-Figure 2: In ABC Legal’s self-improving agent loop, an initial agent does the work in real time, a harvester sweeps up human feedback from Slack on an hourly cadence, and a weekly tuner proposes prompt and config changes as a pull request. Agents improve through the same workflows developers already use.
+00:09:15.164 --> 00:09:28.282
+3. The Tuner runs weekly, looks across everything at once, and proposes a change to the prompt or config rather than the model's weights. It drafts only. A human reviews and merges the pull request.
 
 47
-00:10:33.223 --> 00:10:51.852
-One example is "deliveries-as-code," Fuller's agentic system for tuning how work gets routed, which started at Docketly, ABC Legal's 50-person sister company. Docketly organizes its work around deliveries, each with its own ruleset for routing and handling.
+00:09:28.732 --> 00:09:49.063
+Figure 2: In ABC Legal’s self-improving agent loop, an initial agent does the work in real time, a harvester sweeps up human feedback from Slack on an hourly cadence, and a weekly tuner proposes prompt and config changes as a pull request. Agents improve through the same workflows developers already use.
 
 48
-00:10:51.972 --> 00:11:04.492
-All 145 or so rulesets are single yamml files in git rather than records in an admin screen, so tuning a delivery means editing a file and opening a pull request.
+00:09:49.513 --> 00:10:06.599
+One example is "deliveries-as-code," Fuller's agentic system for tuning how work gets routed, which started at Docketly, ABC Legal's 50-person sister company. Docketly organizes its work around deliveries, each with its own ruleset for routing and handling.
 
 49
-00:11:04.942 --> 00:11:26.961
-Four agents make up the loop: one posts a weekly verdict to Slack, the Harvester turns reactions into labels based on human feedback, the Tuner opens a pull request on the yamml, and a fourth agent pushes the merged config to the production database. That fourth agent only executes what a human has already reviewed and approved.
+00:10:06.719 --> 00:10:18.211
+All 145 or so rulesets are single yamml files in git rather than records in an admin screen, so tuning a delivery means editing a file and opening a pull request.
 
 50
-00:11:27.081 --> 00:11:39.661
-In practice, an emoji reaction flagging a mis-routed delivery can become a merged change to that delivery's routing rules within the week. The review is the only manual step in the loop.
+00:10:18.661 --> 00:10:39.283
+Four agents make up the loop: one posts a weekly verdict to Slack, the Harvester turns reactions into labels based on human feedback, the Tuner opens a pull request on the yamml, and a fourth agent pushes the merged config to the production database. That fourth agent only executes what a human has already reviewed and approved.
 
 51
-00:11:40.461 --> 00:11:42.264
-Why Claude Managed Agents.
+00:10:39.403 --> 00:10:50.892
+In practice, an emoji reaction flagging a mis-routed delivery can become a merged change to that delivery's routing rules within the week. The review is the only manual step in the loop.
 
 52
-00:11:42.714 --> 00:12:05.604
-Fuller evaluated multiple frameworks before settling on Claude Managed Agents as his organization’s agentic harness. His criteria were specific: the platform had to have versioning, observable sessions, workspace billing, model selection, memory primitives, M C P wiring, and, most critically, no infrastructure to babysit.
+00:10:51.692 --> 00:10:53.289
+Why Claude Managed Agents.
 
 53
-00:12:06.054 --> 00:12:29.858
-The platform's division of responsibility maps cleanly to how Fuller wants to run things. Anthropic’s managed infrastructure owns everything that makes an agent run: the execution loop, sessions, memory, the console, and the models themselves. ABC Legal owns the prompt, the tool list, the trigger logic, the audit trail, and the feedback loop on outcomes.
+00:10:53.739 --> 00:11:15.224
+Fuller evaluated multiple frameworks before settling on Claude Managed Agents as his organization’s agentic harness. His criteria were specific: the platform had to have versioning, observable sessions, workspace billing, model selection, memory primitives, M C P wiring, and, most critically, no infrastructure to babysit.
 
 54
-00:12:30.308 --> 00:12:33.712
-A few capabilities proved especially important at scale:
+00:11:15.674 --> 00:11:37.241
+The platform's division of responsibility maps cleanly to how Fuller wants to run things. Anthropic’s managed infrastructure owns everything that makes an agent run: the execution loop, sessions, memory, the console, and the models themselves. ABC Legal owns the prompt, the tool list, the trigger logic, the audit trail, and the feedback loop on outcomes.
 
 55
-00:12:34.162 --> 00:12:40.855
-Versioning: every push creates a new agent version with optimistic locking. Rollback is trivial.
+00:11:37.691 --> 00:11:40.893
+A few capabilities proved especially important at scale:
 
 56
-00:12:41.095 --> 00:12:56.327
-Model flexibility: the default is Claude Sonnet for most agents, Claude Haiku for high volume and fast tasks, and Claude Opus when deeper reasoning justifies the cost. Swapping models is a one-line change.
+00:11:41.343 --> 00:11:47.243
+Versioning: every push creates a new agent version with optimistic locking. Rollback is trivial.
 
 57
-00:12:56.567 --> 00:13:12.844
-M C P wiring and credential vaults: agents connect to ABC Legal's own platform (with over 100 tools available), Metabase for reporting, Slack for human-in-the-loop interaction, and Atlassian for project management.
+00:11:47.483 --> 00:12:01.006
+Model flexibility: the default is Claude Sonnet for most agents, Claude Haiku for high volume and fast tasks, and Claude Opus when deeper reasoning justifies the cost. Swapping models is a one-line change.
 
 58
-00:13:13.084 --> 00:13:23.022
-Scheduled deployments: recurring agents run on cron schedules through Bitbucket Pipelines, which already handles repo access, secrets, and billing.
+00:12:01.246 --> 00:12:16.126
+M C P wiring and credential vaults: agents connect to ABC Legal's own platform (with over 100 tools available), Metabase for reporting, Slack for human-in-the-loop interaction, and Atlassian for project management.
 
 59
-00:13:23.472 --> 00:13:30.378
-ABC Legal tracks every dollar of A I spend, broken out by vendor, tool, team, and use case.
+00:12:16.366 --> 00:12:25.454
+Scheduled deployments: recurring agents run on cron schedules through Bitbucket Pipelines, which already handles repo access, secrets, and billing.
 
 60
-00:13:30.498 --> 00:13:51.343
-Spend climbed as the fleet went live through the spring, then started falling in July while usage kept growing, the result of the efficiency work described below, with a about 50 percent reduction in cost for the tasks many agents cover and about 310 employees across every department using Claude.
+00:12:25.904 --> 00:12:32.281
+ABC Legal tracks every dollar of A I spend, broken out by vendor, tool, team, and use case.
 
 61
-00:13:51.793 --> 00:14:16.609
-The company's approach to cost is deliberate: push spend toward vertical, operational tools and agents where return is measurable, whilef keeping horizontal chat and ideation usage broad and costs in check. Most agents start with a human in the loop, where the agent looks at the job or ticket and makes a recommendation for a person to review before anything is acted on.
+00:12:32.401 --> 00:12:51.470
+Spend climbed as the fleet went live through the spring, then started falling in July while usage kept growing, the result of the efficiency work described below, with a about 50 percent reduction in cost for the tasks many agents cover and about 310 employees across every department using Claude.
 
 62
-00:14:16.729 --> 00:14:29.558
-The recommendation is either stored in the job and surfaced in a banner so the person can accept or reject it in the flow of their work, or posted to a Slack channel where people can reply in the thread.
+00:12:51.920 --> 00:13:15.384
+The company's approach to cost is deliberate: push spend toward vertical, operational tools and agents where return is measurable, whilef keeping horizontal chat and ideation usage broad and costs in check. Most agents start with a human in the loop, where the agent looks at the job or ticket and makes a recommendation for a person to review before anything is acted on.
 
 63
-00:14:29.678 --> 00:14:41.915
-Those responses build a labeled dataset of good and bad calls, which feeds the harvester and tuner loop and lets the team write evals and benchmark agents across frontier models.
+00:13:15.504 --> 00:13:27.365
+The recommendation is either stored in the job and surfaced in a banner so the person can accept or reject it in the flow of their work, or posted to a Slack channel where people can reply in the thread.
 
 64
-00:14:42.035 --> 00:14:57.473
-Once an agent proves it is as good as or better than the humans on that specific task, it shifts into automation mode and acts on its own, and it stays inside the same measurement framework afterward to watch for any changes in performance.
+00:13:27.485 --> 00:13:38.877
+Those responses build a labeled dataset of good and bad calls, which feeds the harvester and tuner loop and lets the team write evals and benchmark agents across frontier models.
 
 65
-00:14:57.923 --> 00:15:14.012
-The metric ABC Legal tracks is an efficiency ratio; the value an agent delivers measured against what it costs to run. Every Managed Agent reports its own value back to a data warehouse on each run, in hours and dollars.
+00:13:38.997 --> 00:13:53.227
+Once an agent proves it is as good as or better than the humans on that specific task, it shifts into automation mode and acts on its own, and it stays inside the same measurement framework afterward to watch for any changes in performance.
 
 66
-00:15:14.132 --> 00:15:28.018
-Agents follow a J-curve, often starting underwater while they are new and running larger models, then flipping positive as the team writes evals, moves to cheaper and faster models, and trims tokens.
+00:13:53.677 --> 00:14:08.162
+The metric ABC Legal tracks is an efficiency ratio; the value an agent delivers measured against what it costs to run. Every Managed Agent reports its own value back to a data warehouse on each run, in hours and dollars.
 
 67
-00:15:28.818 --> 00:15:31.850
-Best practices for deploying a fleet of agents.
+00:14:08.282 --> 00:14:20.783
+Agents follow a J-curve, often starting underwater while they are new and running larger models, then flipping positive as the team writes evals, moves to cheaper and faster models, and trims tokens.
 
 68
-00:15:32.300 --> 00:15:41.965
-Fuller’s experience with deploying A I to specifically Claude Managed Agents led him to a few working principles about using the technology:
+00:14:21.583 --> 00:14:24.238
+Best practices for deploying a fleet of agents.
 
 69
-00:15:42.415 --> 00:15:42.715
-‍
+00:14:24.688 --> 00:14:33.697
+Fuller’s experience with deploying A I to specifically Claude Managed Agents led him to a few working principles about using the technology:
 
 70
-00:15:43.165 --> 00:16:04.856
+00:14:34.147 --> 00:14:54.225
 Think of everything as code. "Code is just structured text. L L Ms are text engines,” he said. “The more of your business you can turn into text in a repo, the more leverage agents give you." This applies to traditional software and equally to prompts, schemas, dispatch rules, notification templates, and business configurations.
 
 71
-00:16:05.096 --> 00:16:23.929
+00:14:54.465 --> 00:15:11.674
 Start with humans in the loop. Every agent begins by posting recommendations for human review. Only after demonstrating consistent agreement with human decisions does it earn the right to act independently. "Every agent earns trust before it acts alone. It doesn't start there.".
 
 72
-00:16:24.379 --> 00:16:43.848
+00:15:12.124 --> 00:15:30.030
 Use the P R as your control surface. "If you want an agent involved in a decision, make the decision look like a pull request." Line-by-line comments, approval workflows, and immutable audit trails come free with version control, and compose naturally with both A I and human review.
 
 73
-00:16:44.088 --> 00:17:02.235
+00:15:30.270 --> 00:15:47.735
 Invest in the feedback loop. The harvester-tuner pattern means agents improve without retraining. Slack replies and emoji reactions become structured signals that feed back into prompt and config changes, all through the same pull request workflow humans already use.
 
 74
-00:17:02.475 --> 00:17:20.830
+00:15:47.975 --> 00:16:05.148
 Skip the scheduled-tasks detour. ABC Legal spent real time building scheduled tasks and local routines before moving to Managed Agents, largely because the product had only just launched in beta. Fuller's advice today is to go straight to Managed Agents.
 
 75
-00:17:21.070 --> 00:17:40.831
+00:16:05.388 --> 00:16:23.444
 Expect the git hurdle, not the A I hurdle. The hard part was getting business users comfortable with cloning a repo and working in Git and pull requests, more than anything about the A I itself. It worked, and fast, but it was a real hurdle, and Fuller would like to see it made easier in the tooling itself.
 
 76
-00:17:41.071 --> 00:17:58.988
+00:16:23.684 --> 00:16:40.310
 Not every task deserves an agent. The cost is real, so every team has to think in terms of value over cost. The work is picking tractable problems that genuinely save time or create automation, and being willing to say a given task is not worth an agent.
 
 77
-00:17:59.788 --> 00:18:00.791
+00:16:41.110 --> 00:16:42.004
 What's next.
 
 78
-00:18:01.241 --> 00:18:16.215
+00:16:42.454 --> 00:16:56.385
 ABC Legal's agent fleet continues to grow. In-flight projects include a service photo reviewer, a PagerDuty triage agent, a daily K P I digest, and expanded Tuner loops on existing agents.
 
 79
-00:18:16.665 --> 00:18:32.538
+00:16:56.835 --> 00:17:11.491
 The team is also identifying more "X-as-code" candidates: notification templates, event routing rules, and dispatch logic that can be moved into repositories where agents can read, reason about, and propose improvements.
 
 80
-00:18:32.988 --> 00:18:39.813
+00:17:11.941 --> 00:17:17.995
 As Fuller puts it: "We want A I to support a business that can run itself, with employees free to steer it."
 
 81
-00:18:40.263 --> 00:18:42.648
+00:17:18.445 --> 00:17:20.596
 Learn more about Claude Managed Agents.
 
 82
-00:18:43.098 --> 00:18:43.398
-‍
-
-83
-00:18:44.398 --> 00:19:05.858
+00:17:21.596 --> 00:17:40.770
 That was How ABC Legal turned every employee into a builder with Claude Managed Agents, from Claude Blog, published August 17, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

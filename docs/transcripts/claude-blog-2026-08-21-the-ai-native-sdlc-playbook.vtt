@@ -1,1485 +1,1489 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:05.310
-The A I-Native SDLC playbook.
+00:00:01.300 --> 00:00:06.645
+This is Anthropic, Read Aloud. Today: The A I-Native SDLC playbook.
 
 2
-00:00:05.760 --> 00:00:11.196
-How to transform your software development lifecycle with A I, stage by stage.
+00:00:07.945 --> 00:00:10.145
+The A I-Native SDLC playbook.
 
 3
-00:00:11.646 --> 00:00:16.143
-From Claude Blog, published August 21, 2026.
+00:00:10.595 --> 00:00:15.257
+How to transform your software development lifecycle with A I, stage by stage.
 
 4
-00:00:17.143 --> 00:00:28.058
-sd- shared styles v6, The A I-Native SDLC Playbook. Paste once at the top of the body. v6: compact code blocks, no line wrapping.
+00:00:15.707 --> 00:00:19.835
+From Claude Blog, published August 21, 2026.
 
 5
-00:00:28.858 --> 00:00:31.026
-Code is no longer the bottleneck.
+00:00:20.835 --> 00:00:31.010
+sd- shared styles v6, The A I-Native SDLC Playbook. Paste once at the top of the body. v6: compact code blocks, no line wrapping.
 
 6
-00:00:31.476 --> 00:00:42.068
-Organizations have started using A I to write code at a speed unthinkable one year ago, yet the processes around the code haven't changed at the same pace.
+00:00:31.810 --> 00:00:33.709
+Code is no longer the bottleneck.
 
 7
-00:00:42.518 --> 00:00:55.125
-Many engineering teams still have the same approval gates, reviews, handoffs, and policies, stalling productivity gains made by using agentic coding solutions like Claude Code.
+00:00:34.159 --> 00:00:43.839
+Organizations have started using A I to write code at a speed unthinkable one year ago, yet the processes around the code haven't changed at the same pace.
 
 8
-00:00:55.575 --> 00:01:17.847
-The software development lifecycle (SDLC) is the process that takes software from idea to production. Most organizations run some version of the same six stages, covering planning, design, building, testing, deploying, and maintaining software. Traditionally, each stage is a discrete phase owned by a different role.
+00:00:44.289 --> 00:00:55.943
+Many engineering teams still have the same approval gates, reviews, handoffs, and policies, stalling productivity gains made by using agentic coding solutions like Claude Code.
 
 9
-00:01:17.967 --> 00:01:38.617
-Product managers write requirements, technical architects turn them into designs, engineers build the designs, Q A teams at regulated enterprises verify it, releases teams ship it, and operations monitors what is running. Work moves between the phases through documents, tickets, and sign-offs.
+00:00:56.393 --> 00:01:16.420
+The software development lifecycle (SDLC) is the process that takes software from idea to production. Most organizations run some version of the same six stages, covering planning, design, building, testing, deploying, and maintaining software. Traditionally, each stage is a discrete phase owned by a different role.
 
 10
-00:01:39.067 --> 00:02:01.371
-The traditional software development lifecycle (SDLC) is process-heavy to ensure accountability and control at each step. However, the traditional SDLC was designed to maximize efficiency in an era where the most time-consuming and expensive stage was writing and implementing code, which is no longer the case.
+00:01:16.540 --> 00:01:35.416
+Product managers write requirements, technical architects turn them into designs, engineers build the designs, Q A teams at regulated enterprises verify it, releases teams ship it, and operations monitors what is running. Work moves between the phases through documents, tickets, and sign-offs.
 
 11
-00:02:01.491 --> 00:02:12.691
-PRDs, estimation rituals, and product security reviews all existed to force alignment during what could be weeks, months, or quarters of development work.
+00:01:35.866 --> 00:01:56.452
+The traditional software development lifecycle (SDLC) is process-heavy to ensure accountability and control at each step. However, the traditional SDLC was designed to maximize efficiency in an era where the most time-consuming and expensive stage was writing and implementing code, which is no longer the case.
 
 12
-00:02:13.141 --> 00:02:30.472
-The traditional SDLC also features controls that assume every step is performed by humans. The organizations generating the most value have rebuilt their process around what agentic A I can now do, while ensuring that humans stay in the loop.
+00:01:56.572 --> 00:02:06.492
+PRDs, estimation rituals, and product security reviews all existed to force alignment during what could be weeks, months, or quarters of development work.
 
 13
-00:02:30.592 --> 00:02:47.053
-In this guide, we walk through several of our Applied A I team's best practices for integrating Claude internally across each stage of the SDLC to accelerate development and make processes run faster, inspired by working with our customers.
+00:02:06.942 --> 00:02:23.152
+The traditional SDLC also features controls that assume every step is performed by humans. The organizations generating the most value have rebuilt their process around what agentic A I can now do, while ensuring that humans stay in the loop.
 
 14
-00:02:47.503 --> 00:02:56.741
-When code is no longer the bottleneck and the build phase runs faster than the traditional SDLC allows for, three things become true:
+00:02:23.272 --> 00:02:38.205
+In this guide, we walk through several of our Applied A I team's best practices for integrating Claude internally across each stage of the SDLC to accelerate development and make processes run faster, inspired by working with our customers.
 
 15
-00:02:57.191 --> 00:03:07.842
-The bottleneck moves to the steps to the left and right of the build phase. This is mainly plan, review/test, and deploy, which still run at human speed.
+00:02:38.655 --> 00:02:46.950
+When code is no longer the bottleneck and the build phase runs faster than the traditional SDLC allows for, three things become true:
 
 16
-00:03:08.082 --> 00:03:19.790
-The controls stop matching reality and become intractable. Reviewing each line by hand made sense when a person had written it, but it can't keep up once agents write most of the diff.
+00:02:47.400 --> 00:02:56.898
+The bottleneck moves to the steps to the left and right of the build phase. This is mainly plan, review/test, and deploy, which still run at human speed.
 
 17
-00:03:20.030 --> 00:03:27.198
-Governance costs increase because exceptions still route through meetings and committees that meet weekly or monthly.
+00:02:57.138 --> 00:03:07.923
+The controls stop matching reality and become intractable. Reviewing each line by hand made sense when a person had written it, but it can't keep up once agents write most of the diff.
 
 18
-00:03:27.648 --> 00:03:38.011
-Figure 1: Build is no longer the constraint, the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.
+00:03:08.163 --> 00:03:14.911
+Governance costs increase because exceptions still route through meetings and committees that meet weekly or monthly.
 
 19
-00:03:38.461 --> 00:03:59.744
-Let's use a security bottleneck as an example. Security teams are sized for human output, so when agents multiply code output, either the review queue builds or code ships under-reviewed. A regulated organization can't accept either outcome, so its security and policy checks have to keep pace with the agents.
+00:03:15.361 --> 00:03:24.641
+Figure 1: Build is no longer the constraint, the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.
 
 20
-00:04:00.194 --> 00:04:14.639
-To better realize the productivity gains of and secure agentic A I, the traditional SDLC lifecycle requires the same level of transformation as the implementation phase has undergone.
+00:03:25.091 --> 00:03:44.696
+Let's use a security bottleneck as an example. Security teams are sized for human output, so when agents multiply code output, either the review queue builds or code ships under-reviewed. A regulated organization can't accept either outcome, so its security and policy checks have to keep pace with the agents.
 
 21
-00:04:15.089 --> 00:04:16.390
-Table of contents
+00:03:45.146 --> 00:03:58.060
+To better realize the productivity gains of and secure agentic A I, the traditional SDLC lifecycle requires the same level of transformation as the implementation phase has undergone.
 
 22
-00:04:16.840 --> 00:04:19.350
-1. Code is no longer the bottleneck.
+00:03:58.510 --> 00:03:59.665
+Table of contents
 
 23
-00:04:19.590 --> 00:04:20.507
-2. Plays.
+00:04:00.115 --> 00:04:02.323
+1. Code is no longer the bottleneck.
 
 24
-00:04:20.747 --> 00:04:22.399
-3. Stage 1, Plan.
+00:04:02.563 --> 00:04:03.505
+2. Plays.
 
 25
-00:04:22.639 --> 00:04:24.375
-4. Stage 2, Design.
+00:04:03.745 --> 00:04:05.403
+3. Stage 1, Plan.
 
 26
-00:04:24.615 --> 00:04:26.223
-5. Stage 3, Build.
+00:04:05.643 --> 00:04:07.369
+4. Stage 2, Design.
 
 27
-00:04:26.463 --> 00:04:28.144
-6. Stage 4, Test.
+00:04:07.609 --> 00:04:09.277
+5. Stage 3, Build.
 
 28
-00:04:28.384 --> 00:04:30.261
-7. Stage 5, Deploy.
+00:04:09.517 --> 00:04:11.164
+6. Stage 4, Test.
 
 29
-00:04:30.501 --> 00:04:32.288
-8. Stage 6, Maintain.
+00:04:11.404 --> 00:04:13.289
+7. Stage 5, Deploy.
 
 30
-00:04:32.528 --> 00:04:34.041
-9. Closing thoughts.
+00:04:13.529 --> 00:04:15.316
+8. Stage 6, Maintain.
 
 31
-00:04:34.841 --> 00:04:36.992
-What is an A I-native SDLC?
+00:04:15.556 --> 00:04:17.050
+9. Closing thoughts.
 
 32
-00:04:37.442 --> 00:04:51.937
-The A I-native SDLC is a reimagined process that combines the old control objectives with new enforcement. Instead of a linear flow, the process becomes a loop, and A I is embedded at each point.
+00:04:17.850 --> 00:04:19.795
+What is an A I-native SDLC?
 
 33
-00:04:52.057 --> 00:05:06.129
-The A I-native SDLC promotes automated handover and triggering of subsequent plays, helping to address the manual and clunky nature of handoff between the phases of the traditional SDLC.
+00:04:20.245 --> 00:04:33.460
+The A I-native SDLC is a reimagined process that combines the old control objectives with new enforcement. Instead of a linear flow, the process becomes a loop, and A I is embedded at each point.
 
 34
-00:05:06.929 --> 00:05:07.810
-The shifts.
+00:04:33.580 --> 00:04:46.263
+The A I-native SDLC promotes automated handover and triggering of subsequent plays, helping to address the manual and clunky nature of handoff between the phases of the traditional SDLC.
 
 35
-00:05:08.260 --> 00:05:21.417
-The table below highlights the ends of the spectrum between traditional SDLC and A I-native SDLC, supported by Claude. Most organizations sit somewhere between the two columns.
+00:04:47.063 --> 00:04:47.832
+The shifts.
 
 36
-00:05:21.867 --> 00:05:23.416
-Table with 7 rows.
+00:04:48.282 --> 00:05:00.310
+The table below highlights the ends of the spectrum between traditional SDLC and A I-native SDLC, supported by Claude. Most organizations sit somewhere between the two columns.
 
 37
-00:05:23.656 --> 00:05:28.222
-Header: Stage; Traditional SDLC; A I-native SDLC.
+00:05:00.760 --> 00:05:02.195
+Table with 7 rows.
 
 38
-00:05:28.462 --> 00:05:49.202
-Stage: Plan; Traditional SDLC: Requirements gathered by committee, distilled through workshops and sign-offs, written up by hand; A I-native SDLC: Claude synthesizes pain points straight from the sources and captures them within intent.md which is human readable and machine actionable.
+00:05:02.435 --> 00:05:06.770
+Header: Stage; Traditional SDLC; A I-native SDLC.
 
 39
-00:05:49.442 --> 00:06:07.749
-Stage: Design; Traditional SDLC: Spec written by analysts, parsed by designers; A I-native SDLC: Requirements and design compressed into one working session with an agent, guided by standards encoded as skills, versioned in git.
+00:05:07.010 --> 00:05:26.378
+Stage: Plan; Traditional SDLC: Requirements gathered by committee, distilled through workshops and sign-offs, written up by hand; A I-native SDLC: Claude synthesizes pain points straight from the sources and captures them within intent.md which is human readable and machine actionable.
 
 40
-00:06:07.989 --> 00:06:29.569
-Stage: Build; Traditional SDLC: Tests and code are handwritten and documentation is written after the main development happens; A I-native SDLC: Tests and code are generated by A I and institutional knowledge is maintained as versioned machine-readable CLAUDE.md files and skills.
+00:05:26.618 --> 00:05:43.650
+Stage: Design; Traditional SDLC: Spec written by analysts, parsed by designers; A I-native SDLC: Requirements and design compressed into one working session with an agent, guided by standards encoded as skills, versioned in git.
 
 41
-00:06:29.809 --> 00:06:40.883
-Stage: Test; Traditional SDLC: Q A gates at stage boundaries; A I-native SDLC: Continuous evals woven through implementation.
+00:05:43.890 --> 00:06:03.943
+Stage: Build; Traditional SDLC: Tests and code are handwritten and documentation is written after the main development happens; A I-native SDLC: Tests and code are generated by A I and institutional knowledge is maintained as versioned machine-readable CLAUDE.md files and skills.
 
 42
-00:06:41.123 --> 00:07:04.764
-Stage: Deploy; Traditional SDLC: Humans review every line of code and governance occurs in review cycles, often inconsistently; A I-native SDLC: Layers of agentic review with human review reserved for regulated and critical code. Governance is enforced as the A I acts, with hooks as approval gates.
+00:06:04.183 --> 00:06:14.174
+Stage: Test; Traditional SDLC: Q A gates at stage boundaries; A I-native SDLC: Continuous evals woven through implementation.
 
 43
-00:07:05.004 --> 00:07:22.431
-Stage: Maintain; Traditional SDLC: Humans watch production for bugs; A I-native SDLC: Agents monitor live deployments. Any breached control band is diagnosed and written back into the loop as a new intent.md.
+00:06:14.414 --> 00:06:36.167
+Stage: Deploy; Traditional SDLC: Humans review every line of code and governance occurs in review cycles, often inconsistently; A I-native SDLC: Layers of agentic review with human review reserved for regulated and critical code. Governance is enforced as the A I acts, with hooks as approval gates.
 
 44
-00:07:22.881 --> 00:07:43.293
-The thread running through the right-hand column is the committed artifact. Each stage ends by writing one to version control (including intent.md, spec.md, plan.md, the diff and its tests, the P R with its review findings, and the incident record) and the next stage begins by reading it.
+00:06:36.407 --> 00:06:52.339
+Stage: Maintain; Traditional SDLC: Humans watch production for bugs; A I-native SDLC: Agents monitor live deployments. Any breached control band is diagnosed and written back into the loop as a new intent.md.
 
 45
-00:07:43.413 --> 00:08:03.874
-For the early stages,.md files are the predominant artifact because a product owner and an agent can both read and act on the same file. From Build onward, the artifact is code and its records. The chain of commits is also the audit trail: who asked for what, what the agent produced, and who approved it.
+00:06:52.789 --> 00:07:11.512
+The thread running through the right-hand column is the committed artifact. Each stage ends by writing one to version control (including intent.md, spec.md, plan.md, the diff and its tests, the P R with its review findings, and the incident record) and the next stage begins by reading it.
 
 46
-00:08:04.324 --> 00:08:16.124
-Humans remain accountable for every decision that requires judgment. In the agentic SDLC world, the human attention shifts along with the artifacts that must be reviewed.
+00:07:11.632 --> 00:07:30.682
+For the early stages,.md files are the predominant artifact because a product owner and an agent can both read and act on the same file. From Build onward, the artifact is code and its records. The chain of commits is also the audit trail: who asked for what, what the agent produced, and who approved it.
 
 47
-00:08:16.574 --> 00:08:26.926
-Every stage commits an artifact the next stage can read. Together, the intent, the spec, the plan, the diff and the review findings are the audit trail.
+00:07:31.132 --> 00:07:42.107
+Humans remain accountable for every decision that requires judgment. In the agentic SDLC world, the human attention shifts along with the artifacts that must be reviewed.
 
 48
-00:08:27.726 --> 00:08:28.437
-Plays.
+00:07:42.557 --> 00:07:51.834
+Every stage commits an artifact the next stage can read. Together, the intent, the spec, the plan, the diff and the review findings are the audit trail.
 
 49
-00:08:28.887 --> 00:08:40.827
-The plays are the core of the playbook and are grouped into six non-linear stages (Plan, Design, Build, Test, Deploy, Maintain), which together cover the complete lifecycle.
+00:07:52.634 --> 00:07:53.288
+Plays.
 
 50
-00:08:41.277 --> 00:08:42.444
-Each play covers:
+00:07:53.738 --> 00:08:04.711
+The plays are the core of the playbook and are grouped into six non-linear stages (Plan, Design, Build, Test, Deploy, Maintain), which together cover the complete lifecycle.
 
 51
-00:08:42.894 --> 00:08:43.948
-What changes.
+00:08:05.161 --> 00:08:06.281
+Each play covers:
 
 52
-00:08:44.188 --> 00:08:45.308
-Getting started.
+00:08:06.731 --> 00:08:07.694
+What changes.
 
 53
-00:08:45.548 --> 00:08:47.655
-Concrete steps for implementation.
+00:08:07.934 --> 00:08:08.946
+Getting started.
 
 54
-00:08:47.895 --> 00:08:50.051
-Governance considerations; and.
+00:08:09.186 --> 00:08:11.060
+Concrete steps for implementation.
 
 55
-00:08:50.291 --> 00:08:52.131
-How you measure whether it worked.
+00:08:11.300 --> 00:08:13.192
+Governance considerations; and.
 
 56
-00:08:52.581 --> 00:09:09.552
-These steps are modular and organizations may choose to prioritize transforming different stages at different times based on their unique needs. Each play names its dependencies under "Prerequisites," which the dependency graph further illustrates.
+00:08:13.432 --> 00:08:15.000
+How you measure whether it worked.
 
 57
-00:09:10.002 --> 00:09:32.710
-A stage ends by committing an artifact with the commit initiating the next stage. An accepted intent.md triggers the requirements and design pass, an approved spec.md triggers plan mode, a merged P R triggers the pipeline, and a breached control band in production writes the next intent.md and so the loop continues.
+00:08:15.450 --> 00:08:31.173
+These steps are modular and organizations may choose to prioritize transforming different stages at different times based on their unique needs. Each play names its dependencies under "Prerequisites," which the dependency graph further illustrates.
 
 58
-00:09:33.160 --> 00:09:48.947
-First, you prompt each step by hand with the end state being a loop in which each accepted artifact fires the next gate. Human attention concentrates at the gates, reviewing what the agent flagged rather than starting each stage from scratch.
+00:08:31.623 --> 00:08:52.711
+A stage ends by committing an artifact with the commit initiating the next stage. An accepted intent.md triggers the requirements and design pass, an approved spec.md triggers plan mode, a merged P R triggers the pipeline, and a breached control band in production writes the next intent.md and so the loop continues.
 
 59
-00:09:49.397 --> 00:10:06.804
-Figure 2: The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play, nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.
+00:08:53.161 --> 00:09:07.966
+First, you prompt each step by hand with the end state being a loop in which each accepted artifact fires the next gate. Human attention concentrates at the gates, reviewing what the agent flagged rather than starting each stage from scratch.
 
 60
-00:10:07.254 --> 00:10:08.184
-01
+00:09:08.416 --> 00:09:24.467
+Figure 2: The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play, nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.
 
 61
-00:10:08.984 --> 00:10:09.616
-Plan.
+00:09:24.917 --> 00:09:25.769
+01
 
 62
-00:10:10.066 --> 00:10:21.399
-Ideas stop waiting for someone to write them up. Intent is captured once, in the originator's own words, as a version-controlled artifact the next stage can act on.
+00:09:26.569 --> 00:09:27.146
+Plan.
 
 63
-00:10:22.199 --> 00:10:24.184
-Capture as intent.md.
+00:09:27.596 --> 00:09:37.836
+Ideas stop waiting for someone to write them up. Intent is captured once, in the originator's own words, as a version-controlled artifact the next stage can act on.
 
 64
-00:10:24.634 --> 00:10:39.246
-The intent.md, which kicks off the software development process can enter through different routes. A person has an idea, a ticket is filed, or an incident is surfaced via an alert (see Stage 6: Maintenance).
+00:09:38.636 --> 00:09:40.447
+Capture as intent.md.
 
 65
-00:10:39.696 --> 00:10:55.641
-When a person has an idea, they brainstorm with Claude and produce a markdown proto-spec. In the traditional SDLC, the same person must then convince a member of the product team to write the idea up with them or on their behalf.
+00:09:40.897 --> 00:09:54.209
+The intent.md, which kicks off the software development process can enter through different routes. A person has an idea, a ticket is filed, or an incident is surfaced via an alert (see Stage 6: Maintenance).
 
 66
-00:10:56.091 --> 00:11:07.925
-The proto-spec generated by Claude is human readable, version-controlled, and immediately consumable by the next stage. The proto-spec is saved as an intent.md.
+00:09:54.659 --> 00:10:09.201
+When a person has an idea, they brainstorm with Claude and produce a markdown proto-spec. In the traditional SDLC, the same person must then convince a member of the product team to write the idea up with them or on their behalf.
 
 67
-00:11:08.375 --> 00:11:21.406
-Regardless of whether the intent originates from an event trigger or an agent, the same steps apply: the product owner reviews and corrects the agent-written intent.md before it is committed.
+00:10:09.651 --> 00:10:20.461
+The proto-spec generated by Claude is human readable, version-controlled, and immediately consumable by the next stage. The proto-spec is saved as an intent.md.
 
 68
-00:11:21.856 --> 00:11:31.011
-TraditionalAn idea passes through backlog entries, user stories, story points, and refinement meetings before anyone can act on it.
+00:10:20.911 --> 00:10:33.125
+Regardless of whether the intent originates from an event trigger or an agent, the same steps apply: the product owner reviews and corrects the agent-written intent.md before it is committed.
 
 69
-00:11:31.131 --> 00:11:56.368
-Ownership transfers at each handoff, so what reaches engineering is several steps removed from what the originator meant.A I-nativeThe originator brainstorms with Claude and writes the result down as intent.md, a proto-spec in the originator's own terms. The artifact contains what is wanted, why, and under which constraints. Repeat processes are encoded via skills.
+00:10:33.575 --> 00:10:41.684
+TraditionalAn idea passes through backlog entries, user stories, story points, and refinement meetings before anyone can act on it.
 
 70
-00:11:56.818 --> 00:12:21.855
-Getting started Prerequisites None. Infrastructure Claude access for people who are not engineers (claude.ai or Cowork ); an agreed intent.md template; a shared, version-controlled home for intent that the product owner watches. For a single product the simplest home is an intent/ folder in the product repo. This setup keeps the artifact chain next to the code derived from it.
+00:10:41.804 --> 00:11:05.164
+Ownership transfers at each handoff, so what reaches engineering is several steps removed from what the originator meant.A I-nativeThe originator brainstorms with Claude and writes the result down as intent.md, a proto-spec in the originator's own terms. The artifact contains what is wanted, why, and under which constraints. Repeat processes are encoded via skills.
 
 71
-00:12:21.975 --> 00:12:39.833
-A dedicated intent repo is only worth the overhead when intent spans many repositories, and in a monorepo it is a directory. The Stage 3: Build sidebar covers how this home relates to a Jira or requirements tool that already holds the record.
+00:11:05.614 --> 00:11:29.144
+Getting started Prerequisites None. Infrastructure Claude access for people who are not engineers (claude.ai or Cowork ); an agreed intent.md template; a shared, version-controlled home for intent that the product owner watches. For a single product the simplest home is an intent/ folder in the product repo. This setup keeps the artifact chain next to the code derived from it.
 
 72
-00:12:40.283 --> 00:12:55.056
-Setting this up is a one-time task for the platform or engineering team. A technical team member needs to stand up the intent home and decide who can write to it, since many contributors will come from across the organization.
+00:11:29.264 --> 00:11:45.928
+A dedicated intent repo is only worth the overhead when intent spans many repositories, and in a monorepo it is a directory. The Stage 3: Build sidebar covers how this home relates to a Jira or requirements tool that already holds the record.
 
 73
-00:12:55.506 --> 00:13:12.925
-Once the repository exists, contributors without git experience don't need to use git directly. Instead a connector to the version-control system (for example, GitHub) lets Claude commit markdown files on their behalf from claude.ai or Cowork.
+00:11:46.378 --> 00:12:00.143
+Setting this up is a one-time task for the platform or engineering team. A technical team member needs to stand up the intent home and decide who can write to it, since many contributors will come from across the organization.
 
 74
-00:13:13.725 --> 00:13:15.010
-How to execute it.
+00:12:00.593 --> 00:12:16.588
+Once the repository exists, contributors without git experience don't need to use git directly. Instead a connector to the version-control system (for example, GitHub) lets Claude commit markdown files on their behalf from claude.ai or Cowork.
 
 75
-00:13:15.460 --> 00:13:31.962
-1. The originator describes the problem to Claude in their own words. The originator may describe what they cannot do today, who is affected by the idea, what better looks like, or what is out of scope. No formal language is required.
+00:12:17.388 --> 00:12:18.604
+How to execute it.
 
 76
-00:13:32.202 --> 00:13:42.553
-2. Brainstorm until the idea is concrete. Claude asks the questions an analyst would ask: scope, users, constraints, and what success looks like.
+00:12:19.054 --> 00:12:33.817
+1. The originator describes the problem to Claude in their own words. The originator may describe what they cannot do today, who is affected by the idea, what better looks like, or what is out of scope. No formal language is required.
 
 77
-00:13:42.793 --> 00:14:02.686
-3. Ask Claude to write the result as intent.md using the organization's template, which can be encoded as a skill set up by a technical team member and signed off by a lead. This can cover the problem, proposed outcome, affected users and systems, constraints, and open questions.
+00:12:34.057 --> 00:12:43.948
+2. Brainstorm until the idea is concrete. Claude asks the questions an analyst would ask: scope, users, constraints, and what success looks like.
 
 78
-00:14:02.926 --> 00:14:06.577
-4. The originator corrects anything Claude misunderstood.
+00:12:44.188 --> 00:13:02.782
+3. Ask Claude to write the result as intent.md using the organization's template, which can be encoded as a skill set up by a technical team member and signed off by a lead. This can cover the problem, proposed outcome, affected users and systems, constraints, and open questions.
 
 79
-00:14:06.817 --> 00:14:15.866
-5. Commit intent.md to the shared home. Author and timestamp join the record, and the product owner picks the idea up from there.
+00:13:03.022 --> 00:13:06.420
+4. The originator corrects anything Claude misunderstood.
 
 80
-00:14:16.316 --> 00:14:21.393
-A code block of 13 lines appears here; see the original post for the code.
+00:13:06.660 --> 00:13:15.001
+5. Commit intent.md to the shared home. Author and timestamp join the record, and the product owner picks the idea up from there.
 
 81
-00:14:22.193 --> 00:14:23.877
-Governance considerations.
-
-82
-00:14:24.327 --> 00:14:45.749
-The evidence is the committed intent.md, which lists the author, the timestamp and the full revision history. It's logged in the git history of the intent home. The product owner approves, and the accept or reject decision that sends the intent into Stage 2: Design is recorded as the merge or the closing review.
-
-83
-00:14:46.199 --> 00:15:04.691
-How to measure it Leading indicator Time from first conversation to a committed intent.md, read from git history on the intent home, which records author and time stamp. The expectation is to fall from a multi-week elicitation and refinement cycle to hours.
-
-84
-00:15:04.811 --> 00:15:29.824
-Lagging indicator The survival rate, or the share of intent.md files that the product owner accepts into Stage 2: Design rather than closes. The accept or reject decision is recorded as the merge of the artifact or the closed review. Additionally, the number of changes made to the intent.md that are made after the first spec.md commit for the same change.
-
-85
-00:15:30.274 --> 00:15:31.272
-02
-
-86
-00:15:32.072 --> 00:15:32.879
-Design.
-
-87
-00:15:33.329 --> 00:15:41.965
-Requirements and design collapse into one session. Policy is applied while the spec is written, not discovered in a review weeks later.
-
-88
-00:15:42.765 --> 00:15:44.362
-Requirements and design.
-
-89
-00:15:44.812 --> 00:15:59.750
-Once approved by the product owner, Claude takes the accepted intent.md and produces a requirements and design spec. This is guided by the organization's skills for brand, security, compliance, and UX.
-
-90
-00:16:00.200 --> 00:16:11.483
-The product owner reviews that spec, but doesn't write it. The goal of this process is to create a spec the engineering team can plan against, with flagged areas of concern.
-
-91
-00:16:11.933 --> 00:16:28.095
-Front-end work is the clearest example. Once the intent.md is accepted, the product owner mocks the design up in Claude Design (beta) from the intent.md, iterates on the mock, and then exports it to Claude Code to build.
-
-92
-00:16:28.545 --> 00:16:49.543
-TraditionalRequirements and design are separate phases run by separate teams. Analysts formalize the idea into requirements and designers then parse those back into a design. The separation exists for accountability, but it is slow and lossy.A I-nativeBoth phases happen in a single prompted session.
-
-93
-00:16:49.663 --> 00:16:59.807
-Claude takes intent.md and produces a requirements and design spec, constrained by the organization's skills, with areas of concern flagged.
-
-94
-00:17:00.257 --> 00:17:15.834
-Getting started Prerequisites Write an intent.md file, with brand, security, compliance, and UX policies written as skills. Infrastructure A product owner with Claude access. No engineering skill is required.
-
-95
-00:17:16.634 --> 00:17:17.919
-How to execute it.
-
-96
-00:17:18.369 --> 00:17:25.877
-1. The product owner opens a session with the organization's skills available and attaches the intent.md.
-
-97
-00:17:26.117 --> 00:17:40.012
-2. The product owners prompt points at the intent.md, names the constraints, and demands flagged concerns. Run it by hand at first, then codify it as an organization-level slash command.
-
-98
-00:17:40.132 --> 00:18:04.292
-From there make the acceptance of intent.md in the intent home the trigger, with a non-interactive job that fires on the merge, run the pass with the organization's skills loaded, and commit spec.md as a pull request (the CI/CD play in Stage 5: Deploy covers the plumbing). From that point the product owner's first involvement is the review.
-
-99
-00:18:04.532 --> 00:18:16.688
-3. The same product owner reviews the spec against the idea. Does the spec solve the stated problem, and are the open questions from intent.md answered or carried forward?.
-
-100
-00:18:16.928 --> 00:18:29.227
-4. Work through the flagged concerns first as they are the points an analyst would have escalated. The product owner resolves each one with its policy owner before engineering sees the spec.
-
-101
-00:18:29.467 --> 00:18:37.818
-5. Commit spec.md alongside intent.md. The file pair records what was asked for and what was decided.
-
-102
-00:18:38.058 --> 00:18:56.859
-6. The product owner decides whether the spec and intent progress to build, consulting a technical lead for anything the organization classes as higher risk. A human team mate always makes this call, and accepting the spec is what starts the plan mode play in Stage 3: Build.
-
-103
-00:18:57.659 --> 00:18:59.262
-What it looks like (the prompt).
-
-104
-00:18:59.712 --> 00:19:22.064
-Code: Read the attached intent.md and produce a requirements and design spec for integrating it into our existing codebase. Apply the skills available to you so the plan conforms to our brand guidelines, security policies and UX standards. Document the spec fully as spec.md, ready to hand to the engineering team.
-
-105
-00:19:22.184 --> 00:19:28.883
-Describe clearly any areas of concern, especially where you cannot satisfy contradicting policies..
-
-106
-00:19:29.683 --> 00:19:31.367
-Governance considerations.
-
-107
-00:19:31.817 --> 00:19:50.123
-Instead of being discovered in a review weeks later, the live policy is read and applied while the spec is written. The organization's skills are applied as constraints on the spec. The spec, the prompt that produced it, and the skill versions in force are all logged in version control.
-
-108
-00:19:50.243 --> 00:19:56.045
-The product owner signs off the spec, and routes flagged concerns to the named policy owners.
-
-109
-00:19:56.495 --> 00:20:21.735
-How to measure it Leading indicator Elapsed time between the intent.md commit and the spec.md commit for the same change (two git timestamps), compared with the old requirements-plus-design cycle. Lagging indicator Requirements rework after build starts. Count spec.md commits dated after the first plan.md commit for the same change. Git log will give this directly.
-
-110
-00:20:22.185 --> 00:20:23.190
-03
-
-111
-00:20:23.990 --> 00:20:24.656
-Build.
-
-112
-00:20:25.106 --> 00:20:35.929
-Nothing is implemented without an accepted plan. Institutional knowledge becomes files the agent reads, and the guardrails run as code rather than as habits.
-
-113
-00:20:36.729 --> 00:20:40.126
-Claude Code plan mode as the default starting point.
-
-114
-00:20:40.576 --> 00:20:54.020
-Engineers start Claude Code sessions in plan mode, give Claude the approved spec.md from Stage 2: Design, and let it interview them, iterating on the plan until the engineer is happy with it.
-
-115
-00:20:54.470 --> 00:21:09.049
-TraditionalAn engineer reads the design and starts writing code. How the change will be made, down to which files and which tests, stays in the engineer's head or at best a ticket comment. Nobody else can review it.
-
-116
-00:21:09.169 --> 00:21:32.157
-The first thing a reviewer sees is the finished diff, and by then rework is slow.A I-nativeWork starts with a written plan that Claude produces in plan mode, where it can read the codebase without changing anything. The engineer corrects the plan before code is written, and the approved version is committed as plan.md for later stages to check against.
-
-117
-00:21:32.607 --> 00:21:46.550
-Getting started Prerequisites The intent artifact ( intent.md or spec.md ) if one exists, and the CLAUDE.md file helps. Infrastructure Claude Code with access to the repository.
-
-118
-00:21:47.350 --> 00:21:48.635
-How to execute it.
-
-119
-00:21:49.085 --> 00:21:52.687
-1. The engineer starts the session in plan mode with Claude.
-
-120
-00:21:52.927 --> 00:22:05.739
-2. The engineer gives Claude the intent.md and the spec.md and asks for an implementation plan that names the files that change, the order of the work, and the tests that prove it.
-
-121
-00:22:05.979 --> 00:22:15.333
-3. Interrogate the plan by asking what the change could break, which step is most risky, and what other options Claude chose not to do.
-
-122
-00:22:15.573 --> 00:22:22.688
-4. Iterate until an engineer who has never seen the conversation could implement the change from the plan alone.
-
-123
-00:22:22.928 --> 00:22:34.490
-5. Commit the approved plan as plan.md. The plan joins the audit trail, and the P R review play (Stage 5: Deploy) checks the eventual diff against it.
-
-124
-00:22:34.730 --> 00:22:42.407
-6. Accept the plan and let Claude implement. With a solid plan, the implementation is often a single pass.
-
-125
-00:22:42.647 --> 00:22:53.298
-7. When implementation departs from the plan, update plan.md in the same commit. Consider using a hook to enforce synchronization between the two.
-
-126
-00:22:54.098 --> 00:22:56.015
-What it looks like (plan.md).
-
-127
-00:22:56.465 --> 00:23:01.617
-A code block of 15 lines appears here; see the original post for the code.
-
-128
-00:23:02.417 --> 00:23:04.102
-Governance considerations.
-
-129
-00:23:04.552 --> 00:23:23.788
-Design review happens before any code is generated, when changing course is still a matter of editing a document. Plan mode enforces this itself, since Claude cannot edit files until the engineer accepts the plan. The plan and its revisions are logged along with who accepted it.
-
-130
-00:23:23.908 --> 00:23:32.967
-Routine changes are approved by the engineer, and anything the organization classes as higher risk goes to a tech lead or architect.
-
-131
-00:23:33.417 --> 00:23:56.283
-How to measure it Leading indicator Share of changes that merge from the first implementation pass, and time from plan approval to merged P R with the required data within the P R metadata. Lagging indicator Rework cycles per change, again from the P R metadata, and how often the merged diff still matches the committed plan.md.
-
-132
-00:23:57.083 --> 00:23:58.775
-Claude Code on auto mode.
-
-133
-00:23:59.225 --> 00:24:10.549
-Claude Code can also run in auto mode, where the engineer approves the plan and, once happy and iterated upon, Claude applies each change without a per-edit prompt.
-
-134
-00:24:10.669 --> 00:24:30.958
-As the guardrails from the later plays mature (a tuned CLAUDE.md, skills that encode policy, hooks that block unsafe actions, and a test suite Claude can run), auto-accept becomes the default for routine work: a tight spec.md, a small blast radius, and code the tests already cover.
-
-135
-00:24:31.408 --> 00:24:56.240
-The shift is now away from the user watching the agent make the edits and reviewing actions, towards the review of artifacts after longer autonomous sessions. Auto-accept mode further enables parallelism across individuals and the team when used with worktrees and is fundamental to running the SDLC autonomously and closing the loop as described in Stage 6: Maintenance.
-
-136
-00:24:56.690 --> 00:24:57.514
-Sidebar
-
-137
-00:24:58.314 --> 00:25:00.906
-Legacy systems and the source of truth.
-
-138
-00:25:01.356 --> 00:25:04.384
-Applies to every artifact the process produces.
-
-139
-00:25:04.834 --> 00:25:22.661
-Existing SDLC processes likely already track artifacts, just not in markdown files. Work items may be in Jira, requirements in a tool with regulatory traceability built in, designs in Figma, and change approvals with a change board.
-
-140
-00:25:22.781 --> 00:25:47.453
-Those systems are hard to displace because auditors and regulators already accept them and other teams depend on them, so the A I-native SDLC has to fit around what exists.When transitioning to the A I-native SDLC, for every artifact the process produces, name one system as the source of truth, with everything else holding a copy or a link to the original.
-
-141
-00:25:47.573 --> 00:26:03.825
-The configurations below can be set up to have one source of truth, with the choice differing per artifact: The repo as the source of truth. The markdown artifacts are the authoritative record and the legacy system references files within commits.
-
-142
-00:26:03.945 --> 00:26:25.565
-This can be one of the cleanest configurations for engineering-led organizations, as all records live in one tool with one timestamp authority. The legacy system as the source of truth. Jira, ServiceNow, or the requirements tool holds the authoritative record and the markdown artifacts are working copies.
-
-143
-00:26:25.685 --> 00:26:46.099
-Claude reads the record at the start of the session and writes the outcome back through an M C P connector in the same session that produced the spec or the plan. Linkage as the minimum bar. All artifacts note the record I D and all legacy records contain the commit SHA of the markdown file.
-
-144
-00:26:46.219 --> 00:27:05.003
-Linkage is a good place to start when transitioning to the A I-native SDLC, accepting that there are two sources of truth.Both the legacy system and the markdown-first system can coexist, so long as there is a link between the two or one is declared the source of truth.
-
-145
-00:27:05.803 --> 00:27:07.165
-The CLAUDE.md.
-
-146
-00:27:07.615 --> 00:27:31.159
-CLAUDE.md gives Claude the context a new joiner would need, covering conventions, commands, architecture, and the mistakes the team sees most often. Knowledge that used to sit in people's heads and on wikis becomes a file the agent reads at the start of every session, maintained by the whole team and iterated on whenever a mistake is made.
-
-147
-00:27:31.609 --> 00:27:40.368
-Getting started Prerequisites None. Infrastructure A repo, Claude Code installed, and one engineer who knows the codebase well.
-
-148
-00:27:41.168 --> 00:27:42.453
-How to execute it.
-
-149
-00:27:42.903 --> 00:27:49.556
-1. Run /init in the repo. Claude generates a starting CLAUDE.md from what it finds.
-
-150
-00:27:49.796 --> 00:28:02.025
-2. Cut the generated file down to what a new joiner would need on day one. Keep the build, test and lint commands, the conventions that matter, and the things Claude keeps getting wrong.
-
-151
-00:28:02.265 --> 00:28:10.384
-3. Check CLAUDE.md into git at the repo root so the whole team shares one version and changes are reviewed like code.
-
-152
-00:28:10.624 --> 00:28:17.552
-4. A working rule helps here. When Claude makes a mistake twice, the correction goes into CLAUDE.md.
-
-153
-00:28:17.792 --> 00:28:27.032
-5. Keep it under a page, because Claude reads all of it at the start of a session and anything stale is taking up context for no benefit.
-
-154
-00:28:27.832 --> 00:28:29.779
-What it looks like (CLAUDE.md).
-
-155
-00:28:30.229 --> 00:28:35.280
-A code block of 30 lines appears here; see the original post for the code.
-
-156
-00:28:36.080 --> 00:28:37.765
-Governance considerations.
-
-157
-00:28:38.215 --> 00:28:55.641
-CLAUDE.md is version controlled, so the instructions the agent works to are reviewable and auditable. Team conventions are applied through the file, changes to it are logged in git history, and code owners approve those changes in P R review.
-
-158
-00:28:56.091 --> 00:29:14.904
-How to measure it Leading indicator How often Claude repeats a mistake CLAUDE.md should have caught. The corrections or changes to the CLAUDE.md should be tracked within the git history. Lagging indicator Time to first merged P R for a new member of the team from P R history.
-
-159
-00:29:15.704 --> 00:29:17.981
-Skills as institutional knowledge.
-
-160
-00:29:18.431 --> 00:29:42.580
-Skills are how an organization makes its institutional knowledge operational. The instructions are explicit, version-controlled, applied broadly, and updated centrally when policy changes. The rule of thumb: write a skill for institutional knowledge that must be applied consistently; don't write a skill for components that belong in CLAUDE.md or a prompt.
-
-161
-00:29:43.030 --> 00:29:59.085
-Getting started Prerequisites None required. Having a CLAUDE.md helps, because it keeps the agent's working knowledge in the repo, but a skill does not depend on it. Infrastructure One policy with a named owner and a written source of truth.
-
-162
-00:29:59.885 --> 00:30:01.170
-How to execute it.
-
-163
-00:30:01.620 --> 00:30:12.529
-1. Pick one piece of knowledge that is enforced inconsistently today. This could be a security standard, an A P I design convention, or a brand rule.
-
-164
-00:30:12.769 --> 00:30:27.407
-2. Write it as a skill, a folder containing a SKILL.md whose frontmatter says when it triggers and whose body says what to do. An engineer writes it from the policy owner's source of truth, using Claude to help.
-
-165
-00:30:27.647 --> 00:30:37.495
-3. Put the skill in the repo at.claude/skills/<name>/ so it ships with the code, or distribute it organization-wide through a plugin.
-
-166
-00:30:37.735 --> 00:30:45.772
-4. Test that the skill triggers. Ask Claude to do the relevant task in different ways and confirm the skill loads each time.
-
-167
-00:30:46.012 --> 00:30:52.262
-5. When the policy changes, change the skill and have the policy owner sign off the change.
-
-168
-00:30:52.502 --> 00:30:56.847
-6. Engineers pick up the new version automatically in their next session.
-
-169
-00:30:57.647 --> 00:31:03.368
-What it looks like (.claude/skills/secure-api-review/SKILL.md).
-
-170
-00:31:03.818 --> 00:31:09.144
-A code block of 21 lines appears here; see the original post for the code.
-
-171
-00:31:09.944 --> 00:31:11.628
-Governance considerations.
-
-172
-00:31:12.078 --> 00:31:34.081
-A skill is a control, though an advisory one. It makes Claude likely to apply the policy while the code is written, and nothing forces a session to comply with it. A policy that must always hold needs something deterministic behind the skill, such as a hook that blocks the action or a review pass that re-checks the policy at the P R.
-
-173
-00:31:34.201 --> 00:31:46.430
-The skill makes violations rare and the hook makes them close to impossible. Skill invocations are logged in session traces, and the policy owner reviews skill changes like code.
-
-174
-00:31:46.880 --> 00:32:07.899
-How to measure it Leading indicator Time from the policy owner approving a policy change to the updated skill merging, taken from the P R on the skill folder. Lagging indicator P R reviews findings that cite the policy, which should fall towards zero once the skill is applying the policy while the code is written.
-
-175
-00:32:08.019 --> 00:32:15.835
-Where the findings don't fall towards zero, either the skill isn't triggering or its text has drifted from the official policy.
-
-176
-00:32:16.635 --> 00:32:18.670
-Hooks as build-time guardrails.
-
-177
-00:32:19.120 --> 00:32:34.436
-A skill is an advisory control while a hook is the deterministic layer behind it. Most of Claude's actions are file edits and shell commands during implementation, so the build phase is where hooks can end up firing most often.
-
-178
-00:32:34.886 --> 00:32:36.340
-Build-phase hooks can:
-
-179
-00:32:36.790 --> 00:32:42.172
-Block edits to protected paths such as generated classes or a frozen package.
-
-180
-00:32:42.412 --> 00:32:47.701
-Run the formatter and linter after file edits so drift never accumulates.
-
-181
-00:32:47.941 --> 00:32:49.822
-Keep credentials out of the diff.
-
-182
-00:32:50.272 --> 00:33:06.740
-Back any skill whose policy has to hold without exception. A hook runs on each action that matches it, so build-phase hooks should be fast and scoped to the file that changed. Heavier checks such as the full test suite belong at the commit or the P R.
-
-183
-00:33:07.190 --> 00:33:20.697
-A hook that asks a human for approval belongs with the gates in Stage 5: Deploy, because an approval prompt during the build puts a person back on the critical path of all the sessions running in parallel.
-
-184
-00:33:21.497 --> 00:33:23.477
-Parallel sessions and subagents.
-
-185
-00:33:23.927 --> 00:33:27.368
-One engineer can drive several streams of work at once.
-
-186
-00:33:27.818 --> 00:33:42.473
-A parallel session is another full Claude Code instance, working a separate task in its own git worktree. Each independent session knows nothing about the others, and the engineer steering them is the only thing they share.
-
-187
-00:33:42.923 --> 00:33:57.016
-A subagent runs inside a single session as a scoped helper with its own context window and tool limits and suits jobs that recur in multiple tasks such as verifying the app runs as expected.
-
-188
-00:33:57.466 --> 00:34:09.934
-Parallel sessions raise the number of tasks an engineer can have in flight, while subagents keep each session focused on its own task. The engineer's job is steering and reviewing all of them.
-
-189
-00:34:10.384 --> 00:34:34.146
-TraditionalOne engineer works one task at a time and spends a significant portion of their day or week on builds, tests and reviewers. Switching between tasks while waiting is possible, but the context switch is tiring enough that few people choose to.A I-nativeOne engineer runs several Claude sessions at once, each in its own worktree on its own task.
-
-190
-00:34:34.266 --> 00:34:45.457
-Repeated jobs become subagents with their own context and tool limits. The engineer's job shifts to orchestrating, and eventually, to building and monitoring loops.
-
-191
-00:34:45.907 --> 00:35:01.460
-Getting started Prerequisites The CLAUDE.md, since all sessions read the file. The feedback loop (Stage 4: Test) also helps here, because less supervision from the engineer is needed when a session can verify its own work.
-
-192
-00:35:01.580 --> 00:35:14.688
-Infrastructure A git repository, since isolation comes from worktrees and permission settings tuned so sessions are not waiting on approval prompts for commands the organization considers safe.
-
-193
-00:35:15.488 --> 00:35:16.773
-How to execute it.
-
-194
-00:35:17.223 --> 00:35:33.470
-1. The engineer splits the work into tasks that touch different files, using the plan from the plan mode play (Stage 3: Build) to see where the work is independent. Tasks that share files run in a single session, one after another.
-
-195
-00:35:33.710 --> 00:35:49.921
-2. Each parallel task gets its own worktree, for example claude --worktree feature-auth in one terminal and claude --worktree fix-rate-limit in another. A worktree is a separate checkout on its own branch, which stops sessions colliding on files.
-
-196
-00:35:50.161 --> 00:36:02.162
-3. Two or three sessions is a sensible starting point. The practical ceiling is how many streams one person can review properly, so add sessions only while review is keeping up.
-
-197
-00:36:02.402 --> 00:36:15.500
-4. Turn repeated jobs into subagents, as defined in markdown files in.claude/agents/, each with a name, a description of when to use it, and the tools it may touch.
-
-198
-00:36:15.620 --> 00:36:35.718
-Examples include a code simplifier that strips needless complexity after the main agent finishes, a verifier that runs the app and checks behavior, a researcher that explores the codebase and reports back without flooding the main context. Check the definitions into git so the whole team shares them.
-
-199
-00:36:36.518 --> 00:36:40.556
-What it looks like (.claude/agents/verifier.md).
-
-200
-00:36:41.006 --> 00:36:46.083
+00:13:15.451 --> 00:13:19.914
 A code block of 13 lines appears here; see the original post for the code.
 
-201
-00:36:46.883 --> 00:36:48.568
+82
+00:13:20.714 --> 00:13:22.253
 Governance considerations.
+
+83
+00:13:22.703 --> 00:13:42.530
+The evidence is the committed intent.md, which lists the author, the timestamp and the full revision history. It's logged in the git history of the intent home. The product owner approves, and the accept or reject decision that sends the intent into Stage 2: Design is recorded as the merge or the closing review.
+
+84
+00:13:42.980 --> 00:14:00.303
+How to measure it Leading indicator Time from first conversation to a committed intent.md, read from git history on the intent home, which records author and time stamp. The expectation is to fall from a multi-week elicitation and refinement cycle to hours.
+
+85
+00:14:00.423 --> 00:14:23.781
+Lagging indicator The survival rate, or the share of intent.md files that the product owner accepts into Stage 2: Design rather than closes. The accept or reject decision is recorded as the merge of the artifact or the closed review. Additionally, the number of changes made to the intent.md that are made after the first spec.md commit for the same change.
+
+86
+00:14:24.231 --> 00:14:25.108
+02
+
+87
+00:14:25.908 --> 00:14:26.598
+Design.
+
+88
+00:14:27.048 --> 00:14:35.140
+Requirements and design collapse into one session. Policy is applied while the spec is written, not discovered in a review weeks later.
+
+89
+00:14:35.940 --> 00:14:37.447
+Requirements and design.
+
+90
+00:14:37.897 --> 00:14:51.525
+Once approved by the product owner, Claude takes the accepted intent.md and produces a requirements and design spec. This is guided by the organization's skills for brand, security, compliance, and UX.
+
+91
+00:14:51.975 --> 00:15:02.351
+The product owner reviews that spec, but doesn't write it. The goal of this process is to create a spec the engineering team can plan against, with flagged areas of concern.
+
+92
+00:15:02.801 --> 00:15:17.742
+Front-end work is the clearest example. Once the intent.md is accepted, the product owner mocks the design up in Claude Design (beta) from the intent.md, iterates on the mock, and then exports it to Claude Code to build.
+
+93
+00:15:18.192 --> 00:15:38.177
+TraditionalRequirements and design are separate phases run by separate teams. Analysts formalize the idea into requirements and designers then parse those back into a design. The separation exists for accountability, but it is slow and lossy.A I-nativeBoth phases happen in a single prompted session.
+
+94
+00:15:38.297 --> 00:15:47.697
+Claude takes intent.md and produces a requirements and design spec, constrained by the organization's skills, with areas of concern flagged.
+
+95
+00:15:48.147 --> 00:16:02.360
+Getting started Prerequisites Write an intent.md file, with brand, security, compliance, and UX policies written as skills. Infrastructure A product owner with Claude access. No engineering skill is required.
+
+96
+00:16:03.160 --> 00:16:04.376
+How to execute it.
+
+97
+00:16:04.826 --> 00:16:12.075
+1. The product owner opens a session with the organization's skills available and attaches the intent.md.
+
+98
+00:16:12.315 --> 00:16:25.136
+2. The product owners prompt points at the intent.md, names the constraints, and demands flagged concerns. Run it by hand at first, then codify it as an organization-level slash command.
+
+99
+00:16:25.256 --> 00:16:47.772
+From there make the acceptance of intent.md in the intent home the trigger, with a non-interactive job that fires on the merge, run the pass with the organization's skills loaded, and commit spec.md as a pull request (the CI/CD play in Stage 5: Deploy covers the plumbing). From that point the product owner's first involvement is the review.
+
+100
+00:16:48.012 --> 00:16:59.420
+3. The same product owner reviews the spec against the idea. Does the spec solve the stated problem, and are the open questions from intent.md answered or carried forward?.
+
+101
+00:16:59.660 --> 00:17:11.376
+4. Work through the flagged concerns first as they are the points an analyst would have escalated. The product owner resolves each one with its policy owner before engineering sees the spec.
+
+102
+00:17:11.616 --> 00:17:18.996
+5. Commit spec.md alongside intent.md. The file pair records what was asked for and what was decided.
+
+103
+00:17:19.236 --> 00:17:36.797
+6. The product owner decides whether the spec and intent progress to build, consulting a technical lead for anything the organization classes as higher risk. A human team mate always makes this call, and accepting the spec is what starts the plan mode play in Stage 3: Build.
+
+104
+00:17:37.597 --> 00:17:39.087
+What it looks like (the prompt).
+
+105
+00:17:39.537 --> 00:18:00.151
+Code: Read the attached intent.md and produce a requirements and design spec for integrating it into our existing codebase. Apply the skills available to you so the plan conforms to our brand guidelines, security policies and UX standards. Document the spec fully as spec.md, ready to hand to the engineering team.
+
+106
+00:18:00.271 --> 00:18:06.265
+Describe clearly any areas of concern, especially where you cannot satisfy contradicting policies..
+
+107
+00:18:07.065 --> 00:18:08.605
+Governance considerations.
+
+108
+00:18:09.055 --> 00:18:26.131
+Instead of being discovered in a review weeks later, the live policy is read and applied while the spec is written. The organization's skills are applied as constraints on the spec. The spec, the prompt that produced it, and the skill versions in force are all logged in version control.
+
+109
+00:18:26.251 --> 00:18:31.600
+The product owner signs off the spec, and routes flagged concerns to the named policy owners.
+
+110
+00:18:32.050 --> 00:18:55.688
+How to measure it Leading indicator Elapsed time between the intent.md commit and the spec.md commit for the same change (two git timestamps), compared with the old requirements-plus-design cycle. Lagging indicator Requirements rework after build starts. Count spec.md commits dated after the first plan.md commit for the same change. Git log will give this directly.
+
+111
+00:18:56.138 --> 00:18:57.004
+03
+
+112
+00:18:57.804 --> 00:18:58.385
+Build.
+
+113
+00:18:58.835 --> 00:19:08.819
+Nothing is implemented without an accepted plan. Institutional knowledge becomes files the agent reads, and the guardrails run as code rather than as habits.
+
+114
+00:19:09.619 --> 00:19:12.658
+Claude Code plan mode as the default starting point.
+
+115
+00:19:13.108 --> 00:19:25.366
+Engineers start Claude Code sessions in plan mode, give Claude the approved spec.md from Stage 2: Design, and let it interview them, iterating on the plan until the engineer is happy with it.
+
+116
+00:19:25.816 --> 00:19:39.075
+TraditionalAn engineer reads the design and starts writing code. How the change will be made, down to which files and which tests, stays in the engineer's head or at best a ticket comment. Nobody else can review it.
+
+117
+00:19:39.195 --> 00:19:59.824
+The first thing a reviewer sees is the finished diff, and by then rework is slow.A I-nativeWork starts with a written plan that Claude produces in plan mode, where it can read the codebase without changing anything. The engineer corrects the plan before code is written, and the approved version is committed as plan.md for later stages to check against.
+
+118
+00:20:00.274 --> 00:20:13.494
+Getting started Prerequisites The intent artifact ( intent.md or spec.md ) if one exists, and the CLAUDE.md file helps. Infrastructure Claude Code with access to the repository.
+
+119
+00:20:14.294 --> 00:20:15.509
+How to execute it.
+
+120
+00:20:15.959 --> 00:20:19.282
+1. The engineer starts the session in plan mode with Claude.
+
+121
+00:20:19.522 --> 00:20:31.417
+2. The engineer gives Claude the intent.md and the spec.md and asks for an implementation plan that names the files that change, the order of the work, and the tests that prove it.
+
+122
+00:20:31.657 --> 00:20:40.201
+3. Interrogate the plan by asking what the change could break, which step is most risky, and what other options Claude chose not to do.
+
+123
+00:20:40.441 --> 00:20:46.947
+4. Iterate until an engineer who has never seen the conversation could implement the change from the plan alone.
+
+124
+00:20:47.187 --> 00:20:57.631
+5. Commit the approved plan as plan.md. The plan joins the audit trail, and the P R review play (Stage 5: Deploy) checks the eventual diff against it.
+
+125
+00:20:57.871 --> 00:21:04.945
+6. Accept the plan and let Claude implement. With a solid plan, the implementation is often a single pass.
+
+126
+00:21:05.185 --> 00:21:14.878
+7. When implementation departs from the plan, update plan.md in the same commit. Consider using a hook to enforce synchronization between the two.
+
+127
+00:21:15.678 --> 00:21:17.503
+What it looks like (plan.md).
+
+128
+00:21:17.953 --> 00:21:22.437
+A code block of 15 lines appears here; see the original post for the code.
+
+129
+00:21:23.237 --> 00:21:24.777
+Governance considerations.
+
+130
+00:21:25.227 --> 00:21:42.763
+Design review happens before any code is generated, when changing course is still a matter of editing a document. Plan mode enforces this itself, since Claude cannot edit files until the engineer accepts the plan. The plan and its revisions are logged along with who accepted it.
+
+131
+00:21:42.883 --> 00:21:51.442
+Routine changes are approved by the engineer, and anything the organization classes as higher risk goes to a tech lead or architect.
+
+132
+00:21:51.892 --> 00:22:12.662
+How to measure it Leading indicator Share of changes that merge from the first implementation pass, and time from plan approval to merged P R with the required data within the P R metadata. Lagging indicator Rework cycles per change, again from the P R metadata, and how often the merged diff still matches the committed plan.md.
+
+133
+00:22:13.462 --> 00:22:14.984
+Claude Code on auto mode.
+
+134
+00:22:15.434 --> 00:22:25.589
+Claude Code can also run in auto mode, where the engineer approves the plan and, once happy and iterated upon, Claude applies each change without a per-edit prompt.
+
+135
+00:22:25.709 --> 00:22:44.735
+As the guardrails from the later plays mature (a tuned CLAUDE.md, skills that encode policy, hooks that block unsafe actions, and a test suite Claude can run), auto-accept becomes the default for routine work: a tight spec.md, a small blast radius, and code the tests already cover.
+
+136
+00:22:45.185 --> 00:23:08.887
+The shift is now away from the user watching the agent make the edits and reviewing actions, towards the review of artifacts after longer autonomous sessions. Auto-accept mode further enables parallelism across individuals and the team when used with worktrees and is fundamental to running the SDLC autonomously and closing the loop as described in Stage 6: Maintenance.
+
+137
+00:23:09.337 --> 00:23:10.064
+Sidebar
+
+138
+00:23:10.864 --> 00:23:13.142
+Legacy systems and the source of truth.
+
+139
+00:23:13.592 --> 00:23:16.383
+Applies to every artifact the process produces.
+
+140
+00:23:16.833 --> 00:23:33.054
+Existing SDLC processes likely already track artifacts, just not in markdown files. Work items may be in Jira, requirements in a tool with regulatory traceability built in, designs in Figma, and change approvals with a change board.
+
+141
+00:23:33.174 --> 00:23:56.224
+Those systems are hard to displace because auditors and regulators already accept them and other teams depend on them, so the A I-native SDLC has to fit around what exists.When transitioning to the A I-native SDLC, for every artifact the process produces, name one system as the source of truth, with everything else holding a copy or a link to the original.
+
+142
+00:23:56.344 --> 00:24:11.405
+The configurations below can be set up to have one source of truth, with the choice differing per artifact: The repo as the source of truth. The markdown artifacts are the authoritative record and the legacy system references files within commits.
+
+143
+00:24:11.525 --> 00:24:30.938
+This can be one of the cleanest configurations for engineering-led organizations, as all records live in one tool with one timestamp authority. The legacy system as the source of truth. Jira, ServiceNow, or the requirements tool holds the authoritative record and the markdown artifacts are working copies.
+
+144
+00:24:31.058 --> 00:24:49.746
+Claude reads the record at the start of the session and writes the outcome back through an M C P connector in the same session that produced the spec or the plan. Linkage as the minimum bar. All artifacts note the record I D and all legacy records contain the commit SHA of the markdown file.
+
+145
+00:24:49.866 --> 00:25:07.170
+Linkage is a good place to start when transitioning to the A I-native SDLC, accepting that there are two sources of truth.Both the legacy system and the markdown-first system can coexist, so long as there is a link between the two or one is declared the source of truth.
+
+146
+00:25:07.970 --> 00:25:09.093
+The CLAUDE.md.
+
+147
+00:25:09.543 --> 00:25:30.931
+CLAUDE.md gives Claude the context a new joiner would need, covering conventions, commands, architecture, and the mistakes the team sees most often. Knowledge that used to sit in people's heads and on wikis becomes a file the agent reads at the start of every session, maintained by the whole team and iterated on whenever a mistake is made.
+
+148
+00:25:31.381 --> 00:25:39.186
+Getting started Prerequisites None. Infrastructure A repo, Claude Code installed, and one engineer who knows the codebase well.
+
+149
+00:25:39.986 --> 00:25:41.202
+How to execute it.
+
+150
+00:25:41.652 --> 00:25:47.668
+1. Run /init in the repo. Claude generates a starting CLAUDE.md from what it finds.
+
+151
+00:25:47.908 --> 00:25:59.142
+2. Cut the generated file down to what a new joiner would need on day one. Keep the build, test and lint commands, the conventions that matter, and the things Claude keeps getting wrong.
+
+152
+00:25:59.382 --> 00:26:06.934
+3. Check CLAUDE.md into git at the repo root so the whole team shares one version and changes are reviewed like code.
+
+153
+00:26:07.174 --> 00:26:13.380
+4. A working rule helps here. When Claude makes a mistake twice, the correction goes into CLAUDE.md.
+
+154
+00:26:13.620 --> 00:26:21.801
+5. Keep it under a page, because Claude reads all of it at the start of a session and anything stale is taking up context for no benefit.
+
+155
+00:26:22.601 --> 00:26:24.428
+What it looks like (CLAUDE.md).
+
+156
+00:26:24.878 --> 00:26:29.212
+A code block of 30 lines appears here; see the original post for the code.
+
+157
+00:26:30.012 --> 00:26:31.552
+Governance considerations.
+
+158
+00:26:32.002 --> 00:26:47.740
+CLAUDE.md is version controlled, so the instructions the agent works to are reviewable and auditable. Team conventions are applied through the file, changes to it are logged in git history, and code owners approve those changes in P R review.
+
+159
+00:26:48.190 --> 00:27:05.704
+How to measure it Leading indicator How often Claude repeats a mistake CLAUDE.md should have caught. The corrections or changes to the CLAUDE.md should be tracked within the git history. Lagging indicator Time to first merged P R for a new member of the team from P R history.
+
+160
+00:27:06.504 --> 00:27:08.565
+Skills as institutional knowledge.
+
+161
+00:27:09.015 --> 00:27:31.437
+Skills are how an organization makes its institutional knowledge operational. The instructions are explicit, version-controlled, applied broadly, and updated centrally when policy changes. The rule of thumb: write a skill for institutional knowledge that must be applied consistently; don't write a skill for components that belong in CLAUDE.md or a prompt.
+
+162
+00:27:31.887 --> 00:27:46.585
+Getting started Prerequisites None required. Having a CLAUDE.md helps, because it keeps the agent's working knowledge in the repo, but a skill does not depend on it. Infrastructure One policy with a named owner and a written source of truth.
+
+163
+00:27:47.385 --> 00:27:48.601
+How to execute it.
+
+164
+00:27:49.051 --> 00:27:58.653
+1. Pick one piece of knowledge that is enforced inconsistently today. This could be a security standard, an A P I design convention, or a brand rule.
+
+165
+00:27:58.893 --> 00:28:12.284
+2. Write it as a skill, a folder containing a SKILL.md whose frontmatter says when it triggers and whose body says what to do. An engineer writes it from the policy owner's source of truth, using Claude to help.
+
+166
+00:28:12.524 --> 00:28:21.689
+3. Put the skill in the repo at.claude/skills/<name>/ so it ships with the code, or distribute it organization-wide through a plugin.
+
+167
+00:28:21.929 --> 00:28:29.510
+4. Test that the skill triggers. Ask Claude to do the relevant task in different ways and confirm the skill loads each time.
+
+168
+00:28:29.750 --> 00:28:35.531
+5. When the policy changes, change the skill and have the policy owner sign off the change.
+
+169
+00:28:35.771 --> 00:28:39.931
+6. Engineers pick up the new version automatically in their next session.
+
+170
+00:28:40.731 --> 00:28:45.976
+What it looks like (.claude/skills/secure-api-review/SKILL.md).
+
+171
+00:28:46.426 --> 00:28:50.947
+A code block of 21 lines appears here; see the original post for the code.
+
+172
+00:28:51.747 --> 00:28:53.286
+Governance considerations.
+
+173
+00:28:53.736 --> 00:29:13.873
+A skill is a control, though an advisory one. It makes Claude likely to apply the policy while the code is written, and nothing forces a session to comply with it. A policy that must always hold needs something deterministic behind the skill, such as a hook that blocks the action or a review pass that re-checks the policy at the P R.
+
+174
+00:29:13.993 --> 00:29:25.416
+The skill makes violations rare and the hook makes them close to impossible. Skill invocations are logged in session traces, and the policy owner reviews skill changes like code.
+
+175
+00:29:25.866 --> 00:29:45.082
+How to measure it Leading indicator Time from the policy owner approving a policy change to the updated skill merging, taken from the P R on the skill folder. Lagging indicator P R reviews findings that cite the policy, which should fall towards zero once the skill is applying the policy while the code is written.
+
+176
+00:29:45.202 --> 00:29:52.509
+Where the findings don't fall towards zero, either the skill isn't triggering or its text has drifted from the official policy.
+
+177
+00:29:53.309 --> 00:29:55.107
+Hooks as build-time guardrails.
+
+178
+00:29:55.557 --> 00:30:09.746
+A skill is an advisory control while a hook is the deterministic layer behind it. Most of Claude's actions are file edits and shell commands during implementation, so the build phase is where hooks can end up firing most often.
+
+179
+00:30:10.196 --> 00:30:11.486
+Build-phase hooks can:
+
+180
+00:30:11.936 --> 00:30:16.883
+Block edits to protected paths such as generated classes or a frozen package.
+
+181
+00:30:17.123 --> 00:30:21.881
+Run the formatter and linter after file edits so drift never accumulates.
+
+182
+00:30:22.121 --> 00:30:23.801
+Keep credentials out of the diff.
+
+183
+00:30:24.251 --> 00:30:39.571
+Back any skill whose policy has to hold without exception. A hook runs on each action that matches it, so build-phase hooks should be fast and scoped to the file that changed. Heavier checks such as the full test suite belong at the commit or the P R.
+
+184
+00:30:40.021 --> 00:30:52.792
+A hook that asks a human for approval belongs with the gates in Stage 5: Deploy, because an approval prompt during the build puts a person back on the critical path of all the sessions running in parallel.
+
+185
+00:30:53.592 --> 00:30:55.626
+Parallel sessions and subagents.
+
+186
+00:30:56.076 --> 00:30:59.332
+One engineer can drive several streams of work at once.
+
+187
+00:30:59.782 --> 00:31:13.030
+A parallel session is another full Claude Code instance, working a separate task in its own git worktree. Each independent session knows nothing about the others, and the engineer steering them is the only thing they share.
+
+188
+00:31:13.480 --> 00:31:26.429
+A subagent runs inside a single session as a scoped helper with its own context window and tool limits and suits jobs that recur in multiple tasks such as verifying the app runs as expected.
+
+189
+00:31:26.879 --> 00:31:38.595
+Parallel sessions raise the number of tasks an engineer can have in flight, while subagents keep each session focused on its own task. The engineer's job is steering and reviewing all of them.
+
+190
+00:31:39.045 --> 00:32:00.952
+TraditionalOne engineer works one task at a time and spends a significant portion of their day or week on builds, tests and reviewers. Switching between tasks while waiting is possible, but the context switch is tiring enough that few people choose to.A I-nativeOne engineer runs several Claude sessions at once, each in its own worktree on its own task.
+
+191
+00:32:01.072 --> 00:32:11.651
+Repeated jobs become subagents with their own context and tool limits. The engineer's job shifts to orchestrating, and eventually, to building and monitoring loops.
+
+192
+00:32:12.101 --> 00:32:26.277
+Getting started Prerequisites The CLAUDE.md, since all sessions read the file. The feedback loop (Stage 4: Test) also helps here, because less supervision from the engineer is needed when a session can verify its own work.
+
+193
+00:32:26.397 --> 00:32:38.835
+Infrastructure A git repository, since isolation comes from worktrees and permission settings tuned so sessions are not waiting on approval prompts for commands the organization considers safe.
+
+194
+00:32:39.635 --> 00:32:40.851
+How to execute it.
+
+195
+00:32:41.301 --> 00:32:56.293
+1. The engineer splits the work into tasks that touch different files, using the plan from the plan mode play (Stage 3: Build) to see where the work is independent. Tasks that share files run in a single session, one after another.
+
+196
+00:32:56.533 --> 00:33:11.616
+2. Each parallel task gets its own worktree, for example claude --worktree feature-auth in one terminal and claude --worktree fix-rate-limit in another. A worktree is a separate checkout on its own branch, which stops sessions colliding on files.
+
+197
+00:33:11.856 --> 00:33:22.939
+3. Two or three sessions is a sensible starting point. The practical ceiling is how many streams one person can review properly, so add sessions only while review is keeping up.
+
+198
+00:33:23.179 --> 00:33:35.123
+4. Turn repeated jobs into subagents, as defined in markdown files in.claude/agents/, each with a name, a description of when to use it, and the tools it may touch.
+
+199
+00:33:35.243 --> 00:33:54.047
+Examples include a code simplifier that strips needless complexity after the main agent finishes, a verifier that runs the app and checks behavior, a researcher that explores the codebase and reports back without flooding the main context. Check the definitions into git so the whole team shares them.
+
+200
+00:33:54.847 --> 00:33:58.582
+What it looks like (.claude/agents/verifier.md).
+
+201
+00:33:59.032 --> 00:34:03.495
+A code block of 13 lines appears here; see the original post for the code.
 
 202
-00:36:49.018 --> 00:37:03.433
-More sessions means more output, so the controls have to come from configuration in the repo. Hooks and permission settings there apply to all sessions, and what a session does is logged and attributed to the engineer who ran it.
+00:34:04.295 --> 00:34:05.835
+Governance considerations.
 
 203
-00:37:03.883 --> 00:37:24.583
-How to measure it Leading indicator Concurrent sessions per engineer while review quality holds, counted from the OpenTelemetry export, and the share of the day spent steering rather than waiting. Lagging indicator Changes merged per engineer per week read alongside the rework rate as determined per the P R history.
+00:34:06.285 --> 00:34:19.633
+More sessions means more output, so the controls have to come from configuration in the repo. Hooks and permission settings there apply to all sessions, and what a session does is logged and attributed to the engineer who ran it.
 
 204
-00:37:25.383 --> 00:37:27.038
-Give Claude a feedback loop.
+00:34:20.083 --> 00:34:39.046
+How to measure it Leading indicator Concurrent sessions per engineer while review quality holds, counted from the OpenTelemetry export, and the share of the day spent steering rather than waiting. Lagging indicator Changes merged per engineer per week read alongside the rework rate as determined per the P R history.
 
 205
-00:37:27.488 --> 00:37:40.060
-Always give Claude a way to verify its own work, whether tests, a build, or a screenshot diff. A session checks its own work and fixes its own mistakes before an engineer sees them.
+00:34:39.846 --> 00:34:41.251
+Give Claude a feedback loop.
 
 206
-00:37:40.510 --> 00:38:01.493
-The feedback loop should not be confused with a verifier subagent (Stage 3: Build). The feedback loop runs through the whole task as many times as the work. The verifier subagent, on the other hand, is one way to package the final check by running a fresh context window once the session believes the work is done.
+00:34:41.701 --> 00:34:52.532
+Always give Claude a way to verify its own work, whether tests, a build, or a screenshot diff. A session checks its own work and fixes its own mistakes before an engineer sees them.
 
 207
-00:38:01.613 --> 00:38:06.137
-This way the verdict is not colored by the assumptions that produced the code.
+00:34:52.982 --> 00:35:12.030
+The feedback loop should not be confused with a verifier subagent (Stage 3: Build). The feedback loop runs through the whole task as many times as the work. The verifier subagent, on the other hand, is one way to package the final check by running a fresh context window once the session believes the work is done.
 
 208
-00:38:06.587 --> 00:38:28.326
-TraditionalThe signal that code works arrives late. CI minutes later, a tester days later, production weeks later. With an agent producing the code, a late signal means a person has to check all of its output, and that person becomes the bottleneck.A I-nativeThe session is given a way to check its own work before a person sees it.
+00:35:12.150 --> 00:35:16.364
+This way the verdict is not colored by the assumptions that produced the code.
 
 209
-00:38:28.446 --> 00:38:44.311
-Run the tests, run the build, take the screenshot. Claude iterates until the check passes, so what reaches the engineer has already passed it. Setting the loop up falls to the engineer running the session, and the steps below are written for them.
+00:35:16.814 --> 00:35:37.311
+TraditionalThe signal that code works arrives late. CI minutes later, a tester days later, production weeks later. With an agent producing the code, a late signal means a person has to check all of its output, and that person becomes the bottleneck.A I-nativeThe session is given a way to check its own work before a person sees it.
 
 210
-00:38:44.761 --> 00:39:02.418
-Getting started Prerequisites None. Infrastructure A test suite and a build that run locally with one command each. For the U I work, a way for Claude to see the result is crucial, either a browser tool or a screenshot utility wired in via M C P.
+00:35:37.431 --> 00:35:51.497
+Run the tests, run the build, take the screenshot. Claude iterates until the check passes, so what reaches the engineer has already passed it. Setting the loop up falls to the engineer running the session, and the steps below are written for them.
 
 211
-00:39:03.218 --> 00:39:04.503
-How to execute it.
+00:35:51.947 --> 00:36:08.130
+Getting started Prerequisites None. Infrastructure A test suite and a build that run locally with one command each. For the U I work, a way for Claude to see the result is crucial, either a browser tool or a screenshot utility wired in via M C P.
 
 212
-00:39:04.953 --> 00:39:18.344
-1. If checking the work today takes a sequence of commands and some environment knowledge, wrap it in a single target such as "make test" or "npm test" that exits non-zero on failure.
+00:36:08.930 --> 00:36:10.146
+How to execute it.
 
 213
-00:39:18.584 --> 00:39:25.096
-2. In the CLAUDE.md 's Commands section, list each command with an example of a healthy output.
+00:36:10.596 --> 00:36:22.482
+1. If checking the work today takes a sequence of commands and some environment knowledge, wrap it in a single target such as "make test" or "npm test" that exits non-zero on failure.
 
 214
-00:39:25.336 --> 00:39:42.066
-3. State a target and make it quantifiable so Claude can check the work without asking you, for example: "All tests in test status.py pass," "the screenshot matches the attached mock," or "the endpoint returns 200 with the new field".
+00:36:22.722 --> 00:36:29.020
+2. In the CLAUDE.md 's Commands section, list each command with an example of a healthy output.
 
 215
-00:39:42.306 --> 00:40:03.035
-4. For bug fixes, write the failing test first. Ask Claude to reproduce the bug as a test, run it, and confirm it fails for the reason you expect. Commit that test. Only then ask Claude to make it pass without editing the test, with the test-file hook from the final step enforcing the restriction.
+00:36:29.260 --> 00:36:44.416
+3. State a target and make it quantifiable so Claude can check the work without asking you, for example: "All tests in test status.py pass," "the screenshot matches the attached mock," or "the endpoint returns 200 with the new field".
 
 216
-00:40:03.155 --> 00:40:09.249
-A test that existed before the fix, and that the agent couldn't rewrite, is proof the bug is gone.
+00:36:44.656 --> 00:37:03.597
+4. For bug fixes, write the failing test first. Ask Claude to reproduce the bug as a test, run it, and confirm it fails for the reason you expect. Commit that test. Only then ask Claude to make it pass without editing the test, with the test-file hook from the final step enforcing the restriction.
 
 217
-00:40:09.489 --> 00:40:26.008
-5. For U I work, close the loop with a visual check. Give Claude a browser or screenshot tool, give it the mock, and let it iterate. Implement, screenshot, compare, and adjust. Two or three rounds is normal, and the result should improve with each one.
+00:37:03.717 --> 00:37:09.205
+A test that existed before the fix, and that the agent couldn't rewrite, is proof the bug is gone.
 
 218
-00:40:26.248 --> 00:40:36.135
-6. Make verification part of "done." Instruction lives in CLAUDE.md. Run the tests before reporting a task complete, and show the output.
+00:37:09.445 --> 00:37:24.729
+5. For U I work, close the loop with a visual check. Give Claude a browser or screenshot tool, give it the mock, and let it iterate. Implement, screenshot, compare, and adjust. Two or three rounds is normal, and the result should improve with each one.
 
 219
-00:40:36.375 --> 00:40:55.613
-7. Finally, the loop itself needs protecting, because an agent fixing code must not be able to weaken the check on that code. A hook that blocks edits to test files during a fix task does this. The alternative is to check the diff in review and reject any change that touches a test.
+00:37:24.969 --> 00:37:34.228
+6. Make verification part of "done." Instruction lives in CLAUDE.md. Run the tests before reporting a task complete, and show the output.
 
 220
-00:40:56.413 --> 00:40:59.795
-What it looks like (CLAUDE.md verification block).
+00:37:34.468 --> 00:37:52.578
+7. Finally, the loop itself needs protecting, because an agent fixing code must not be able to weaken the check on that code. A hook that blocks edits to test files during a fix task does this. The alternative is to check the diff in review and reject any change that touches a test.
 
 221
-00:41:00.245 --> 00:41:05.321
-A code block of 11 lines appears here; see the original post for the code.
+00:37:53.378 --> 00:37:56.556
+What it looks like (CLAUDE.md verification block).
 
 222
-00:41:05.771 --> 00:41:20.873
-Governance considerations What is enforced Verification before a task is reported done, and the block on the agent editing test files during a fix, both implemented as hooks where the organization wants them guaranteed.
+00:37:57.006 --> 00:38:01.530
+A code block of 11 lines appears here; see the original post for the code.
 
 223
-00:41:20.993 --> 00:41:45.305
-What the evidence is The literal output of "make test," the build log, or the screenshot diff that Claude ran and pasted, so the evidence comes from the toolchain. Where it is logged In the session transcript, which the OpenTelemetry export forwards to the organization's observability stack, and in the P R's check run, where the reviewer and any later auditor can both see it.
+00:38:01.980 --> 00:38:16.010
+Governance considerations What is enforced Verification before a task is reported done, and the block on the agent editing test files during a fix, both implemented as hooks where the organization wants them guaranteed.
 
 224
-00:41:45.425 --> 00:41:54.948
-Who approves The code owner reviewing the P R, who can concentrate on intent and risk because the mechanical evidence is already attached.
+00:38:16.130 --> 00:38:38.396
+What the evidence is The literal output of "make test," the build log, or the screenshot diff that Claude ran and pasted, so the evidence comes from the toolchain. Where it is logged In the session transcript, which the OpenTelemetry export forwards to the organization's observability stack, and in the P R's check run, where the reviewer and any later auditor can both see it.
 
 225
-00:41:55.398 --> 00:42:16.866
-How to measure it Leading indicator First-pass CI success rate for agent-written changes, which the CI system already supports. Lagging indicator Review time per P R (from the P R metadata), which should fall once the tests catch what reviewers used to catch, and the change failure rate from an incident tracker.
+00:38:38.516 --> 00:38:46.942
+Who approves The code owner reviewing the P R, who can concentrate on intent and risk because the mechanical evidence is already attached.
 
 226
-00:42:17.666 --> 00:42:19.646
-Continuous evals in CI.
+00:38:47.392 --> 00:39:06.668
+How to measure it Leading indicator First-pass CI success rate for agent-written changes, which the CI system already supports. Lagging indicator Review time per P R (from the P R metadata), which should fall once the tests catch what reviewers used to catch, and the change failure rate from an incident tracker.
 
 227
-00:42:20.096 --> 00:42:38.348
-Evals are the A I-native equivalent of stage-gate Q A. In practice that means a suite that runs whenever the agent's configuration changes. When a new model is swapped in or a prompt is rewritten, the eval suite says whether the agent still does the work to the same standard.
+00:39:07.468 --> 00:39:09.177
+Continuous evals in CI.
 
 228
-00:42:38.798 --> 00:42:50.654
-The evals should be seen as a live suite. As models improve, cases that once discriminated stop doing so and new ones must be added that arise from ongoing monitoring.
+00:39:09.627 --> 00:39:26.680
+Evals are the A I-native equivalent of stage-gate Q A. In practice that means a suite that runs whenever the agent's configuration changes. When a new model is swapped in or a prompt is rewritten, the eval suite says whether the agent still does the work to the same standard.
 
 229
-00:42:51.104 --> 00:43:02.980
-Depending on the use case, some teams may prefer to run these evals offline on a set cadence rather than on every change. The steps below are for continuous evaluations.
+00:39:27.130 --> 00:39:38.067
+The evals should be seen as a live suite. As models improve, cases that once discriminated stop doing so and new ones must be added that arise from ongoing monitoring.
 
 230
-00:43:03.430 --> 00:43:17.810
-Getting started Prerequisites The CLAUDE.md and feedback loop (Stage 4: Test). Infrastructure CI that can run Claude Code non-interactively, and an A P I key with budget for eval runs.
+00:39:38.517 --> 00:39:49.461
+Depending on the use case, some teams may prefer to run these evals offline on a set cadence rather than on every change. The steps below are for continuous evaluations.
 
 231
-00:43:18.610 --> 00:43:19.895
-How to execute it.
+00:39:49.911 --> 00:40:02.946
+Getting started Prerequisites The CLAUDE.md and feedback loop (Stage 4: Test). Infrastructure CI that can run Claude Code non-interactively, and an A P I key with budget for eval runs.
 
 232
-00:43:20.345 --> 00:43:28.860
-1. The platform engineer collects 20 to 50 real tasks from recent work with its expected/accepted outcome.
+00:40:03.746 --> 00:40:04.962
+How to execute it.
 
 233
-00:43:29.100 --> 00:43:39.750
-2. Write each task as an eval, meaning the prompt plus the checks that define acceptable (tests pass, lint clean, behavior unchanged, policy followed).
+00:40:05.412 --> 00:40:13.451
+1. The platform engineer collects 20 to 50 real tasks from recent work with its expected/accepted outcome.
 
 234
-00:43:39.990 --> 00:43:55.104
-3. The suite runs non-interactively in CI on a schedule and on any change to CLAUDE.md, skills or hooks, since that configuration steers the agent and deserves the regression testing that code gets.
+00:40:13.691 --> 00:40:23.563
+2. Write each task as an eval, meaning the prompt plus the checks that define acceptable (tests pass, lint clean, behavior unchanged, policy followed).
 
 235
-00:43:55.344 --> 00:44:03.792
-4. Gate configuration changes on the results. A skill change that drops the pass rate gets reviewed before it merges.
+00:40:23.803 --> 00:40:37.653
+3. The suite runs non-interactively in CI on a schedule and on any change to CLAUDE.md, skills or hooks, since that configuration steers the agent and deserves the regression testing that code gets.
 
 236
-00:44:04.032 --> 00:44:12.725
-5. Each production incident gets an eval, written by the team that owned the incident, and stays in the suite as a regression test.
+00:40:37.893 --> 00:40:45.672
+4. Gate configuration changes on the results. A skill change that drops the pass rate gets reviewed before it merges.
 
 237
-00:44:13.525 --> 00:44:17.803
-What it looks like (.github/workflows/agent-evals.yml).
+00:40:45.912 --> 00:40:53.869
+5. Each production incident gets an eval, written by the team that owned the incident, and stays in the suite as a regression test.
 
 238
-00:44:18.253 --> 00:44:23.702
-A code block of 47 lines appears here; see the original post for the code.
+00:40:54.669 --> 00:40:58.621
+What it looks like (.github/workflows/agent-evals.yml).
 
 239
-00:44:24.502 --> 00:44:26.187
-Governance considerations.
+00:40:59.071 --> 00:41:03.792
+A code block of 47 lines appears here; see the original post for the code.
 
 240
-00:44:26.637 --> 00:44:41.774
-Evals give Q A a gate that keeps up with agent output. The pass-rate threshold is enforced as a merge check, runs are logged so results can be compared over time, and the team that owns the configuration change approves it.
+00:41:04.592 --> 00:41:06.131
+Governance considerations.
 
 241
-00:44:42.224 --> 00:45:01.710
-How to measure it Leading indicator The eval pass rate over time, reported by the suite on every run, and how long a production incident takes to become a permanent eval. Lagging indicator Regressions caught in CI compared with regressions found in production derived from the incident tracker.
+00:41:06.581 --> 00:41:20.614
+Evals give Q A a gate that keeps up with agent output. The pass-rate threshold is enforced as a merge check, runs are logged so results can be compared over time, and the team that owns the configuration change approves it.
 
 242
-00:45:02.160 --> 00:45:03.240
-05
+00:41:21.064 --> 00:41:39.278
+How to measure it Leading indicator The eval pass rate over time, reported by the suite on every run, and how long a production incident takes to become a permanent eval. Lagging indicator Regressions caught in CI compared with regressions found in production derived from the incident tracker.
 
 243
-00:45:04.040 --> 00:45:04.816
-Deploy.
+00:41:39.728 --> 00:41:40.637
+05
 
 244
-00:45:05.266 --> 00:45:15.053
-Review runs in both directions, and governance is enforced as the agent acts. The agent does everything up to the production gate and nothing past it.
+00:41:41.437 --> 00:41:42.109
+Deploy.
 
 245
-00:45:15.853 --> 00:45:17.797
-A I in the P R review loop.
+00:41:42.559 --> 00:41:51.771
+Review runs in both directions, and governance is enforced as the agent acts. The agent does everything up to the production gate and nothing past it.
 
 246
-00:45:18.247 --> 00:45:37.542
-Claude both gives and receives reviews. It reviews incoming P Rs against the organization's policies and addresses review comments on its own P Rs. This allows engineers to focus on behavior in their P R review, which boils down to judging intent and risk.
+00:41:52.571 --> 00:41:54.205
+A I in the P R review loop.
 
 247
-00:45:37.992 --> 00:45:58.969
-TraditionalReview capacity was planned around human output. A P R waits for a reviewer to read all of it, review quality varies with the reviewer's load, and the author chases while the backlog grows.A I-nativeAll P Rs get an identical set of review passes, with findings ranked by severity.
+00:41:54.655 --> 00:42:12.703
+Claude both gives and receives reviews. It reviews incoming P Rs against the organization's policies and addresses review comments on its own P Rs. This allows engineers to focus on behavior in their P R review, which boils down to judging intent and risk.
 
 248
-00:45:59.089 --> 00:46:06.476
-Human attention moves up a level, to whether the change does what the plan intended and whether the risk is acceptable.
+00:42:13.153 --> 00:42:32.150
+TraditionalReview capacity was planned around human output. A P R waits for a reviewer to read all of it, review quality varies with the reviewer's load, and the author chases while the backlog grows.A I-nativeAll P Rs get an identical set of review passes, with findings ranked by severity.
 
 249
-00:46:06.926 --> 00:46:18.486
-Getting started Prerequisites An updated CLAUDE.md file from Stage 3: Build; skills if the review passes enforce written policies, defined subagents.
+00:42:32.270 --> 00:42:39.068
+Human attention moves up a level, to whether the change does what the plan intended and whether the risk is acceptable.
 
 250
-00:46:18.606 --> 00:46:41.984
-Infrastructure A repo with the Claude integration installed, either the managed Code Review (research preview) service enabled by an admin or the claude-code-action running in your own CI, with model calls through A W S Bedrock, Google Vertex or Microsoft Foundry where needed (the CI/CD play covers the deployment options).
+00:42:39.518 --> 00:42:49.928
+Getting started Prerequisites An updated CLAUDE.md file from Stage 3: Build; skills if the review passes enforce written policies, defined subagents.
 
 251
-00:46:42.104 --> 00:46:47.663
-Branch protection policies that require a code owner's approval are also worthwhile.
+00:42:50.048 --> 00:43:11.680
+Infrastructure A repo with the Claude integration installed, either the managed Code Review (research preview) service enabled by an admin or the claude-code-action running in your own CI, with model calls through A W S Bedrock, Google Vertex or Microsoft Foundry where needed (the CI/CD play covers the deployment options).
 
 252
-00:46:48.463 --> 00:46:49.748
-How to execute it.
+00:43:11.800 --> 00:43:16.804
+Branch protection policies that require a code owner's approval are also worthwhile.
 
 253
-00:46:50.198 --> 00:47:11.371
-1. The managed Code Review service is the fastest start. An admin enables it and selects repositories. Run the review in your own CI with the claude-code-action when you need control of the pipeline or want A P I calls routed through your own cloud agreement (the CI/CD play covers that plumbing).
+00:43:17.604 --> 00:43:18.820
+How to execute it.
 
 254
-00:47:11.611 --> 00:47:35.319
-2. The tech lead writes the review policy as REVIEW.md at the repo root, divided into the passes the organization cares about: bugs and logical errors; security and vulnerabilities; compliance against the spec ( spec.md from the requirements play), the implementation plan ( plan.md from the plan mode play) and design principles.
+00:43:19.270 --> 00:43:38.984
+1. The managed Code Review service is the fastest start. An admin enables it and selects repositories. Run the review in your own CI with the claude-code-action when you need control of the pipeline or want A P I calls routed through your own cloud agreement (the CI/CD play covers that plumbing).
 
 255
-00:47:35.439 --> 00:47:41.985
-REVIEW.md also defines what counts as Important as opposed to a Nit, and what to skip.
+00:43:39.224 --> 00:44:01.253
+2. The tech lead writes the review policy as REVIEW.md at the repo root, divided into the passes the organization cares about: bugs and logical errors; security and vulnerabilities; compliance against the spec ( spec.md from the requirements play), the implementation plan ( plan.md from the plan mode play) and design principles.
 
 256
-00:47:42.225 --> 00:48:02.557
-3. The tech lead sets the human threshold. Findings do not approve or block a P R on their own, and branch protection still requires approval from a code owner. A platform engineer who wants to gate merges on findings can read the severity counts that the check run publishes as a machine-readable tally.
+00:44:01.373 --> 00:44:07.068
+REVIEW.md also defines what counts as Important as opposed to a Nit, and what to skip.
 
 257
-00:48:02.797 --> 00:48:23.677
-4. When a reviewer or the author tags @claude on a review comment, Claude addresses the comment and pushes the fix. The P R thread records both the request and the change. This fix loop runs through the claude-code-action. In the managed service, commenting @claude review requests a fresh review instead.
+00:44:07.308 --> 00:44:26.027
+3. The tech lead sets the human threshold. Findings do not approve or block a P R on their own, and branch protection still requires approval from a code owner. A platform engineer who wants to gate merges on findings can read the severity counts that the check run publishes as a machine-readable tally.
 
 258
-00:48:23.797 --> 00:48:44.637
-For P Rs Claude opened, go further and let Claude babysit the P R to merge. Teams wrap the loop in a custom slash command that sweeps the unresolved review comments and failing checks on the P R, addresses them and pushes the fixes, until the P R is green and waiting only on code owner approval.
+00:44:26.267 --> 00:44:45.277
+4. When a reviewer or the author tags @claude on a review comment, Claude addresses the comment and pushes the fix. The P R thread records both the request and the change. This fix loop runs through the claude-code-action. In the managed service, commenting @claude review requests a fresh review instead.
 
 259
-00:48:44.877 --> 00:49:07.019
-5. Review findings feed back into CLAUDE.md. When a review flags a mistake for the second time, the correction goes into CLAUDE.md as part of that review, and because review reads CLAUDE.md the mistake is caught from the next P R onwards. Review also flags when a change has made CLAUDE.md outdated.
+00:44:45.397 --> 00:45:04.987
+For P Rs Claude opened, go further and let Claude babysit the P R to merge. Teams wrap the loop in a custom slash command that sweeps the unresolved review comments and failing checks on the P R, addresses them and pushes the fixes, until the P R is green and waiting only on code owner approval.
 
 260
-00:49:07.259 --> 00:49:21.978
-6. Once a month the tech lead tunes the setup by rating findings so the reviewer improves and by capping Nit volume in REVIEW.md. Generated paths and anything CI already enforces are excluded.
+00:45:05.227 --> 00:45:25.537
+5. Review findings feed back into CLAUDE.md. When a review flags a mistake for the second time, the correction goes into CLAUDE.md as part of that review, and because review reads CLAUDE.md the mistake is caught from the next P R onwards. Review also flags when a change has made CLAUDE.md outdated.
 
 261
-00:49:22.778 --> 00:49:24.783
-What it looks like (REVIEW.md).
+00:45:25.777 --> 00:45:39.386
+6. Once a month the tech lead tunes the setup by rating findings so the reviewer improves and by capping Nit volume in REVIEW.md. Generated paths and anything CI already enforces are excluded.
 
 262
-00:49:25.233 --> 00:49:30.435
-A code block of 16 lines appears here; see the original post for the code.
+00:45:40.186 --> 00:45:42.063
+What it looks like (REVIEW.md).
 
 263
-00:49:31.235 --> 00:49:32.920
-Governance considerations.
+00:45:42.513 --> 00:45:47.008
+A code block of 16 lines appears here; see the original post for the code.
 
 264
-00:49:33.370 --> 00:49:57.629
-Separation of duties is preserved, because the agent that wrote the code has no way to approve it. The review policy in REVIEW.md is applied to all P Rs, and findings, fixes, ratings and approvals are logged in the P R history, so the P R is the audit record. Approval comes from a human through branch protection, informed by the findings.
+00:45:47.808 --> 00:45:49.348
+Governance considerations.
 
 265
-00:49:58.079 --> 00:50:20.169
-How to measure it Leading indicator Time to first review, which should fall to minutes, and the share of review comments resolved without a human touching the branch with data stored directly on Git. Lagging indicator Defects and vulnerabilities caught before merge set against those escaping to production, from the P R history and the incident tracker.
+00:45:49.798 --> 00:46:12.027
+Separation of duties is preserved, because the agent that wrote the code has no way to approve it. The review policy in REVIEW.md is applied to all P Rs, and findings, fixes, ratings and approvals are logged in the P R history, so the P R is the audit record. Approval comes from a human through branch protection, informed by the findings.
 
 266
-00:50:20.969 --> 00:50:22.534
-Hooks as approval gates.
+00:46:12.477 --> 00:46:32.994
+How to measure it Leading indicator Time to first review, which should fall to minutes, and the share of review comments resolved without a human touching the branch with data stored directly on Git. Lagging indicator Defects and vulnerabilities caught before merge set against those escaping to production, from the P R history and the incident tracker.
 
 267
-00:50:22.984 --> 00:50:38.788
-The build phase used hooks as guardrails, allowing or blocking actions with no human involved (Stage 3: Build). A hook can also ask, pausing the action until a specific person approves, which is what release gating needs.
+00:46:33.794 --> 00:46:35.305
+Hooks as approval gates.
 
 268
-00:50:39.238 --> 00:51:01.673
-The play sits in Stage 5: Deploy because the release gate is the clearest case, but hooks are not deploy-specific: they run wherever Claude acts. For example, hooks can block edits to migrations and infra without a change ticket during Stage 3: Build, and stop the agent editing test files during a fix task in Stage 4: Test.
+00:46:35.755 --> 00:46:50.070
+The build phase used hooks as guardrails, allowing or blocking actions with no human involved (Stage 3: Build). A hook can also ask, pausing the action until a specific person approves, which is what release gating needs.
 
 269
-00:51:02.123 --> 00:51:09.502
-Getting started Prerequisites None. Infrastructure A written list of the approvals the change process requires.
+00:46:50.520 --> 00:47:11.635
+The play sits in Stage 5: Deploy because the release gate is the clearest case, but hooks are not deploy-specific: they run wherever Claude acts. For example, hooks can block edits to migrations and infra without a change ticket during Stage 3: Build, and stop the agent editing test files during a fix task in Stage 4: Test.
 
 270
-00:51:10.302 --> 00:51:11.587
-How to execute it.
+00:47:12.085 --> 00:47:18.741
+Getting started Prerequisites None. Infrastructure A written list of the approvals the change process requires.
 
 271
-00:51:12.037 --> 00:51:26.074
-1. Engineering leadership, with change management and compliance, lists the human approval gates that must survive, such as change management sign-off, release authorization, and edits to protected paths.
+00:47:19.541 --> 00:47:20.757
+How to execute it.
 
 272
-00:51:26.314 --> 00:51:35.039
-2. The platform engineer expresses each gate as a hook, a script that runs before Claude acts that can allow, ask, or block.
+00:47:21.207 --> 00:47:34.028
+1. Engineering leadership, with change management and compliance, lists the human approval gates that must survive, such as change management sign-off, release authorization, and edits to protected paths.
 
 273
-00:51:35.279 --> 00:51:49.481
-3. Team hooks go in.claude/settings.json in git, and non-negotiable hooks go in managed settings owned by the platform or IT admin, where individual engineers cannot switch them off.
+00:47:34.268 --> 00:47:42.365
+2. The platform engineer expresses each gate as a hook, a script that runs before Claude acts that can allow, ask, or block.
 
 274
-00:51:49.721 --> 00:51:57.483
-4. A block should explain itself, so when a hook stops an action the reason and the route to approval appear in Claude's output.
+00:47:42.605 --> 00:47:55.619
+3. Team hooks go in.claude/settings.json in git, and non-negotiable hooks go in managed settings owned by the platform or IT admin, where individual engineers cannot switch them off.
 
 275
-00:51:58.283 --> 00:52:01.345
-What it looks like (.claude/settings.json).
+00:47:55.859 --> 00:48:03.263
+4. A block should explain itself, so when a hook stops an action the reason and the route to approval appear in Claude's output.
 
 276
-00:52:01.795 --> 00:52:07.146
-A code block of 26 lines appears here; see the original post for the code.
+00:48:04.063 --> 00:48:06.968
+What it looks like (.claude/settings.json).
 
 277
-00:52:07.946 --> 00:52:12.537
-And the gate itself (.claude/hooks/production-gate.sh).
+00:48:07.418 --> 00:48:11.952
+A code block of 26 lines appears here; see the original post for the code.
 
 278
-00:52:12.987 --> 00:52:18.461
-A code block of 37 lines appears here; see the original post for the code.
+00:48:12.752 --> 00:48:16.912
+And the gate itself (.claude/hooks/production-gate.sh).
 
 279
-00:52:19.261 --> 00:52:20.946
-Governance considerations.
+00:48:17.362 --> 00:48:21.997
+A code block of 37 lines appears here; see the original post for the code.
 
 280
-00:52:21.396 --> 00:52:39.168
-Hooks are the approval gates. The gate condition is enforced every time, for everyone. Allow and block decisions are logged with a timestamp. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
+00:48:22.797 --> 00:48:24.336
+Governance considerations.
 
 281
-00:52:39.618 --> 00:52:40.742
-Worked example
+00:48:24.786 --> 00:48:41.314
+Hooks are the approval gates. The gate condition is enforced every time, for everyone. Allow and block decisions are logged with a timestamp. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
 
 282
-00:52:41.542 --> 00:52:44.620
-Managed settings for a regulated enterprise.
+00:48:41.764 --> 00:48:42.722
+Worked example
 
 283
-00:52:45.070 --> 00:52:53.381
-Deployed by the platform team via MDM or the admin console; engineers cannot edit or override any of it.
+00:48:43.522 --> 00:48:46.213
+Managed settings for a regulated enterprise.
 
 284
-00:52:53.831 --> 00:53:18.312
-{ "permissions": { "deny": [ "Read(.env)", "Read(./secrets/)", "WebFetch", "Bash(curl )", "Bash(wget )" ], "allow": [ "Bash(git )", "Bash(make build)", "Bash(make test)", "Bash(make lint)" ], "disableBypassPermissionsMode": "disable" }, "allowManagedPermissionRulesOnly": true, "sandbox": { "enabled": true, "failIfUnavailable": true, "allowUnsandboxedCommands": false, "network":
+00:48:46.663 --> 00:48:54.471
+Deployed by the platform team via MDM or the admin console; engineers cannot edit or override any of it.
 
 285
-00:53:18.432 --> 00:53:42.828
-{ "allowedDomains": ["git.internal.example.com", "registry.npmjs.org"] }, "credentials": { "files": [ { "path": "about /.ssh", "mode": "deny" }, { "path": "about /.aws/credentials", "mode": "deny" } ], "envVars": [ { "name": "GITHUB TOKEN", "mode": "deny" } ] } }, "allowManagedHooksOnly": true, "disableSideloadFlags": true, "allowManagedMcpServersOnly": true,
+00:48:54.921 --> 00:49:18.506
+{ "permissions": { "deny": [ "Read(.env)", "Read(./secrets/)", "WebFetch", "Bash(curl )", "Bash(wget )" ], "allow": [ "Bash(git )", "Bash(make build)", "Bash(make test)", "Bash(make lint)" ], "disableBypassPermissionsMode": "disable" }, "allowManagedPermissionRulesOnly": true, "sandbox": { "enabled": true, "failIfUnavailable": true, "allowUnsandboxedCommands": false, "network":
 
 286
-00:53:42.948 --> 00:54:03.292
-"strictKnownMarketplaces": [ { "source": "github", "repo": "example-corp/approved-plugins" } ], "requiredMinimumVersion": "2.1.193" }What each line buys, in control terms permissions.deny keeps secrets out of the agent's context and blocks arbitrary network egress through tools;
+00:49:18.626 --> 00:49:42.447
+{ "allowedDomains": ["git.internal.example.com", "registry.npmjs.org"] }, "credentials": { "files": [ { "path": "about /.ssh", "mode": "deny" }, { "path": "about /.aws/credentials", "mode": "deny" } ], "envVars": [ { "name": "GITHUB TOKEN", "mode": "deny" } ] } }, "allowManagedHooksOnly": true, "disableSideloadFlags": true, "allowManagedMcpServersOnly": true,
 
 287
-00:54:03.412 --> 00:54:24.060
-permissions.allow pre-approves the safe inner loop so the deny list doesn't turn into prompt fatigue. disableBypassPermissionsMode plus allowManagedPermissionRulesOnly means no engineer, project file or command-line flag can widen the rules. sandbox closes the gap permissions cannot.
+00:49:42.567 --> 00:50:01.400
+"strictKnownMarketplaces": [ { "source": "github", "repo": "example-corp/approved-plugins" } ], "requiredMinimumVersion": "2.1.193" }What each line buys, in control terms permissions.deny keeps secrets out of the agent's context and blocks arbitrary network egress through tools;
 
 288
-00:54:24.180 --> 00:54:43.803
-A tool-level deny on WebFetch doesn't stop a shell command reaching the network; the OS-level domain allowlist blocks egress outright. failIfUnavailable and allowUnsandboxedCommands make the sandbox a gate: Claude Code refuses to start when the sandbox cannot initialize,
+00:50:01.520 --> 00:50:20.768
+permissions.allow pre-approves the safe inner loop so the deny list doesn't turn into prompt fatigue. disableBypassPermissionsMode plus allowManagedPermissionRulesOnly means no engineer, project file or command-line flag can widen the rules. sandbox closes the gap permissions cannot.
 
 289
-00:54:43.923 --> 00:55:04.290
-and a command that fails inside the sandbox cannot be retried outside it. credentials closes the gap the deny rules leave open. permissions.deny governs Claude's file tools, but a sandboxed shell command could still read about /.ssh or about /.aws/credentials by default;
+00:50:20.888 --> 00:50:38.976
+A tool-level deny on WebFetch doesn't stop a shell command reaching the network; the OS-level domain allowlist blocks egress outright. failIfUnavailable and allowUnsandboxedCommands make the sandbox a gate: Claude Code refuses to start when the sandbox cannot initialize,
 
 290
-00:55:04.410 --> 00:55:26.624
-this block denies those reads and strips the named secrets from the environment of every sandboxed command. allowManagedHooksOnly means the approval gates from this play are the only hooks that run; nothing local can add to or replace them. disableSideloadFlags and strictKnownMarketplaces mean every skill, agent,
+00:50:39.096 --> 00:50:58.082
+and a command that fails inside the sandbox cannot be retried outside it. credentials closes the gap the deny rules leave open. permissions.deny governs Claude's file tools, but a sandboxed shell command could still read about /.ssh or about /.aws/credentials by default;
 
 291
-00:55:26.744 --> 00:55:49.256
-hook and M C P server on an engineer's machine arrived through the organization's approved plugin marketplace, never from a home directory. allowManagedMcpServersOnly makes the agent's tool surface an allowlist owned by the platform team. requiredMinimumVersion refuses to start on a version below the approved floor,
+00:50:58.202 --> 00:51:18.778
+this block denies those reads and strips the named secrets from the environment of every sandboxed command. allowManagedHooksOnly means the approval gates from this play are the only hooks that run; nothing local can add to or replace them. disableSideloadFlags and strictKnownMarketplaces mean every skill, agent,
 
 292
-00:55:49.376 --> 00:56:00.016
-so the controls are enforced by a build the organization has actually assessed.Consider the above a starting point to tailor, rather than a recommendation to copy.
+00:51:18.898 --> 00:51:39.681
+hook and M C P server on an engineer's machine arrived through the organization's approved plugin marketplace, never from a home directory. allowManagedMcpServersOnly makes the agent's tool surface an allowlist owned by the platform team. requiredMinimumVersion refuses to start on a version below the approved floor,
 
 293
-00:56:00.136 --> 00:56:16.447
-Every deny trades against capability, and the right balance depends on the data classification of the repo. The settings reference documents every key, including the managed-only ones: code.claude.com/docs/en/settings
+00:51:39.801 --> 00:51:49.595
+so the controls are enforced by a build the organization has actually assessed.Consider the above a starting point to tailor, rather than a recommendation to copy.
 
 294
-00:56:16.897 --> 00:56:39.461
-How to measure it (for the hooks themselves) Leading indicator Time spent waiting on each approval gate. Every hook decision is written to the OpenTelemetry export with a timestamp and an allow or block verdict, so the wait is visible per gate. Lagging indicator Gate violations reaching production before and after hooks from the incident tracker.
+00:51:49.715 --> 00:52:04.942
+Every deny trades against capability, and the right balance depends on the data classification of the repo. The settings reference documents every key, including the managed-only ones: code.claude.com/docs/en/settings
 
 295
-00:56:40.261 --> 00:56:43.156
-CI/CD integration and deployment.
+00:52:05.392 --> 00:52:26.775
+How to measure it (for the hooks themselves) Leading indicator Time spent waiting on each approval gate. Every hook decision is written to the OpenTelemetry export with a timestamp and an allow or block verdict, so the wait is visible per gate. Lagging indicator Gate violations reaching production before and after hooks from the incident tracker.
 
 296
-00:56:43.606 --> 00:57:01.007
-Run Claude Code non-interactively inside the CI/CD pipeline, sandbox the execution so long-running agents run safely, expose deployment through M C P integrations, and rehearse the rollback paths before the agent ever needs them.
+00:52:27.575 --> 00:52:30.239
+CI/CD integration and deployment.
 
 297
-00:57:01.457 --> 00:57:15.261
-TraditionalPipelines run deterministic scripts, and anything that needs judgment waits for a human. For example, triaging the flaky test, writing the changelog, or working out why the build broke.
+00:52:30.689 --> 00:52:46.838
+Run Claude Code non-interactively inside the CI/CD pipeline, sandbox the execution so long-running agents run safely, expose deployment through M C P integrations, and rehearse the rollback paths before the agent ever needs them.
 
 298
-00:57:15.381 --> 00:57:28.333
-Deployment and rollback are runbooks a human follows under pressure.A I-nativeClaude runs non-interactively inside the pipeline for the judgment steps, in a sandbox with scoped credentials.
+00:52:47.288 --> 00:52:59.557
+TraditionalPipelines run deterministic scripts, and anything that needs judgment waits for a human. For example, triaging the flaky test, writing the changelog, or working out why the build broke.
 
 299
-00:57:28.453 --> 00:57:42.172
-Deployment tooling is exposed to the agent through M C P, so the workflow that wrote and tested the change can also ship it and roll it back, inside gates the organization defines per environment.
+00:52:59.677 --> 00:53:11.752
+Deployment and rollback are runbooks a human follows under pressure.A I-nativeClaude runs non-interactively inside the pipeline for the judgment steps, in a sandbox with scoped credentials.
 
 300
-00:57:42.622 --> 00:57:53.758
-Getting started Prerequisites Claude in the P R review loop and hooks as approval gates, because the gates must exist before automation accelerates anything through them.
+00:53:11.872 --> 00:53:24.602
+Deployment tooling is exposed to the agent through M C P, so the workflow that wrote and tested the change can also ship it and roll it back, inside gates the organization defines per environment.
 
 301
-00:57:53.878 --> 00:58:18.784
-Infrastructure A CI platform with the claude-code-action installed, or any runner that can call claude -p; model access through the A P I, or Bedrock, Foundry, or Vertex where traffic must stay on the organization's cloud agreement; M C P servers for the deployment targets; a sandbox profile for agent jobs with no standing production credentials.
+00:53:25.052 --> 00:53:35.382
+Getting started Prerequisites Claude in the P R review loop and hooks as approval gates, because the gates must exist before automation accelerates anything through them.
 
 302
-00:58:19.584 --> 00:58:20.869
-How to execute it.
+00:53:35.502 --> 00:53:58.476
+Infrastructure A CI platform with the claude-code-action installed, or any runner that can call claude -p; model access through the A P I, or Bedrock, Foundry, or Vertex where traffic must stay on the organization's cloud agreement; M C P servers for the deployment targets; a sandbox profile for agent jobs with no standing production credentials.
 
 303
-00:58:21.319 --> 00:58:33.749
-1. The platform engineer starts with read-only judgment steps. Use claude -p in a pipeline job to triage a failed build, summarize a flaky test, or draft the changelog.
-
-304
-00:58:33.989 --> 00:58:52.612
-2. Add write steps behind the existing gates for jobs like fixing lint, updating generated docs, or addressing review comments via the @claude mentions. Anything the agent writes arrives as a P R through branch protection, and the agent has no route to push to main.
-
-305
-00:58:52.852 --> 00:59:04.594
-3. Execution is sandboxed. Agent jobs run in containers under a network policy with short-lived scoped tokens, and hold no production credentials by default.
-
-306
-00:59:04.834 --> 00:59:19.342
-4. Expose deployment through M C P. Deploy, status, and rollback become tools, scoped per environment, so the agent's deployment powers are an allowlist rather than a shell script with credentials.
-
-307
-00:59:19.582 --> 00:59:36.470
-5. Tier the autonomy by environment. In development, the agent deploys freely. In production, the agent prepares the release and the release manager authorizes it, and a hook enforces the production gate. Staging sits somewhere in the middle.
-
-308
-00:59:36.710 --> 00:59:56.080
-6. Rollback should be the most rehearsed path in the pipeline, a single command that the agent can run and that is exercised regularly in staging. The closing the loop play (Stage 6: Maintenance) calls this rollback when a control band is breached, so it has to be proven in advance.
-
-309
-00:59:56.880 --> 00:59:58.835
-What it looks like (pipeline step).
-
-310
-00:59:59.285 --> 01:00:04.311
-A code block of 7 lines appears here; see the original post for the code.
-
-311
-01:00:05.111 --> 01:00:06.795
-Governance considerations.
-
-312
-01:00:07.245 --> 01:00:15.806
-The governing principle is that the agent may act up to the production gate and cannot pass it. The controls below enforce this principle.
-
-313
-01:00:16.256 --> 01:00:22.554
-Branch protection turns anything the agent writes into a P R, with no direct path to main.
-
-314
-01:00:22.794 --> 01:00:38.877
-The production deploy hook blocks the release until a named release manager authorizes it. Each non-interactive run acts under the agent's own identity, so the pipeline log separates what the agent did from what the engineer who triggered it did.
-
-315
-01:00:39.117 --> 01:00:44.390
-Per-environment permission tiers set how much the agent may do on the way to the gate.
-
-316
-01:00:44.840 --> 01:01:03.252
-How to measure it Leading indicator The share of pipeline failures triaged without paging a human taken from the CI/CD pipeline logs. Lagging indicator DevOps Research and Assessment (DORA) measures, which the CI system and deployment tooling already emit.
-
-317
-01:01:03.702 --> 01:01:04.702
-06
-
-318
-01:01:05.502 --> 01:01:06.440
-Maintain.
-
-319
-01:01:06.890 --> 01:01:16.607
-The loop closes. A trigger invokes Claude with no person in the invocation path, and what it finds re-enters the pipeline as intent.md.
-
-320
-01:01:17.407 --> 01:01:19.438
-Maintenance and closing the loop.
-
-321
-01:01:19.888 --> 01:01:35.975
-So far, we've discussed how to add Claude to each stage of the SDLC process, with each stage requiring a human to launch the initial steps. This stage, however, shifts the focus to autonomous running of Claude to close the loop.
-
-322
-01:01:36.425 --> 01:01:50.109
-For example, a continuously running monitoring agent could, off the back of a bug ticket being raised, create an intent.md, and flow through the requirements, plan, build test and review phases.
-
-323
-01:01:50.229 --> 01:02:07.024
-Stage 6: Maintenance runs headless, with an independent confidence gate between stages, a deterministic check or an adversarial reviewing agent, deciding whether the previous stage's output continues or is escalated to a human.
-
-324
-01:02:07.474 --> 01:02:16.105
-TraditionalMaintenance is a reactive phase. All tickets or incidents wait on a person to act on it and restart the process.
-
-325
-01:02:16.225 --> 01:02:38.536
-An alert fires at 3 a.m. and can be missed, a ticket can sit in the backlog until someone picks it up, and post-mortem actions may not reach the codebase at all if another fire starts first.A I-nativeA trigger such as a control-band breach, a ticket, a channel message or a schedule invokes Claude without a person in the path.
-
-326
-01:02:38.656 --> 01:02:53.240
-Claude diagnoses, acts only through gated routes, and writes what it finds as intent.md, which then goes through the stages described above. People triage and review that work, and no longer have to start it.
-
-327
-01:02:54.040 --> 01:02:55.210
-Closing the loop.
-
-328
-01:02:55.660 --> 01:03:14.585
-A deterministic script watches production and invokes Claude when a control band is breached. Monitoring of a breach is a helpful example of the pattern for the loop running autonomously, while the Claude Tag (public beta) section at the end of the stage covers work arriving through different channels.
-
-329
-01:03:15.035 --> 01:03:32.120
-Getting started Prerequisites Intent.md which gives the loop a structured output to restart. Claude accelerated P R reviews, hooks as an action boundary, and a rollback path for CI/CD (which the highest autonomy tier invokes).
-
-330
-01:03:32.240 --> 01:03:51.630
-Infrastructure A metrics store the detection script can query (Prometheus, the CI system's A P I, or equivalents), read access to the repository, a way to run Claude Code non-interactively in CI, or the Agent S D K for a service that receives webhooks.
-
-331
-01:03:52.430 --> 01:03:53.715
+00:53:59.276 --> 00:54:00.492
 How to execute it.
 
-332
-01:03:54.165 --> 01:04:07.162
-1. The service owner or platform engineer picks one metric with a stable rolling baseline, such as CI test failure rate, post-deploy 5xx rate, or P R cycle time.
+304
+00:54:00.942 --> 00:54:12.181
+1. The platform engineer starts with read-only judgment steps. Use claude -p in a pipeline job to triage a failed build, summarize a flaky test, or draft the changelog.
 
-333
-01:04:07.402 --> 01:04:28.451
-2. They write the detection script, typically mean and standard deviation over a rolling window with rules (Western Electric or similar) so the bands catch slow drift as well as spikes. The script is version controlled and unit tested, and detection stays entirely deterministic, with no model involved.
+305
+00:54:12.421 --> 00:54:29.209
+2. Add write steps behind the existing gates for jobs like fixing lint, updating generated docs, or addressing review comments via the @claude mentions. Anything the agent writes arrives as a P R through branch protection, and the agent has no route to push to main.
 
-334
-01:04:28.691 --> 01:04:49.971
-3. Response tiers are defined in version-controlled config ( bands.yaml below). At 1σ the script only logs, at 2σ it invokes Claude read-only to diagnose, and at 3σ Claude may act, though only by opening a P R into the review gate or triggering a pre-approved runbook.
+306
+00:54:29.449 --> 00:54:40.405
+3. Execution is sandboxed. Agent jobs run in containers under a network policy with short-lived scoped tokens, and hold no production credentials by default.
 
-335
-01:04:50.211 --> 01:05:15.747
-4. The trigger layer can be a scheduled workflow in GitHub or GitLab, a webhook from the existing monitoring stack, or a Cron Job inside the network. Claude runs stateless, either as a non-interactive step on a CI runner or as an Agent S D K service in a sandboxed container, and the CI/CD play covers the deployment and model-access options.
+307
+00:54:40.645 --> 00:54:54.043
+4. Expose deployment through M C P. Deploy, status, and rollback become tools, scoped per environment, so the agent's deployment powers are an allowlist rather than a shell script with credentials.
 
-336
-01:05:15.867 --> 01:05:22.129
-Because the run is stateless and non-interactive, a loop can begin and end without anyone starting it.
+308
+00:54:54.283 --> 00:55:09.757
+5. Tier the autonomy by environment. In development, the agent deploys freely. In production, the agent prepares the release and the release manager authorizes it, and a hook enforces the production gate. Staging sits somewhere in the middle.
 
-337
-01:05:22.369 --> 01:05:40.449
-5. The agent writes its diagnosis as intent.md in the Stage 1: Plan format, covering the anomaly and its evidence, a proposed outcome, the affected systems and any open questions. From there the finding goes through the pipeline like anything else.
+309
+00:55:09.997 --> 00:55:27.981
+6. Rollback should be the most rehearsed path in the pipeline, a single command that the agent can run and that is exercised regularly in staging. The closing the loop play (Stage 6: Maintenance) calls this rollback when a control band is breached, so it has to be proven in advance.
 
-338
-01:05:40.689 --> 01:05:55.488
-6. The service owner or on-call engineer triages the queue, routing product-facing findings to the product owner. Fix now, schedule, or dismiss. Dismissals tune the bands and help to reduce noise.
+310
+00:55:28.781 --> 00:55:30.619
+What it looks like (pipeline step).
 
-339
-01:05:55.728 --> 01:06:05.464
-7. When a fix ships, add an eval for the incident (the continuous evals play) to ensure that such issues are protected against going forwards.
+311
+00:55:31.069 --> 00:55:35.494
+A code block of 7 lines appears here; see the original post for the code.
 
-340
-01:06:06.264 --> 01:06:11.712
-What it looks like (for example, a bands.yaml monitoring CI test failure rate).
-
-341
-01:06:12.162 --> 01:06:17.486
-A code block of 31 lines appears here; see the original post for the code.
-
-342
-01:06:18.286 --> 01:06:19.971
+312
+00:55:36.294 --> 00:55:37.833
 Governance considerations.
 
+313
+00:55:38.283 --> 00:55:46.197
+The governing principle is that the agent may act up to the production gate and cannot pass it. The controls below enforce this principle.
+
+314
+00:55:46.647 --> 00:55:52.338
+Branch protection turns anything the agent writes into a P R, with no direct path to main.
+
+315
+00:55:52.578 --> 00:56:07.489
+The production deploy hook blocks the release until a named release manager authorizes it. Each non-interactive run acts under the agent's own identity, so the pipeline log separates what the agent did from what the engineer who triggered it did.
+
+316
+00:56:07.729 --> 00:56:12.442
+Per-environment permission tiers set how much the agent may do on the way to the gate.
+
+317
+00:56:12.892 --> 00:56:29.553
+How to measure it Leading indicator The share of pipeline failures triaged without paging a human taken from the CI/CD pipeline logs. Lagging indicator DevOps Research and Assessment (DORA) measures, which the CI system and deployment tooling already emit.
+
+318
+00:56:30.003 --> 00:56:30.940
+06
+
+319
+00:56:31.740 --> 00:56:32.555
+Maintain.
+
+320
+00:56:33.005 --> 00:56:41.921
+The loop closes. A trigger invokes Claude with no person in the invocation path, and what it finds re-enters the pipeline as intent.md.
+
+321
+00:56:42.721 --> 00:56:44.543
+Maintenance and closing the loop.
+
+322
+00:56:44.993 --> 00:56:59.677
+So far, we've discussed how to add Claude to each stage of the SDLC process, with each stage requiring a human to launch the initial steps. This stage, however, shifts the focus to autonomous running of Claude to close the loop.
+
+323
+00:57:00.127 --> 00:57:12.607
+For example, a continuously running monitoring agent could, off the back of a bug ticket being raised, create an intent.md, and flow through the requirements, plan, build test and review phases.
+
+324
+00:57:12.727 --> 00:57:28.058
+Stage 6: Maintenance runs headless, with an independent confidence gate between stages, a deterministic check or an adversarial reviewing agent, deciding whether the previous stage's output continues or is escalated to a human.
+
+325
+00:57:28.508 --> 00:57:36.102
+TraditionalMaintenance is a reactive phase. All tickets or incidents wait on a person to act on it and restart the process.
+
+326
+00:57:36.222 --> 00:57:56.593
+An alert fires at 3 a.m. and can be missed, a ticket can sit in the backlog until someone picks it up, and post-mortem actions may not reach the codebase at all if another fire starts first.A I-nativeA trigger such as a control-band breach, a ticket, a channel message or a schedule invokes Claude without a person in the path.
+
+327
+00:57:56.713 --> 00:58:10.262
+Claude diagnoses, acts only through gated routes, and writes what it finds as intent.md, which then goes through the stages described above. People triage and review that work, and no longer have to start it.
+
+328
+00:58:11.062 --> 00:58:12.027
+Closing the loop.
+
+329
+00:58:12.477 --> 00:58:30.120
+A deterministic script watches production and invokes Claude when a control band is breached. Monitoring of a breach is a helpful example of the pattern for the loop running autonomously, while the Claude Tag (public beta) section at the end of the stage covers work arriving through different channels.
+
+330
+00:58:30.570 --> 00:58:46.335
+Getting started Prerequisites Intent.md which gives the loop a structured output to restart. Claude accelerated P R reviews, hooks as an action boundary, and a rollback path for CI/CD (which the highest autonomy tier invokes).
+
+331
+00:58:46.455 --> 00:59:04.588
+Infrastructure A metrics store the detection script can query (Prometheus, the CI system's A P I, or equivalents), read access to the repository, a way to run Claude Code non-interactively in CI, or the Agent S D K for a service that receives webhooks.
+
+332
+00:59:05.388 --> 00:59:06.604
+How to execute it.
+
+333
+00:59:07.054 --> 00:59:18.999
+1. The service owner or platform engineer picks one metric with a stable rolling baseline, such as CI test failure rate, post-deploy 5xx rate, or P R cycle time.
+
+334
+00:59:19.239 --> 00:59:38.686
+2. They write the detection script, typically mean and standard deviation over a rolling window with rules (Western Electric or similar) so the bands catch slow drift as well as spikes. The script is version controlled and unit tested, and detection stays entirely deterministic, with no model involved.
+
+335
+00:59:38.926 --> 00:59:58.293
+3. Response tiers are defined in version-controlled config ( bands.yaml below). At 1σ the script only logs, at 2σ it invokes Claude read-only to diagnose, and at 3σ Claude may act, though only by opening a P R into the review gate or triggering a pre-approved runbook.
+
+336
+00:59:58.533 --> 01:00:21.979
+4. The trigger layer can be a scheduled workflow in GitHub or GitLab, a webhook from the existing monitoring stack, or a Cron Job inside the network. Claude runs stateless, either as a non-interactive step on a CI runner or as an Agent S D K service in a sandboxed container, and the CI/CD play covers the deployment and model-access options.
+
+337
+01:00:22.099 --> 01:00:27.811
+Because the run is stateless and non-interactive, a loop can begin and end without anyone starting it.
+
+338
+01:00:28.051 --> 01:00:44.812
+5. The agent writes its diagnosis as intent.md in the Stage 1: Plan format, covering the anomaly and its evidence, a proposed outcome, the affected systems and any open questions. From there the finding goes through the pipeline like anything else.
+
+339
+01:00:45.052 --> 01:00:58.449
+6. The service owner or on-call engineer triages the queue, routing product-facing findings to the product owner. Fix now, schedule, or dismiss. Dismissals tune the bands and help to reduce noise.
+
+340
+01:00:58.689 --> 01:01:07.575
+7. When a fix ships, add an eval for the incident (the continuous evals play) to ensure that such issues are protected against going forwards.
+
+341
+01:01:08.375 --> 01:01:13.398
+What it looks like (for example, a bands.yaml monitoring CI test failure rate).
+
+342
+01:01:13.848 --> 01:01:18.495
+A code block of 31 lines appears here; see the original post for the code.
+
 343
-01:06:20.421 --> 01:06:45.293
-The tier boundaries are enforced from version-controlled config, with permissions and managed settings denying production access. Invocations, findings and triage decisions are logged with a timestamp. A service owner triages and approves findings, resulting changes go through the normal P R review gate, and the runbooks the agent may trigger were approved in advance.
+01:01:19.295 --> 01:01:20.834
+Governance considerations.
 
 344
-01:06:45.743 --> 01:07:01.306
-How to measure it Leading indicator Time from band breach to an intent.md in the triage queue, against the old time from incident to post-mortem action. The detection script's log has the breach timestamp and tier of incident.
+01:01:21.284 --> 01:01:44.410
+The tier boundaries are enforced from version-controlled config, with permissions and managed settings denying production access. Invocations, findings and triage decisions are logged with a timestamp. A service owner triages and approves findings, resulting changes go through the normal P R review gate, and the runbooks the agent may trigger were approved in advance.
 
 345
-01:07:01.426 --> 01:07:15.953
-Lagging indicator The share of findings that become merged fixes (triage queue against actual P R history), and repeat incidents of the same class, which should fall as the fixes add cases to the eval suite.
+01:01:44.860 --> 01:01:59.234
+How to measure it Leading indicator Time from band breach to an intent.md in the triage queue, against the old time from incident to post-mortem action. The detection script's log has the breach timestamp and tier of incident.
 
 346
-01:07:16.753 --> 01:07:17.673
-Examples.
+01:01:59.354 --> 01:02:12.487
+Lagging indicator The share of findings that become merged fixes (triage queue against actual P R history), and repeat incidents of the same class, which should fall as the fixes add cases to the eval suite.
 
 347
-01:07:18.123 --> 01:07:28.473
-When the CI test failure rate breaches 3σ, the agent quarantines the flaky test or opens a revert P R, and the review gate decides.
+01:02:13.287 --> 01:02:14.112
+Examples.
 
 348
-01:07:28.713 --> 01:07:37.824
-When the post-deploy 5xx rate breaches 3σ with a deployment in the window, the agent triggers the existing rollback pipeline.
+01:02:14.562 --> 01:02:23.877
+When the CI test failure rate breaches 3σ, the agent quarantines the flaky test or opens a revert P R, and the review gate decides.
 
 349
-01:07:38.064 --> 01:07:49.104
-When P R cycle time trips a drift rule, the agent writes a report for engineering leadership, which shows the harness works for process metrics as well as production ones.
+01:02:24.117 --> 01:02:32.554
+When the post-deploy 5xx rate breaches 3σ with a deployment in the window, the agent triggers the existing rollback pipeline.
 
 350
-01:07:49.554 --> 01:07:56.698
-Detection stays deterministic. Claude is invoked once a band is breached, and the tier sets what it may do.
+01:02:32.794 --> 01:02:42.819
+When P R cycle time trips a drift rule, the agent writes a report for engineering leadership, which shows the harness works for process metrics as well as production ones.
 
 351
-01:07:57.498 --> 01:07:59.388
-Claude on call with Claude Tag.
+01:02:43.269 --> 01:02:49.783
+Detection stays deterministic. Claude is invoked once a band is breached, and the tier sets what it may do.
 
 352
-01:07:59.838 --> 01:08:15.609
-Incidents can also arrive via other means such as workplace communication apps, like Slack or Teams. Incidents can look like a 10pm Slack message for an urgent fix on an incident channel and can now be actioned immediately.
+01:02:50.583 --> 01:02:52.121
+Claude on call with Claude Tag.
 
 353
-01:08:15.729 --> 01:08:31.531
-Claude Tag (public beta currently available in Slack) makes Claude a member of those channels under its own identity, so each new incident gets a first responder and the response itself becomes part of the loop and memory for future incidents.
+01:02:52.571 --> 01:03:07.447
+Incidents can also arrive via other means such as workplace communication apps, like Slack or Teams. Incidents can look like a 10pm Slack message for an urgent fix on an incident channel and can now be actioned immediately.
 
 354
-01:08:31.981 --> 01:08:50.140
-The conversation and institutional knowledge stay in the channel, with anyone in the channel able to guide and action the response. Any team member can test hypotheses, explore new options and investigate in real time with the channel history adding to the auditability.
+01:03:07.567 --> 01:03:22.392
+Claude Tag (public beta currently available in Slack) makes Claude a member of those channels under its own identity, so each new incident gets a first responder and the response itself becomes part of the loop and memory for future incidents.
 
 355
-01:08:50.260 --> 01:09:03.774
-Through access to M C P Claude verifies the metric is back at baseline and confirms it in the thread, writes the post-mortem to a version-controlled lessons file that future investigations can read.
+01:03:22.842 --> 01:03:39.490
+The conversation and institutional knowledge stay in the channel, with anyone in the channel able to guide and action the response. Any team member can test hypotheses, explore new options and investigate in real time with the channel history adding to the auditability.
 
 356
-01:09:04.224 --> 01:09:27.555
-Incidents are not the only work Claude Tag picks up. Tagged on a ticket over M C P or asked in the channel, Claude triages the work the same way. A small, well-bounded fix arrives as a P R through the review gate, and anything larger is written up as intent.md for Stage 1: Plan, at which point the loop starts feeding itself.
+01:03:39.610 --> 01:03:52.280
+Through access to M C P Claude verifies the metric is back at baseline and confirms it in the thread, writes the post-mortem to a version-controlled lessons file that future investigations can read.
 
 357
-01:09:28.005 --> 01:09:37.276
-Figure 3: The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.
+01:03:52.730 --> 01:04:13.886
+Incidents are not the only work Claude Tag picks up. Tagged on a ticket over M C P or asked in the channel, Claude triages the work the same way. A small, well-bounded fix arrives as a P R through the review gate, and anything larger is written up as intent.md for Stage 1: Plan, at which point the loop starts feeding itself.
 
 358
-01:09:38.076 --> 01:09:39.246
-Closing thoughts.
+01:04:14.336 --> 01:04:22.704
+Figure 3: The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.
 
 359
-01:09:39.696 --> 01:09:50.715
-Models and harnesses have become more advanced, allowing organizations to not just transform how they produce code, but the entire software development lifecycle.
+01:04:23.504 --> 01:04:24.560
+Closing thoughts.
 
 360
-01:09:51.165 --> 01:10:01.550
-This transformation keeps human judgement central to the process and considers the governance and regulation requirements of large enterprise organizations.
+01:04:25.010 --> 01:04:35.258
+Models and harnesses have become more advanced, allowing organizations to not just transform how they produce code, but the entire software development lifecycle.
 
 361
-01:10:02.000 --> 01:10:14.045
-This guide consolidated many of the real best practices our Applied A I team executes on a daily basis for our customers, and we hope you found it a practical and actionable resource.
+01:04:35.708 --> 01:04:45.516
+This transformation keeps human judgement central to the process and considers the governance and regulation requirements of large enterprise organizations.
 
 362
-01:10:14.495 --> 01:10:17.709
-The loop keeps running. Human judgement stays above it.
+01:04:45.966 --> 01:04:57.316
+This guide consolidated many of the real best practices our Applied A I team executes on a daily basis for our customers, and we hope you found it a practical and actionable resource.
 
 363
-01:10:18.509 --> 01:10:20.443
-Resources and acknowledgments.
+01:04:57.766 --> 01:05:00.716
+The loop keeps running. Human judgement stays above it.
 
 364
-01:10:20.893 --> 01:10:28.895
-The documentation below is what a platform team needs to set those controls up, in roughly the order you would roll them out.
+01:05:01.516 --> 01:05:03.374
+Resources and acknowledgments.
 
 365
-01:10:29.345 --> 01:10:59.589
-Set up Claude Code for your organization, the admin decision map; start herecode.claude.com/docs/en/admin-setup Settings reference and precedence, including every managed-only keycode.claude.com/docs/en/settings Server-managed settings from the Claude admin consolecode.claude.com/docs/en/server-managed-settings Permissionscode.claude.com/docs/en/permissions Sandboxing,
+01:05:03.824 --> 01:05:10.989
+The documentation below is what a platform team needs to set those controls up, in roughly the order you would roll them out.
 
 366
-01:10:59.709 --> 01:11:31.307
-OS-level filesystem and network isolationcode.claude.com/docs/en/sandboxing Hooks, guidecode.claude.com/docs/en/hooks-guide Hooks, referencecode.claude.com/docs/en/hooks Skillscode.claude.com/docs/en/skills Plugins and private marketplaces, how skills and hooks are distributed organization-widecode.claude.com/docs/en/plugin-marketplaces Managed M C P,
+01:05:11.439 --> 01:05:38.948
+Set up Claude Code for your organization, the admin decision map; start herecode.claude.com/docs/en/admin-setup Settings reference and precedence, including every managed-only keycode.claude.com/docs/en/settings Server-managed settings from the Claude admin consolecode.claude.com/docs/en/server-managed-settings Permissionscode.claude.com/docs/en/permissions Sandboxing,
 
 367
-01:11:31.427 --> 01:11:42.733
-central control of the agent's tool surfacecode.claude.com/docs/en/managed-mcp Enterprise deployment overview, Bedrock, Vertex,
+01:05:39.068 --> 01:06:08.136
+OS-level filesystem and network isolationcode.claude.com/docs/en/sandboxing Hooks, guidecode.claude.com/docs/en/hooks-guide Hooks, referencecode.claude.com/docs/en/hooks Skillscode.claude.com/docs/en/skills Plugins and private marketplaces, how skills and hooks are distributed organization-widecode.claude.com/docs/en/plugin-marketplaces Managed M C P,
 
 368
-01:11:42.853 --> 01:12:10.396
-Foundrycode.claude.com/docs/en/third-party-integrations Enterprise network configurationcode.claude.com/docs/en/network-config Monitoring (OpenTelemetry)code.claude.com/docs/en/monitoring-usage The analytics dashboardcode.claude.com/docs/en/analytics Compliance A P I, Enterprise activity feed,
+01:06:08.256 --> 01:06:18.684
+central control of the agent's tool surfacecode.claude.com/docs/en/managed-mcp Enterprise deployment overview, Bedrock, Vertex,
 
 369
-01:12:10.516 --> 01:12:24.431
-chat retrieval and deletionplatform.claude.com/docs/en/manage-claude/compliance-api Security modelcode.claude.com/docs/en/security
+01:06:18.804 --> 01:06:43.779
+Foundrycode.claude.com/docs/en/third-party-integrations Enterprise network configurationcode.claude.com/docs/en/network-config Monitoring (OpenTelemetry)code.claude.com/docs/en/monitoring-usage The analytics dashboardcode.claude.com/docs/en/analytics Compliance A P I, Enterprise activity feed,
 
 370
-01:12:24.881 --> 01:12:35.445
-Thanks to Jim Blackhurst, Will Steuk, and Jamal Arif for their contributions to this guide, which was inspired by and built on much of their previous work.
+01:06:43.899 --> 01:06:56.359
+chat retrieval and deletionplatform.claude.com/docs/en/manage-claude/compliance-api Security modelcode.claude.com/docs/en/security
 
 371
-01:12:36.445 --> 01:12:54.497
+01:06:56.809 --> 01:07:06.001
+Thanks to Jim Blackhurst, Will Steuk, and Jamal Arif for their contributions to this guide, which was inspired by and built on much of their previous work.
+
+372
+01:07:07.001 --> 01:07:23.524
 That was The A I-Native SDLC playbook, from Claude Blog, published August 21, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

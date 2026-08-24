@@ -1,101 +1,105 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:06.087
-Maximizing the value of your Claude Code sessions.
+00:00:01.300 --> 00:00:07.721
+This is Anthropic, Read Aloud. Today: Maximizing the value of your Claude Code sessions.
 
 2
-00:00:06.537 --> 00:00:12.342
-Practical tips for how to run efficient sessions that get the most value from every token.
+00:00:09.021 --> 00:00:11.801
+Maximizing the value of your Claude Code sessions.
 
 3
-00:00:12.792 --> 00:00:17.108
-From Claude Blog, published August 14, 2026.
+00:00:12.251 --> 00:00:17.841
+Practical tips for how to run efficient sessions that get the most value from every token.
 
 4
-00:00:18.108 --> 00:00:19.165
-TL;DR.
+00:00:18.291 --> 00:00:22.344
+From Claude Blog, published August 14, 2026.
 
 5
-00:00:19.615 --> 00:00:28.874
-Run /clear between tasks. This prevents prior irrelevant context from being sent back to the model, which can reduce token usage.
+00:00:23.344 --> 00:00:24.290
+TL;DR.
 
 6
-00:00:29.114 --> 00:00:38.727
-Set your model and effort level before you start. Changing either one mid-conversation can bust your prompt cache, which can increase token cost.
+00:00:24.740 --> 00:00:33.166
+Run /clear between tasks. This prevents prior irrelevant context from being sent back to the model, which can reduce token usage.
 
 7
-00:00:38.967 --> 00:00:49.236
-@-mention files instead of naming them. The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it.
+00:00:33.406 --> 00:00:42.131
+Set your model and effort level before you start. Changing either one mid-conversation can bust your prompt cache, which can increase token cost.
 
 8
-00:00:49.476 --> 00:01:01.125
-Add quiet flags to noisy commands, or run them in a subagent. Command output is added to the conversation just like a file, and stays there for the rest of the session.
+00:00:42.371 --> 00:00:51.697
+@-mention files instead of naming them. The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it.
 
 9
-00:01:01.365 --> 00:01:12.638
-Run /context once in a fresh session. It shows what's loaded ( CLAUDE.md, M C P tool definitions), so you can cut out anything unnecessary.
+00:00:51.937 --> 00:01:02.556
+Add quiet flags to noisy commands, or run them in a subagent. Command output is added to the conversation just like a file, and stays there for the rest of the session.
 
 10
-00:01:12.878 --> 00:01:23.358
-/compact before you take a break from your keyboard. The prompt cache expires after an hour, and summarizing a conversation is much cheaper while it's still cached.
+00:01:02.796 --> 00:01:13.072
+Run /context once in a fresh session. It shows what's loaded ( CLAUDE.md, M C P tool definitions), so you can cut out anything unnecessary.
 
 11
-00:01:24.158 --> 00:01:25.668
-Maximizing value.
+00:01:13.312 --> 00:01:23.019
+/compact before you take a break from your keyboard. The prompt cache expires after an hour, and summarizing a conversation is much cheaper while it's still cached.
 
 12
-00:01:26.118 --> 00:01:40.626
-Until pretty recently, the tools you wrote code with were a flat fee (or free). Your editor cost the same whether you fixed one test or fifty that afternoon, so an individual task didn't really have a price of its own.
+00:01:23.819 --> 00:01:25.169
+Maximizing value.
 
 13
-00:01:41.076 --> 00:01:50.322
-With agentic coding tools like Claude Code, it does. The same completed task can also cost different amounts depending on how you use it.
+00:01:25.619 --> 00:01:38.735
+Until pretty recently, the tools you wrote code with were a flat fee (or free). Your editor cost the same whether you fixed one test or fifty that afternoon, so an individual task didn't really have a price of its own.
 
 14
-00:01:50.772 --> 00:02:12.120
-In one session, Claude reads the test and the file it covers, makes the edit, and is done in a handful of turns. In another, it greps around the repo first, reads a dozen files on its way to the same two, and every one of those turns also drags along everything else that's been read into the conversation since this morning.
+00:01:39.185 --> 00:01:47.830
+With agentic coding tools like Claude Code, it does. The same completed task can also cost different amounts depending on how you use it.
 
 15
-00:02:12.570 --> 00:02:21.886
-It's the same fix, but you spent a different number of tokens on it, and the whole time the model was also having to think about ten files it didn't need.
+00:01:48.280 --> 00:02:08.045
+In one session, Claude reads the test and the file it covers, makes the edit, and is done in a handful of turns. In another, it greps around the repo first, reads a dozen files on its way to the same two, and every one of those turns also drags along everything else that's been read into the conversation since this morning.
 
 16
-00:02:22.336 --> 00:02:31.832
-Being efficient with tokens doesn't mean using fewer of them overall. It means making sure the ones you do use go towards the thing you actually asked for.
+00:02:08.495 --> 00:02:16.971
+It's the same fix, but you spent a different number of tokens on it, and the whole time the model was also having to think about ten files it didn't need.
 
 17
-00:02:32.282 --> 00:02:43.081
-So let's look at what decides the price of a token, then what decides how many of them a session sends, and along the way, what that means for how you run a session.
+00:02:17.421 --> 00:02:26.591
+Being efficient with tokens doesn't mean using fewer of them overall. It means making sure the ones you do use go towards the thing you actually asked for.
 
 18
-00:02:43.881 --> 00:02:45.995
-What decides the price of a token.
+00:02:27.041 --> 00:02:36.497
+So let's look at what decides the price of a token, then what decides how many of them a session sends, and along the way, what that means for how you run a session.
 
 19
-00:02:46.445 --> 00:02:59.974
-You're billed per token, but what you're actually paying for is inference: the time it takes a G P U (or a T P U, or whatever the model happens to be running on) to run the model over your tokens.
+00:02:37.297 --> 00:02:39.126
+What decides the price of a token.
 
 20
-00:03:00.424 --> 00:03:12.362
-Three things decide how much of that time a token takes: which model you're running, whether it's an input token (going in) or an output token (coming out), and whether it was cached.
+00:02:39.576 --> 00:02:51.683
+You're billed per token, but what you're actually paying for is inference: the time it takes a G P U (or a T P U, or whatever the model happens to be running on) to run the model over your tokens.
 
 21
-00:03:13.162 --> 00:03:13.878
-Model.
+00:02:52.133 --> 00:03:03.173
+Three things decide how much of that time a token takes: which model you're running, whether it's an input token (going in) or an output token (coming out), and whether it was cached.
 
 22
-00:03:14.328 --> 00:03:27.993
-A bigger model does more work on both input and output tokens. Which model is worth it for which kind of work is a topic on its own, and we covered it in Choosing a Claude model and effort level in Claude Code.
+00:03:03.973 --> 00:03:04.600
+Model.
 
 23
-00:03:28.443 --> 00:03:43.709
-For this post, all you need to know is that everything else we're about to cover gets multiplied by the model's price: use a larger model when the problem is genuinely hard or ambiguous, and a smaller one when the work is routine.
+00:03:05.050 --> 00:03:17.475
+A bigger model does more work on both input and output tokens. Which model is worth it for which kind of work is a topic on its own, and we covered it in Choosing a Claude model and effort level in Claude Code.
 
 24
-00:03:44.159 --> 00:03:51.163
-Figure 1: Curves are for illustration purposes only. They do not represent real benchmark data.
+00:03:17.925 --> 00:03:31.838
+For this post, all you need to know is that everything else we're about to cover gets multiplied by the model's price: use a larger model when the problem is genuinely hard or ambiguous, and a smaller one when the work is routine.
 
 25
-00:03:52.163 --> 00:04:11.107
+00:03:32.288 --> 00:03:38.493
+Figure 1: Curves are for illustration purposes only. They do not represent real benchmark data.
+
+26
+00:03:39.493 --> 00:03:56.406
 That was Maximizing the value of your Claude Code sessions, from Claude Blog, published August 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

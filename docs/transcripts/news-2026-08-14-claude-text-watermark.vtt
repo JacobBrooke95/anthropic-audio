@@ -1,285 +1,289 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:05.153
-How Claude’s text watermark works.
+00:00:01.300 --> 00:00:06.484
+This is Anthropic, Read Aloud. Today: How Claude’s text watermark works.
 
 2
-00:00:05.603 --> 00:00:10.576
-From Anthropic Newsroom, published August 14, 2026.
+00:00:07.784 --> 00:00:09.759
+How Claude’s text watermark works.
 
 3
-00:00:11.576 --> 00:00:29.941
-Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major A I providers, are implementing this change to comply with the E U A I Act.
+00:00:10.209 --> 00:00:14.745
+From Anthropic Newsroom, published August 14, 2026.
 
 4
-00:00:30.391 --> 00:00:43.804
-In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change. To summarize:
+00:00:15.745 --> 00:00:32.657
+Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major A I providers, are implementing this change to comply with the E U A I Act.
 
 5
-00:00:44.254 --> 00:00:52.203
-We use a method of watermarking that does not have any practical impact on the quality or content of Claude’s outputs.
+00:00:33.107 --> 00:00:45.192
+In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change. To summarize:
 
 6
-00:00:52.443 --> 00:00:58.304
-The difference between watermarked and un-watermarked text will not be distinguishable to readers.
+00:00:45.642 --> 00:00:52.597
+We use a method of watermarking that does not have any practical impact on the quality or content of Claude’s outputs.
 
 7
-00:00:58.544 --> 00:01:02.310
-Nothing is added to the text and there are no hidden characters.
+00:00:52.837 --> 00:00:58.145
+The difference between watermarked and un-watermarked text will not be distinguishable to readers.
 
 8
-00:01:02.550 --> 00:01:07.500
-Watermarking doesn’t require extra tokens, and will not be more expensive.
+00:00:58.385 --> 00:01:01.771
+Nothing is added to the text and there are no hidden characters.
 
 9
-00:01:07.740 --> 00:01:15.476
-Watermarking carries no identifying information and can’t be traced to a specific person, organization, or chat.
+00:01:02.011 --> 00:01:06.587
+Watermarking doesn’t require extra tokens, and will not be more expensive.
 
 10
-00:01:15.716 --> 00:01:33.294
-Watermarking won’t be specific to Claude. As of August 2, the E U requires A I providers serving its market to mark A I-generated content. Other major model developers have signed the same Code of Practice and will be implementing their own watermarks.
+00:01:06.827 --> 00:01:13.991
+Watermarking carries no identifying information and can’t be traced to a specific person, organization, or chat.
 
 11
-00:01:34.094 --> 00:01:35.463
-What is watermarking?
+00:01:14.231 --> 00:01:30.061
+Watermarking won’t be specific to Claude. As of August 2, the E U requires A I providers serving its market to mark A I-generated content. Other major model developers have signed the same Code of Practice and will be implementing their own watermarks.
 
 12
-00:01:35.913 --> 00:01:56.260
-Large language models like Claude work by generating one word at a time. Each time the model decides on the next word, it chooses among a list of potential candidates, ultimately selecting the most sensible or likely based on the preceding text. Take the sentence “The weather today was cold and...”.
+00:01:30.861 --> 00:01:32.050
+What is watermarking?
 
 13
-00:01:56.380 --> 00:02:19.018
-The next word is very unlikely to be “sugary.” But it is quite likely to be “overcast” or “grey.” Under most circumstances, it doesn’t matter much to the reader which of these latter two words the model ultimately chooses, the meaning of the sentence is largely the same either way. In cases like this, the choice is settled by a random number.
+00:01:32.500 --> 00:01:51.243
+Large language models like Claude work by generating one word at a time. Each time the model decides on the next word, it chooses among a list of potential candidates, ultimately selecting the most sensible or likely based on the preceding text. Take the sentence “The weather today was cold and...”.
 
 14
-00:02:19.468 --> 00:02:42.949
-Watermarking uses low-stakes choices like these, which occur many times over a piece of generated text, to leave a pattern in Claude’s responses. That pattern is undetectable to the reader, but is detectable to anyone who has a key that encodes it. When watermarking is used, choices are still made at random, but the source of the randomness is different.
+00:01:51.363 --> 00:02:12.174
+The next word is very unlikely to be “sugary.” But it is quite likely to be “overcast” or “grey.” Under most circumstances, it doesn’t matter much to the reader which of these latter two words the model ultimately chooses, the meaning of the sentence is largely the same either way. In cases like this, the choice is settled by a random number.
 
 15
-00:02:43.069 --> 00:03:05.969
-Instead of using an arbitrary random number generator to pick the next word, watermarking uses the key and a few words that come before to settle what word the model should pick. That is, the words that Claude picks are still random, but now, one can check the sequence of words and see if it’s consistent with the choices Claude would make if it was using the key.
+00:02:12.624 --> 00:02:33.828
+Watermarking uses low-stakes choices like these, which occur many times over a piece of generated text, to leave a pattern in Claude’s responses. That pattern is undetectable to the reader, but is detectable to anyone who has a key that encodes it. When watermarking is used, choices are still made at random, but the source of the randomness is different.
 
 16
-00:03:06.089 --> 00:03:11.216
-If it is, one can assign a probability that the text was generated by Claude.
+00:02:33.948 --> 00:02:54.762
+Instead of using an arbitrary random number generator to pick the next word, watermarking uses the key and a few words that come before to settle what word the model should pick. That is, the words that Claude picks are still random, but now, one can check the sequence of words and see if it’s consistent with the choices Claude would make if it was using the key.
 
 17
-00:03:11.666 --> 00:03:27.356
-Importantly, it isn’t that the model will now always be biased toward overcast or grey. Just as with non-watermarked text, overcast might be selected in one sentence, grey in the next, depending on the words that came before.
+00:02:54.882 --> 00:02:59.585
+If it is, one can assign a probability that the text was generated by Claude.
 
 18
-00:03:27.476 --> 00:03:45.670
-And it’s not the case that the watermarking method pushes Claude to choose a word it wouldn’t have considered anyway (for instance, it wouldn’t make Claude pick a word like “nubilous”, an obscure 1 synonym for overcast or grey that Claude almost certainly wouldn’t use under normal circumstances).
+00:03:00.035 --> 00:03:14.584
+Importantly, it isn’t that the model will now always be biased toward overcast or grey. Just as with non-watermarked text, overcast might be selected in one sentence, grey in the next, depending on the words that came before.
 
 19
-00:03:46.470 --> 00:03:49.120
-How does watermarking affect Claude’s outputs?
+00:03:14.704 --> 00:03:31.579
+And it’s not the case that the watermarking method pushes Claude to choose a word it wouldn’t have considered anyway (for instance, it wouldn’t make Claude pick a word like “nubilous”, an obscure 1 synonym for overcast or grey that Claude almost certainly wouldn’t use under normal circumstances).
 
 20
-00:03:49.570 --> 00:04:11.010
-Watermarking does not impact the quality of Claude’s output. To a reader, a watermarked response is indistinguishable from an unwatermarked one (in this way, A I watermarks differ substantially from their namesakes on banknotes, other physical objects, and some digital documents, which are visible to the naked eye).
+00:03:32.379 --> 00:03:34.776
+How does watermarking affect Claude’s outputs?
 
 21
-00:04:11.460 --> 00:04:35.452
-In internal testing, we’ve seen no impact of watermarking on the content, level of creativity, or readability of Claude’s text. In the SynthID-Text paper, which introduced the technique we use, Google DeepMind tested this impact by serving a model that used watermarking to a portion of their Gemini traffic and comparing thumbs-up and thumbs-down ratings.
+00:03:35.226 --> 00:03:54.565
+Watermarking does not impact the quality of Claude’s output. To a reader, a watermarked response is indistinguishable from an unwatermarked one (in this way, A I watermarks differ substantially from their namesakes on banknotes, other physical objects, and some digital documents, which are visible to the naked eye).
 
 22
-00:04:35.572 --> 00:04:49.661
-They found no statistically significant differences from the unwatermarked model. And in a controlled study, human raters comparing watermarked and unwatermarked answers side-by-side saw no difference in quality.
+00:03:55.015 --> 00:04:17.008
+In internal testing, we’ve seen no impact of watermarking on the content, level of creativity, or readability of Claude’s text. In the SynthID-Text paper, which introduced the technique we use, Google DeepMind tested this impact by serving a model that used watermarking to a portion of their Gemini traffic and comparing thumbs-up and thumbs-down ratings.
 
 23
-00:04:50.111 --> 00:05:09.384
-A useful analogy is to imagine you’re playing a game like Monopoly. On each turn, each player moves a random number of spaces around the board according to the roll of a die. Suppose that, instead of rolling the die to get this randomness, we decided to use a book of the digits of pi.
+00:04:17.128 --> 00:04:30.416
+They found no statistically significant differences from the unwatermarked model. And in a controlled study, human raters comparing watermarked and unwatermarked answers side-by-side saw no difference in quality.
 
 24
-00:05:09.504 --> 00:05:25.594
-2 We start from a randomly-chosen digit (say, the 1012,845th after the decimal place, which happens to be a 6), and from that point on each player simply uses the next digit in the sequence as their next “roll."
+00:04:30.866 --> 00:04:48.605
+A useful analogy is to imagine you’re playing a game like Monopoly. On each turn, each player moves a random number of spaces around the board according to the roll of a die. Suppose that, instead of rolling the die to get this randomness, we decided to use a book of the digits of pi.
 
 25
-00:05:26.044 --> 00:05:49.744
-For all intents and purposes, the moves are still random: it makes no difference to the players, or to the outcome of the game, whether the randomness comes from pi or from dice rolls each time. But if we could see the sequence of all the moves after the game (and we knew the value of pi), we could work out whether this was a game that likely used pi to determine its moves.
+00:04:48.725 --> 00:05:03.919
+2 We start from a randomly-chosen digit (say, the 1012,845th after the decimal place, which happens to be a 6), and from that point on each player simply uses the next digit in the sequence as their next “roll."
 
 26
-00:05:49.864 --> 00:05:52.979
-The game that used pi is, in a sense, “watermarked."
+00:05:04.369 --> 00:05:25.909
+For all intents and purposes, the moves are still random: it makes no difference to the players, or to the outcome of the game, whether the randomness comes from pi or from dice rolls each time. But if we could see the sequence of all the moves after the game (and we knew the value of pi), we could work out whether this was a game that likely used pi to determine its moves.
 
 27
-00:05:53.429 --> 00:06:08.804
-It’s the same for Claude-generated text. Watermarking doesn’t change the meaning or experience for the person reading it, but if you wanted to check after the fact whether the text was likely generated by Claude, the watermark allows you to do so.
+00:05:26.029 --> 00:05:28.842
+The game that used pi is, in a sense, “watermarked."
 
 28
-00:06:09.604 --> 00:06:12.672
-Which specific method of watermarking do you use?
+00:05:29.292 --> 00:05:43.719
+It’s the same for Claude-generated text. Watermarking doesn’t change the meaning or experience for the person reading it, but if you wanted to check after the fact whether the text was likely generated by Claude, the watermark allows you to do so.
 
 29
-00:06:13.122 --> 00:06:39.384
-Claude’s text watermark is a version of the SynthID-Text approach published by Google DeepMind in a Nature paper in 2024. It belongs to a family of approaches that go back to a proposal by Scott Aaronson in 2022, all of which share the same design principle that we described above, the watermark only changes the source of the randomness used to pick among words.
+00:05:44.519 --> 00:05:47.193
+Which specific method of watermarking do you use?
 
 30
-00:06:39.834 --> 00:06:43.279
-There are limitations to the effectiveness of watermarking.
+00:05:47.643 --> 00:06:12.282
+Claude’s text watermark is a version of the SynthID-Text approach published by Google DeepMind in a Nature paper in 2024. It belongs to a family of approaches that go back to a proposal by Scott Aaronson in 2022, all of which share the same design principle that we described above, the watermark only changes the source of the randomness used to pick among words.
 
 31
-00:06:43.399 --> 00:07:06.300
-Using our key, one can only answer the question “What is the likelihood this was partly written by Claude?” It doesn’t confirm whether the text was human-written, and it can’t tell whether the text was written by a different A I (even if that other A I uses watermarking, it would have a different key; it might also use a different watermarking method altogether).
+00:06:12.732 --> 00:06:15.923
+There are limitations to the effectiveness of watermarking.
 
 32
-00:07:06.420 --> 00:07:21.510
-Detecting a watermark also doesn’t work well on small samples, where there are fewer word choices and thus less information to go on. As a passage increases in length, confidence about Claude’s involvement increases too.
+00:06:16.043 --> 00:06:36.685
+Using our key, one can only answer the question “What is the likelihood this was partly written by Claude?” It doesn’t confirm whether the text was human-written, and it can’t tell whether the text was written by a different A I (even if that other A I uses watermarking, it would have a different key; it might also use a different watermarking method altogether).
 
 33
-00:07:21.960 --> 00:07:44.540
-Watermarking is sparser on factual passages where there are fewer choices that can be made without decreasing the accuracy of the text. For example, take the sentence “Isaac Newton’s most famous work was called Principia...”. It really matters whether the next word is “ Mathematica ” (it’s the only right answer), so the watermark would have nothing to act on.
+00:06:36.805 --> 00:06:50.199
+Detecting a watermark also doesn’t work well on small samples, where there are fewer word choices and thus less information to go on. As a passage increases in length, confidence about Claude’s involvement increases too.
 
 34
-00:07:44.660 --> 00:07:59.280
-The same is true for proofreading. If you hand Claude a piece of writing and ask it to edit only the grammar and punctuation and nothing else, the watermark can only live in the handful of corrections, which might be too few to register.
+00:06:50.649 --> 00:07:11.593
+Watermarking is sparser on factual passages where there are fewer choices that can be made without decreasing the accuracy of the text. For example, take the sentence “Isaac Newton’s most famous work was called Principia...”. It really matters whether the next word is “ Mathematica ” (it’s the only right answer), so the watermark would have nothing to act on.
 
 35
-00:08:00.080 --> 00:08:04.190
-What about cases where Claude has proofread or edited human text?
+00:07:11.713 --> 00:07:25.429
+The same is true for proofreading. If you hand Claude a piece of writing and ask it to edit only the grammar and punctuation and nothing else, the watermark can only live in the handful of corrections, which might be too few to register.
 
 36
-00:08:04.640 --> 00:08:22.084
-The watermark only applies to words Claude chooses. When Claude proofreads text written by a person, what it gives back has generally only been lightly edited; because nearly all the words are the person’s, there’s very little (if anything) for the watermark to attach to.
+00:07:26.229 --> 00:07:29.832
+What about cases where Claude has proofread or edited human text?
 
 37
-00:08:22.204 --> 00:08:38.028
-Depending on the length of the text and how heavily Claude has edited it, those changes might not be enough to make Claude’s involvement detectable. The more Claude writes, the more decisions it has to make, and the more space there is for a watermark.
+00:07:30.282 --> 00:07:46.403
+The watermark only applies to words Claude chooses. When Claude proofreads text written by a person, what it gives back has generally only been lightly edited; because nearly all the words are the person’s, there’s very little (if anything) for the watermark to attach to.
 
 38
-00:08:38.828 --> 00:08:40.003
-What about code?
+00:07:46.523 --> 00:08:00.876
+Depending on the length of the text and how heavily Claude has edited it, those changes might not be enough to make Claude’s involvement detectable. The more Claude writes, the more decisions it has to make, and the more space there is for a watermark.
 
 39
-00:08:40.453 --> 00:09:00.291
-As we noted above, A I watermarking takes advantage of decisions where either choice of a word would be equally good. Where an exact output is required, where there isn’t a choice, and something would be factually wrong or a piece of code would break if a different term was chosen, the watermark isn’t applied.
+00:08:01.676 --> 00:08:02.618
+What about code?
 
 40
-00:09:00.741 --> 00:09:23.377
-For example, once the model has written “2 + 2 =”, there is a very clear best choice for the next token (if the model is completing the sum, there isn’t an answer that’s equally as good as “4”; if it’s talking about George Orwell’s Nineteen Eighty-Four, there isn’t an answer that’s equally as good as “5”). The “nudge” of the watermark wouldn’t be applied here.
+00:08:03.068 --> 00:08:20.831
+As we noted above, A I watermarking takes advantage of decisions where either choice of a word would be equally good. Where an exact output is required, where there isn’t a choice, and something would be factually wrong or a piece of code would break if a different term was chosen, the watermark isn’t applied.
 
 41
-00:09:23.497 --> 00:09:32.435
-For the same reason, code, which in very many cases has to be exact, has generally less watermarking than some other forms of text.
+00:08:21.281 --> 00:08:41.970
+For example, once the model has written “2 + 2 =”, there is a very clear best choice for the next token (if the model is completing the sum, there isn’t an answer that’s equally as good as “4”; if it’s talking about George Orwell’s Nineteen Eighty-Four, there isn’t an answer that’s equally as good as “5”). The “nudge” of the watermark wouldn’t be applied here.
 
 42
-00:09:32.885 --> 00:09:49.673
-Having said that, in areas where there is an arbitrary choice between particular words or terms within the code, the watermark can be used, such as comments within code. But by definition, it will have a negligible effect on the actual code produced.
+00:08:42.090 --> 00:08:49.940
+For the same reason, code, which in very many cases has to be exact, has generally less watermarking than some other forms of text.
 
 43
-00:09:50.473 --> 00:09:52.233
-What does this mean for users?
+00:08:50.390 --> 00:09:05.174
+Having said that, in areas where there is an arbitrary choice between particular words or terms within the code, the watermark can be used, such as comments within code. But by definition, it will have a negligible effect on the actual code produced.
 
 44
-00:09:53.033 --> 00:09:56.460
-Does this slow the model down, or make it more expensive?
+00:09:05.974 --> 00:09:07.484
+What does this mean for users?
 
 45
-00:09:56.910 --> 00:10:07.458
-No. Watermarking has a negligible impact on the speed of models, and because it produces no extra tokens, the model is the same price to serve and use.
+00:09:08.284 --> 00:09:11.393
+Does this slow the model down, or make it more expensive?
 
 46
-00:10:08.258 --> 00:10:11.957
-Can a watermark be traced back to me or my organization?
+00:09:11.843 --> 00:09:21.353
+No. Watermarking has a negligible impact on the speed of models, and because it produces no extra tokens, the model is the same price to serve and use.
 
 47
-00:10:12.407 --> 00:10:30.868
-No. The watermarking applies to Claude and its outputs. It doesn’t identify anything to do with individual users. There’s nothing in the watermark, or its key, that would allow anyone to recover any information about the user, their organization, or their chats with Claude.
+00:09:22.153 --> 00:09:25.500
+Can a watermark be traced back to me or my organization?
 
 48
-00:10:31.668 --> 00:10:34.102
-Why are you watermarking Claude’s outputs?
+00:09:25.950 --> 00:09:42.603
+No. The watermarking applies to Claude and its outputs. It doesn’t identify anything to do with individual users. There’s nothing in the watermark, or its key, that would allow anyone to recover any information about the user, their organization, or their chats with Claude.
 
 49
-00:10:34.552 --> 00:11:00.769
-We’re implementing watermarking to comply with the E U A I Act. Anthropic, along with several other major A I model providers and around 190 total signatories, signed the E U Code of Practice on Transparency of A I-Generated Content in July 2026. This requires A I system providers to use methods of “marking” A I-generated text.
+00:09:43.403 --> 00:09:45.543
+Why are you watermarking Claude’s outputs?
 
 50
-00:11:00.889 --> 00:11:14.318
-We’re applying watermarking globally at launch because we don't yet have a durable way to scope it by region. However, we will continue to evaluate different approaches, and will share updates when we have them.
+00:09:45.993 --> 00:10:09.780
+We’re implementing watermarking to comply with the E U A I Act. Anthropic, along with several other major A I model providers and around 190 total signatories, signed the E U Code of Practice on Transparency of A I-Generated Content in July 2026. This requires A I system providers to use methods of “marking” A I-generated text.
 
 51
-00:11:15.118 --> 00:11:16.198
-Other questions.
+00:10:09.900 --> 00:10:21.788
+We’re applying watermarking globally at launch because we don't yet have a durable way to scope it by region. However, we will continue to evaluate different approaches, and will share updates when we have them.
 
 52
-00:11:16.998 --> 00:11:20.163
-How do I check if a piece of text was written by Claude?
+00:10:22.588 --> 00:10:23.590
+Other questions.
 
 53
-00:11:20.613 --> 00:11:28.632
-We will soon be offering a watermark detection A P I. We’re in the process of working out the details of its implementation.
+00:10:24.390 --> 00:10:27.163
+How do I check if a piece of text was written by Claude?
 
 54
-00:11:29.432 --> 00:11:31.580
-What about images and other files?
+00:10:27.613 --> 00:10:34.828
+We will soon be offering a watermark detection A P I. We’re in the process of working out the details of its implementation.
 
 55
-00:11:32.030 --> 00:11:50.689
-When Claude produces a file of a supported type (such as a.png,.jpg, or.svg), it will attach a content credential in the form of a small, cryptographically signed note in the file’s metadata, saying that the file was made or processed with Claude.
+00:10:35.628 --> 00:10:37.504
+What about images and other files?
 
 56
-00:11:50.809 --> 00:12:08.583
-This is an open industry standard called C2PA, the same used by camera manufacturers and in photo-editing software to record where an image came from. Any C2PA-aware tool can read it; we’ll be providing our own where you can drop a file and check.
+00:10:37.954 --> 00:10:55.214
+When Claude produces a file of a supported type (such as a.png,.jpg, or.svg), it will attach a content credential in the form of a small, cryptographically signed note in the file’s metadata, saying that the file was made or processed with Claude.
 
 57
-00:12:09.033 --> 00:12:25.811
-This metadata label is very different from a watermark. Nothing in the file changes, it is not embedded or hidden. As with text, the credential only says Claude was involved in producing the file; it doesn’t include any identifying information.
+00:10:55.334 --> 00:11:11.862
+This is an open industry standard called C2PA, the same used by camera manufacturers and in photo-editing software to record where an image came from. Any C2PA-aware tool can read it; we’ll be providing our own where you can drop a file and check.
 
 58
-00:12:26.611 --> 00:12:29.990
-Can’t someone just edit the text to get around the watermarking?
+00:11:12.312 --> 00:11:27.827
+This metadata label is very different from a watermark. Nothing in the file changes, it is not embedded or hidden. As with text, the credential only says Claude was involved in producing the file; it doesn’t include any identifying information.
 
 59
-00:12:30.440 --> 00:12:46.464
-To some extent, yes. Light editing probably won’t remove the watermark completely; a complete rewrite where every word is replaced will. In the latter case, of course, it’s arguable whether the text can any longer be described as A I-generated.
+00:11:28.627 --> 00:11:31.713
+Can’t someone just edit the text to get around the watermarking?
 
 60
-00:12:47.264 --> 00:12:49.453
-What does a watermark actually prove?
+00:11:32.163 --> 00:11:46.988
+To some extent, yes. Light editing probably won’t remove the watermark completely; a complete rewrite where every word is replaced will. In the latter case, of course, it’s arguable whether the text can any longer be described as A I-generated.
 
 61
-00:12:49.903 --> 00:13:01.271
-A watermark can only determine that Claude was likely involved with the content at some point. It cannot distinguish “Claude wrote this” from “Claude heavily edited this.”
+00:11:47.788 --> 00:11:49.699
+What does a watermark actually prove?
 
 62
-00:13:02.071 --> 00:13:04.561
-Do watermarks apply to translations?
+00:11:50.149 --> 00:12:00.282
+A watermark can only determine that Claude was likely involved with the content at some point. It cannot distinguish “Claude wrote this” from “Claude heavily edited this.”
 
 63
-00:13:05.011 --> 00:13:12.719
-Yes. A translation produced by Claude carries a watermark, because in this case every word is chosen by Claude.
+00:12:01.082 --> 00:12:03.295
+Do watermarks apply to translations?
 
 64
-00:13:13.519 --> 00:13:15.516
-What about older Claude models?
+00:12:03.745 --> 00:12:10.472
+Yes. A translation produced by Claude carries a watermark, because in this case every word is chosen by Claude.
 
 65
-00:13:15.966 --> 00:13:30.881
-The E U law includes a transition period for Anthropic models launched before August 2, 2026, and we’re working to add watermarking for those models as well. This will be rolled out over the coming months.
+00:12:11.272 --> 00:12:12.871
+What about older Claude models?
 
 66
-00:13:31.681 --> 00:13:35.406
-How does this differ from A I detection software, like Pangram?
+00:12:13.321 --> 00:12:26.798
+The E U law includes a transition period for Anthropic models launched before August 2, 2026, and we’re working to add watermarking for those models as well. This will be rolled out over the coming months.
 
 67
-00:13:35.856 --> 00:13:52.011
-A I detection software uses a different method, because the companies that provide it don’t have our key. Among other things, those services look at aspects of the text like the subtle (and not-so-subtle) “tells” that often appear in A I’s phrasing.
+00:12:27.598 --> 00:12:30.858
+How does this differ from A I detection software, like Pangram?
 
 68
-00:13:52.131 --> 00:14:07.258
-For example, A I models appear to be fond of the construction “this isn’t [X], it’s [Y]”, and use the word “quietly” a lot more than you might expect. Picking up on these patterns is fundamentally different from checking for a watermark.
+00:12:31.308 --> 00:12:46.299
+A I detection software uses a different method, because the companies that provide it don’t have our key. Among other things, those services look at aspects of the text like the subtle (and not-so-subtle) “tells” that often appear in A I’s phrasing.
 
 69
-00:14:08.058 --> 00:14:13.358
-Does this change who owns a given output, or who is legally responsible for it?
+00:12:46.419 --> 00:13:00.442
+For example, A I models appear to be fond of the construction “this isn’t [X], it’s [Y]”, and use the word “quietly” a lot more than you might expect. Picking up on these patterns is fundamentally different from checking for a watermark.
 
 70
-00:14:13.808 --> 00:14:32.005
-No. A watermark only helps test whether Claude might have produced or processed the content. It doesn’t say anything about ownership or authorship, and doesn’t change a user’s rights under our terms. We only apply the watermark when Claude was involved in processing the content or file.
+00:13:01.242 --> 00:13:06.018
+Does this change who owns a given output, or who is legally responsible for it?
 
 71
-00:14:33.005 --> 00:14:51.654
+00:13:06.468 --> 00:13:23.209
+No. A watermark only helps test whether Claude might have produced or processed the content. It doesn’t say anything about ownership or authorship, and doesn’t change a user’s rights under our terms. We only apply the watermark when Claude was involved in processing the content or file.
+
+72
+00:13:24.209 --> 00:13:40.786
 That was How Claude’s text watermark works, from Anthropic Newsroom, published August 14, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

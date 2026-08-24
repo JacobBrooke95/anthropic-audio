@@ -1,0 +1,21 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 42.36,
+   "title": "Building agents on the Claude Platform"
+  },
+  {
+   "startTime": 130.89,
+   "title": "What's new with general availability"
+  },
+  {
+   "startTime": 175.31,
+   "title": "Outro"
+  }
+ ]
+}

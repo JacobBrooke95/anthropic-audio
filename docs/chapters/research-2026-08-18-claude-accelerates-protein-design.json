@@ -1,0 +1,61 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 231.18,
+   "title": "Claude designs proteins"
+  },
+  {
+   "startTime": 449.41,
+   "title": "The campaign"
+  },
+  {
+   "startTime": 685.83,
+   "title": "Claude’s performance on the targets"
+  },
+  {
+   "startTime": 729.86,
+   "title": "Claude’s designs are competitive with entries in Adaptyv Bio’s protein design competition"
+  },
+  {
+   "startTime": 787.38,
+   "title": "Claude designs species cross-reactive binders against TNFα, a challenging, therapeutically relevant target"
+  },
+  {
+   "startTime": 880.88,
+   "title": "Claude designs fold-diverse binders with β-sheets"
+  },
+  {
+   "startTime": 931.47,
+   "title": "Claude struggled against some targets"
+  },
+  {
+   "startTime": 1027.91,
+   "title": "Agentic biological discovery is dual-use"
+  },
+  {
+   "startTime": 1074.52,
+   "title": "Claude runs the analytical chemistry workflow"
+  },
+  {
+   "startTime": 1434.13,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 1491.26,
+   "title": "Further reading"
+  },
+  {
+   "startTime": 1509.03,
+   "title": "Footnotes"
+  },
+  {
+   "startTime": 1654.04,
+   "title": "Outro"
+  }
+ ]
+}

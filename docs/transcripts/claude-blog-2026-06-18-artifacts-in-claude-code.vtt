@@ -1,129 +1,133 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:05.412
-Claude Code now supports artifacts.
+00:00:01.300 --> 00:00:06.775
+This is Anthropic, Read Aloud. Today: Claude Code now supports artifacts.
 
 2
-00:00:05.862 --> 00:00:15.496
-Preview your in-progress work in Claude Code as a live, interactive artifact, built from your full session context and shareable with your team.
+00:00:08.075 --> 00:00:10.342
+Claude Code now supports artifacts.
 
 3
-00:00:15.946 --> 00:00:20.086
-From Claude Blog, published June 18, 2026.
+00:00:10.792 --> 00:00:19.528
+Preview your in-progress work in Claude Code as a live, interactive artifact, built from your full session context and shareable with your team.
 
 4
-00:00:21.086 --> 00:00:39.102
-Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code's work into live, shareable visual pages, including P R walkthroughs, system explainers, dashboards, and release checklists, that update themselves as your session works.
+00:00:19.978 --> 00:00:23.861
+From Claude Blog, published June 18, 2026.
 
 5
-00:00:39.552 --> 00:01:01.933
-A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done.
+00:00:24.861 --> 00:00:41.389
+Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code's work into live, shareable visual pages, including P R walkthroughs, system explainers, dashboards, and release checklists, that update themselves as your session works.
 
 6
-00:01:02.053 --> 00:01:11.478
-Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates.
+00:00:41.839 --> 00:01:02.458
+A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done.
 
 7
-00:01:12.278 --> 00:01:14.433
-Built on the context from your session.
+00:01:02.578 --> 00:01:11.068
+Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates.
 
 8
-00:01:14.883 --> 00:01:37.456
-Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran.
+00:01:11.868 --> 00:01:13.759
+Built on the context from your session.
 
 9
-00:01:37.576 --> 00:01:47.903
-With artifacts, you don't need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists.
+00:01:14.209 --> 00:01:34.574
+Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran.
 
 10
-00:01:48.703 --> 00:01:50.894
-Live pages that update in place.
+00:01:34.694 --> 00:01:43.931
+With artifacts, you don't need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists.
 
 11
-00:01:51.344 --> 00:02:10.650
-When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you've made.
+00:01:44.731 --> 00:01:46.754
+Live pages that update in place.
 
 12
-00:02:11.100 --> 00:02:33.491
-From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header.
+00:01:47.204 --> 00:02:04.828
+When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you've made.
 
 13
-00:02:33.611 --> 00:02:52.953
-By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to "walk us through what the agent found" because they're all looking at the same view, with the same context.
+00:02:05.278 --> 00:02:26.117
+From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header.
 
 14
-00:02:53.753 --> 00:02:55.470
-Private to your organization.
+00:02:26.237 --> 00:02:43.896
+By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to "walk us through what the agent found" because they're all looking at the same view, with the same context.
 
 15
-00:02:55.920 --> 00:03:11.689
-Every artifact is private to its author by default. When you're ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public.
+00:02:44.696 --> 00:02:46.352
+Private to your organization.
 
 16
-00:03:11.809 --> 00:03:22.735
-Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance A P I.
+00:02:46.802 --> 00:03:01.151
+Every artifact is private to its author by default. When you're ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public.
 
 17
-00:03:23.535 --> 00:03:24.655
-Getting started.
+00:03:01.271 --> 00:03:11.075
+Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance A P I.
 
 18
-00:03:25.105 --> 00:03:31.951
-Ask your session for an artifact, or just ask for something visual, h ere are some ideas by role:
+00:03:11.875 --> 00:03:12.888
+Getting started.
 
 19
-00:03:32.401 --> 00:03:47.570
-Legal / open source: A license audit of every dependency, flagging copyleft, straight from the repo. "Build an artifact listing every third-party dependency and its license, flagging anything copyleft.".
+00:03:13.338 --> 00:03:19.467
+Ask your session for an artifact, or just ask for something visual, h ere are some ideas by role:
 
 20
-00:03:47.810 --> 00:04:00.974
-Privacy: A data-flow map of where personal data is collected, stored, and logged across the code. "Trace where we touch personal data across the codebase into an artifact for the privacy review.".
+00:03:19.917 --> 00:03:33.901
+Legal / open source: A license audit of every dependency, flagging copyleft, straight from the repo. "Build an artifact listing every third-party dependency and its license, flagging anything copyleft.".
 
 21
-00:04:01.214 --> 00:04:12.301
-Security: Findings that link to the exact line, so the fix is unambiguous. "Build an artifact of the auth findings from this review, each linked to the code.".
+00:03:34.141 --> 00:03:46.513
+Privacy: A data-flow map of where personal data is collected, stored, and logged across the code. "Trace where we touch personal data across the codebase into an artifact for the privacy review.".
 
 22
-00:04:12.541 --> 00:04:27.752
-FinOps / platform finance: Cloud resources and cost drivers mapped from your infrastructure-as-code. "Map our cloud resources from the Terraform into an artifact, grouped by service, with the big cost drivers.".
+00:03:46.753 --> 00:03:56.634
+Security: Findings that link to the exact line, so the fix is unambiguous. "Build an artifact of the auth findings from this review, each linked to the code.".
 
 23
-00:04:27.992 --> 00:04:41.943
-Software engineers: A P R or bug walkthrough reviewers can actually follow, pulled from the diff and the code around it. "Make an artifact walking through this P R, the diff, the reasoning, and what I tested.".
+00:03:56.874 --> 00:04:10.625
+FinOps / platform finance: Cloud resources and cost drivers mapped from your infrastructure-as-code. "Map our cloud resources from the Terraform into an artifact, grouped by service, with the big cost drivers.".
 
 24
-00:04:42.183 --> 00:04:58.192
-Designers and frontend engineers: Several UX directions for a screen, each built from your real components so the one you pick is shippable. "Give me an artifact with 5 UX variations of this signup form, built from our component library.".
+00:04:10.865 --> 00:04:23.645
+Software engineers: A P R or bug walkthrough reviewers can actually follow, pulled from the diff and the code around it. "Make an artifact walking through this P R, the diff, the reasoning, and what I tested.".
 
 25
-00:04:58.432 --> 00:05:12.455
-Staff engineers and architects: A map of how a service actually fits together, drawn from the real import graph instead of a whiteboard. "Map how the payments service fits together into an artifact, from the code.".
+00:04:23.885 --> 00:04:38.924
+Designers and frontend engineers: Several UX directions for a screen, each built from your real components so the one you pick is shippable. "Give me an artifact with 5 UX variations of this signup form, built from our component library.".
 
 26
-00:05:12.695 --> 00:05:28.645
-SRE and on-call: An incident page that grows as you investigate and becomes the postmortem. "Turn this incident into an artifact, timeline, suspect commits, error spike from our monitoring, and republish as I work through it.".
+00:04:39.164 --> 00:04:52.107
+Staff engineers and architects: A map of how a service actually fits together, drawn from the real import graph instead of a whiteboard. "Map how the payments service fits together into an artifact, from the code.".
 
 27
-00:05:28.885 --> 00:05:41.395
-Engineering managers: A page of what actually shipped, built from the merged P Rs. "Build an artifact of what merged on my team this week from the P Rs, grouped by project.".
+00:04:52.347 --> 00:05:07.056
+SRE and on-call: An incident page that grows as you investigate and becomes the postmortem. "Turn this incident into an artifact, timeline, suspect commits, error spike from our monitoring, and republish as I work through it.".
 
 28
-00:05:41.845 --> 00:05:53.098
-Claude Code builds the page and gives you a link. Open it in your browser or the desktop app, share it from the header, updates publish to the same U R L automatically.
+00:05:07.296 --> 00:05:18.853
+Engineering managers: A page of what actually shipped, built from the merged P Rs. "Build an artifact of what merged on my team this week from the P Rs, grouped by project.".
 
 29
-00:05:53.898 --> 00:05:54.968
-Availability.
+00:05:19.303 --> 00:05:29.632
+Claude Code builds the page and gives you a link. Open it in your browser or the desktop app, share it from the header, updates publish to the same U R L automatically.
 
 30
-00:05:55.418 --> 00:06:06.026
-Artifacts is available in beta to Claude Team and Enterprise orgs, from the Claude Code C L I and desktop app, with pages viewable in any browser.
+00:05:30.432 --> 00:05:31.383
+Availability.
 
 31
-00:06:06.476 --> 00:06:08.576
-Get started today with Claude Code.
+00:05:31.833 --> 00:05:41.413
+Artifacts is available in beta to Claude Team and Enterprise orgs, from the Claude Code C L I and desktop app, with pages viewable in any browser.
 
 32
-00:06:09.576 --> 00:06:27.378
+00:05:41.863 --> 00:05:43.626
+Get started today with Claude Code.
+
+33
+00:05:44.626 --> 00:06:00.753
 That was Claude Code now supports artifacts, from Claude Blog, published June 18, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

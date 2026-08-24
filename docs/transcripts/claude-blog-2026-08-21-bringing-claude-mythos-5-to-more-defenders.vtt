@@ -1,181 +1,185 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:08.284
-Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders.
+00:00:01.300 --> 00:00:09.965
+This is Anthropic, Read Aloud. Today: Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders.
 
 2
-00:00:08.734 --> 00:00:15.537
-We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.
+00:00:11.265 --> 00:00:16.065
+Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders.
 
 3
-00:00:15.987 --> 00:00:20.509
-From Claude Blog, published August 21, 2026.
+00:00:16.515 --> 00:00:23.022
+We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.
 
 4
-00:00:21.509 --> 00:00:45.082
-We're sharing an update on our efforts to help more teams use frontier capabilities for cyber defense. Claude Mythos 5 is now available in Claude Security, and coming soon to partners' cyber defense tools. We're also launching a 35 million dollars fund to help secure open-source software and sharing plans to expand our Cyber Verification Program.
+00:00:23.472 --> 00:00:27.599
+From Claude Blog, published August 21, 2026.
 
 5
-00:00:45.532 --> 00:01:00.851
-In April, we launched Project Glasswing to put our most capable frontier model, Claude Mythos Preview (and its successor, Claude Mythos 5), in the hands of a small group of organizations securing the world’s most critical software.
+00:00:28.599 --> 00:00:50.667
+We're sharing an update on our efforts to help more teams use frontier capabilities for cyber defense. Claude Mythos 5 is now available in Claude Security, and coming soon to partners' cyber defense tools. We're also launching a 35 million dollars fund to help secure open-source software and sharing plans to expand our Cyber Verification Program.
 
 6
-00:01:00.971 --> 00:01:12.638
-This gave defenders a window of time to find and fix vulnerabilities ahead of models with similar capabilities becoming generally available or reaching malicious actors.
+00:00:51.117 --> 00:01:05.164
+In April, we launched Project Glasswing to put our most capable frontier model, Claude Mythos Preview (and its successor, Claude Mythos 5), in the hands of a small group of organizations securing the world’s most critical software.
 
 7
-00:01:13.088 --> 00:01:32.267
-Our goal has always been to expand Mythos-level defense to as many defenders as we safely can. To do that, we've been working on safety classifiers and safeguards that let us expand access to Mythos-class models without putting their offensive cyber capabilities in the wrong hands.
+00:01:05.284 --> 00:01:15.994
+This gave defenders a window of time to find and fix vulnerabilities ahead of models with similar capabilities becoming generally available or reaching malicious actors.
 
 8
-00:01:32.387 --> 00:01:39.442
-Claude Fable 5 was the first step: it made the model broadly available while blocking dual-use cyber work.
+00:01:16.444 --> 00:01:34.256
+Our goal has always been to expand Mythos-level defense to as many defenders as we safely can. To do that, we've been working on safety classifiers and safeguards that let us expand access to Mythos-class models without putting their offensive cyber capabilities in the wrong hands.
 
 9
-00:01:39.892 --> 00:02:00.187
-Today, we’re taking the next steps. The riskiest behavior occurs when a user has direct access to a model, where a malicious actor can try to steer it toward harmful uses. But if users can only receive specific outputs, such as a patch for a vulnerability or a security alert, that risk is much lower.
+00:01:34.376 --> 00:01:40.652
+Claude Fable 5 was the first step: it made the model broadly available while blocking dual-use cyber work.
 
 10
-00:02:00.307 --> 00:02:10.500
-The changes we’re announcing give users greater access to the defensive results, while maintaining appropriate guardrails around direct access to the model:
+00:01:41.102 --> 00:01:59.853
+Today, we’re taking the next steps. The riskiest behavior occurs when a user has direct access to a model, where a malicious actor can try to steer it toward harmful uses. But if users can only receive specific outputs, such as a patch for a vulnerability or a security alert, that risk is much lower.
 
 11
-00:02:10.950 --> 00:02:27.640
-Claude Mythos 5 integration into the tools defenders rely on. We’re working with our cybersecurity technology and services partners to integrate Claude Mythos 5 into the products and services defenders already use to secure their software.
+00:01:59.973 --> 00:02:09.011
+The changes we’re announcing give users greater access to the defensive results, while maintaining appropriate guardrails around direct access to the model:
 
 12
-00:02:27.880 --> 00:02:44.627
-Claude Security scans can now run on Claude Mythos 5. Customers on Claude Enterprise plans can now run our most capable model in Claude Security, using it to scan their codebases for security vulnerabilities and suggest patches.
+00:02:09.461 --> 00:02:24.943
+Claude Mythos 5 integration into the tools defenders rely on. We’re working with our cybersecurity technology and services partners to integrate Claude Mythos 5 into the products and services defenders already use to secure their software.
 
 13
-00:02:44.867 --> 00:03:08.775
-35 dollarsmillion in credits for open-source security. Our new Defender Advantage Fund (0xDAF) will provide 35 dollarsmillion in credits to organizations working to patch vulnerabilities in open-source projects, automate parts of the process of scanning and patching open-source software, and experiment with new security approaches.
+00:02:25.183 --> 00:02:40.628
+Claude Security scans can now run on Claude Mythos 5. Customers on Claude Enterprise plans can now run our most capable model in Claude Security, using it to scan their codebases for security vulnerabilities and suggest patches.
 
 14
-00:03:09.015 --> 00:03:27.433
-Expanding our Cyber Verification Program. The program already gives vetted defenders reduced safeguards on Opus and Sonnet models. In the coming weeks, we will expand this program to include broader dual-use capabilities on Opus and Sonnet, with Mythos-class access to follow.
+00:02:40.868 --> 00:03:02.860
+35 dollarsmillion in credits for open-source security. Our new Defender Advantage Fund (0xDAF) will provide 35 dollarsmillion in credits to organizations working to patch vulnerabilities in open-source projects, automate parts of the process of scanning and patching open-source software, and experiment with new security approaches.
 
 15
-00:03:27.883 --> 00:03:48.543
-Our aim remains to help organizations adapt to the pace and demands of cybersecurity as A I models become increasingly powerful. We will continue to develop safeguards, access programs, and community support to make our most capable models safely available to a wide range of people and organizations.
+00:03:03.100 --> 00:03:20.391
+Expanding our Cyber Verification Program. The program already gives vetted defenders reduced safeguards on Opus and Sonnet models. In the coming weeks, we will expand this program to include broader dual-use capabilities on Opus and Sonnet, with Mythos-class access to follow.
 
 16
-00:03:49.343 --> 00:03:53.239
-Integrating Mythos into existing cyberdefensive tools.
+00:03:20.841 --> 00:03:39.635
+Our aim remains to help organizations adapt to the pace and demands of cybersecurity as A I models become increasingly powerful. We will continue to develop safeguards, access programs, and community support to make our most capable models safely available to a wide range of people and organizations.
 
 17
-00:03:53.689 --> 00:04:19.298
-The teams defending hospitals, utilities, financial systems, and the software supply chain already rely on a suite of products and services for security operations, incident response, threat intelligence, and detection engineering. The fastest way to make frontier capabilities available to those defenders is to integrate Mythos-class models into the tools they already run.
+00:03:40.435 --> 00:03:43.876
+Integrating Mythos into existing cyberdefensive tools.
 
 18
-00:04:19.748 --> 00:04:42.074
-Many of our partners have already built cyber products on Claude Opus that help security teams triage alerts, identify threats, and remediate vulnerabilities faster. We’re now working with these partners and more to build Claude Mythos 5 into their products and services, so they can deliver Mythos-level defensive outcomes to their customers.
+00:03:44.326 --> 00:04:07.745
+The teams defending hospitals, utilities, financial systems, and the software supply chain already rely on a suite of products and services for security operations, incident response, threat intelligence, and detection engineering. The fastest way to make frontier capabilities available to those defenders is to integrate Mythos-class models into the tools they already run.
 
 19
-00:04:42.524 --> 00:05:07.268
-When an end user uses one of these products, they’re not interacting with Mythos directly. Instead, they work through a purpose-built interface that runs Mythos in the background for a defined task and only receive the specific artifact the product is intended to provide. For example, a tool to remediate vulnerabilities might provide a list of suggested patches as its output.
+00:04:08.195 --> 00:04:28.536
+Many of our partners have already built cyber products on Claude Opus that help security teams triage alerts, identify threats, and remediate vulnerabilities faster. We’re now working with these partners and more to build Claude Mythos 5 into their products and services, so they can deliver Mythos-level defensive outcomes to their customers.
 
 20
-00:05:07.388 --> 00:05:24.964
-This output would be generated by Mythos, but the user would not have a way to prompt the model to, say, develop an exploit for a vulnerability. We and our partners also have abuse prevention measures in place to verify the model stays within its intended scope.
+00:04:28.986 --> 00:04:52.200
+When an end user uses one of these products, they’re not interacting with Mythos directly. Instead, they work through a purpose-built interface that runs Mythos in the background for a defined task and only receive the specific artifact the product is intended to provide. For example, a tool to remediate vulnerabilities might provide a list of suggested patches as its output.
 
 21
-00:05:25.414 --> 00:05:37.710
-We're early in this work and expect it to expand over time. If you build security products or services and want to bring Claude Mythos 5 to your customers, you can register your interest here.
+00:04:52.320 --> 00:05:08.434
+This output would be generated by Mythos, but the user would not have a way to prompt the model to, say, develop an exploit for a vulnerability. We and our partners also have abuse prevention measures in place to verify the model stays within its intended scope.
 
 22
-00:05:38.510 --> 00:05:44.218
-Making Claude Security available with Claude Mythos 5 for Enterprise customers.
+00:05:08.884 --> 00:05:20.286
+We're early in this work and expect it to expand over time. If you build security products or services and want to bring Claude Mythos 5 to your customers, you can register your interest here.
 
 23
-00:05:44.668 --> 00:06:08.387
-Starting today, Claude Security scans now run on Claude Mythos 5. Claude Security scans codebases for vulnerabilities and suggests patches for human review; it’s currently in public beta for Claude Enterprise customers, and scans with Mythos 5 are billed as standard token usage under your existing plan, with no separate add-on.
+00:05:21.086 --> 00:05:26.268
+Making Claude Security available with Claude Mythos 5 for Enterprise customers.
 
 24
-00:06:08.837 --> 00:06:34.494
-Enterprise admins can enable Claude Security in the admin console. From claude.ai/security, users can select a repository to scan using Claude Mythos 5. Claude then scans the codebase for vulnerabilities, and returns each finding with a CWE (Common Weakness Enumeration) category, confidence and severity ratings, and a suggested fix.
+00:05:26.718 --> 00:05:48.277
+Starting today, Claude Security scans now run on Claude Mythos 5. Claude Security scans codebases for vulnerabilities and suggests patches for human review; it’s currently in public beta for Claude Enterprise customers, and scans with Mythos 5 are billed as standard token usage under your existing plan, with no separate add-on.
 
 25
-00:06:34.944 --> 00:06:55.874
-Users can then open Claude Code on the web to implement the fix. Interactive patching uses the models your organization has access to in Claude Code. The Mythos scan itself does not extend Mythos access to other surfaces. Every patch must be reviewed and approved by a human before it can be implemented.
+00:05:48.727 --> 00:06:12.215
+Enterprise admins can enable Claude Security in the admin console. From claude.ai/security, users can select a repository to scan using Claude Mythos 5. Claude then scans the codebase for vulnerabilities, and returns each finding with a CWE (Common Weakness Enumeration) category, confidence and severity ratings, and a suggested fix.
 
 26
-00:06:56.324 --> 00:07:16.335
-Claude Security uses Mythos 5 to scan code you own, and returns detailed findings rather than raw outputs without exposing the model itself. This means defenders can access the capabilities of Claude Mythos 5 without the model becoming accessible to those who might misuse it.
+00:06:12.665 --> 00:06:32.068
+Users can then open Claude Code on the web to implement the fix. Interactive patching uses the models your organization has access to in Claude Code. The Mythos scan itself does not extend Mythos access to other surfaces. Every patch must be reviewed and approved by a human before it can be implemented.
 
 27
-00:07:16.785 --> 00:07:20.901
-For more about Claude Security, see our guide to getting started.
+00:06:32.518 --> 00:06:50.566
+Claude Security uses Mythos 5 to scan code you own, and returns detailed findings rather than raw outputs without exposing the model itself. This means defenders can access the capabilities of Claude Mythos 5 without the model becoming accessible to those who might misuse it.
 
 28
-00:07:21.701 --> 00:07:26.295
-Launching the Defender Advantage Fund to secure open-source software.
+00:06:51.016 --> 00:06:54.476
+For more about Claude Security, see our guide to getting started.
 
 29
-00:07:26.745 --> 00:07:44.523
-Some of the world’s most widely used programs run on open-source software. Yet these projects are often maintained by volunteers or nonprofit foundations, who may lack the resources or personnel to comprehensively defend their projects against attack.
+00:06:55.276 --> 00:06:59.511
+Launching the Defender Advantage Fund to secure open-source software.
 
 30
-00:07:44.643 --> 00:08:05.565
-Through Project Glasswing, we made 4 million dollars in direct donations to open-source security organizations, provided credits to the open-source security foundations in the program, helped scan and patch widely used projects, and support coordinated vulnerability-fixing efforts like Akrites and Gold Eagle.
+00:06:59.961 --> 00:07:16.046
+Some of the world’s most widely used programs run on open-source software. Yet these projects are often maintained by volunteers or nonprofit foundations, who may lack the resources or personnel to comprehensively defend their projects against attack.
 
 31
-00:08:06.015 --> 00:08:19.515
-Our new Defender Advantage Fund (0xDAF) builds on that work with 35 dollarsmillion in Claude credits for organizations helping open-source maintainers secure their software.
+00:07:16.166 --> 00:07:35.688
+Through Project Glasswing, we made 4 million dollars in direct donations to open-source security organizations, provided credits to the open-source security foundations in the program, helped scan and patch widely used projects, and support coordinated vulnerability-fixing efforts like Akrites and Gold Eagle.
 
 32
-00:08:19.635 --> 00:08:38.251
-Grants will focus on three areas: patching live vulnerabilities in widely used projects, automating scanning and patching in ways other projects can replicate, and helping projects pursue more ambitious security approaches that make them resistant to whole classes of attack.
+00:07:36.138 --> 00:07:48.326
+Our new Defender Advantage Fund (0xDAF) builds on that work with 35 dollarsmillion in Claude credits for organizations helping open-source maintainers secure their software.
 
 33
-00:08:38.701 --> 00:08:49.113
-We're starting with a small number of larger, pilot grants to learn what works and scales best. We will share details on initial recipients in the coming weeks.
+00:07:48.446 --> 00:08:05.321
+Grants will focus on three areas: patching live vulnerabilities in widely used projects, automating scanning and patching in ways other projects can replicate, and helping projects pursue more ambitious security approaches that make them resistant to whole classes of attack.
 
 34
-00:08:49.913 --> 00:08:52.831
-Expanding our Cyber Verification Program.
+00:08:05.771 --> 00:08:15.325
+We're starting with a small number of larger, pilot grants to learn what works and scales best. We will share details on initial recipients in the coming weeks.
 
 35
-00:08:53.281 --> 00:09:15.741
-To date, our Cyber Verification Program has provided organizations with access to dual-use capabilities when using Claude Opus and Sonnet models. Organizations in the program experience reduced safeguards, minimizing interruptions for accepted teams doing legitimate cybersecurity work on systems they’re authorized to protect.
+00:08:16.125 --> 00:08:18.637
+Expanding our Cyber Verification Program.
 
 36
-00:09:16.191 --> 00:09:37.470
-Over the coming weeks, we are evolving the program to expand safeguarded access to Claude Mythos. As part of this, access to defensive capabilities like vulnerability triaging and validation will expand to Mythos-class models, and cyber defenders will see reduced blocks on Claude Opus and Sonnet-class models.
+00:08:19.087 --> 00:08:40.165
+To date, our Cyber Verification Program has provided organizations with access to dual-use capabilities when using Claude Opus and Sonnet models. Organizations in the program experience reduced safeguards, minimizing interruptions for accepted teams doing legitimate cybersecurity work on systems they’re authorized to protect.
 
 37
-00:09:37.590 --> 00:09:54.728
-Additionally, we are continuing to expand access to Claude Mythos through Project Glasswing in collaboration with our partners in the U S Government, focused on protectors of critically important infrastructure that meet strict security control requirements.
+00:08:40.615 --> 00:09:00.301
+Over the coming weeks, we are evolving the program to expand safeguarded access to Claude Mythos. As part of this, access to defensive capabilities like vulnerability triaging and validation will expand to Mythos-class models, and cyber defenders will see reduced blocks on Claude Opus and Sonnet-class models.
 
 38
-00:09:55.178 --> 00:10:18.239
-We'll share more details about the Cyber Verification Program expansion in the coming weeks. In the meantime, we encourage all security teams performing legitimate cybersecurity work to apply for the program for reduced safeguards on Claude Opus and Sonnet models. If you are already enrolled and accepted, no action is needed; we’ll reach out with updates.
+00:09:00.421 --> 00:09:16.059
+Additionally, we are continuing to expand access to Claude Mythos through Project Glasswing in collaboration with our partners in the U S Government, focused on protectors of critically important infrastructure that meet strict security control requirements.
 
 39
-00:10:19.039 --> 00:10:20.043
-What’s next.
+00:09:16.509 --> 00:09:38.159
+We'll share more details about the Cyber Verification Program expansion in the coming weeks. In the meantime, we encourage all security teams performing legitimate cybersecurity work to apply for the program for reduced safeguards on Claude Opus and Sonnet models. If you are already enrolled and accepted, no action is needed; we’ll reach out with updates.
 
 40
-00:10:20.493 --> 00:10:35.674
-These initiatives are a continuation of our efforts to make the defensive capabilities of frontier models available to more people and organizations, and to support the open-source community in hardening their projects against attack.
+00:09:38.959 --> 00:09:39.853
+What’s next.
 
 41
-00:10:35.794 --> 00:10:49.842
-We will continue to work with government partners, organizations, open-source maintainers, and the broader industry to build the resilient cyber infrastructure today’s highly capable A I models demand.
+00:09:40.303 --> 00:09:54.596
+These initiatives are a continuation of our efforts to make the defensive capabilities of frontier models available to more people and organizations, and to support the open-source community in hardening their projects against attack.
 
 42
-00:10:50.292 --> 00:10:52.952
-Apply for the Cyber Verification Program.
+00:09:54.716 --> 00:10:07.592
+We will continue to work with government partners, organizations, open-source maintainers, and the broader industry to build the resilient cyber infrastructure today’s highly capable A I models demand.
 
 43
-00:10:53.192 --> 00:10:57.843
-Register your interest in building cyber products and offerings with Mythos.
+00:10:08.042 --> 00:10:10.358
+Apply for the Cyber Verification Program.
 
 44
-00:10:58.083 --> 00:11:10.774
-Claude Security is available in public beta for Enterprise customers. Admins can enable Claude Security in the admin console. For a full walkthrough, see our guide to getting started.
+00:10:10.598 --> 00:10:14.839
+Register your interest in building cyber products and offerings with Mythos.
 
 45
-00:11:11.774 --> 00:11:32.530
+00:10:15.079 --> 00:10:26.608
+Claude Security is available in public beta for Enterprise customers. Admins can enable Claude Security in the admin console. For a full walkthrough, see our guide to getting started.
+
+46
+00:10:27.608 --> 00:10:46.285
 That was Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders, from Claude Blog, published August 21, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -1,0 +1,85 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 90.86,
+   "title": "What is watermarking?"
+  },
+  {
+   "startTime": 212.38,
+   "title": "How does watermarking affect Claude’s outputs?"
+  },
+  {
+   "startTime": 344.52,
+   "title": "Which specific method of watermarking do you use?"
+  },
+  {
+   "startTime": 446.23,
+   "title": "What about cases where Claude has proofread or edited human text?"
+  },
+  {
+   "startTime": 481.68,
+   "title": "What about code?"
+  },
+  {
+   "startTime": 545.97,
+   "title": "What does this mean for users?"
+  },
+  {
+   "startTime": 548.28,
+   "title": "Does this slow the model down, or make it more expensive?"
+  },
+  {
+   "startTime": 562.15,
+   "title": "Can a watermark be traced back to me or my organization?"
+  },
+  {
+   "startTime": 583.4,
+   "title": "Why are you watermarking Claude’s outputs?"
+  },
+  {
+   "startTime": 622.59,
+   "title": "Other questions"
+  },
+  {
+   "startTime": 624.39,
+   "title": "How do I check if a piece of text was written by Claude?"
+  },
+  {
+   "startTime": 635.63,
+   "title": "What about images and other files?"
+  },
+  {
+   "startTime": 688.63,
+   "title": "Can’t someone just edit the text to get around the watermarking?"
+  },
+  {
+   "startTime": 707.79,
+   "title": "What does a watermark actually prove?"
+  },
+  {
+   "startTime": 721.08,
+   "title": "Do watermarks apply to translations?"
+  },
+  {
+   "startTime": 731.27,
+   "title": "What about older Claude models?"
+  },
+  {
+   "startTime": 747.6,
+   "title": "How does this differ from A I detection software, like Pangram?"
+  },
+  {
+   "startTime": 781.24,
+   "title": "Does this change who owns a given output, or who is legally responsible for it?"
+  },
+  {
+   "startTime": 804.21,
+   "title": "Outro"
+  }
+ ]
+}
