@@ -1,6 +1,6 @@
 """Kokoro-ONNX synthesis → MP3 (+ per-chunk timings for a WebVTT transcript)."""
 from __future__ import annotations
-import subprocess, tempfile, time, io, os
+import multiprocessing, subprocess, tempfile, time, io, os
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 import numpy as np
@@ -83,7 +83,10 @@ def _render_all(segs, voice, speed, progress_every):
     if WORKERS <= 1 or len(jobs) < 8:
         consume(map(_render_one, jobs))
     else:
-        with ProcessPoolExecutor(max_workers=WORKERS) as pool:
+        # spawn, never fork: forked workers inherit the parent's open voices-zip
+        # file descriptor (the parent renders the slate first) and concurrent
+        # reads through that shared offset corrupt every worker's voice loads
+        with ProcessPoolExecutor(max_workers=WORKERS, mp_context=multiprocessing.get_context("spawn")) as pool:
             consume(pool.map(_render_one, jobs, chunksize=4))
     # an isolated flaky chunk degrades to a short silence; wholesale failure must
     # abort loudly rather than publish a silently truncated episode
