@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 18:20:49 +0000</lastBuildDate>
-    <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:01:21 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,44 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</title>
+      <itunes:title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep</guid>
+      <pubDate>Mon, 24 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
+
+Source: https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep
+Published August 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep">https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep</a><br/><strong>Published:</strong> August 24, 2026 · Claude Blog<br/><strong>Length:</strong> 1,567 words · 10 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/product/claude-code">Claude Code</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee.mp3" length="5216333" type="audio/mpeg"/>
+      <itunes:duration>619</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee.jpg"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.</itunes:subtitle>
+      <itunes:summary>Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
+
+Source: https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep
+Published August 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>14</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: The AI-Native SDLC playbook</title>
       <itunes:title>Claude Blog: The AI-Native SDLC playbook</itunes:title>

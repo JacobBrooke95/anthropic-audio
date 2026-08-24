@@ -4394,6 +4394,14 @@
       "updated": "2026-08-21T17:51:45+00:00",
       "slug": "claude-blog-2026-08-21-bringing-claude-mythos-5-to-more-defenders",
       "episode": 13
+    },
+    "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep": {
+      "first_seen": "2026-08-24T16:01:21+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-24T16:01:21+00:00",
+      "slug": "claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee",
+      "episode": 14
     }
   },
   "episodes": [
@@ -5193,8 +5201,30 @@
       "episode": 13,
       "created": "2026-08-21T17:51:45+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg"
+    },
+    {
+      "slug": "claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee",
+      "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "source": "claude-blog",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "subtitle": "Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.",
+      "date": "2026-08-24T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Code",
+          "href": "https://claude.com/product/claude-code"
+        }
+      ],
+      "word_count": 1567,
+      "duration": 619.206531,
+      "bytes": 5216333,
+      "episode": 14,
+      "created": "2026-08-24T16:01:21+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8c5c59795765514bd8fd82_og_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-sales.jpg"
     }
   ],
-  "next_episode": 14,
+  "next_episode": 15,
   "baseline_date": "2026-08-14"
 }
