@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 66.82,
+   "title": "How Bain uses Claude"
+  },
+  {
+   "startTime": 133.01,
+   "title": "What the partnership means for clients"
+  },
+  {
+   "startTime": 192.37,
+   "title": "What's next"
+  },
+  {
+   "startTime": 238.45,
+   "title": "Outro"
+  }
+ ]
+}

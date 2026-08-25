@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 24 Aug 2026 19:44:24 +0000</lastBuildDate>
-    <pubDate>Mon, 24 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 15:58:03 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,46 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</title>
+      <itunes:title>Claude Blog: Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr/</link>
+      <guid isPermaLink="false">https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner</guid>
+      <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic and Bain &amp; Company are partnering to help enterprises deploy AI, building on Bain's rollout of Claude to its 19,000 employees.
+
+Source: https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner
+Published August 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Partner Network: https://claude.com/partners
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic and Bain &amp; Company are partnering to help enterprises deploy AI, building on Bain&#x27;s rollout of Claude to its 19,000 employees.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner">https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner</a><br/><strong>Published:</strong> August 25, 2026 · Claude Blog<br/><strong>Length:</strong> 460 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/partners">Claude Partner Network</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.mp3" length="2900161" type="audio/mpeg"/>
+      <itunes:duration>261</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.jpg?v=320d5b74"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic and Bain &amp; Company are partnering to help enterprises deploy AI, building on Bain's rollout of Claude to its 19,000 employees.</itunes:subtitle>
+      <itunes:summary>Anthropic and Bain &amp; Company are partnering to help enterprises deploy AI, building on Bain's rollout of Claude to its 19,000 employees.
+
+Source: https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner
+Published August 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Partner Network: https://claude.com/partners
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>15</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</title>
       <itunes:title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</itunes:title>

@@ -1,0 +1,99 @@
+{
+ "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr",
+ "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+ "subtitle": "Anthropic and Bain & Company are partnering to help enterprises deploy AI, building on Bain's rollout of Claude to its 19,000 employees.",
+ "date": "2026-08-25T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8d97d30a50ad6123e69746_og_bain-company-joins-the-claude-partner-network-as-a-global-premier-partner.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Bain & Company and Anthropic today announced a global partnership to help enterprises move from AI experiments to deployments that produce measurable business results. Bain joins the Claude Partner Network as a Global Premier partner, and the two firms will work together on client engagements spanning AI strategy, technology modernization, and AI-enabled operations.",
+   "html": "Bain &amp; Company and Anthropic today announced a global partnership to help enterprises move from AI experiments to deployments that produce measurable business results. Bain joins the Claude Partner Network as a Global Premier partner, and the two firms will work together on client engagements spanning AI strategy, technology modernization, and AI-enabled operations."
+  },
+  {
+   "type": "paragraph",
+   "text": "The partnership builds on Bain's own deployment of Claude across the firm, which now serves as a reference point for how Bain advises clients on enterprise rollouts.",
+   "html": "The partnership builds on Bain&#x27;s own deployment of Claude across the firm, which now serves as a reference point for how Bain advises clients on enterprise rollouts."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How Bain uses Claude",
+   "html": "How Bain uses Claude"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bain rolled out Claude to all 19,000 of its employees as part of the firm's suite of AI platforms and tools, for use in both client work and internal operations. Teams work with Claude.ai, Claude Cowork, Claude Code, Claude for Excel, and Claude for Microsoft 365 to build and test complex models, conduct research, pressure-test inputs and assumptions, and explore multiple business scenarios.",
+   "html": "Bain rolled out Claude to all 19,000 of its employees as part of the firm&#x27;s suite of AI platforms and tools, for use in both client work and internal operations. Teams work with Claude.ai, Claude Cowork, Claude Code, Claude for Excel, and Claude for Microsoft 365 to build and test complex models, conduct research, pressure-test inputs and assumptions, and explore multiple business scenarios."
+  },
+  {
+   "type": "paragraph",
+   "text": "Adoption came quickly. In the pilot phase alone, more than 7,000 Bain employees were actively working with Claude within a few weeks of getting access, and more than two-thirds of pilot participants adopted Claude for Excel.",
+   "html": "Adoption came quickly. In the pilot phase alone, more than 7,000 Bain employees were actively working with Claude within a few weeks of getting access, and more than two-thirds of pilot participants adopted Claude for Excel. "
+  },
+  {
+   "type": "paragraph",
+   "text": "The rollout paired access with enablement and governance. Employees received onboarding materials, trainings, and webinars alongside expert support, and the firm tracked user experience and feedback through ongoing surveys. That structure, rather than access alone, is what Bain points to when advising clients on their own deployments.",
+   "html": "The rollout paired access with enablement and governance. Employees received onboarding materials, trainings, and webinars alongside expert support, and the firm tracked user experience and feedback through ongoing surveys. That structure, rather than access alone, is what Bain points to when advising clients on their own deployments."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What the partnership means for clients",
+   "html": "What the partnership means for clients"
+  },
+  {
+   "type": "paragraph",
+   "text": "Clients get Claude models combined with Bain's cross-industry experience in business transformation and AI deployment. Bain's digital teams include more than 1,500 AI, data, analytics, architecture, and engineering experts who work alongside the firm's industry and capability practices.",
+   "html": "Clients get Claude models combined with Bain&#x27;s cross-industry experience in business transformation and AI deployment. Bain&#x27;s digital teams include more than 1,500 AI, data, analytics, architecture, and engineering experts who work alongside the firm&#x27;s industry and capability practices."
+  },
+  {
+   "type": "paragraph",
+   "text": "The results so far suggest what that combination can do. Across multiple client engagements involving complex legacy codebases that lack existing architectural context, Bain has helped clients achieve productivity gains of 30% to 50%.",
+   "html": "The results so far suggest what that combination can do. Across multiple client engagements involving complex legacy codebases that lack existing architectural context, Bain has helped clients achieve productivity gains of 30% to 50%."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Our partnership with Anthropic brings together its frontier AI technology with Bain's deep strategic and industry expertise to help clients turn the potential of AI into meaningful business results,\" Philippe d'Arabian, Executive Vice President and Global Head of Partnerships at Bain & Company, says.",
+   "html": "&quot;Our partnership with Anthropic brings together its frontier AI technology with Bain&#x27;s deep strategic and industry expertise to help clients turn the potential of AI into meaningful business results,&quot; Philippe d&#x27;Arabian, Executive Vice President and Global Head of Partnerships at Bain &amp; Company, says."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What's next",
+   "html": "What&#x27;s next"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bain and Anthropic are already working together on client engagements across multiple industries. As the partnership develops, the firms expect to expand their collaboration wherever the highest-value opportunities exist.",
+   "html": "Bain and Anthropic are already working together on client engagements across multiple industries. As the partnership develops, the firms expect to expand their collaboration wherever the highest-value opportunities exist."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"More than 7,000 Bain employees were actively using Claude within weeks of the firm-wide deployment. The speed and breadth of that adoption signal what's possible when the right technology is paired with the expertise to deploy it effectively, and that's exactly what this partnership delivers for Bain's employees and clients,\" says Steve Corfield, global head of business development and partnerships at Anthropic.",
+   "html": "&quot;More than 7,000 Bain employees were actively using Claude within weeks of the firm-wide deployment. The speed and breadth of that adoption signal what&#x27;s possible when the right technology is paired with the expertise to deploy it effectively, and that&#x27;s exactly what this partnership delivers for Bain&#x27;s employees and clients,&quot; says Steve Corfield, global head of business development and partnerships at Anthropic."
+  },
+  {
+   "type": "paragraph",
+   "text": "To learn more about working with Anthropic partners, visit the Claude Partner Network .",
+   "html": "To learn more about working with Anthropic partners, visit the <a href=\"https://claude.com/partners\">Claude Partner Network</a>."
+  },
+  {
+   "type": "paragraph",
+   "text": "‍",
+   "html": "‍"
+  }
+ ],
+ "links": [
+  {
+   "text": "Claude Partner Network",
+   "href": "https://claude.com/partners"
+  }
+ ],
+ "word_count": 460,
+ "fetched_at": "2026-08-25T15:54:03+00:00"
+}

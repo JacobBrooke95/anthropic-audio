@@ -4402,6 +4402,14 @@
       "updated": "2026-08-24T16:01:21+00:00",
       "slug": "claude-blog-2026-08-24-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee",
       "episode": 14
+    },
+    "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner": {
+      "first_seen": "2026-08-25T15:58:02+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-25T15:58:02+00:00",
+      "slug": "claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr",
+      "episode": 15
     }
   },
   "episodes": [
@@ -5251,8 +5259,30 @@
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8c5c59795765514bd8fd82_og_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-sales.jpg",
       "audio_v": 2,
       "intro_bed": 1
+    },
+    {
+      "slug": "claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr",
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "source": "claude-blog",
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "subtitle": "Anthropic and Bain & Company are partnering to help enterprises deploy AI, building on Bain's rollout of Claude to its 19,000 employees.",
+      "date": "2026-08-25T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Partner Network",
+          "href": "https://claude.com/partners"
+        }
+      ],
+      "word_count": 460,
+      "duration": 261.12,
+      "bytes": 2900161,
+      "episode": 15,
+      "created": "2026-08-25T15:58:02+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8d97d30a50ad6123e69746_og_bain-company-joins-the-claude-partner-network-as-a-global-premier-partner.jpg"
     }
   ],
-  "next_episode": 15,
+  "next_episode": 16,
   "baseline_date": "2026-08-14"
 }
