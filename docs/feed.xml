@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 25 Aug 2026 15:58:03 +0000</lastBuildDate>
-    <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:54:50 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 17:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,54 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Funding better evaluations of AI’s impact on wellbeing</title>
+      <itunes:title>News: Funding better evaluations of AI’s impact on wellbeing</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-25-wellbeing-research-grants/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/wellbeing-research-grants</guid>
+      <pubDate>Tue, 25 Aug 2026 17:00:00 +0000</pubDate>
+      <description>Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
+
+Source: https://www.anthropic.com/news/wellbeing-research-grants
+Published August 25, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• sources of emotional support: https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship
+• develop safeguards: https://www.anthropic.com/news/protecting-well-being-of-users
+• publish research: https://www.anthropic.com/research/claude-personal-guidance
+• sharing guidance: https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf
+• see our application form: https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-25-wellbeing-research-grants/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/wellbeing-research-grants">https://www.anthropic.com/news/wellbeing-research-grants</a><br/><strong>Published:</strong> August 25, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 541 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship">sources of emotional support</a></li><li><a href="https://www.anthropic.com/news/protecting-well-being-of-users">develop safeguards</a></li><li><a href="https://www.anthropic.com/research/claude-personal-guidance">publish research</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf">sharing guidance</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog">see our application form</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-25-wellbeing-research-grants/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-08-25-wellbeing-research-grants.mp3" length="2939213" type="audio/mpeg"/>
+      <itunes:duration>271</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-25-wellbeing-research-grants.jpg?v=b1b05ac9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-25-wellbeing-research-grants.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-08-25-wellbeing-research-grants.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.</itunes:subtitle>
+      <itunes:summary>Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
+
+Source: https://www.anthropic.com/news/wellbeing-research-grants
+Published August 25, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• sources of emotional support: https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship
+• develop safeguards: https://www.anthropic.com/news/protecting-well-being-of-users
+• publish research: https://www.anthropic.com/research/claude-personal-guidance
+• sharing guidance: https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf
+• see our application form: https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-25-wellbeing-research-grants/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>16</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-25-wellbeing-research-grants.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-25-wellbeing-research-grants.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</title>
       <itunes:title>Claude Blog: Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</itunes:title>

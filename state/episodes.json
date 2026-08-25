@@ -4410,6 +4410,14 @@
       "updated": "2026-08-25T15:58:02+00:00",
       "slug": "claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr",
       "episode": 15
+    },
+    "https://www.anthropic.com/news/wellbeing-research-grants": {
+      "first_seen": "2026-08-25T16:54:49+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-25T16:54:49+00:00",
+      "slug": "news-2026-08-25-wellbeing-research-grants",
+      "episode": 16
     }
   },
   "episodes": [
@@ -5281,8 +5289,46 @@
       "episode": 15,
       "created": "2026-08-25T15:58:02+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8d97d30a50ad6123e69746_og_bain-company-joins-the-claude-partner-network-as-a-global-premier-partner.jpg"
+    },
+    {
+      "slug": "news-2026-08-25-wellbeing-research-grants",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "source": "news",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "subtitle": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "date": "2026-08-25T17:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "sources of emotional support",
+          "href": "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship"
+        },
+        {
+          "text": "develop safeguards",
+          "href": "https://www.anthropic.com/news/protecting-well-being-of-users"
+        },
+        {
+          "text": "publish research",
+          "href": "https://www.anthropic.com/research/claude-personal-guidance"
+        },
+        {
+          "text": "sharing guidance",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf"
+        },
+        {
+          "text": "see our application form",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog"
+        }
+      ],
+      "word_count": 541,
+      "duration": 270.968163,
+      "bytes": 2939213,
+      "episode": 16,
+      "created": "2026-08-25T16:54:49+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadFlower&backgroundColor=heather"
     }
   ],
-  "next_episode": 16,
+  "next_episode": 17,
   "baseline_date": "2026-08-14"
 }
