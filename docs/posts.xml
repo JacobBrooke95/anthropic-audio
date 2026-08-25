@@ -10,7 +10,7 @@
     <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
     <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
     <webfeeds:accentColor>b5532e</webfeeds:accentColor>
-    <lastBuildDate>Tue, 25 Aug 2026 16:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 17:44:43 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <item>
       <title>News: Funding better evaluations of AI’s impact on wellbeing</title>
@@ -54,6 +54,34 @@
 <p>&quot;More than 7,000 Bain employees were actively using Claude within weeks of the firm-wide deployment. The speed and breadth of that adoption signal what&#x27;s possible when the right technology is paired with the expertise to deploy it effectively, and that&#x27;s exactly what this partnership delivers for Bain&#x27;s employees and clients,&quot; says Steve Corfield, global head of business development and partnerships at Anthropic.</p>
 <p>To learn more about working with Anthropic partners, visit the <a href="https://claude.com/partners">Claude Partner Network</a>.</p>
 <p>‍</p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Claude Blog: Claude's memory works everywhere, and you decide what's in it</title>
+      <link>https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</link>
+      <guid isPermaLink="true">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</guid>
+      <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Claude Blog</category>
+      <description>Wherever you work with Claude from Anthropic, it starts from what it already knows about you. — Claude Blog. Audio edition: https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.mp3</description>
+      <content:encoded><![CDATA[<p><em>Claude Blog · August 25, 2026</em><br/>Original: <a href="https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.mp3">Listen (4 min)</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/">Episode page</a></p><p><strong>Wherever you work with Claude from Anthropic, it starts from what it already knows about you.</strong></p><p>Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you&#x27;re tired of re-explaining, you can turn them on in Memory settings.</p>
+<figure><img src="https://jacobbrooke95.github.io/anthropic-audio/posts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/img/01.png" alt="" loading="lazy"></figure>
+<h2><strong>One memory across Claude Cowork and chat</strong></h2>
+<p>Cowork now has memory, and it’s the same one you use in chat, leading to less re-explaining and more picking up where you left off. When Cowork runs a task in the cloud, what Claude remembers from your chats is there, and vice versa. The context you&#x27;ve built up across months of conversations—for instance, your Q3 priorities and the status of your projects—is there the moment you hand Cowork a task, and what comes up in Cowork carries back to chat. </p>
+<p>Ask Cowork to draft an update for your manager, and it already knows who that is and how she likes updates written. Brainstorm the agenda in chat for a conference you’re organizing; when Cowork builds the budget and logistics doc, it knows the headcount, the city, and the speakers. Explain once in chat how your team defines its metrics, and every quarterly business review deck Cowork builds after that uses them, with no rebriefing.</p>
+<h2><strong>Memory updates as you chat</strong></h2>
+<p>Claude now adds topics to memory as you chat, instead of summarizing conversations after they end. Mention that your project deadline moved to September, and your next conversation already knows without you having to say &quot;remember this.&quot; You can pause memory or reset it at any time.</p>
+<h2><strong>See and edit your saved memories</strong></h2>
+<p>Everything Claude remembers is in a list of files under Topics in Memory settings, where you can read, edit, or delete each one. The files are short, and a fix pays off everywhere: correct your company&#x27;s old name in one file and every conversation from then on gets it right.</p>
+<figure><img src="https://jacobbrooke95.github.io/anthropic-audio/posts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/img/02.png" alt="" loading="lazy"></figure>
+<figure><img src="https://jacobbrooke95.github.io/anthropic-audio/posts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/img/03.png" alt="" loading="lazy"></figure>
+<h2><strong>Decide if you want Claude to remember sensitive topics</strong></h2>
+<p>By default, Claude does not store topics related to personal or sensitive subject matter, like your health, race, ethnicity, religious beliefs, politics, gender identity, and other similar areas.</p>
+<p>But what some consider sensitive, others may consider useful for Claude to remember. If you choose to turn on “include sensitive topics in memory,” Claude will remember things like your gluten allergy when suggesting recipes for weekly meal prep.</p>
+<p>With the setting turned on, each time Claude saves something on one of these topics to memory, you’ll see a notice. Claude saves sensitive topics going forward. Anything from before you turned it on isn&#x27;t saved retroactively. You can turn off this setting at any time.</p>
+<p>To protect your safety and privacy, there are some topics that Claude does not store even when you have sensitive topics in memory turned on. This includes sensitive identification numbers (SSN, government ID numbers, etc), criminal history, immigration status, or anything that violates our Acceptable Use Policy (AUP) in its memory. Claude will inform you when it&#x27;s unable to update memory to include any of this information. Visit the <a href="https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f">Help Center</a> to learn more.</p>
+<h2><strong>Getting started</strong></h2>
+<p>Memory is on by default on Free, Pro and Max plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates. For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on.</p>
+<p>Visit <a href="https://claude.ai/new#settings/customize-memory">Settings &gt; Memory</a> to turn memory on and control what Claude remembers.</p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</title>

@@ -4418,6 +4418,14 @@
       "updated": "2026-08-25T16:54:49+00:00",
       "slug": "news-2026-08-25-wellbeing-research-grants",
       "episode": 16
+    },
+    "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it": {
+      "first_seen": "2026-08-25T17:44:43+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-25T17:44:43+00:00",
+      "slug": "claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "episode": 17
     }
   },
   "episodes": [
@@ -5291,6 +5299,32 @@
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8d97d30a50ad6123e69746_og_bain-company-joins-the-claude-partner-network-as-a-global-premier-partner.jpg"
     },
     {
+      "slug": "claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "source": "claude-blog",
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "subtitle": "Wherever you work with Claude from Anthropic, it starts from what it already knows about you.",
+      "date": "2026-08-25T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Help Center",
+          "href": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f"
+        },
+        {
+          "text": "Settings > Memory",
+          "href": "https://claude.ai/new#settings/customize-memory"
+        }
+      ],
+      "word_count": 628,
+      "duration": 282.357551,
+      "bytes": 3048855,
+      "episode": 17,
+      "created": "2026-08-25T17:44:43+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8dcb60a9e2ed84590a8b9e_og_claudes-memory-works-everywhere-and-you-decide-whats-in-it.jpg"
+    },
+    {
       "slug": "news-2026-08-25-wellbeing-research-grants",
       "url": "https://www.anthropic.com/news/wellbeing-research-grants",
       "source": "news",
@@ -5329,6 +5363,6 @@
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadFlower&backgroundColor=heather"
     }
   ],
-  "next_episode": 17,
+  "next_episode": 18,
   "baseline_date": "2026-08-14"
 }

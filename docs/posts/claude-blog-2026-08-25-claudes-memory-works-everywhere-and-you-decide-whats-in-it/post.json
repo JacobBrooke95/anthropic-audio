@@ -1,0 +1,131 @@
+{
+ "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+ "title": "Claude's memory works everywhere, and you decide what's in it",
+ "subtitle": "Wherever you work with Claude from Anthropic, it starts from what it already knows about you.",
+ "date": "2026-08-25T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8dcb60a9e2ed84590a8b9e_og_claudes-memory-works-everywhere-and-you-decide-whats-in-it.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you're tired of re-explaining, you can turn them on in Memory settings.",
+   "html": "Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you&#x27;re tired of re-explaining, you can turn them on in Memory settings."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8cc19ec0d328f3250d2a32_3bc1dbe9.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/01.png"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "One memory across Claude Cowork and chat",
+   "html": "<strong>One memory across Claude Cowork and chat</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cowork now has memory, and it’s the same one you use in chat, leading to less re-explaining and more picking up where you left off. When Cowork runs a task in the cloud, what Claude remembers from your chats is there, and vice versa. The context you've built up across months of conversations—for instance, your Q3 priorities and the status of your projects—is there the moment you hand Cowork a task, and what comes up in Cowork carries back to chat.",
+   "html": "Cowork now has memory, and it’s the same one you use in chat, leading to less re-explaining and more picking up where you left off. When Cowork runs a task in the cloud, what Claude remembers from your chats is there, and vice versa. The context you&#x27;ve built up across months of conversations—for instance, your Q3 priorities and the status of your projects—is there the moment you hand Cowork a task, and what comes up in Cowork carries back to chat. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Ask Cowork to draft an update for your manager, and it already knows who that is and how she likes updates written. Brainstorm the agenda in chat for a conference you’re organizing; when Cowork builds the budget and logistics doc, it knows the headcount, the city, and the speakers. Explain once in chat how your team defines its metrics, and every quarterly business review deck Cowork builds after that uses them, with no rebriefing.",
+   "html": "Ask Cowork to draft an update for your manager, and it already knows who that is and how she likes updates written. Brainstorm the agenda in chat for a conference you’re organizing; when Cowork builds the budget and logistics doc, it knows the headcount, the city, and the speakers. Explain once in chat how your team defines its metrics, and every quarterly business review deck Cowork builds after that uses them, with no rebriefing."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Memory updates as you chat",
+   "html": "<strong>Memory updates as you chat</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude now adds topics to memory as you chat, instead of summarizing conversations after they end. Mention that your project deadline moved to September, and your next conversation already knows without you having to say \"remember this.\" You can pause memory or reset it at any time.",
+   "html": "Claude now adds topics to memory as you chat, instead of summarizing conversations after they end. Mention that your project deadline moved to September, and your next conversation already knows without you having to say &quot;remember this.&quot; You can pause memory or reset it at any time."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "See and edit your saved memories",
+   "html": "<strong>See and edit your saved memories</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Everything Claude remembers is in a list of files under Topics in Memory settings, where you can read, edit, or delete each one. The files are short, and a fix pays off everywhere: correct your company's old name in one file and every conversation from then on gets it right.",
+   "html": "Everything Claude remembers is in a list of files under Topics in Memory settings, where you can read, edit, or delete each one. The files are short, and a fix pays off everywhere: correct your company&#x27;s old name in one file and every conversation from then on gets it right."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8cc19ec0d328f3250d2a35_6e1ba645.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/02.png"
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8cc19ec0d328f3250d2a3d_e61d20fd.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/03.png"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Decide if you want Claude to remember sensitive topics",
+   "html": "<strong>Decide if you want Claude to remember sensitive topics</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "By default, Claude does not store topics related to personal or sensitive subject matter, like your health, race, ethnicity, religious beliefs, politics, gender identity, and other similar areas.",
+   "html": "By default, Claude does not store topics related to personal or sensitive subject matter, like your health, race, ethnicity, religious beliefs, politics, gender identity, and other similar areas."
+  },
+  {
+   "type": "paragraph",
+   "text": "But what some consider sensitive, others may consider useful for Claude to remember. If you choose to turn on “include sensitive topics in memory,” Claude will remember things like your gluten allergy when suggesting recipes for weekly meal prep.",
+   "html": "But what some consider sensitive, others may consider useful for Claude to remember. If you choose to turn on “include sensitive topics in memory,” Claude will remember things like your gluten allergy when suggesting recipes for weekly meal prep."
+  },
+  {
+   "type": "paragraph",
+   "text": "With the setting turned on, each time Claude saves something on one of these topics to memory, you’ll see a notice. Claude saves sensitive topics going forward. Anything from before you turned it on isn't saved retroactively. You can turn off this setting at any time.",
+   "html": "With the setting turned on, each time Claude saves something on one of these topics to memory, you’ll see a notice. Claude saves sensitive topics going forward. Anything from before you turned it on isn&#x27;t saved retroactively. You can turn off this setting at any time."
+  },
+  {
+   "type": "paragraph",
+   "text": "To protect your safety and privacy, there are some topics that Claude does not store even when you have sensitive topics in memory turned on. This includes sensitive identification numbers (SSN, government ID numbers, etc), criminal history, immigration status, or anything that violates our Acceptable Use Policy (AUP) in its memory. Claude will inform you when it's unable to update memory to include any of this information. Visit the Help Center to learn more.",
+   "html": "To protect your safety and privacy, there are some topics that Claude does not store even when you have sensitive topics in memory turned on. This includes sensitive identification numbers (SSN, government ID numbers, etc), criminal history, immigration status, or anything that violates our Acceptable Use Policy (AUP) in its memory. Claude will inform you when it&#x27;s unable to update memory to include any of this information. Visit the <a href=\"https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f\">Help Center</a> to learn more."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Getting started",
+   "html": "<strong>Getting started</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Memory is on by default on Free, Pro and Max plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates. For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on.",
+   "html": "Memory is on by default on Free, Pro and Max plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates. For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on."
+  },
+  {
+   "type": "paragraph",
+   "text": "Visit Settings > Memory to turn memory on and control what Claude remembers.",
+   "html": "Visit <a href=\"https://claude.ai/new#settings/customize-memory\">Settings &gt; Memory</a> to turn memory on and control what Claude remembers."
+  }
+ ],
+ "links": [
+  {
+   "text": "Help Center",
+   "href": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f"
+  },
+  {
+   "text": "Settings > Memory",
+   "href": "https://claude.ai/new#settings/customize-memory"
+  }
+ ],
+ "word_count": 628,
+ "fetched_at": "2026-08-25T17:39:04+00:00"
+}

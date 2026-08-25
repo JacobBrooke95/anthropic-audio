@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 50.73,
+   "title": "One memory across Claude Cowork and chat"
+  },
+  {
+   "startTime": 109.06,
+   "title": "Memory updates as you chat"
+  },
+  {
+   "startTime": 129.36,
+   "title": "See and edit your saved memories"
+  },
+  {
+   "startTime": 149.52,
+   "title": "Decide if you want Claude to remember sensitive topics"
+  },
+  {
+   "startTime": 227.48,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 260.95,
+   "title": "Outro"
+  }
+ ]
+}

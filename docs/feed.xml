@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 25 Aug 2026 16:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 17:44:43 +0000</lastBuildDate>
     <pubDate>Tue, 25 Aug 2026 17:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -115,6 +115,48 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>15</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-bain-company-joins-the-claude-partner-network-as-a-global-pr.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude's memory works everywhere, and you decide what's in it</title>
+      <itunes:title>Claude Blog: Claude's memory works everywhere, and you decide what's in it</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</guid>
+      <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Wherever you work with Claude from Anthropic, it starts from what it already knows about you.
+
+Source: https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it
+Published August 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Help Center: https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f
+• Settings &gt; Memory: https://claude.ai/new#settings/customize-memory
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Wherever you work with Claude from Anthropic, it starts from what it already knows about you.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</a><br/><strong>Published:</strong> August 25, 2026 · Claude Blog<br/><strong>Length:</strong> 628 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f">Help Center</a></li><li><a href="https://claude.ai/new#settings/customize-memory">Settings &gt; Memory</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.mp3" length="3048855" type="audio/mpeg"/>
+      <itunes:duration>282</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.jpg?v=afb9ac5d"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Wherever you work with Claude from Anthropic, it starts from what it already knows about you.</itunes:subtitle>
+      <itunes:summary>Wherever you work with Claude from Anthropic, it starts from what it already knows about you.
+
+Source: https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it
+Published August 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Help Center: https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_6fe1d0e66f
+• Settings &gt; Memory: https://claude.ai/new#settings/customize-memory
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>17</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Claude Blog: How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</title>

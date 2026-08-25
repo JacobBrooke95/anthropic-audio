@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.883
+This is Anthropic, Read Aloud. Today: Claude's memory works everywhere, and you decide what's in it.
+
+2
+00:00:09.183 --> 00:00:12.387
+Claude's memory works everywhere, and you decide what's in it.
+
+3
+00:00:12.837 --> 00:00:17.378
+Wherever you work with Claude from Anthropic, it starts from what it already knows about you.
+
+4
+00:00:17.828 --> 00:00:22.039
+From Claude Blog, published August 25, 2026.
+
+5
+00:00:23.039 --> 00:00:37.993
+Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it.
+
+6
+00:00:38.113 --> 00:00:49.931
+Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you're tired of re-explaining, you can turn them on in Memory settings.
+
+7
+00:00:50.731 --> 00:00:53.119
+One memory across Claude Cowork and chat.
+
+8
+00:00:53.569 --> 00:01:07.684
+Cowork now has memory, and it’s the same one you use in chat, leading to less re-explaining and more picking up where you left off. When Cowork runs a task in the cloud, what Claude remembers from your chats is there, and vice versa.
+
+9
+00:01:07.804 --> 00:01:21.001
+The context you've built up across months of conversations, for instance, your Q3 priorities and the status of your projects, is there the moment you hand Cowork a task, and what comes up in Cowork carries back to chat.
+
+10
+00:01:21.451 --> 00:01:38.580
+Ask Cowork to draft an update for your manager, and it already knows who that is and how she likes updates written. Brainstorm the agenda in chat for a conference you’re organizing; when Cowork builds the budget and logistics doc, it knows the headcount, the city, and the speakers.
+
+11
+00:01:38.700 --> 00:01:48.260
+Explain once in chat how your team defines its metrics, and every quarterly business review deck Cowork builds after that uses them, with no rebriefing.
+
+12
+00:01:49.060 --> 00:01:50.723
+Memory updates as you chat.
+
+13
+00:01:51.173 --> 00:02:08.560
+Claude now adds topics to memory as you chat, instead of summarizing conversations after they end. Mention that your project deadline moved to September, and your next conversation already knows without you having to say "remember this." You can pause memory or reset it at any time.
+
+14
+00:02:09.360 --> 00:02:11.196
+See and edit your saved memories.
+
+15
+00:02:11.646 --> 00:02:28.719
+Everything Claude remembers is in a list of files under Topics in Memory settings, where you can read, edit, or delete each one. The files are short, and a fix pays off everywhere: correct your company's old name in one file and every conversation from then on gets it right.
+
+16
+00:02:29.519 --> 00:02:32.604
+Decide if you want Claude to remember sensitive topics.
+
+17
+00:02:33.054 --> 00:02:45.812
+By default, Claude does not store topics related to personal or sensitive subject matter, like your health, race, ethnicity, religious beliefs, politics, gender identity, and other similar areas.
+
+18
+00:02:46.262 --> 00:03:00.956
+But what some consider sensitive, others may consider useful for Claude to remember. If you choose to turn on “include sensitive topics in memory,” Claude will remember things like your gluten allergy when suggesting recipes for weekly meal prep.
+
+19
+00:03:01.406 --> 00:03:16.770
+With the setting turned on, each time Claude saves something on one of these topics to memory, you’ll see a notice. Claude saves sensitive topics going forward. Anything from before you turned it on isn't saved retroactively. You can turn off this setting at any time.
+
+20
+00:03:17.220 --> 00:03:38.892
+To protect your safety and privacy, there are some topics that Claude does not store even when you have sensitive topics in memory turned on. This includes sensitive identification numbers (SSN, government I D numbers, etc), criminal history, immigration status, or anything that violates our Acceptable Use Policy (AUP) in its memory.
+
+21
+00:03:39.012 --> 00:03:46.676
+Claude will inform you when it's unable to update memory to include any of this information. Visit the Help Center to learn more.
+
+22
+00:03:47.476 --> 00:03:48.488
+Getting started.
+
+23
+00:03:48.938 --> 00:04:06.104
+Memory is on by default on Free, Pro and Max plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates.
+
+24
+00:04:06.224 --> 00:04:15.103
+For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on.
+
+25
+00:04:15.553 --> 00:04:19.948
+Visit Settings > Memory to turn memory on and control what Claude remembers.
+
+26
+00:04:20.948 --> 00:04:38.373
+That was Claude's memory works everywhere, and you decide what's in it, from Claude Blog, published August 25, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
