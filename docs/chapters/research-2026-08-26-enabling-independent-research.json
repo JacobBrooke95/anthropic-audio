@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 153.46,
+   "title": "What the researchers learned"
+  },
+  {
+   "startTime": 457.05,
+   "title": "What our team learned"
+  },
+  {
+   "startTime": 693.02,
+   "title": "Looking forward"
+  },
+  {
+   "startTime": 765.55,
+   "title": "Appendix"
+  },
+  {
+   "startTime": 813.08,
+   "title": "Contributions and acknowledgements"
+  },
+  {
+   "startTime": 996.04,
+   "title": "Citation"
+  },
+  {
+   "startTime": 1002.78,
+   "title": "Outro"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 159.74,
+   "title": "Agent self-improvement loops built on skills"
+  },
+  {
+   "startTime": 295.21,
+   "title": "How to write self-improving skills for agents"
+  },
+  {
+   "startTime": 431.78,
+   "title": "The loop in action: Warp’s issue triage agent"
+  },
+  {
+   "startTime": 703.63,
+   "title": "Outro"
+  }
+ ]
+}

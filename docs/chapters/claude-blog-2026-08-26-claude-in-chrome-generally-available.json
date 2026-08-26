@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 91.89,
+   "title": "Safeguarding against prompt injection"
+  },
+  {
+   "startTime": 268.34,
+   "title": "Measuring Claude’s robustness against prompt injection"
+  },
+  {
+   "startTime": 452.32,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 489.81,
+   "title": "Outro"
+  }
+ ]
+}

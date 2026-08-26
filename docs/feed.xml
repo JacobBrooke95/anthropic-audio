@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 25 Aug 2026 17:44:43 +0000</lastBuildDate>
-    <pubDate>Tue, 25 Aug 2026 17:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2026 19:49:18 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,176 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Enabling independent research on how people use Claude</title>
+      <itunes:title>Research: Enabling independent research on how people use Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-26-enabling-independent-research/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
+      <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.
+
+Source: https://www.anthropic.com/research/enabling-independent-research
+Published August 26, 2026 · Anthropic Research
+
+Links referenced in the post:
+• expression of interest form: https://docs.google.com/forms/d/e/1FAIpQLScujFA2mJXnLhrvE7wazD7drfHlfRmfnrjhMZRpeIFW_b6I7Q/viewform?usp=sharing&amp;ouid=108982467493638405621
+• Anthropic Insights: https://www.anthropic.com/research/clio
+• Appendix: https://www-cdn.anthropic.com/files/4zrzovbb/website/8a665c85eec3a63b4d86287b9255657016f50e29.pdf
+• the aggregate data from each project: https://huggingface.co/datasets/Anthropic/enabling-independent-research
+• Social and Language Technologies (SALT) Lab: https://cs.stanford.edu/~diyiy/group.html
+• Human Information Processing Lab: https://humaninformationprocessing.com/
+• METR: https://metr.org/
+• here: https://www.alphaxiv.org/abs/2608.human-ai-collaboration-at-scalev1
+• AI takes on more of its own development: https://www.anthropic.com/institute/recursive-self-improvement
+• Agentic coding and persistent returns to expertise: https://www.anthropic.com/research/claude-code-expertise
+• this form: https://docs.google.com/forms/d/1PyyC-GU4Jra2WoXWcJjuFXZhM-lRxeBNnlh1tJv_2Jg/edit
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-26-enabling-independent-research/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/enabling-independent-research">https://www.anthropic.com/research/enabling-independent-research</a><br/><strong>Published:</strong> August 26, 2026 · Anthropic Research<br/><strong>Category:</strong> Societal Impacts<br/><strong>Length:</strong> 2,489 words · 17 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://docs.google.com/forms/d/e/1FAIpQLScujFA2mJXnLhrvE7wazD7drfHlfRmfnrjhMZRpeIFW_b6I7Q/viewform?usp=sharing&amp;ouid=108982467493638405621">expression of interest form</a></li><li><a href="https://www.anthropic.com/research/clio">Anthropic Insights</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/8a665c85eec3a63b4d86287b9255657016f50e29.pdf">Appendix</a></li><li><a href="https://huggingface.co/datasets/Anthropic/enabling-independent-research">the aggregate data from each project</a></li><li><a href="https://cs.stanford.edu/~diyiy/group.html">Social and Language Technologies (SALT) Lab</a></li><li><a href="https://humaninformationprocessing.com/">Human Information Processing Lab</a></li><li><a href="https://metr.org/">METR</a></li><li><a href="https://www.alphaxiv.org/abs/2608.human-ai-collaboration-at-scalev1">here</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">AI takes on more of its own development</a></li><li><a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a></li><li><a href="https://docs.google.com/forms/d/1PyyC-GU4Jra2WoXWcJjuFXZhM-lRxeBNnlh1tJv_2Jg/edit">this form</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-26-enabling-independent-research/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-08-26-enabling-independent-research.mp3" length="8972201" type="audio/mpeg"/>
+      <itunes:duration>1025</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-08-26-enabling-independent-research.jpg?v=fdb10244"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-26-enabling-independent-research.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-08-26-enabling-independent-research.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share hig</itunes:subtitle>
+      <itunes:summary>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.
+
+Source: https://www.anthropic.com/research/enabling-independent-research
+Published August 26, 2026 · Anthropic Research
+
+Links referenced in the post:
+• expression of interest form: https://docs.google.com/forms/d/e/1FAIpQLScujFA2mJXnLhrvE7wazD7drfHlfRmfnrjhMZRpeIFW_b6I7Q/viewform?usp=sharing&amp;ouid=108982467493638405621
+• Anthropic Insights: https://www.anthropic.com/research/clio
+• Appendix: https://www-cdn.anthropic.com/files/4zrzovbb/website/8a665c85eec3a63b4d86287b9255657016f50e29.pdf
+• the aggregate data from each project: https://huggingface.co/datasets/Anthropic/enabling-independent-research
+• Social and Language Technologies (SALT) Lab: https://cs.stanford.edu/~diyiy/group.html
+• Human Information Processing Lab: https://humaninformationprocessing.com/
+• METR: https://metr.org/
+• here: https://www.alphaxiv.org/abs/2608.human-ai-collaboration-at-scalev1
+• AI takes on more of its own development: https://www.anthropic.com/institute/recursive-self-improvement
+• Agentic coding and persistent returns to expertise: https://www.anthropic.com/research/claude-code-expertise
+• this form: https://docs.google.com/forms/d/1PyyC-GU4Jra2WoXWcJjuFXZhM-lRxeBNnlh1tJv_2Jg/edit
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-26-enabling-independent-research/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>18</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-26-enabling-independent-research.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-26-enabling-independent-research.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude in Chrome is generally available</title>
+      <itunes:title>Claude Blog: Claude in Chrome is generally available</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-claude-in-chrome-generally-available/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-in-chrome-generally-available</guid>
+      <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here's how we tested it against prompt injection.
+
+Source: https://claude.com/blog/claude-in-chrome-generally-available
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• connect to Claude: http://claude.com/connectors
+• prompt injection: https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks
+• we outlined: https://claude.com/blog/claude-for-chrome
+• browser-use safeguards: https://www.anthropic.com/research/prompt-injection-defenses
+• probes: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• auto mode: https://claude.com/blog/auto-mode-default-in-claude-code
+• Cowork harness: https://claude.com/blog/cowork-chrome-side-panel
+• current evaluation: https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf#page=76.73
+• Chrome Web Store: https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn
+• admin setup guide: https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls#h_bdb63199e1
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-claude-in-chrome-generally-available/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here&#x27;s how we tested it against prompt injection.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-in-chrome-generally-available">https://claude.com/blog/claude-in-chrome-generally-available</a><br/><strong>Published:</strong> August 26, 2026 · Claude Blog<br/><strong>Length:</strong> 1,010 words · 8 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="http://claude.com/connectors">connect to Claude</a></li><li><a href="https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks">prompt injection</a></li><li><a href="https://claude.com/blog/claude-for-chrome">we outlined</a></li><li><a href="https://www.anthropic.com/research/prompt-injection-defenses">browser-use safeguards</a></li><li><a href="https://www.anthropic.com/research/next-generation-constitutional-classifiers">probes</a></li><li><a href="https://claude.com/blog/auto-mode-default-in-claude-code">auto mode</a></li><li><a href="https://claude.com/blog/cowork-chrome-side-panel">Cowork harness</a></li><li><a href="https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf#page=76.73">current evaluation</a></li><li><a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Chrome Web Store</a></li><li><a href="https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls#h_bdb63199e1">admin setup guide</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-claude-in-chrome-generally-available/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-26-claude-in-chrome-generally-available.mp3" length="4846447" type="audio/mpeg"/>
+      <itunes:duration>510</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-26-claude-in-chrome-generally-available.jpg?v=800dce26"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-claude-in-chrome-generally-available.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-26-claude-in-chrome-generally-available.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here's how we tested it against prompt injection.</itunes:subtitle>
+      <itunes:summary>Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here's how we tested it against prompt injection.
+
+Source: https://claude.com/blog/claude-in-chrome-generally-available
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• connect to Claude: http://claude.com/connectors
+• prompt injection: https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks
+• we outlined: https://claude.com/blog/claude-for-chrome
+• browser-use safeguards: https://www.anthropic.com/research/prompt-injection-defenses
+• probes: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• auto mode: https://claude.com/blog/auto-mode-default-in-claude-code
+• Cowork harness: https://claude.com/blog/cowork-chrome-side-panel
+• current evaluation: https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf#page=76.73
+• Chrome Web Store: https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn
+• admin setup guide: https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls#h_bdb63199e1
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-claude-in-chrome-generally-available/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>19</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-claude-in-chrome-generally-available.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-claude-in-chrome-generally-available.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: How Warp builds self-improving agents on Claude</title>
+      <itunes:title>Claude Blog: How Warp builds self-improving agents on Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</guid>
+      <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
+      <description>How Warp devised a simple development pattern that anyone can use to create self-improving agents.
+
+Source: https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• Agent Skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+• skills: https://support.claude.com/en/articles/12512176-what-are-skills
+• A good skill: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+• Warp’s issue triage agent: https://github.com/warpdotdev/warp-agents-demo-github-issue-triage
+• Oz, Warp's agent orchestration platform: https://docs.warp.dev/
+• View the full webinar: https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude
+• Claude Platform: https://platform.claude.com/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How Warp devised a simple development pattern that anyone can use to create self-improving agents.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude">https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</a><br/><strong>Published:</strong> August 26, 2026 · Claude Blog<br/><strong>Length:</strong> 1,385 words · 12 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview">Agent Skills</a></li><li><a href="https://support.claude.com/en/articles/12512176-what-are-skills">skills</a></li><li><a href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices">A good skill</a></li><li><a href="https://github.com/warpdotdev/warp-agents-demo-github-issue-triage">Warp’s issue triage agent</a></li><li><a href="https://docs.warp.dev/">Oz, Warp&#x27;s agent orchestration platform</a></li><li><a href="https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude">View the full webinar</a></li><li><a href="https://platform.claude.com/">Claude Platform</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.mp3" length="6569222" type="audio/mpeg"/>
+      <itunes:duration>725</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.jpg?v=3d46e1a7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>How Warp devised a simple development pattern that anyone can use to create self-improving agents.</itunes:subtitle>
+      <itunes:summary>How Warp devised a simple development pattern that anyone can use to create self-improving agents.
+
+Source: https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• Agent Skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+• skills: https://support.claude.com/en/articles/12512176-what-are-skills
+• A good skill: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+• Warp’s issue triage agent: https://github.com/warpdotdev/warp-agents-demo-github-issue-triage
+• Oz, Warp's agent orchestration platform: https://docs.warp.dev/
+• View the full webinar: https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude
+• Claude Platform: https://platform.claude.com/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>20</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Funding better evaluations of AI’s impact on wellbeing</title>
       <itunes:title>News: Funding better evaluations of AI’s impact on wellbeing</itunes:title>

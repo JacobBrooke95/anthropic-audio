@@ -4426,6 +4426,30 @@
       "updated": "2026-08-25T17:44:43+00:00",
       "slug": "claude-blog-2026-08-25-claudes-memory-works-everywhere-and-you-decide-whats-in-it",
       "episode": 17
+    },
+    "https://www.anthropic.com/research/enabling-independent-research": {
+      "first_seen": "2026-08-26T19:29:57+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-26T19:29:57+00:00",
+      "slug": "research-2026-08-26-enabling-independent-research",
+      "episode": 18
+    },
+    "https://claude.com/blog/claude-in-chrome-generally-available": {
+      "first_seen": "2026-08-26T19:37:52+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-26T19:37:52+00:00",
+      "slug": "claude-blog-2026-08-26-claude-in-chrome-generally-available",
+      "episode": 19
+    },
+    "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude": {
+      "first_seen": "2026-08-26T19:49:17+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-26T19:49:17+00:00",
+      "slug": "claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude",
+      "episode": 20
     }
   },
   "episodes": [
@@ -5361,8 +5385,174 @@
       "episode": 16,
       "created": "2026-08-25T16:54:49+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadFlower&backgroundColor=heather"
+    },
+    {
+      "slug": "research-2026-08-26-enabling-independent-research",
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "source": "research",
+      "title": "Enabling independent research on how people use Claude",
+      "subtitle": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+      "date": "2026-08-26T16:00:00+00:00",
+      "authors": [],
+      "category": "Societal Impacts",
+      "links": [
+        {
+          "text": "expression of interest form",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLScujFA2mJXnLhrvE7wazD7drfHlfRmfnrjhMZRpeIFW_b6I7Q/viewform?usp=sharing&ouid=108982467493638405621"
+        },
+        {
+          "text": "Anthropic Insights",
+          "href": "https://www.anthropic.com/research/clio"
+        },
+        {
+          "text": "Appendix",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/8a665c85eec3a63b4d86287b9255657016f50e29.pdf"
+        },
+        {
+          "text": "the aggregate data from each project",
+          "href": "https://huggingface.co/datasets/Anthropic/enabling-independent-research"
+        },
+        {
+          "text": "Social and Language Technologies (SALT) Lab",
+          "href": "https://cs.stanford.edu/~diyiy/group.html"
+        },
+        {
+          "text": "Human Information Processing Lab",
+          "href": "https://humaninformationprocessing.com/"
+        },
+        {
+          "text": "METR",
+          "href": "https://metr.org/"
+        },
+        {
+          "text": "here",
+          "href": "https://www.alphaxiv.org/abs/2608.human-ai-collaboration-at-scalev1"
+        },
+        {
+          "text": "AI takes on more of its own development",
+          "href": "https://www.anthropic.com/institute/recursive-self-improvement"
+        },
+        {
+          "text": "Agentic coding and persistent returns to expertise",
+          "href": "https://www.anthropic.com/research/claude-code-expertise"
+        },
+        {
+          "text": "this form",
+          "href": "https://docs.google.com/forms/d/1PyyC-GU4Jra2WoXWcJjuFXZhM-lRxeBNnlh1tJv_2Jg/edit"
+        }
+      ],
+      "word_count": 2489,
+      "duration": 1024.940408,
+      "bytes": 8972201,
+      "episode": 18,
+      "created": "2026-08-26T19:29:57+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20LampBooks&backgroundColor=heather"
+    },
+    {
+      "slug": "claude-blog-2026-08-26-claude-in-chrome-generally-available",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "source": "claude-blog",
+      "title": "Claude in Chrome is generally available",
+      "subtitle": "Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here's how we tested it against prompt injection.",
+      "date": "2026-08-26T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "connect to Claude",
+          "href": "http://claude.com/connectors"
+        },
+        {
+          "text": "prompt injection",
+          "href": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks"
+        },
+        {
+          "text": "we outlined",
+          "href": "https://claude.com/blog/claude-for-chrome"
+        },
+        {
+          "text": "browser-use safeguards",
+          "href": "https://www.anthropic.com/research/prompt-injection-defenses"
+        },
+        {
+          "text": "probes",
+          "href": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+        },
+        {
+          "text": "auto mode",
+          "href": "https://claude.com/blog/auto-mode-default-in-claude-code"
+        },
+        {
+          "text": "Cowork harness",
+          "href": "https://claude.com/blog/cowork-chrome-side-panel"
+        },
+        {
+          "text": "current evaluation",
+          "href": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf#page=76.73"
+        },
+        {
+          "text": "Chrome Web Store",
+          "href": "https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn"
+        },
+        {
+          "text": "admin setup guide",
+          "href": "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls#h_bdb63199e1"
+        }
+      ],
+      "word_count": 1010,
+      "duration": 510.354286,
+      "bytes": 4846447,
+      "episode": 19,
+      "created": "2026-08-26T19:37:52+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "source": "claude-blog",
+      "title": "How Warp builds self-improving agents on Claude",
+      "subtitle": "How Warp devised a simple development pattern that anyone can use to create self-improving agents.",
+      "date": "2026-08-26T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Agent Skills",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"
+        },
+        {
+          "text": "skills",
+          "href": "https://support.claude.com/en/articles/12512176-what-are-skills"
+        },
+        {
+          "text": "A good skill",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices"
+        },
+        {
+          "text": "Warp’s issue triage agent",
+          "href": "https://github.com/warpdotdev/warp-agents-demo-github-issue-triage"
+        },
+        {
+          "text": "Oz, Warp's agent orchestration platform",
+          "href": "https://docs.warp.dev/"
+        },
+        {
+          "text": "View the full webinar",
+          "href": "https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude"
+        },
+        {
+          "text": "Claude Platform",
+          "href": "https://platform.claude.com/"
+        }
+      ],
+      "word_count": 1385,
+      "duration": 724.715102,
+      "bytes": 6569222,
+      "episode": 20,
+      "created": "2026-08-26T19:49:17+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8f1a88683b6dcd40c0dbc2_og_how-warp-builds-self-improving-agents-on-claude.jpg"
     }
   ],
-  "next_episode": 18,
+  "next_episode": 21,
   "baseline_date": "2026-08-14"
 }

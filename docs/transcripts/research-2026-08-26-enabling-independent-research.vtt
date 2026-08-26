@@ -1,0 +1,305 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.148
+This is Anthropic, Read Aloud. Today: Enabling independent research on how people use Claude.
+
+2
+00:00:09.448 --> 00:00:12.746
+Enabling independent research on how people use Claude.
+
+3
+00:00:13.196 --> 00:00:17.774
+From Anthropic Research, published August 26, 2026.
+
+4
+00:00:18.774 --> 00:00:38.329
+Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool; we ran the data collection on their behalf, and they conducted their own independent analysis.
+
+5
+00:00:38.449 --> 00:00:50.529
+In this post, we share high-level results from those studies and what we learned running this pilot. We’re also providing an expression of interest form for researchers who may want to work with us in the future.
+
+6
+00:00:50.979 --> 00:01:11.531
+Ensuring the transition to transformative A I goes well requires understanding its impact on people and society. Right now, data on real-world interactions with A I is concentrated in a handful of labs. We think it would be good if more data was made widely available, to researchers, policymakers, and the general public.
+
+7
+00:01:11.981 --> 00:01:32.754
+Researchers outside the labs have two options. They can draw on analyses the labs publish, which reflect real usage but often answer the lab’s questions, rather than their own. Or they can use public datasets, which they can study however they like, but skew toward more casual use, and may not reflect how most people actually use A I.
+
+8
+00:01:32.874 --> 00:01:37.754
+Neither is sufficient for independent research on how A I is actually being used.
+
+9
+00:01:38.204 --> 00:01:57.872
+This spring, we piloted a program in which three external research institutions designed and ran their own studies on Claude usage data through Anthropic Insights (formerly named ‘Clio’), the privacy-preserving tool our own teams use to analyze usage patterns across millions of Claude conversations.
+
+10
+00:01:57.992 --> 00:02:10.536
+We hope to scale this program in the future, so we also conducted an additional privacy audit of all data shared with third-party researchers to verify that our privacy protections held (see Appendix ).
+
+11
+00:02:10.986 --> 00:02:32.661
+We believe this is the first time external researchers have run public independent studies on an A I company's own usage data. Below, we discuss what the external teams found, what we learned running the pilot, and what we are weighing as we decide how to expand the program more widely. We are also publicly releasing the aggregate data from each project.
+
+12
+00:02:33.461 --> 00:02:34.830
+What the researchers learned.
+
+13
+00:02:35.280 --> 00:02:51.917
+We partnered with three research groups: the Social and Language Technologies (SALT) Lab at Stanford University, the Human Information Processing Lab at the University of Oxford, and METR, a non-profit organization that evaluates frontier A I models.
+
+14
+00:02:52.037 --> 00:03:07.546
+Each group developed its own research questions and used Anthropic Insights to conduct privacy-preserving analysis of roughly 250000 Claude.ai or Claude Code conversations from April-May 2026.
+
+15
+00:03:07.996 --> 00:03:23.569
+We wanted our external partners to have as much independence as possible, so our contractual review rights were limited to user privacy, information that could help people violate our usage policies, Anthropic’s confidential information, and research accuracy.
+
+16
+00:03:23.689 --> 00:03:40.881
+Anthropic otherwise had no say in the content of the findings and the researchers are free to publish their results even if they are inconvenient for Anthropic. Below are some early results. We're excited about the directions, and about what others will find now that the data is public.
+
+17
+00:03:41.331 --> 00:03:56.454
+The Social and Language Technologies Lab studied how humans collaborate with A I. They looked at what types of work people bring to A I, what roles humans retain in completing that work, and where human-A I collaboration breaks down. They found:
+
+18
+00:03:56.904 --> 00:04:19.793
+People bring high-stakes work to A I more than expected. Prior research suggested people mostly delegate low-accountability tasks to A I and keep consequential tasks (that is, work that affects others or is hard to undo) for themselves. But the SALT Lab found that over half of Claude conversations involved people delegating consequential tasks to A I.
+
+19
+00:04:19.913 --> 00:04:28.378
+People were most likely to bring consequential work to Claude when seeking professional guidance, particularly on legal or financial questions.
+
+20
+00:04:28.618 --> 00:04:49.608
+People usually direct and oversee the work when they collaborate with Claude. In nearly three-quarters of conversations, people set the direction while Claude assisted, and they usually adapted its output rather than using it verbatim. But even when directing Claude on the output they want, people vary in how much they understand and learn from what Claude produces.
+
+21
+00:04:49.848 --> 00:04:57.091
+It is common for people to experience friction when collaborating with A I. However, that friction is often productive.
+
+22
+00:04:57.211 --> 00:05:14.658
+The time and effort that people put into seeing how Claude attempts a task, identifying where the request was unclear or misunderstood, and iterating on their direction leads to better results to it pushes people to clarify their intent, refine the output, or stay engaged with the problem.
+
+23
+00:05:15.108 --> 00:05:16.591
+Read their full writeup here.
+
+24
+00:05:17.041 --> 00:05:26.441
+The Human Information Processing Lab is studying how people feel while using Claude and how that relates to Claude’s behavior. Their early results indicate:
+
+25
+00:05:26.891 --> 00:05:49.419
+How people feel when using A I is linked to how A I behaves. The researchers found patterns of human and A I behavior appeared together in conversations: Claude being warm went together with people being more positive. Claude refusing or disagreeing went together with people pushing back. Claude being eccentric went together with people getting more intellectually engaged.
+
+26
+00:05:49.539 --> 00:05:53.635
+And Claude simply helping went together with people seeming satisfied.
+
+27
+00:05:53.875 --> 00:06:15.883
+People’s experience when using A I looks a lot like it does on the rest of the web. The researchers found that the patterns among states like absorption, frustration, and enjoyment in Claude conversations closely resemble those in a separate study on everyday internet browsing, suggesting similarities in how people engage with A I and with other digital activity.
+
+28
+00:06:16.333 --> 00:06:20.929
+They are still completing their writeup. When it is public, we will add a link to it here.
+
+29
+00:06:21.379 --> 00:06:36.562
+METR is estimating real-world productivity gains from coding agents and how these increases in productivity change across model generations. Their analysis of Claude Code conversations is still underway, but early results suggest:
+
+30
+00:06:37.012 --> 00:06:58.132
+More capable models may save users more time. METR compared Claude’s guesses on how long tasks would have taken without A I to how long they actually took with different Claude models. Their preliminary findings indicate newer models deliver significant speedup over older models. METR plans on sharing more as their analysis develops.
+
+31
+00:06:58.372 --> 00:07:15.565
+A I can estimate time taken reasonably well. Because the analysis relies on Claude judging how long a task would take, METR compared those judgments to known completion times from a prior developer study. Claude's estimates correlated with the actual time taken by developers.
+
+32
+00:07:15.805 --> 00:07:31.207
+Next: measure how much A I accelerates research. METR is continuing to investigate how their study can provide insight into how much A I speeds up researchers’ work, which could become increasingly important as A I takes on more of its own development.
+
+33
+00:07:31.657 --> 00:07:36.252
+They are still completing their writeup. When it is public, we will add a link to it here.
+
+34
+00:07:37.052 --> 00:07:38.175
+What our team learned.
+
+35
+00:07:38.625 --> 00:07:57.036
+Sharing usage data is largely unprecedented in A I, so this pilot was as much an experiment in running such a program as it was a way to enable third-party research in a privacy-preserving way. Protecting our users’ privacy and the researchers’ independence were both paramount, and we achieved both.
+
+36
+00:07:57.156 --> 00:08:19.193
+Anthropic Insights is designed for this, researchers never accessed raw conversations, only aggregated outputs after the same legal and privacy review as our internal work. However, all of this made the pilot slow for an A I lab’s normal research speed and resource intensive to run. Both factors present a challenge to effectively scaling it.
+
+37
+00:08:19.313 --> 00:08:27.569
+For more details on how we ran this pilot, see the Appendix. Below we discuss what we learned and how we addressed the challenges that arose.
+
+38
+00:08:28.019 --> 00:08:36.986
+It is valuable to pursue the same problem from different perspectives. Some of our partners’ research questions overlapped with work being pursued internally.
+
+39
+00:08:37.106 --> 00:08:58.009
+For example, METR’s proposal was similar to our economics research on “ Agentic coding and persistent returns to expertise.” We found this overlap valuable: it gave external researchers the chance to examine similar data and draw their own conclusions. Whether those align with ours is something we’ll follow as their study continues.
+
+40
+00:08:58.129 --> 00:09:04.692
+We also connected METR with our Economics team and found that this connection improved both research teams’ work.
+
+41
+00:09:05.142 --> 00:09:20.648
+Research methods that work internally need to adapt for external partners. When using Anthropic Insights, a researcher writes a question such as, “What type of guidance is this person asking for?” and Claude answers it for every conversation in the study.
+
+42
+00:09:20.768 --> 00:09:40.613
+The answers are then aggregated into categories; researchers only see final categories and the percentage of conversations that fall under each one. Because we are relying on Claude’s judgments, the tool is sensitive to a question’s wording; a poorly phrased one can place conversations into categories that misrepresent them.
+
+43
+00:09:40.733 --> 00:09:45.640
+Because no one can read the underlying conversations, these errors are hard to catch.
+
+44
+00:09:46.090 --> 00:09:58.870
+Internally, we manage this by iterating on the questions many times over weeks. External partners couldn’t do that, since repeated privacy review before sharing each dataset would have made the study infeasible.
+
+45
+00:09:58.990 --> 00:10:10.077
+Instead, we had them test their questions on WildChat, a public dataset of human-A I conversations where they could check the answers against the underlying conversations themselves.
+
+46
+00:10:10.197 --> 00:10:29.930
+But WildChat skews toward casual and creative use, unlike Claude traffic, so some questions that performed well on WildChat produced misleading categories once applied to actual Claude conversations. We addressed this by providing guidance on how to interpret Anthropic Insight’s outputs (see Appendix ).
+
+47
+00:10:30.050 --> 00:10:37.751
+Going forward, we are exploring how external researchers can develop their questions and categories more effectively in advance.
+
+48
+00:10:38.201 --> 00:11:00.594
+Maintaining transparency about misuse without enabling it. Some categories in our partners’ Anthropic Insights outputs surfaced violations of our Acceptable Use Policy or Terms of Service, for instance a category of people seeking guidance on a prohibited activity. We think the public should know about misuse of our platform, so we shared most of these violations.
+
+49
+00:11:00.714 --> 00:11:17.677
+The exceptions were categories that described how users got around our safeguards rather than what they attempted. Less than 5 percent of categories and conversations were affected in each study, and in each case we told researchers which clusters we had altered or removed and why.
+
+50
+00:11:17.797 --> 00:11:32.225
+As a standard practice, when Anthropic Insights surfaces such violations, we share the aggregated data with our Safeguards team for their review. This is also an important process for our work with external researchers moving forward.
+
+51
+00:11:33.025 --> 00:11:34.022
+Looking forward.
+
+52
+00:11:34.472 --> 00:11:49.174
+Understanding A I’s effects on society is too big a job for A I companies alone. Real oversight needs external researchers asking their own questions of real-world usage data and publishing what they find independently.
+
+53
+00:11:49.624 --> 00:12:05.560
+This pilot was an experiment: could external researchers conduct independent studies on our platform without compromising our users’ privacy? The effort was more challenging than we expected, and we learned many lessons, but so far the answer seems to be yes.
+
+54
+00:12:05.680 --> 00:12:17.100
+Our partners pursued research we would not have thought to design ourselves, and each told us something new about A I’s real-world impacts. This is a promising first step, but there is far more to do.
+
+55
+00:12:17.550 --> 00:12:37.289
+The next step is for us to determine whether we can scale this program, both in what kinds of studies we can support given the constraints described above, and in how many we can run at once. We are starting slowly to ensure privacy, safety, and research quality. We want to gauge interest and understand what researchers would want to study.
+
+56
+00:12:37.409 --> 00:12:44.754
+If you are a researcher and access to Anthropic Insights would let you pursue work you cannot do today, please fill out this form.
+
+57
+00:12:45.554 --> 00:12:46.348
+Appendix.
+
+58
+00:12:46.798 --> 00:13:04.352
+The full appendix is available here. It describes how we ran the program, including how we chose our three partners, the research primer we wrote to explain the program’s goals and what Anthropic Insights can do, and how each project moved from proposal to study design to analysis.
+
+59
+00:13:04.472 --> 00:13:25.100
+It also includes details of our collaboration agreements, which explicitly say our partners are free to publish findings even when they are inconvenient for Anthropic. Furthermore, we cover the third-party privacy audit of this data, conducted by Imperial College London, and the privacy threat model we hold all released data to.
+
+60
+00:13:25.220 --> 00:13:32.281
+We also include guidance on interpreting the data we are releasing from our partners’ Anthropic Insights research studies.
+
+61
+00:13:33.081 --> 00:13:35.182
+Contributions and acknowledgements.
+
+62
+00:13:35.632 --> 00:13:56.042
+Kunal Handa led the project, collaborated with the partners on their research proposals, drafted research guidance and the contract, ran partners’ Anthropic Insights studies, helped build the technical infrastructure supporting partners’ research, contributed to the internal review of the Anthropic Insights outputs, and wrote the blog post.
+
+63
+00:13:56.162 --> 00:14:11.840
+Miranda Zhang coordinated the partnerships and communications, and contributed to all parts of the work. Gabriel Nicholas coordinated the third-party privacy audit, internal review of Anthropic Insights’ outputs, and contributed to all parts of the work.
+
+64
+00:14:11.960 --> 00:14:33.822
+Miles McCain wrote the guidance on interpreting Anthropic Insights outputs, developed technical infrastructure to support partners’ research, contributed to the internal review of the Anthropic Insights outputs, and provided feedback on the blog post and privacy threat model. Ryan Heller contributed technical infrastructure to support partners’ research.
+
+65
+00:14:33.942 --> 00:14:51.493
+Saffron Huang contributed to the internal review of the Anthropic Insights outputs and provided key feedback and discussion. Thomas Millar and Suzanne Wang contributed technical infrastructure to support partners’ research and to the internal review of the Anthropic Insights outputs.
+
+66
+00:14:51.613 --> 00:15:09.619
+Shan Carter, Mo Julapalli, Matt Kearney, Sarah Pollack, and Judy Shen contributed to the internal review of the Anthropic Insights’ outputs. Matthew Jagielski contributed to the privacy threat model. Shaoyi Zhang contributed technical infrastructure to support partners’ research.
+
+67
+00:15:09.739 --> 00:15:29.236
+Heather Whitney, Ankur Rathi, Aisling Keenan, and David Saunders provided legal and privacy guidance throughout the project. Jake Eaton and Sylvie Carr contributed to the framing and writing of the blog post. Jack Clark and Michael Stern provided valuable guidance, support, and discussion throughout the process.
+
+68
+00:15:29.356 --> 00:15:36.684
+Deep Ganguli provided detailed guidance, organizational support, and feedback throughout all stages of the project.
+
+69
+00:15:37.134 --> 00:16:00.039
+Additionally, we thank Miriam Chaum, Ishita Dasgupta, Esin Durmus, Adam Farina, Zoe Hitzig, Jerry Hong, Devin Kuokka, Hendson Lin, Maxim Massenkoff, Peter McCrory, Maryam Quasto, Nitarshan Rajkumar, Amie Rotherham, Divya Siddarth, Taylor Sorensen, Jerome Swannack, Alex Tamkin, Molly Villagra, Scott White, and Charles Yang for their helpful ideas, discussion, feedback,
+
+70
+00:16:00.159 --> 00:16:01.006
+and support.
+
+71
+00:16:01.456 --> 00:16:22.969
+For their partnership in this program, we thank Vishakh Padmakumar, Yijia Shao, Jennifer Wang, Diyi Yang, and Dora Zhao from the Social and Language Technologies Lab at Stanford, Tsvetomira Dumbalska, Hannah Rose Kirk, and Christopher Summerfield from the Human Information Processing Lab at Oxford, and Joel Becker (now at Anthropic), Daniel Paleka,
+
+72
+00:16:23.089 --> 00:16:24.619
+and Parker Whitfill from METR.
+
+73
+00:16:25.069 --> 00:16:35.240
+For conducting the third-party privacy audit, we thank Zexi Yao, Bozhidar Stevanoski, Peter Romov, Euodia Dodd, Xiaoxue Yang, and Nataša Krčo.
+
+74
+00:16:36.040 --> 00:16:36.903
+Citation.
+
+75
+00:16:37.353 --> 00:16:41.778
+A code block of 7 lines appears here; see the original post for the code.
+
+76
+00:16:42.778 --> 00:17:00.953
+That was Enabling independent research on how people use Claude, from Anthropic Research, published August 26, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
