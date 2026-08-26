@@ -1,0 +1,85 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.978
+This is Anthropic, Read Aloud. Today: Claude gets its own browser in Cowork.
+
+2
+00:00:08.278 --> 00:00:10.426
+Claude gets its own browser in Cowork.
+
+3
+00:00:10.876 --> 00:00:22.913
+Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.
+
+4
+00:00:23.363 --> 00:00:27.566
+From Claude Blog, published August 26, 2026.
+
+5
+00:00:28.566 --> 00:00:50.695
+Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of the task and stay where you are: Claude can fill in a form, pull numbers from a dashboard, or work through a portal that has no connector.
+
+6
+00:00:50.815 --> 00:00:55.710
+No extension, no setup, and nothing shared from your own browser unless you choose to.
+
+7
+00:00:56.160 --> 00:01:14.249
+Until now, giving Claude the ability to use the web in Cowork meant giving it access to your browser through the Claude in Chrome extension. When the work is on a page you already have open, that's still the right choice. But a lot of web tasks don't need your browser, just a browser, and now Claude has one.
+
+8
+00:01:14.699 --> 00:01:24.022
+It's rolling out this week to Pro, Max, and Team plans in the Claude desktop app. Enterprise admins can turn it on for their organization starting today.
+
+9
+00:01:24.822 --> 00:01:25.987
+Which browser, when.
+
+10
+00:01:26.437 --> 00:01:49.482
+It's Claude's browser, not yours. The built-in browser is separate from your own. Claude never sees your tabs, bookmarks, or passwords. To stay signed in to your sites, you can bring your logins over site by site, from Chrome, Edge, or Firefox on macOS and from Firefox on Windows and Linux. Banking, email, and single sign-on sites are left out unless you choose to include them.
+
+11
+00:01:49.932 --> 00:02:03.735
+That's also the difference between the two ways Claude can use the web. The built-in browser is for handing web tasks to Claude while you keep working: gathering research for a report, or collecting this month’s invoices from a vendor portal.
+
+12
+00:02:03.855 --> 00:02:14.987
+Claude in Chrome is for the page you already have open, with the accounts you're already signed in to, such as updating your CRM, working through your inbox, or editing the doc in front of you.
+
+13
+00:02:15.437 --> 00:02:26.175
+If you already use Claude in Chrome, it keeps working and stays your default; otherwise Claude uses the built-in browser. Switch anytime in Settings to Cowork to Preferred browser.
+
+14
+00:02:26.975 --> 00:02:28.223
+Staying in control.
+
+15
+00:02:28.673 --> 00:02:49.359
+The built-in browser carries the same prompt injection risks as any A I agent that acts in a browser, where instructions hidden in a page try to redirect Claude. It runs the same safeguards as Claude in Chrome, including the checks that review Claude's actions against what you asked for. We describe them on the Claude in Chrome blog post.
+
+16
+00:02:49.479 --> 00:02:58.116
+Those measures meaningfully reduce the risk but can't eliminate it, so we recommend starting on sites you trust. Read our safety guide for more.
+
+17
+00:02:58.916 --> 00:02:59.928
+Getting started.
+
+18
+00:03:00.378 --> 00:03:17.273
+The built-in browser is rolling out over the coming week to Pro, Max, and Team plans in the Claude desktop app on macOS, Windows, and Linux (in beta). Once it reaches you, it's on by default: give Claude a task that involves a website and the browser opens on its own.
+
+19
+00:03:17.393 --> 00:03:24.972
+On Enterprise plans, it's available now and admins can manage it in Organization settings to Cowork to Built-in browser.
+
+20
+00:03:25.422 --> 00:03:40.110
+The built-in browser lives in the desktop app. From the web or your phone, Claude can still drive it as long as your desktop app is open and online. On the web without the desktop app, Claude in Chrome remains the way to give Claude a browser.
+
+21
+00:03:41.110 --> 00:03:57.748
+That was Claude gets its own browser in Cowork, from Claude Blog, published August 26, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

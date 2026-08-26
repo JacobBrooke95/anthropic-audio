@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 26 Aug 2026 19:49:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 23:24:57 +0000</lastBuildDate>
     <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -197,6 +197,52 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>20</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-how-warp-builds-self-improving-agents-on-claude.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude gets its own browser in Cowork</title>
+      <itunes:title>Claude Blog: Claude gets its own browser in Cowork</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-cowork-built-in-browser/</link>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-built-in-browser</guid>
+      <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.
+
+Source: https://claude.com/blog/cowork-built-in-browser
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude in Chrome: http://claude.com/claude-in-chrome
+• prompt injection: https://www.anthropic.com/research/prompt-injection-defenses
+• Claude in Chrome blog post: http://claude.com/blog/%20claude-in-chrome-generally-available
+• safety guide: https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-cowork-built-in-browser/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/cowork-built-in-browser">https://claude.com/blog/cowork-built-in-browser</a><br/><strong>Published:</strong> August 26, 2026 · Claude Blog<br/><strong>Length:</strong> 555 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="http://claude.com/claude-in-chrome">Claude in Chrome</a></li><li><a href="https://www.anthropic.com/research/prompt-injection-defenses">prompt injection</a></li><li><a href="http://claude.com/blog/%20claude-in-chrome-generally-available">Claude in Chrome blog post</a></li><li><a href="https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely">safety guide</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-cowork-built-in-browser/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-26-cowork-built-in-browser.mp3" length="2696735" type="audio/mpeg"/>
+      <itunes:duration>242</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-26-cowork-built-in-browser.jpg?v=90470dc5"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-cowork-built-in-browser.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-26-cowork-built-in-browser.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.</itunes:subtitle>
+      <itunes:summary>Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.
+
+Source: https://claude.com/blog/cowork-built-in-browser
+Published August 26, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude in Chrome: http://claude.com/claude-in-chrome
+• prompt injection: https://www.anthropic.com/research/prompt-injection-defenses
+• Claude in Chrome blog post: http://claude.com/blog/%20claude-in-chrome-generally-available
+• safety guide: https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-26-cowork-built-in-browser/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>21</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-cowork-built-in-browser.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-26-cowork-built-in-browser.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Funding better evaluations of AI’s impact on wellbeing</title>
