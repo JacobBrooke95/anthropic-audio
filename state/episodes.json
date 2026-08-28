@@ -4458,6 +4458,22 @@
       "updated": "2026-08-26T23:24:56+00:00",
       "slug": "claude-blog-2026-08-26-cowork-built-in-browser",
       "episode": 21
+    },
+    "https://www.anthropic.com/news/expanding-support-for-scientists": {
+      "first_seen": "2026-08-28T00:26:03+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-28T00:26:03+00:00",
+      "slug": "news-2026-08-27-expanding-support-for-scientists",
+      "episode": 22
+    },
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview": {
+      "first_seen": "2026-08-28T01:59:50+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-28T01:59:50+00:00",
+      "slug": "news-2026-08-27-model-hardware-standard-research-preview",
+      "episode": 23
     }
   },
   "episodes": [
@@ -5593,8 +5609,120 @@
       "episode": 21,
       "created": "2026-08-26T23:24:56+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69027547e3e5c830cb5d0a37_og_claude-is-now-available-in-microsoft-365-copilot.jpg"
+    },
+    {
+      "slug": "news-2026-08-27-expanding-support-for-scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "news",
+      "title": "Expanding our support for scientists",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-08-27T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "Claude Science",
+          "href": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "text": "AI for Science program",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "Claude team plan for scientists",
+          "href": "http://claude.com/programs/team-plan-for-scientists"
+        },
+        {
+          "text": "Riemann zeta function",
+          "href": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "text": "Claude’s work on protein design",
+          "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "complete the verification form here",
+          "href": "http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation"
+        },
+        {
+          "text": "apply to our AI for Science program",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog"
+        },
+        {
+          "text": "continue to block",
+          "href": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+        }
+      ],
+      "word_count": 416,
+      "duration": 213.394286,
+      "bytes": 2457009,
+      "episode": 22,
+      "created": "2026-08-28T00:26:03+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&backgroundColor=olive"
+    },
+    {
+      "slug": "news-2026-08-27-model-hardware-standard-research-preview",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source": "news",
+      "title": "Previewing the Model Hardware Standard",
+      "subtitle": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+      "date": "2026-08-27T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements Beneficial Deployments",
+      "links": [
+        {
+          "text": "HHMI Janelia Research Campus",
+          "href": "https://www.hhmi.org/research/janelia"
+        },
+        {
+          "text": "Model Context Protocol",
+          "href": "https://www.anthropic.com/news/model-context-protocol"
+        },
+        {
+          "text": "head here",
+          "href": "https://www.modelhardwarestandard.com/"
+        },
+        {
+          "text": "WHOLISTIC imaging",
+          "href": "https://wholistic.janelia.org/"
+        },
+        {
+          "text": "agentic control",
+          "href": "https://github.com/gently-project/gently"
+        },
+        {
+          "text": "on the QuEra blog",
+          "href": "http://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers"
+        },
+        {
+          "text": "at dangerously high levels",
+          "href": "https://www.cbsnews.com/sanfrancisco/news/linda-mar-beach-pacifica-pollution-human-waste-contamination/"
+        },
+        {
+          "text": "finding",
+          "href": "https://www.sfgate.com/local/article/pacifica-beach-human-waste-22279337.php"
+        },
+        {
+          "text": "visit our blog",
+          "href": "http://tetsuwan.com/blog/mhs"
+        },
+        {
+          "text": "Beneficial Deployments team",
+          "href": "http://anthropic.com/beneficial-deployments"
+        }
+      ],
+      "word_count": 12267,
+      "duration": 5424.143673,
+      "bytes": 44257419,
+      "episode": 23,
+      "created": "2026-08-28T01:59:50+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/ebfc315e9854ada0b6bae009ffd9c63c41f9a5ab-1280x720.png"
     }
   ],
-  "next_episode": 22,
+  "next_episode": 24,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,94 @@
+{
+ "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+ "source": "news",
+ "slug": "news-2026-08-27-expanding-support-for-scientists",
+ "title": "Expanding our support for scientists",
+ "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+ "date": "2026-08-27T16:00:00+00:00",
+ "authors": [],
+ "category": "Announcements",
+ "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&backgroundColor=olive",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community. In June, we launched Claude Science , a product that integrates the tools that researchers most commonly use, produces auditable artifacts, and provides flexible access to computing resources. We have also continued to broaden our AI for Science program , which provides free credits to researchers working on high-impact scientific projects.",
+   "html": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community. In June, we launched <a href=\"https://www.anthropic.com/news/claude-science-ai-workbench\">Claude Science</a>, a product that integrates the tools that researchers most commonly use, produces auditable artifacts, and provides flexible access to computing resources. We have also continued to broaden our <a href=\"https://www.anthropic.com/news/ai-for-science-program\">AI for Science program</a>, which provides free credits to researchers working on high-impact scientific projects. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting today, we are announcing a significant expansion of these efforts. We are opening 10,000 seats for scientists around the world to access Claude subscriptions for free and at discounted rates for one year through our new Claude team plan for scientists . Standard seats will be free and premium seats with 5x usage limits will be available for $15 per month. Over the coming months, we intend to extend this program well beyond the initial 10,000 seats.",
+   "html": "Starting today, we are announcing a significant expansion of these efforts. We are opening 10,000 seats for scientists around the world to access Claude subscriptions for free and at discounted rates for one year through our new <a href=\"http://claude.com/programs/team-plan-for-scientists\">Claude team plan for scientists</a>. Standard seats will be free and premium seats with 5x usage limits will be available for $15 per month. Over the coming months, we intend to extend this program well beyond the initial 10,000 seats."
+  },
+  {
+   "type": "paragraph",
+   "text": "Alongside these subscriptions, we are also expanding the scope and scale of our AI for Science program. To date, we’ve largely supported scientists using Claude for biological sciences. We are now looking to offer credits for researchers in other scientific fields as well, including those working on ambitious, compute heavy-research, such of the kind that resulted in progress on the Riemann zeta function and Claude’s work on protein design .",
+   "html": "Alongside these subscriptions, we are also expanding the scope and scale of our <a href=\"https://www.anthropic.com/news/ai-for-science-program\">AI for Science</a> program. To date, we’ve largely supported scientists using Claude for biological sciences. We are now looking to offer credits for researchers in other scientific fields as well, including those working on ambitious, compute heavy-research, such of the kind that resulted in progress on the <a href=\"https://www.anthropic.com/research/riemann-zeta\">Riemann zeta function</a> and <a href=\"https://www.anthropic.com/research/Claude-accelerates-protein-design\">Claude’s work on protein design</a>. "
+  },
+  {
+   "type": "paragraph",
+   "text": "By helping scientists access and increase their usage of Claude through subscriptions, credits, and products like Claude Science , we aim to radically accelerate scientific discovery.",
+   "html": "By helping scientists access and increase their usage of Claude through subscriptions, credits, and products like <a href=\"https://claude.com/product/claude-science\">Claude Science</a>, we aim to radically accelerate scientific discovery."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Ways to access Claude",
+   "html": "<strong>Ways to access Claude</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "To register for our Claude team plan for scientists, please complete the verification form here . You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.",
+   "html": "To register for our Claude team plan for scientists, please <a href=\"http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation\">complete the verification form here</a>. You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan. "
+  },
+  {
+   "type": "paragraph",
+   "text": "As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can apply to our AI for Science program for up to $50,000 in credits per project. Any researcher is eligible to apply.",
+   "html": "As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog\">apply to our AI for Science program</a> for up to $50,000 in credits per project. Any researcher is eligible to apply."
+  },
+  {
+   "type": "paragraph",
+   "text": "For now, researchers working in biology and chemistry will still be limited to our Opus-class models. Claude Fable models will continue to block professional biology and drug development queries because of their potential dual-use risks. We’re working in partnership with the US government to establish an access program for life sciences professionals to use Mythos-class models for life sciences research and development. We have now enrolled our first participants, and expect to share more and increase access soon.",
+   "html": "For now, researchers working in biology and chemistry will still be limited to our Opus-class models. Claude Fable models will <a href=\"https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards\">continue to block</a> professional biology and drug development queries because of their potential dual-use risks. We’re working in partnership with the US government to establish an access program for life sciences professionals to use Mythos-class models for life sciences research and development. We have now enrolled our first participants, and expect to share more and increase access soon."
+  }
+ ],
+ "links": [
+  {
+   "text": "Claude Science",
+   "href": "https://www.anthropic.com/news/claude-science-ai-workbench"
+  },
+  {
+   "text": "AI for Science program",
+   "href": "https://www.anthropic.com/news/ai-for-science-program"
+  },
+  {
+   "text": "Claude team plan for scientists",
+   "href": "http://claude.com/programs/team-plan-for-scientists"
+  },
+  {
+   "text": "Riemann zeta function",
+   "href": "https://www.anthropic.com/research/riemann-zeta"
+  },
+  {
+   "text": "Claude’s work on protein design",
+   "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+  },
+  {
+   "text": "Claude Science",
+   "href": "https://claude.com/product/claude-science"
+  },
+  {
+   "text": "complete the verification form here",
+   "href": "http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation"
+  },
+  {
+   "text": "apply to our AI for Science program",
+   "href": "https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog"
+  },
+  {
+   "text": "continue to block",
+   "href": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+  }
+ ],
+ "word_count": 416,
+ "fetched_at": "2026-08-28T00:22:08+00:00"
+}

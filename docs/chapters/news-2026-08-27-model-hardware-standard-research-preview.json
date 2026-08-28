@@ -1,0 +1,181 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 145.18,
+   "title": "How MHS works"
+  },
+  {
+   "startTime": 364.58,
+   "title": "Early examples from MHS"
+  },
+  {
+   "startTime": 416.9,
+   "title": "Genentech: Implementing MHS for lab automation"
+  },
+  {
+   "startTime": 439.45,
+   "title": "Genentech"
+  },
+  {
+   "startTime": 441.1,
+   "title": "Genentech: Implementing MHS for lab automation"
+  },
+  {
+   "startTime": 602.69,
+   "title": "Automating the BCA assay as a proof-of-concept"
+  },
+  {
+   "startTime": 886.79,
+   "title": "Autonomous error recovery and the limits of current A I models"
+  },
+  {
+   "startTime": 1022.46,
+   "title": "Towards autonomous discovery"
+  },
+  {
+   "startTime": 1120.89,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 1132.5,
+   "title": "University of Washington Baker and Pinglay labs: Bringing A I agents to the bench"
+  },
+  {
+   "startTime": 1167.53,
+   "title": "University of Washington Baker and Pinglay labs"
+  },
+  {
+   "startTime": 1171.47,
+   "title": "University of Washington Baker and Pinglay labs: Bringing A I agents to the bench"
+  },
+  {
+   "startTime": 1440.92,
+   "title": "Case study 1: Taking the lab remote"
+  },
+  {
+   "startTime": 1615.71,
+   "title": "Case study 2: Coordinating instruments through a plate handoff"
+  },
+  {
+   "startTime": 1729.24,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 1855.91,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 1883.49,
+   "title": "Carnegie Mellon University: Determining dose-response curves through rapid automation"
+  },
+  {
+   "startTime": 1910.95,
+   "title": "Carnegie Mellon University"
+  },
+  {
+   "startTime": 1913.52,
+   "title": "Carnegie Mellon University: Determining dose-response curves through rapid automation"
+  },
+  {
+   "startTime": 2093.33,
+   "title": "Our solution"
+  },
+  {
+   "startTime": 2227.7,
+   "title": "Hardware, setup, and workflow"
+  },
+  {
+   "startTime": 2407.88,
+   "title": "What we have achieved with MHS"
+  },
+  {
+   "startTime": 2563.88,
+   "title": "What’s next"
+  },
+  {
+   "startTime": 2619.22,
+   "title": "HHMI Janelia: Using MHS to accelerate microscopy research"
+  },
+  {
+   "startTime": 2649.63,
+   "title": "HHMI Janelia"
+  },
+  {
+   "startTime": 2651.91,
+   "title": "HHMI Janelia: Using MHS to accelerate microscopy research"
+  },
+  {
+   "startTime": 2813.5,
+   "title": "Controlling and coordinating devices through a unified interface"
+  },
+  {
+   "startTime": 3008.34,
+   "title": "Quantitative monitoring and online analysis"
+  },
+  {
+   "startTime": 3232.81,
+   "title": "Running smarter experiments with agents"
+  },
+  {
+   "startTime": 3594.3,
+   "title": "QuEra Computing: Using MHS in quantum laser stabilization"
+  },
+  {
+   "startTime": 3623.52,
+   "title": "QuEra Computing"
+  },
+  {
+   "startTime": 3625.47,
+   "title": "QuEra Computing: Using MHS in quantum laser stabilization"
+  },
+  {
+   "startTime": 3841.6,
+   "title": "What we achieved with MHS"
+  },
+  {
+   "startTime": 4320.07,
+   "title": "What’s next"
+  },
+  {
+   "startTime": 4423.19,
+   "title": "Tetsuwan Scientific: Using MHS to run qPCRs to profile local pollution"
+  },
+  {
+   "startTime": 4447.55,
+   "title": "Tetsuwan Scientific"
+  },
+  {
+   "startTime": 4449.66,
+   "title": "Tetsuwan Scientific: Using MHS to run qPCRs to profile local pollution"
+  },
+  {
+   "startTime": 4635.46,
+   "title": "Implementing MHS in a qPCR workflow"
+  },
+  {
+   "startTime": 4838.41,
+   "title": "Improving compiler heuristics with MHS"
+  },
+  {
+   "startTime": 4954.81,
+   "title": "Preliminary data from the San Pedro Creek"
+  },
+  {
+   "startTime": 5229.96,
+   "title": "Joining the research preview"
+  },
+  {
+   "startTime": 5342.7,
+   "title": "Acknowledgments"
+  },
+  {
+   "startTime": 5403.25,
+   "title": "Outro"
+  }
+ ]
+}

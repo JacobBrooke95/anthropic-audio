@@ -1,0 +1,1469 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.453
+This is Anthropic, Read Aloud. Today: Previewing the Model Hardware Standard.
+
+2
+00:00:07.753 --> 00:00:09.700
+Previewing the Model Hardware Standard.
+
+3
+00:00:10.150 --> 00:00:25.297
+Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for A I agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+4
+00:00:25.747 --> 00:00:30.376
+From Anthropic Newsroom, published August 27, 2026.
+
+5
+00:00:31.376 --> 00:00:45.947
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for A I agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+6
+00:00:46.067 --> 00:01:11.431
+MHS enables A I agents to operate multiple lab and manufacturing instruments, such as microscopes, liquid handlers, and robotic arms, in parallel, and perform intricate tasks ranging from routine drug discovery experiments to laser calibration on a quantum computer. The development of MHS began as a collaboration between Anthropic and HHMI Janelia Research Campus.
+
+7
+00:01:11.881 --> 00:01:29.862
+It typically takes a lab or manufacturing facility weeks, if not months, to set up and integrate their hardware. Most devices don’t communicate with each other, instead requiring specialists to build bespoke integrations. MHS reduces this integration work to hours or minutes.
+
+8
+00:01:29.982 --> 00:01:50.902
+And by incorporating A I into these tools, MHS also helps researchers and engineers more readily orchestrate autonomous, round-the-clock experiments and workflows, with agents able to reason through each step in an experiment, update parameters in real time, and, in some cases, recover from hardware errors without intervention.
+
+9
+00:01:51.352 --> 00:02:12.595
+We’re sharing an early version of MHS with partners across science, robotics, electronics, and manufacturing so we can collaborate to build safety evaluations and develop best practices for A I systems operating physical equipment, ahead of making the standard open source. MHS works with any device that has a programmable interface.
+
+10
+00:02:12.715 --> 00:02:24.382
+It is also model-agnostic, and any agent harness can access it using standard protocols, such as the Model Context Protocol. To apply for access to the research preview, head here.
+
+11
+00:02:25.182 --> 00:02:26.489
+How MHS works.
+
+12
+00:02:26.939 --> 00:02:30.331
+Before and after the Model Hardware Standard (MHS).
+
+13
+00:02:30.781 --> 00:02:49.529
+Getting multiple devices in a lab or on a factory floor to communicate with one another can be challenging, even setting aside the added difficulty of integrating A I into the setup. Each device tends to have its own programming interface, and so far there has been no standardized way to integrate them.
+
+14
+00:02:49.649 --> 00:02:57.862
+And once the devices are connected, there is no common way for them to share data with an A I agent, nor to let the agent operate them safely.
+
+15
+00:02:58.312 --> 00:03:20.706
+MHS addresses these challenges by introducing a standardized driver: software that translates between a computer’s operating system and a hardware device. The MHS driver uses a simple set of primitives, commands like “read” (for example, “get temperature”) or “write” (for example, “set temperature”), that any hardware device can understand and act on.
+
+16
+00:03:20.826 --> 00:03:32.621
+And it makes each device discoverable in a standard format, so that devices and agents can find each other and communicate across networks without needing a bespoke “translator” program in between.
+
+17
+00:03:33.071 --> 00:03:51.544
+The MHS driver also helps an A I agent understand how to use a device it has never seen before, giving it information about machine characteristics that may not be discernable from code alone (for example, the weight of a robot arm, which is important for knowing how to manipulate it safely).
+
+18
+00:03:51.664 --> 00:04:12.272
+To date, much of this information has been stored in paper manuals, on a user’s computer, or as tacit knowledge. But the MHS driver contains tags that let the user write this information directly in natural language (users can either do this themselves, or by chatting to an agent that interviews them about their hardware setup).
+
+19
+00:04:12.392 --> 00:04:32.293
+With the information from these tags, the MHS driver then automatically produces a reference file with information about a device’s general characteristics, such as what it can measure, what can be adjusted, and what safety limits will be enforced. This file gives the agent everything it needs to know to operate the device.
+
+20
+00:04:32.743 --> 00:04:53.717
+After the devices are connected and the agent knows how to use each one, the agent needs a way to control the hardware. For MHS, there are three such mechanisms: M C P, the command line interface, and code files (A P Is). These work together to enable orchestration across multiple devices via a single line of code.
+
+21
+00:04:54.167 --> 00:05:10.827
+Once the agent can control the devices, it’s able to receive operating data from each one and supervise and direct the work at a high level. The agent can sequence steps across instruments, monitor results, and adjust parameters as conditions change in real time.
+
+22
+00:05:10.947 --> 00:05:29.972
+When the agent needs to execute long-running tasks or operate devices faster than its online reasoning would allow, it can chain together driver commands from one or more devices in code files. This allows the devices to carry out operations themselves, without the agent needing to reason at every step.
+
+23
+00:05:30.422 --> 00:05:51.883
+As we’ve tested MHS, we’ve found that Claude interacts with experiments and hardware in an exploratory manner, much as a scientist would. For example, we observed Claude make an adjustment to a laser, observe the results through a camera to assess how its adjustment moved the laser beam, and repeat the process, seeking to understand the sequence of events.
+
+24
+00:05:52.003 --> 00:06:03.779
+Claude then packaged what it learned into code files, writing a deterministic script that let it align the laser without having to reason at each step, so the whole process could run as a single command.
+
+25
+00:06:04.579 --> 00:06:06.417
+Early examples from MHS.
+
+26
+00:06:06.867 --> 00:06:25.961
+We are only just beginning to see what people can do with frontier models and MHS, but our hope is that the standard can be of use to researchers, engineers, and other practitioners in speeding up the process of discovery and experimentation in any domain that uses devices with a programmable interface.
+
+27
+00:06:26.411 --> 00:06:50.712
+As we developed MHS, we shared it with a handful of labs and hardware manufacturers in biotech, robotics, quantum computing, and other fields. Across these early projects, we saw MHS reduce the time it took to integrate devices, make it possible to iterate faster in a variety of experimental settings, and assist with the live operation of machines and real-time fault detection.
+
+28
+00:06:50.832 --> 00:06:56.101
+Below, our partners share the details of some of their early projects involving MHS.
+
+29
+00:06:56.901 --> 00:07:00.191
+Genentech: Implementing MHS for lab automation.
+
+30
+00:07:00.641 --> 00:07:18.647
+Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.
+
+31
+00:07:19.447 --> 00:07:20.299
+Genentech.
+
+32
+00:07:21.099 --> 00:07:24.388
+Genentech: Implementing MHS for lab automation.
+
+33
+00:07:24.838 --> 00:07:42.844
+Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.
+
+34
+00:07:43.294 --> 00:07:49.735
+For half a century, Genentech has been tackling some of the most formidable challenges in science and medicine.
+
+35
+00:07:49.855 --> 00:08:11.444
+In 1977, our scientists successfully produced somatostatin, a peptide hormone that regulates insulin and glucagon, growth hormone, and digestive tract functions in humans, in E. coli bacteria using recombinant DNA technology, proving that bacteria could be reprogrammed into bio-factories for medicines.
+
+36
+00:08:11.564 --> 00:08:33.471
+Shortly thereafter, we synthesized recombinant human insulin, which in 1982 became the first genetically engineered therapeutic ever approved by the FDA. Since then, our commitment to basic research and patient care has pushed us to discover breakthrough therapies for cancer, multiple sclerosis, and other complex diseases.
+
+37
+00:08:33.921 --> 00:08:45.723
+This work requires rigorous experimentation in our drug discovery labs, often with large-scale automated systems capable of running high-throughput assays and testing many variables in parallel.
+
+38
+00:08:45.843 --> 00:09:03.463
+These systems are made up of highly specialized lab robots, liquid handlers, robotic arms, microplate readers, and the like, that need to be carefully calibrated, iteratively tested, and supplied with complex programming logic in order to carry out experiments with precision.
+
+39
+00:09:03.583 --> 00:09:15.692
+Currently, setting up these automated systems is a manual, time-consuming process that can take weeks or even months, limiting the number of scientific ideas our researchers can test.
+
+40
+00:09:16.142 --> 00:09:39.115
+To address this core bottleneck between experimental design and automated execution, we implemented MHS for lab automation with Anthropic. This open framework is designed to standardize A I-to-hardware communication, enabling scientists to interact with specialized lab robots using natural language and eliminating the need to write custom robotic code.
+
+41
+00:09:39.235 --> 00:10:01.891
+Our ultimate goal is to build autonomous labs where A I handles the tedious, mechanical parts of experiment execution at scale so that our scientists can focus on the many creative aspects of accelerating drug discovery that rely on human judgement, such as experimental design, interpretation, decision making, and the invention of new lab approaches.
+
+42
+00:10:02.691 --> 00:10:05.891
+Automating the BCA assay as a proof-of-concept.
+
+43
+00:10:06.341 --> 00:10:24.891
+We first implemented MHS on a large robotic workstation designed around a liquid handler. We wanted to see whether MHS could speed up the automation of the bicinchoninic acid (BCA) protein assay, a standard procedure used to measure total protein concentration in a sample.
+
+44
+00:10:25.011 --> 00:10:48.990
+The procedure involves three instruments: a liquid handler to make precise fluid transfers, a robotic arm to move labware, and a microplate reader to measure optical absorbance, or how much light a sample absorbs at a given wavelength. We deployed MHS across all three devices, using Claude to orchestrate the protocol and act as a central communication hub for the hardware.
+
+45
+00:10:49.110 --> 00:10:55.586
+All experiments were conducted in standard 96-well microplates, a staple of automated lab equipment.
+
+46
+00:10:56.036 --> 00:11:14.978
+The BCA assay involves handling liquids with different physical properties, ranging from simple aqueous reagents to viscous, foamy protein samples. In our setup, we used bovine serum albumin (BSA) at known concentrations as our protein sample to serve as a reliable standard.
+
+47
+00:11:15.098 --> 00:11:37.792
+Because these fluids behave differently under pressure and flow, pipetting must be done extremely precisely to ensure that an exact volume of solution is transferred. For example, BSA solutions are viscous and form bubbles at high flow rates, the speed at which a liquid moves through a pipette tip, which directly impacts how accurately the solution is pipetted into the plate.
+
+48
+00:11:37.912 --> 00:11:44.963
+Virtually all automated scientific experiments start with optimizing such fluid dynamics for each protocol.
+
+49
+00:11:45.413 --> 00:12:05.464
+Figure 1: The automated experiment workflow. First, a scientist describes the experiment to Claude in plain language. Then, Claude plans and orchestrates the run, drawing on reusable skills and a knowledge base. Every instruction passes through MHS, which serves as the standard interface for each device.
+
+50
+00:12:05.584 --> 00:12:19.254
+MHS then operates each instrument (the liquid handler, robotic arm, and microplate reader) and streams its state back to Claude. The orange ring shows the part of the experiment Claude executed in a closed loop.
+
+51
+00:12:19.374 --> 00:12:42.297
+It set a flow rate and transferred dyed liquid to a plate, sent the plate down the stack and read absorbance, then scored its own transfer against an expert’s and adjusted the flow rate, converging on water approximately 140 µL/s (0.016) and viscous BSA approximately 10 µL/s (0.181).
+
+52
+00:12:42.747 --> 00:12:50.690
+As a starting point, we gave Claude the standard BCA assay protocol to establish a baseline against which to assess improvements.
+
+53
+00:12:50.810 --> 00:13:07.109
+In this first test, Claude executed the protocol steps, but it selected generic liquid handling parameters with the same flow rate for both aqueous and viscous solutions, which caused bubbles to form in the viscous solution, resulting in inaccurate liquid transfers.
+
+54
+00:13:07.229 --> 00:13:14.927
+We then asked Claude to autonomously optimize fluid dynamics for both plain water and viscous protein samples (BSA).
+
+55
+00:13:15.047 --> 00:13:33.847
+We prompted the model with an experimental design to optimize the liquid transfer flow rate, asking it to explore our expert-defined range of flow rates by conducting trial transfers with dyed liquid and taking absorbance readings with the microplate reader to determine the optimal flow rate for each liquid type.
+
+56
+00:13:33.967 --> 00:13:44.380
+Claude also had access to a “ground truth” transfer, performed by an expert in the same plate, and we asked it to minimize the difference between the expert’s results and its own.
+
+57
+00:13:44.500 --> 00:14:02.938
+After performing the transfers, Claude calculated the root mean square error (RMSE) to quantify how accurate it had been (the lower, the better, with zero being the perfect score; if it aimed for 100 microliters but dispensed 98, that 2-microliter miss would count against the score).
+
+58
+00:14:03.388 --> 00:14:32.474
+Claude independently executed these trial runs and analyzed the resulting plate reader data to get closer to the expert-performed transfers. For water, Claude concluded that a flow rate of about 140 µL/s was optimal (0.016 RMSE); for BSA, it arrived at 10 µL/s (0.181 RMSE), parameters that our automation experts confirmed were reasonable for our setup.
+
+59
+00:14:32.594 --> 00:14:45.989
+Ordinarily, performing this optimization requires an automation specialist to write custom programming logic for every single parameter set, iteratively analyzing the data until they find the right parameters.
+
+60
+00:14:46.789 --> 00:14:50.501
+Autonomous error recovery and the limits of current A I models.
+
+61
+00:14:50.951 --> 00:15:09.703
+During the experiment, Claude encountered several unexpected errors, including tip pickup failures and fluid detection errors, but managed to recover on its own, a capability that current scientific instruments mostly lack. However, these experiments also highlighted the current limits of A I models.
+
+62
+00:15:09.823 --> 00:15:22.217
+Although they excel at general-purpose reasoning, they still struggle with physical, chemical, and biological constraints, particularly when troubleshooting errors that call for real-world physical intuition.
+
+63
+00:15:22.667 --> 00:15:43.465
+An example of this type of limitation is the formation of bubbles during liquid handling. Although they may seem benign, bubbles create a cascade of challenges: if a protocol calls for aspirating 40μL of reagent but there are air bubbles in the liquid, the actual liquid volume transferred will be lower due to the space occupied by air.
+
+64
+00:15:43.585 --> 00:15:56.015
+Furthermore, liquid-level sensors can trigger hardware errors when a pipette tip encounters foam instead of liquid; bubbles also distort the optical readings that are the final readout of the experiment.
+
+65
+00:15:56.465 --> 00:16:00.960
+Figure 2: Genentech scientists analyze plates for the presence of bubbles.
+
+66
+00:16:01.410 --> 00:16:16.215
+When it encountered runtime errors caused by bubbles during mixing, Claude’s default instinct was simply to retry the operation in the same plate well with different parameters. But this only agitated the fluid further and created more bubbles.
+
+67
+00:16:16.335 --> 00:16:24.574
+Because Claude did not yet understand the underlying physics of the failure, we had to guide it towards parameters that handled the liquid more gently.
+
+68
+00:16:25.024 --> 00:16:39.265
+Once Claude was informed that the error code stemmed from physical bubbles in the liquid and that it needed to move to a clean well and reduce the number of mixing cycles in order to correct the error, it maintained that context for the rest of the run.
+
+69
+00:16:39.385 --> 00:17:01.656
+We subsequently codified these takeaways into reusable liquid handling skills for Claude, which allowed it to select sensible default parameters for liquids with varying physical properties, reducing the number of liquid handling errors. These experiments highlighted the sorts of reasoning limits we can address by refining Claude’s software harness for lab automation.
+
+70
+00:17:02.456 --> 00:17:04.225
+Towards autonomous discovery.
+
+71
+00:17:04.675 --> 00:17:24.894
+Although there is more work to be done to improve how Claude reasons about physical lab manipulations, this study proved to be a highly promising proof-of-concept. By assessing Claude’s decisions against our own domain expertise, we are generating the datasets we need to continuously improve models’ performance in automating lab experiments.
+
+72
+00:17:25.344 --> 00:17:34.064
+Going forward, we plan to evaluate Claude and MHS to orchestrate broader, end-to-end autonomous workflows in our drug discovery labs.
+
+73
+00:17:34.184 --> 00:17:53.478
+We aim to build an autonomous discovery engine where scientists set the high-level biological intent, and A I agents help them coordinate the physical pipeline, generating hardware instructions, executing experiments autonomously, running closed-loop analysis, and delivering screen-ready models and screening data.
+
+74
+00:17:53.928 --> 00:18:13.844
+To expand our scope and impact, we’ll need to implement MHS on additional hardware, such as centrifuges, automated incubators, analytical instruments, and sensors. We’ll also need to tune the agent harness so it understands the nuances of working across drug discovery from molecules to live, sensitive cells.
+
+75
+00:18:13.964 --> 00:18:22.280
+And we’ll have to integrate other, custom models that monitor and adaptively optimize experiments around the clock based on real-time data.
+
+76
+00:18:22.400 --> 00:18:40.085
+With A I handling the routine tasks of maintenance, quality control, and environmental monitoring, our scientists can focus more on high-level experimental design, reasoning, and invention, moving us one step closer to accelerating the discovery of life-saving medicines.
+
+77
+00:18:40.885 --> 00:18:41.862
+Acknowledgements.
+
+78
+00:18:42.312 --> 00:18:51.699
+We’d like to thank the Genentech scientists who contributed to this work, including Anupriya Tripathi, Matthew Bucci, Justin Nicola, and Corinne Gullekson.
+
+79
+00:18:52.499 --> 00:18:57.705
+University of Washington Baker and Pinglay labs: Bringing A I agents to the bench.
+
+80
+00:18:58.155 --> 00:19:21.106
+Zihao Song, a PhD student in the University of Washington Baker and Pinglay labs, used MHS to build a dashboard to remotely monitor his instruments; an A I agent-supervised qPCR (which copies a target DNA sequence through repeated cycles of heating and cooling) that watches amplification curves and halts the procedure at the right moment;
+
+81
+00:19:21.226 --> 00:19:26.730
+and an integration between a robotic arm and a liquid handler for collision-free plate handoffs.
+
+82
+00:19:27.530 --> 00:19:30.666
+University of Washington Baker and Pinglay labs.
+
+83
+00:19:31.466 --> 00:19:36.672
+University of Washington Baker and Pinglay labs: Bringing A I agents to the bench.
+
+84
+00:19:37.122 --> 00:20:00.073
+Zihao Song, a PhD student in the University of Washington Baker and Pinglay labs, used MHS to build a dashboard to remotely monitor his instruments; an A I agent-supervised qPCR (which copies a target DNA sequence through repeated cycles of heating and cooling) that watches amplification curves and halts the procedure at the right moment;
+
+85
+00:20:00.193 --> 00:20:05.697
+and an integration between a robotic arm and a liquid handler for collision-free plate handoffs.
+
+86
+00:20:06.147 --> 00:20:23.509
+De novo protein design, building proteins that have never been seen in nature from scratch, has found a steadily increasing number of applications in medicine, environmental protection, and more over the past several years. Two things have held it back, however: cost and throughput.
+
+87
+00:20:23.629 --> 00:20:45.671
+These days, designing a protein like PETase (the enzyme that breaks down plastic) can cost as little as 0.01 dollars. But testing that protein at the bench is slow and expensive, costing around 100 dollarsand requiring a week of labor per candidate, which adds up, given that we test 1000 candidates at a time.
+
+88
+00:20:46.121 --> 00:21:05.513
+As a PhD student in the Baker and Pinglay labs at the University of Washington, I am working to develop high-throughput methods to reduce the cost per experiment and dramatically increase the number of de novo protein designs that we can screen at once. But working at that scale comes with costs of its own.
+
+89
+00:21:05.633 --> 00:21:26.423
+Every round I run, whether a multiplexed design assay or an active learning campaign on enzyme activity, presents the same two challenges: monitoring status and capacity. Currently, our monitoring instruments sit in different corners of the lab, so I can’t easily see how a run is going without physically walking over to each one to check.
+
+90
+00:21:26.543 --> 00:21:43.245
+When something fails partway through the run, the HPLC halts on an error, for example, or a liquid handler misfires and ruins a plate, I seldom discover it right when it happens. By the time I notice, hours may have passed, and the experimental sample is unusable.
+
+91
+00:21:43.365 --> 00:22:05.779
+And I own only one of most instruments, so a single machine sets the pace for a whole round of testing, and I spend hours feeding it by hand. The PCR step is the worst culprit in this capacity crunch: it only handles one plate at a time, and I have to change the plates every 90 minutes (which is how I sometimes end up moving plates at 4 a.m. instead of sleeping).
+
+92
+00:22:06.229 --> 00:22:30.528
+The obvious fix is automation. But a research lab runs on flexibility, and that’s the one thing traditional automation cannot incorporate. A typical factory line might run one protocol 10000 times, but my lab runs dozens of protocols a year, half of them new, which I must revise mid-run when the protein yield comes back far below what we assumed or a DNA assembly fails.
+
+93
+00:22:30.648 --> 00:22:47.459
+Plus, my instruments come from different vendors, each with its own software, data format, and driver. Wiring them together is an integration problem that takes months to years and can cost anywhere from thousands to millions of dollars, putting it out of reach for most labs.
+
+94
+00:22:47.579 --> 00:22:54.768
+There is no standard workflow to automate a protocol, and no affordable way to connect the instruments in most academic labs.
+
+95
+00:22:55.218 --> 00:23:14.187
+To explore a low-cost, low-effort route around both, I combined MHS with an A I agent and ran a few demos in my lab. MHS essentially gave the agent eyes, hands, and a sense of timing: it could see the status of every instrument, run each one, and coordinate them to work together.
+
+96
+00:23:14.637 --> 00:23:31.869
+Figure 3: Figure 1. Comparing an academic lab, an automated lab, and an MHS-based lab. Traditional labs run distributed instruments without a central scheduler. This is flexible but labor-intensive, with A I use limited to human-A I exchanges.
+
+97
+00:23:31.989 --> 00:23:46.389
+Automated labs integrate instruments under a scheduler for near-autonomous operation, but they’re expensive and inflexible, keeping them out of reach of most academic labs, and A I-integrated versions are impractical beyond demos.
+
+98
+00:23:46.509 --> 00:24:00.116
+MHS-based labs schedule all instruments through the standard, letting researchers monitor, control, and coordinate equipment; their A I-native architecture also lets agents actively participate in experiments.
+
+99
+00:24:00.916 --> 00:24:03.201
+Case study 1: Taking the lab remote.
+
+100
+00:24:03.651 --> 00:24:23.491
+Figure 4: Figure 2. Monitoring instruments using MHS. Researchers can monitor the status of all connected instruments directly through the MHS dashboard or via an A I agent. (left) Screenshot of the MHS dashboard; (right) output from Claude Code after connecting to MHS.
+
+101
+00:24:23.941 --> 00:24:42.110
+Prior to MHS, I had to rove around the lab to monitor instruments. With MHS, instruments report their status to one dashboard, so I and my colleagues can check on the whole lab from a laptop, or even ask an A I agent from a mobile phone without setting foot inside (Figure 2).
+
+102
+00:24:42.560 --> 00:25:03.612
+This remote monitoring is especially helpful for experiments that demand sustained attention. Quantitative PCR (qPCR) is a good example. qPCR amplifies (that is, copies) a target DNA sequence through repeated cycles of heating and cooling, with a fluorescent reporter that brightens as copies accumulate.
+
+103
+00:25:03.732 --> 00:25:21.595
+DNA amplification follows an S-shaped curve: the copying doubles the target each cycle, so the signal stays flat while it is still faint, climbs steeply once there is enough to detect, then flattens again at the top of the curve as reagents run low and the copies stop doubling (the plateau).
+
+104
+00:25:21.715 --> 00:25:42.682
+Letting the reaction run into that plateau distorts the DNA library, such that I can no longer glean accurate data about the final quantity of amplified DNA sequences. To avoid that, I need to watch the curve and halt the reaction at the right moment. This can take many hours and requires that I actively monitor the instrument’s screen.
+
+105
+00:25:43.132 --> 00:25:59.420
+MHS addresses this tedium, monitoring and analyzing the amplification curves as they come in and reporting back in real time. It identifies the curve pattern and, at precisely the right junctures, asks the researcher whether to stop or continue.
+
+106
+00:25:59.540 --> 00:26:11.661
+When told to stop, it halts the reaction and advances the instrument to the next step: a 4 °C hold, which keeps the DNA from degrading so it stays usable for downstream work (Figure 3).
+
+107
+00:26:11.781 --> 00:26:24.667
+With an A I agent and MHS watching the curve, we can now focus on setting up downstream sequencing reactions at the bench or analyzing library enrichment data from other experiments in the office.
+
+108
+00:26:25.117 --> 00:26:48.140
+Figure 5: Figure 3. Using an A I agent to monitor and control an experiment in real time via MHS. We worked with Claude Code to automate the execution of a qPCR protocol, transmitting the curve for each cycle to the chat box in real time for review. Upon receiving a stop command, the system halted the protocol and loaded a hold protocol.
+
+109
+00:26:48.260 --> 00:26:54.914
+(All curves represent actual images from the interaction with Claude Code; some output has been truncated.).
+
+110
+00:26:55.714 --> 00:26:59.255
+Case study 2: Coordinating instruments through a plate handoff.
+
+111
+00:26:59.705 --> 00:27:14.919
+Other experiments don’t need real-time monitoring, but they do require me to repeatedly load samples into a machine and take them out (for example, high-throughput DNA amplification, protein purification, and plate-based assays like ELISA).
+
+112
+00:27:15.039 --> 00:27:23.696
+Loading a sample only takes a few seconds, but each run takes an hour or two, so I end up returning to the lab every hour just to swap plates.
+
+113
+00:27:24.146 --> 00:27:42.773
+In an effort to free ourselves from full days tethered to the bench, we used an open-source robotic arm built on LeRobot, instrumented with MHS, to safely coordinate sample loading across multiple instruments. As a demo, I reproduced one routine handoff for a high-throughput experiment run.
+
+114
+00:27:42.893 --> 00:27:56.070
+In this process, a liquid handler dispenses reaction reagents into a plate; the robot arm then lifts the finished plate off the deck and moves a fresh one into place, and the liquid handler dispenses again into the new plate.
+
+115
+00:27:56.190 --> 00:28:06.887
+Claude Code controls and coordinates both instruments through MHS, running each step only once the previous one finishes, so the two instruments never collide during the handoff.
+
+116
+00:28:07.337 --> 00:28:20.016
+The demo worked as intended. After the liquid handler finished dispensing, the A I agent picked up the completion signal and, about 10 seconds later, triggered the arm’s next move, lifting the plate off the deck.
+
+117
+00:28:20.136 --> 00:28:35.624
+Across repeated tests, the two instruments never collided: the arm never moved before dispensing had finished, and the handler never started before the arm had cleared the plate. Meanwhile, I watched the whole run on my office computer without touching anything.
+
+118
+00:28:35.744 --> 00:28:48.440
+Handing off this kind of coordination to an A I agent, within the safety standards built into MHS, points to a future where an agent chains many such steps overnight while the bench runs unattended.
+
+119
+00:28:49.240 --> 00:28:50.117
+Looking ahead.
+
+120
+00:28:50.567 --> 00:29:12.460
+Setting MHS up was faster and easier than I expected, especially given how my earlier automation attempts had gone, weeks spent evaluating platforms, chasing vendor support, learning and building glue code between instruments, and finally giving up. Connecting six instruments through MHS took under a week, including the time I spent writing drivers for them.
+
+121
+00:29:12.580 --> 00:29:33.028
+Once they were connected, the A I agent worked with the instruments without much fussing on my part: it discovered each device, read its status, and called its operations without my having to hand-hold the interface. For someone who has spent years working around instruments that don’t talk to each other, that changed my day-to-day more than I anticipated.
+
+122
+00:29:33.148 --> 00:29:45.140
+The time I used to spend monitoring qPCR curves now goes to planning experiments, reading papers, and analyzing data, or sometimes just taking a nap and spending an hour in the sun.
+
+123
+00:29:45.590 --> 00:30:08.809
+These demonstrations are still just proofs-of-concept. More complicated experimental protocols will require significant optimization to work reliably, as well as the integration of broader and more complex physical manipulations. Running an agent continuously over long monitoring windows also has compute costs that need to be weighed against the researcher time saved.
+
+124
+00:30:09.259 --> 00:30:18.861
+These considerations aside, we are excited to continue to experiment with how MHS might help us run a fully autonomous design-build-test-learn round.
+
+125
+00:30:18.981 --> 00:30:35.166
+Every round of de novo protein design or optimization currently stalls at the handoffs, where I carry results from one stage to the next; in the future, with MHS giving an agent a stable interface into every instrument, that cycle could run on its own.
+
+126
+00:30:35.286 --> 00:30:55.109
+I can envision an agent proposing a set of designs, running the builds and assays, reading the results back through that same interface, and using what it learns to plan the next round. A lab that can generate its own scientific data in this way, round after round, is beginning to look reachable, even on an academic budget.
+
+127
+00:30:55.909 --> 00:30:56.886
+Acknowledgements.
+
+128
+00:30:57.336 --> 00:31:12.694
+We thank peer reviewer Pushya Krishna as well as Xander Balwit, Rebecca Hiscott, Ethan Dyer, Conor Kelly, and Siddharth Mishra-Sharma for providing helpful feedback. We are grateful to Alek Kemeny and Bailey Bova for helping us set up MHS.
+
+129
+00:31:12.814 --> 00:31:22.692
+Special thanks to Doctor Sudarshan Pinglay for his contributions, support, and guidance on the blog, and for Doctor David Baker’s mentorship in my research.
+
+130
+00:31:23.492 --> 00:31:28.880
+Carnegie Mellon University: Determining dose-response curves through rapid automation.
+
+131
+00:31:29.330 --> 00:31:50.151
+Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an A I agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.
+
+132
+00:31:50.951 --> 00:31:52.721
+Carnegie Mellon University.
+
+133
+00:31:53.521 --> 00:31:58.909
+Carnegie Mellon University: Determining dose-response curves through rapid automation.
+
+134
+00:31:59.359 --> 00:32:20.180
+Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an A I agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.
+
+135
+00:32:20.630 --> 00:32:29.178
+Sina Barazandeh, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, Joshua Kangas
+
+136
+00:32:29.628 --> 00:32:50.366
+A key component of drug development is determining dosage. Once we have identified a drug candidate, we need to understand how much of the drug is necessary to be effective, too much can be costly, or even toxic, and too little is ineffective. The appropriate dosage is usually determined through a process known as serial dilution.
+
+137
+00:32:50.486 --> 00:33:09.237
+We start with a strong solution and dilute it by the same ratio each time, using the last dilution to make the next one. For example, mix one part solution with nine parts solvent to get a 10 x-diluted sample; take one part of that sample and dilute it again, in the same way, and repeat.
+
+138
+00:33:09.357 --> 00:33:15.520
+Each step lowers the concentration by a fixed amount, giving us an even, predictable range to test.
+
+139
+00:33:15.970 --> 00:33:39.672
+The process is time-consuming and error-prone, typically requiring multiple iterations to determine the right maximum concentration and the appropriate step size between dilutions. Too high a maximum concentration risks saturation, meaning that the signal maxes out and the curve flattens at the top, so those high doses stop providing any useful information about the response.
+
+140
+00:33:39.792 --> 00:33:51.097
+Too small a step size doesn’t cover a wide enough range; too large a step size skips over the transition region entirely, missing the point at which the response actually changes.
+
+141
+00:33:51.547 --> 00:34:10.481
+When done by hand, setting up and conducting a set of serial dilution experiments can take weeks. Already onerous in traditional drug development, this is even more impractical in the high-throughput screening of A I-directed drug development, where the aim is to determine the dosages for numerous candidates at a time.
+
+142
+00:34:10.601 --> 00:34:17.970
+It comes as little surprise, then, that serial dilution experiments are a prime target for robotic laboratory automation.
+
+143
+00:34:18.420 --> 00:34:34.225
+Unfortunately, setting up such automated experiments is itself complex and time-consuming. It requires coordinating multiple pieces of experimental equipment across several rounds of experimentation to obtain a usable dose-response curve.
+
+144
+00:34:34.345 --> 00:34:52.532
+Even with access to an automated laboratory (a non-trivial requirement, given the need for multiple automation-compatible instruments and costly integration software), it can take weeks of automation engineering and protocol development to develop a procedure to carry out these experiments.
+
+145
+00:34:53.332 --> 00:34:54.201
+Our solution.
+
+146
+00:34:54.651 --> 00:35:04.614
+MHS enabled us to run these experiments roughly three times faster by allowing A I to programmatically control several pieces of laboratory equipment.
+
+147
+00:35:04.734 --> 00:35:25.406
+Our system combines a CyBio Felix liquid handler (a robot that moves precise volumes of liquid between wells, tubes, and plates), a Varioskan LUX plate reader (the instrument that measures an optical signal, such as fluorescence, in every well of a microplate), a robotic arm to move 96-well plates,
+
+148
+00:35:25.526 --> 00:35:32.480
+and monitoring cameras with an A I-controlled orchestrator to automatically and dynamically measure dose-response curves.
+
+149
+00:35:32.930 --> 00:35:48.800
+Individually, each of the components is challenging to control programmatically, requiring a unique interface and specific operation modes. An engineer normally has to learn and hand-code a separate integration for every instrument before they can work together.
+
+150
+00:35:48.920 --> 00:36:07.409
+Using MHS, however, we were able to develop drivers from scratch for each of these instruments and an orchestration layer that lets a Claude Opus 4.8 agent run the full protocol autonomously. This took about eight hours, versus the several weeks a vendor-built setup typically takes.
+
+151
+00:36:07.859 --> 00:36:27.891
+Figure 6: CMU laboratory instruments. (left) The Analytik Jena CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows. (right) The Thermo Scientific Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements.
+
+152
+00:36:28.341 --> 00:36:44.981
+Figure 7: CMU laboratory instruments, continued. The Thermo Scientific Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).
+
+153
+00:36:45.431 --> 00:37:06.902
+Figure 8: A 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.
+
+154
+00:37:07.702 --> 00:37:09.435
+Hardware, setup, and workflow.
+
+155
+00:37:09.885 --> 00:37:31.466
+Our setup uses three computers. Computer 1 runs the robotic arm, controlled through scheduling software that takes job files dropped into a submission directory instead of a normal A P I. Computer 2 runs the liquid handler through an older Windows ActiveX/COM scripting interface, plus the monitoring cameras over USB.
+
+156
+00:37:31.586 --> 00:37:38.109
+And computer 3 runs the plate reader, which has no programmatic interface at all, only an on-screen GUI.
+
+157
+00:37:38.229 --> 00:38:01.784
+MHS turns each of these into one manifest of states (the conditions a system can be in; for example, plate at position 3, sample at 25°C, well filled) and procedures (the operations it can perform, such as aspirating or shaking), so the model works from a single, consistent interface, no matter which of the three computer control styles is running underneath.
+
+158
+00:38:02.234 --> 00:38:20.935
+The workflow itself is identical to what it was before MHS, only it’s now agent-driven: the liquid handler prepares a dilution series, a camera check confirms the plate is present and correctly oriented before any transfer is allowed, the arm moves the plate to the reader, the reader takes the measurement,
+
+159
+00:38:21.055 --> 00:38:29.030
+and the model looks at the resulting curve and decides whether to adjust the concentration range and run it again or accept the result.
+
+160
+00:38:29.150 --> 00:38:47.038
+To test it, we used a colorimetric dye (a dye whose color intensity tracks its concentration) as a stand-in for the actual drug candidate. This kept the experiment safe and easy to visualize while still requiring the same decision-making a real dose-response run would need.
+
+161
+00:38:47.488 --> 00:39:03.802
+Each instrument’s interface brings its own challenges. The arm’s scheduler is based on a directory watcher that generates two different files per submitted XML file, which MHS must reconcile to get one clean result, typically within a second of submission.
+
+162
+00:39:03.922 --> 00:39:19.609
+The liquid handler only exposes COM scripting with no modern S D K, so each usable method had to be worked out either from vendor documentation or from a Claude Opus 4.8 agent exploring the interface to write a functional driver.
+
+163
+00:39:19.729 --> 00:39:42.942
+A single dispense cycle takes about four to five minutes, and the allowed error margin on dispensed volume is only 5 percent before the resulting curve becomes unusable. The version of the plate reader software we use has no A P I of any kind, so MHS drives its GUI the same way a person would, with nothing to check its work against except what’s visible on screen.
+
+164
+00:39:43.392 --> 00:40:01.016
+Before this, a person had to sit through each of these steps: watching the arm’s log for failures, checking that the plate was seated correctly, and deciding whether a resulting curve was informative enough to keep or whether the concentration range needed adjusting and the whole thing needed to be rerun.
+
+165
+00:40:01.136 --> 00:40:07.080
+MHS and the agent now handle all three of these decisions directly and automatically.
+
+166
+00:40:07.880 --> 00:40:09.677
+What we have achieved with MHS.
+
+167
+00:40:10.127 --> 00:40:30.551
+To verify that MHS would operate safely and correct itself like a human operator would, we artificially induced six different conditions: missing plate, rotated plate, reader busy, disconnected camera, unreachable device, and active emergency stop. The system correctly blocked all six before any device moved.
+
+168
+00:40:30.671 --> 00:40:36.367
+Then we asked the agent to run the serial dilution experiment to achieve an acceptable curve.
+
+169
+00:40:36.487 --> 00:41:00.018
+The model evaluated the resulting curve, but found a fit too poor to accept (R² < 0.9, driven by saturation in the upper concentration range) and decided independently to discard the plate and rerun on a fresh plate with a compressed concentration range (200 µg/mL top concentration reduced to 100 µg/mL).
+
+170
+00:41:00.138 --> 00:41:10.949
+The second run produced a strong, usable fit (R² > 0.98 with 3.4 variation across repeated measurements) with no human input at any point.
+
+171
+00:41:11.399 --> 00:41:35.595
+Figure 9: Run 1. The first serial dilution experiment tested concentrations up to 200 µg/mL. At the higher concentrations, the measurement began to saturate, meaning the signal stopped increasing in a useful way. Because this made the dose-response curve less reliable, the system rejected the run and decided that the concentration range needed to be adjusted.
+
+172
+00:41:36.045 --> 00:41:57.376
+Figure 10: Run 2. The system automatically repeated the experiment with a lower maximum concentration of 100 µg/mL. This new range captured the changing response much more clearly, producing a stronger and more reliable dose-response curve. The improved fit was accepted without any human intervention.
+
+173
+00:41:57.826 --> 00:42:17.239
+The most impressive thing about MHS was the integration speed. The time from raw, non-automated equipment readiness to a completed dilution curve, including one autonomous rerun, was eight hours. By contrast, engaging a vendor to deliver a working automated setup typically takes multiple weeks.
+
+174
+00:42:17.359 --> 00:42:32.420
+The instruments run their own native software as usual; MHS adds an orchestration layer on top, with no additional automation software required. Any device with an A P I, S D K, or GUI interface can be integrated.
+
+175
+00:42:32.540 --> 00:42:43.079
+The drivers developed for each instrument have been standardized and will be made publicly available, so others can reuse them rather than repeating the integration work from scratch.
+
+176
+00:42:43.879 --> 00:42:44.773
+What’s next.
+
+177
+00:42:45.223 --> 00:43:06.114
+Future work in our lab will focus on validating the system with real drug candidates and replacing the dye’s color signal with readouts that capture actual biological effects. We also plan to expand MHS support to instruments such as qPCR and microscopes, and to integrate M C P-based agents with the MHS fleet.
+
+178
+00:43:06.234 --> 00:43:12.526
+We also hope to reduce the integration time per instrument so we can scale the system for larger workflows.
+
+179
+00:43:12.976 --> 00:43:29.040
+We are also making sure this automation can be carried out safely. We plan to add more safety checks, monitor instrument and device responsiveness throughout our experiments, and refine our protocols for when and how human approvals are required for high-risk decisions.
+
+180
+00:43:29.160 --> 00:43:38.420
+We’re looking forward to further exploring how else we can speed up the automation of our experiments, as MHS helps our researchers move faster, safely.
+
+181
+00:43:39.220 --> 00:43:44.401
+HHMI Janelia: Using MHS to accelerate microscopy research.
+
+182
+00:43:44.851 --> 00:44:08.829
+At HHMI Janelia Research Campus, researchers are using MHS to speed up a range of microscopy-related projects. Here, Virginie Ruetten, a scientist in the Ahrens lab who studies how sleep helps the body recover from stress, shares how she used MHS to unify and orchestrate a rig that previously involved seven different vendor programs without a shared interface.
+
+183
+00:44:09.629 --> 00:44:11.110
+HHMI Janelia.
+
+184
+00:44:11.910 --> 00:44:17.091
+HHMI Janelia: Using MHS to accelerate microscopy research.
+
+185
+00:44:17.541 --> 00:44:41.520
+At HHMI Janelia Research Campus, researchers are using MHS to speed up a range of microscopy-related projects. Here, Virginie Ruetten, a scientist in the Ahrens lab who studies how sleep helps the body recover from stress, shares how she used MHS to unify and orchestrate a rig that previously involved seven different vendor programs without a shared interface.
+
+186
+00:44:41.970 --> 00:45:02.667
+A few nights of disrupted sleep are enough to cause widespread impairment: altered cognition, dysregulated metabolism, a weakened immune system. If this goes on long enough, sleep loss can even prove fatal. Yet we still don’t fully understand why. Part of the reason sleep is so hard to study is that it isn’t localized to any one organ.
+
+187
+00:45:02.787 --> 00:45:10.872
+Because sleep is a whole-animal state, developing a mechanistic understanding of it requires measuring many parts of the body at once.
+
+188
+00:45:11.322 --> 00:45:35.448
+Microscopy offers a way to do this. Cells engineered to express fluorescent sensors emit light that signals their activity; microscopes can image these signals with high temporal and spatial resolution, letting us observe what these cells are doing. However, most animals are too large or too opaque for such imaging to function across the body. My work thus uses young zebrafish.
+
+189
+00:45:35.568 --> 00:45:46.958
+This model organism is popular for its small size and transparency, and its organs and many aspects of its sleep physiology are similar to those of mammals, including humans.
+
+190
+00:45:47.408 --> 00:46:00.609
+These properties, combined with an experimental approach I developed called WHOLISTIC imaging, allow us to use two-photon microscopy to capture cellular activity throughout the brain and body of a living zebrafish.
+
+191
+00:46:00.729 --> 00:46:18.073
+Rather than taking snapshots of isolated tissues, we can watch how cells and organs respond and interact from moment to moment across the entire animal, giving us a better understanding of the cellular players and underlying mechanisms behind physiological processes.
+
+192
+00:46:18.523 --> 00:46:40.822
+WHOLISTIC imaging of body-wide cellular activity in a larval zebrafish seven days post-fertilization. Maximum-intensity projection through the full volume of a young fish expressing the calcium indicator GCaMP7f in all cells, imaged with a customized mesoscope, a two-photon large field of view microscope.
+
+193
+00:46:40.942 --> 00:46:52.704
+Fluorescence transients report intracellular calcium, a proxy for cellular activity, and are visible simultaneously in the brain, spinal cord, heart, gut, and peripheral tissue.
+
+194
+00:46:53.504 --> 00:46:57.618
+Controlling and coordinating devices through a unified interface.
+
+195
+00:46:58.068 --> 00:47:02.138
+The instruments needed to carry out my experiments fill an entire room.
+
+196
+00:47:02.258 --> 00:47:23.856
+As is common in many advanced microscopy setups, my rig is cobbled together from many components, each of which has been bought separately, from a different manufacturer, and wired up by hand: powerful femtosecond lasers; fast galvanometer mirrors, which sweep the microscope’s laser beam across the sample; super-sensitive photomultiplier detectors,
+
+197
+00:47:23.976 --> 00:47:33.935
+which collect the returning light; and two precise translation stages, which position the fish relative to the sample holder, and the sample holder relative to the microscope.
+
+198
+00:47:34.385 --> 00:47:55.356
+These devices have to operate on a tight, shared schedule: the laser must be gated in step with the mirrors that scan it, and the stage must compensate if the animal moves or the sample drifts out of the focal plane. However, these devices were not designed to work together. Each comes with its own vendor control software, with no common interface.
+
+199
+00:47:55.476 --> 00:48:11.194
+They often run in different programming languages, too: the detectors run in MATLAB, the cameras in Python, the electrophysiology in C#. A quantity held by one program, such as the position of the stage, is therefore unknown to the others.
+
+200
+00:48:11.314 --> 00:48:20.566
+Yet the devices need to communicate, for example, each stage needs to know the other’s location for the system to know the absolute location of the sample.
+
+201
+00:48:21.016 --> 00:48:43.055
+The consequence of this incompatibility is that I spend a lot of time figuring out how to get devices to talk to each other, writing bespoke code to bridge two programs, or, in some cases, resorting to adding yet another device, a digital acquisition board (DAQ), a card that physically routes and transforms electrical signals, so the devices can communicate.
+
+202
+00:48:43.175 --> 00:48:54.413
+Once everything is wired up, I still need to launch seven programs in a fixed order just to start an experiment, an error-prone process where getting the launch order wrong can cost the whole session.
+
+203
+00:48:54.863 --> 00:49:15.678
+MHS replaces those point-to-point connections with a single interface. Each device is now described and onboarded once, and its variables, controls, and sensor values are recorded in a single dictionary that lives in shared memory, a region of the computer’s memory that the operating system lets many programs access.
+
+204
+00:49:16.128 --> 00:49:27.905
+The benefit is that the cost of hardware integration stops scaling with the number of devices. Before MHS, integrating new pieces of hardware into the system was a multi-day project.
+
+205
+00:49:28.025 --> 00:49:49.742
+Since implementing it, however, when I added a new camera to image the laser beam, it took me only a few minutes, and I could seamlessly feed the camera’s output, the location of the beam, back to the mirrors steering the beam, allowing me to more precisely align it. Starting an experiment now involves one click on the MHS dashboard instead of seven separate steps.
+
+206
+00:49:50.192 --> 00:50:07.544
+Beam alignment using MHS. Data from a laser beam camera streams through the MHS state dictionary. A digital target (white cross) can be added to guide alignment, and the beam can be precisely centered manually or using motorized mirrors controlled by an agent.
+
+207
+00:50:08.344 --> 00:50:11.117
+Quantitative monitoring and online analysis.
+
+208
+00:50:11.567 --> 00:50:22.563
+Even after the hardware is wired up, I still need to run a plethora of checks and parameter adjustments before and during experiments to ensure I’m acquiring high-quality data.
+
+209
+00:50:22.683 --> 00:50:37.420
+This includes monitoring the fish’s health, ensuring the camera is focused on the heart to measure heart rate variability, and surveying the quality of the fluorescence image to ensure that the cells I want to record are visible at high resolution.
+
+210
+00:50:37.540 --> 00:50:49.000
+Each check involves computing a derived quantity from one of the many data streams the rig produces, such as the signal-to-noise ratio of the fluorescence data or the fish’s heart rate.
+
+211
+00:50:49.450 --> 00:51:06.792
+Such quantitative monitoring used to be laborious, as each data stream was collected by a separate program, and the values each program held in memory could not be easily read by any other program while the recording ran. Before MHS, I had three options, none of them optimal.
+
+212
+00:51:06.912 --> 00:51:23.808
+First, I could collect the data and analyze it afterward, iterating on parameters between runs once it was saved to disc. But this took hours, and sometimes ended with the discovery that the recording was unusable. Second, I could judge the data by eye in the vendor viewer.
+
+213
+00:51:23.928 --> 00:51:40.592
+This was fast, but it only gives an impression, not a precise measurement that can be compared across runs. Third, I could bolt analysis code onto the program doing the recording. But this was a pain because the code had to be rewritten for every program producing a data stream.
+
+214
+00:51:40.712 --> 00:51:50.738
+Displaying the data streams was similarly time-consuming, because each application needed its own bespoke viewer, written in whatever language the recording program used.
+
+215
+00:51:51.188 --> 00:52:16.741
+MHS unified that fragmented process and removes the per-program rewrite. With MHS, each data stream is stored in shared memory in the MHS state dictionary, in a documented format that is readable by any process that attaches to it. Because each data stream is presented in the same way, analysis or visualization code can now be reused across devices and written in any language.
+
+216
+00:52:17.191 --> 00:52:36.668
+This allowed me to write a modular online analysis framework that guides the data through a chain of processing steps: data enters from a slot (an entry in the MHS state dictionary), passes through reusable transforms (operations on the data), and the result is written back to another slot or to disk.
+
+217
+00:52:36.788 --> 00:52:52.997
+For visualization, I wrote a set of viewers, one per data type, rather than one per device, for images, time series, spectra, et cetera. Now, any data stream can be inspected while it’s being acquired, and I don’t need to rewrite any code to inspect a new one.
+
+218
+00:52:53.117 --> 00:53:14.150
+When I became interested in how the zebrafish’s heart rate changes across the sleep-wake cycle, I could add a transform to compute the spectral content of the heart activity, as recorded by a camera, to estimate its heart rate; I could then reuse the code to compute the spectrum of the concurrent neural activity acquired by a different device, in a different language.
+
+219
+00:53:14.270 --> 00:53:19.261
+Effort now compounds in one codebase rather than being split across one per device.
+
+220
+00:53:19.711 --> 00:53:33.607
+Online heartbeat tracking and prediction using MHS. Data from a camera imaging the ventral side of the animal is streamed through MHS, where it can be monitored using a generic MHS array slot viewer.
+
+221
+00:53:33.727 --> 00:53:52.009
+Once in the MHS state dictionary, the data is instantly accessible to other processes, allowing for online identification of the heart and real-time tracking of heart activity (blue curve). Another process fits a predictive model enabling phase-locked stimulation (orange curve).
+
+222
+00:53:52.809 --> 00:53:55.117
+Running smarter experiments with agents.
+
+223
+00:53:55.567 --> 00:54:17.967
+Experiments always involve tradeoffs. In imaging, for instance, I have to trade speed against coverage: I can scan a single plane, one thin optical slice through the brain, quickly, or many planes, to cover more of the brain, slowly. Finding the cells with the oscillatory activity I care about requires coverage, but measuring that activity requires speed.
+
+224
+00:54:18.417 --> 00:54:30.631
+Today, most experiments are ballistic: I select one set of settings at the start, one condition, and launch the run. So I have to pick a point on that tradeoff before the data tells me which point I need.
+
+225
+00:54:30.751 --> 00:54:41.680
+Experiments last hours, so staying at the rig throughout is impractical, and biology is too variable and messy to have a simple deterministic algorithm do the searching for me.
+
+226
+00:54:41.800 --> 00:54:56.283
+Ideally, I wouldn’t have to trade one for the other; I’d be able to search broadly, find the population of cells with the oscillatory activity I care about, then sample that precise region fast enough to resolve phase relationships between cells.
+
+227
+00:54:56.733 --> 00:55:07.175
+Agentic microscopy is the obvious way to get there: let an agent identify a region of interest and zoom in on it. But historically, that’s been easier said than done.
+
+228
+00:55:07.295 --> 00:55:27.519
+The hard part isn’t getting the agent to iterate on writing analysis code to figure out where to zoom; it's getting it to reliably control a rig where commands move real devices, and where failure means a crashed objective, or an agent losing the few hours the sample preparation holds to the quirks of half a dozen vendor programs.
+
+229
+00:55:27.969 --> 00:55:49.494
+This is where I found MHS particularly helpful. With the entire rig’s state in a shared, standardized dictionary, agents can read and write every variable through a single interface, instead of seven vendor A P Is, which removes the failure modes specific to each of them. I wrote a simple harness that made my rig operable by an A I agent.
+
+230
+00:55:49.614 --> 00:56:08.988
+The core deterministic loop iterates between acquisition and analysis, and each result feeds the next decision. The agent enters at decision points, choosing the acquisition parameters (for example, what region to image) and what analysis to run, online and offline, in service of a user-stated goal.
+
+231
+00:56:09.108 --> 00:56:22.733
+And because MHS enforces device-level safety limits, I don’t need to worry about the agent accidentally using excess laser power, for example, which risks bleaching the fluorescent molecules and degrading the sample.
+
+232
+00:56:22.853 --> 00:56:37.701
+I'm still developing the framework and supervising experiments, but it has already allowed me to find the oscillatory population that a fixed setting would have missed, so I need fewer repeat runs and fewer animals to get the same number of usable recordings.
+
+233
+00:56:38.151 --> 00:56:51.268
+Going forward, I want to understand how these oscillations in the brain contribute to sleep and arousal so that my colleagues and I can identify targets for drugs that deliver restorative sleep, not just sedation.
+
+234
+00:56:51.388 --> 00:57:02.871
+This requires mapping which cells are coupled to the oscillation, then running perturbation experiments phase-locked to it, to uncover the mechanism by which these cells shape global brain state.
+
+235
+00:57:02.991 --> 00:57:16.389
+Doing this involves fitting models to the activity of thousands of cells as the data streams in, then triggering light-based activation of specific neurons, a technique called optogenetics, while the recording is running.
+
+236
+00:57:16.839 --> 00:57:35.912
+Such closed-loop experiments are hard because of the need to coordinate so many devices at speed, on a rig assembled from several vendors’ hardware that share no low-latency interface. MHS supplies the speed and adaptability, while still being easy for both humans and agents to comprehend.
+
+237
+00:57:36.032 --> 00:57:56.939
+It doesn’t dispense with the tradeoffs that come with cellular activity imaging, such as speed versus coverage or how bright the signal is versus how long it lasts, since those are set by physics. But it does change how quickly I can explore the parameter space, home in on the right set, and iterate through experimental conditions and hypotheses.
+
+238
+00:57:57.059 --> 00:58:03.499
+With MHS, I now look forward to the day when hardware control no longer limits the questions I can ask.
+
+239
+00:58:03.949 --> 00:58:17.130
+Online neural activity monitoring using MHS. Data from the two-photon microscope, imaging the hindbrain of a fish, is streamed to MHS, making it instantly accessible to other processes.
+
+240
+00:58:17.250 --> 00:58:31.709
+The researcher can define regions of interest to monitor live activity (top trace: muscle; bottom trace: neuronal population), which is then fed back to an MHS slot, making it accessible for downstream processing.
+
+241
+00:58:32.159 --> 00:58:51.654
+Virginie Ruetten’s is just one of a handful of projects incorporating MHS at Janelia. Another team, led by Arco Bast in the Spruston lab, images neurons and their dendrites deep in the brains of living mice as they learn to navigate a virtual environment, watching memories form in real time.
+
+242
+00:58:51.774 --> 00:59:02.386
+MHS grew out of Arco’s idea of putting the entire rig’s state in a standardized dictionary in shared memory, and his custom microscope was the first rig to run on it.
+
+243
+00:59:02.506 --> 00:59:24.998
+Every laser, mirror, and sensor in his rig is exposed through MHS, so Claude can align the beams, tune the optics, and check its own results against the sensors, turning a half-day of manual setup into a single step. Another team, co-led by Magdalena Schneider and Hari Shroff, is using MHS to enable agentic control of a light-sheet microscope.
+
+244
+00:59:25.118 --> 00:59:36.275
+This allows Claude to act as an orchestrator, deciding in real time how to image developing C. elegans embryos, and how to make trade-offs between competing imaging parameters.
+
+245
+00:59:36.395 --> 00:59:53.504
+Across all projects, MHS has helped the researcher compress integration times, and made it possible for A I agents to control complex combinations of instruments, data visualization, and analysis, paving the way for faster discovery across a range of domains.
+
+246
+00:59:54.304 --> 00:59:58.845
+QuEra Computing: Using MHS in quantum laser stabilization.
+
+247
+00:59:59.295 --> 01:00:22.719
+QuEra, a company that builds quantum computers using neutral atoms, used MHS to give an A I agent control over parts of the laser system inside its quantum machines. The agent developed a controller that recovers the laser’s “lock”, the ultra-precise frequency the lasers must hold to interact with the atoms, 99.3 percent of the time without human intervention.
+
+248
+01:00:23.519 --> 01:00:24.667
+QuEra Computing.
+
+249
+01:00:25.467 --> 01:00:30.007
+QuEra Computing: Using MHS in quantum laser stabilization.
+
+250
+01:00:30.457 --> 01:00:53.881
+QuEra, a company that builds quantum computers using neutral atoms, used MHS to give an A I agent control over parts of the laser system inside its quantum machines. The agent developed a controller that recovers the laser’s “lock”, the ultra-precise frequency the lasers must hold to interact with the atoms, 99.3 percent of the time without human intervention.
+
+251
+01:00:54.331 --> 01:01:14.341
+The promise of quantum computing lies in its ability to harness the properties of quantum mechanics to perform calculations that are out of reach of even the largest supercomputers. QuEra’s neutral-atom approach uses the naturally occurring quantum mechanics observable in a single atom as the foundation for these calculations.
+
+252
+01:01:14.461 --> 01:01:26.788
+Nearly all aspects of the control, operation, and readout of these atomic qubits, the quantum bits that hold the computer’s information, are done through the controlled interaction of a laser with atoms.
+
+253
+01:01:27.238 --> 01:01:46.758
+For that to work, each laser has to hold its color (its frequency, measured in Hz) to an astonishing precision, roughly one part in a trillion. That’s equivalent to measuring the distance from the Earth to the Moon to within the width of a human hair. Physicists call a laser “locked” when its frequency is held this tightly.
+
+254
+01:01:46.878 --> 01:02:09.343
+Everyday disturbances, such as temperature, vibration, or a shift in pressure, can push the laser off the desired frequency and “unlock” it, causing quantum operations to start to fail. As quantum computers perform long, error-corrected programs, a laser that ends up off its target frequency mid-run can spoil a computation that took hours to build up.
+
+255
+01:02:09.793 --> 01:02:15.553
+Figure 11: Figure 1. Part of the optical path that delivers laser light to the atoms.
+
+256
+01:02:16.003 --> 01:02:22.303
+Figure 12: Figure 2. The vacuum chamber where the atoms are held, inside the glass cell at center.
+
+257
+01:02:22.753 --> 01:02:39.557
+The laser at the center of this work is a titanium-sapphire laser, a tunable workhorse that atomic physics and quantum technology have relied on for more than 20 years. Traditionally, these lasers were controlled by hand, tuned for one-off experiments by experts.
+
+258
+01:02:39.677 --> 01:02:59.561
+In QuEra’s quantum computers, those experts are aided by software that can detect and correct the most common disturbances before the lock is lost. But the potential sources of failure are so dynamic and varied that they cannot all be planned for in advance, so new or uncommon failures still need expert intervention.
+
+259
+01:02:59.681 --> 01:03:13.419
+That requires an experienced operator, who must watch several instruments at once and judge what moved, what to correct, in which order, and when to trust the result. It typically takes 5 to 10 minutes to recover the frequency.
+
+260
+01:03:13.869 --> 01:03:36.793
+In university labs, this skill is handed down from one graduate student to the next, and when the lock drops at 2 am, someone has to wake up and drive in to perform the recovery. For a university lab, that is an inconvenience and an inefficiency. At the fleet scale of a quantum-computing company, it is simply untenable to keep this skill set in the hands of just a few people.
+
+261
+01:03:37.243 --> 01:03:42.896
+Figure 13: Figure 3. The laser system, and how Claude reaches it through MHS.
+
+262
+01:03:43.346 --> 01:04:00.795
+Given the vast and variable problem space, the complexity of the hardware to be controlled, and how critical this laser system is to the operation of the quantum computer, the team at QuEra identified automated laser recovery as a good first test case for MHS (Figure 3).
+
+263
+01:04:01.595 --> 01:04:03.292
+What we achieved with MHS.
+
+264
+01:04:03.742 --> 01:04:19.845
+Making laser recovery automatic was not a new idea at QuEra. Before MHS, a team comprising a laser-systems engineer, a software engineer, an algorithms specialist, and a tester spent several months building a bespoke script to automate it.
+
+265
+01:04:19.965 --> 01:04:42.631
+That recovery script reproduced what a human does at the bench, step for step: disarm the function holding the lock, work through the laser’s tuning controls in order, check the frequency after each tune, start over if the frequency is still off, and reengage the lock once it’s correct. But it only worked about 58 percent of the time, and it took around 150 seconds per attempt.
+
+266
+01:04:43.081 --> 01:05:03.348
+Because the script automates exactly what an expert does, it also inherits the same shortcomings. A linear sequence cannot absorb a change midway through, so when a shift in temperature or air pressure (for example, from somebody opening the door to the lab) undoes a step that had already succeeded, the recovery procedure must start over.
+
+267
+01:05:03.468 --> 01:05:22.967
+This is the case both for an engineer at the bench and for the script, which is part of why a human recovery takes 5 to 10 minutes. Automating the steps made the sequence faster, but not fast enough to outrun the disturbances. This explains both the 150 seconds per attempt and the 42 percent failure rate.
+
+268
+01:05:23.417 --> 01:05:44.963
+QuEra handed the same problem to Claude through MHS. The team began by populating the agent’s context with a goal, write a standalone Python script to relock the laser, and a definition of success, relock on the first attempt, then hold for 30 seconds. The first time we attempted this, it took a day or two; now it only takes a few hours.
+
+269
+01:05:45.083 --> 01:06:03.246
+We then induced disturbances for the agent to recover from: blocking the beam, cutting power to instruments to imitate a surge, and pushing the frequency off target by varying amounts. MHS supplied the access to Claude so it could read the instruments and move the controls as a human operator would.
+
+270
+01:06:03.696 --> 01:06:25.898
+Having set that up, the agent loop ran as four roles, each a fresh instance of Claude. One proposed a hypothesis for making recovery faster or more reliable; one wrote that change into the recovery script; one ran the updated script against the live laser and logged every step; and another read the logbook and decided what to change next (Figure 4).
+
+271
+01:06:26.018 --> 01:06:44.177
+That cycle repeated hundreds of times, unattended, throughout the night, with each pass iteratively improving the script. By morning, recovery was taking about six seconds and working 96 percent of the time, against the 150 seconds and 58 percent it started from (Figure 5).
+
+272
+01:06:44.627 --> 01:06:48.503
+Figure 14: Figure 4. The loop the agent ran overnight.
+
+273
+01:06:48.953 --> 01:07:02.284
+Figure 15: Figure 5. Converging overnight. The 96 percent success rate shown here is from the development run; the 99.3 percent reported in the text is from the later blind test.
+
+274
+01:07:02.734 --> 01:07:24.227
+This improvement was the result of Claude rewriting that linear sequence as a decision tree. Instead of one path for every disturbance, the script it converged on reads each instrument, builds up if-then conditions from what the instruments show, and makes adjustments based on the specific physical disturbance and the pattern Claude learned from encountering it repeatedly.
+
+275
+01:07:24.347 --> 01:07:41.607
+For example, if the frequency has barely moved, most of the laser’s controls will not change anything, so the script touches only one or two, leaving the rest alone. A human operator would still have to work through all of them, because the only way to be sure a control is right is to check it.
+
+276
+01:07:41.727 --> 01:07:55.499
+Claude found the shortcut by running disturbances over and over again until the pattern in the lock’s behavior became clear. Claude’s advantage was its ability to do this exceedingly quickly, at a pace no operator could match.
+
+277
+01:07:55.949 --> 01:08:11.422
+We then tested the finished script against the same randomized set of induced disturbances with no agent involved. Across 700 trials, it recovered the correct lock 695 times, a 99.3 percent success rate.
+
+278
+01:08:11.542 --> 01:08:33.775
+The hardest disturbances, where the frequency had hopped far from target, took 10 to 14 seconds, compared to the 5 to 10 minutes for a human at the bench, and the simpler ones took 0.9 to 5.4 seconds (Figure 5). The end product was a deterministic, fully inspectable script capable of running in production without an A I agent controlling it.
+
+279
+01:08:34.225 --> 01:08:55.793
+With the laser locking working significantly better, we then pointed the agent at the quality of the lock, that is, how often it unlocks. That’s set by 12 interdependent parameters (known as PID) inside the servo loop (shown in Figure 3). Tuning them well strips residual noise out of the lock, which sharpens the computer’s gates and makes unlocks rarer.
+
+280
+01:08:55.913 --> 01:09:17.740
+Measuring that noise precisely requires capturing an oscilloscope trace and running a Fourier transform on it, which is not realistic for a human after every small change across 12 parameters. Instead, a specialist generally tunes against the root mean square (RMS) error the servo reports, which is a good enough approximation for lock quality.
+
+281
+01:09:17.860 --> 01:09:31.748
+The PID parameters drift with temperature and pressure changes, so the goal is a tune that is good enough to hold for a while, followed by a retune when the lock starts slipping. The video below shows what just three of those parameters do.
+
+282
+01:09:32.198 --> 01:09:40.554
+Figure 6. What tuning entails for three of the 12 parameters. The video cycles through settings that overshoot, undershoot, and land.
+
+283
+01:09:41.004 --> 01:09:55.274
+The team pointed Claude at that same RMS number, but after every single adjustment it also captured a trace and computed the full spectrum hundreds of times over the course of the night. That is the part a human cannot match.
+
+284
+01:09:55.394 --> 01:10:05.130
+Minimizing the RMS error usually does produce the lowest noise across the whole band, and a specialist who has done it for years is typically correct to trust it.
+
+285
+01:10:05.250 --> 01:10:19.297
+But Claude did not have to trust it; instead, it could confirm the exact amount of residual noise after every change, and keep scouring through the search space until it could guarantee it had found the lowest realistic noise possible.
+
+286
+01:10:19.747 --> 01:10:41.773
+The laser’s parameters had already been set by a QuEra specialist, and that standing tune measured 15.7 mV of residual error. Over 363 experiments and 16 unattended hours, Claude brought it to 1.55 mV, roughly t10 times quieter on the RMS measure it was optimizing against (Figure 7).
+
+287
+01:10:41.893 --> 01:11:01.831
+To verify that independently, the specialist retuned the same laser from scratch by his usual method, without seeing what Claude had found, and both sets of parameters went to a phase noise analyzer, a rare, specialized instrument used to measure absolute phase noise ( how much fluctuation is present at every frequency).
+
+288
+01:11:01.951 --> 01:11:26.205
+This check also served as a way to fairly compare each PID parameter set. The agent’s tune matched the specialist’s across the band, with one exception: a roughly 220 kHz resonance where the manual tune had left about a thousand times more noise than Claude’s, exactly the kind of error that can occur when using the RMS heuristic, and what Claude’s method was able to avoid).
+
+289
+01:11:26.325 --> 01:11:47.616
+The final check was the one that matters most in practice: how long each tune holds. Over a 19-hour run, Claude’s PIDs did not lose the lock once, while the expert tuned PIDs unlocked about 1.6 times an hour. Unlike the relock controller, this tuning workflow keeps the agent in the loop to adjust the parameters as conditions change.
+
+290
+01:11:48.066 --> 01:11:59.273
+Figure 16: Figure 7. The tuning run. Each dot represents a setting the agent tried out. The blue line shows the best overall result at each point in the experiment.
+
+291
+01:12:00.073 --> 01:12:00.967
+What’s next.
+
+292
+01:12:01.417 --> 01:12:22.208
+The relock controller was built for a single laser system. But a quantum computer holds many laser systems with similar potential points of failure, not to mention many other subsystems that serve different functions but are similarly precise, fragile, and complex, and which require the same meticulous attention from a scant pool of experts.
+
+293
+01:12:22.658 --> 01:12:38.400
+In the pilot, MHS and A I agents did not replace such expertise completely. During the experiments, if something went wrong with the physical hardware, Claude didn’t know how to troubleshoot, as its understanding of the rig was programmatic rather than physical.
+
+294
+01:12:38.520 --> 01:12:56.120
+Claude also often stopped to wait for human confirmation before performing an action it deemed even slightly risky, meaning experiments would sometimes pause overnight while Claude waited for approval. Still, an overly cautious agent is preferable to one that is not cautious enough.
+
+295
+01:12:56.240 --> 01:13:05.839
+Finally, the team needed to provide a ton of context to Claude about what they wanted from the experiment and how Claude should carry it out for it to perform the tasks correctly.
+
+296
+01:13:06.289 --> 01:13:21.519
+Even with these limitations, the pilot showed that an A I agent can meaningfully improve how such systems are controlled, and some of these limitations should ease as models become more capable and build up a more sophisticated understanding of hardware.
+
+297
+01:13:21.639 --> 01:13:38.770
+Next, QuEra aims to deploy the relock recovery system on live quantum processors, package the tuning workflow as a standalone tool, and apply the lessons from this experiment to other subsystems, working towards a fleet of machines that increasingly look after themselves.
+
+298
+01:13:39.220 --> 01:13:42.394
+Read more about the pilot experiment on the QuEra blog.
+
+299
+01:13:43.194 --> 01:13:49.081
+Tetsuwan Scientific: Using MHS to run qPCRs to profile local pollution.
+
+300
+01:13:49.531 --> 01:14:06.745
+Researchers at Tetsuwan integrated MHS with its automated biology lab platform, ResearchOS. MHS helped orchestrate a qPCR workflow to contribute to citizen science efforts to characterize pollution in California’s San Pedro Creek.
+
+301
+01:14:07.545 --> 01:14:08.862
+Tetsuwan Scientific.
+
+302
+01:14:09.662 --> 01:14:15.549
+Tetsuwan Scientific: Using MHS to run qPCRs to profile local pollution.
+
+303
+01:14:15.999 --> 01:14:33.213
+Researchers at Tetsuwan integrated MHS with its automated biology lab platform, ResearchOS. MHS helped orchestrate a qPCR workflow to contribute to citizen science efforts to characterize pollution in California’s San Pedro Creek.
+
+304
+01:14:33.663 --> 01:14:48.756
+Since the 1960s, labs have had automated machines that can pipette, seal, shake, move labware, and perform most of the other functions of a biology lab. Yet the majority of biology experimentation remains manual.
+
+305
+01:14:48.876 --> 01:15:06.770
+Part of the reason for this is that most biology experiments are fundamentally dynamic: sample count, plate format, and the number of conditions change between runs, as do the scientific parameters, such as dilution series depth, incubation times, the number of timepoints, and so on.
+
+306
+01:15:07.220 --> 01:15:28.382
+Translating a single experiment configuration into an automated workflow takes a specialist, known as an automation engineer, weeks or months. So automation only pays off when a configuration is repeated at enormous scale, like in high-throughput screening, where one method is used across a library of hundreds of thousands of compounds.
+
+307
+01:15:28.502 --> 01:15:36.282
+The bulk of experimentation remains manual, inheriting all the potential errors and reproducibility problems that entails.
+
+308
+01:15:36.732 --> 01:15:55.691
+Tetsuwan is building an automated biology lab, available to researchers and agents via an A P I. Without a way to automate both small- and large-scale configurations, our lab would be confined to the limited capabilities of lab automation today. We built ResearchOS to solve this.
+
+309
+01:15:55.811 --> 01:16:17.863
+ResearchOS is an automation platform that allows users to generate, run, and manage automated workflows without prior lab automation experience within minutes. Claude works with users to turn natural-language protocols into a script written in our syntax for experiments, which is ultimately processed by a custom compiler into automation code.
+
+310
+01:16:18.313 --> 01:16:28.560
+Figure 17: Built on top of a custom compiler, Tetsuwan’s ResearchOS makes it possible to execute automated experiments from natural-language instructions.
+
+311
+01:16:29.010 --> 01:16:46.098
+ResearchOS connects users to the automated lab, but the lab itself presents a formidable orchestration challenge. It is, after all, a menagerie of pipetting robots, 1 robotic arms, and automated labware that all use different languages and all have their quirks.
+
+312
+01:16:46.218 --> 01:16:56.494
+We implemented MHS to allow us to use Claude as an orchestration layer over that fleet by enabling these devices to communicate with one another and with the user.
+
+313
+01:16:56.614 --> 01:17:14.662
+To test MHS, we put the platform to work on a citizen science project in Pacifica, California, running quantitative PCRs (qPCRs) to characterize sources of fecal contamination in the San Pedro Creek, which for decades have been at dangerously high levels.
+
+314
+01:17:15.462 --> 01:17:18.487
+Implementing MHS in a qPCR workflow.
+
+315
+01:17:18.937 --> 01:17:38.215
+One of the most commonly used protocols in many biology labs, the polymerase chain reaction (PCR) copies DNA with nothing but a metal block, called a thermocycler, that heats up and cools down. DNA is a two-stranded molecule, and heating it separates the strands so they can be duplicated.
+
+316
+01:17:38.335 --> 01:17:48.283
+Cooling the strands lets primers, short pieces of DNA that match the edges of the region you want copied, stick to those strands and mark where copying should start.
+
+317
+01:17:48.403 --> 01:18:04.926
+Warming the strands back up, though not as much as before, lets an enzyme called a polymerase extend each primer along the strand it’s stuck to, copying it. qPCR adds a dye that glows brighter as copies accumulate, so we know how many copies there were to begin with.
+
+318
+01:18:05.046 --> 01:18:18.668
+We can use this to measure how strongly a gene is switched on, to detect and quantify a pathogen in a patient sample, and, as in our case, to measure how much of a specific organism is present in an environmental sample.
+
+319
+01:18:19.118 --> 01:18:30.111
+Figure 18: A screenshot taken from the “procedure” page of ResearchOS, which shows users a graphical representation of their experiment after a protocol is uploaded.
+
+320
+01:18:30.561 --> 01:18:50.334
+qPCRs require a viscous, soap-like reagent known as a “master mix,” which contains the chemistry shared between reactions. These liquid properties make master mix especially prone to creating bubbles and foam when pipetted, which can cause inaccurate pipetting and degrade the quality of the experiment.
+
+321
+01:18:50.454 --> 01:18:57.615
+With MHS, we were able to connect a camera that detects such errors and triggers an automated recovery process.
+
+322
+01:18:58.065 --> 01:19:13.728
+Claude, using MHS, operates a camera to take pictures of each transfer. The pictures are processed by a computer vision algorithm to identify pipetting errors, such as bubbles and foam. Claude can then intervene when an error is detected.
+
+323
+01:19:14.178 --> 01:19:24.921
+In one case, the camera identified bubbles in the master mix, which was in a tube held by a robotic arm. There was nothing the robotic arm alone could do to get rid of the bubbles.
+
+324
+01:19:25.041 --> 01:19:47.249
+So ResearchOS scanned the lab for MHS-connected devices that could help, and Claude suggested an error handling strategy to us via Slack: move the tube to a centrifuge and briefly spin it at a low speed to draw the liquid to the bottom of the well, eliminating the bubbles. Through MHS, Claude was then able to issue the appropriate commands to the centrifuge.
+
+325
+01:19:47.699 --> 01:20:02.674
+This orchestration layer also allows protocols to stay hardware-independent. For example, a protocol might call for spinning a plate down at 15000 times rpm for five minutes, without naming a specific type of centrifuge.
+
+326
+01:20:02.794 --> 01:20:24.580
+ResearchOS can use MHS to query the network for a compatible centrifuge, learn its driver interface, and then use Claude to convert the force specified in the protocol into whatever parameters that specific machine accepts. For a machine that only takes rotor speed, for instance, that means dividing the force by the radius of the centrifuge’s rotor.
+
+327
+01:20:24.700 --> 01:20:30.925
+The protocol author never even has to know which centrifuge was used, nor how the measurement was converted.
+
+328
+01:20:31.375 --> 01:20:37.612
+Multiple lab robots work in tandem to execute a qPCR workflow and troubleshoot errors.
+
+329
+01:20:38.412 --> 01:20:41.057
+Improving compiler heuristics with MHS.
+
+330
+01:20:41.507 --> 01:20:52.405
+We also used Claude to set up a closed-loop optimization experiment to improve our compiler, which translates high-level code into instructions our lab equipment can execute.
+
+331
+01:20:52.525 --> 01:21:15.224
+We took our qPCR protocol and compiled it into a range of realistic worklists that spanned a variety of experimental setups, such as testing different primer sets with different combinations of samples, sample numbers, and replicates (multiple runs of the same sample). From this, we determined how many different types of liquid transfers our compiler could implement.
+
+332
+01:21:15.344 --> 01:21:35.407
+We then tried out those transfers on a robot under varying conditions, and measured their accuracy and precision with a tracer dye. When an experiment finished, Claude retrieved the accuracy data from the plate reader via MHS, analyzed and visualized it, and suggested tweaks to improve our compiler’s model of transfer precision.
+
+333
+01:21:35.527 --> 01:21:51.733
+With more precise predictions and known systematic offsets (predictable errors in measured values), the compiler was able to make more informed machine layout and tip-reuse tradeoffs, which will ultimately help make our experiments faster, cheaper, and more accurate.
+
+334
+01:21:52.183 --> 01:22:11.105
+Over the course of this experiment we tested 9143 individual dispenses, 300 unique transfer types (liquid times tip times volume times dispense count times over-aspiration), and 1508 measured conditions across four types of liquid.
+
+335
+01:22:11.225 --> 01:22:34.015
+On held-out experiments, the model Claude and MHS helped refine predicted multi-dispense precision roughly 12 percent more accurately than the manufacturer’s technical specification, beating it on 31 of 45 runs (sign-test p approximately 0.001). This increased to roughly 17 percent on our most-replicated data.
+
+336
+01:22:34.815 --> 01:22:37.360
+Preliminary data from the San Pedro Creek.
+
+337
+01:22:37.810 --> 01:23:01.469
+Although these were just early tests, the preliminary data from our qPCR testing corroborated the San Pedro Creek Watershed Coalition’s finding that humans are the primary contributor to fecal contamination in San Pedro Creek. We used qPCR to amplify fragments of bacterial DNA specific to different host organisms, such as humans, horses, birds, and dogs.
+
+338
+01:23:01.919 --> 01:23:26.282
+We were able to detect the presence of E. coli with a general 16S marker, as well as the presence of Bacteroides bacteria using the AllBac primer. 16S is a ribosomal RNA gene shared by all bacteria. By designing primer sets to interrogate sequences of 16S that contain interspecies variations, the host species can be identified (in this case, E. coli ).
+
+339
+01:23:26.732 --> 01:23:37.012
+Figure 19: qPCR Amplification plot of HF183, a marker specific to bacterial species originating from human feces.
+
+340
+01:23:37.462 --> 01:23:52.516
+Figure 20: The qPCR experiment’s amplification curves show that the only source-specific marker detected was for humans (BacH, HF183). Note that Mean Cts are not comparable between markers.
+
+341
+01:23:52.966 --> 01:24:16.423
+We also saw clear amplification of human-associated Bacteroides using the HF183 and BacH primers. No other host-specific Bacteroides were detectable in our experiment. In future experiments, we aim to better characterize the source of contamination and quantitatively evaluate the concentration of human-associated Bacteroides in the wastewater.
+
+342
+01:24:16.873 --> 01:24:40.821
+Ultimately, the improved device integration, orchestration, and real-time error recovery made possible by MHS will be critical to bridging the gap between hardware, scientists, and models. As tools like ResearchOS and MHS improve the capabilities of lab automation, we believe experimentation will become increasingly accessible, reproducible, and programmable.
+
+343
+01:24:41.271 --> 01:24:47.111
+To read more about the optimization and community science aspects of this project, visit our blog.
+
+344
+01:24:47.561 --> 01:25:11.240
+1 Known as “liquid handlers” within lab automation. Note that 6-DoF arms are not the same as liquid handlers; liquid handlers are optimized specifically for pipetting rather than for general use. Workcells, which combine multiple lab robots into a single system, usually employ both liquid handlers (for pipetting) and robotic arms (for transferring plates and other labware).
+
+345
+01:25:11.690 --> 01:25:13.550
+01 / 06
+
+346
+01:25:14.000 --> 01:25:26.383
+Hardware vendors and the software companies that support them are also building MHS support into their equipment so A I agents can more easily discover and operate their devices. For example:
+
+347
+01:25:26.833 --> 01:25:44.756
+Amazon Web Services will support MHS through Strands Robots, the library for connecting A I agents to physical devices. A W S will provide participants a private, pre-release version of the Strands Robots package for the duration of the MHS research preview.
+
+348
+01:25:44.996 --> 01:25:54.234
+Automata is adding MHS support to LINQ, their lab automation platform, to perform intelligent error handling of instruments in autonomous labs.
+
+349
+01:25:54.474 --> 01:26:06.641
+Danaher and Anthropic are actively exploring how MHS-supported capabilities could enable its smart instruments and autonomous laboratories to scale biomedical research and development.
+
+350
+01:26:06.881 --> 01:26:16.984
+Doosan Robotics is testing MHS with their robotic arms, including to perform automated quality assurance and coordinate tasks across multiple robots.
+
+351
+01:26:17.224 --> 01:26:32.945
+MBF Bioscience is building an MHS driver for ScanImage, the software that runs laser-scanning microscopes in hundreds of neuroscience labs worldwide, to integrate A I agents into real-time data analysis and experiments.
+
+352
+01:26:33.185 --> 01:26:54.198
+QIAGEN is experimenting with MHS through a working proof of concept on its nucleic acid purification platform, QIAsymphony Connect, showing how A I agents could help laboratories troubleshoot instrument issues faster, guide operators through recovery, and improve instrument uptime while reducing risk to biological samples.
+
+353
+01:26:54.438 --> 01:27:02.194
+Tecan is adding MHS support for their Fluent liquid handling platforms so A I agents can discover and operate them directly.
+
+354
+01:27:02.434 --> 01:27:09.159
+Universal Robots has had early access to MHS and plans to add support to its robotics platform.
+
+355
+01:27:09.959 --> 01:27:11.426
+Joining the research preview.
+
+356
+01:27:11.876 --> 01:27:29.910
+These early results from our partners are encouraging, but we have more work to do on the standard before we open-source it. As a large language model, Claude learns about the physical world through text and images, meaning its spatial and physical reasoning have limitations that still require expert oversight.
+
+357
+01:27:30.030 --> 01:27:45.091
+When working with protein samples, for example, Genentech researchers had to guide Claude to recognize that errors caused by foaming in samples were physical failures, not software bugs, that could only be mitigated through the appropriate physical corrections.
+
+358
+01:27:45.541 --> 01:28:08.062
+MHS also doesn’t yet work with hardware that lacks a programming interface, so we’re working with the manufacturers of such devices to build in MHS drivers. Many developers already use Claude Code to work with individual pieces of physical equipment; for the next phase of MHS, we hope to expand the standard to cover more of the devices developers build on.
+
+359
+01:28:08.182 --> 01:28:24.637
+Early adopters include Hugging Face, who are adding MHS support in LeRobot, their robotics library, and Raspberry Pi, who are enabling MHS integration across a number of their products following successful tests using their Camera MHS Driver.
+
+360
+01:28:25.087 --> 01:28:43.577
+We will also use the research preview to build additional safety evaluations with our launch partners and strengthen protections for the use of A I in the physical world. We are developing a physical safety roadmap to further bolster our safeguards policy and enforcement coverage against the risk of misuse.
+
+361
+01:28:43.697 --> 01:28:51.896
+When we open-source MHS, we will release findings from the research preview as part of our guidance for deploying the standard safely.
+
+362
+01:28:52.346 --> 01:29:01.902
+We’re inviting stakeholders across industries to join the waitlist for our research preview of MHS. If you’d like to participate, submit your interest here.
+
+363
+01:29:02.702 --> 01:29:03.679
+Acknowledgments.
+
+364
+01:29:04.129 --> 01:29:27.523
+MHS began as a collaboration between Alek Kemeny on Anthropic’s Beneficial Deployments team and Arco Bast, a postdoctoral scientist at HHMI Janelia Research Campus. Bast was running complex brain-imaging experiments on a rig that combined lasers, motorized focusers, and specialized cameras from different vendors with no common interface.
+
+365
+01:29:27.643 --> 01:29:41.015
+To speed up his experiments, he developed a shared memory dictionary that enabled the instruments to communicate with one another at memory speed. Kemeny and Bast worked together to integrate A I models into that interface.
+
+366
+01:29:41.465 --> 01:30:02.247
+We thank everyone who has contributed to this work so far, including, but not limited to, Aaron Boswell, Ben Arthur, Boaz Mohar, Gagan Bhat, Mark Kittisopikul, Nadine Yasser, Nick Purcell, Takashi Kawase, and Virginie Ruetten. We look forward to moving MHS forward with our industry partners and, soon, with the open-source community.
+
+367
+01:30:03.247 --> 01:30:20.160
+That was Previewing the Model Hardware Standard, from Anthropic Newsroom, published August 27, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 26 Aug 2026 23:24:57 +0000</lastBuildDate>
-    <pubDate>Wed, 26 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 28 Aug 2026 01:59:50 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,120 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Expanding our support for scientists</title>
+      <itunes:title>News: Expanding our support for scientists</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-expanding-support-for-scientists/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
+      <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/expanding-support-for-scientists
+Published August 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• AI for Science program: https://www.anthropic.com/news/ai-for-science-program
+• Claude team plan for scientists: http://claude.com/programs/team-plan-for-scientists
+• Riemann zeta function: https://www.anthropic.com/research/riemann-zeta
+• Claude’s work on protein design: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Claude Science: https://claude.com/product/claude-science
+• complete the verification form here: http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation
+• apply to our AI for Science program: https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog
+• continue to block: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-expanding-support-for-scientists/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/expanding-support-for-scientists">https://www.anthropic.com/news/expanding-support-for-scientists</a><br/><strong>Published:</strong> August 27, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 416 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science</a></li><li><a href="https://www.anthropic.com/news/ai-for-science-program">AI for Science program</a></li><li><a href="http://claude.com/programs/team-plan-for-scientists">Claude team plan for scientists</a></li><li><a href="https://www.anthropic.com/research/riemann-zeta">Riemann zeta function</a></li><li><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Claude’s work on protein design</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation">complete the verification form here</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog">apply to our AI for Science program</a></li><li><a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">continue to block</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-expanding-support-for-scientists/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-08-27-expanding-support-for-scientists.mp3" length="2457009" type="audio/mpeg"/>
+      <itunes:duration>213</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-27-expanding-support-for-scientists.jpg?v=46a366ec"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-expanding-support-for-scientists.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-08-27-expanding-support-for-scientists.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/expanding-support-for-scientists
+Published August 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• AI for Science program: https://www.anthropic.com/news/ai-for-science-program
+• Claude team plan for scientists: http://claude.com/programs/team-plan-for-scientists
+• Riemann zeta function: https://www.anthropic.com/research/riemann-zeta
+• Claude’s work on protein design: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Claude Science: https://claude.com/product/claude-science
+• complete the verification form here: http://claude.ai/redirect/website.v1.df570219-c40f-4d18-8168-d62c33db99d2/labs-verification/attestation
+• apply to our AI for Science program: https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog
+• continue to block: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-expanding-support-for-scientists/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>22</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-expanding-support-for-scientists.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-expanding-support-for-scientists.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Previewing the Model Hardware Standard</title>
+      <itunes:title>News: Previewing the Model Hardware Standard</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-model-hardware-standard-research-preview/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+      <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+Source: https://www.anthropic.com/news/model-hardware-standard-research-preview
+Published August 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• HHMI Janelia Research Campus: https://www.hhmi.org/research/janelia
+• Model Context Protocol: https://www.anthropic.com/news/model-context-protocol
+• head here: https://www.modelhardwarestandard.com/
+• WHOLISTIC imaging: https://wholistic.janelia.org/
+• agentic control: https://github.com/gently-project/gently
+• on the QuEra blog: http://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers
+• at dangerously high levels: https://www.cbsnews.com/sanfrancisco/news/linda-mar-beach-pacifica-pollution-human-waste-contamination/
+• finding: https://www.sfgate.com/local/article/pacifica-beach-human-waste-22279337.php
+• visit our blog: http://tetsuwan.com/blog/mhs
+• Beneficial Deployments team: http://anthropic.com/beneficial-deployments
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-model-hardware-standard-research-preview/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">https://www.anthropic.com/news/model-hardware-standard-research-preview</a><br/><strong>Published:</strong> August 27, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements Beneficial Deployments<br/><strong>Length:</strong> 12,267 words · 1h 30m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.hhmi.org/research/janelia">HHMI Janelia Research Campus</a></li><li><a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol</a></li><li><a href="https://www.modelhardwarestandard.com/">head here</a></li><li><a href="https://wholistic.janelia.org/">WHOLISTIC imaging</a></li><li><a href="https://github.com/gently-project/gently">agentic control</a></li><li><a href="http://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers">on the QuEra blog</a></li><li><a href="https://www.cbsnews.com/sanfrancisco/news/linda-mar-beach-pacifica-pollution-human-waste-contamination/">at dangerously high levels</a></li><li><a href="https://www.sfgate.com/local/article/pacifica-beach-human-waste-22279337.php">finding</a></li><li><a href="http://tetsuwan.com/blog/mhs">visit our blog</a></li><li><a href="http://anthropic.com/beneficial-deployments">Beneficial Deployments team</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-model-hardware-standard-research-preview/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-08-27-model-hardware-standard-research-preview.mp3" length="44257419" type="audio/mpeg"/>
+      <itunes:duration>5424</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-27-model-hardware-standard-research-preview.jpg?v=5670ce02"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-model-hardware-standard-research-preview.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-08-27-model-hardware-standard-research-preview.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.</itunes:subtitle>
+      <itunes:summary>Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+Source: https://www.anthropic.com/news/model-hardware-standard-research-preview
+Published August 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• HHMI Janelia Research Campus: https://www.hhmi.org/research/janelia
+• Model Context Protocol: https://www.anthropic.com/news/model-context-protocol
+• head here: https://www.modelhardwarestandard.com/
+• WHOLISTIC imaging: https://wholistic.janelia.org/
+• agentic control: https://github.com/gently-project/gently
+• on the QuEra blog: http://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers
+• at dangerously high levels: https://www.cbsnews.com/sanfrancisco/news/linda-mar-beach-pacifica-pollution-human-waste-contamination/
+• finding: https://www.sfgate.com/local/article/pacifica-beach-human-waste-22279337.php
+• visit our blog: http://tetsuwan.com/blog/mhs
+• Beneficial Deployments team: http://anthropic.com/beneficial-deployments
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-27-model-hardware-standard-research-preview/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>23</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-model-hardware-standard-research-preview.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-27-model-hardware-standard-research-preview.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Enabling independent research on how people use Claude</title>
       <itunes:title>Research: Enabling independent research on how people use Claude</itunes:title>
