@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 298.75,
+   "title": "Can Claude post-train a production-grade model for better alignment?"
+  },
+  {
+   "startTime": 376.45,
+   "title": "What Claude proposed"
+  },
+  {
+   "startTime": 411.74,
+   "title": "Monitoring cheating behaviors"
+  },
+  {
+   "startTime": 455.15,
+   "title": "Are we measuring the right things?"
+  },
+  {
+   "startTime": 549.48,
+   "title": "Outro"
+  }
+ ]
+}

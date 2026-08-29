@@ -4474,6 +4474,30 @@
       "updated": "2026-08-28T01:59:50+00:00",
       "slug": "news-2026-08-27-model-hardware-standard-research-preview",
       "episode": 23
+    },
+    "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures": {
+      "first_seen": "2026-08-29T00:08:54+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-29T00:08:54+00:00",
+      "slug": "research-2026-08-28-automated-researchers-mitigate-alignment-failures",
+      "episode": 24
+    },
+    "https://claude.com/blog/how-anthropic-employees-use-claude-tag": {
+      "first_seen": "2026-08-29T00:19:05+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-29T00:19:05+00:00",
+      "slug": "claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag",
+      "episode": 25
+    },
+    "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts": {
+      "first_seen": "2026-08-29T00:23:23+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-08-29T00:23:23+00:00",
+      "slug": "claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts",
+      "episode": 26
     }
   },
   "episodes": [
@@ -5721,8 +5745,162 @@
       "episode": 23,
       "created": "2026-08-28T01:59:50+00:00",
       "hero": "https://cdn.sanity.io/images/4zrzovbb/website/ebfc315e9854ada0b6bae009ffd9c63c41f9a5ab-1280x720.png"
+    },
+    {
+      "slug": "research-2026-08-28-automated-researchers-mitigate-alignment-failures",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "source": "research",
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "subtitle": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+      "date": "2026-08-28T16:00:00+00:00",
+      "authors": [],
+      "category": "Alignment",
+      "links": [
+        {
+          "text": "AI begins to build itself",
+          "href": "https://www.anthropic.com/institute/recursive-self-improvement"
+        },
+        {
+          "text": "Petri",
+          "href": "https://www.anthropic.com/research/petri-open-source-auditing"
+        },
+        {
+          "text": "earlier experiments",
+          "href": "https://www.anthropic.com/research/automated-alignment-researchers"
+        },
+        {
+          "text": "ConfAIde",
+          "href": "https://arxiv.org/abs/2310.17884"
+        },
+        {
+          "text": "PrivaCI-Bench",
+          "href": "https://arxiv.org/abs/2502.17041"
+        },
+        {
+          "text": "PrivacyLens",
+          "href": "https://arxiv.org/abs/2409.00138"
+        },
+        {
+          "text": "Epoch Capabilities Index",
+          "href": "https://epoch.ai/eci"
+        },
+        {
+          "text": "recently learned",
+          "href": "https://alignment.anthropic.com/2026/automated-w2s-researcher/"
+        },
+        {
+          "text": "misbehavior attempts still tend to appear in its reasoning",
+          "href": "https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf"
+        },
+        {
+          "text": "full report",
+          "href": "https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf"
+        },
+        {
+          "text": "Alignment Science blog",
+          "href": "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
+        }
+      ],
+      "word_count": 993,
+      "duration": 572.133878,
+      "bytes": 5356251,
+      "episode": 24,
+      "created": "2026-08-29T00:08:54+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Stairs&backgroundColor=olive"
+    },
+    {
+      "slug": "claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag",
+      "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+      "source": "claude-blog",
+      "title": "How Anthropic employees use Claude Tag",
+      "subtitle": "Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.",
+      "date": "2026-08-28T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Tag",
+          "href": "https://www.anthropic.com/news/introducing-claude-tag"
+        },
+        {
+          "text": "follow conversations",
+          "href": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room"
+        },
+        {
+          "text": "self-serve data analysis",
+          "href": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions"
+        },
+        {
+          "text": "use case examples for Claude Tag",
+          "href": "https://claude.com/docs/claude-tag/users/use-cases"
+        },
+        {
+          "text": "has been granted access to",
+          "href": "https://claude.com/blog/agent-identity-access-model"
+        },
+        {
+          "text": "claude.ai/admin-settings/claude-tag",
+          "href": "https://claude.ai/admin-settings/claude-tag"
+        },
+        {
+          "text": "claude.com/docs/claude-tag",
+          "href": "https://claude.com/docs/claude-tag"
+        }
+      ],
+      "word_count": 1554,
+      "duration": 685.191837,
+      "bytes": 6227271,
+      "episode": 25,
+      "created": "2026-08-29T00:19:05+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f397e90d1e6ab0f5eada2b_og_lessons-from-building-claude-code-prompt-caching-is-everything.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts",
+      "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+      "source": "claude-blog",
+      "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+      "subtitle": "Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.",
+      "date": "2026-08-28T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude for Teachers",
+          "href": "https://www.anthropic.com/news/claude-for-teachers"
+        },
+        {
+          "text": "enterprise features",
+          "href": "https://support.claude.com/en/articles/16559896"
+        },
+        {
+          "text": "here",
+          "href": "https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms"
+        },
+        {
+          "text": "Claude for K-12 Academy",
+          "href": "https://academy.claude.com/collections/k-12"
+        },
+        {
+          "text": "Beneficial Deployments",
+          "href": "https://www.anthropic.com/beneficial-deployments"
+        },
+        {
+          "text": "publish teaching skills as public goods",
+          "href": "https://github.com/anthropics/k12-teacher-skills"
+        },
+        {
+          "text": "get started",
+          "href": "https://claude.com/solutions/teachers#get-verified"
+        }
+      ],
+      "word_count": 537,
+      "duration": 282.409796,
+      "bytes": 3055084,
+      "episode": 26,
+      "created": "2026-08-29T00:23:23+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91a4ba49d6a66f44cbe768_og_claude-for-teachers-now-available-for-schools-and-districts.jpg"
     }
   ],
-  "next_episode": 24,
+  "next_episode": 27,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,137 @@
+{
+ "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts",
+ "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+ "subtitle": "Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.",
+ "date": "2026-08-28T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91a4ba49d6a66f44cbe768_og_claude-for-teachers-now-available-for-schools-and-districts.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "In July, we introduced Claude for Teachers , which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them.",
+   "html": "In July, we introduced <a href=\"https://www.anthropic.com/news/claude-for-teachers\">Claude for Teachers</a>, which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them.  "
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organization under a single set of K-12 Terms, with enterprise features like single sign on, role-based access controls, and domain claiming.",
+   "html": "Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organization under a single set of K-12 Terms, with <a href=\"https://support.claude.com/en/articles/16559896\">enterprise features</a> like single sign on, role-based access controls, and domain claiming. "
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How it works",
+   "html": "How it works"
+  },
+  {
+   "type": "paragraph",
+   "text": "A school or district administrator gets verified, accepts the K-12 terms and student data privacy agreement, and connects their email domain and single sign-on. From there:",
+   "html": "A school or district administrator gets verified, accepts the K-12 terms and student data privacy agreement, and connects their email domain and single sign-on. From there:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Educators and school staff get free access to Claude for Teachers. This includes Claude capabilities for K-12 educators like teaching skills, state standards and the high-quality curricula beneath them, and connections to the K-12 tools teachers already use. ‍",
+     "html": "<strong>Educators and school staff get free access to Claude for Teachers. </strong>This includes Claude capabilities for K-12 educators like teaching skills, state standards and the high-quality curricula beneath them, and connections to the K-12 tools teachers already use.<strong>‍</strong>"
+    },
+    {
+     "text": "Usage limits match individual Claude for Teachers accounts, at no cost . Overage billing is turned off by default unless administrators opt in. ‍",
+     "html": "<strong>Usage limits match individual Claude for Teachers accounts, at no cost</strong>. Overage billing is turned off by default unless administrators opt in. <strong>‍</strong>"
+    },
+    {
+     "text": "The school or district administrators manage the accounts. Qualified schools and districts receive our suite of Enterprise features , like role-based access control and single sign-on. Admins add and remove staff, set policies, and see adoption across schools. ‍",
+     "html": "<strong>The school or district administrators manage the accounts.</strong> Qualified schools and districts receive our suite of <a href=\"https://support.claude.com/en/articles/16559896\">Enterprise features</a>, like role-based access control and single sign-on. Admins add and remove staff, set policies, and see adoption across schools. <strong>‍</strong>"
+    },
+    {
+     "text": "Through domain capture, teachers who already verified on the school or district's domain move into the centrally managed account. ‍",
+     "html": "<strong>Through domain capture,</strong> teachers who already verified on the school or district&#x27;s domain move into the centrally managed account. <strong>‍</strong>"
+    },
+    {
+     "text": "The school or district holds the terms and privacy agreement. Anthropic provides school and district-level K-12 Terms and Data Processing Agreement, so one set of FERPA-aligned commitments applies across your entire organization. Claude for Teachers data is not used for model training purposes, and student information is protected by our K-12 Data Processing Agreement. You can read more about K-12 privacy in Claude for Teachers here .",
+     "html": "<strong>The school or district holds the terms and privacy agreement.</strong> Anthropic provides school and district-level K-12 Terms and Data Processing Agreement, so one set of FERPA-aligned commitments applies across your entire organization. Claude for Teachers data is not used for model training purposes, and student information is protected by our K-12 Data Processing Agreement. You can read more about K-12 privacy in Claude for Teachers <a href=\"https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms\">here</a>."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "New for back-to-school",
+   "html": "New for back-to-school"
+  },
+  {
+   "type": "paragraph",
+   "text": "We’re also adding new and improved resources for educators heading back to school, including:",
+   "html": "We’re also adding new and improved resources for educators heading back to school, including: "
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Two new teaching skills, co-developed with Learning Commons. Lesson preparation : Claude helps you plan for the key moments of an upcoming lesson, so you're prepared and confident. Check for understanding : Build short standards-aligned checks for understanding that surface what students are thinking, so you know what to teach next. Available for math at launch.",
+     "html": "<strong>Two new teaching skills, co-developed with Learning Commons.</strong>   <em>Lesson preparation</em>: Claude helps you plan for the key moments of an upcoming lesson, so you&#x27;re prepared and confident.<em>Check for understanding</em>: Build short standards-aligned checks for understanding that surface what students are thinking, so you know what to teach next. Available for math at launch."
+    },
+    {
+     "text": "Improvements across existing skills. We’ve made accessibility upgrades to student-facing materials and incorporated a lesson preparation step into our lesson planning skill.",
+     "html": "<strong>Improvements across existing skills. </strong>We’ve made accessibility upgrades to student-facing materials and incorporated a lesson preparation step into our lesson planning skill."
+    },
+    {
+     "text": "Updated Claude for K-12 Academy . Free AI fluency content including courses, guides, and classroom workflows for K-12 teachers, coaches, and district teams.",
+     "html": "<strong>Updated </strong><a href=\"https://academy.claude.com/collections/k-12\"><strong>Claude for K-12 Academy</strong></a><strong>.</strong> Free AI fluency content including courses, guides, and classroom workflows for K-12 teachers, coaches, and district teams."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "This is part of Anthropic's broader efforts in education, focused on supporting teachers and improving learning outcomes for students. Through our Beneficial Deployments mission, we continue to publish teaching skills as public goods for the community of developers building for teachers. This fall, we are also piloting an evaluation of Claude for Teachers in the Detroit Public Schools Community District, working closely with teachers to study the impact on educator wellbeing and practice.",
+   "html": "This is part of Anthropic&#x27;s broader efforts in education, focused on supporting teachers and improving learning outcomes for students. Through our <a href=\"https://www.anthropic.com/beneficial-deployments\">Beneficial Deployments</a> mission, we continue to <a href=\"https://github.com/anthropics/k12-teacher-skills\">publish teaching skills as public goods</a> for the community of developers building for teachers. This fall, we are also piloting an evaluation of Claude for Teachers in the Detroit Public Schools Community District, working closely with teachers to study the impact on educator wellbeing and practice."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Getting started",
+   "html": "Getting started"
+  },
+  {
+   "type": "paragraph",
+   "text": "U.S. K-12 school and district leaders can verify their district and get started today. Qualifying organizations can sign up by June 30, 2027, for a full year of free access.",
+   "html": "U.S. K-12 school and district leaders can verify their district and <a href=\"https://claude.com/solutions/teachers#get-verified\">get started</a> today. Qualifying organizations can sign up by June 30, 2027, for a full year of free access."
+  }
+ ],
+ "links": [
+  {
+   "text": "Claude for Teachers",
+   "href": "https://www.anthropic.com/news/claude-for-teachers"
+  },
+  {
+   "text": "enterprise features",
+   "href": "https://support.claude.com/en/articles/16559896"
+  },
+  {
+   "text": "here",
+   "href": "https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms"
+  },
+  {
+   "text": "Claude for K-12 Academy",
+   "href": "https://academy.claude.com/collections/k-12"
+  },
+  {
+   "text": "Beneficial Deployments",
+   "href": "https://www.anthropic.com/beneficial-deployments"
+  },
+  {
+   "text": "publish teaching skills as public goods",
+   "href": "https://github.com/anthropics/k12-teacher-skills"
+  },
+  {
+   "text": "get started",
+   "href": "https://claude.com/solutions/teachers#get-verified"
+  }
+ ],
+ "word_count": 537,
+ "fetched_at": "2026-08-29T00:19:05+00:00"
+}

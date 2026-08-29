@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 70.38,
+   "title": "How it works"
+  },
+  {
+   "startTime": 162.55,
+   "title": "New for back-to-school"
+  },
+  {
+   "startTime": 244.33,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 259.85,
+   "title": "Outro"
+  }
+ ]
+}

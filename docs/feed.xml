@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 28 Aug 2026 01:59:50 +0000</lastBuildDate>
-    <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:23:23 +0000</lastBuildDate>
+    <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,170 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Automated researchers can reliably mitigate alignment failures</title>
+      <itunes:title>Research: Automated researchers can reliably mitigate alignment failures</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-28-automated-researchers-mitigate-alignment-failures/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
+      <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
+      <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
+
+Source: https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures
+Published August 28, 2026 · Anthropic Research
+
+Links referenced in the post:
+• AI begins to build itself: https://www.anthropic.com/institute/recursive-self-improvement
+• Petri: https://www.anthropic.com/research/petri-open-source-auditing
+• earlier experiments: https://www.anthropic.com/research/automated-alignment-researchers
+• ConfAIde: https://arxiv.org/abs/2310.17884
+• PrivaCI-Bench: https://arxiv.org/abs/2502.17041
+• PrivacyLens: https://arxiv.org/abs/2409.00138
+• Epoch Capabilities Index: https://epoch.ai/eci
+• recently learned: https://alignment.anthropic.com/2026/automated-w2s-researcher/
+• misbehavior attempts still tend to appear in its reasoning: https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf
+• full report: https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf
+• Alignment Science blog: https://alignment.anthropic.com/2026/automated-alignment-researchers/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-28-automated-researchers-mitigate-alignment-failures/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</a><br/><strong>Published:</strong> August 28, 2026 · Anthropic Research<br/><strong>Category:</strong> Alignment<br/><strong>Length:</strong> 993 words · 9 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">AI begins to build itself</a></li><li><a href="https://www.anthropic.com/research/petri-open-source-auditing">Petri</a></li><li><a href="https://www.anthropic.com/research/automated-alignment-researchers">earlier experiments</a></li><li><a href="https://arxiv.org/abs/2310.17884">ConfAIde</a></li><li><a href="https://arxiv.org/abs/2502.17041">PrivaCI-Bench</a></li><li><a href="https://arxiv.org/abs/2409.00138">PrivacyLens</a></li><li><a href="https://epoch.ai/eci">Epoch Capabilities Index</a></li><li><a href="https://alignment.anthropic.com/2026/automated-w2s-researcher/">recently learned</a></li><li><a href="https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf">misbehavior attempts still tend to appear in its reasoning</a></li><li><a href="https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf">full report</a></li><li><a href="https://alignment.anthropic.com/2026/automated-alignment-researchers/">Alignment Science blog</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-28-automated-researchers-mitigate-alignment-failures/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-08-28-automated-researchers-mitigate-alignment-failures.mp3" length="5356251" type="audio/mpeg"/>
+      <itunes:duration>572</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-08-28-automated-researchers-mitigate-alignment-failures.jpg?v=7391be3f"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-28-automated-researchers-mitigate-alignment-failures.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-08-28-automated-researchers-mitigate-alignment-failures.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</itunes:subtitle>
+      <itunes:summary>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
+
+Source: https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures
+Published August 28, 2026 · Anthropic Research
+
+Links referenced in the post:
+• AI begins to build itself: https://www.anthropic.com/institute/recursive-self-improvement
+• Petri: https://www.anthropic.com/research/petri-open-source-auditing
+• earlier experiments: https://www.anthropic.com/research/automated-alignment-researchers
+• ConfAIde: https://arxiv.org/abs/2310.17884
+• PrivaCI-Bench: https://arxiv.org/abs/2502.17041
+• PrivacyLens: https://arxiv.org/abs/2409.00138
+• Epoch Capabilities Index: https://epoch.ai/eci
+• recently learned: https://alignment.anthropic.com/2026/automated-w2s-researcher/
+• misbehavior attempts still tend to appear in its reasoning: https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf
+• full report: https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf
+• Alignment Science blog: https://alignment.anthropic.com/2026/automated-alignment-researchers/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-08-28-automated-researchers-mitigate-alignment-failures/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>24</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-28-automated-researchers-mitigate-alignment-failures.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-08-28-automated-researchers-mitigate-alignment-failures.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: How Anthropic employees use Claude Tag</title>
+      <itunes:title>Claude Blog: How Anthropic employees use Claude Tag</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-employees-use-claude-tag</guid>
+      <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.
+
+Source: https://claude.com/blog/how-anthropic-employees-use-claude-tag
+Published August 28, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Tag: https://www.anthropic.com/news/introducing-claude-tag
+• follow conversations: https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room
+• self-serve data analysis: https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
+• use case examples for Claude Tag: https://claude.com/docs/claude-tag/users/use-cases
+• has been granted access to: https://claude.com/blog/agent-identity-access-model
+• claude.ai/admin-settings/claude-tag: https://claude.ai/admin-settings/claude-tag
+• claude.com/docs/claude-tag: https://claude.com/docs/claude-tag
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-anthropic-employees-use-claude-tag">https://claude.com/blog/how-anthropic-employees-use-claude-tag</a><br/><strong>Published:</strong> August 28, 2026 · Claude Blog<br/><strong>Length:</strong> 1,554 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/introducing-claude-tag">Claude Tag</a></li><li><a href="https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room">follow conversations</a></li><li><a href="https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions">self-serve data analysis</a></li><li><a href="https://claude.com/docs/claude-tag/users/use-cases">use case examples for Claude Tag</a></li><li><a href="https://claude.com/blog/agent-identity-access-model">has been granted access to</a></li><li><a href="https://claude.ai/admin-settings/claude-tag">claude.ai/admin-settings/claude-tag</a></li><li><a href="https://claude.com/docs/claude-tag">claude.com/docs/claude-tag</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.mp3" length="6227271" type="audio/mpeg"/>
+      <itunes:duration>685</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.jpg?v=94b597cd"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.</itunes:subtitle>
+      <itunes:summary>Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.
+
+Source: https://claude.com/blog/how-anthropic-employees-use-claude-tag
+Published August 28, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Tag: https://www.anthropic.com/news/introducing-claude-tag
+• follow conversations: https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room
+• self-serve data analysis: https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
+• use case examples for Claude Tag: https://claude.com/docs/claude-tag/users/use-cases
+• has been granted access to: https://claude.com/blog/agent-identity-access-model
+• claude.ai/admin-settings/claude-tag: https://claude.ai/admin-settings/claude-tag
+• claude.com/docs/claude-tag: https://claude.com/docs/claude-tag
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>25</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-how-anthropic-employees-use-claude-tag.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude for Teachers, now available for U.S. K-12 schools and districts</title>
+      <itunes:title>Claude Blog: Claude for Teachers, now available for U.S. K-12 schools and districts</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts</guid>
+      <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.
+
+Source: https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
+Published August 28, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Teachers: https://www.anthropic.com/news/claude-for-teachers
+• enterprise features: https://support.claude.com/en/articles/16559896
+• here: https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms
+• Claude for K-12 Academy: https://academy.claude.com/collections/k-12
+• Beneficial Deployments: https://www.anthropic.com/beneficial-deployments
+• publish teaching skills as public goods: https://github.com/anthropics/k12-teacher-skills
+• get started: https://claude.com/solutions/teachers#get-verified
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts">https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts</a><br/><strong>Published:</strong> August 28, 2026 · Claude Blog<br/><strong>Length:</strong> 537 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/claude-for-teachers">Claude for Teachers</a></li><li><a href="https://support.claude.com/en/articles/16559896">enterprise features</a></li><li><a href="https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms">here</a></li><li><a href="https://academy.claude.com/collections/k-12">Claude for K-12 Academy</a></li><li><a href="https://www.anthropic.com/beneficial-deployments">Beneficial Deployments</a></li><li><a href="https://github.com/anthropics/k12-teacher-skills">publish teaching skills as public goods</a></li><li><a href="https://claude.com/solutions/teachers#get-verified">get started</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.mp3" length="3055084" type="audio/mpeg"/>
+      <itunes:duration>282</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.jpg?v=d6508a1c"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.</itunes:subtitle>
+      <itunes:summary>Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.
+
+Source: https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
+Published August 28, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Teachers: https://www.anthropic.com/news/claude-for-teachers
+• enterprise features: https://support.claude.com/en/articles/16559896
+• here: https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms
+• Claude for K-12 Academy: https://academy.claude.com/collections/k-12
+• Beneficial Deployments: https://www.anthropic.com/beneficial-deployments
+• publish teaching skills as public goods: https://github.com/anthropics/k12-teacher-skills
+• get started: https://claude.com/solutions/teachers#get-verified
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>26</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Expanding our support for scientists</title>
       <itunes:title>News: Expanding our support for scientists</itunes:title>

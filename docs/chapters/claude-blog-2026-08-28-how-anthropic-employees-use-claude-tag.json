@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 83.06,
+   "title": "Turning a Slack thread into a polished document"
+  },
+  {
+   "startTime": 260.34,
+   "title": "Consolidating and following up on requests scattered throughout Slack channels"
+  },
+  {
+   "startTime": 457.56,
+   "title": "Expediting legal document reviews"
+  },
+  {
+   "startTime": 664.68,
+   "title": "Outro"
+  }
+ ]
+}
