@@ -1,0 +1,65 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 187.92,
+   "title": "Securing evaluation and training environments"
+  },
+  {
+   "startTime": 204.06,
+   "title": "Pausing and hardening evaluation environments"
+  },
+  {
+   "startTime": 346.07,
+   "title": "Reinforcement learning environments"
+  },
+  {
+   "startTime": 378.58,
+   "title": "Broader hardening"
+  },
+  {
+   "startTime": 402.4,
+   "title": "Best practices for external partners"
+  },
+  {
+   "startTime": 485.78,
+   "title": "Sandbox and network isolation"
+  },
+  {
+   "startTime": 527.67,
+   "title": "Pre-engagement validation"
+  },
+  {
+   "startTime": 590.85,
+   "title": "Explicit scope-setting"
+  },
+  {
+   "startTime": 614.52,
+   "title": "Real time monitoring"
+  },
+  {
+   "startTime": 653.86,
+   "title": "Alignment assessment"
+  },
+  {
+   "startTime": 680.33,
+   "title": "Environment and state of knowledge of our models during evaluation"
+  },
+  {
+   "startTime": 786.46,
+   "title": "Studying efforts to prevent cheating during training"
+  },
+  {
+   "startTime": 1253.45,
+   "title": "Hardening security practices"
+  },
+  {
+   "startTime": 1493.8,
+   "title": "Outro"
+  }
+ ]
+}

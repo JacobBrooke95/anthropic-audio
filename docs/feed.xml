@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Sat, 29 Aug 2026 00:23:23 +0000</lastBuildDate>
-    <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:00:54 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Aug 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,60 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Improving our alignment and security efforts</title>
+      <itunes:title>News: Improving our alignment and security efforts</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-31-improving-alignment-security-efforts/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
+      <pubDate>Mon, 31 Aug 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/improving-alignment-security-efforts
+Published August 31, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• reported: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• reported: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• early research in that direction: https://alignment.anthropic.com/2026/reward-seeker/
+• disclosure: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+• previous: https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&amp;%20Claude%20Mythos%205%20System%20Card.pdf
+• found: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• April alignment risk update: https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf
+• August Risk Report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-31-improving-alignment-security-efforts/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/improving-alignment-security-efforts">https://www.anthropic.com/news/improving-alignment-security-efforts</a><br/><strong>Published:</strong> August 31, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 3,568 words · 25 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">reported</a></li><li><a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">reported</a></li><li><a href="https://alignment.anthropic.com/2026/reward-seeker/">early research in that direction</a></li><li><a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">disclosure</a></li><li><a href="https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&amp;%20Claude%20Mythos%205%20System%20Card.pdf">previous</a></li><li><a href="https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf">found</a></li><li><a href="https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf">April alignment risk update</a></li><li><a href="https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf">August Risk Report</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-31-improving-alignment-security-efforts/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-08-31-improving-alignment-security-efforts.mp3" length="12889302" type="audio/mpeg"/>
+      <itunes:duration>1515</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-08-31-improving-alignment-security-efforts.jpg?v=8c7bba42"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-31-improving-alignment-security-efforts.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-08-31-improving-alignment-security-efforts.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/improving-alignment-security-efforts
+Published August 31, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• reported: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• reported: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• early research in that direction: https://alignment.anthropic.com/2026/reward-seeker/
+• disclosure: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+• previous: https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&amp;%20Claude%20Mythos%205%20System%20Card.pdf
+• found: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• April alignment risk update: https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf
+• August Risk Report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-08-31-improving-alignment-security-efforts/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>27</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-31-improving-alignment-security-efforts.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-08-31-improving-alignment-security-efforts.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Automated researchers can reliably mitigate alignment failures</title>
       <itunes:title>Research: Automated researchers can reliably mitigate alignment failures</itunes:title>

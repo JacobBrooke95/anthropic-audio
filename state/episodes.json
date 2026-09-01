@@ -4498,6 +4498,14 @@
       "updated": "2026-08-29T00:23:23+00:00",
       "slug": "claude-blog-2026-08-28-claude-for-teachers-now-available-for-schools-and-districts",
       "episode": 26
+    },
+    "https://www.anthropic.com/news/improving-alignment-security-efforts": {
+      "first_seen": "2026-09-01T01:00:53+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-01T01:00:53+00:00",
+      "slug": "news-2026-08-31-improving-alignment-security-efforts",
+      "episode": 27
     }
   },
   "episodes": [
@@ -5899,8 +5907,58 @@
       "episode": 26,
       "created": "2026-08-29T00:23:23+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91a4ba49d6a66f44cbe768_og_claude-for-teachers-now-available-for-schools-and-districts.jpg"
+    },
+    {
+      "slug": "news-2026-08-31-improving-alignment-security-efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source": "news",
+      "title": "Improving our alignment and security efforts",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-08-31T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "reported",
+          "href": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+        },
+        {
+          "text": "reported",
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing"
+        },
+        {
+          "text": "early research in that direction",
+          "href": "https://alignment.anthropic.com/2026/reward-seeker/"
+        },
+        {
+          "text": "disclosure",
+          "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+        },
+        {
+          "text": "previous",
+          "href": "https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "text": "found",
+          "href": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf"
+        },
+        {
+          "text": "April alignment risk update",
+          "href": "https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf"
+        },
+        {
+          "text": "August Risk Report",
+          "href": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf"
+        }
+      ],
+      "word_count": 3568,
+      "duration": 1515.337143,
+      "bytes": 12889302,
+      "episode": 27,
+      "created": "2026-09-01T01:00:53+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus"
     }
   ],
-  "next_episode": 27,
+  "next_episode": 28,
   "baseline_date": "2026-08-14"
 }
