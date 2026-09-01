@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 01 Sep 2026 01:00:54 +0000</lastBuildDate>
-    <pubDate>Mon, 31 Aug 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2026 18:41:13 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,50 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Developing Enterprise Frontier Safeguards with our customers</title>
+      <itunes:title>News: Developing Enterprise Frontier Safeguards with our customers</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-01-enterprise-frontier-safeguards/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
+      <pubDate>Tue, 01 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/enterprise-frontier-safeguards
+Published September 1, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Fable 5.1: https://www.anthropic.com/claude-fable-and-mythos-5-1
+• most sophisticated misuse: https://www.anthropic.com/news/disrupting-AI-espionage
+• form: https://claude.com/form/enterprise-frontier-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-01-enterprise-frontier-safeguards/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/enterprise-frontier-safeguards">https://www.anthropic.com/news/enterprise-frontier-safeguards</a><br/><strong>Published:</strong> September 1, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 2,027 words · 16 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Claude Fable 5.1</a></li><li><a href="https://www.anthropic.com/news/disrupting-AI-espionage">most sophisticated misuse</a></li><li><a href="https://claude.com/form/enterprise-frontier-safeguards">form</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-01-enterprise-frontier-safeguards/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-09-01-enterprise-frontier-safeguards.mp3" length="8577273" type="audio/mpeg"/>
+      <itunes:duration>971</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-09-01-enterprise-frontier-safeguards.jpg?v=2d0608e9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-01-enterprise-frontier-safeguards.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-09-01-enterprise-frontier-safeguards.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/enterprise-frontier-safeguards
+Published September 1, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Fable 5.1: https://www.anthropic.com/claude-fable-and-mythos-5-1
+• most sophisticated misuse: https://www.anthropic.com/news/disrupting-AI-espionage
+• form: https://claude.com/form/enterprise-frontier-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-01-enterprise-frontier-safeguards/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>28</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-01-enterprise-frontier-safeguards.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-01-enterprise-frontier-safeguards.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Improving our alignment and security efforts</title>
       <itunes:title>News: Improving our alignment and security efforts</itunes:title>

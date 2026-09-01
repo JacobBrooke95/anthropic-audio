@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 90.18,
+   "title": "Solving the dilemma of frontier security"
+  },
+  {
+   "startTime": 200.45,
+   "title": "Designed with our customers"
+  },
+  {
+   "startTime": 255.99,
+   "title": "On monitoring"
+  },
+  {
+   "startTime": 284.55,
+   "title": "On data storage"
+  },
+  {
+   "startTime": 336.44,
+   "title": "On automated and human review"
+  },
+  {
+   "startTime": 872.3,
+   "title": "How EFS works"
+  },
+  {
+   "startTime": 933.42,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 948.69,
+   "title": "Outro"
+  }
+ ]
+}

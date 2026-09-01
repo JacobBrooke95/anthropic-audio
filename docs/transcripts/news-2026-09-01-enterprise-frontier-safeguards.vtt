@@ -1,0 +1,341 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.357
+This is Anthropic, Read Aloud. Today: Developing Enterprise Frontier Safeguards with our customers.
+
+2
+00:00:09.657 --> 00:00:13.199
+Developing Enterprise Frontier Safeguards with our customers.
+
+3
+00:00:13.649 --> 00:00:21.393
+Anthropic is an A I safety and research company that's working to build reliable, interpretable, and steerable A I systems.
+
+4
+00:00:21.843 --> 00:00:26.195
+From Anthropic Newsroom, published September 1, 2026.
+
+5
+00:00:27.195 --> 00:00:50.208
+Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic. EFS will be rolling out to customers in phases, starting later this fall.
+
+6
+00:00:50.328 --> 00:00:59.288
+To make the transition smooth, eligible customers will receive ZDR on Fable 5 and Fable 5.1 until EFS is ready.
+
+7
+00:00:59.738 --> 00:01:17.614
+We developed EFS in close collaboration with more than 100 customers in industries like financial services, healthcare, manufacturing, telecom, law, retail, and the public sector, and with our cloud partners at Amazon Web Services, Google Cloud, and Microsoft Azure.
+
+8
+00:01:18.064 --> 00:01:29.377
+EFS will be supported on Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on A W S, Google’s Agent Platform, and Microsoft Foundry.
+
+9
+00:01:30.177 --> 00:01:32.663
+Solving the dilemma of frontier security.
+
+10
+00:01:33.113 --> 00:01:47.207
+Mythos-class models, like Claude Fable 5.1, represent a major increase in intelligence and agentic capabilities. However, with that increase comes the potential for both misuse and autonomous misbehavior.
+
+11
+00:01:47.657 --> 00:02:03.983
+Over the last few months, we’ve seen substantial evidence of attempted misuse of A I models. These range from typical forms of abuse, such as fraud, to sophisticated cyberattacks, which can include agents autonomously engaging in destructive behavior.
+
+12
+00:02:04.103 --> 00:02:16.021
+Some of these instances involve theft or misappropriation of enterprise customers’ credentials, which are difficult to detect without the ability to monitor traffic and detect abnormal behavior.
+
+13
+00:02:16.471 --> 00:02:39.140
+Furthermore, because the most sophisticated misuse can involve many tasks spread across multiple sessions and accounts, it is not sufficient to run automated analysis on each interaction separately and then instantaneously discard the data. Effective detection requires storing data for a meaningful period of time so that it can be correlated across time and accounts.
+
+14
+00:02:39.590 --> 00:02:55.127
+For this reason, we introduced 30-day data retention starting with Fable 5. This policy was not motivated by a desire to train on enterprise data: Anthropic has never trained on enterprise data without explicit permission, and never will.
+
+15
+00:02:55.577 --> 00:03:07.949
+The enterprises we worked with generally understood the safety and security value of data retention, but many to especially in regulated industries to found it difficult to use models with data retention.
+
+16
+00:03:08.069 --> 00:03:19.646
+We therefore sat down with customers to design a solution that could provide the best of both worlds: the privacy of ZDR and the safety allowed by monitoring across time and accounts.
+
+17
+00:03:20.446 --> 00:03:22.028
+Designed with our customers.
+
+18
+00:03:22.477 --> 00:03:31.352
+We built Enterprise Frontier Safeguards with feedback from the experts who will use it every day: security, product, compliance, and delivery teams.
+
+19
+00:03:31.472 --> 00:03:47.911
+One of the groups we worked with was the Analysis and Resilience Center for Systemic Risk (ARC), whose members include the chief information security officers of the largest U S banks, including Goldman Sachs, Morgan Stanley, Citi, Bank of America, and Wells Fargo.
+
+20
+00:03:48.361 --> 00:04:07.661
+We also worked with leaders at companies such as Comcast, KPMG, Mastercard, Salesforce, and Visa, to make sure the design held up across industries. Our conversations spanned a quarter of the Fortune 100, every U S global systemically important bank, and virtually every regulated industry.
+
+21
+00:04:08.111 --> 00:04:15.194
+Here is what we heard from this wide range of customers, and what we built into EFS to address these common concerns:
+
+22
+00:04:15.994 --> 00:04:16.920
+On monitoring.
+
+23
+00:04:17.370 --> 00:04:30.575
+Enterprises have long applied monitoring for insider risk, and now want help upleveling monitoring for agents. Their concerns were about Anthropic’s automated monitoring systems meeting their regulatory standards.
+
+24
+00:04:31.025 --> 00:04:43.746
+With EFS, customers control how data gets reviewed. When monitoring detects a pattern that needs attention, those signals are sent directly to customers so they can review what the automated systems detected.
+
+25
+00:04:44.546 --> 00:04:45.791
+On data storage.
+
+26
+00:04:46.241 --> 00:05:04.054
+It’s a lot of work for enterprises to add another “trusted data vendor” for a number of reasons. They need to notify all of their customers who these vendors are and update contracts. They also have internal requirements for safely storing and auditing data, given its high level of sensitivity.
+
+27
+00:05:04.174 --> 00:05:12.456
+Because of these concerns, we architected EFS so that customers have the ability to store data on their existing cloud infrastructure.
+
+28
+00:05:12.906 --> 00:05:35.639
+In EFS, customers can control their data storage and management. Customers want the ability to have their data live in infrastructure they control, under their own encryption keys, access policies, and audit logging. Activity data used for monitoring can be stored in the customer’s own cloud account (such as Amazon S3, Azure Blob Storage, or Google Cloud Storage).
+
+29
+00:05:36.439 --> 00:05:38.411
+On automated and human review.
+
+30
+00:05:38.861 --> 00:05:57.428
+Even as automated review is becoming more effective, a person looking at a flag still adds value by confirming real misuse and clearing false positives. But what we heard from many customers, especially those in regulated industries, is that the person doing that review needs to be one of their own.
+
+31
+00:05:57.548 --> 00:06:10.273
+Many operate under rules that tightly govern who may see certain information, privileged legal material, non-public information, drug-safety reports. Their teams are already trained and cleared for that work.
+
+32
+00:06:10.723 --> 00:06:24.973
+EFS has automated safety monitoring, no Anthropic human review required. Customers want protection against cyberattacks, and appreciate that these can be difficult to detect if they unfold across many sessions and accounts.
+
+33
+00:06:25.093 --> 00:06:47.813
+With EFS, automated systems analyze a rolling window of traffic for signals of serious misuse, including attempts to develop offensive cyber or biological capabilities and signs of stolen or leaked credentials. Those flags go directly to the customer and their people take it from there to no human review by Anthropic employees is required.
+
+34
+00:06:48.263 --> 00:06:49.735
+Figure 1: logo.
+
+35
+00:06:50.185 --> 00:07:11.689
+Quote: A I controls need to be designed to protect sensitive information, and model safeguards are an important part of that process. Anthropic engaged us as they developed Enterprise Frontier Safeguards to ensure alignment with our requirements and standards.Matt Chung Chief Information Security Officer and Head of Technology Risk. End quote.
+
+36
+00:07:12.139 --> 00:07:13.611
+Figure 2: logo.
+
+37
+00:07:14.061 --> 00:07:36.117
+Quote: Enterprise Frontier Safeguards gives us exactly what we asked for: our logs stay in a Wells-managed environment under Wells-managed keys. We keep custody of our data while Anthropic operates the detection. That split is what lets our teams put frontier models to work safely and meet our obligations to customers, employees, and regulators.
+
+38
+00:07:36.237 --> 00:07:44.360
+We helped shape these safeguards because our industry needs them.Munish Kumar Sharma Chief Information Security Officer. End quote.
+
+39
+00:07:44.810 --> 00:07:46.259
+Figure 3: logo.
+
+40
+00:07:46.709 --> 00:08:06.853
+Quote: As a company that runs critical infrastructure, the capability of models is important. Just as important are solutions that allow us to keep our data in our own account, and Enterprise Frontier Safeguards settled it.Noopur Davis EVP, Chief Information Security and Product Privacy Officer. End quote.
+
+41
+00:08:07.303 --> 00:08:08.821
+Figure 4: logo.
+
+42
+00:08:09.271 --> 00:08:27.147
+Quote: Eight of our members worked with Anthropic to define what it would take to run the most capable frontier models inside a systemically important bank: who holds the data, who holds the keys, what automated review can and cannot see, and under what conditions a human is ever permitted to look.
+
+43
+00:08:27.267 --> 00:08:39.590
+This collaboration is leading to the development and delivery of improved safeguards and standards that could scale across our industry and beyond.Scott DePasquale President and C E O. End quote.
+
+44
+00:08:40.040 --> 00:08:41.602
+Figure 5: logo.
+
+45
+00:08:42.052 --> 00:08:58.305
+Quote: One of the key tenets of the safeguards architecture is the ability for us to retain data and have it held outside the model itself, protected within our environment. There are areas of the firm, and of our clients' work, that are regulated and highly sensitive.
+
+46
+00:08:58.425 --> 00:09:10.347
+Those safeguards actually allow us to apply A I in parts of the business that we wouldn't have been able to before.Todd Lohr National Managing Partner, Clients and Markets [Service Partner]. End quote.
+
+47
+00:09:10.797 --> 00:09:12.320
+Figure 6: logo.
+
+48
+00:09:12.770 --> 00:09:24.642
+Quote: Our customers have trusted us with their data for more than two decades. That experience is exactly why we wanted to help think this through with Anthropic, rather than wait on the sidelines.
+
+49
+00:09:24.762 --> 00:09:36.792
+We were able to work together on new security and privacy capabilities at the architecture level, not just the policy level.Meir Amiel President, Chief Trust and Infrastructure Officer. End quote.
+
+50
+00:09:37.242 --> 00:09:38.801
+Figure 7: logo.
+
+51
+00:09:39.251 --> 00:09:58.199
+Quote: Our clients want to put frontier models to work, and their security teams want the data to stay in infrastructure they control. Anthropic built Enterprise Frontier Safeguards with more than a hundred enterprises to do exactly that.Lan Guan Chief A I and Data Officer [Service Partner]. End quote.
+
+52
+00:09:58.649 --> 00:10:00.131
+Figure 8: logo.
+
+53
+00:10:00.581 --> 00:10:10.586
+Quote: As A I models take on more regulated, sensitive workloads, scaling responsibly also comes down to architecture, not just policy commitments.
+
+54
+00:10:10.706 --> 00:10:28.658
+Direct control over the data environment, paired with pattern-based automated safety monitoring, gives enterprises the concrete, structural capabilities they need to deploy with real oversight, accountability, and confidence.Adnan Amjad U S Cyber Leader [Service Partner]. End quote.
+
+55
+00:10:29.108 --> 00:10:30.701
+Figure 9: logo.
+
+56
+00:10:31.151 --> 00:10:42.117
+Quote: The safeguards and the design of them, clearly, you heard our feedback. They put us in the driver's seat. The logs are under our control; they don't go anywhere else unless we want them to.
+
+57
+00:10:42.237 --> 00:10:55.010
+It gives us control of the data, control of the information, and control of what's done after something that might exceed a safeguard is detected.Philip Martin Chief Information Security Officer. End quote.
+
+58
+00:10:55.460 --> 00:10:56.898
+Figure 10: logo.
+
+59
+00:10:57.348 --> 00:11:07.185
+Quote: As A I becomes more embedded across the enterprise, security and trust are what move organizations from experimentation to deployment at scale.
+
+60
+00:11:07.305 --> 00:11:23.257
+Enterprise Frontier Safeguards will build those in from the start: monitoring data stays in infrastructure the customer controls, and their own team decides who can access it.Morgan Adamski U S Cyber, Data and Tech Leader [Service Partner]. End quote.
+
+61
+00:11:23.707 --> 00:11:25.340
+Figure 11: logo.
+
+62
+00:11:25.790 --> 00:11:39.993
+Quote: Keeping customer data confidential is a promise Snowflake makes to every customer. We've always moved fast getting frontier models into their hands. The hard part was doing that safely under the strictest data guarantees.
+
+63
+00:11:40.113 --> 00:12:02.276
+We partnered with Anthropic to design Enterprise Frontier Safeguards so we can do both: data stays in the customer's environment, under keys they control, running Anthropic's most capable models from day one. This is what responsible frontier A I looks like when it's built with platforms in mind.Mayank Upadhyay Chief Security and Trust Officer. End quote.
+
+64
+00:12:02.726 --> 00:12:04.281
+Figure 12: logo.
+
+65
+00:12:04.731 --> 00:12:27.040
+Quote: At Stripe, protecting customer data is foundational to how we operate. Anthropic’s Enterprise Frontier Safeguards will enable us to use covered frontier models while retaining conversation logs in Stripe’s A W S environment, with access and review governed by Stripe’s security controls.Matthew Kemelhar Head of Security. End quote.
+
+66
+00:12:27.490 --> 00:12:29.223
+Figure 13: logo.
+
+67
+00:12:29.673 --> 00:12:48.643
+Quote: Rogo’s customers expect access to the best intelligence available, but never at the expense of security and guardrails around their data. Enterprise Frontier Safeguards will bring the most capable models to financial institutions while meeting the institutional-grade data requirements they demand.
+
+68
+00:12:48.763 --> 00:12:59.475
+That combination of frontier intelligence and enterprise-grade controls is critical to deploying A I across financial services.Strib Walker Head of Product. End quote.
+
+69
+00:12:59.925 --> 00:13:01.609
+Figure 14: logo.
+
+70
+00:13:02.059 --> 00:13:23.274
+Quote: Companies trust Cognition's autonomous engineers with real production work, and that trust depends on their work staying private. With Enterprise Frontier Safeguards, customer data and identities never leave our side. It will let us bring frontier A I to production work, no privacy tradeoff required.Scott Wu C E O. End quote.
+
+71
+00:13:23.724 --> 00:13:25.334
+Figure 15: logo.
+
+72
+00:13:25.784 --> 00:13:44.301
+Quote: Our customers' code and data are some of their most valuable intellectual property. Protecting that information is foundational to how we build at Factory. Together with Anthropic, we're enabling customers to use Claude's most capable models while keeping control of proprietary data in their hands.
+
+73
+00:13:44.421 --> 00:13:56.588
+Enterprise Frontier Safeguards gives enterprises access to frontier intelligence with the data protections their security teams require.Eno Reyes Co-founder and C T O. End quote.
+
+74
+00:13:57.038 --> 00:13:58.711
+Figure 16: logo.
+
+75
+00:13:59.161 --> 00:14:13.720
+Quote: We have always maintained an unwavering commitment to client confidentiality and security. The leading legal and professional teams we serve view these principles as nonnegotiable, and we hold ourselves to the same standard.
+
+76
+00:14:13.840 --> 00:14:29.534
+Enterprise Frontier Safeguards reflects this commitment, enabling customers with the most rigorous confidentiality requirements access to frontier models without the model provider retaining their data.John LaBarre Chief Legal Officer. End quote.
+
+77
+00:14:29.984 --> 00:14:31.501
+01 / 16
+
+78
+00:14:32.301 --> 00:14:33.560
+How EFS works.
+
+79
+00:14:34.010 --> 00:14:53.678
+These controls are designed to work the same way whether you access Claude directly from Anthropic or through a cloud partner. Customers on Amazon Web Services, Google Cloud, and Microsoft Azure will get equivalent controls, with their activity data stored in their own cloud account, in the environment they already trust.
+
+80
+00:14:53.798 --> 00:15:01.385
+We’re also working to support third-party offerings that serve customers that are eligible for Enterprise Frontier Safeguards.
+
+81
+00:15:01.835 --> 00:15:16.148
+Customer-owned storage, Customer-Managed Encryption Keys, and fully automated review are each opt-in, so you enable the ones your organization needs. None of them change model behavior, A P I pricing, or rate limits.
+
+82
+00:15:16.598 --> 00:15:32.616
+Anthropic doesn’t charge for Enterprise Frontier Safeguards. If customers elect to store their data in their cloud account, their cloud provider bills them for that storage, as well as reads, writes, and data egress fees, the same way it bills any other resource.
+
+83
+00:15:33.416 --> 00:15:34.428
+Getting started.
+
+84
+00:15:34.878 --> 00:15:47.695
+Enterprise Frontier Safeguards will roll out to customers in phases, with the goal of making it broadly available later this fall. To request access to Enterprise Frontier Safeguards, please complete this form.
+
+85
+00:15:48.695 --> 00:16:06.807
+That was Developing Enterprise Frontier Safeguards with our customers, from Anthropic Newsroom, published September 1, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -4506,6 +4506,14 @@
       "updated": "2026-09-01T01:00:53+00:00",
       "slug": "news-2026-08-31-improving-alignment-security-efforts",
       "episode": 27
+    },
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
+      "first_seen": "2026-09-01T18:41:12+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-01T18:41:12+00:00",
+      "slug": "news-2026-09-01-enterprise-frontier-safeguards",
+      "episode": 28
     }
   },
   "episodes": [
@@ -5957,8 +5965,38 @@
       "episode": 27,
       "created": "2026-09-01T01:00:53+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus"
+    },
+    {
+      "slug": "news-2026-09-01-enterprise-frontier-safeguards",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "source": "news",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-09-01T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "Claude Fable 5.1",
+          "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "text": "most sophisticated misuse",
+          "href": "https://www.anthropic.com/news/disrupting-AI-espionage"
+        },
+        {
+          "text": "form",
+          "href": "https://claude.com/form/enterprise-frontier-safeguards"
+        }
+      ],
+      "word_count": 2027,
+      "duration": 970.788571,
+      "bytes": 8577273,
+      "episode": 28,
+      "created": "2026-09-01T18:41:12+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20City&backgroundColor=sky"
     }
   ],
-  "next_episode": 28,
+  "next_episode": 29,
   "baseline_date": "2026-08-14"
 }
