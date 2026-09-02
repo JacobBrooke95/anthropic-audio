@@ -4514,6 +4514,22 @@
       "updated": "2026-09-01T18:41:12+00:00",
       "slug": "news-2026-09-01-enterprise-frontier-safeguards",
       "episode": 28
+    },
+    "https://claude.com/blog/claude-for-commerce-agents": {
+      "first_seen": "2026-09-02T18:40:21+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-02T18:40:21+00:00",
+      "slug": "claude-blog-2026-09-02-claude-for-commerce-agents",
+      "episode": 29
+    },
+    "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": {
+      "first_seen": "2026-09-02T19:24:54+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-02T19:24:54+00:00",
+      "slug": "claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents",
+      "episode": 30
     }
   },
   "episodes": [
@@ -5995,8 +6011,108 @@
       "episode": 28,
       "created": "2026-09-01T18:41:12+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20City&backgroundColor=sky"
+    },
+    {
+      "slug": "claude-blog-2026-09-02-claude-for-commerce-agents",
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "source": "claude-blog",
+      "title": "Building commerce agents with Claude",
+      "subtitle": "We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+      "date": "2026-09-02T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "available today",
+          "href": "https://github.com/anthropics/commerce-agents"
+        },
+        {
+          "text": "live demos",
+          "href": "https://claude.com/solutions/commerce"
+        },
+        {
+          "text": "engineering deep-dive",
+          "href": "http://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+        },
+        {
+          "text": "Messages API",
+          "href": "https://platform.claude.com/docs/en/intro"
+        },
+        {
+          "text": "Agent SDK",
+          "href": "https://code.claude.com/docs/en/agent-sdk"
+        },
+        {
+          "text": "Claude Managed Agents",
+          "href": "https://platform.claude.com/docs/en/managed-agents/overview"
+        }
+      ],
+      "word_count": 618,
+      "duration": 285.100408,
+      "bytes": 3044107,
+      "episode": 29,
+      "created": "2026-09-02T18:40:21+00:00",
+      "hero": ""
+    },
+    {
+      "slug": "claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents",
+      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "source": "claude-blog",
+      "title": "A guide to the anatomy of effective commerce agents",
+      "subtitle": "The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.",
+      "date": "2026-09-02T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "anthropics/commerce-agents →",
+          "href": "https://github.com/anthropics/commerce-agents"
+        },
+        {
+          "text": "standard agent loop",
+          "href": "https://www.anthropic.com/engineering/building-effective-agents"
+        },
+        {
+          "text": "agent skills",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"
+        },
+        {
+          "text": "writing effective tools for agents",
+          "href": "https://www.anthropic.com/engineering/writing-tools-for-agents"
+        },
+        {
+          "text": "parallel tool use docs",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use"
+        },
+        {
+          "text": "Claude Agent SDK",
+          "href": "https://code.claude.com/docs/en/agent-sdk/overview"
+        },
+        {
+          "text": "mid-conversation system messages",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages"
+        },
+        {
+          "text": "Model size and the effort setting",
+          "href": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+        },
+        {
+          "text": "evals for agents",
+          "href": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+        },
+        {
+          "text": "Building effective human-agent teams",
+          "href": "https://claude.com/blog/building-effective-human-agent-teams"
+        }
+      ],
+      "word_count": 6194,
+      "duration": 2491.062857,
+      "bytes": 20714962,
+      "episode": 30,
+      "created": "2026-09-02T19:24:54+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg"
     }
   ],
-  "next_episode": 29,
+  "next_episode": 31,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 94.47,
+   "title": "What's in the blueprint"
+  },
+  {
+   "startTime": 118.99,
+   "title": "The shopping agent"
+  },
+  {
+   "startTime": 197.01,
+   "title": "The merchant agent"
+  },
+  {
+   "startTime": 251.77,
+   "title": "Trusted across the industry"
+  },
+  {
+   "startTime": 265.29,
+   "title": "Outro"
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 139.63,
+   "title": "The architecture"
+  },
+  {
+   "startTime": 150.12,
+   "title": "What is a commerce agent?"
+  },
+  {
+   "startTime": 203.15,
+   "title": "Engineering context"
+  },
+  {
+   "startTime": 205.37,
+   "title": "Skills, not subagents"
+  },
+  {
+   "startTime": 374.26,
+   "title": "System prompt or skill: decide by frequency"
+  },
+  {
+   "startTime": 496.18,
+   "title": "Engineering agent tooling"
+  },
+  {
+   "startTime": 581.08,
+   "title": "The U I components are tools"
+  },
+  {
+   "startTime": 736.87,
+   "title": "Making it fast and affordable"
+  },
+  {
+   "startTime": 791.92,
+   "title": "Minimizing task completion latency"
+  },
+  {
+   "startTime": 833.84,
+   "title": "Fewer turns"
+  },
+  {
+   "startTime": 924.5,
+   "title": "Faster tools"
+  },
+  {
+   "startTime": 1005.58,
+   "title": "Perceived latency"
+  },
+  {
+   "startTime": 1075.21,
+   "title": "Prompt caching"
+  },
+  {
+   "startTime": 1226.94,
+   "title": "Choosing the model and its configuration"
+  },
+  {
+   "startTime": 1352.03,
+   "title": "Running it in production"
+  },
+  {
+   "startTime": 1371.0,
+   "title": "Memory that survives the session"
+  },
+  {
+   "startTime": 1404.8,
+   "title": "Storing memories"
+  },
+  {
+   "startTime": 1517.56,
+   "title": "Writing memory"
+  },
+  {
+   "startTime": 1600.48,
+   "title": "Reading memory"
+  },
+  {
+   "startTime": 1642.7,
+   "title": "Safety: enforcement lives in the harness"
+  },
+  {
+   "startTime": 1668.26,
+   "title": "The model stages; a person or a policy applies"
+  },
+  {
+   "startTime": 1736.29,
+   "title": "Writes and renders accept only server-issued I Ds"
+  },
+  {
+   "startTime": 1811.55,
+   "title": "Capped transactions must hold to repeated requests"
+  },
+  {
+   "startTime": 1864.87,
+   "title": "Third-party content is sanitized"
+  },
+  {
+   "startTime": 1917.62,
+   "title": "Evals: shipping a non-deterministic system"
+  },
+  {
+   "startTime": 2009.1,
+   "title": "Evaluate for behaviors in tough conditions"
+  },
+  {
+   "startTime": 2043.52,
+   "title": "Cover the different types of commerce agent evals"
+  },
+  {
+   "startTime": 2180.47,
+   "title": "Write evals with SMEs and use real incidents"
+  },
+  {
+   "startTime": 2225.86,
+   "title": "Shipping with a large organization"
+  },
+  {
+   "startTime": 2375.62,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 2455.76,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 2470.03,
+   "title": "Outro"
+  }
+ ]
+}

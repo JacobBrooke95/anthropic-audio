@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 01 Sep 2026 18:41:13 +0000</lastBuildDate>
-    <pubDate>Tue, 01 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:24:55 +0000</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,114 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: Building commerce agents with Claude</title>
+      <itunes:title>Claude Blog: Building commerce agents with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-claude-for-commerce-agents/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-commerce-agents</guid>
+      <pubDate>Wed, 02 Sep 2026 16:00:00 +0000</pubDate>
+      <description>We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.
+
+Source: https://claude.com/blog/claude-for-commerce-agents
+Published September 2, 2026 · Claude Blog
+
+Links referenced in the post:
+• available today: https://github.com/anthropics/commerce-agents
+• live demos: https://claude.com/solutions/commerce
+• engineering deep-dive: http://claude.com/blog/the-anatomy-of-effective-commerce-agents
+• Messages API: https://platform.claude.com/docs/en/intro
+• Agent SDK: https://code.claude.com/docs/en/agent-sdk
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-claude-for-commerce-agents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We&#x27;re launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-for-commerce-agents">https://claude.com/blog/claude-for-commerce-agents</a><br/><strong>Published:</strong> September 2, 2026 · Claude Blog<br/><strong>Length:</strong> 618 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://github.com/anthropics/commerce-agents">available today</a></li><li><a href="https://claude.com/solutions/commerce">live demos</a></li><li><a href="http://claude.com/blog/the-anatomy-of-effective-commerce-agents">engineering deep-dive</a></li><li><a href="https://platform.claude.com/docs/en/intro">Messages API</a></li><li><a href="https://code.claude.com/docs/en/agent-sdk">Agent SDK</a></li><li><a href="https://platform.claude.com/docs/en/managed-agents/overview">Claude Managed Agents</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-claude-for-commerce-agents/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-02-claude-for-commerce-agents.mp3" length="3044107" type="audio/mpeg"/>
+      <itunes:duration>285</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-02-claude-for-commerce-agents.jpg?v=bd911a5f"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-claude-for-commerce-agents.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-02-claude-for-commerce-agents.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.</itunes:subtitle>
+      <itunes:summary>We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.
+
+Source: https://claude.com/blog/claude-for-commerce-agents
+Published September 2, 2026 · Claude Blog
+
+Links referenced in the post:
+• available today: https://github.com/anthropics/commerce-agents
+• live demos: https://claude.com/solutions/commerce
+• engineering deep-dive: http://claude.com/blog/the-anatomy-of-effective-commerce-agents
+• Messages API: https://platform.claude.com/docs/en/intro
+• Agent SDK: https://code.claude.com/docs/en/agent-sdk
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-claude-for-commerce-agents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>29</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-claude-for-commerce-agents.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-claude-for-commerce-agents.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: A guide to the anatomy of effective commerce agents</title>
+      <itunes:title>Claude Blog: A guide to the anatomy of effective commerce agents</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents/</link>
+      <guid isPermaLink="false">https://claude.com/blog/the-anatomy-of-effective-commerce-agents</guid>
+      <pubDate>Wed, 02 Sep 2026 16:00:00 +0000</pubDate>
+      <description>The architecture, latency &amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Source: https://claude.com/blog/the-anatomy-of-effective-commerce-agents
+Published September 2, 2026 · Claude Blog
+
+Links referenced in the post:
+• anthropics/commerce-agents →: https://github.com/anthropics/commerce-agents
+• standard agent loop: https://www.anthropic.com/engineering/building-effective-agents
+• agent skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+• writing effective tools for agents: https://www.anthropic.com/engineering/writing-tools-for-agents
+• parallel tool use docs: https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use
+• Claude Agent SDK: https://code.claude.com/docs/en/agent-sdk/overview
+• mid-conversation system messages: https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages
+• Model size and the effort setting: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+• evals for agents: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+• Building effective human-agent teams: https://claude.com/blog/building-effective-human-agent-teams
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>The architecture, latency &amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/the-anatomy-of-effective-commerce-agents">https://claude.com/blog/the-anatomy-of-effective-commerce-agents</a><br/><strong>Published:</strong> September 2, 2026 · Claude Blog<br/><strong>Length:</strong> 6,194 words · 41 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://github.com/anthropics/commerce-agents">anthropics/commerce-agents →</a></li><li><a href="https://www.anthropic.com/engineering/building-effective-agents">standard agent loop</a></li><li><a href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview">agent skills</a></li><li><a href="https://www.anthropic.com/engineering/writing-tools-for-agents">writing effective tools for agents</a></li><li><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use">parallel tool use docs</a></li><li><a href="https://code.claude.com/docs/en/agent-sdk/overview">Claude Agent SDK</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages">mid-conversation system messages</a></li><li><a href="https://claude.com/blog/claude-model-and-effort-level-in-claude-code">Model size and the effort setting</a></li><li><a href="https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents">evals for agents</a></li><li><a href="https://claude.com/blog/building-effective-human-agent-teams">Building effective human-agent teams</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.mp3" length="20714962" type="audio/mpeg"/>
+      <itunes:duration>2491</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.jpg?v=996b92e9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>The architecture, latency &amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.</itunes:subtitle>
+      <itunes:summary>The architecture, latency &amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Source: https://claude.com/blog/the-anatomy-of-effective-commerce-agents
+Published September 2, 2026 · Claude Blog
+
+Links referenced in the post:
+• anthropics/commerce-agents →: https://github.com/anthropics/commerce-agents
+• standard agent loop: https://www.anthropic.com/engineering/building-effective-agents
+• agent skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+• writing effective tools for agents: https://www.anthropic.com/engineering/writing-tools-for-agents
+• parallel tool use docs: https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use
+• Claude Agent SDK: https://code.claude.com/docs/en/agent-sdk/overview
+• mid-conversation system messages: https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages
+• Model size and the effort setting: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+• evals for agents: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+• Building effective human-agent teams: https://claude.com/blog/building-effective-human-agent-teams
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>30</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Developing Enterprise Frontier Safeguards with our customers</title>
       <itunes:title>News: Developing Enterprise Frontier Safeguards with our customers</itunes:title>

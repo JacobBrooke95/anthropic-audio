@@ -1,0 +1,182 @@
+{
+ "url": "https://claude.com/blog/claude-for-commerce-agents",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-02-claude-for-commerce-agents",
+ "title": "Building commerce agents with Claude",
+ "subtitle": "We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+ "date": "2026-09-02T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it.",
+   "html": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it."
+  },
+  {
+   "type": "paragraph",
+   "text": "Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days, with reference implementations of a shopping agent and a merchant agent for retail, travel, telecom, and ticketing platforms. It also includes a Claude Code plugin to get you started.",
+   "html": "Today, we&#x27;re launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days, with reference implementations of a shopping agent and a merchant agent for retail, travel, telecom, and ticketing platforms. It also includes a Claude Code plugin to get you started."
+  },
+  {
+   "type": "paragraph",
+   "text": "The code deploys where you already build with Claude, including the Claude API, Amazon Bedrock, Microsoft Foundry, or Google Cloud Vertex AI. You can also work with our solutions and ecosystem partners such as Accenture, Mastercard, and Visa, who are working with us to enable clients and merchant communities to leverage the blueprints.",
+   "html": "The code deploys where you already build with Claude, including the Claude API, Amazon Bedrock, Microsoft Foundry, or Google Cloud Vertex AI. You can also work with our solutions and ecosystem partners such as Accenture, Mastercard, and Visa, who are working with us to enable clients and merchant communities to leverage the blueprints."
+  },
+  {
+   "type": "paragraph",
+   "text": "It’s available today , with live demos for each vertical and an engineering deep-dive on how it was built, just in time for holiday season planning.",
+   "html": "It’s <a href=\"https://github.com/anthropics/commerce-agents\">available today</a>, with <a href=\"https://claude.com/solutions/commerce\">live demos</a> for each vertical and an <a href=\"http://claude.com/blog/the-anatomy-of-effective-commerce-agents\">engineering deep-dive</a> on how it was built, just in time for holiday season planning."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a95f44f1757be75a0616bd0_demo-retail.webp",
+   "alt": "",
+   "caption": "The shopping agent running in the ACME retail example .",
+   "local": "img/01.webp"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What's in the blueprint",
+   "html": "What&#x27;s in the blueprint"
+  },
+  {
+   "type": "paragraph",
+   "text": "The repository contains complete, working implementations of a shopping agent and merchant agent that can be built using the Messages API , Agent SDK , or Claude Managed Agents (beta). You can see them running in a self-guided demo before writing any code, and then work with Claude Code to customize them to your catalogs, policies, brand, and more.",
+   "html": "The repository contains complete, working implementations of a shopping agent and merchant agent that can be built using the <a href=\"https://platform.claude.com/docs/en/intro\">Messages API</a>, <a href=\"https://code.claude.com/docs/en/agent-sdk\">Agent SDK</a>, or <a href=\"https://platform.claude.com/docs/en/managed-agents/overview\">Claude Managed Agents</a> (beta). You can see them running in a self-guided demo before writing any code, and then work with Claude Code to customize them to your catalogs, policies, brand, and more."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "The shopping agent",
+   "html": "The shopping agent"
+  },
+  {
+   "type": "paragraph",
+   "text": "The shopping agent lives inside your app or website. The blueprint includes the integration points for catalog, cart, checkout, customer preferences, and order history, and leaves payment to you, whether that is your existing checkout or an agentic payments provider.",
+   "html": "The shopping agent lives inside your app or website. The blueprint includes the integration points for catalog, cart, checkout, customer preferences, and order history, and leaves payment to you, whether that is your existing checkout or an agentic payments provider."
+  },
+  {
+   "type": "paragraph",
+   "text": "A customer can say “I need a tent, sleeping bag, and stove for a weekend trip with two kids,” and the agent can take it from there. Here’s what it can do:",
+   "html": "A customer can say “I need a tent, sleeping bag, and stove for a weekend trip with two kids,” and the agent can take it from there. Here’s what it can do:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Search the catalog and assemble the right set of items, including multi-item requests.",
+     "html": "Search the catalog and assemble the right set of items, including multi-item requests."
+    },
+    {
+     "text": "Remember the customer's preferences and tailor what it suggests.",
+     "html": "Remember the customer&#x27;s preferences and tailor what it suggests."
+    },
+    {
+     "text": "Show products, comparisons, and the cart right in the conversation, not just as text.",
+     "html": "Show products, comparisons, and the cart right in the conversation, not just as text."
+    },
+    {
+     "text": "Build the cart and hand it to checkout.",
+     "html": "Build the cart and hand it to checkout."
+    },
+    {
+     "text": "Answer customer service questions in the same conversation, like where an order is, how to return or exchange an item, and what the refund policy says, instead of sending the customer to a support page.",
+     "html": "Answer customer service questions in the same conversation, like where an order is, how to return or exchange an item, and what the refund policy says, instead of sending the customer to a support page."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The agent features guardrails designed to constrain prices and products to actual catalog data, and avoids manipulative upsell patterns. In the repository, these are skills and tools for catalog search, multi-item planning, deep research, personalization, customer care, and in-conversation UI.",
+   "html": "The agent features guardrails designed to constrain prices and products to actual catalog data, and avoids manipulative upsell patterns. In the repository, these are skills and tools for catalog search, multi-item planning, deep research, personalization, customer care, and in-conversation UI."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "The merchant agent",
+   "html": "The merchant agent"
+  },
+  {
+   "type": "paragraph",
+   "text": "The merchant agent supports the people running the store. A user can ask “what should we discount to clear last season’s inventory?” and get an answer based on their own data. Here’s what it can do:",
+   "html": "The merchant agent supports the people running the store. A user can ask “what should we discount to clear last season’s inventory?” and get an answer based on their own data. Here’s what it can do:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Answer questions about sales performance like what's selling and what isn't.",
+     "html": "Answer questions about sales performance like what&#x27;s selling and what isn&#x27;t."
+    },
+    {
+     "text": "Track inventory and proactively flag problems, like an item about to sell out before a promotion starts.",
+     "html": "Track inventory and proactively flag problems, like an item about to sell out before a promotion starts."
+    },
+    {
+     "text": "Recommend pricing and promotions based on the store's own sales history.",
+     "html": "Recommend pricing and promotions based on the store&#x27;s own sales history."
+    },
+    {
+     "text": "Draft marketing campaigns to move the products that need moving.",
+     "html": "Draft marketing campaigns to move the products that need moving."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "When the agent proactively suggests a change, a person approves it before anything goes live, meaning users get the final say while their agent watches the store. In the repository, these capabilities ship as skills for sales analytics, catalog and inventory management, marketing and promotions, and in-portal UI such as charts and dashboards.",
+   "html": "When the agent proactively suggests a change, a person approves it before anything goes live, meaning users get the final say while their agent watches the store. In the repository, these capabilities ship as skills for sales analytics, catalog and inventory management, marketing and promotions, and in-portal UI such as charts and dashboards."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a972d45795f7bbae7ce272f_Retail%20%E2%80%94%20Merchant%20workspace.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/02.png"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Trusted across the industry",
+   "html": "Trusted across the industry"
+  },
+  {
+   "type": "paragraph",
+   "text": "Companies that serve shoppers, travelers, subscribers, and merchants build and run agents on Claude. Here's what they have to say about building commerce agents with Claude:",
+   "html": "Companies that serve shoppers, travelers, subscribers, and merchants build and run agents on Claude. Here&#x27;s what they have to say about building commerce agents with Claude: "
+  }
+ ],
+ "links": [
+  {
+   "text": "available today",
+   "href": "https://github.com/anthropics/commerce-agents"
+  },
+  {
+   "text": "live demos",
+   "href": "https://claude.com/solutions/commerce"
+  },
+  {
+   "text": "engineering deep-dive",
+   "href": "http://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+  },
+  {
+   "text": "Messages API",
+   "href": "https://platform.claude.com/docs/en/intro"
+  },
+  {
+   "text": "Agent SDK",
+   "href": "https://code.claude.com/docs/en/agent-sdk"
+  },
+  {
+   "text": "Claude Managed Agents",
+   "href": "https://platform.claude.com/docs/en/managed-agents/overview"
+  }
+ ],
+ "word_count": 618,
+ "fetched_at": "2026-09-02T18:34:55+00:00"
+}
