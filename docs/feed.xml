@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 02 Sep 2026 19:24:55 +0000</lastBuildDate>
-    <pubDate>Wed, 02 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 04 Sep 2026 21:40:26 +0000</lastBuildDate>
+    <pubDate>Fri, 04 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,102 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Formalizing Fermat's Last Theorem</title>
+      <itunes:title>Research: Formalizing Fermat's Last Theorem</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-04-formalizing-fermats-last-theorem/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+      <pubDate>Fri, 04 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+Published September 4, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Fermat’s Last Theorem: https://www.youtube.com/watch?v=1BSFyEIY2BY
+• to complete the formalization: https://lean-lang.org/use-cases/flt/
+• Lean proof assistant: https://en.wikipedia.org/wiki/Lean_(proof_assistant)
+• resulting proof: https://github.com/anthropics/fermats-last-theorem
+• recent AI-driven: https://www.anthropic.com/research/riemann-zeta
+• was incorrect: https://mathenchant.wordpress.com/2016/05/16/fermats-last-theorem-the-curious-incident-of-the-boasting-frenchman/
+• blueprint: https://imperialcollegelondon.github.io/FLT/blueprint.pdf
+• a simplified version of Wiles’s proof from Darmon, Diamond and Taylor: https://www.math.mcgill.ca/darmon/pub/Articles/Expository/05.DDT/paper.pdf
+• here: https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf
+• Prove2Me: https://prove2me.vercel.app/
+• comparator: https://github.com/leanprover/comparator
+• Vinogradov’s Three Primes Theorem: https://en.wikipedia.org/wiki/Vinogradov%27s_theorem
+• Anthropic: https://www.anthropic.com/news/expanding-support-for-scientists
+• other labs: https://openai.com/index/chatgpt-for-academic-researchers/
+• dedicated grants: https://www.anthropic.com/news/ai-for-science-program
+• are grappling with what that means for their work: https://leidendeclaration.ai/
+• Imperial College London FLT project: https://github.com/ImperialCollegeLondon/FLT
+• flt-regular project: https://github.com/leanprover-community/flt-regular
+• Lean FRO: https://lean-lang.org/fro/
+• The Proof in the Code: https://www.quantabooks.org/books/the-proof-in-the-code/
+• The 1996 “Fermat’s Last Theorem” BBC documentary: https://www.bbc.co.uk/programmes/b0074rxx
+• Propositions as Types: https://dl.acm.org/doi/pdf/10.1145/2699407
+• https://doi.org/10.48550/arXiv.2608.28433: https://doi.org/10.48550/arXiv.2608.28433
+• Automating Math: https://asteriskmag.com/issues/09/automating-math
+• Kepler conjecture: https://en.wikipedia.org/wiki/Kepler_conjecture
+• Flyspeck: https://github.com/flyspeck/flyspeck
+• Poincaré conjecture: https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture
+• weak Goldbach conjecture: https://en.wikipedia.org/wiki/Goldbach%27s_weak_conjecture
+• accepted for years: https://www.ias.edu/ideas/2014/voevodsky-origins
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-04-formalizing-fermats-last-theorem/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem">https://www.anthropic.com/research/formalizing-fermats-last-theorem</a><br/><strong>Published:</strong> September 4, 2026 · Anthropic Research<br/><strong>Category:</strong> Science<br/><strong>Length:</strong> 2,162 words · 16 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.youtube.com/watch?v=1BSFyEIY2BY">Fermat’s Last Theorem</a></li><li><a href="https://lean-lang.org/use-cases/flt/">to complete the formalization</a></li><li><a href="https://en.wikipedia.org/wiki/Lean_(proof_assistant)">Lean proof assistant</a></li><li><a href="https://github.com/anthropics/fermats-last-theorem">resulting proof</a></li><li><a href="https://www.anthropic.com/research/riemann-zeta">recent AI-driven</a></li><li><a href="https://mathenchant.wordpress.com/2016/05/16/fermats-last-theorem-the-curious-incident-of-the-boasting-frenchman/">was incorrect</a></li><li><a href="https://imperialcollegelondon.github.io/FLT/blueprint.pdf">blueprint</a></li><li><a href="https://www.math.mcgill.ca/darmon/pub/Articles/Expository/05.DDT/paper.pdf">a simplified version of Wiles’s proof from Darmon, Diamond and Taylor</a></li><li><a href="https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf">here</a></li><li><a href="https://prove2me.vercel.app/">Prove2Me</a></li><li><a href="https://github.com/leanprover/comparator">comparator</a></li><li><a href="https://en.wikipedia.org/wiki/Vinogradov%27s_theorem">Vinogradov’s Three Primes Theorem</a></li><li><a href="https://www.anthropic.com/news/expanding-support-for-scientists">Anthropic</a></li><li><a href="https://openai.com/index/chatgpt-for-academic-researchers/">other labs</a></li><li><a href="https://www.anthropic.com/news/ai-for-science-program">dedicated grants</a></li><li><a href="https://leidendeclaration.ai/">are grappling with what that means for their work</a></li><li><a href="https://github.com/ImperialCollegeLondon/FLT">Imperial College London FLT project</a></li><li><a href="https://github.com/leanprover-community/flt-regular">flt-regular project</a></li><li><a href="https://lean-lang.org/fro/">Lean FRO</a></li><li><a href="https://www.quantabooks.org/books/the-proof-in-the-code/">The Proof in the Code</a></li><li><a href="https://www.bbc.co.uk/programmes/b0074rxx">The 1996 “Fermat’s Last Theorem” BBC documentary</a></li><li><a href="https://dl.acm.org/doi/pdf/10.1145/2699407">Propositions as Types</a></li><li><a href="https://doi.org/10.48550/arXiv.2608.28433">https://doi.org/10.48550/arXiv.2608.28433</a></li><li><a href="https://asteriskmag.com/issues/09/automating-math">Automating Math</a></li><li><a href="https://en.wikipedia.org/wiki/Kepler_conjecture">Kepler conjecture</a></li><li><a href="https://github.com/flyspeck/flyspeck">Flyspeck</a></li><li><a href="https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture">Poincaré conjecture</a></li><li><a href="https://en.wikipedia.org/wiki/Goldbach%27s_weak_conjecture">weak Goldbach conjecture</a></li><li><a href="https://www.ias.edu/ideas/2014/voevodsky-origins">accepted for years</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-04-formalizing-fermats-last-theorem/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-04-formalizing-fermats-last-theorem.mp3" length="8791331" type="audio/mpeg"/>
+      <itunes:duration>997</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-04-formalizing-fermats-last-theorem.jpg?v=a5ab8196"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-04-formalizing-fermats-last-theorem.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-04-formalizing-fermats-last-theorem.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+Published September 4, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Fermat’s Last Theorem: https://www.youtube.com/watch?v=1BSFyEIY2BY
+• to complete the formalization: https://lean-lang.org/use-cases/flt/
+• Lean proof assistant: https://en.wikipedia.org/wiki/Lean_(proof_assistant)
+• resulting proof: https://github.com/anthropics/fermats-last-theorem
+• recent AI-driven: https://www.anthropic.com/research/riemann-zeta
+• was incorrect: https://mathenchant.wordpress.com/2016/05/16/fermats-last-theorem-the-curious-incident-of-the-boasting-frenchman/
+• blueprint: https://imperialcollegelondon.github.io/FLT/blueprint.pdf
+• a simplified version of Wiles’s proof from Darmon, Diamond and Taylor: https://www.math.mcgill.ca/darmon/pub/Articles/Expository/05.DDT/paper.pdf
+• here: https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf
+• Prove2Me: https://prove2me.vercel.app/
+• comparator: https://github.com/leanprover/comparator
+• Vinogradov’s Three Primes Theorem: https://en.wikipedia.org/wiki/Vinogradov%27s_theorem
+• Anthropic: https://www.anthropic.com/news/expanding-support-for-scientists
+• other labs: https://openai.com/index/chatgpt-for-academic-researchers/
+• dedicated grants: https://www.anthropic.com/news/ai-for-science-program
+• are grappling with what that means for their work: https://leidendeclaration.ai/
+• Imperial College London FLT project: https://github.com/ImperialCollegeLondon/FLT
+• flt-regular project: https://github.com/leanprover-community/flt-regular
+• Lean FRO: https://lean-lang.org/fro/
+• The Proof in the Code: https://www.quantabooks.org/books/the-proof-in-the-code/
+• The 1996 “Fermat’s Last Theorem” BBC documentary: https://www.bbc.co.uk/programmes/b0074rxx
+• Propositions as Types: https://dl.acm.org/doi/pdf/10.1145/2699407
+• https://doi.org/10.48550/arXiv.2608.28433: https://doi.org/10.48550/arXiv.2608.28433
+• Automating Math: https://asteriskmag.com/issues/09/automating-math
+• Kepler conjecture: https://en.wikipedia.org/wiki/Kepler_conjecture
+• Flyspeck: https://github.com/flyspeck/flyspeck
+• Poincaré conjecture: https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture
+• weak Goldbach conjecture: https://en.wikipedia.org/wiki/Goldbach%27s_weak_conjecture
+• accepted for years: https://www.ias.edu/ideas/2014/voevodsky-origins
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-04-formalizing-fermats-last-theorem/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>31</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-04-formalizing-fermats-last-theorem.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-04-formalizing-fermats-last-theorem.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Building commerce agents with Claude</title>
       <itunes:title>Claude Blog: Building commerce agents with Claude</itunes:title>

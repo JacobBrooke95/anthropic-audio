@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 195.88,
+   "title": "The challenge of verifying mathematical proofs"
+  },
+  {
+   "startTime": 325.52,
+   "title": "Formalizing Fermat’s Last Theorem"
+  },
+  {
+   "startTime": 588.74,
+   "title": "Reducing the burden of formal verification"
+  },
+  {
+   "startTime": 781.48,
+   "title": "Acknowledgments"
+  },
+  {
+   "startTime": 837.63,
+   "title": "Learn more"
+  },
+  {
+   "startTime": 844.0,
+   "title": "Recommended expository reading"
+  },
+  {
+   "startTime": 898.43,
+   "title": "Footnotes"
+  },
+  {
+   "startTime": 976.3,
+   "title": "Outro"
+  }
+ ]
+}

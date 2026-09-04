@@ -4530,6 +4530,14 @@
       "updated": "2026-09-02T19:24:54+00:00",
       "slug": "claude-blog-2026-09-02-the-anatomy-of-effective-commerce-agents",
       "episode": 30
+    },
+    "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
+      "first_seen": "2026-09-04T21:40:25+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-04T21:40:25+00:00",
+      "slug": "research-2026-09-04-formalizing-fermats-last-theorem",
+      "episode": 31
     }
   },
   "episodes": [
@@ -6111,8 +6119,142 @@
       "episode": 30,
       "created": "2026-09-02T19:24:54+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg"
+    },
+    {
+      "slug": "research-2026-09-04-formalizing-fermats-last-theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source": "research",
+      "title": "Formalizing Fermat's Last Theorem",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-09-04T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "Fermat’s Last Theorem",
+          "href": "https://www.youtube.com/watch?v=1BSFyEIY2BY"
+        },
+        {
+          "text": "to complete the formalization",
+          "href": "https://lean-lang.org/use-cases/flt/"
+        },
+        {
+          "text": "Lean proof assistant",
+          "href": "https://en.wikipedia.org/wiki/Lean_(proof_assistant)"
+        },
+        {
+          "text": "resulting proof",
+          "href": "https://github.com/anthropics/fermats-last-theorem"
+        },
+        {
+          "text": "recent AI-driven",
+          "href": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "text": "was incorrect",
+          "href": "https://mathenchant.wordpress.com/2016/05/16/fermats-last-theorem-the-curious-incident-of-the-boasting-frenchman/"
+        },
+        {
+          "text": "blueprint",
+          "href": "https://imperialcollegelondon.github.io/FLT/blueprint.pdf"
+        },
+        {
+          "text": "a simplified version of Wiles’s proof from Darmon, Diamond and Taylor",
+          "href": "https://www.math.mcgill.ca/darmon/pub/Articles/Expository/05.DDT/paper.pdf"
+        },
+        {
+          "text": "here",
+          "href": "https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf"
+        },
+        {
+          "text": "Prove2Me",
+          "href": "https://prove2me.vercel.app/"
+        },
+        {
+          "text": "comparator",
+          "href": "https://github.com/leanprover/comparator"
+        },
+        {
+          "text": "Vinogradov’s Three Primes Theorem",
+          "href": "https://en.wikipedia.org/wiki/Vinogradov%27s_theorem"
+        },
+        {
+          "text": "Anthropic",
+          "href": "https://www.anthropic.com/news/expanding-support-for-scientists"
+        },
+        {
+          "text": "other labs",
+          "href": "https://openai.com/index/chatgpt-for-academic-researchers/"
+        },
+        {
+          "text": "dedicated grants",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "are grappling with what that means for their work",
+          "href": "https://leidendeclaration.ai/"
+        },
+        {
+          "text": "Imperial College London FLT project",
+          "href": "https://github.com/ImperialCollegeLondon/FLT"
+        },
+        {
+          "text": "flt-regular project",
+          "href": "https://github.com/leanprover-community/flt-regular"
+        },
+        {
+          "text": "Lean FRO",
+          "href": "https://lean-lang.org/fro/"
+        },
+        {
+          "text": "The Proof in the Code",
+          "href": "https://www.quantabooks.org/books/the-proof-in-the-code/"
+        },
+        {
+          "text": "The 1996 “Fermat’s Last Theorem” BBC documentary",
+          "href": "https://www.bbc.co.uk/programmes/b0074rxx"
+        },
+        {
+          "text": "Propositions as Types",
+          "href": "https://dl.acm.org/doi/pdf/10.1145/2699407"
+        },
+        {
+          "text": "https://doi.org/10.48550/arXiv.2608.28433",
+          "href": "https://doi.org/10.48550/arXiv.2608.28433"
+        },
+        {
+          "text": "Automating Math",
+          "href": "https://asteriskmag.com/issues/09/automating-math"
+        },
+        {
+          "text": "Kepler conjecture",
+          "href": "https://en.wikipedia.org/wiki/Kepler_conjecture"
+        },
+        {
+          "text": "Flyspeck",
+          "href": "https://github.com/flyspeck/flyspeck"
+        },
+        {
+          "text": "Poincaré conjecture",
+          "href": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+        },
+        {
+          "text": "weak Goldbach conjecture",
+          "href": "https://en.wikipedia.org/wiki/Goldbach%27s_weak_conjecture"
+        },
+        {
+          "text": "accepted for years",
+          "href": "https://www.ias.edu/ideas/2014/voevodsky-origins"
+        }
+      ],
+      "word_count": 2162,
+      "duration": 997.041633,
+      "bytes": 8791331,
+      "episode": 31,
+      "created": "2026-09-04T21:40:25+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg"
     }
   ],
-  "next_episode": 31,
+  "next_episode": 32,
   "baseline_date": "2026-08-14"
 }
