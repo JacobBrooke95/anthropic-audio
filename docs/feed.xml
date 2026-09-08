@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 04 Sep 2026 21:40:26 +0000</lastBuildDate>
-    <pubDate>Fri, 04 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2026 18:50:46 +0000</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,88 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: Reducing cost and improving performance with Claude Platform</title>
+      <itunes:title>Claude Blog: Reducing cost and improving performance with Claude Platform</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform/</link>
+      <guid isPermaLink="false">https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</guid>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+
+Source: https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
+Published September 8, 2026 · Claude Blog
+
+Links referenced in the post:
+• claude-api skill: https://github.com/anthropics/skills/tree/main/skills/claude-api
+• billed at a fraction: https://platform.claude.com/docs/en/about-claude/pricing
+• limited time-to-live: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support
+• update effort mid-conversation: https://platform.claude.com/docs/en/build-with-claude/effort#changing-effort-mid-conversation
+• prompt is assembled: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#structuring-your-prompt
+• accumulated: https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything
+• Claude Console: https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics
+• defer_loading: https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching#defer-loading-and-cache-preservation
+• Claude Platform: https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#when-to-use-a-mid-conversation-system-message
+• compaction: https://platform.claude.com/docs/en/build-with-claude/compaction
+• good moment: https://cognition.com/blog/devin-fusion
+• automatic caching: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching
+• setting a 1-hour TTL: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence
+• latest Claude models: https://x.com/trq212/status/2080710971228918066
+• CLAUDE.md: http://claude.md
+• Effort: https://platform.claude.com/docs/en/build-with-claude/effort
+• matches the performance: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf
+• sweep of effort levels: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#tune-effort
+• documentation: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#cut-spend-without-losing-quality
+• usage and cost reports: https://platform.claude.com/docs/en/manage-claude/usage-cost-api
+• batching: https://platform.claude.com/docs/en/build-with-claude/batch-processing
+• here: https://platform.claude.com/cookbook/cost-optimization-cost-optimization#prompt-caching
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Tuning prompt caching, instructions, and effort can reduce Claude&#x27;s cost without sacrificing application performance.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform">https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</a><br/><strong>Published:</strong> September 8, 2026 · Claude Blog<br/><strong>Length:</strong> 2,348 words · 18 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://github.com/anthropics/skills/tree/main/skills/claude-api">claude-api skill</a></li><li><a href="https://platform.claude.com/docs/en/about-claude/pricing">billed at a fraction</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support">limited time-to-live</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/effort#changing-effort-mid-conversation">update effort mid-conversation</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#structuring-your-prompt">prompt is assembled</a></li><li><a href="https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything">accumulated</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics">Claude Console</a></li><li><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching#defer-loading-and-cache-preservation">defer_loading</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#when-to-use-a-mid-conversation-system-message">Claude Platform</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/compaction">compaction</a></li><li><a href="https://cognition.com/blog/devin-fusion">good moment</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching">automatic caching</a></li><li><a href="https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence">setting a 1-hour TTL</a></li><li><a href="https://x.com/trq212/status/2080710971228918066">latest Claude models</a></li><li><a href="http://claude.md">CLAUDE.md</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/effort">Effort</a></li><li><a href="https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf">matches the performance</a></li><li><a href="https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#tune-effort">sweep of effort levels</a></li><li><a href="https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#cut-spend-without-losing-quality">documentation</a></li><li><a href="https://platform.claude.com/docs/en/manage-claude/usage-cost-api">usage and cost reports</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/batch-processing">batching</a></li><li><a href="https://platform.claude.com/cookbook/cost-optimization-cost-optimization#prompt-caching">here</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.mp3" length="9695479" type="audio/mpeg"/>
+      <itunes:duration>1113</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.jpg?v=495aa990"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.</itunes:subtitle>
+      <itunes:summary>Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+
+Source: https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
+Published September 8, 2026 · Claude Blog
+
+Links referenced in the post:
+• claude-api skill: https://github.com/anthropics/skills/tree/main/skills/claude-api
+• billed at a fraction: https://platform.claude.com/docs/en/about-claude/pricing
+• limited time-to-live: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support
+• update effort mid-conversation: https://platform.claude.com/docs/en/build-with-claude/effort#changing-effort-mid-conversation
+• prompt is assembled: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#structuring-your-prompt
+• accumulated: https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything
+• Claude Console: https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics
+• defer_loading: https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching#defer-loading-and-cache-preservation
+• Claude Platform: https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#when-to-use-a-mid-conversation-system-message
+• compaction: https://platform.claude.com/docs/en/build-with-claude/compaction
+• good moment: https://cognition.com/blog/devin-fusion
+• automatic caching: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching
+• setting a 1-hour TTL: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence
+• latest Claude models: https://x.com/trq212/status/2080710971228918066
+• CLAUDE.md: http://claude.md
+• Effort: https://platform.claude.com/docs/en/build-with-claude/effort
+• matches the performance: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf
+• sweep of effort levels: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#tune-effort
+• documentation: https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#cut-spend-without-losing-quality
+• usage and cost reports: https://platform.claude.com/docs/en/manage-claude/usage-cost-api
+• batching: https://platform.claude.com/docs/en/build-with-claude/batch-processing
+• here: https://platform.claude.com/cookbook/cost-optimization-cost-optimization#prompt-caching
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>32</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Formalizing Fermat's Last Theorem</title>
       <itunes:title>Research: Formalizing Fermat's Last Theorem</itunes:title>

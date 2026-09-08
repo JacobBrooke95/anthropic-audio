@@ -1,0 +1,45 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 62.33,
+   "title": "Prompt cache"
+  },
+  {
+   "startTime": 162.83,
+   "title": "How to fix it"
+  },
+  {
+   "startTime": 340.68,
+   "title": "Instructions"
+  },
+  {
+   "startTime": 440.09,
+   "title": "How to fix it"
+  },
+  {
+   "startTime": 575.85,
+   "title": "Effort"
+  },
+  {
+   "startTime": 697.36,
+   "title": "How to fix it"
+  },
+  {
+   "startTime": 857.8,
+   "title": "Automating cost reduction"
+  },
+  {
+   "startTime": 1012.11,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 1091.09,
+   "title": "Outro"
+  }
+ ]
+}

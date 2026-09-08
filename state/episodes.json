@@ -4538,6 +4538,14 @@
       "updated": "2026-09-04T21:40:25+00:00",
       "slug": "research-2026-09-04-formalizing-fermats-last-theorem",
       "episode": 31
+    },
+    "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform": {
+      "first_seen": "2026-09-08T18:50:46+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-08T18:50:46+00:00",
+      "slug": "claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform",
+      "episode": 32
     }
   },
   "episodes": [
@@ -6253,8 +6261,114 @@
       "episode": 31,
       "created": "2026-09-04T21:40:25+00:00",
       "hero": "https://cdn.sanity.io/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform",
+      "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "source": "claude-blog",
+      "title": "Reducing cost and improving performance with Claude Platform",
+      "subtitle": "Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.",
+      "date": "2026-09-08T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "claude-api skill",
+          "href": "https://github.com/anthropics/skills/tree/main/skills/claude-api"
+        },
+        {
+          "text": "billed at a fraction",
+          "href": "https://platform.claude.com/docs/en/about-claude/pricing"
+        },
+        {
+          "text": "limited time-to-live",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#ttl-support"
+        },
+        {
+          "text": "update effort mid-conversation",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/effort#changing-effort-mid-conversation"
+        },
+        {
+          "text": "prompt is assembled",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#structuring-your-prompt"
+        },
+        {
+          "text": "accumulated",
+          "href": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything"
+        },
+        {
+          "text": "Claude Console",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics"
+        },
+        {
+          "text": "defer_loading",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching#defer-loading-and-cache-preservation"
+        },
+        {
+          "text": "Claude Platform",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#when-to-use-a-mid-conversation-system-message"
+        },
+        {
+          "text": "compaction",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/compaction"
+        },
+        {
+          "text": "good moment",
+          "href": "https://cognition.com/blog/devin-fusion"
+        },
+        {
+          "text": "automatic caching",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching"
+        },
+        {
+          "text": "setting a 1-hour TTL",
+          "href": "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence"
+        },
+        {
+          "text": "latest Claude models",
+          "href": "https://x.com/trq212/status/2080710971228918066"
+        },
+        {
+          "text": "CLAUDE.md",
+          "href": "http://claude.md"
+        },
+        {
+          "text": "Effort",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/effort"
+        },
+        {
+          "text": "matches the performance",
+          "href": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "text": "sweep of effort levels",
+          "href": "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#tune-effort"
+        },
+        {
+          "text": "documentation",
+          "href": "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence#cut-spend-without-losing-quality"
+        },
+        {
+          "text": "usage and cost reports",
+          "href": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api"
+        },
+        {
+          "text": "batching",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+        },
+        {
+          "text": "here",
+          "href": "https://platform.claude.com/cookbook/cost-optimization-cost-optimization#prompt-caching"
+        }
+      ],
+      "word_count": 2348,
+      "duration": 1112.685714,
+      "bytes": 9695479,
+      "episode": 32,
+      "created": "2026-09-08T18:50:46+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa04a6665e27a80275b0317_og_reducing-cost-and-improving-performance-with-claude-platform%20(1).jpg"
     }
   ],
-  "next_episode": 32,
+  "next_episode": 33,
   "baseline_date": "2026-08-14"
 }
