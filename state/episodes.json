@@ -4546,6 +4546,14 @@
       "updated": "2026-09-08T18:50:46+00:00",
       "slug": "claude-blog-2026-09-08-reducing-cost-and-improving-performance-with-claude-platform",
       "episode": 32
+    },
+    "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": {
+      "first_seen": "2026-09-09T23:42:26+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-09T23:42:26+00:00",
+      "slug": "research-2026-09-09-alignment-assessment-cybersecurity-incidents",
+      "episode": 33
     }
   },
   "episodes": [
@@ -6367,8 +6375,114 @@
       "episode": 32,
       "created": "2026-09-08T18:50:46+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa04a6665e27a80275b0317_og_reducing-cost-and-improving-performance-with-claude-platform%20(1).jpg"
+    },
+    {
+      "slug": "research-2026-09-09-alignment-assessment-cybersecurity-incidents",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "source": "research",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "subtitle": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "date": "2026-09-09T16:00:00+00:00",
+      "authors": [],
+      "category": "Alignment",
+      "links": [
+        {
+          "text": "on July 30",
+          "href": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+        },
+        {
+          "text": "reported by UK AISI",
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing"
+        },
+        {
+          "text": "system",
+          "href": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf"
+        },
+        {
+          "text": "cards",
+          "href": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anthropics/mythos-5-incident-transcript"
+        },
+        {
+          "text": "PDF",
+          "href": "https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf"
+        },
+        {
+          "text": "replicating the behavior in simulated environments",
+          "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#replicating-the-behavior-in-simulated-environments"
+        },
+        {
+          "text": "in the discussion",
+          "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#discussion"
+        },
+        {
+          "text": "August 31 post",
+          "href": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        },
+        {
+          "text": "pacing frontier AI development.",
+          "href": "https://www.pacingthefrontier.com/"
+        },
+        {
+          "text": "our",
+          "href": "https://claude.com/blog/auto-mode"
+        },
+        {
+          "text": "Betley et al., 2026",
+          "href": "https://arxiv.org/pdf/2607.14345"
+        },
+        {
+          "text": "useful but imperfect tool",
+          "href": "https://arxiv.org/abs/2507.11473"
+        },
+        {
+          "text": "natural language autoencoders",
+          "href": "https://transformer-circuits.pub/2026/nla/index.html"
+        },
+        {
+          "text": "template lens",
+          "href": "https://transformer-circuits.pub/2026/workspace/index.html#app-multi-token"
+        },
+        {
+          "text": "our analysis of the training data.",
+          "href": "https://www.staging.ant.dev/research/alignment-assessment-cybersecurity-incidents#analysis-of-biased-reasoning-and-possible-training-causes"
+        },
+        {
+          "text": "Petri",
+          "href": "https://www.anthropic.com/research/petri-open-source-auditing"
+        },
+        {
+          "text": "previous blog post",
+          "href": "https://alignment.anthropic.com/2026/reward-seeker/"
+        },
+        {
+          "text": "Claude Fable 5.1 and Mythos 5.1 system card",
+          "href": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "text": "simulated cyberattack incidents",
+          "href": "https://alignment.anthropic.com/2026/reward-seeker/#h.xitxx0us4ap9"
+        },
+        {
+          "text": "August risk report",
+          "href": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf"
+        },
+        {
+          "text": "subhash@anthropic.com",
+          "href": "mailto:subhash@anthropic.com"
+        }
+      ],
+      "word_count": 14577,
+      "duration": 6721.828571,
+      "bytes": 54704797,
+      "episode": 33,
+      "created": "2026-09-09T23:42:26+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp"
     }
   ],
-  "next_episode": 33,
+  "next_episode": 34,
   "baseline_date": "2026-08-14"
 }

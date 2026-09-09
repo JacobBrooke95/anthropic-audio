@@ -1,0 +1,189 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 19.2,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 528.91,
+   "title": "Alignment assessment summary"
+  },
+  {
+   "startTime": 792.25,
+   "title": "Claude Mythos 5"
+  },
+  {
+   "startTime": 948.22,
+   "title": "Internal research model"
+  },
+  {
+   "startTime": 1008.12,
+   "title": "Claude Opus 4.7"
+  },
+  {
+   "startTime": 1058.28,
+   "title": "Replication and monitoring"
+  },
+  {
+   "startTime": 1345.32,
+   "title": "Methods"
+  },
+  {
+   "startTime": 1353.56,
+   "title": "Reading thinking blocks"
+  },
+  {
+   "startTime": 1407.42,
+   "title": "Asking follow-up questions"
+  },
+  {
+   "startTime": 1481.59,
+   "title": "Applying interpretability tools"
+  },
+  {
+   "startTime": 1531.42,
+   "title": "Resampling edited transcripts"
+  },
+  {
+   "startTime": 1690.17,
+   "title": "Claude Mythos 5 uploads a malicious PyPI package"
+  },
+  {
+   "startTime": 1835.5,
+   "title": "Claude Mythos 5 ignored evidence that its environment might be real"
+  },
+  {
+   "startTime": 2235.26,
+   "title": "Claude Mythos 5 disregarded evidence of realism in favor of continuing its course of action"
+  },
+  {
+   "startTime": 2618.83,
+   "title": "White-box analyses weakly suggest Claude Mythos 5’s statements did not fully reflect its internal state"
+  },
+  {
+   "startTime": 2850.47,
+   "title": "An internal research model breaks into third-party systems"
+  },
+  {
+   "startTime": 2980.35,
+   "title": "The internal research model seemed to display some concern for whether it was impacting real entities"
+  },
+  {
+   "startTime": 3313.85,
+   "title": "The internal research model appeared biased in its deliberation about realism in service of completing its task"
+  },
+  {
+   "startTime": 3560.61,
+   "title": "White-box analyses weakly suggest that the model may have knowingly rationalized evidence in service of its task"
+  },
+  {
+   "startTime": 3699.1,
+   "title": "Claude Opus 4.7 attacks a real target"
+  },
+  {
+   "startTime": 3803.69,
+   "title": "Claude Opus 4.7 acknowledged the target was real but claimed it was part of the exercise"
+  },
+  {
+   "startTime": 3908.24,
+   "title": "Claude Opus 4.7 did not check whether it was authorized to attack the real website"
+  },
+  {
+   "startTime": 3993.89,
+   "title": "Claude Opus 4.7’s actions appeared to hinge on a belief that its actions were authorized"
+  },
+  {
+   "startTime": 4086.19,
+   "title": "An early checkpoint of Claude Opus 4.6 attacks third-party systems"
+  },
+  {
+   "startTime": 4177.2,
+   "title": "Limited alignment assessment"
+  },
+  {
+   "startTime": 4353.69,
+   "title": "Newer models improve on Claude Mythos 5"
+  },
+  {
+   "startTime": 4356.96,
+   "title": "Replaying incident transcripts with different models"
+  },
+  {
+   "startTime": 4627.84,
+   "title": "Replicating the behavior in simulated environments"
+  },
+  {
+   "startTime": 4794.22,
+   "title": "Capture-the-flag scenario"
+  },
+  {
+   "startTime": 5043.12,
+   "title": "Sandbox escape scenario"
+  },
+  {
+   "startTime": 5152.42,
+   "title": "OpenAI-Hugging Face attack scenario"
+  },
+  {
+   "startTime": 5267.07,
+   "title": "Which monitors would have caught this behavior?"
+  },
+  {
+   "startTime": 5331.76,
+   "title": "Cyber classifiers"
+  },
+  {
+   "startTime": 5390.68,
+   "title": "Claude Code auto-mode classifier"
+  },
+  {
+   "startTime": 5540.86,
+   "title": "Offline monitoring"
+  },
+  {
+   "startTime": 5649.77,
+   "title": "Analysis of biased reasoning and possible training causes"
+  },
+  {
+   "startTime": 5690.38,
+   "title": "Biased reasoning appears to be decreasing over time in our production models"
+  },
+  {
+   "startTime": 5856.91,
+   "title": "Versions of biased reasoning occur in R L but do not appear to increase over the course of training"
+  },
+  {
+   "startTime": 6218.62,
+   "title": "Alignment training appears to reduce biased reasoning"
+  },
+  {
+   "startTime": 6401.66,
+   "title": "Discussion"
+  },
+  {
+   "startTime": 6409.89,
+   "title": "Alignment Auditing"
+  },
+  {
+   "startTime": 6498.88,
+   "title": "Alignment Training"
+  },
+  {
+   "startTime": 6568.59,
+   "title": "Our overall assessment"
+  },
+  {
+   "startTime": 6665.79,
+   "title": "Authors"
+  },
+  {
+   "startTime": 6699.85,
+   "title": "Outro"
+  }
+ ]
+}

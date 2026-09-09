@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 18:50:46 +0000</lastBuildDate>
-    <pubDate>Tue, 08 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Sep 2026 23:42:26 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,88 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: An alignment assessment of recent cybersecurity incidents</title>
+      <itunes:title>Research: An alignment assessment of recent cybersecurity incidents</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-09-alignment-assessment-cybersecurity-incidents/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
+      <pubDate>Wed, 09 Sep 2026 16:00:00 +0000</pubDate>
+      <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
+
+Source: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+Published September 9, 2026 · Anthropic Research
+
+Links referenced in the post:
+• on July 30: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• reported by UK AISI: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• system: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+• cards: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• GitHub: https://github.com/anthropics/mythos-5-incident-transcript
+• PDF: https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf
+• replicating the behavior in simulated environments: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#replicating-the-behavior-in-simulated-environments
+• in the discussion: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#discussion
+• August 31 post: https://www.anthropic.com/news/improving-alignment-security-efforts
+• pacing frontier AI development.: https://www.pacingthefrontier.com/
+• our: https://claude.com/blog/auto-mode
+• Betley et al., 2026: https://arxiv.org/pdf/2607.14345
+• useful but imperfect tool: https://arxiv.org/abs/2507.11473
+• natural language autoencoders: https://transformer-circuits.pub/2026/nla/index.html
+• template lens: https://transformer-circuits.pub/2026/workspace/index.html#app-multi-token
+• our analysis of the training data.: https://www.staging.ant.dev/research/alignment-assessment-cybersecurity-incidents#analysis-of-biased-reasoning-and-possible-training-causes
+• Petri: https://www.anthropic.com/research/petri-open-source-auditing
+• previous blog post: https://alignment.anthropic.com/2026/reward-seeker/
+• Claude Fable 5.1 and Mythos 5.1 system card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf
+• simulated cyberattack incidents: https://alignment.anthropic.com/2026/reward-seeker/#h.xitxx0us4ap9
+• August risk report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+• subhash@anthropic.com: mailto:subhash@anthropic.com
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-09-alignment-assessment-cybersecurity-incidents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</a><br/><strong>Published:</strong> September 9, 2026 · Anthropic Research<br/><strong>Category:</strong> Alignment<br/><strong>Length:</strong> 14,577 words · 1h 52m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">on July 30</a></li><li><a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">reported by UK AISI</a></li><li><a href="https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf">system</a></li><li><a href="https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf">cards</a></li><li><a href="https://github.com/anthropics/mythos-5-incident-transcript">GitHub</a></li><li><a href="https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf">PDF</a></li><li><a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#replicating-the-behavior-in-simulated-environments">replicating the behavior in simulated environments</a></li><li><a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#discussion">in the discussion</a></li><li><a href="https://www.anthropic.com/news/improving-alignment-security-efforts">August 31 post</a></li><li><a href="https://www.pacingthefrontier.com/">pacing frontier AI development.</a></li><li><a href="https://claude.com/blog/auto-mode">our</a></li><li><a href="https://arxiv.org/pdf/2607.14345">Betley et al., 2026</a></li><li><a href="https://arxiv.org/abs/2507.11473">useful but imperfect tool</a></li><li><a href="https://transformer-circuits.pub/2026/nla/index.html">natural language autoencoders</a></li><li><a href="https://transformer-circuits.pub/2026/workspace/index.html#app-multi-token">template lens</a></li><li><a href="https://www.staging.ant.dev/research/alignment-assessment-cybersecurity-incidents#analysis-of-biased-reasoning-and-possible-training-causes">our analysis of the training data.</a></li><li><a href="https://www.anthropic.com/research/petri-open-source-auditing">Petri</a></li><li><a href="https://alignment.anthropic.com/2026/reward-seeker/">previous blog post</a></li><li><a href="https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf">Claude Fable 5.1 and Mythos 5.1 system card</a></li><li><a href="https://alignment.anthropic.com/2026/reward-seeker/#h.xitxx0us4ap9">simulated cyberattack incidents</a></li><li><a href="https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf">August risk report</a></li><li><a href="mailto:subhash@anthropic.com">subhash@anthropic.com</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-09-alignment-assessment-cybersecurity-incidents/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-09-alignment-assessment-cybersecurity-incidents.mp3" length="54704797" type="audio/mpeg"/>
+      <itunes:duration>6722</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-09-alignment-assessment-cybersecurity-incidents.jpg?v=4f9ff4e9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-09-alignment-assessment-cybersecurity-incidents.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-09-alignment-assessment-cybersecurity-incidents.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</itunes:subtitle>
+      <itunes:summary>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
+
+Source: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+Published September 9, 2026 · Anthropic Research
+
+Links referenced in the post:
+• on July 30: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• reported by UK AISI: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• system: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+• cards: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• GitHub: https://github.com/anthropics/mythos-5-incident-transcript
+• PDF: https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf
+• replicating the behavior in simulated environments: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#replicating-the-behavior-in-simulated-environments
+• in the discussion: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents#discussion
+• August 31 post: https://www.anthropic.com/news/improving-alignment-security-efforts
+• pacing frontier AI development.: https://www.pacingthefrontier.com/
+• our: https://claude.com/blog/auto-mode
+• Betley et al., 2026: https://arxiv.org/pdf/2607.14345
+• useful but imperfect tool: https://arxiv.org/abs/2507.11473
+• natural language autoencoders: https://transformer-circuits.pub/2026/nla/index.html
+• template lens: https://transformer-circuits.pub/2026/workspace/index.html#app-multi-token
+• our analysis of the training data.: https://www.staging.ant.dev/research/alignment-assessment-cybersecurity-incidents#analysis-of-biased-reasoning-and-possible-training-causes
+• Petri: https://www.anthropic.com/research/petri-open-source-auditing
+• previous blog post: https://alignment.anthropic.com/2026/reward-seeker/
+• Claude Fable 5.1 and Mythos 5.1 system card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf
+• simulated cyberattack incidents: https://alignment.anthropic.com/2026/reward-seeker/#h.xitxx0us4ap9
+• August risk report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+• subhash@anthropic.com: mailto:subhash@anthropic.com
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-09-alignment-assessment-cybersecurity-incidents/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>33</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-09-alignment-assessment-cybersecurity-incidents.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-09-alignment-assessment-cybersecurity-incidents.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Reducing cost and improving performance with Claude Platform</title>
       <itunes:title>Claude Blog: Reducing cost and improving performance with Claude Platform</itunes:title>
