@@ -4570,6 +4570,14 @@
       "updated": "2026-09-10T18:53:58+00:00",
       "slug": "claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process",
       "episode": 35
+    },
+    "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai": {
+      "first_seen": "2026-09-10T21:48:57+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-10T21:48:57+00:00",
+      "slug": "claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai",
+      "episode": 36
     }
   },
   "episodes": [
@@ -6613,8 +6621,58 @@
       "episode": 35,
       "created": "2026-09-10T18:53:58+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa2e89602db05b69385350a_og_t-rowe-price-brings-more-of-claude-to-its-investment-process.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai",
+      "url": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+      "source": "claude-blog",
+      "title": "What 1,000 small business owners taught us about AI",
+      "subtitle": "Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.",
+      "date": "2026-09-10T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude for Small Business",
+          "href": "https://claude.com/solutions/small-business"
+        },
+        {
+          "text": "AI Fluency for Small Businesses",
+          "href": "https://anthropic.skilljar.com/ai-fluency-for-small-businesses"
+        },
+        {
+          "text": "AI Fluency for Small Businesses course",
+          "href": "https://academy.claude.com/courses/ai-fluency-for-small-businesses"
+        },
+        {
+          "text": "here",
+          "href": "https://privacy.claude.com/en/articles/7996885-how-do-you-use-personal-data-in-model-training"
+        },
+        {
+          "text": "here",
+          "href": "https://trust.anthropic.com/"
+        },
+        {
+          "text": "Claude for Small Business",
+          "href": "https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin"
+        },
+        {
+          "text": "Claude SMB T our",
+          "href": "https://www.anthropic.com/events/build-with-claude?type=smb"
+        },
+        {
+          "text": "Boston on September 16",
+          "href": "https://anthropic.swoogo.com/claude-smb-workshop-boston/rta"
+        }
+      ],
+      "word_count": 2004,
+      "duration": 822.857143,
+      "bytes": 7344499,
+      "episode": 36,
+      "created": "2026-09-10T21:48:57+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa313b811e2168f44b7bf25_og_what-1-000-small-business-owners-taught-us-about-ai%20(2).jpg"
     }
   ],
-  "next_episode": 36,
+  "next_episode": 37,
   "baseline_date": "2026-08-14"
 }

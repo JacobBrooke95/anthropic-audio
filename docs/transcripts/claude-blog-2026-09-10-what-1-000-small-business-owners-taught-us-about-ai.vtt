@@ -1,0 +1,253 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.375
+This is Anthropic, Read Aloud. Today: What 1000 small business owners taught us about A I.
+
+2
+00:00:09.675 --> 00:00:12.932
+What 1000 small business owners taught us about A I.
+
+3
+00:00:13.382 --> 00:00:21.968
+Lina Ochman, Head of U S SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.
+
+4
+00:00:22.418 --> 00:00:26.377
+From Claude Blog, published September 10, 2026.
+
+5
+00:00:27.377 --> 00:00:43.265
+Most A I tools and training are built for large companies and venture-backed startups. Small businesses generate 44 percent of the U S GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone.
+
+6
+00:00:43.385 --> 00:00:58.763
+As a public benefit corporation, part of our job is leveling the playing field for A I, and in this case, that means doing our part to help frontier A I reach small business and entrepreneurs on the same timeline it reaches the Fortune 500.
+
+7
+00:00:59.213 --> 00:01:16.557
+So in May we launched Claude for Small Business: a Claude Cowork plugin, built alongside QuickBooks, PayPal, HubSpot, Canva, DocuSign, and more popular small business tools, that connects Claude to the tools owners already use and does the back-office work that eats up their evenings.
+
+8
+00:01:16.677 --> 00:01:26.826
+We also released our new A I Fluency for Small Businesses course created with PayPal, focused on the workflows, tools, and broader needs of small business owners.
+
+9
+00:01:27.276 --> 00:01:42.116
+Over the following six weeks, our team and our build partner Tenex ran free, half-day workshops in Chicago, Tulsa, Dallas, Hamilton Township in New Jersey, Baton Rouge, Birmingham, Salt Lake City, Baltimore, San Jose, and Indianapolis.
+
+10
+00:01:42.236 --> 00:01:59.814
+Each stop paired A I fluency training with a hands-on Claude Cowork session where roughly 100 business owners opened their laptops and automated something real in their business. More than 1000 SMB owners and operators came through, and I had the fortune of hearing their stories.
+
+11
+00:02:00.264 --> 00:02:12.723
+They shared their excitement, frustrations, and hopes for bringing A I into their work, from helping automate payroll to removing the tedious, manual tasks that distract them from their favorite parts of their job.
+
+12
+00:02:12.843 --> 00:02:24.957
+Most came to learn a new approach to A I fluency and pick up a tangible A I workflow, and many left with a community of peers in which to learn from and experiment with this powerful new technology.
+
+13
+00:02:25.407 --> 00:02:28.759
+Here is what they taught us and where we’re taking the program next.
+
+14
+00:02:29.559 --> 00:02:35.425
+Lesson 1: A I levels the playing field for non-technical entrepreneurs and their employees.
+
+15
+00:02:35.875 --> 00:02:52.559
+Who showed up mattered as much as how many. Eighty percent of registrants run companies with 5 to 50 employees, and the industries skewed toward the physical economy: construction, manufacturing, logistics, trades, and the professional services firms that serve them.
+
+16
+00:02:52.679 --> 00:03:13.577
+A father who built a 100-person commercial cleaning company on paper schedules came with the daughter who is taking it over, to automate scheduling together. Tony Severino, a Chicago-area painting contractor who has run his own firm since 1984, now has Claude read P D F blueprints floor by floor to help him prep bids.
+
+17
+00:03:13.697 --> 00:03:27.031
+At an industrial systems integrator outside Dallas, field technicians photograph an unlabeled part on the shop floor and Claude identifies it in seconds, a formerly manual process that used to take hours.
+
+18
+00:03:27.481 --> 00:03:37.484
+The pattern that surprised me most is how many owners and operators with no software background are using A I to build creative tooling specific to their pain points.
+
+19
+00:03:37.934 --> 00:03:58.561
+For example, Mike Teso, owner of Liberty Trailers, a three-plant trailer manufacturer in Indiana, built a reconciliation tool for a newly acquired factory in about 15 minutes; his IT director, who spent years saying he did not need A I, replaced paper production schedules with live dashboards in days rather than months.
+
+20
+00:03:59.011 --> 00:04:20.105
+In particular, small business owners who launched their businesses before the dawn of A I were eager to use it. They saw A I as a valuable tool for saving time and resources, both by doing technical and operational work and helping delegate it. Many viewed A I as offering a leg up by giving them skills they wouldn’t otherwise have access to.
+
+21
+00:04:20.905 --> 00:04:26.466
+Lesson 2: Owners are using A I to manage important work, but worry about accuracy.
+
+22
+00:04:26.916 --> 00:04:41.264
+When we asked registrants what they wanted A I to do, they described some of the most important operational jobs: pull the numbers from three systems into the Monday report, or turn this afternoon's discovery call into a new business proposal.
+
+23
+00:04:41.384 --> 00:04:51.058
+About two-thirds of these requests were about running the business and a third about growing it, and reporting was the single most common use case, outside of marketing work.
+
+24
+00:04:51.508 --> 00:05:06.053
+A I acts like an equalizer for businesses when resources are tight. A five-person trucking compliance shop in Tennessee lost 60 percent of its clients in a market downturn, then got 30 days' notice from its core software vendor.
+
+25
+00:05:06.173 --> 00:05:18.223
+The team rebuilt the system themselves with Claude, took their fuel tax filing error rate from 7 percent to zero, and are now set up to handle twice their old peak volume with the same five people.
+
+26
+00:05:18.673 --> 00:05:34.746
+Still, underneath this excitement sat a common apprehension: something important falling through the cracks. Working with A I was a new motion, and business owners frequently spoke about the experience of learning how to validate its results and not take them at face value.
+
+27
+00:05:35.196 --> 00:05:52.178
+What resonated most with business owners was treating Claude like a new employee at first, building trust and confidence in its abilities over time. We give tactical guidance on how to build discernment in outputs both in our A I Fluency course and during the workshops themselves.
+
+28
+00:05:52.628 --> 00:06:09.053
+As a result, Rick Smith, owner of Broadcast Blinds, now prompts Claude to flag when it's assuming versus knowing, and Severino once caught Claude using a floor-area multiplier instead of real wall measurements on an early bid and now asks Claude to “show me your work.”
+
+29
+00:06:09.503 --> 00:06:17.466
+As the model gains context into their day-to-day workflows and organizational needs, more can be delegated to be handled autonomously.
+
+30
+00:06:17.916 --> 00:06:22.631
+You can learn these concepts in depth in our A I Fluency for Small Businesses course.
+
+31
+00:06:23.431 --> 00:06:26.929
+Lesson 3: Data and governance top the list of concerns.
+
+32
+00:06:27.379 --> 00:06:47.855
+In our pre-launch survey of 503 small business decision-makers, data security was the most-cited barrier to A I adoption. At every tour stop, questions about data privacy, security, and governance were the first to be asked: Is my data used to train your models? If I connect QuickBooks, what exactly can Claude see?
+
+33
+00:06:47.975 --> 00:06:51.914
+If an agent browses the web for me, can a malicious page hijack it?
+
+34
+00:06:52.364 --> 00:07:09.644
+Owners hear conflicting things from vendors, consultants, and headlines, and they want one plain-language source of truth. This confusion has a cost: in our product data, owners who feel confident enough to connect their tools get far more value, and when there’s doubt, adoption stalls.
+
+35
+00:07:10.094 --> 00:07:30.979
+The business owners furthest along in their A I adoption journey have answered the trust question for themselves by deliberately keeping a person in the driver's seat. At KBSO Consulting, a women-led, 40-person engineering firm in Indianapolis, new hires review every Claude-generated summary, by design, as on-the-job training.
+
+36
+00:07:31.099 --> 00:07:52.829
+A husband-and-wife branding agency in New Jersey automated their entire proposal-to-contract flow but kept a human "send" on every prospecting email. And HireEffect, a 20-person back-office firm in Dallas that handles clients' payroll data, built PII redaction and a registry of every Claude workflow before rolling it out to staff.
+
+37
+00:07:53.279 --> 00:07:58.093
+It was obvious there was more to do on our end to educate about trust and security.
+
+38
+00:07:58.543 --> 00:08:19.828
+You control whether your conversations are used to improve Claude, and on Team and Enterprise plans we don't train on them by default. Your existing permissions carry over (if an employee can't see it in QuickBooks today, they can't see it through Claude), and we build strong security and safeguards into our product and our models. You can find more information here and here.
+
+39
+00:08:20.628 --> 00:08:25.969
+Lesson 4: Building agents can be intimidating to until you kick off the first workflow.
+
+40
+00:08:26.419 --> 00:08:46.564
+The tour opened my eyes to another barrier to A I adoption: A I fluency, in other words, the ability to understand and use A I well. Before launch, 81 percent of small business owners we surveyed said they were open to new A I tools, and their top pain point was employees being unsure how or when to use them.
+
+41
+00:08:47.014 --> 00:08:54.151
+The tour confirmed it: many attendees already used Claude chat daily but hadn't tried Cowork, skills, or connectors.
+
+42
+00:08:54.271 --> 00:09:13.695
+Quentin Durr, who left an 18-year banking career to go all in at the growth systems company he co-founded, told us plainly: “I’ve used A I models for years, but it wasn’t until skills and connectors came along that I found real use cases in my actual work.” Others told us features arrive faster than they can track,
+
+43
+00:09:13.815 --> 00:09:17.763
+and that any training they write for their team goes stale almost immediately.
+
+44
+00:09:18.213 --> 00:09:39.420
+What closed the gap was time on the keyboard with someone nearby to help; specifically, once a small business owner built their first workflow, they felt empowered to keep building, and in turn, deploy production agents. Across 635 exit surveys, the most-cited highlight was the guided build session, and the most common request was more of it.
+
+45
+00:09:39.540 --> 00:09:45.057
+Nearly two-thirds of attendees asked for hands-on help implementing A I after the workshop.
+
+46
+00:09:45.507 --> 00:10:03.892
+To many, getting started with Claude Cowork was the hardest part; it’s a new way of working that incorporates A I and Agents into common small business tools, like Microsoft 365, PayPal, Intuit Quickbooks, and more, and like picking up any new tool, there is often a steep learning curve.
+
+47
+00:10:04.012 --> 00:10:15.069
+Still, once they actually set up Claude Cowork and implemented their first workflow (that is, building a virtual chief-of-staff or automating payroll), the impact was near instant.
+
+48
+00:10:15.519 --> 00:10:34.074
+At our last stop, the C E O of a 30-person manufacturer told me, "You were able to help me do the things I was scared of doing" with A I. For most, a few hours of guided practice was all it took to get the hang of taking A I adoption beyond using a chatbot and actually running multi-step tasks.
+
+49
+00:10:34.524 --> 00:10:45.103
+To help get you started, we recommend installing Claude for Small Business (available on any plan!) and asking Claude to “help me get onboarded onto the small business plug-in.”
+
+50
+00:10:45.903 --> 00:10:49.530
+Lesson 5: Small business owners want to learn from their peers.
+
+51
+00:10:49.980 --> 00:11:00.025
+Every room on this tour was filled by a local partner. Chambers of commerce, regional A I hubs, and economic development organizations invited their members.
+
+52
+00:11:00.475 --> 00:11:21.211
+After the build session, the most-cited highlight in the exit surveys was hearing how other owners had solved the same problem, and attendees asked for a shared repository of peer use cases more often than any product feature. Owners grouped up by industry, traded numbers, and asked for the attendee list so they could keep comparing notes.
+
+53
+00:11:21.661 --> 00:11:44.164
+Roughly one in five attendees was already a consultant or educator teaching other small businesses, and several owners have become one since. For instance, Pat Miller runs Small Business Owners Community, a nationwide solopreneur group and a daily podcast he says could not exist without Claude Cowork handling production; he now teaches Claude to other solo founders.
+
+54
+00:11:44.614 --> 00:12:00.977
+After our Birmingham workshop, Carrie Rollwagen, an SVP at the 35-person web firm Infomedia, built a two-hour internal Claude training that has filled four times and moved staff from administrative work into creative roles without shrinking the team.
+
+55
+00:12:01.427 --> 00:12:09.021
+The most effective teacher for a small business owner is another small business owner using A I to tackle similar challenges.
+
+56
+00:12:09.821 --> 00:12:10.715
+What's next.
+
+57
+00:12:11.165 --> 00:12:24.691
+The Claude SMB Tour was both inspirational and eye-opening; business owners were excited and empowered by A I, while simultaneously lacking the resources and community necessary to adopt it at scale.
+
+58
+00:12:24.811 --> 00:12:38.016
+We know there’s a need, and we know we can’t do it alone, so we launched the Claude SMB Trainer Program, a new initiative to bring Claude workshops to small and medium-sized business communities across the United States.
+
+59
+00:12:38.466 --> 00:12:55.977
+We’re kicking off the program with two sessions in San Francisco and New York City focused on giving community and A I partner organizations the tools necessary to help others learn A I fluency best practices (inspired by our SMB-focused course) and hands-on learning.
+
+60
+00:12:56.427 --> 00:13:15.753
+We’re also excited to share that we’ll be kicking off part two of our Claude SMB T our this fall, visiting an all new slate of cities, starting with Boston on September 16, and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
+
+61
+00:13:16.203 --> 00:13:17.825
+We can’t wait to see you on the road!
+
+62
+00:13:18.275 --> 00:13:20.619
+Get started with Claude for Small Business today.
+
+63
+00:13:21.619 --> 00:13:38.868
+That was What 1000 small business owners taught us about A I, from Claude Blog, published September 10, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

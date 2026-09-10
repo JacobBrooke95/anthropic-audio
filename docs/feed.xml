@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 10 Sep 2026 18:53:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 21:48:58 +0000</lastBuildDate>
     <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -143,6 +143,60 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>35</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: What 1,000 small business owners taught us about AI</title>
+      <itunes:title>Claude Blog: What 1,000 small business owners taught us about AI</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai/</link>
+      <guid isPermaLink="false">https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai</guid>
+      <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.
+
+Source: https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
+Published September 10, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Small Business: https://claude.com/solutions/small-business
+• AI Fluency for Small Businesses: https://anthropic.skilljar.com/ai-fluency-for-small-businesses
+• AI Fluency for Small Businesses course: https://academy.claude.com/courses/ai-fluency-for-small-businesses
+• here: https://privacy.claude.com/en/articles/7996885-how-do-you-use-personal-data-in-model-training
+• here: https://trust.anthropic.com/
+• Claude for Small Business: https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin
+• Claude SMB T our: https://www.anthropic.com/events/build-with-claude?type=smb
+• Boston on September 16: https://anthropic.swoogo.com/claude-smb-workshop-boston/rta
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai">https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai</a><br/><strong>Published:</strong> September 10, 2026 · Claude Blog<br/><strong>Length:</strong> 2,004 words · 13 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/solutions/small-business">Claude for Small Business</a></li><li><a href="https://anthropic.skilljar.com/ai-fluency-for-small-businesses">AI Fluency for Small Businesses</a></li><li><a href="https://academy.claude.com/courses/ai-fluency-for-small-businesses">AI Fluency for Small Businesses course</a></li><li><a href="https://privacy.claude.com/en/articles/7996885-how-do-you-use-personal-data-in-model-training">here</a></li><li><a href="https://trust.anthropic.com/">here</a></li><li><a href="https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin">Claude for Small Business</a></li><li><a href="https://www.anthropic.com/events/build-with-claude?type=smb">Claude SMB T our</a></li><li><a href="https://anthropic.swoogo.com/claude-smb-workshop-boston/rta">Boston on September 16</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.mp3" length="7344499" type="audio/mpeg"/>
+      <itunes:duration>823</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.jpg?v=9d527154"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.</itunes:subtitle>
+      <itunes:summary>Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude Small Business Tour, and what’s next for the program.
+
+Source: https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
+Published September 10, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Small Business: https://claude.com/solutions/small-business
+• AI Fluency for Small Businesses: https://anthropic.skilljar.com/ai-fluency-for-small-businesses
+• AI Fluency for Small Businesses course: https://academy.claude.com/courses/ai-fluency-for-small-businesses
+• here: https://privacy.claude.com/en/articles/7996885-how-do-you-use-personal-data-in-model-training
+• here: https://trust.anthropic.com/
+• Claude for Small Business: https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin
+• Claude SMB T our: https://www.anthropic.com/events/build-with-claude?type=smb
+• Boston on September 16: https://anthropic.swoogo.com/claude-smb-workshop-boston/rta
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>36</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: An alignment assessment of recent cybersecurity incidents</title>
