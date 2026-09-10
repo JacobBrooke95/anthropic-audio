@@ -4554,6 +4554,22 @@
       "updated": "2026-09-09T23:42:26+00:00",
       "slug": "research-2026-09-09-alignment-assessment-cybersecurity-incidents",
       "episode": 33
+    },
+    "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": {
+      "first_seen": "2026-09-10T18:51:06+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-10T18:51:06+00:00",
+      "slug": "research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities",
+      "episode": 34
+    },
+    "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process": {
+      "first_seen": "2026-09-10T18:53:58+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-10T18:53:58+00:00",
+      "slug": "claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process",
+      "episode": 35
     }
   },
   "episodes": [
@@ -6481,8 +6497,124 @@
       "episode": 33,
       "created": "2026-09-09T23:42:26+00:00",
       "hero": "https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp"
+    },
+    {
+      "slug": "research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities",
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "source": "research",
+      "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "subtitle": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
+      "date": "2026-09-10T16:00:00+00:00",
+      "authors": [],
+      "category": "Frontier Red Team",
+      "links": [
+        {
+          "text": "best-studied",
+          "href": "https://www.anthropic.com/research/zero-days"
+        },
+        {
+          "text": "domains",
+          "href": "https://www.anthropic.com/research/exploit-evals"
+        },
+        {
+          "text": "models",
+          "href": "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/21-F-0520_JP_3-60_9-28-2018.pdf#page=25"
+        },
+        {
+          "text": "new report",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "text": "Frontier Red Team",
+          "href": "https://www.anthropic.com/research/team/frontier-red-team"
+        },
+        {
+          "text": "YFCC100M Flickr dataset",
+          "href": "https://registry.opendata.aws/multimedia-commons/"
+        },
+        {
+          "text": "Haas et al. 2024",
+          "href": "https://arxiv.org/abs/2307.05845"
+        },
+        {
+          "text": "GeoText",
+          "href": "https://www.cs.cmu.edu/~ark/GeoText/"
+        },
+        {
+          "text": "current Ukrainian",
+          "href": "https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare"
+        },
+        {
+          "text": "FPV drones",
+          "href": "https://en.defence-ua.com/weapon_and_tech/how_ukrainian_fpv_drones_with_automated_terminal_guidance_work-14687.html"
+        },
+        {
+          "text": "Some fielded systems",
+          "href": "https://www.sto.nato.int/document/technologies-for-future-precision-strike-missile-systems-2/"
+        },
+        {
+          "text": "repurposed",
+          "href": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2023/Grenade-Dropping-Quadcopters/"
+        },
+        {
+          "text": "grenades",
+          "href": "https://ctc.westpoint.edu/moving-targets-implications-of-the-russo-ukrainian-war-for-drone-terrorism/"
+        },
+        {
+          "text": "RUSI",
+          "href": "https://www.rusi.org/explore-our-research/publications/commentary/jamming-jdam-threat-us-munitions-russian-electronic-warfare"
+        },
+        {
+          "text": "Defense One",
+          "href": "https://www.defenseone.com/threats/2024/04/another-us-precision-guided-weapon-falls-prey-russian-electronic-warfare-us-says/396141/"
+        },
+        {
+          "text": "research",
+          "href": "https://alignment.anthropic.com/2026/modular-pretraining/"
+        },
+        {
+          "text": "benefits",
+          "href": "https://www.anthropic.com/news/position-open-weights-models"
+        },
+        {
+          "text": "defenders",
+          "href": "https://www.anthropic.com/glasswing"
+        }
+      ],
+      "word_count": 6061,
+      "duration": 2549.368163,
+      "bytes": 21200496,
+      "episode": 34,
+      "created": "2026-09-10T18:51:06+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process",
+      "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+      "source": "claude-blog",
+      "title": "T. Rowe Price brings more of Claude to its investment process",
+      "subtitle": "How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.",
+      "date": "2026-09-10T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "announced the expansion",
+          "href": "https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html"
+        },
+        {
+          "text": "Claude Enterprise",
+          "href": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan"
+        }
+      ],
+      "word_count": 400,
+      "duration": 215.928163,
+      "bytes": 2522911,
+      "episode": 35,
+      "created": "2026-09-10T18:53:58+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa2e89602db05b69385350a_og_t-rowe-price-brings-more-of-claude-to-its-investment-process.jpg"
     }
   ],
-  "next_episode": 34,
+  "next_episode": 36,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,100 @@
+{
+ "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process",
+ "title": "T. Rowe Price brings more of Claude to its investment process",
+ "subtitle": "How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.",
+ "date": "2026-09-10T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa2e89602db05b69385350a_og_t-rowe-price-brings-more-of-claude-to-its-investment-process.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "T. Rowe Price, a global investment management firm, and Anthropic today announced the expansion of Claude across the firm’s investment organization. Portfolio managers and analysts at the global investment management firm are working with Claude and Claude Cowork on their research, and its developers are building investment tools with Claude Code.",
+   "html": "T. Rowe Price, a global investment management firm, and Anthropic today <a href=\"https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html\">announced the expansion</a> of Claude across the firm’s investment organization.  Portfolio managers and analysts at the global investment management firm are working with Claude and Claude Cowork on their research, and its developers are building investment tools with Claude Code."
+  },
+  {
+   "type": "paragraph",
+   "text": "T. Rowe Price is an active manager, so its investment decisions rest on its own fundamental research. Analysts and portfolio managers read and evaluate large volumes of information, then apply their judgment to reach a view. The firm's goal with using Claude is to give them more capacity for this type of work.",
+   "html": "T. Rowe Price is an active manager, so its investment decisions rest on its own fundamental research. Analysts and portfolio managers read and evaluate large volumes of information, then apply their judgment to reach a view. The firm&#x27;s goal with using Claude is to give them more capacity for this type of work."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How T. Rowe Price uses Claude",
+   "html": "How T. Rowe Price uses Claude"
+  },
+  {
+   "type": "paragraph",
+   "text": "The firm is using Claude for three areas of the investment process:",
+   "html": "The firm is using Claude for three areas of the investment process:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Research. Investment professionals ask Cowork to synthesize complex information, which leaves more time for analysis and debate.",
+     "html": "<strong>Research.</strong> Investment professionals ask Cowork to synthesize complex information, which leaves more time for analysis and debate."
+    },
+    {
+     "text": "Multi-step processes. Teams work with Cowork on knowledge-intensive tasks where consistency and oversight matter.",
+     "html": "<strong>Multi-step processes.</strong> Teams work with Cowork on knowledge-intensive tasks where consistency and oversight matter."
+    },
+    {
+     "text": "Tool building. Developers work with Claude Code to build and improve build and improve tools that support investment and operating teams.",
+     "html": "<strong>Tool building.</strong> Developers work with Claude Code to build and improve build and improve tools that support investment and operating teams."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "All of this runs under the AI leadership model T. Rowe Price announced in August, which places AI leaders inside Investments and Global Distribution and charges T. Rowe Price Labs, the firm’s enterprise AI and data innovation hub, with evaluating and scaling AI across the firm. Each application is owned by the business, governed by the firm's standards for responsible use, and built so that human judgment and accountability stay at the center of client outcomes.",
+   "html": "All of this runs under the AI leadership model T. Rowe Price announced in August, which places AI leaders inside Investments and Global Distribution and charges T. Rowe Price Labs, the firm’s enterprise AI and data innovation hub, with evaluating and scaling AI across the firm. Each application is owned by the business, governed by the firm&#x27;s standards for responsible use, and built so that human judgment and accountability stay at the center of client outcomes."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Most enterprise AI deployments start with the back office. T. Rowe Price started with the people who pick the securities,\" said Peter Nolan, Head of Asset and Wealth Management at Anthropic.",
+   "html": "&quot;Most enterprise AI deployments start with the back office. T. Rowe Price started with the people who pick the securities,&quot; said Peter Nolan, Head of Asset and Wealth Management at Anthropic."
+  },
+  {
+   "type": "paragraph",
+   "text": "Eric Veiel, President, Co-head of Global Investments, and Chief Investment Officer at T. Rowe Price, described Claude as an extension of a research process that has served the firm's clients for nearly 90 years. \"Claude lets our investment professionals cover more ground and go deeper on what matters,\" he said.",
+   "html": "Eric Veiel, President, Co-head of Global Investments, and Chief Investment Officer at T. Rowe Price, described Claude as an extension of a research process that has served the firm&#x27;s clients for nearly 90 years. &quot;Claude lets our investment professionals cover more ground and go deeper on what matters,&quot; he said."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What's next",
+   "html": "<strong>What&#x27;s next</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "This work fits into T. Rowe Price’s broader AI efforts, which include training, talent development, and responsible-use guidance to help associates build confidence using AI while keeping human judgment and client focus front and center.The firm's stated ambition is to lead the investment management industry in how AI is applied to investing, to running the firm, and to serving clients.",
+   "html": "This work fits into T. Rowe Price’s broader AI efforts, which include training, talent development, and responsible-use guidance to help associates build confidence using AI while keeping human judgment and client focus front and center.The firm&#x27;s stated ambition is to lead the investment management industry in how AI is applied to investing, to running the firm, and to serving clients."
+  },
+  {
+   "type": "paragraph",
+   "text": "Get started with Claude Enterprise today.",
+   "html": "<strong><em>Get started with </em></strong><a href=\"https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan\"><strong><em>Claude Enterprise</em></strong></a><strong><em> today. </em></strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "‍",
+   "html": "‍"
+  }
+ ],
+ "links": [
+  {
+   "text": "announced the expansion",
+   "href": "https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html"
+  },
+  {
+   "text": "Claude Enterprise",
+   "href": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan"
+  }
+ ],
+ "word_count": 400,
+ "fetched_at": "2026-09-10T18:51:06+00:00"
+}

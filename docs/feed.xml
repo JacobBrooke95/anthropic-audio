@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 09 Sep 2026 23:42:26 +0000</lastBuildDate>
-    <pubDate>Wed, 09 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 18:53:58 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,122 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
+      <itunes:title>Research: Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
+      <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
+
+Source: https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
+Published September 10, 2026 · Anthropic Research
+
+Links referenced in the post:
+• best-studied: https://www.anthropic.com/research/zero-days
+• domains: https://www.anthropic.com/research/exploit-evals
+• models: https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/21-F-0520_JP_3-60_9-28-2018.pdf#page=25
+• new report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Frontier Red Team: https://www.anthropic.com/research/team/frontier-red-team
+• YFCC100M Flickr dataset: https://registry.opendata.aws/multimedia-commons/
+• Haas et al. 2024: https://arxiv.org/abs/2307.05845
+• GeoText: https://www.cs.cmu.edu/~ark/GeoText/
+• current Ukrainian: https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare
+• FPV drones: https://en.defence-ua.com/weapon_and_tech/how_ukrainian_fpv_drones_with_automated_terminal_guidance_work-14687.html
+• Some fielded systems: https://www.sto.nato.int/document/technologies-for-future-precision-strike-missile-systems-2/
+• repurposed: https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2023/Grenade-Dropping-Quadcopters/
+• grenades: https://ctc.westpoint.edu/moving-targets-implications-of-the-russo-ukrainian-war-for-drone-terrorism/
+• RUSI: https://www.rusi.org/explore-our-research/publications/commentary/jamming-jdam-threat-us-munitions-russian-electronic-warfare
+• Defense One: https://www.defenseone.com/threats/2024/04/another-us-precision-guided-weapon-falls-prey-russian-electronic-warfare-us-says/396141/
+• research: https://alignment.anthropic.com/2026/modular-pretraining/
+• benefits: https://www.anthropic.com/news/position-open-weights-models
+• defenders: https://www.anthropic.com/glasswing
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</a><br/><strong>Published:</strong> September 10, 2026 · Anthropic Research<br/><strong>Category:</strong> Frontier Red Team<br/><strong>Length:</strong> 6,061 words · 42 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/zero-days">best-studied</a></li><li><a href="https://www.anthropic.com/research/exploit-evals">domains</a></li><li><a href="https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/21-F-0520_JP_3-60_9-28-2018.pdf#page=25">models</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">new report</a></li><li><a href="https://www.anthropic.com/research/team/frontier-red-team">Frontier Red Team</a></li><li><a href="https://registry.opendata.aws/multimedia-commons/">YFCC100M Flickr dataset</a></li><li><a href="https://arxiv.org/abs/2307.05845">Haas et al. 2024</a></li><li><a href="https://www.cs.cmu.edu/~ark/GeoText/">GeoText</a></li><li><a href="https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare">current Ukrainian</a></li><li><a href="https://en.defence-ua.com/weapon_and_tech/how_ukrainian_fpv_drones_with_automated_terminal_guidance_work-14687.html">FPV drones</a></li><li><a href="https://www.sto.nato.int/document/technologies-for-future-precision-strike-missile-systems-2/">Some fielded systems</a></li><li><a href="https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2023/Grenade-Dropping-Quadcopters/">repurposed</a></li><li><a href="https://ctc.westpoint.edu/moving-targets-implications-of-the-russo-ukrainian-war-for-drone-terrorism/">grenades</a></li><li><a href="https://www.rusi.org/explore-our-research/publications/commentary/jamming-jdam-threat-us-munitions-russian-electronic-warfare">RUSI</a></li><li><a href="https://www.defenseone.com/threats/2024/04/another-us-precision-guided-weapon-falls-prey-russian-electronic-warfare-us-says/396141/">Defense One</a></li><li><a href="https://alignment.anthropic.com/2026/modular-pretraining/">research</a></li><li><a href="https://www.anthropic.com/news/position-open-weights-models">benefits</a></li><li><a href="https://www.anthropic.com/glasswing">defenders</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.mp3" length="21200496" type="audio/mpeg"/>
+      <itunes:duration>2549</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.jpg?v=e13f5965"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</itunes:subtitle>
+      <itunes:summary>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
+
+Source: https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
+Published September 10, 2026 · Anthropic Research
+
+Links referenced in the post:
+• best-studied: https://www.anthropic.com/research/zero-days
+• domains: https://www.anthropic.com/research/exploit-evals
+• models: https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/21-F-0520_JP_3-60_9-28-2018.pdf#page=25
+• new report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Frontier Red Team: https://www.anthropic.com/research/team/frontier-red-team
+• YFCC100M Flickr dataset: https://registry.opendata.aws/multimedia-commons/
+• Haas et al. 2024: https://arxiv.org/abs/2307.05845
+• GeoText: https://www.cs.cmu.edu/~ark/GeoText/
+• current Ukrainian: https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare
+• FPV drones: https://en.defence-ua.com/weapon_and_tech/how_ukrainian_fpv_drones_with_automated_terminal_guidance_work-14687.html
+• Some fielded systems: https://www.sto.nato.int/document/technologies-for-future-precision-strike-missile-systems-2/
+• repurposed: https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2023/Grenade-Dropping-Quadcopters/
+• grenades: https://ctc.westpoint.edu/moving-targets-implications-of-the-russo-ukrainian-war-for-drone-terrorism/
+• RUSI: https://www.rusi.org/explore-our-research/publications/commentary/jamming-jdam-threat-us-munitions-russian-electronic-warfare
+• Defense One: https://www.defenseone.com/threats/2024/04/another-us-precision-guided-weapon-falls-prey-russian-electronic-warfare-us-says/396141/
+• research: https://alignment.anthropic.com/2026/modular-pretraining/
+• benefits: https://www.anthropic.com/news/position-open-weights-models
+• defenders: https://www.anthropic.com/glasswing
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>34</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-10-intelligence-targeting-conventional-weapons-capabilities.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: T. Rowe Price brings more of Claude to its investment process</title>
+      <itunes:title>Claude Blog: T. Rowe Price brings more of Claude to its investment process</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process/</link>
+      <guid isPermaLink="false">https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process</guid>
+      <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+      <description>How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.
+
+Source: https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process
+Published September 10, 2026 · Claude Blog
+
+Links referenced in the post:
+• announced the expansion: https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html
+• Claude Enterprise: https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process">https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process</a><br/><strong>Published:</strong> September 10, 2026 · Claude Blog<br/><strong>Length:</strong> 400 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html">announced the expansion</a></li><li><a href="https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan">Claude Enterprise</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.mp3" length="2522911" type="audio/mpeg"/>
+      <itunes:duration>216</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.jpg?v=4e85d1c2"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.</itunes:subtitle>
+      <itunes:summary>How T. Rowe Price is using Claude across the business, from driving fundamental research to building investment tools.
+
+Source: https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process
+Published September 10, 2026 · Claude Blog
+
+Links referenced in the post:
+• announced the expansion: https://www.prnewswire.com/news-releases/t-rowe-price-works-with-anthropic-to-bring-claude-to-more-of-its-investment-process-302875582.html
+• Claude Enterprise: https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>35</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-10-t-rowe-price-brings-more-of-claude-to-its-investment-process.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: An alignment assessment of recent cybersecurity incidents</title>
       <itunes:title>Research: An alignment assessment of recent cybersecurity incidents</itunes:title>

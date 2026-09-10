@@ -1,0 +1,49 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 217.66,
+   "title": "Models as targeters"
+  },
+  {
+   "startTime": 308.25,
+   "title": "Identity correlation and classification"
+  },
+  {
+   "startTime": 492.71,
+   "title": "Geolocation from photos"
+  },
+  {
+   "startTime": 713.49,
+   "title": "Geolocation from text"
+  },
+  {
+   "startTime": 1072.67,
+   "title": "Models as weapons developers"
+  },
+  {
+   "startTime": 1278.19,
+   "title": "Guiding a drone to a target"
+  },
+  {
+   "startTime": 1763.28,
+   "title": "Dropping a payload on a target"
+  },
+  {
+   "startTime": 1961.78,
+   "title": "Flying without GPS"
+  },
+  {
+   "startTime": 2257.75,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 2524.97,
+   "title": "Outro"
+  }
+ ]
+}

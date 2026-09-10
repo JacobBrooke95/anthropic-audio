@@ -1,0 +1,21 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 69.42,
+   "title": "How T. Rowe Price uses Claude"
+  },
+  {
+   "startTime": 164.52,
+   "title": "What's next"
+  },
+  {
+   "startTime": 194.15,
+   "title": "Outro"
+  }
+ ]
+}
