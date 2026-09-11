@@ -4578,6 +4578,27 @@
       "updated": "2026-09-10T21:48:57+00:00",
       "slug": "claude-blog-2026-09-10-what-1-000-small-business-owners-taught-us-about-ai",
       "episode": 36
+    },
+    "https://www.anthropic.com/research/the-anthropic-economic-index": {
+      "first_seen": "2026-09-11T18:23:07+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-09-11T18:23:07+00:00",
+      "reason": "published 2025-02-10 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7": {
+      "first_seen": "2026-09-11T18:23:07+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-09-11T18:23:07+00:00",
+      "reason": "published 2025-03-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude": {
+      "first_seen": "2026-09-11T18:23:07+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-09-11T18:23:07+00:00",
+      "reason": "published 2025-08-27 < baseline 2026-08-14"
     }
   },
   "episodes": [
