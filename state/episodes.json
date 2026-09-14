@@ -4599,6 +4599,30 @@
       "status": "skipped",
       "updated": "2026-09-11T18:23:07+00:00",
       "reason": "published 2025-08-27 < baseline 2026-08-14"
+    },
+    "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic": {
+      "first_seen": "2026-09-14T20:02:39+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-14T20:02:39+00:00",
+      "slug": "claude-blog-2026-09-14-agentic-coding-is-straining-ci-heres-how-we-scaled-test-impa",
+      "episode": 37
+    },
+    "https://claude.com/blog/claude-for-financial-advisors": {
+      "first_seen": "2026-09-14T20:13:03+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-14T20:13:03+00:00",
+      "slug": "claude-blog-2026-09-14-claude-for-financial-advisors",
+      "episode": 38
+    },
+    "https://claude.com/blog/how-healthcare-organizations-use-claude-tag": {
+      "first_seen": "2026-09-14T20:26:22+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-14T20:26:22+00:00",
+      "slug": "claude-blog-2026-09-14-how-healthcare-organizations-use-claude-tag",
+      "episode": 39
     }
   },
   "episodes": [
@@ -6692,8 +6716,122 @@
       "episode": 36,
       "created": "2026-09-10T21:48:57+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa313b811e2168f44b7bf25_og_what-1-000-small-business-owners-taught-us-about-ai%20(2).jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-14-agentic-coding-is-straining-ci-heres-how-we-scaled-test-impa",
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "source": "claude-blog",
+      "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "subtitle": "Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.",
+      "date": "2026-09-14T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "8x as much code",
+          "href": "https://www.anthropic.com/institute/recursive-self-improvement"
+        },
+        {
+          "text": "reviewing and approving PRs as well",
+          "href": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle"
+        },
+        {
+          "text": "AI-native SDLC",
+          "href": "https://claude.com/blog/the-ai-native-sdlc-playbook"
+        },
+        {
+          "text": "CI on call using Claude Tag",
+          "href": "https://claude.com/blog/ai-ci-cd-on-call"
+        }
+      ],
+      "word_count": 1546,
+      "duration": 676.205714,
+      "bytes": 6231809,
+      "episode": 37,
+      "created": "2026-09-14T20:02:39+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa84372cad89b379e956f78_og_agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-14-claude-for-financial-advisors",
+      "url": "https://claude.com/blog/claude-for-financial-advisors",
+      "source": "claude-blog",
+      "title": "Claude for Financial Advisors",
+      "subtitle": "Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.",
+      "date": "2026-09-14T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Kitces research",
+          "href": "https://www.kitces.com/kitces-report-how-financial-planners-actually-do-financial-planning/"
+        },
+        {
+          "text": "EBRI's 2026 Retirement Confidence Survey",
+          "href": "https://www.ebri.org/docs/default-source/rcs/2026-rcs/rcs_26-fs-3_prep.pdf"
+        },
+        {
+          "text": "connectors",
+          "href": "https://claude.com/connectors"
+        }
+      ],
+      "word_count": 1151,
+      "duration": 572.604082,
+      "bytes": 5324189,
+      "episode": 38,
+      "created": "2026-09-14T20:13:03+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-14-how-healthcare-organizations-use-claude-tag",
+      "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+      "source": "claude-blog",
+      "title": "How healthcare organizations use Claude Tag",
+      "subtitle": "How Insight Health, Tennr, and Medallion are building human-agent teams with Claude Tag.",
+      "date": "2026-09-14T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Tag (beta)",
+          "href": "https://support.claude.com/en/articles/15594475-what-is-claude-tag"
+        },
+        {
+          "text": "a teammate",
+          "href": "https://academy.claude.com/courses/building-effective-human-agent-teams"
+        },
+        {
+          "text": "Business Associate Agreement",
+          "href": "https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers"
+        },
+        {
+          "text": "agent identity access model",
+          "href": "https://claude.com/blog/agent-identity-access-model"
+        },
+        {
+          "text": "security and data handling docs",
+          "href": "https://claude.com/docs/claude-tag/concepts/security-and-data?open_in_browser=1"
+        },
+        {
+          "text": "here",
+          "href": "https://claude.com/docs/claude-tag/admins/healthcare"
+        },
+        {
+          "text": "here",
+          "href": "https://support.claude.com/en/articles/15575654-claude-tag-launch-promo-for-claude-team-and-enterprise"
+        },
+        {
+          "text": "human-agent teams",
+          "href": "https://claude.com/blog/building-effective-human-agent-teams"
+        }
+      ],
+      "word_count": 1521,
+      "duration": 666.697143,
+      "bytes": 6093740,
+      "episode": 39,
+      "created": "2026-09-14T20:26:22+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82c134ca89952d04b7dd8_og_how-healthcare-organizations-use-claude-tag.jpg"
     }
   ],
-  "next_episode": 37,
+  "next_episode": 40,
   "baseline_date": "2026-08-14"
 }

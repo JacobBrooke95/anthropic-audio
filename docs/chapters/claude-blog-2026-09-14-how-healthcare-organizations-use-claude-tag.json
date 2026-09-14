@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 146.62,
+   "title": "Running incident response at Insight Health"
+  },
+  {
+   "startTime": 308.65,
+   "title": "Maintaining internal tooling at Tennr"
+  },
+  {
+   "startTime": 506.19,
+   "title": "Accumulating payer expertise at Medallion"
+  },
+  {
+   "startTime": 611.46,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 645.92,
+   "title": "Outro"
+  }
+ ]
+}

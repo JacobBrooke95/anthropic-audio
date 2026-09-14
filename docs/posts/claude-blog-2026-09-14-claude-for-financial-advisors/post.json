@@ -1,0 +1,210 @@
+{
+ "url": "https://claude.com/blog/claude-for-financial-advisors",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-14-claude-for-financial-advisors",
+ "title": "Claude for Financial Advisors",
+ "subtitle": "Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.",
+ "date": "2026-09-14T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Today we're releasing Claude for Financial Advisors, a suite of connectors and workflow skills designed to help with research, prep, and documentation tasks that occupy an advisor’s time and keep them from client-facing work.",
+   "html": "Today we&#x27;re releasing Claude for Financial Advisors, a suite of connectors and workflow skills designed to help with research, prep, and documentation tasks that occupy an advisor’s time and keep them from client-facing work."
+  },
+  {
+   "type": "paragraph",
+   "text": "Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to Kitces research . The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and document what was discussed. Meanwhile, over four in 10 American workers say they don't know who to go to for good financial or retirement planning advice, according to EBRI's 2026 Retirement Confidence Survey . Time an advisor saves on prep and paperwork can go to a current client or new household they don’t yet have capacity to serve.",
+   "html": "Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to <a href=\"https://www.kitces.com/kitces-report-how-financial-planners-actually-do-financial-planning/\">Kitces research</a>. The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and document what was discussed. Meanwhile, over four in 10 American workers say they don&#x27;t know who to go to for good financial or retirement planning advice, according to <a href=\"https://www.ebri.org/docs/default-source/rcs/2026-rcs/rcs_26-fs-3_prep.pdf\">EBRI&#x27;s 2026 Retirement Confidence Survey</a>. Time an advisor saves on prep and paperwork can go to a current client or new household they don’t yet have capacity to serve. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude for Financial Advisors includes:",
+   "html": "Claude for Financial Advisors includes: "
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Connectors, which let Claude access the custodians, asset managers, and wealth technology providers advisors rely on most, so an advisor can work with a client’s information in one place.",
+     "html": "<strong>Connectors, </strong>which<strong> </strong>let Claude access the custodians, asset managers, and wealth technology providers advisors rely on most, so an advisor can work with a client’s information in one place. "
+    },
+    {
+     "text": "Skills, which use that information to help with specific tasks, like meeting prep, portfolio analysis, and compliance checks, always in service of the advisor's own judgment and style.",
+     "html": "<strong>Skills, </strong>which use that information to help with specific tasks, like meeting prep, portfolio analysis, and compliance checks, always in service of the advisor&#x27;s own judgment and style. "
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Connectors to the tools advisors already use",
+   "html": "<strong>Connectors to the tools advisors already use</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "New connectors bring in the CRM, custodian, portfolio reporting, financial planning software, estate tools, and meeting capture that advisors rely on.",
+   "html": "New connectors bring in the CRM, custodian, portfolio reporting, financial planning software, estate tools, and meeting capture that advisors rely on. "
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Addepar brings investment intelligence into Claude, giving advisors governed access to portfolio data, analytics and workflows across public and private markets.",
+     "html": "<strong>Addepar</strong> brings investment intelligence into Claude, giving advisors governed access to portfolio data, analytics and workflows across public and private markets."
+    },
+    {
+     "text": "BlackRock brings its portfolio construction expertise, model portfolios, and institutional analytics into Claude through Advisor Center, so advisors can deliver holistic advice across public and private markets.",
+     "html": "<strong>BlackRock</strong> brings its portfolio construction expertise, model portfolios, and institutional analytics into Claude through Advisor Center, so advisors can deliver holistic advice across public and private markets."
+    },
+    {
+     "text": "Charles Schwab connects Claude to Schwab Advisor Services custodial data, including balances, positions, transactions, cost basis, alerts, and money-movement status, so advisors can review client information, see which clients need attention, and prepare for reviews.",
+     "html": "<strong>Charles Schwab</strong> connects Claude to Schwab Advisor Services custodial data, including balances, positions, transactions, cost basis, alerts, and money-movement status, so advisors can review client information, see which clients need attention, and prepare for reviews. "
+    },
+    {
+     "text": "Envestnet lets advisors summarize Tamarac accounts and households in natural language, with a financial plan snapshot from MoneyGuide.",
+     "html": "<strong>Envestnet</strong> lets advisors summarize Tamarac accounts and households in natural language, with a financial plan snapshot from MoneyGuide. "
+    },
+    {
+     "text": "iCapital brings a client's alternative investment holdings into Claude, enabling advisors to view NAV, commitments, unfunded capital, recent capital activity, and performance, while more easily connecting those insights to the client's broader portfolio.",
+     "html": "<strong>iCapital </strong>brings a client&#x27;s alternative investment holdings into Claude, enabling advisors to view NAV, commitments, unfunded capital, recent capital activity, and performance, while more easily connecting those insights to the client&#x27;s broader portfolio."
+    },
+    {
+     "text": "Orion brings portfolio reporting and Redtail CRM insights into Claude for household reviews, opportunity analysis, meeting prep and follow-up .",
+     "html": "<strong>Orion</strong> brings portfolio reporting and Redtail CRM insights into Claude for household reviews, opportunity analysis, meeting prep and follow-up<em>.  </em>"
+    },
+    {
+     "text": "SS&C Black Diamond brings portfolio, performance, holdings and rebalancing data into Claude, so advisors can review their book, spot clients out of tolerance, surface tax loss harvesting opportunities, and generate client reports, tasks and rebalance sessions with their approval.",
+     "html": "<strong>SS&amp;C Black Diamond </strong>brings portfolio, performance, holdings and rebalancing data into Claude, so advisors can review their book, spot clients out of tolerance, surface tax loss harvesting opportunities, and generate client reports, tasks and rebalance sessions with their approval."
+    },
+    {
+     "text": "Wealthbox connects Claude to client records and meeting history to power onboarding, meeting prep, and follow-up.",
+     "html": "<strong>Wealthbox </strong>connects Claude to client records and meeting history to power onboarding, meeting prep, and follow-up."
+    },
+    {
+     "text": "Wealth.com gives Claude a structured view of each client's estate and tax picture, including trust and will summaries, tax return insights, and the full balance sheet, so advisors can begin planning with an organized summary of available information instead of documents spread across multiple systems.",
+     "html": "<strong>Wealth.com</strong> gives Claude a structured view of each client&#x27;s estate and tax picture, including trust and will summaries, tax return insights, and the full balance sheet, so advisors can begin planning with an organized summary of available information instead of documents spread across multiple systems. "
+    },
+    {
+     "text": "Vanguard brings information on its model portfolios and advisor investment solutions into Claude, so advisors can draw on Vanguard's trusted research, portfolio construction, and asset allocation expertise when making decisions for clients.",
+     "html": "<strong>Vanguard </strong>brings information on its model portfolios and advisor investment solutions into Claude, so advisors can draw on Vanguard&#x27;s trusted research, portfolio construction, and asset allocation expertise when making decisions for clients."
+    },
+    {
+     "text": "Zocks , the AI meeting assistant for financial advisors, brings Claude the client intelligence it captures from every conversation, including profiles, goals, life events, and commitments.",
+     "html": "<strong>Zocks</strong>, the AI meeting assistant for financial advisors, brings Claude the client intelligence it captures from every conversation, including profiles, goals, life events, and commitments."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "These join other connectors already available in Claude, including Microsoft 365, Salesforce, DocuSign, Box, FactSet, S&P Global, Morningstar, and more.",
+   "html": "These join other <a href=\"https://claude.com/connectors\">connectors</a> already available in Claude, including Microsoft 365, Salesforce, DocuSign, Box, FactSet, S&amp;P Global, Morningstar, and more."
+  },
+  {
+   "type": "paragraph",
+   "text": "The Claude for Financial Advisors plugin, which bundles advisor skills and connectors into a single install, works with BlackRock, Charles Schwab, Addepar, Envestnet, iCapital, Orion, Wealthbox, Wealth.com and Zocks, and advisors choose which of these to connect during guided setup. Some partners also offer their own plugins: BlackRock is launching one for Advisor Center, joining existing plugins from S&P Global and LSEG.",
+   "html": "The Claude for Financial Advisors plugin, which bundles advisor skills and connectors into a single install, works with BlackRock, Charles Schwab, Addepar, Envestnet, iCapital, Orion, Wealthbox, Wealth.com and Zocks, and advisors choose which of these to connect during guided setup. Some partners also offer their own plugins: BlackRock is launching one for Advisor Center, joining existing plugins from S&amp;P Global and LSEG."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Skills built around an advisor’s day",
+   "html": "<strong>Skills built around an advisor’s day</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each skill in the Claude for Financial Advisors plugin supports a specific moment in an advisor's day, from prepping for a client meeting to explaining a drifted portfolio, and routes to tools the firm already uses to run their business. Firms can adopt these skills as is from our Claude for financial advisors skill repository, or adapt them to their own workflows, service model and house style.",
+   "html": "Each skill in the Claude for Financial Advisors plugin supports a specific moment in an advisor&#x27;s day, from prepping for a client meeting to explaining a drifted portfolio, and routes to tools the firm already uses to run their business. Firms can adopt these skills as is from our Claude for financial advisors skill repository, or adapt them to their own workflows, service model and house style."
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Advisor onboarding connects a firm's tools and runs the first meeting prep automatically, helping a new advisor be productive on day one instead of week three.",
+     "html": "<strong>Advisor onboarding</strong> connects a firm&#x27;s tools and runs the first meeting prep automatically, helping a new advisor be productive on day one instead of week three."
+    },
+    {
+     "text": "Alternative investments brief pulls a household's alternative investments from iCapital or Addepar into a meeting-ready summary, shown alongside the rest of the portfolio, instead of an advisor reconciling separate statements by hand.",
+     "html": "<strong>Alternative investments brief</strong> pulls a household&#x27;s alternative investments from iCapital or Addepar into a meeting-ready summary, shown alongside the rest of the portfolio, instead of an advisor reconciling separate statements by hand. "
+    },
+    {
+     "text": "Compliance and AI policy highlights content that may warrant additional compliance review based on user-configured criteria, assists firms in documenting review workflows, and supports AI-governance documentation processes.",
+     "html": "<strong>Compliance and AI policy</strong> highlights content that may warrant additional compliance review based on user-configured criteria, assists firms in documenting review workflows, and supports AI-governance documentation processes."
+    },
+    {
+     "text": "Estate and tax brief checks a client's estate plan against actual account titling and beneficiaries, looks back at the prior year's taxes, and can create CRM follow-up tasks, so mismatches surface for the advisor to review.",
+     "html": "<strong>Estate and tax brief</strong> checks a client&#x27;s estate plan against actual account titling and beneficiaries, looks back at the prior year&#x27;s taxes, and can create CRM follow-up tasks, so mismatches surface for the advisor to review."
+    },
+    {
+     "text": "Portfolio rebalance review flags drift and concentrated positions against a client's target allocation, and creates a first draft explanation an advisor would otherwise write from scratch.",
+     "html": "<strong>Portfolio rebalance review</strong> flags drift and concentrated positions against a client&#x27;s target allocation, and creates a first draft explanation an advisor would otherwise write from scratch."
+    },
+    {
+     "text": "Post-meeting notes and follow-up turns a transcript into a client summary, a recap email, and CRM tasks in one pass, instead of an advisor doing each by hand after the call.",
+     "html": "<strong>Post-meeting notes and follow-up</strong> turns a transcript into a client summary, a recap email, and CRM tasks in one pass, instead of an advisor doing each by hand after the call."
+    },
+    {
+     "text": "Pre-meeting prep consolidates information from connected systems (including a client's holdings, recent account activity, and open items from prior meetings) into a single brief for the advisor to review, so they can prepare for and walk in ready for a conversation about that client's specific situation instead of reconstructing context from three systems.",
+     "html": "<strong>Pre-meeting prep</strong> consolidates information from connected systems (including a client&#x27;s holdings, recent account activity, and open items from prior meetings) into a single brief for the advisor to review, so they can prepare for and walk in ready for a conversation about that client&#x27;s specific situation instead of reconstructing context from three systems."
+    },
+    {
+     "text": "Prospect intake organizes what a prospect shares into a summary, an analyst handoff, and a what-to-expect memo, so the first meeting starts with the basics already in place.",
+     "html": "<strong>Prospect intake</strong> organizes what a prospect shares into a summary, an analyst handoff, and a what-to-expect memo, so the first meeting starts with the basics already in place. "
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Together, the skills gather information, summarize it, and draft client communications across the advisor’s day. Investment recommendations, client communications, compliance determinations, and other regulated activities remain subject to human review and approval.",
+   "html": "Together, the skills gather information, summarize it, and draft client communications across the advisor’s day. Investment recommendations, client communications, compliance determinations, and other regulated activities remain subject to human review and approval."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Built for regulated professionals",
+   "html": "<strong>Built for regulated professionals</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude for Financial Advisors is designed so that the advisor stays in control, with approval required on critical tasks. Claude prepares briefs, summaries, and drafts analyses for advisor review, and stages administrative actions like CRM updates or draft client communications for the advisor's review and approval. The compliance skill screens client-facing language against the SEC Marketing Rule to flag potential issues, helps firms document review activities within their existing governance and recordkeeping processes, and includes a self-guided AI-policy workflow that helps firms document their use of AI under SEC rules. Workflow activities can be documented to assist firms in maintaining appropriate records and oversight processes.",
+   "html": "Claude for Financial Advisors is designed so that the advisor stays in control, with approval required on critical tasks. Claude prepares briefs, summaries, and drafts analyses for advisor review, and stages administrative actions like CRM updates or draft client communications for the advisor&#x27;s review and approval. The compliance skill screens client-facing language against the SEC Marketing Rule to flag potential issues, helps firms document review activities within their existing governance and recordkeeping processes, and includes a self-guided AI-policy workflow that helps firms document their use of AI under SEC rules. Workflow activities can be documented to assist firms in maintaining appropriate records and oversight processes. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "More households served well",
+   "html": "<strong>More households served well</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "When Claude handles administrative tasks like meeting prep, follow-up drafts and pipeline review, advisors can spend more of their time serving clients. Practices can expand their customer base, and offer more of the services they need, like tax, estate, insurance, and retirement planning.",
+   "html": "When Claude handles administrative tasks like meeting prep, follow-up drafts and pipeline review, advisors can spend more of their time serving clients. Practices can expand their customer base, and offer more of the services they need, like tax, estate, insurance, and retirement planning. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Here’s what customers and ecosystem partners have told us about working with Claude:",
+   "html": "Here’s what customers and ecosystem partners have told us about working with Claude: "
+  }
+ ],
+ "links": [
+  {
+   "text": "Kitces research",
+   "href": "https://www.kitces.com/kitces-report-how-financial-planners-actually-do-financial-planning/"
+  },
+  {
+   "text": "EBRI's 2026 Retirement Confidence Survey",
+   "href": "https://www.ebri.org/docs/default-source/rcs/2026-rcs/rcs_26-fs-3_prep.pdf"
+  },
+  {
+   "text": "connectors",
+   "href": "https://claude.com/connectors"
+  }
+ ],
+ "word_count": 1151,
+ "fetched_at": "2026-09-14T20:02:40+00:00"
+}

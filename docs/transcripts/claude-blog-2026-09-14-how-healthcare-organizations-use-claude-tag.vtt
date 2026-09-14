@@ -1,0 +1,205 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.335
+This is Anthropic, Read Aloud. Today: How healthcare organizations use Claude Tag.
+
+2
+00:00:08.635 --> 00:00:11.193
+How healthcare organizations use Claude Tag.
+
+3
+00:00:11.643 --> 00:00:16.823
+How Insight Health, Tennr, and Medallion are building human-agent teams with Claude Tag.
+
+4
+00:00:17.273 --> 00:00:21.455
+From Claude Blog, published September 14, 2026.
+
+5
+00:00:22.455 --> 00:00:34.956
+Healthcare organizations are using Claude Tag (beta), which brings Claude into Slack as a teammate, to help them triage production alerts, maintain internal tools, and answer questions about payer rules.
+
+6
+00:00:35.076 --> 00:00:55.100
+While Claude Tag isn't yet covered by Anthropic's Business Associate Agreement, several healthcare organizations are using it today in channels and with connectors that never touch protected health information (PHI). Mention @Claude in a channel and it reads the thread, uses the tools you've connected, does the work, and reports back.
+
+7
+00:00:55.220 --> 00:01:03.771
+It remembers what happens in each channel, so long-running work never needs re-explaining, and it can watch a channel and step in on its own when you let it.
+
+8
+00:01:04.221 --> 00:01:13.232
+Admins decide where Claude Tag works and what it can reach, so healthcare teams can keep Claude Tag out of channels and systems that hold PHI:
+
+9
+00:01:13.682 --> 00:01:21.682
+Claude Tag can be off by default and enabled only in approved channels, with DMs disabled and connectors scoped per channel.
+
+10
+00:01:21.922 --> 00:01:35.868
+Claude Tag doesn't read all of Slack to instead, it only sees what a workspace member sees. While it can read the public channels of the workspace and search them by keyword, it doesn’t have access to private channels it hasn’t been invited to.
+
+11
+00:01:36.108 --> 00:01:59.462
+Access bundles let a team connect data sources like its codebase and issue tracker in one channel while the EHR, clinical systems, and patient communications are inaccessible. Learn more about Claude Tag’s agent identity access model and its full architecture in the security and data handling docs, and you can read more about best practices for healthcare organizations, here.
+
+12
+00:01:59.912 --> 00:02:19.069
+Enterprise organizations that activate Claude Tag and link it to GitHub receive 25000 dollarsin Claude Tag credit (2500 dollarsfor Team organizations with 10+ seats); note that these credits expire October 1, 2026. See the credit details, here.
+
+13
+00:02:19.519 --> 00:02:25.824
+Here’s how Insight Health, Tennr, and Medallion are using Claude Tag to build human-agent teams today.
+
+14
+00:02:26.624 --> 00:02:29.010
+Running incident response at Insight Health.
+
+15
+00:02:29.460 --> 00:02:51.451
+Insight Health builds MagicDocs, an A I referral coordinator for specialty medical practices. MagicDocs reads inbound patient documents (faxes, referrals, prior-authorization requests, labs, and medical records), extracts the clinical details, matches each document to the right patient, and writes structured data into the EHR.
+
+16
+00:02:51.571 --> 00:02:56.904
+The company serves 1100+ practices across 56 specialties.
+
+17
+00:02:57.354 --> 00:03:06.719
+As Insight Health's customer base has grown, production alert triage has eaten into time its lean engineering team would rather spend on higher-value work.
+
+18
+00:03:06.839 --> 00:03:22.323
+So for the past three months, the company has run Claude Tag in its PHI-free engineering and support channels, where it investigates production alerts, files and de-duplicates tickets, reviews P Rs, and carries context from one thread to the next.
+
+19
+00:03:22.773 --> 00:03:36.358
+In their high-volume production alerts channel, they’ve paired Claude Tag with a second agent, Zeus (built by Insight Health on the Claude Agent S D K), to take an incident from first notification to a tested fix.
+
+20
+00:03:36.478 --> 00:03:54.972
+The two agents have deliberately different access: Claude Tag sees the codebase and Linear, so it knows the code patterns and ticket history; Zeus runs on the company's BAA-covered Claude A P I organization, so it can query production data, masking PHI before the data reaches Slack.
+
+21
+00:03:55.092 --> 00:04:15.466
+When an alert arrives, the agents investigate it to querying production data, checking it against the code and recent deploys, and comparing it to past tickets to all while reporting on their progress in the Slack thread. Once they identify the root cause, they open a draft P R and monitor the tests, and finally an engineer reviews and merges.
+
+22
+00:04:15.586 --> 00:04:28.634
+Claude Tag's channel memory is valuable here: it recognizes a new complaint as a known issue with a fix pending, recalls investigations from weeks earlier, and follows standing instructions unprompted.
+
+23
+00:04:29.084 --> 00:04:37.976
+"Everyone in the Slack channel sees both agents' reasoning and how they divide the work," said Saran Siva, Insight Health's co-founder and C T O.
+
+24
+00:04:38.096 --> 00:04:55.286
+"That transparency builds trust and teaches the team how to get the most value out of the agents." Since Claude Tag went live, 97 percent of alerts in Insight Health's critical alert channel have closed without an engineer having to step in, freeing the team to focus on core product work.
+
+25
+00:04:55.736 --> 00:05:07.853
+Beyond incidents, the Insight Health team uses Claude Tag for hiring, vendor negotiation prep, contract reviews (checking terms against call transcripts), and general business operations.
+
+26
+00:05:08.653 --> 00:05:10.744
+Maintaining internal tooling at Tennr.
+
+27
+00:05:11.194 --> 00:05:32.524
+Tennr is a patient orchestration platform that helps providers get patients into the right care setting faster by automating the intake, documentation, authorization, and scheduling work that otherwise stalls care. Claude Tag lives in its internal tooling, and helps non-technical teams set up and maintain custom internal applications.
+
+28
+00:05:32.974 --> 00:05:56.697
+At fast-growing companies like Tennr, internal tools die as fast as they are built because nobody has the bandwidth to maintain them. In July 2026, Tennr took a different approach as it built internal tools. It launched recruiting.tennr.com, an internal offer presentation portal built in Claude Code, and made Claude Tag its primary maintainer through a dedicated Slack channel.
+
+29
+00:05:56.817 --> 00:06:15.645
+Now the people who actually use the tool (recruiters, People team members, hiring managers, and RevOps) @-mention Claude with requests in plain language English, and Claude ships the code change, deploys it, and reports back. They can iterate on the tool directly, without pulling engineers off product work.
+
+30
+00:06:16.095 --> 00:06:37.068
+In roughly a month, the team shipped 15+ tickets this way: a benefits deep-dive section built from an uploaded P D F one-pager, a "Sign your offer here" banner linking to Dropbox Sign, target bonus fields, and self-service admin controls. When a publicly exposed copy A P I was flagged, Claude locked it down the same day.
+
+31
+00:06:37.188 --> 00:06:55.214
+When an Ashby import bug kept resetting equity on live offers, Claude fixed the bug and propagated the corrected values. When a separate bug briefly showed candidates variable comp incorrectly, Claude posted a channel-wide notice with the affected window and remediation without being asked.
+
+32
+00:06:55.334 --> 00:07:00.326
+It also wrote the onboarding documentation and handles permission management for the tool.
+
+33
+00:07:00.776 --> 00:07:15.137
+The team taught Claude its own ops conventions in-channel, including an emoji status legend, and a ticket format with numbered tickets, requester, commit link, screenshots, and a live test link. Claude adopted them going forward.
+
+34
+00:07:15.257 --> 00:07:33.232
+Recruiters were filing what amounted to engineering tickets in natural language, sometimes just a screenshot, and getting production changes back within the hour. "Claude Tag is what makes internal tooling viable at all," said Abe Griffiths, Tennr's VP of Business Operations and Strategy.
+
+35
+00:07:33.352 --> 00:07:42.802
+"With Claude as the steward of the tool via a Slack channel, the people who actually use the tool can iterate on it directly, without pulling engineers off product work."
+
+36
+00:07:43.252 --> 00:07:59.191
+Rollout was quick because the groundwork existed. Tennr only allows PHI in a limited set of private channels, so adding Claude Tag broadly didn't introduce a new data problem. What made Claude Tag easy to say yes to was per-channel scoping.
+
+37
+00:07:59.641 --> 00:08:17.082
+"In the offer tool channel, we want Claude to be proactive: fix problems, modify code, skip P R reviews, and ship," Griffiths said. "That posture would obviously be wrong for, say, a Product or Eng channel where Claude's role is closer to info gathering or keeping us organized.
+
+38
+00:08:17.202 --> 00:08:25.388
+Being able to draw those lines channel by channel meant we could give Claude real autonomy where it's low risk without granting it everywhere."
+
+39
+00:08:26.188 --> 00:08:28.655
+Accumulating payer expertise at Medallion.
+
+40
+00:08:29.105 --> 00:08:35.631
+Medallion automates provider credentialing, licensing, and payer enrollment for healthcare organizations.
+
+41
+00:08:35.751 --> 00:08:53.948
+Much of that work depends on arcane, undocumented rules: which payers require a minimum number of credentialed providers before a group can enroll, state-specific regulations, and dozens of similar questions engineers need answered before they can codify a process into the product.
+
+42
+00:08:54.068 --> 00:09:03.954
+Historically, those answers lived with a small group of in-house healthcare domain experts, creating an ongoing human bottleneck for core product development decisions.
+
+43
+00:09:04.404 --> 00:09:23.165
+Claude Tag now sits in that loop and breaks the knowledge silo. When an engineer asks a payer-rules question in Slack, Claude Tag answers from past expert responses, historical data, and unstructured internal resources. The expertise accumulates in the channel instead of in one person's head.
+
+44
+00:09:23.615 --> 00:09:34.056
+"When it isn't confident, it tags in the right expert, and their response becomes the basis for future answers on related topics," said C T O Armaan Sarkar.
+
+45
+00:09:34.506 --> 00:09:52.671
+What made them comfortable rolling out Claude Tag? Sarkar points to picking the right PHI-free workstreams, expert review, and automated validation. Claude Tag operates at the policy level: the questions are about payer rules and process, not individual patients or providers.
+
+46
+00:09:52.791 --> 00:10:10.661
+It doesn't answer alone: experts provide oversight and corrections, and every exchange happens in a Slack channel anyone at the company can audit. And the outputs get checked downstream, since Medallion's systems use these policies to take actions that are audited and validated on their own.
+
+47
+00:10:11.461 --> 00:10:12.473
+Getting started.
+
+48
+00:10:12.923 --> 00:10:26.726
+The teams above all started in the same place: engineering, product, ops, or recruiting channels, with one or two connectors, working in open threads rather than DMs so the whole team could review and pick up context.
+
+49
+00:10:27.176 --> 00:10:42.942
+Review the Claude Tag best practices for healthcare organizations, here, then start with one channel. Turn Claude Tag on for an alert or support-engineering channel, connect GitHub, and let the team work with it for two weeks before widening the allowlist.
+
+50
+00:10:43.392 --> 00:10:44.925
+Get started with Claude Tag.
+
+51
+00:10:45.925 --> 00:11:02.701
+That was How healthcare organizations use Claude Tag, from Claude Blog, published September 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

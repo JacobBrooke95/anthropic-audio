@@ -1,0 +1,49 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 34.38,
+   "title": "A I is evolving CI"
+  },
+  {
+   "startTime": 169.5,
+   "title": "The test impact analysis architecture"
+  },
+  {
+   "startTime": 287.23,
+   "title": "The bumpy road to redesign"
+  },
+  {
+   "startTime": 296.32,
+   "title": "Patch 1: A bigger machine"
+  },
+  {
+   "startTime": 319.6,
+   "title": "Patch 2: Sharding"
+  },
+  {
+   "startTime": 394.07,
+   "title": "Patch 3: Daily restarts"
+  },
+  {
+   "startTime": 460.83,
+   "title": "The redesign"
+  },
+  {
+   "startTime": 537.53,
+   "title": "What I would do differently"
+  },
+  {
+   "startTime": 644.08,
+   "title": "Additional CI resources"
+  },
+  {
+   "startTime": 651.97,
+   "title": "Outro"
+  }
+ ]
+}

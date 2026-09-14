@@ -1,0 +1,257 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:11.265
+This is Anthropic, Read Aloud. Today: Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic.
+
+2
+00:00:12.565 --> 00:00:18.657
+Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic.
+
+3
+00:00:19.107 --> 00:00:28.746
+Our CI job volume increased 25 x over 6 months. We patched our test selection service three times before finding a sustainable solution.
+
+4
+00:00:29.196 --> 00:00:33.377
+From Claude Blog, published September 14, 2026.
+
+5
+00:00:34.377 --> 00:00:35.846
+A I is evolving CI.
+
+6
+00:00:36.296 --> 00:00:52.245
+Anthropic engineers on average ship 8 x as much code per quarter as they did from 2021 to 2025. Claude authors 80 percent of that code and it also plays a large role in reviewing and approving P Rs as well.
+
+7
+00:00:52.695 --> 00:01:00.695
+Figure 1: Writing code is no longer the constraint, and once P R review gets accelerated, CI starts feeling the pressure.
+
+8
+00:01:01.145 --> 00:01:19.258
+On top of that, the amount of tests across our codebase grew 10 x and we added a nominal amount of engineers. This all led to a 25 x increase in CI jobs over a six month period (in case you are trying to do the math, not every test runs on every P R as I will explain).
+
+9
+00:01:19.708 --> 00:01:40.985
+This threatened to overload our test impact analysis service several times. To avoid becoming the next bottleneck, we blew up the whole thing and reimagined what the service's architecture looks like. But getting there was a bumpy path that started with three quick fixes, which lasted 70 days, then 29 days, and then less than a day respectively.
+
+10
+00:01:41.435 --> 00:02:01.119
+Scaling CI is a challenge more engineering teams are likely to soon face as agents continue to accelerate code generation and review. I anticipate horizontally scaled test selection architecture will become industry standard as teams running agents create both more P Rs and more tests.
+
+11
+00:02:01.569 --> 00:02:24.426
+In this article, I’ll discuss how we scaled our test impact analysis service at Anthropic and the lesson I learned the hard way: always plan for the exponential. The specific scaling techniques to buying bigger machines, parallelizing processes, or restarting the service (yeah, this one still works surprisingly well) to are common and not the insights to take from this article.
+
+12
+00:02:24.876 --> 00:02:41.022
+The point is that each of these techniques bought a fraction of the time they did a year ago. On the other hand, overhauling and completely redesigning a service also takes a fraction of the time and is much more sustainable now that writing code is no longer the bottleneck.
+
+13
+00:02:41.472 --> 00:02:48.704
+The more you can anticipate this strain and plan how your architecture will evolve with it, the less time you will waste on half-measures.
+
+14
+00:02:49.504 --> 00:02:51.975
+The test impact analysis architecture.
+
+15
+00:02:52.425 --> 00:03:05.213
+Many of my peers work at organizations where every test is still run on every change. This works up to a point, but doesn’t scale: CI gates get increasingly long, expensive, and untrustworthy.
+
+16
+00:03:05.663 --> 00:03:19.836
+Additionally, humans are great at determining which test failures don’t apply to them while agents will require more context and direction. When they get a specific set of valid tests, they can self-verify and iterate more effectively.
+
+17
+00:03:20.286 --> 00:03:37.503
+At Anthropic, we built a deterministic test impact analysis or test selection service that determines which tests run on each change based on past performance and package relevance. This isn’t an uncommon practice, and there is a category of vendors with offerings in this area.
+
+18
+00:03:37.953 --> 00:03:41.952
+Our service depends on two deterministic components staying in sync:
+
+19
+00:03:42.402 --> 00:03:46.022
+A “listener” records the test results from every CI run.
+
+20
+00:03:46.262 --> 00:03:52.833
+A “selector” reads the test result history and determines which tests run on which opened P Rs.
+
+21
+00:03:53.283 --> 00:04:14.075
+This is effective, but when there are multiple CI jobs running every second, the listener starts to increasingly fall behind the P R queue. For an A I-native SDLC, a small lag can have a big impact. For example, 20 minutes of listener lag can translate into tens of thousands of test updates not being applied to the selector.
+
+22
+00:04:14.525 --> 00:04:21.926
+If a bad change gets merged, then a test will start failing for everyone else causing multiple unnecessary investigations.
+
+23
+00:04:22.166 --> 00:04:26.473
+If a dependency starts flaking, then flaky reds start blocking merges.
+
+24
+00:04:26.713 --> 00:04:33.129
+If a test gets fixed or a new one gets added, it won't run until the listener catches up risking a regression.
+
+25
+00:04:33.579 --> 00:04:46.432
+All of this ran as a single process because keeping a running history per test meant a single writer needed to apply the results. This v0 design prevented us from being able to horizontally shard.
+
+26
+00:04:47.232 --> 00:04:48.865
+The bumpy road to redesign.
+
+27
+00:04:49.315 --> 00:04:55.515
+By October of last year the service was already showing signs of strain, and we got paged two days straight.
+
+28
+00:04:56.315 --> 00:04:58.025
+Patch 1: A bigger machine.
+
+29
+00:04:58.475 --> 00:05:03.838
+The first fix was easy: we doubled the cores running the service. We also knew it would be fleeting.
+
+30
+00:05:04.288 --> 00:05:08.270
+Figure 2: Conversation recreated. Based on real events.
+
+31
+00:05:08.720 --> 00:05:18.797
+Even when the trend line was clear, ownership was murky. No one wanted to own another piece of infrastructure. Also, the CI team had bigger fish to fry.
+
+32
+00:05:19.597 --> 00:05:20.960
+Patch 2: Sharding.
+
+33
+00:05:21.410 --> 00:05:44.211
+At this point we were getting paged pretty frequently by the lag building up in the listener of this service. To drive some long-term fixes, I started a long-running session in an internal version of Claude Tag dedicated to monitoring the service. Anytime the listener lag would get more than 50000 jobs behind, Claude would ping me and resume our conversation on next steps.
+
+34
+00:05:44.661 --> 00:05:55.797
+This would go on for months, and it was helpful not having to constantly remind it of past efforts or context. Claude often argued for an overhaul, but we usually settled on another patch.
+
+35
+00:05:56.247 --> 00:06:02.178
+Figure 3: Verbatim conversation on an internal version of Claude Tag with some redactions.
+
+36
+00:06:02.628 --> 00:06:10.905
+In February, the exponential growth of CI jobs started to strain the service once again. This time, we decided to parallelize.
+
+37
+00:06:11.355 --> 00:06:27.462
+The listener didn’t need a single writer to order test results correctly, it needed a single writer per package to order the test results for each section of our codebase correctly. Claude generated the code for us to split each package’s state into a shard with its own worker.
+
+38
+00:06:27.912 --> 00:06:33.265
+We also knew this fix would be fleeting, but we didn’t realize it would only buy us 29 days.
+
+39
+00:06:34.065 --> 00:06:35.842
+Patch 3: Daily restarts.
+
+40
+00:06:36.292 --> 00:06:43.856
+In March, the process reached its memory limit by mid-afternoon on most weekdays. Again, we looked for quick fixes but:
+
+41
+00:06:44.306 --> 00:06:45.743
+We only found four bugs.
+
+42
+00:06:45.983 --> 00:06:53.970
+Swapping the memory allocator as a quick-hack did nothing. We were trying to optimize garbage collection but that wasn’t really the solution.
+
+43
+00:06:54.210 --> 00:06:58.660
+We didn’t want to risk memory profiling a singleton already under a heavy load.
+
+44
+00:06:58.900 --> 00:07:00.821
+Restarting bought us less than a day.
+
+45
+00:07:01.271 --> 00:07:14.438
+We also discovered daily restarts were resulting in the service gradually falling further behind. When it fell behind for more than an hour, which happened several times, a ton of job results weren’t recorded by the listener.
+
+46
+00:07:14.888 --> 00:07:32.957
+To be clear, this doesn’t mean CI never ran on those P Rs, or that untested code was pushed to production. What it meant was that the listener didn’t pick up some results, which meant our test-selection component was using stale data to decide what to run and what not to on P Rs.
+
+47
+00:07:33.077 --> 00:07:40.027
+Mostly this translated into us running tests that were already super flaky or widespread-failing across the board.
+
+48
+00:07:40.827 --> 00:07:41.779
+The redesign.
+
+49
+00:07:42.229 --> 00:07:59.305
+It was (past) time to redesign the service, and we took Claude’s advice: we gave the test selection service a database, or an in-memory data store to be exact. By doing so, we effectively offloaded a huge chunk of in-memory processing that the singleton used to do.
+
+50
+00:07:59.755 --> 00:08:20.807
+Now, any listener worker can process any result, append it to a journal in the in-memory store, and move on without holding anything in memory - stateless and hence, horizontally scalable. A small separate consumer process rolls the journal up into per-test history every few seconds, and the selector can look up relevant result history quickly.
+
+51
+00:08:21.257 --> 00:08:35.395
+This distributed architecture is more expensive to run, but it is much easier to scale and memory profile than a shaky singleton.This project took three weeks for a single engineer. A year ago it would have been closer to a quarter.
+
+52
+00:08:35.845 --> 00:08:47.064
+Figure 4: Queued, unprocessed job-result events, hourly max. Before: a backlog built up most days and grew week over week. After cutover and tuning: flat.
+
+53
+00:08:47.514 --> 00:08:56.730
+There was some fine tuning (sizing the journal and number of workers) which Claude did largely autonomously, but our service has remained stable since.
+
+54
+00:08:57.530 --> 00:08:58.839
+What I would do differently.
+
+55
+00:08:59.289 --> 00:09:06.888
+If I was sent back in time to October 2025, I would have approached this and other projects differently with what I now know.
+
+56
+00:09:07.338 --> 00:09:21.362
+The first difference is that I would account for the A I exponential. CI jobs increase exponentially as the average number of agents per engineer rises and as accelerated P R approval becomes more sophisticated.
+
+57
+00:09:21.812 --> 00:09:37.875
+This has changed the shape of P Rs over time at Anthropic as Claude prefers smaller, more granular P Rs (another good reason not to run every test against every P R). This has translated into more CI jobs in a given day.
+
+58
+00:09:37.995 --> 00:09:49.941
+Also, the activity level floor is raised as agents push overnight and on weekends, but it remains bursty as human engineers still drive and approve a significant amount of P Rs.
+
+59
+00:09:50.391 --> 00:10:12.783
+My advice to engineering teams is, whether you build or buy, assume your architecture will be at a 25 x load within two quarters. Over-engineering as a concept is starting to slightly fade away, or at least the bar is moving much higher. You can now start to account for 10 to 20 x the perceived scale in your v0 designs as long your budget allows for it.
+
+60
+00:10:13.233 --> 00:10:29.469
+Instrument your services to act as Claude’s eyes and ears. It allows Claude to hill-climb and fix problems incrementally much better and faster than we could manually. In particular, ensure that the same number of CI jobs coming in equals the same going out.
+
+61
+00:10:29.919 --> 00:10:43.278
+Keep state out of the process from the start. I’d also avoid running any critical service as a single instance unless you can measure it and any canary changes. CI is evolving too quickly to proceed any other way.
+
+62
+00:10:44.078 --> 00:10:45.790
+Additional CI resources.
+
+63
+00:10:46.240 --> 00:10:50.972
+I’ve also written how we accelerated CI on call using Claude Tag (beta).
+
+64
+00:10:51.972 --> 00:11:12.225
+That was Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic, from Claude Blog, published September 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

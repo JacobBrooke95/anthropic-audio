@@ -1,0 +1,185 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.442
+This is Anthropic, Read Aloud. Today: Claude for Financial Advisors.
+
+2
+00:00:07.742 --> 00:00:09.592
+Claude for Financial Advisors.
+
+3
+00:00:10.042 --> 00:00:22.814
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.
+
+4
+00:00:23.264 --> 00:00:27.445
+From Claude Blog, published September 14, 2026.
+
+5
+00:00:28.445 --> 00:00:42.745
+Today we're releasing Claude for Financial Advisors, a suite of connectors and workflow skills designed to help with research, prep, and documentation tasks that occupy an advisor’s time and keep them from client-facing work.
+
+6
+00:00:43.195 --> 00:01:01.606
+Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to Kitces research. The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and document what was discussed.
+
+7
+00:01:01.726 --> 00:01:22.174
+Meanwhile, over four in 10 American workers say they don't know who to go to for good financial or retirement planning advice, according to EBRI's 2026 Retirement Confidence Survey. Time an advisor saves on prep and paperwork can go to a current client or new household they don’t yet have capacity to serve.
+
+8
+00:01:22.624 --> 00:01:24.925
+Claude for Financial Advisors includes:
+
+9
+00:01:25.375 --> 00:01:37.428
+Connectors, which let Claude access the custodians, asset managers, and wealth technology providers advisors rely on most, so an advisor can work with a client’s information in one place.
+
+10
+00:01:37.668 --> 00:01:49.316
+Skills, which use that information to help with specific tasks, like meeting prep, portfolio analysis, and compliance checks, always in service of the advisor's own judgment and style.
+
+11
+00:01:50.116 --> 00:01:52.864
+Connectors to the tools advisors already use.
+
+12
+00:01:53.314 --> 00:02:03.532
+New connectors bring in the CRM, custodian, portfolio reporting, financial planning software, estate tools, and meeting capture that advisors rely on.
+
+13
+00:02:03.982 --> 00:02:14.264
+Addepar brings investment intelligence into Claude, giving advisors governed access to portfolio data, analytics and workflows across public and private markets.
+
+14
+00:02:14.504 --> 00:02:28.029
+BlackRock brings its portfolio construction expertise, model portfolios, and institutional analytics into Claude through Advisor Center, so advisors can deliver holistic advice across public and private markets.
+
+15
+00:02:28.269 --> 00:02:45.971
+Charles Schwab connects Claude to Schwab Advisor Services custodial data, including balances, positions, transactions, cost basis, alerts, and money-movement status, so advisors can review client information, see which clients need attention, and prepare for reviews.
+
+16
+00:02:46.211 --> 00:02:54.698
+Envestnet lets advisors summarize Tamarac accounts and households in natural language, with a financial plan snapshot from MoneyGuide.
+
+17
+00:02:54.938 --> 00:03:11.413
+iCapital brings a client's alternative investment holdings into Claude, enabling advisors to view NAV, commitments, unfunded capital, recent capital activity, and performance, while more easily connecting those insights to the client's broader portfolio.
+
+18
+00:03:11.653 --> 00:03:21.466
+Orion brings portfolio reporting and Redtail CRM insights into Claude for household reviews, opportunity analysis, meeting prep and follow-up.
+
+19
+00:03:21.706 --> 00:03:40.088
+SS and C Black Diamond brings portfolio, performance, holdings and rebalancing data into Claude, so advisors can review their book, spot clients out of tolerance, surface tax loss harvesting opportunities, and generate client reports, tasks and rebalance sessions with their approval.
+
+20
+00:03:40.328 --> 00:03:46.767
+Wealthbox connects Claude to client records and meeting history to power onboarding, meeting prep, and follow-up.
+
+21
+00:03:47.007 --> 00:04:05.865
+Wealth.com gives Claude a structured view of each client's estate and tax picture, including trust and will summaries, tax return insights, and the full balance sheet, so advisors can begin planning with an organized summary of available information instead of documents spread across multiple systems.
+
+22
+00:04:06.105 --> 00:04:21.871
+Vanguard brings information on its model portfolios and advisor investment solutions into Claude, so advisors can draw on Vanguard's trusted research, portfolio construction, and asset allocation expertise when making decisions for clients.
+
+23
+00:04:22.111 --> 00:04:33.993
+Zocks, the A I meeting assistant for financial advisors, brings Claude the client intelligence it captures from every conversation, including profiles, goals, life events, and commitments.
+
+24
+00:04:34.443 --> 00:04:46.482
+These join other connectors already available in Claude, including Microsoft 365, Salesforce, DocuSign, Box, FactSet, S and P Global, Morningstar, and more.
+
+25
+00:04:46.932 --> 00:05:05.385
+The Claude for Financial Advisors plugin, which bundles advisor skills and connectors into a single install, works with BlackRock, Charles Schwab, Addepar, Envestnet, iCapital, Orion, Wealthbox, Wealth.com and Zocks, and advisors choose which of these to connect during guided setup.
+
+26
+00:05:05.505 --> 00:05:15.336
+Some partners also offer their own plugins: BlackRock is launching one for Advisor Center, joining existing plugins from S and P Global and LSEG.
+
+27
+00:05:16.136 --> 00:05:18.146
+Skills built around an advisor’s day.
+
+28
+00:05:18.596 --> 00:05:33.060
+Each skill in the Claude for Financial Advisors plugin supports a specific moment in an advisor's day, from prepping for a client meeting to explaining a drifted portfolio, and routes to tools the firm already uses to run their business.
+
+29
+00:05:33.180 --> 00:05:43.064
+Firms can adopt these skills as is from our Claude for financial advisors skill repository, or adapt them to their own workflows, service model and house style.
+
+30
+00:05:43.514 --> 00:05:53.045
+Advisor onboarding connects a firm's tools and runs the first meeting prep automatically, helping a new advisor be productive on day one instead of week three.
+
+31
+00:05:53.285 --> 00:06:08.211
+Alternative investments brief pulls a household's alternative investments from iCapital or Addepar into a meeting-ready summary, shown alongside the rest of the portfolio, instead of an advisor reconciling separate statements by hand.
+
+32
+00:06:08.451 --> 00:06:23.149
+Compliance and A I policy highlights content that may warrant additional compliance review based on user-configured criteria, assists firms in documenting review workflows, and supports A I-governance documentation processes.
+
+33
+00:06:23.389 --> 00:06:37.958
+Estate and tax brief checks a client's estate plan against actual account titling and beneficiaries, looks back at the prior year's taxes, and can create CRM follow-up tasks, so mismatches surface for the advisor to review.
+
+34
+00:06:38.198 --> 00:06:50.460
+Portfolio rebalance review flags drift and concentrated positions against a client's target allocation, and creates a first draft explanation an advisor would otherwise write from scratch.
+
+35
+00:06:50.700 --> 00:07:02.235
+Post-meeting notes and follow-up turns a transcript into a client summary, a recap email, and CRM tasks in one pass, instead of an advisor doing each by hand after the call.
+
+36
+00:07:02.475 --> 00:07:24.762
+Pre-meeting prep consolidates information from connected systems (including a client's holdings, recent account activity, and open items from prior meetings) into a single brief for the advisor to review, so they can prepare for and walk in ready for a conversation about that client's specific situation instead of reconstructing context from three systems.
+
+37
+00:07:25.002 --> 00:07:35.583
+Prospect intake organizes what a prospect shares into a summary, an analyst handoff, and a what-to-expect memo, so the first meeting starts with the basics already in place.
+
+38
+00:07:36.033 --> 00:07:53.235
+Together, the skills gather information, summarize it, and draft client communications across the advisor’s day. Investment recommendations, client communications, compliance determinations, and other regulated activities remain subject to human review and approval.
+
+39
+00:07:54.035 --> 00:07:55.845
+Built for regulated professionals.
+
+40
+00:07:56.295 --> 00:08:17.369
+Claude for Financial Advisors is designed so that the advisor stays in control, with approval required on critical tasks. Claude prepares briefs, summaries, and drafts analyses for advisor review, and stages administrative actions like CRM updates or draft client communications for the advisor's review and approval.
+
+41
+00:08:17.489 --> 00:08:38.331
+The compliance skill screens client-facing language against the SEC Marketing Rule to flag potential issues, helps firms document review activities within their existing governance and recordkeeping processes, and includes a self-guided A I-policy workflow that helps firms document their use of A I under SEC rules.
+
+42
+00:08:38.451 --> 00:08:45.512
+Workflow activities can be documented to assist firms in maintaining appropriate records and oversight processes.
+
+43
+00:08:46.312 --> 00:08:47.798
+More households served well.
+
+44
+00:08:48.249 --> 00:09:06.285
+When Claude handles administrative tasks like meeting prep, follow-up drafts and pipeline review, advisors can spend more of their time serving clients. Practices can expand their customer base, and offer more of the services they need, like tax, estate, insurance, and retirement planning.
+
+45
+00:09:06.735 --> 00:09:11.582
+Here’s what customers and ecosystem partners have told us about working with Claude:
+
+46
+00:09:12.582 --> 00:09:28.608
+That was Claude for Financial Advisors, from Claude Blog, published September 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
