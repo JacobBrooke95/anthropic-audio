@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.109
+This is Anthropic, Read Aloud. Today: Deploying A I from pilot to production.
+
+2
+00:00:08.409 --> 00:00:10.622
+Deploying A I from pilot to production.
+
+3
+00:00:11.072 --> 00:00:22.677
+This guide by Anthropic and Accenture shares seven considerations for taking enterprise A I from pilot to production, and the decisions leadership needs to make before the program advances.
+
+4
+00:00:23.127 --> 00:00:27.308
+From Claude Blog, published September 14, 2026.
+
+5
+00:00:28.308 --> 00:00:47.694
+A successful A I pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s Pulse of Change report (July 2026), only 23 percent of C-suite leaders report having achieved sustained, enterprise-wide impact with A I initiatives.
+
+6
+00:00:48.144 --> 00:01:10.028
+Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. This makes pilots unrepresentative of the conditions under which A I programs run in production.
+
+7
+00:01:10.478 --> 00:01:32.942
+Accenture’s September 2026 Tokenomics research found that 42 percent of organizations rely on shared IT and finance accountability, with no single owner responsible for A I costs and outcomes. Without that owner, it becomes difficult to measure success, make tradeoffs, and maintain accountability as an A I program scales.
+
+8
+00:01:33.392 --> 00:01:52.443
+To help CIOs and technical leaders get A I programs from pilot into production, we worked with Accenture to put together a practical blueprint. It draws on what we’ve observed in enterprise deployments built on Claude and what Accenture has seen in the implementations it has guided across industries and geographies.
+
+9
+00:01:52.893 --> 00:01:54.109
+In this guide, we share:
+
+10
+00:01:54.559 --> 00:02:02.340
+Seven considerations to be settled in chronological order: before the pilot begins, during the pilot phase, and in production.
+
+11
+00:02:02.580 --> 00:02:13.342
+At the end of each consideration, “work out” questions for the cross-functional team and the ownership decisions a CIO or business leader makes before the program advances.
+
+12
+00:02:13.582 --> 00:02:25.192
+A four-part definition of the job the A I will do (user, task, output, and a measurable quality threshold), and a lightweight total cost of ownership model to build before the pilot.
+
+13
+00:02:25.432 --> 00:02:36.895
+A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier.
+
+14
+00:02:37.135 --> 00:02:43.283
+A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision.
+
+15
+00:02:43.733 --> 00:02:44.660
+Read the guide.
+
+16
+00:02:45.660 --> 00:03:02.423
+That was Deploying A I from pilot to production, from Claude Blog, published September 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

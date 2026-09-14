@@ -1,0 +1,85 @@
+{
+ "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-14-deploying-ai-from-pilot-to-production",
+ "title": "Deploying AI from pilot to production",
+ "subtitle": "This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.",
+ "date": "2026-09-14T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "A successful AI pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s Pulse of Change report (July 2026), only 23% of C-suite leaders report having achieved sustained, enterprise-wide impact with AI initiatives.",
+   "html": "A successful AI pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s <a href=\"https://www.accenture.com/en/insights/pulse-of-change\">Pulse of Change report</a> (July 2026), only 23% of C-suite leaders report having achieved sustained, enterprise-wide impact with AI initiatives. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. This makes pilots unrepresentative of the conditions under which AI programs run in production.",
+   "html": "Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. This makes pilots unrepresentative of the conditions under which AI programs run in production."
+  },
+  {
+   "type": "paragraph",
+   "text": "Accenture’s September 2026 Tokenomics research found that 42% of organizations rely on shared IT and finance accountability, with no single owner responsible for AI costs and outcomes. Without that owner, it becomes difficult to measure success, make tradeoffs, and maintain accountability as an AI program scales.",
+   "html": "Accenture’s September <a href=\"https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics\">2026 Tokenomics research</a> found that 42% of organizations rely on shared IT and finance accountability, with no single owner responsible for AI costs and outcomes. Without that owner, it becomes difficult to measure success, make tradeoffs, and maintain accountability as an AI program scales."
+  },
+  {
+   "type": "paragraph",
+   "text": "To help CIOs and technical leaders get AI programs from pilot into production, we worked with Accenture to put together a practical blueprint. It draws on what we’ve observed in enterprise deployments built on Claude and what Accenture has seen in the implementations it has guided across industries and geographies.",
+   "html": "To help CIOs and technical leaders get AI programs from pilot into production, we worked with Accenture to put together a practical blueprint. It draws on what we’ve observed in enterprise deployments built on Claude and what Accenture has seen in the implementations it has guided across industries and geographies."
+  },
+  {
+   "type": "paragraph",
+   "text": "In this guide, we share:",
+   "html": "In this guide, we share:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Seven considerations to be settled in chronological order: before the pilot begins, during the pilot phase, and in production",
+     "html": "Seven considerations to be settled in chronological order: before the pilot begins, during the pilot phase, and in production"
+    },
+    {
+     "text": "At the end of each consideration, “work out” questions for the cross-functional team and the ownership decisions a CIO or business leader makes before the program advances",
+     "html": "At the end of each consideration, “work out” questions for the cross-functional team and the ownership decisions a CIO or business leader makes before the program advances"
+    },
+    {
+     "text": "A four-part definition of the job the AI will do (user, task, output, and a measurable quality threshold), and a lightweight total cost of ownership model to build before the pilot",
+     "html": "A four-part definition of the job the AI will do (user, task, output, and a measurable quality threshold), and a lightweight total cost of ownership model to build before the pilot"
+    },
+    {
+     "text": "A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier",
+     "html": "A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier"
+    },
+    {
+     "text": "A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision",
+     "html": "A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Read the guide .",
+   "html": "<a href=\"https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf\">Read the guide</a>."
+  }
+ ],
+ "links": [
+  {
+   "text": "Pulse of Change report",
+   "href": "https://www.accenture.com/en/insights/pulse-of-change"
+  },
+  {
+   "text": "2026 Tokenomics research",
+   "href": "https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics"
+  },
+  {
+   "text": "Read the guide",
+   "href": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf"
+  }
+ ],
+ "word_count": 315,
+ "fetched_at": "2026-09-14T23:05:10+00:00"
+}

@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 14 Sep 2026 20:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 23:08:47 +0000</lastBuildDate>
     <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -171,6 +171,50 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>39</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-14-how-healthcare-organizations-use-claude-tag.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-14-how-healthcare-organizations-use-claude-tag.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Deploying AI from pilot to production</title>
+      <itunes:title>Claude Blog: Deploying AI from pilot to production</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production/</link>
+      <guid isPermaLink="false">https://claude.com/blog/deploying-ai-from-pilot-to-production</guid>
+      <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
+      <description>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.
+
+Source: https://claude.com/blog/deploying-ai-from-pilot-to-production
+Published September 14, 2026 · Claude Blog
+
+Links referenced in the post:
+• Pulse of Change report: https://www.accenture.com/en/insights/pulse-of-change
+• 2026 Tokenomics research: https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics
+• Read the guide: https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/deploying-ai-from-pilot-to-production">https://claude.com/blog/deploying-ai-from-pilot-to-production</a><br/><strong>Published:</strong> September 14, 2026 · Claude Blog<br/><strong>Length:</strong> 315 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.accenture.com/en/insights/pulse-of-change">Pulse of Change report</a></li><li><a href="https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics">2026 Tokenomics research</a></li><li><a href="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf">Read the guide</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.mp3" length="2246749" type="audio/mpeg"/>
+      <itunes:duration>186</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.jpg?v=9f44238f"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.</itunes:subtitle>
+      <itunes:summary>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.
+
+Source: https://claude.com/blog/deploying-ai-from-pilot-to-production
+Published September 14, 2026 · Claude Blog
+
+Links referenced in the post:
+• Pulse of Change report: https://www.accenture.com/en/insights/pulse-of-change
+• 2026 Tokenomics research: https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics
+• Read the guide: https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>40</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>

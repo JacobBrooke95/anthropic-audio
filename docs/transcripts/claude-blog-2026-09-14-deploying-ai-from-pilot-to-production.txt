@@ -1,0 +1,21 @@
+Deploying A I from pilot to production.
+
+This guide by Anthropic and Accenture shares seven considerations for taking enterprise A I from pilot to production, and the decisions leadership needs to make before the program advances.
+
+From Claude Blog, published September 14, 2026.
+
+A successful A I pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s Pulse of Change report (July 2026), only 23 percent of C-suite leaders report having achieved sustained, enterprise-wide impact with A I initiatives.
+
+Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. This makes pilots unrepresentative of the conditions under which A I programs run in production.
+
+Accenture’s September 2026 Tokenomics research found that 42 percent of organizations rely on shared IT and finance accountability, with no single owner responsible for A I costs and outcomes. Without that owner, it becomes difficult to measure success, make tradeoffs, and maintain accountability as an A I program scales.
+
+To help CIOs and technical leaders get A I programs from pilot into production, we worked with Accenture to put together a practical blueprint. It draws on what we’ve observed in enterprise deployments built on Claude and what Accenture has seen in the implementations it has guided across industries and geographies.
+
+In this guide, we share:
+
+Seven considerations to be settled in chronological order: before the pilot begins, during the pilot phase, and in production. At the end of each consideration, “work out” questions for the cross-functional team and the ownership decisions a CIO or business leader makes before the program advances. A four-part definition of the job the A I will do (user, task, output, and a measurable quality threshold), and a lightweight total cost of ownership model to build before the pilot. A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier. A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision.
+
+Read the guide.
+
+That was Deploying A I from pilot to production, from Claude Blog, published September 14, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

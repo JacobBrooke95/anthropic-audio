@@ -4623,6 +4623,14 @@
       "updated": "2026-09-14T20:26:22+00:00",
       "slug": "claude-blog-2026-09-14-how-healthcare-organizations-use-claude-tag",
       "episode": 39
+    },
+    "https://claude.com/blog/deploying-ai-from-pilot-to-production": {
+      "first_seen": "2026-09-14T23:08:46+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-14T23:08:46+00:00",
+      "slug": "claude-blog-2026-09-14-deploying-ai-from-pilot-to-production",
+      "episode": 40
     }
   },
   "episodes": [
@@ -6830,8 +6838,38 @@
       "episode": 39,
       "created": "2026-09-14T20:26:22+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82c134ca89952d04b7dd8_og_how-healthcare-organizations-use-claude-tag.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-14-deploying-ai-from-pilot-to-production",
+      "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+      "source": "claude-blog",
+      "title": "Deploying AI from pilot to production",
+      "subtitle": "This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.",
+      "date": "2026-09-14T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Pulse of Change report",
+          "href": "https://www.accenture.com/en/insights/pulse-of-change"
+        },
+        {
+          "text": "2026 Tokenomics research",
+          "href": "https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics"
+        },
+        {
+          "text": "Read the guide",
+          "href": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf"
+        }
+      ],
+      "word_count": 315,
+      "duration": 186.409796,
+      "bytes": 2246749,
+      "episode": 40,
+      "created": "2026-09-14T23:08:46+00:00",
+      "hero": ""
     }
   ],
-  "next_episode": 40,
+  "next_episode": 41,
   "baseline_date": "2026-08-14"
 }

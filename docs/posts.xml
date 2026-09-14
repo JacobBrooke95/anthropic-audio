@@ -10,7 +10,7 @@
     <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
     <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
     <webfeeds:accentColor>b5532e</webfeeds:accentColor>
-    <lastBuildDate>Mon, 14 Sep 2026 20:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 23:08:47 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <item>
       <title>Claude Blog: Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</title>
@@ -137,6 +137,22 @@
 <p>The teams above all started in the same place: engineering, product, ops, or recruiting channels, with one or two connectors, working in open threads rather than DMs so the whole team could review and pick up context.</p>
 <p>Review the Claude Tag best practices for healthcare organizations, <a href="https://claude.com/docs/claude-tag/admins/healthcare">here</a>, then start with one channel. Turn Claude Tag on for an alert or support-engineering channel, connect GitHub, and let the team work with it for two weeks before widening the allowlist. </p>
 <p><strong><em>Get started with</em></strong><a href="https://support.claude.com/en/articles/15594475-what-is-claude-tag"><strong><em> Claude Tag</em></strong></a><strong><em>.</em></strong></p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Claude Blog: Deploying AI from pilot to production</title>
+      <link>https://claude.com/blog/deploying-ai-from-pilot-to-production</link>
+      <guid isPermaLink="true">https://claude.com/blog/deploying-ai-from-pilot-to-production</guid>
+      <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Claude Blog</category>
+      <description>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances. — Claude Blog. Audio edition: https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.mp3</description>
+      <content:encoded><![CDATA[<p><em>Claude Blog · September 14, 2026</em><br/>Original: <a href="https://claude.com/blog/deploying-ai-from-pilot-to-production">https://claude.com/blog/deploying-ai-from-pilot-to-production</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production.mp3">Listen (3 min)</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-14-deploying-ai-from-pilot-to-production/">Episode page</a></p><p><strong>This guide by Anthropic and Accenture shares seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make before the program advances.</strong></p><p>A successful AI pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s <a href="https://www.accenture.com/en/insights/pulse-of-change">Pulse of Change report</a> (July 2026), only 23% of C-suite leaders report having achieved sustained, enterprise-wide impact with AI initiatives. </p>
+<p>Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. This makes pilots unrepresentative of the conditions under which AI programs run in production.</p>
+<p>Accenture’s September <a href="https://www.accenture.com/en/insights/ai-data/cios-guide-ai-tokenomics">2026 Tokenomics research</a> found that 42% of organizations rely on shared IT and finance accountability, with no single owner responsible for AI costs and outcomes. Without that owner, it becomes difficult to measure success, make tradeoffs, and maintain accountability as an AI program scales.</p>
+<p>To help CIOs and technical leaders get AI programs from pilot into production, we worked with Accenture to put together a practical blueprint. It draws on what we’ve observed in enterprise deployments built on Claude and what Accenture has seen in the implementations it has guided across industries and geographies.</p>
+<p>In this guide, we share:</p>
+<ul><li>Seven considerations to be settled in chronological order: before the pilot begins, during the pilot phase, and in production</li><li>At the end of each consideration, “work out” questions for the cross-functional team and the ownership decisions a CIO or business leader makes before the program advances</li><li>A four-part definition of the job the AI will do (user, task, output, and a measurable quality threshold), and a lightweight total cost of ownership model to build before the pilot</li><li>A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier</li><li>A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision</li></ul>
+<p><a href="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf">Read the guide</a>.</p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Research: Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
