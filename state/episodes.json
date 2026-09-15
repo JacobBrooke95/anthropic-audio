@@ -4631,6 +4631,30 @@
       "updated": "2026-09-14T23:08:46+00:00",
       "slug": "claude-blog-2026-09-14-deploying-ai-from-pilot-to-production",
       "episode": 40
+    },
+    "https://claude.com/blog/building-an-ai-native-revenue-organization": {
+      "first_seen": "2026-09-15T18:57:19+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-15T18:57:19+00:00",
+      "slug": "claude-blog-2026-09-15-building-an-ai-native-revenue-organization",
+      "episode": 41
+    },
+    "https://claude.com/blog/salesforce-in-claude": {
+      "first_seen": "2026-09-15T19:01:52+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-15T19:01:52+00:00",
+      "slug": "claude-blog-2026-09-15-salesforce-in-claude",
+      "episode": 42
+    },
+    "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": {
+      "first_seen": "2026-09-15T19:13:11+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-15T19:13:11+00:00",
+      "slug": "claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration",
+      "episode": 43
     }
   },
   "episodes": [
@@ -6868,8 +6892,126 @@
       "episode": 40,
       "created": "2026-09-14T23:08:46+00:00",
       "hero": ""
+    },
+    {
+      "slug": "claude-blog-2026-09-15-building-an-ai-native-revenue-organization",
+      "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+      "source": "claude-blog",
+      "title": "Building an AI-native revenue organization",
+      "subtitle": "In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.",
+      "date": "2026-09-15T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Cox Communications reported a 7x return",
+          "href": "https://claude.com/customers/cox-and-accenture"
+        },
+        {
+          "text": "Cyera",
+          "href": "https://claude.com/customers/cyera"
+        },
+        {
+          "text": "here",
+          "href": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf"
+        }
+      ],
+      "word_count": 317,
+      "duration": 173.296327,
+      "bytes": 2141474,
+      "episode": 41,
+      "created": "2026-09-15T18:57:19+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a726caede8f24f9fbe90126_og_a-guide-to-cost-visibility-and-control-in-claude%20(1).jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-15-salesforce-in-claude",
+      "url": "https://claude.com/blog/salesforce-in-claude",
+      "source": "claude-blog",
+      "title": "Bringing Salesforce into Claude",
+      "subtitle": "Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.",
+      "date": "2026-09-15T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Salesforce MCP",
+          "href": "https://claude.ai/directory/bundles/salesforce#directory/connectors/salesforce-headless-360"
+        },
+        {
+          "text": "AgentExchange",
+          "href": "https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access"
+        },
+        {
+          "text": "setup guide",
+          "href": "https://support.claude.com/en/articles/16952184"
+        },
+        {
+          "text": "guide on running an effective sales organization with Claude",
+          "href": "https://claude.com/blog/building-an-ai-native-revenue-organization"
+        }
+      ],
+      "word_count": 838,
+      "duration": 369.502041,
+      "bytes": 3700711,
+      "episode": 42,
+      "created": "2026-09-15T19:01:52+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa95c2c84d894d97a83f049_og_salesforce-in-claude.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "source": "claude-blog",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "subtitle": "We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.",
+      "date": "2026-09-15T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude for Small Business",
+          "href": "http://claude.com/plugins/small-business"
+        },
+        {
+          "text": "Claude for Small Business in May",
+          "href": "https://www.anthropic.com/news/claude-for-small-business"
+        },
+        {
+          "text": "told us what they wanted",
+          "href": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai"
+        },
+        {
+          "text": "Claude for Small Business: Monday Brief",
+          "href": "https://youtu.be/yxeHQvby5JY"
+        },
+        {
+          "text": "Claude for Small Business: Speed to Lead",
+          "href": "https://youtu.be/D2FcNf2v9KY"
+        },
+        {
+          "text": "Claude for Small Business: Proposal Builder",
+          "href": "https://youtu.be/ZV3oKch1t_I"
+        },
+        {
+          "text": "Claude for Small Business: Social Content Engine",
+          "href": "https://youtu.be/z8sq-2SB35w"
+        },
+        {
+          "text": "Claude for Small Business: Close the Month",
+          "href": "https://youtu.be/sD1_ERv4nDM"
+        },
+        {
+          "text": "the full list",
+          "href": "https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin"
+        }
+      ],
+      "word_count": 1866,
+      "duration": 891.245714,
+      "bytes": 7949139,
+      "episode": 43,
+      "created": "2026-09-15T19:13:11+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96d1d8800d47f264507d6_og_claude-for-small-business-launches-new-workflows-integrations-and-training-programs.jpg"
     }
   ],
-  "next_episode": 41,
+  "next_episode": 44,
   "baseline_date": "2026-08-14"
 }

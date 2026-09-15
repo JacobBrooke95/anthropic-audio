@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 242.0,
+   "title": "A week with Claude for Small Business"
+  },
+  {
+   "startTime": 274.61,
+   "title": "Install and onboard"
+  },
+  {
+   "startTime": 314.11,
+   "title": "The weekly brief"
+  },
+  {
+   "startTime": 435.33,
+   "title": "Responding to inbound leads"
+  },
+  {
+   "startTime": 536.51,
+   "title": "Writing proposals"
+  },
+  {
+   "startTime": 634.99,
+   "title": "Unblocking marketing campaigns"
+  },
+  {
+   "startTime": 736.8,
+   "title": "Closing the books"
+  },
+  {
+   "startTime": 868.11,
+   "title": "Outro"
+  }
+ ]
+}

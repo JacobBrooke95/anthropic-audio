@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:05.979
+This is Anthropic, Read Aloud. Today: Bringing Salesforce into Claude.
+
+2
+00:00:07.279 --> 00:00:08.970
+Bringing Salesforce into Claude.
+
+3
+00:00:09.420 --> 00:00:18.605
+Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.
+
+4
+00:00:19.055 --> 00:00:23.183
+From Claude Blog, published September 15, 2026.
+
+5
+00:00:24.183 --> 00:00:45.359
+Today we are releasing Salesforce in Claude in beta, a plugin built with Salesforce that brings a seller’s accounts, opportunities, and pipeline into Claude under their existing Salesforce permissions. It includes 37 skills for the work account executives do daily, including account research, call prep, pipeline review, and CRM updates.
+
+6
+00:00:45.809 --> 00:01:03.943
+Sellers often spend hours of their day on meeting prep or follow-up work from customer meetings by manually assembling information scattered across Salesforce, email, call recordings, and Slack. With the new plugin, Claude does that administrative work and updates Salesforce once the seller approves.
+
+7
+00:01:04.392 --> 00:01:22.654
+The plugin also has two connectors that enable sellers to begin using it once an admin connects Salesforce and they sign in. With the Salesforce connector, Claude can read Salesforce data and act on it: summarize an account’s history, update opportunities, log calls or create follow-up tasks.
+
+8
+00:01:22.774 --> 00:01:39.456
+The Slack connector covers deal-channel summaries and account-team threads that the skills can read and write. When sellers use the plugin for the first time, a setup skill identifies their tools and connectors and creates a Claude Artifact tailored to their role and book of business.
+
+9
+00:01:40.256 --> 00:01:42.676
+How sellers can use Salesforce in Claude today.
+
+10
+00:01:43.126 --> 00:02:02.092
+Start the day with a brief. Each morning Claude delivers a personalized brief that includes the day’s meetings, deals closing soon, at-risk opportunities, and unread threads that need a reply. Once scheduled, it runs in the background and can be accessed anywhere with Claude, including on the go with the Claude app.
+
+11
+00:02:02.212 --> 00:02:15.659
+From the brief, sellers can tell Claude to push a close date, change a stage or add a follow-up task, and Claude will make the update in Salesforce. On Fridays, the brief wraps the week and drafts an update for the seller’s manager.
+
+12
+00:02:16.109 --> 00:02:32.635
+Prep for a call. A seller can ask Claude to prep for their next meeting and it pulls the brief from Salesforce, Slack, and email: open opportunities and where each stands, what the account team discussed this week, unanswered threads, and questions still open from previous calls.
+
+13
+00:02:32.755 --> 00:02:39.206
+If it finds stakeholders in those threads who aren’t in Salesforce yet, Claude adds them as contacts on the account.
+
+14
+00:02:39.656 --> 00:02:53.256
+Review a deal and build the close plan. Pointed at an opportunity, Claude scores the deal against the team’s methodology, considering qualification gaps, stakeholders they haven't met, and factors putting the close date at risk.
+
+15
+00:02:53.376 --> 00:03:07.631
+Ask it to keep going and it drafts the business case and a dated mutual close plan, fills in the qualification fields, and adds the missing stakeholders as contact roles. All this is saved to the opportunity once it’s been approved.
+
+16
+00:03:08.081 --> 00:03:25.011
+End every meeting with Salesforce updated. After each call, Claude turns the transcript or the seller’s notes into a follow-up email, a summary for the deal channel in Slack, and drafts opportunity updates like next steps, stage, and close date, for the seller to review.
+
+17
+00:03:25.461 --> 00:03:45.920
+Review pipeline and share forecasts. A seller can ask for a pipeline view and Claude builds an interactive dashboard showing coverage by stage, deals most likely to slip and why, and drill-down by account. From the dashboard, a seller can tell Claude to move a close date or change a stage, and Claude updates the record in Salesforce.
+
+18
+00:03:46.040 --> 00:03:56.923
+Dashboards can be shared with leadership or the team, and Claude can draft the forecast narrative in the format leadership expects. Sales leaders can run the same views across the team.
+
+19
+00:03:57.373 --> 00:04:19.218
+Built on an organization’s existing permissions Salesforce remains as the system of record. Sellers sign in with their Salesforce credentials and Claude reads only what their permissions allow. By default, Claude asks the seller to approve each proposed change before it’s written. On Team and Enterprise plans, we don’t train our models on your data by default.
+
+20
+00:04:19.668 --> 00:04:25.158
+Admins connect Salesforce once for the organization and choose which groups get the plugin.
+
+21
+00:04:25.958 --> 00:04:28.223
+How sales teams use Salesforce in Claude.
+
+22
+00:04:28.673 --> 00:04:42.647
+Anthropic customers GitLab, Siemens, and Legora have deployed Salesforce in Claude to their organizations, and 7000 Salesforce sellers use it in their work. Here’s what they’ve told us about using Salesforce in Claude:
+
+23
+00:04:43.097 --> 00:05:00.383
+Quote: "With Salesforce in Claude, our sellers turn live data into meeting briefings in seconds instead of hours. As our sales team grows, every new rep starts with a full picture of the law firms we serve.", David Eckstein, Chief Financial Officer, Legora. End quote.
+
+24
+00:05:00.833 --> 00:05:17.342
+Quote: "With Salesforce in Claude, sellers can start the day with the pipeline review already done and the account history already there. That time goes straight back into customer conversations.", Alexa Vignone, President and Chief Revenue Officer, Salesforce. End quote.
+
+25
+00:05:18.142 --> 00:05:19.154
+Getting started.
+
+26
+00:05:19.604 --> 00:05:43.619
+Salesforce in Claude is available in beta on all paid Claude plans. The Salesforce M C P is available to install directly through the marketplace today. To install the plugin, admins can request access through AgentExchange and connect Salesforce once for their entire organization. For admins, we have a setup guide with instructions on how to turn this on for your org.
+
+27
+00:05:43.739 --> 00:05:48.776
+For sales leaders, we have a guide on running an effective sales organization with Claude.
+
+28
+00:05:49.776 --> 00:06:05.514
+That was Bringing Salesforce into Claude, from Claude Blog, published September 15, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

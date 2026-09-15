@@ -1,0 +1,90 @@
+{
+ "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-15-building-an-ai-native-revenue-organization",
+ "title": "Building an AI-native revenue organization",
+ "subtitle": "In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.",
+ "date": "2026-09-15T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a726caede8f24f9fbe90126_og_a-guide-to-cost-visibility-and-control-in-claude%20(1).jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "In our conversations with revenue leaders, we hear the same challenges: half the team barely touches the AI it already has, the best sellers build skills and prompts that no one else uses, and leadership has no visibility into usage and spend. Meanwhile, sellers gather account context before every call from multiple systems: the CRM, email, call recordings, Slack. That can mean spending thirty minutes on prep for fifteen minutes of conversation.",
+   "html": "In our conversations with revenue leaders, we hear the same challenges: half the team barely touches the AI it already has, the best sellers build skills and prompts that no one else uses, and leadership has no visibility into usage and spend. Meanwhile, sellers gather account context before every call from multiple systems: the CRM, email, call recordings, Slack. That can mean spending thirty minutes on prep for fifteen minutes of conversation. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Individual reps can save time every day when they hand over call prep to Claude, but when the whole team adopts it, the benefits compound. How much a sales organization gets out of Claude depends on what it has built around it: which systems Claude can read and write and whether it has the access and controls to take on more complex work.",
+   "html": "Individual reps can save time every day when they hand over call prep to Claude, but when the whole team adopts it, the benefits compound. How much a sales organization gets out of Claude depends on what it has built around it: which systems Claude can read and write and whether it has the access and controls to take on more complex work. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Cox Communications reported a 7x return in its first-year of AI investment and cut the cost of validating and enriching sales leads by 86%, bringing accuracy up from 18% to 97%. At Cyera , where 88% of roughly 1,500 employees use Claude weekly, BDRs draft outreach with a skill that’s been built using the top performers’ best work—a quality improvement as much as a time saving.",
+   "html": "<a href=\"https://claude.com/customers/cox-and-accenture\">Cox Communications reported a 7x return</a> in its first-year of AI investment and cut the cost of validating and enriching sales leads by 86%, bringing accuracy up from 18% to 97%. At <a href=\"https://claude.com/customers/cyera\">Cyera</a>, where 88% of roughly 1,500 employees use Claude weekly, BDRs draft outreach with a skill that’s been built using the top performers’ best work—a quality improvement as much as a time saving. "
+  },
+  {
+   "type": "paragraph",
+   "text": "To help revenue teams get the most out of AI, we put together Building an AI-native revenue organization , a guide to rolling out Claude across sales.",
+   "html": "To help revenue teams get the most out of AI, we put together <em>Building an AI-native revenue organization</em>, a guide to rolling out Claude across sales. "
+  },
+  {
+   "type": "paragraph",
+   "text": "In the guide, we share:",
+   "html": "In the guide, we share:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A maturity model showing where your organization stands today and what it takes to reach the next level",
+     "html": "A maturity model showing where your organization stands today and what it takes to reach the next level"
+    },
+    {
+     "text": "The setup decisions to make before the pilot: owners, connectors, IT and security, success metrics, and spend visibility",
+     "html": "The setup decisions to make before the pilot: owners, connectors, IT and security, success metrics, and spend visibility"
+    },
+    {
+     "text": "A three-phase rollout plan (set up, pilot, scale) with the use cases revenue teams run most, mapped by role",
+     "html": "A three-phase rollout plan (set up, pilot, scale) with the use cases revenue teams run most, mapped by role"
+    },
+    {
+     "text": "How to measure ROI in three groups: efficiency, expansion, and new capabilities",
+     "html": "How to measure ROI in three groups: efficiency, expansion, and new capabilities"
+    },
+    {
+     "text": "The pitfalls that stall org-wide rollouts, and checklists for getting started",
+     "html": "The pitfalls that stall org-wide rollouts, and checklists for getting started"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Read the guide here .",
+   "html": "Read the guide <a href=\"https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf\">here</a>."
+  },
+  {
+   "type": "paragraph",
+   "text": "‍",
+   "html": "‍"
+  }
+ ],
+ "links": [
+  {
+   "text": "Cox Communications reported a 7x return",
+   "href": "https://claude.com/customers/cox-and-accenture"
+  },
+  {
+   "text": "Cyera",
+   "href": "https://claude.com/customers/cyera"
+  },
+  {
+   "text": "here",
+   "href": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf"
+  }
+ ],
+ "word_count": 317,
+ "fetched_at": "2026-09-15T18:55:02+00:00"
+}

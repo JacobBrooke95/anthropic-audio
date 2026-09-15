@@ -1,0 +1,333 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:10.097
+This is Anthropic, Read Aloud. Today: Claude for Small Business launches new workflows, integrations, and training programs.
+
+2
+00:00:11.397 --> 00:00:16.346
+Claude for Small Business launches new workflows, integrations, and training programs.
+
+3
+00:00:16.796 --> 00:00:26.966
+We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.
+
+4
+00:00:27.416 --> 00:00:31.545
+From Claude Blog, published September 15, 2026.
+
+5
+00:00:32.545 --> 00:00:47.596
+Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier.
+
+6
+00:00:47.716 --> 00:00:59.853
+The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started.
+
+7
+00:01:00.303 --> 00:01:12.676
+We launched Claude for Small Business in May as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900000 times.
+
+8
+00:01:12.796 --> 00:01:36.817
+Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1000 owners in 10 cities told us what they wanted Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals.
+
+9
+00:01:36.937 --> 00:01:43.252
+Many also wanted day-to-day reporting handled for them. We built this new release around those requests.
+
+10
+00:01:43.702 --> 00:02:02.475
+The tour returns this fall with free workshops in 10 U S cities. More than 150 organizations we've trained as Approved Claude SMB Trainers will run over 750 workshops in their own communities, and 14 integration partners are hosting free webinars about their connectors.
+
+11
+00:02:02.925 --> 00:02:08.189
+Here's what small business leaders shared with us during the first leg of our Claude SMB tour:
+
+12
+00:02:08.639 --> 00:02:27.345
+“What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.”, Pedro Rubio, Founder and C E O, Blackfyre GovCon, Washington, D.C.
+
+13
+00:02:27.795 --> 00:02:47.686
+"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that's how we get time back for our clients and culture.", Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana
+
+14
+00:02:48.136 --> 00:03:07.912
+"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here's what needs to be done today, here's the biggest priorities. We call it the daily briefing.", Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma
+
+15
+00:03:08.362 --> 00:03:24.091
+"I made 20000 dollarsin the last month and a half using Claude to do these professional proposals. I know that's getting the business, and it put money in my bank account. How about that?", Dan Ninerell, Founder, Modern Classical Chefs, South Jersey, New Jersey
+
+16
+00:03:24.541 --> 00:03:38.508
+"We tell it [Claude] what the end goal is. It goes and tests, and 90 percent of the time it gets it right. We're a five-person company. I think we've done quite a bit with it.", Bill Hood, Co-Founder, TruckingMBA, Chattanooga, Tennessee
+
+17
+00:03:38.958 --> 00:04:01.199
+"The thing that makes it most beneficial to us are the integrations. We use Slack, and that's how we talk to it. It integrates with Intuit QuickBooks. It's pulling everything from everywhere instead of us having to find different pieces of information all over. It's all in one place.", Kati Jo Hodges, Director of Operations, Premier Geotech and Testing, Baton Rouge, Louisiana
+
+18
+00:04:01.999 --> 00:04:03.853
+A week with Claude for Small Business.
+
+19
+00:04:04.303 --> 00:04:13.573
+Here’s a week-in-the-life of a small business owner using Claude to run and grow their business, inspired by how small business owners are using Claude today.
+
+20
+00:04:14.023 --> 00:04:14.835
+html
+
+21
+00:04:15.285 --> 00:04:17.171
+A week with Claude for Small Business
+
+22
+00:04:17.621 --> 00:04:23.201
+===== START: post body content (styles v4) =====
+
+23
+00:04:23.651 --> 00:04:29.692
+sb- shared styles v4, A week with Claude for Small Business, paste once at the top of the body
+
+24
+00:04:30.142 --> 00:04:31.237
+SUN01
+
+25
+00:04:31.687 --> 00:04:33.815
+Sunday, 8:00pm
+
+26
+00:04:34.615 --> 00:04:35.916
+Install and onboard.
+
+27
+00:04:36.366 --> 00:04:57.187
+Claude for Small Business runs in Claude Cowork, the desktop app where Claude works directly with your files and connected tools. You install the plugin, ask Claude to “help me get set up” or run /smb-onboard, connect the tools you already use, and pick a task. The plugin can also set each workflow to run on a schedule you choose.
+
+28
+00:04:57.637 --> 00:05:04.613
+You stay in charge By default, Claude does the work and waits for your approval before anything sends, posts, or pays.
+
+29
+00:05:05.063 --> 00:05:09.014
+Run itAsk“help me get set up”or type /smb-onboard
+
+30
+00:05:09.464 --> 00:05:10.498
+MON02
+
+31
+00:05:10.948 --> 00:05:13.306
+Monday, 7:00am
+
+32
+00:05:14.106 --> 00:05:15.166
+The weekly brief.
+
+33
+00:05:15.616 --> 00:05:28.295
+Cash position, last week's sales against the week before, what moved in the pipeline, which invoices are overdue, and the three things that need you this week, are on one page before you've opened a spreadsheet.
+
+34
+00:05:28.745 --> 00:05:37.295
+Run itAsk“give me my Monday brief”or type /monday-brief Set it to “weekly” during setup and it runs at the same time every Monday,
+
+35
+00:05:37.415 --> 00:06:14.940
+with the option to push to a standing dashboard via an artifact or website.Works with37 connectorsAll 37 partner connectors are eligible.AirwallexApolloAtlassianCanvaClayDocusignEmergentExpensifyGmailGoogle CalendarGoogle DriveGustoHubSpotIntuit MailchimpIntuit QuickBooksMicrosoft 365monday.comMYOBNetSuiteNotionPayPalRampRingCentralSalesforceShopifySlackSquareStripeTikTok AdsTrelloWixXeroZapierZoho BooksZoho CRMZoho DeskZoom No connectors?
+
+36
+00:06:15.060 --> 00:06:19.754
+Upload a spreadsheet and Claude builds the brief and your reports from whatever you share.
+
+37
+00:06:20.204 --> 00:06:43.564
+Owner storyMothership Coffee RoastersJuanny Romero, founder and C E O · Las Vegas22 percentin-store margins, credited in part to tighter scheduling, ordering, and inventory reporting6cafés run from one consolidated viewJuanny Romero, founder and C E O of Mothership Coffee Roasters, runs six cafés plus wholesale and catering in Las Vegas.
+
+38
+00:06:43.684 --> 00:06:59.997
+Her numbers lived in the POS, Intuit QuickBooks, Slack, and email with no single weekly view. She connected them to Claude, made Claude her leadership team's workspace for forecasting and weekly planning, and now runs all six locations from one consolidated view.
+
+39
+00:07:00.117 --> 00:07:08.057
+In-store margins rose to 22 percent, which she credits in part to tighter scheduling, ordering, and inventory reporting.
+
+40
+00:07:08.507 --> 00:07:10.808
+Claude for Small Business: Monday Brief
+
+41
+00:07:11.258 --> 00:07:12.338
+MON03
+
+42
+00:07:12.788 --> 00:07:14.529
+Monday, 9:40pm
+
+43
+00:07:15.329 --> 00:07:17.015
+Responding to inbound leads.
+
+44
+00:07:17.465 --> 00:07:37.104
+A catering inquiry arrives after close through your website, email, or chat. Claude qualifies it, drafts a reply with two real openings from your calendar, and logs it to your CRM. If you've let this workflow run on its own, you see it Tuesday morning already booked; otherwise the reply is waiting for your OK.
+
+45
+00:07:37.554 --> 00:07:59.439
+Run itAsk“answer new leads as they come in”or type /speed-to-lead A standing workflow, on the schedule you set.Works with15 connectorsApolloClayEmergentGmailGoogle CalendarHubSpotIntuit MailchimpMicrosoft 365monday.comNotionRingCentralSalesforceTrelloZoho CRMZoom No connectors?
+
+46
+00:07:59.559 --> 00:08:06.725
+Forward the inquiry to Claude, get the reply drafted to send yourself, and Claude keeps your leads in a spreadsheet CRM.
+
+47
+00:08:07.175 --> 00:08:30.172
+Owner storyBambi BabyJosh Weiss, COO60, dollars000in sales tied to the tool in its first four days18 percentof online revenue newly attributed to in-person visits, two weeks into the pilotAt Bambi Baby, a family-owned baby stroller and car seat retailer, about three in four walk-in shoppers left without providing a name or an email.
+
+48
+00:08:30.292 --> 00:08:50.153
+C O O Josh Weiss, who is not a developer, used Claude to build a scan-to-wishlist lead capture and the follow-up behind it. In the tool's first four days, 60000 dollarsin sales tied back to it. Two weeks into a two-store pilot, 18 percent of online revenue was newly attributed to in-person visits.
+
+49
+00:08:50.603 --> 00:08:53.016
+Claude for Small Business: Speed to Lead
+
+50
+00:08:53.466 --> 00:08:54.548
+WED04
+
+51
+00:08:54.998 --> 00:08:55.712
+Wednesday
+
+52
+00:08:56.512 --> 00:08:57.759
+Writing proposals.
+
+53
+00:08:58.209 --> 00:09:12.122
+You walk a job site and record a two-minute voice memo on the way back to your office. By the time you sit down there's a branded proposal, priced from your past jobs, waiting for your edits. Once you approve, it goes out for signature.
+
+54
+00:09:12.572 --> 00:09:36.343
+Run itAsk“turn this into a proposal”or type /proposal-builder First: attach the memo, photos, or RFP, or pull a call transcript.Works with17 connectorsApolloAtlassian ConfluenceCanvaDocusignGoogle DriveMicrosoft 365MYOBNetSuiteNotionPayPalIntuit QuickBooksSquareStripeTrelloXeroZoho BooksZoom No connectors?
+
+55
+00:09:36.463 --> 00:09:45.067
+Upload the memo, photos, and a past proposal as your template, and Claude builds and prices from those. You send it for signature yourself.
+
+56
+00:09:45.517 --> 00:10:04.336
+Owner storyKANEMichael and Joni Kazantzis, co-founders · Princeton, New JerseyWeeks to minutesfrom scoping a deal to a statement of work out for signatureKANE, a creative and growth agency in Princeton, New Jersey, used to spend weeks per deal on scoping, pricing, proposal writing, and contracting.
+
+57
+00:10:04.456 --> 00:10:18.615
+Co-founders Michael and Joni Kazantzis built a Claude pipeline that scores fit from the meeting notes, prices from their own past projects, drafts the proposal, and has the statement of work out for signature within minutes of a yes.
+
+58
+00:10:18.735 --> 00:10:28.605
+“We've taken an entire process that used to take us weeks and it's done almost within a few minutes in a day, and even the clients recognize that,” Michael Kazantzis said.
+
+59
+00:10:29.055 --> 00:10:31.518
+Claude for Small Business: Proposal Builder
+
+60
+00:10:31.968 --> 00:10:33.037
+THU05
+
+61
+00:10:33.487 --> 00:10:34.189
+Thursday
+
+62
+00:10:34.989 --> 00:10:36.749
+Unblocking marketing campaigns.
+
+63
+00:10:37.199 --> 00:10:54.434
+Next week's posts are drafted in your voice with on-brand graphics, cut into every format your channels need, and staged for your approval. Last week's sales by channel are on one page with your marketing results, and this week's new reviews have replies drafted and waiting for your OK.
+
+64
+00:10:54.884 --> 00:11:19.664
+Run itAsk“plan next week's content”or type /social-content-engine Keeps the posting calendar full.Runs on a weekly schedule for the numbers and reviews.type /marketing-monday Works with16 connectorsApolloCanvaClayGmailHubSpotIntuit Mailchimpmonday.comNotionPayPalShopifySquareStripeTikTokTrelloZoho CRMZoho Desk No connectors?
+
+65
+00:11:19.784 --> 00:11:27.229
+Claude drafts the calendar, captions, and design briefs, and builds your weekly page from exported sales and pasted reviews.
+
+66
+00:11:27.679 --> 00:11:49.090
+Owner storyRebel CheeseKirsten Maitland, co-founder and C E O · AustinKirsten Maitland, co-founder and C E O, launched Rebel Cheese, an Austin plant-based cheesemaker that went from one restaurant to a national e-commerce business after appearing on Shark Tank. The brand voice lived in her head and couldn't scale past her own hours.
+
+67
+00:11:49.210 --> 00:12:09.871
+After vetting Claude on data security, she trained a voice skill on her own writing and connected it to her email and social tools. A teammate now drafts on-brand campaigns without routing every line through the founder. “I live in Claude, running multiple instances simultaneously across two computers to keep up with demand,” she said.
+
+68
+00:12:10.321 --> 00:12:13.190
+Claude for Small Business: Social Content Engine
+
+69
+00:12:13.640 --> 00:12:14.736
+END06
+
+70
+00:12:15.186 --> 00:12:15.999
+Month end
+
+71
+00:12:16.799 --> 00:12:17.822
+Closing the books.
+
+72
+00:12:18.272 --> 00:12:32.096
+Claude reconciles your books against every place money moves: sales settlements, card spend, and payroll. It flags mismatches down to the transaction, writes a plain-English P and L, and creates a close packet for your accountant.
+
+73
+00:12:32.216 --> 00:12:46.019
+If one account never reconciles cleanly because your POS has no connector, Claude reaches it through Zapier or builds a connector, and the adjustment your bookkeeper makes by hand becomes a saved step in next month's close.
+
+74
+00:12:46.469 --> 00:13:12.366
+Run itAsk“close September”or type /close-month For any gapsAsk“connect my POS”or type /build-connector Ask“make this part of the close”or type /build-agent Works with14 connectorsExpensifyGoogle DriveGustoMYOBNetSuitePayPalIntuit QuickBooksRampShopifySquareStripeXeroZapierZoho Books No connectors? Upload your bank and processor statements and Claude closes from those.
+
+75
+00:13:12.816 --> 00:13:34.996
+Owner storyHireEffectChris Scott, C O O, and Jennifer Scott, founder and C E O · Dallas16transactions isolated behind a 13000 dollarsdiscrepancy10 secondsfor a monthly reporting task that used to take two hoursHireEffect, a Dallas firm that runs bookkeeping, payroll, and HR for small businesses nationwide,
+
+76
+00:13:35.116 --> 00:13:44.097
+had a client whose books carried a 13000 dollarsdiscrepancy buried in two and a half years and tens of thousands of PayPal transactions.
+
+77
+00:13:44.217 --> 00:13:52.438
+C O O Chris Scott used Claude to isolate the exact 16 transactions responsible. “It was literally a needle in a haystack.
+
+78
+00:13:52.558 --> 00:14:08.387
+There's no way we'd have found it without this,” says Founder and C E O Jennifer Scott.They also built a governed reporting dashboard across five disparate systems, including QuickBooks and a CRM, that turned a two-hour monthly task into ten seconds;
+
+79
+00:14:08.507 --> 00:14:16.730
+their Director of Bookkeeping built her own skill that turns a client P and L into a visual summary with discussion points already flagged.
+
+80
+00:14:17.180 --> 00:14:19.442
+Claude for Small Business: Close the Month
+
+81
+00:14:19.892 --> 00:14:24.102
+===== END: post body content =====
+
+82
+00:14:24.552 --> 00:14:27.110
+See the full list of workflows and integrations.
+
+83
+00:14:28.110 --> 00:14:47.246
+That was Claude for Small Business launches new workflows, integrations, and training programs, from Claude Blog, published September 15, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

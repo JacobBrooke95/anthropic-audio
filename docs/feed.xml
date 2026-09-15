@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 14 Sep 2026 23:08:47 +0000</lastBuildDate>
-    <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 19:13:12 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,152 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: Building an AI-native revenue organization</title>
+      <itunes:title>Claude Blog: Building an AI-native revenue organization</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-building-an-ai-native-revenue-organization/</link>
+      <guid isPermaLink="false">https://claude.com/blog/building-an-ai-native-revenue-organization</guid>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
+      <description>In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.
+
+Source: https://claude.com/blog/building-an-ai-native-revenue-organization
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Cox Communications reported a 7x return: https://claude.com/customers/cox-and-accenture
+• Cyera: https://claude.com/customers/cyera
+• here: https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-building-an-ai-native-revenue-organization/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/building-an-ai-native-revenue-organization">https://claude.com/blog/building-an-ai-native-revenue-organization</a><br/><strong>Published:</strong> September 15, 2026 · Claude Blog<br/><strong>Length:</strong> 317 words · 2 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/customers/cox-and-accenture">Cox Communications reported a 7x return</a></li><li><a href="https://claude.com/customers/cyera">Cyera</a></li><li><a href="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf">here</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-building-an-ai-native-revenue-organization/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.mp3" length="2141474" type="audio/mpeg"/>
+      <itunes:duration>173</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.jpg?v=85cc3ec7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.</itunes:subtitle>
+      <itunes:summary>In this guide, Anthropic shares how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.
+
+Source: https://claude.com/blog/building-an-ai-native-revenue-organization
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Cox Communications reported a 7x return: https://claude.com/customers/cox-and-accenture
+• Cyera: https://claude.com/customers/cyera
+• here: https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-building-an-ai-native-revenue-organization/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>41</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-building-an-ai-native-revenue-organization.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Bringing Salesforce into Claude</title>
+      <itunes:title>Claude Blog: Bringing Salesforce into Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-salesforce-in-claude/</link>
+      <guid isPermaLink="false">https://claude.com/blog/salesforce-in-claude</guid>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.
+
+Source: https://claude.com/blog/salesforce-in-claude
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Salesforce MCP: https://claude.ai/directory/bundles/salesforce#directory/connectors/salesforce-headless-360
+• AgentExchange: https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access
+• setup guide: https://support.claude.com/en/articles/16952184
+• guide on running an effective sales organization with Claude: https://claude.com/blog/building-an-ai-native-revenue-organization
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-salesforce-in-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic&#x27;s new Salesforce in Claude plugin.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/salesforce-in-claude">https://claude.com/blog/salesforce-in-claude</a><br/><strong>Published:</strong> September 15, 2026 · Claude Blog<br/><strong>Length:</strong> 838 words · 6 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.ai/directory/bundles/salesforce#directory/connectors/salesforce-headless-360">Salesforce MCP</a></li><li><a href="https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access">AgentExchange</a></li><li><a href="https://support.claude.com/en/articles/16952184">setup guide</a></li><li><a href="https://claude.com/blog/building-an-ai-native-revenue-organization">guide on running an effective sales organization with Claude</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-salesforce-in-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-15-salesforce-in-claude.mp3" length="3700711" type="audio/mpeg"/>
+      <itunes:duration>370</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-15-salesforce-in-claude.jpg?v=a5196e3a"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-salesforce-in-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-15-salesforce-in-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.</itunes:subtitle>
+      <itunes:summary>Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.
+
+Source: https://claude.com/blog/salesforce-in-claude
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Salesforce MCP: https://claude.ai/directory/bundles/salesforce#directory/connectors/salesforce-headless-360
+• AgentExchange: https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access
+• setup guide: https://support.claude.com/en/articles/16952184
+• guide on running an effective sales organization with Claude: https://claude.com/blog/building-an-ai-native-revenue-organization
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-salesforce-in-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>42</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-salesforce-in-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-salesforce-in-claude.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude for Small Business launches new workflows, integrations, and training programs</title>
+      <itunes:title>Claude Blog: Claude for Small Business launches new workflows, integrations, and training programs</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
+      <description>We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.
+
+Source: https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Small Business: http://claude.com/plugins/small-business
+• Claude for Small Business in May: https://www.anthropic.com/news/claude-for-small-business
+• told us what they wanted: https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
+• Claude for Small Business: Monday Brief: https://youtu.be/yxeHQvby5JY
+• Claude for Small Business: Speed to Lead: https://youtu.be/D2FcNf2v9KY
+• Claude for Small Business: Proposal Builder: https://youtu.be/ZV3oKch1t_I
+• Claude for Small Business: Social Content Engine: https://youtu.be/z8sq-2SB35w
+• Claude for Small Business: Close the Month: https://youtu.be/sD1_ERv4nDM
+• the full list: https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</a><br/><strong>Published:</strong> September 15, 2026 · Claude Blog<br/><strong>Length:</strong> 1,866 words · 14 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="http://claude.com/plugins/small-business">Claude for Small Business</a></li><li><a href="https://www.anthropic.com/news/claude-for-small-business">Claude for Small Business in May</a></li><li><a href="https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai">told us what they wanted</a></li><li><a href="https://youtu.be/yxeHQvby5JY">Claude for Small Business: Monday Brief</a></li><li><a href="https://youtu.be/D2FcNf2v9KY">Claude for Small Business: Speed to Lead</a></li><li><a href="https://youtu.be/ZV3oKch1t_I">Claude for Small Business: Proposal Builder</a></li><li><a href="https://youtu.be/z8sq-2SB35w">Claude for Small Business: Social Content Engine</a></li><li><a href="https://youtu.be/sD1_ERv4nDM">Claude for Small Business: Close the Month</a></li><li><a href="https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin">the full list</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.mp3" length="7949139" type="audio/mpeg"/>
+      <itunes:duration>891</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.jpg?v=aa317cb3"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.</itunes:subtitle>
+      <itunes:summary>We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.
+
+Source: https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
+Published September 15, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Small Business: http://claude.com/plugins/small-business
+• Claude for Small Business in May: https://www.anthropic.com/news/claude-for-small-business
+• told us what they wanted: https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
+• Claude for Small Business: Monday Brief: https://youtu.be/yxeHQvby5JY
+• Claude for Small Business: Speed to Lead: https://youtu.be/D2FcNf2v9KY
+• Claude for Small Business: Proposal Builder: https://youtu.be/ZV3oKch1t_I
+• Claude for Small Business: Social Content Engine: https://youtu.be/z8sq-2SB35w
+• Claude for Small Business: Close the Month: https://youtu.be/sD1_ERv4nDM
+• the full list: https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>43</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</title>
       <itunes:title>Claude Blog: Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</itunes:title>

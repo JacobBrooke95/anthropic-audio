@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 100.26,
+   "title": "How sellers can use Salesforce in Claude today"
+  },
+  {
+   "startTime": 265.96,
+   "title": "How sales teams use Salesforce in Claude"
+  },
+  {
+   "startTime": 318.14,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 349.78,
+   "title": "Outro"
+  }
+ ]
+}
