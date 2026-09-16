@@ -4655,6 +4655,14 @@
       "updated": "2026-09-15T19:13:11+00:00",
       "slug": "claude-blog-2026-09-15-claude-for-small-business-launches-new-workflows-integration",
       "episode": 43
+    },
+    "https://claude.com/blog/cowork-is-now-claude": {
+      "first_seen": "2026-09-16T18:55:06+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-16T18:55:06+00:00",
+      "slug": "claude-blog-2026-09-16-cowork-is-now-claude",
+      "episode": 44
     }
   },
   "episodes": [
@@ -7010,8 +7018,34 @@
       "episode": 43,
       "created": "2026-09-15T19:13:11+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96d1d8800d47f264507d6_og_claude-for-small-business-launches-new-workflows-integrations-and-training-programs.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-16-cowork-is-now-claude",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "source": "claude-blog",
+      "title": "Claude Cowork and chat are now one Claude",
+      "subtitle": "Starting today, Claude Cowork and chat are one Claude, rolling out on Pro and Max plans. Hand over the task and Claude does the work. You keep the final say.",
+      "date": "2026-09-16T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Design",
+          "href": "https://claude.com/product/design"
+        },
+        {
+          "text": "Help Center",
+          "href": "https://support.claude.com/en/articles/16761823"
+        }
+      ],
+      "word_count": 630,
+      "duration": 256.888163,
+      "bytes": 2812247,
+      "episode": 44,
+      "created": "2026-09-16T18:55:06+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg"
     }
   ],
-  "next_episode": 44,
+  "next_episode": 45,
   "baseline_date": "2026-08-14"
 }

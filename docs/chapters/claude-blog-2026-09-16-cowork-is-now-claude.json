@@ -1,0 +1,21 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 117.5,
+   "title": "What it looks like"
+  },
+  {
+   "startTime": 187.5,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 236.29,
+   "title": "Outro"
+  }
+ ]
+}
