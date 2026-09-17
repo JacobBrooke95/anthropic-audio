@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 16 Sep 2026 18:55:06 +0000</lastBuildDate>
-    <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2026 19:14:03 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,96 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Introducing the Life Sciences Verification Program</title>
+      <itunes:title>News: Introducing the Life Sciences Verification Program</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-17-life-sciences-verification-program/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+      <pubDate>Thu, 17 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/life-sciences-verification-program
+Published September 17, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• apply here: https://claude.com/form/life-sciences-verification-program
+• Claude Science: https://claude.com/product/claude-science
+• Claude.ai: http://claude.ai/redirect/website.v1.645e23ac-27e1-49e2-a8e6-3242b4a9b897
+• threat report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Enterprise Frontier Safeguards: https://www.anthropic.com/news/enterprise-frontier-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-17-life-sciences-verification-program/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/life-sciences-verification-program">https://www.anthropic.com/news/life-sciences-verification-program</a><br/><strong>Published:</strong> September 17, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 1,385 words · 10 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/form/life-sciences-verification-program">apply here</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="http://claude.ai/redirect/website.v1.645e23ac-27e1-49e2-a8e6-3242b4a9b897">Claude.ai</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">threat report</a></li><li><a href="https://www.anthropic.com/news/enterprise-frontier-safeguards">Enterprise Frontier Safeguards</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-17-life-sciences-verification-program/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-09-17-life-sciences-verification-program.mp3" length="5899816" type="audio/mpeg"/>
+      <itunes:duration>641</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-09-17-life-sciences-verification-program.jpg?v=93a6e3ff"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-17-life-sciences-verification-program.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-09-17-life-sciences-verification-program.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/life-sciences-verification-program
+Published September 17, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• apply here: https://claude.com/form/life-sciences-verification-program
+• Claude Science: https://claude.com/product/claude-science
+• Claude.ai: http://claude.ai/redirect/website.v1.645e23ac-27e1-49e2-a8e6-3242b4a9b897
+• threat report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Enterprise Frontier Safeguards: https://www.anthropic.com/news/enterprise-frontier-safeguards
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-17-life-sciences-verification-program/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>45</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-17-life-sciences-verification-program.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-17-life-sciences-verification-program.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Projects redesigned: from folder to conversation</title>
+      <itunes:title>Claude Blog: Projects redesigned: from folder to conversation</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-17-projects-redesigned/</link>
+      <guid isPermaLink="false">https://claude.com/blog/projects-redesigned</guid>
+      <pubDate>Thu, 17 Sep 2026 16:00:00 +0000</pubDate>
+      <description>A new experience for Claude projects, now available in beta in Claude Code
+
+Source: https://claude.com/blog/projects-redesigned
+Published September 17, 2026 · Claude Blog
+
+Links referenced in the post:
+• waitlist: https://claude.com/form/projects
+• projects: https://claude.com/projects
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-17-projects-redesigned/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>A new experience for Claude projects, now available in beta in Claude Code</p><p><strong>Source:</strong> <a href="https://claude.com/blog/projects-redesigned">https://claude.com/blog/projects-redesigned</a><br/><strong>Published:</strong> September 17, 2026 · Claude Blog<br/><strong>Length:</strong> 688 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/form/projects">waitlist</a></li><li><a href="https://claude.com/projects">projects</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-17-projects-redesigned/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-17-projects-redesigned.mp3" length="3287700" type="audio/mpeg"/>
+      <itunes:duration>313</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-17-projects-redesigned.jpg?v=04fa5961"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-17-projects-redesigned.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-17-projects-redesigned.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>A new experience for Claude projects, now available in beta in Claude Code</itunes:subtitle>
+      <itunes:summary>A new experience for Claude projects, now available in beta in Claude Code
+
+Source: https://claude.com/blog/projects-redesigned
+Published September 17, 2026 · Claude Blog
+
+Links referenced in the post:
+• waitlist: https://claude.com/form/projects
+• projects: https://claude.com/projects
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-17-projects-redesigned/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>46</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-17-projects-redesigned.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-17-projects-redesigned.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Claude Cowork and chat are now one Claude</title>
       <itunes:title>Claude Blog: Claude Cowork and chat are now one Claude</itunes:title>

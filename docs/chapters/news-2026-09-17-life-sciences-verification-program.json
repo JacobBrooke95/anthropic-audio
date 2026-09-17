@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 86.25,
+   "title": "Verification and access types"
+  },
+  {
+   "startTime": 237.77,
+   "title": "Enabling trusted access through shared responsibility"
+  },
+  {
+   "startTime": 377.72,
+   "title": "How monitoring works in LSVP"
+  },
+  {
+   "startTime": 444.12,
+   "title": "What researchers are saying"
+  },
+  {
+   "startTime": 524.46,
+   "title": "Applications and availability"
+  },
+  {
+   "startTime": 598.8,
+   "title": "What comes next"
+  },
+  {
+   "startTime": 619.13,
+   "title": "Outro"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.633
+This is Anthropic, Read Aloud. Today: Projects redesigned: from folder to conversation.
+
+2
+00:00:08.933 --> 00:00:12.032
+Projects redesigned: from folder to conversation.
+
+3
+00:00:12.482 --> 00:00:17.105
+A new experience for Claude projects, now available in beta in Claude Code.
+
+4
+00:00:17.555 --> 00:00:21.885
+From Claude Blog, published September 17, 2026.
+
+5
+00:00:22.885 --> 00:00:37.319
+Managing multiple sessions across a build used to require you to divide the work, juggle handoffs, and stitch the results back together. Now in a Claude Code project, you describe what needs to get done and Claude manages the work.
+
+6
+00:00:37.769 --> 00:00:52.184
+Claude scopes the request, delegates the work, coordinates parallel threads, reviews the outputs, and assembles the finished result. You can steer progress throughout, even from your phone, and it keeps working after you step away from your computer.
+
+7
+00:00:52.634 --> 00:01:13.264
+For example, configure a project and set a goal to reduce your app's checkout p75 latency. Then ask Claude to profile each endpoint, test optimizations, and open P Rs in parallel threads. Or connect your A P I, web, and mobile repos and set a goal to retire a deprecated v1 endpoint.
+
+8
+00:01:13.384 --> 00:01:21.746
+Claude creates a thread per repo to migrate the callers, run the tests, open P Rs, and then tells you which ones need to merge first.
+
+9
+00:01:22.196 --> 00:01:34.488
+Starting today, updated projects are available in beta to select Claude Pro and Max subscribers who use cloud sessions in Claude Code and don’t have any existing projects on the web or desktop.
+
+10
+00:01:34.938 --> 00:01:50.401
+Over the coming week, we'll expand access to more Claude Code users on those plans. Updated projects across all of Claude and Team and Enterprise plans come after that. If you're on Pro or Max and don't have access yet, you can join the waitlist.
+
+11
+00:01:50.851 --> 00:01:59.247
+Existing projects on Pro and Max plans keep working as they do today. We'll upgrade them as the rollout expands to chat and Cowork.
+
+12
+00:02:00.047 --> 00:02:02.137
+Threads do the work, Claude directs it.
+
+13
+00:02:02.587 --> 00:02:06.534
+Projects have threads that do the work and a coordinator that directs them.
+
+14
+00:02:06.984 --> 00:02:21.271
+When you start a project, you select a goal as well as the repo or context. Claude starts by suggesting work it can pick up right away. You can configure the project’s cloud environment, connectors, plugins, instructions, and model.
+
+15
+00:02:21.721 --> 00:02:36.867
+You can monitor and guide progress in the main project chat, or dive into each individual thread to examine and steer the details. Brief Claude in the project the way you'd brief a chief of staff and it routes work to new or pre-existing threads.
+
+16
+00:02:37.317 --> 00:02:48.460
+Claude also checks in and follows through on work. With repositories connected, a thread opens pull requests and runs your tests; with documents, it reads them and drafts.
+
+17
+00:02:48.910 --> 00:03:04.977
+Under the hood, each thread is a Claude Code cloud session working on its own branch and copy of the repo. The coordinator keeps work organized, but if any threads work on the same code, the overlap is resolved as a merge conflict just like any other P R.
+
+18
+00:03:05.427 --> 00:03:14.469
+Each thread can further split its delegated work into pieces using subagents, loops, and workflows when needed so large assignments finish faster.
+
+19
+00:03:15.269 --> 00:03:16.852
+Context builds over time.
+
+20
+00:03:17.302 --> 00:03:25.275
+Projects are designed for long-running or agentic workflows: work that takes longer than one reply and has more than one part.
+
+21
+00:03:25.725 --> 00:03:37.788
+Over time, Claude learns more about the project details and applies them to its work. Every thread now adds to and draws from a shared memory, reducing the need for complex prompt engineering.
+
+22
+00:03:38.238 --> 00:03:46.579
+For example, Claude can remember the release moved to Friday, why the export was dropped, or who to check in with before touching the billing service.
+
+23
+00:03:47.029 --> 00:03:55.795
+Figure 1: One project across a week. Each request opens a thread on the right; the memory, the decisions, and the results build underneath.
+
+24
+00:03:56.245 --> 00:04:07.264
+Claude also remembers your working and communication style. You can ask it to adjust how often it checks in, how frequently it starts new threads, or how detailed to make each update.
+
+25
+00:04:07.714 --> 00:04:20.919
+Alongside memory, projects now include a library that collects the files you add and the artifacts produced by Claude. This makes it easier to find relevant materials and for new work to build on past efforts.
+
+26
+00:04:21.719 --> 00:04:22.614
+What's next.
+
+27
+00:04:23.064 --> 00:04:40.755
+Projects can run several threads at once, and each one is a full Claude Code session. Because of this, projects can reach usage limits faster. You can check project specific usage and select the model and effort levels used by the coordinator chat as well as the worker threads.
+
+28
+00:04:41.205 --> 00:04:49.039
+Threads run in the cloud today; running on your machine alongside your local tools and code and behind your network is coming very soon.
+
+29
+00:04:49.489 --> 00:04:50.794
+Start using projects.
+
+30
+00:04:51.794 --> 00:05:09.357
+That was Projects redesigned: from folder to conversation, from Claude Blog, published September 17, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

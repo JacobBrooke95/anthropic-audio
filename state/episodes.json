@@ -4663,6 +4663,22 @@
       "updated": "2026-09-16T18:55:06+00:00",
       "slug": "claude-blog-2026-09-16-cowork-is-now-claude",
       "episode": 44
+    },
+    "https://www.anthropic.com/news/life-sciences-verification-program": {
+      "first_seen": "2026-09-17T19:08:18+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-17T19:08:18+00:00",
+      "slug": "news-2026-09-17-life-sciences-verification-program",
+      "episode": 45
+    },
+    "https://claude.com/blog/projects-redesigned": {
+      "first_seen": "2026-09-17T19:14:02+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-17T19:14:02+00:00",
+      "slug": "claude-blog-2026-09-17-projects-redesigned",
+      "episode": 46
     }
   },
   "episodes": [
@@ -7044,8 +7060,72 @@
       "episode": 44,
       "created": "2026-09-16T18:55:06+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg"
+    },
+    {
+      "slug": "news-2026-09-17-life-sciences-verification-program",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "source": "news",
+      "title": "Introducing the Life Sciences Verification Program",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-09-17T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "apply here",
+          "href": "https://claude.com/form/life-sciences-verification-program"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "Claude.ai",
+          "href": "http://claude.ai/redirect/website.v1.645e23ac-27e1-49e2-a8e6-3242b4a9b897"
+        },
+        {
+          "text": "threat report",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "text": "Enterprise Frontier Safeguards",
+          "href": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+        }
+      ],
+      "word_count": 1385,
+      "duration": 641.097143,
+      "bytes": 5899816,
+      "episode": 45,
+      "created": "2026-09-17T19:08:18+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=cactus"
+    },
+    {
+      "slug": "claude-blog-2026-09-17-projects-redesigned",
+      "url": "https://claude.com/blog/projects-redesigned",
+      "source": "claude-blog",
+      "title": "Projects redesigned: from folder to conversation",
+      "subtitle": "A new experience for Claude projects, now available in beta in Claude Code",
+      "date": "2026-09-17T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "waitlist",
+          "href": "https://claude.com/form/projects"
+        },
+        {
+          "text": "projects",
+          "href": "https://claude.com/projects"
+        }
+      ],
+      "word_count": 688,
+      "duration": 313.338776,
+      "bytes": 3287700,
+      "episode": 46,
+      "created": "2026-09-17T19:14:02+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac1eaf2091cb214f764427_og_projects-redesigned.jpg"
     }
   ],
-  "next_episode": 45,
+  "next_episode": 47,
   "baseline_date": "2026-08-14"
 }
