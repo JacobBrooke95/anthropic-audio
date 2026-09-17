@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 255.32,
+   "title": "Accelerating protein structure prediction and design models"
+  },
+  {
+   "startTime": 560.1,
+   "title": "Enabling modeling of massive biomolecular systems"
+  },
+  {
+   "startTime": 780.43,
+   "title": "Claude efficiently designs de novo protein binders"
+  },
+  {
+   "startTime": 928.67,
+   "title": "Co-sponsoring a protein design competition with Adaptyv Bio"
+  },
+  {
+   "startTime": 1020.19,
+   "title": "Further reading"
+  },
+  {
+   "startTime": 1037.47,
+   "title": "Outro"
+  }
+ ]
+}

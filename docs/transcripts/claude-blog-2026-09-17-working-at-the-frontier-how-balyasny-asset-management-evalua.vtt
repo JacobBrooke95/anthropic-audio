@@ -1,0 +1,181 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:11.433
+This is Anthropic, Read Aloud. Today: Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5.
+
+2
+00:00:12.733 --> 00:00:18.930
+Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5.
+
+3
+00:00:19.380 --> 00:00:30.369
+We spoke with BAM's Chief A I Officer about why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably.
+
+4
+00:00:30.819 --> 00:00:35.171
+From Claude Blog, published September 17, 2026.
+
+5
+00:00:36.171 --> 00:00:50.251
+Balyasny Asset Management (BAM) is a global, multi-strategy investment firm that manages roughly 38 dollarsbillion in assets and supports a team of roughly 2000 investment professionals and staff.
+
+6
+00:00:50.371 --> 00:01:05.683
+Charlie Flanagan, Chief A I Officer, spoke with Anthropic about how the firm evaluates new models on thousands of real financial tasks, why it built its own platform for running agents, and what changed with the launch of Claude Fable 5.
+
+7
+00:01:06.483 --> 00:01:10.506
+How has frontier A I changed for BAM in 2026?
+
+8
+00:01:10.956 --> 00:01:17.481
+2026 is the year we moved from A I systems that do search to A I systems that do work.
+
+9
+00:01:17.931 --> 00:01:36.806
+The key change has been not just the models, but the harnesses around them, such as Claude Code. They allow the A I solutions we build to take on vastly more complex and longer-running tasks. The ability to give an A I an outcome rather than a prompt, and have it keep working until complete, has been a gamechanger.
+
+10
+00:01:37.256 --> 00:01:58.276
+A practical example is merger-arbitrage analysis. When a deal is announced, agents now build the initial deal-analysis package. They estimate how likely the deal is to close and how long it will take, extract the key economic and legal terms, identify conditions and milestones, and flag the areas that need investor judgment.
+
+11
+00:01:58.726 --> 00:02:21.290
+A year ago, those steps were fragmented across manual research and separate tools; we did not have an agent that could reliably sustain the full multi-step workflow to a usable conclusion. That work used to take three to five days. Now it takes less than one. The agent runs for approximately 30 minutes, with human review before any material output is relied on.
+
+12
+00:02:21.740 --> 00:02:32.119
+We use Anthropic's frontier models, but most of the infrastructure is built in-house at BAM, including the execution harness, data access, and review controls.
+
+13
+00:02:32.919 --> 00:02:36.255
+How did you evaluate Claude Fable 5 before turning it on?
+
+14
+00:02:36.705 --> 00:02:56.820
+One thing we did years ago which has served us extremely well was invest in robust evaluation systems. We test new models on thousands of real-world financial tasks with verifiable outcomes, across equities, macro, and commodities, rather than relying on general benchmarks or isolated demonstrations.
+
+15
+00:02:56.940 --> 00:03:04.891
+It has allowed us to make data-driven decisions around model choice and routing, and is something I think all enterprises should invest in.
+
+16
+00:03:05.341 --> 00:03:24.341
+We test both the model on its own and how it performs inside our agentic environment, with the same tools, files, and requirements our users have. Can it plan the work, choose and use the right tools, find and analyze evidence, recover from errors, check its intermediate results, and produce a grounded deliverable?
+
+17
+00:03:24.461 --> 00:03:32.376
+We also look for specific failure modes, like numerical errors, missed coverage, unsupported conclusions, and retrieval problems.
+
+18
+00:03:32.826 --> 00:03:47.748
+On the relevant subset, Fable achieved 89.4 percent versus 86.1 percent for the prior production model, across thousands of tasks. Where it stood out most was complex planning, analysis, and agentic execution.
+
+19
+00:03:48.198 --> 00:04:05.713
+The surprising result was a set of economics problems we have tested that we have never had a model complete successfully, until Fable. We initially treated the result as a potential evaluation issue because it represented a material step change versus every model we had tested.
+
+20
+00:04:05.833 --> 00:04:17.434
+We reran the evaluation, independently checked the task and scoring logic, and reviewed the result with Anthropic before concluding that the improvement was real. It was a wow moment.
+
+21
+00:04:17.884 --> 00:04:30.422
+Today, our investment teams use Fable as their go-to frontier model for systematic and coding work. We give them guidance on when to use Fable versus other models, based on efficiency and cost.
+
+22
+00:04:31.222 --> 00:04:34.525
+How are you thinking about safety with today's frontier models?
+
+23
+00:04:34.975 --> 00:04:54.814
+We treat safety as a product and operating-model question, not as a one-time model-selection exercise. The relevant questions are not only what the model can do, but what data it can access, what tools it can use, what actions it can take, what must remain human-approved, and how we will know when something has gone wrong.
+
+24
+00:04:55.264 --> 00:05:17.194
+That means putting controls around the model rather than assuming the model itself is the control. We use approved data boundaries, least-privilege access, tool-level permissions, logging and traceability, human review for material outputs, and clear escalation paths for edge cases. We also test adversarial and failure scenarios before broadening access.
+
+25
+00:05:17.644 --> 00:05:37.925
+Those controls were a day-one priority, and security did not fundamentally change with Fable. A more capable model does not receive broader authority simply because it can reason or plan more effectively. Models can use only the tools and data sources approved for that user and task, and they cannot grant themselves more access.
+
+26
+00:05:38.045 --> 00:05:41.325
+Investment judgment and accountability remain with people.
+
+27
+00:05:42.125 --> 00:05:43.934
+Where does BAMAgent fit in?
+
+28
+00:05:44.384 --> 00:06:07.976
+Looking ahead, the direction of travel is toward more capable agents that can take longer-running, multi-step actions. That makes governance more important, not less. For us, that has meant building BAMAgent, our internal platform for securely deploying agents into approved enterprise workflows. It gives agents the tools and systems they need, but only those tools and systems.
+
+29
+00:06:08.096 --> 00:06:14.866
+We have been building it for six months now and it supports thousands of autonomous agents working 24/7.
+
+30
+00:06:15.316 --> 00:06:33.734
+BAMAgent is the next step beyond our chat platform. Chat helps people take in and synthesize information. BAMAgent does the work: multi-step research and analysis that can run for hours or days, with agents working in parallel, and it ends in something a person can review.
+
+31
+00:06:33.854 --> 00:06:54.648
+It can build and maintain a company research package, prepare for an earnings or macro event, or turn new evidence into financial scenarios. The agent plans the work, uses approved internal systems, runs the analysis, checks its intermediate outputs, and returns a research artifact, model, or decision-support package.
+
+32
+00:06:55.098 --> 00:07:14.945
+Fable is our preferred model for the planning and analysis stages. A mistake there flows through every deliverable that follows, so we want the strongest available model deciding how to break down a problem, which evidence matters, and how to reconcile conflicting signals. That is what lets the agent work like a capable coworker.
+
+33
+00:07:15.395 --> 00:07:26.744
+Every enterprise should be developing a strategy to move toward a hosted-agent model that allows enterprise management and enforcement while maximizing the utility of agents for users.
+
+34
+00:07:27.544 --> 00:07:30.827
+What has Claude Fable 5 made possible for BAM?
+
+35
+00:07:31.277 --> 00:07:39.006
+The reaction has been incredibly positive. Ultimately, people care about what this technology can unlock in their day-to-day work.
+
+36
+00:07:39.456 --> 00:07:58.720
+In one example, a BAMAgent ran a tax-loss harvesting analysis. It explored 90000 database tables, found the relevant mutual fund holdings data, and built its own weighting system. After a review by our team, the result was more comprehensive than what a traditional approach would have produced.
+
+37
+00:07:59.170 --> 00:08:12.686
+Separately, our Chief Economist has configured an agent workflow that reduces a recurring central-bank analysis from roughly two days to approximately 30 minutes, with the economist retaining review and judgment.
+
+38
+00:08:13.136 --> 00:08:30.649
+Fable contributes the reasoning, synthesis, and multi-step problem-solving. BAM's harness provides the workflow design, approved data and tool access, retrieval context, permissions, monitoring, and human-review controls. Both are necessary for a production-quality result.
+
+39
+00:08:31.449 --> 00:08:35.665
+As models become increasingly powerful, what's next on your A I roadmap?
+
+40
+00:08:36.115 --> 00:08:49.456
+This is the year we go from people having tools to having teammates. Much like a teammate, agents will become more useful over time as you work with them, complete more complex tasks, and start to do work proactively to help.
+
+41
+00:08:49.906 --> 00:09:01.493
+We already have some teams running over 300 agents doing analysis over new data and information constantly. It helps the teams both be faster to insights and not miss anything.
+
+42
+00:09:01.943 --> 00:09:13.724
+It also changes the question we ask. We used to build expert systems and teach people to automate the processes they already had. Now we ask whether there is a better way to reach the outcome.
+
+43
+00:09:14.174 --> 00:09:30.494
+The limits are really just our own imagination. The tools, data, and models are now at a point where they can do real work for hours on end; it's up to us to continue to reimagine what is possible. It is going to be an incredibly exciting next 12 months.
+
+44
+00:09:30.944 --> 00:09:32.514
+Get started with Claude Fable.
+
+45
+00:09:33.514 --> 00:09:53.563
+That was Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5, from Claude Blog, published September 17, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

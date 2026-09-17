@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 66.48,
+   "title": "How has frontier A I changed for BAM in 2026?"
+  },
+  {
+   "startTime": 152.92,
+   "title": "How did you evaluate Claude Fable 5 before turning it on?"
+  },
+  {
+   "startTime": 271.22,
+   "title": "How are you thinking about safety with today's frontier models?"
+  },
+  {
+   "startTime": 342.13,
+   "title": "Where does BAMAgent fit in?"
+  },
+  {
+   "startTime": 447.54,
+   "title": "What has Claude Fable 5 made possible for BAM?"
+  },
+  {
+   "startTime": 511.45,
+   "title": "As models become increasingly powerful, what's next on your A I roadmap?"
+  },
+  {
+   "startTime": 573.51,
+   "title": "Outro"
+  }
+ ]
+}

@@ -4679,6 +4679,22 @@
       "updated": "2026-09-17T19:14:02+00:00",
       "slug": "claude-blog-2026-09-17-projects-redesigned",
       "episode": 46
+    },
+    "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": {
+      "first_seen": "2026-09-17T22:20:15+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-17T22:20:15+00:00",
+      "slug": "research-2026-09-17-claude-uplifts-biomolecular-modeling",
+      "episode": 47
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5": {
+      "first_seen": "2026-09-17T22:28:58+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-17T22:28:58+00:00",
+      "slug": "claude-blog-2026-09-17-working-at-the-frontier-how-balyasny-asset-management-evalua",
+      "episode": 48
     }
   },
   "episodes": [
@@ -7124,8 +7140,100 @@
       "episode": 46,
       "created": "2026-09-17T19:14:02+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac1eaf2091cb214f764427_og_projects-redesigned.jpg"
+    },
+    {
+      "slug": "research-2026-09-17-claude-uplifts-biomolecular-modeling",
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+      "source": "research",
+      "title": "How Claude is uplifting biomolecular modeling",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-09-17T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "shared results",
+          "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+        },
+        {
+          "text": "Claude Mythos 5.1",
+          "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "text": "here",
+          "href": "https://github.com/anthropics/uplifting-biomolecular-modeling"
+        },
+        {
+          "text": "here",
+          "href": "https://www-cdn.anthropic.com/d8ca26d0d205708d26c7337cf4cfe7cb52e9b671.pdf"
+        },
+        {
+          "text": "open protein design competitions",
+          "href": "https://proteinbase.com/competitions"
+        },
+        {
+          "text": "here",
+          "href": "https://proteinbase.com/competitions/anthropic-adaptyv-2026"
+        },
+        {
+          "text": "apply here",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSc0Hz1ZWYTt_wkn76ViVxDghmEhG_OeVEcj9YGHxLWqxF1kWw/viewform?usp=dialog"
+        },
+        {
+          "text": "cuEquivariance",
+          "href": "https://github.com/nvidia/cuequivariance"
+        },
+        {
+          "text": "BioNeMo Inference Runtime",
+          "href": "https://github.com/NVIDIA-BioNeMo/BioNeMo-Inference-Runtime"
+        },
+        {
+          "text": "AlphaFold3",
+          "href": "https://www.nature.com/articles/s41586-024-07487-w"
+        },
+        {
+          "text": "ipSAE",
+          "href": "https://www.biorxiv.org/content/10.1101/2025.02.10.637595v2"
+        },
+        {
+          "text": "here",
+          "href": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
+        {
+          "text": "application form",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSc0Hz1ZWYTt_wkn76ViVxDghmEhG_OeVEcj9YGHxLWqxF1kWw/viewform"
+        }
+      ],
+      "word_count": 1741,
+      "duration": 1059.709388,
+      "bytes": 9367867,
+      "episode": 47,
+      "created": "2026-09-17T22:20:15+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/a65d1913ec56de3b90beadf1be2609b03898b42d-3800x1522.png"
+    },
+    {
+      "slug": "claude-blog-2026-09-17-working-at-the-frontier-how-balyasny-asset-management-evalua",
+      "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+      "source": "claude-blog",
+      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "subtitle": "We spoke with BAM's Chief AI Officer about why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably.",
+      "date": "2026-09-17T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Fable",
+          "href": "https://www.anthropic.com/claude/fable"
+        }
+      ],
+      "word_count": 1322,
+      "duration": 597.55102,
+      "bytes": 5583967,
+      "episode": 48,
+      "created": "2026-09-17T22:28:58+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac6145a98bce480cd69d7d_og_working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5.jpg"
     }
   ],
-  "next_episode": 47,
+  "next_episode": 49,
   "baseline_date": "2026-08-14"
 }
