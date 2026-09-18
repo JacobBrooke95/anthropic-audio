@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 17 Sep 2026 22:28:58 +0000</lastBuildDate>
-    <pubDate>Thu, 17 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 21:40:14 +0000</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,50 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Partnering with Accenture on embedded evaluation</title>
+      <itunes:title>News: Partnering with Accenture on embedded evaluation</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-18-accenture-embedded-evaluation/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+      <description>We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.
+
+Source: https://www.anthropic.com/news/accenture-embedded-evaluation
+Published September 18, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• essay: https://darioamodei.com/post/we-must-pace-the-frontier
+• Advanced AI Framework: https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf
+• METR: https://metr.org/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-18-accenture-embedded-evaluation/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/accenture-embedded-evaluation">https://www.anthropic.com/news/accenture-embedded-evaluation</a><br/><strong>Published:</strong> September 18, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 462 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://darioamodei.com/post/we-must-pace-the-frontier">essay</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf">Advanced AI Framework</a></li><li><a href="https://metr.org/">METR</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-18-accenture-embedded-evaluation/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-09-18-accenture-embedded-evaluation.mp3" length="2724547" type="audio/mpeg"/>
+      <itunes:duration>245</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-09-18-accenture-embedded-evaluation.jpg?v=55453624"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-18-accenture-embedded-evaluation.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-09-18-accenture-embedded-evaluation.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five year</itunes:subtitle>
+      <itunes:summary>We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.
+
+Source: https://www.anthropic.com/news/accenture-embedded-evaluation
+Published September 18, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• essay: https://darioamodei.com/post/we-must-pace-the-frontier
+• Advanced AI Framework: https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf
+• METR: https://metr.org/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-18-accenture-embedded-evaluation/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>49</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-18-accenture-embedded-evaluation.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-18-accenture-embedded-evaluation.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Introducing the Life Sciences Verification Program</title>
       <itunes:title>News: Introducing the Life Sciences Verification Program</itunes:title>

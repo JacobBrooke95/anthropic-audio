@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.734
+This is Anthropic, Read Aloud. Today: Partnering with Accenture on embedded evaluation.
+
+2
+00:00:09.034 --> 00:00:12.097
+Partnering with Accenture on embedded evaluation.
+
+3
+00:00:12.547 --> 00:00:29.633
+We’re partnering with Accenture on independent evaluation of frontier A I, part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least 1 dollarsbillion to build capacity in this area over the next five years.
+
+4
+00:00:30.083 --> 00:00:34.594
+From Anthropic Newsroom, published September 18, 2026.
+
+5
+00:00:35.594 --> 00:00:49.610
+We're partnering with Accenture on independent evaluation of frontier A I. This is an important step toward the commitment, made in our C E O’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic.
+
+6
+00:00:50.060 --> 00:01:06.657
+The partnership will be led by Faculty, Accenture’s specialist A I business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy A I across many industries.
+
+7
+00:01:06.778 --> 00:01:15.908
+Their understanding of how enterprises use A I in practice informs their safety approach, and they will bring that perspective to evaluating our models.
+
+8
+00:01:16.358 --> 00:01:25.245
+Anthropic and Accenture each expect to invest at least 1 dollarsbillion in building capacity in this area over the next five years.
+
+9
+00:01:25.695 --> 00:01:40.330
+Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside A I companies, with access comparable to an employee's.
+
+10
+00:01:40.450 --> 00:02:00.156
+That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and deployed, and speak directly to employees. From this vantage point, embedded evaluators can assess how a company operates, verify that it is keeping its safety commitments, and identify blind spots.
+
+11
+00:02:00.276 --> 00:02:05.887
+They can also report incidents and give the public a more informed account of benefits and risks.
+
+12
+00:02:06.337 --> 00:02:16.971
+To be clear, independent embedded evaluators do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility.
+
+13
+00:02:17.421 --> 00:02:38.268
+There are, as yet, no standards for what information embedded evaluators should have access to, or how they should report what they find. There is also no settled system for funding independent evaluation. Long-term, we think funding should come from pooled or government sources, as we called for in our Advanced A I Framework in June.
+
+14
+00:02:38.388 --> 00:02:43.786
+As neither exists today, we plan to work with different evaluators under different funding arrangements.
+
+15
+00:02:44.236 --> 00:03:05.227
+Given the importance and urgency of this work, Anthropic will fund Accenture's work directly. We are also in dialogue with METR and other nonprofit evaluators to pilot elements of embedded evaluation using their own funding. Ultimately, we believe frontier A I needs an ecosystem of evaluators operating with shared standards.
+
+16
+00:03:05.677 --> 00:03:21.037
+We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in the coming weeks, and Accenture will work with other A I developers in similar capacities.
+
+17
+00:03:21.487 --> 00:03:42.393
+We'll continue to train and release frontier models, and we want independent evaluators working alongside us as we do. We’re sharing these early efforts now so people and other A I developers can see our process. We expect our approach to evolve as the field matures, and we’ll share more as our work begins and as we bring on additional evaluators.
+
+18
+00:03:43.393 --> 00:04:01.456
+That was Partnering with Accenture on embedded evaluation, from Anthropic Newsroom, published September 18, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

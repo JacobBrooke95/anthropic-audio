@@ -4695,6 +4695,14 @@
       "updated": "2026-09-17T22:28:58+00:00",
       "slug": "claude-blog-2026-09-17-working-at-the-frontier-how-balyasny-asset-management-evalua",
       "episode": 48
+    },
+    "https://www.anthropic.com/news/accenture-embedded-evaluation": {
+      "first_seen": "2026-09-18T21:40:13+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-18T21:40:13+00:00",
+      "slug": "news-2026-09-18-accenture-embedded-evaluation",
+      "episode": 49
     }
   },
   "episodes": [
@@ -7232,8 +7240,38 @@
       "episode": 48,
       "created": "2026-09-17T22:28:58+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac6145a98bce480cd69d7d_og_working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5.jpg"
+    },
+    {
+      "slug": "news-2026-09-18-accenture-embedded-evaluation",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "source": "news",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "subtitle": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+      "date": "2026-09-18T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "essay",
+          "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "text": "Advanced AI Framework",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf"
+        },
+        {
+          "text": "METR",
+          "href": "https://metr.org/"
+        }
+      ],
+      "word_count": 462,
+      "duration": 245.446531,
+      "bytes": 2724547,
+      "episode": 49,
+      "created": "2026-09-18T21:40:13+00:00",
+      "hero": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 49,
+  "next_episode": 50,
   "baseline_date": "2026-08-14"
 }

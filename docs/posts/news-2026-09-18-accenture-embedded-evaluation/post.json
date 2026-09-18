@@ -1,0 +1,74 @@
+{
+ "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+ "source": "news",
+ "slug": "news-2026-09-18-accenture-embedded-evaluation",
+ "title": "Partnering with Accenture on embedded evaluation",
+ "subtitle": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+ "date": "2026-09-18T16:00:00+00:00",
+ "authors": [],
+ "category": "Announcements",
+ "hero": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic.",
+   "html": "We&#x27;re partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">essay</a> “We Must Pace the Frontier,” to embed evaluators within Anthropic."
+  },
+  {
+   "type": "paragraph",
+   "text": "The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy AI across many industries. Their understanding of how enterprises use AI in practice informs their safety approach, and they will bring that perspective to evaluating our models.",
+   "html": "The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy AI across many industries. Their understanding of how enterprises use AI in practice informs their safety approach, and they will bring that perspective to evaluating our models."
+  },
+  {
+   "type": "paragraph",
+   "text": "Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years.",
+   "html": "Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years."
+  },
+  {
+   "type": "paragraph",
+   "text": "Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's. That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and deployed, and speak directly to employees. From this vantage point, embedded evaluators can assess how a company operates, verify that it is keeping its safety commitments, and identify blind spots. They can also report incidents and give the public a more informed account of benefits and risks.",
+   "html": "Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee&#x27;s. That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and deployed, and speak directly to employees. From this vantage point, embedded evaluators can assess how a company operates, verify that it is keeping its safety commitments, and identify blind spots. They can also report incidents and give the public a more informed account of benefits and risks."
+  },
+  {
+   "type": "paragraph",
+   "text": "To be clear, independent embedded evaluators do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility.",
+   "html": "To be clear, independent embedded evaluators do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility."
+  },
+  {
+   "type": "paragraph",
+   "text": "There are, as yet, no standards for what information embedded evaluators should have access to, or how they should report what they find. There is also no settled system for funding independent evaluation. Long-term, we think funding should come from pooled or government sources, as we called for in our Advanced AI Framework in June. As neither exists today, we plan to work with different evaluators under different funding arrangements.",
+   "html": "There are, as yet, no standards for what information embedded evaluators should have access to, or how they should report what they find. There is also no settled system for funding independent evaluation. Long-term, we think funding should come from pooled or government sources, as we called for in our <a href=\"https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf\">Advanced AI Framework</a> in June. As neither exists today, we plan to work with different evaluators under different funding arrangements."
+  },
+  {
+   "type": "paragraph",
+   "text": "Given the importance and urgency of this work, Anthropic will fund Accenture's work directly. We are also in dialogue with METR and other nonprofit evaluators to pilot elements of embedded evaluation using their own funding. Ultimately, we believe frontier AI needs an ecosystem of evaluators operating with shared standards.",
+   "html": "Given the importance and urgency of this work, Anthropic will fund Accenture&#x27;s work directly. We are also in dialogue with <a href=\"https://metr.org/\">METR</a> and other nonprofit evaluators to pilot elements of embedded evaluation using their own funding. Ultimately, we believe frontier AI needs an ecosystem of evaluators operating with shared standards."
+  },
+  {
+   "type": "paragraph",
+   "text": "We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in the coming weeks, and Accenture will work with other AI developers in similar capacities.",
+   "html": "We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in the coming weeks, and Accenture will work with other AI developers in similar capacities."
+  },
+  {
+   "type": "paragraph",
+   "text": "We'll continue to train and release frontier models, and we want independent evaluators working alongside us as we do. We’re sharing these early efforts now so people and other AI developers can see our process. We expect our approach to evolve as the field matures, and we’ll share more as our work begins and as we bring on additional evaluators.",
+   "html": "We&#x27;ll continue to train and release frontier models, and we want independent evaluators working alongside us as we do. We’re sharing these early efforts now so people and other AI developers can see our process. We expect our approach to evolve as the field matures, and we’ll share more as our work begins and as we bring on additional evaluators."
+  }
+ ],
+ "links": [
+  {
+   "text": "essay",
+   "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+  },
+  {
+   "text": "Advanced AI Framework",
+   "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf"
+  },
+  {
+   "text": "METR",
+   "href": "https://metr.org/"
+  }
+ ],
+ "word_count": 462,
+ "fetched_at": "2026-09-18T21:35:49+00:00"
+}
