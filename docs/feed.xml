@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 18 Sep 2026 21:40:14 +0000</lastBuildDate>
-    <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2026 19:07:28 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,68 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: What a task costs on Opus 5.5</title>
+      <itunes:title>Claude Blog: What a task costs on Opus 5.5</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5/</link>
+      <guid isPermaLink="false">https://claude.com/blog/what-a-task-costs-on-opus-5-5</guid>
+      <pubDate>Tue, 22 Sep 2026 16:00:00 +0000</pubDate>
+      <description>The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
+
+Source: https://claude.com/blog/what-a-task-costs-on-opus-5-5
+Published September 22, 2026 · Claude Blog
+
+Links referenced in the post:
+• Thinking: https://platform.claude.com/docs/en/build-with-claude/extended-thinking
+• /model: https://code.claude.com/docs/en/model-config
+• subagent: https://code.claude.com/docs/en/sub-agents
+• prompting anti-patterns: https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
+• CLAUDE.md file: https://code.claude.com/docs/en/memory
+• costs docs: https://code.claude.com/docs/en/costs
+• Claude Code Analytics API: https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api
+• Usage and Cost API: https://platform.claude.com/docs/en/manage-claude/usage-cost-api
+• Choosing a Claude model and effort level in Claude Code: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+• Effort: https://platform.claude.com/docs/en/build-with-claude/effort
+• Prompt caching: https://platform.claude.com/docs/en/build-with-claude/prompt-caching
+• Maximizing the value of your Claude Code sessions: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/what-a-task-costs-on-opus-5-5">https://claude.com/blog/what-a-task-costs-on-opus-5-5</a><br/><strong>Published:</strong> September 22, 2026 · Claude Blog<br/><strong>Length:</strong> 4,226 words · 27 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking">Thinking</a></li><li><a href="https://code.claude.com/docs/en/model-config">/model</a></li><li><a href="https://code.claude.com/docs/en/sub-agents">subagent</a></li><li><a href="https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform">prompting anti-patterns</a></li><li><a href="https://code.claude.com/docs/en/memory">CLAUDE.md file</a></li><li><a href="https://code.claude.com/docs/en/costs">costs docs</a></li><li><a href="https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api">Claude Code Analytics API</a></li><li><a href="https://platform.claude.com/docs/en/manage-claude/usage-cost-api">Usage and Cost API</a></li><li><a href="https://claude.com/blog/claude-model-and-effort-level-in-claude-code">Choosing a Claude model and effort level in Claude Code</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/effort">Effort</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching">Prompt caching</a></li><li><a href="https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions">Maximizing the value of your Claude Code sessions</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.mp3" length="13932463" type="audio/mpeg"/>
+      <itunes:duration>1648</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.jpg?v=49be8dfc"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.</itunes:subtitle>
+      <itunes:summary>The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
+
+Source: https://claude.com/blog/what-a-task-costs-on-opus-5-5
+Published September 22, 2026 · Claude Blog
+
+Links referenced in the post:
+• Thinking: https://platform.claude.com/docs/en/build-with-claude/extended-thinking
+• /model: https://code.claude.com/docs/en/model-config
+• subagent: https://code.claude.com/docs/en/sub-agents
+• prompting anti-patterns: https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
+• CLAUDE.md file: https://code.claude.com/docs/en/memory
+• costs docs: https://code.claude.com/docs/en/costs
+• Claude Code Analytics API: https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api
+• Usage and Cost API: https://platform.claude.com/docs/en/manage-claude/usage-cost-api
+• Choosing a Claude model and effort level in Claude Code: https://claude.com/blog/claude-model-and-effort-level-in-claude-code
+• Effort: https://platform.claude.com/docs/en/build-with-claude/effort
+• Prompt caching: https://platform.claude.com/docs/en/build-with-claude/prompt-caching
+• Maximizing the value of your Claude Code sessions: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>50</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Partnering with Accenture on embedded evaluation</title>
       <itunes:title>News: Partnering with Accenture on embedded evaluation</itunes:title>

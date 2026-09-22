@@ -1,0 +1,117 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 26.46,
+   "title": "The cost of a task, and the cost of a retry"
+  },
+  {
+   "startTime": 106.78,
+   "title": "What does a task cost?"
+  },
+  {
+   "startTime": 182.42,
+   "title": "Turns"
+  },
+  {
+   "startTime": 246.87,
+   "title": "Cache reads"
+  },
+  {
+   "startTime": 272.7,
+   "title": "Output tokens"
+  },
+  {
+   "startTime": 299.7,
+   "title": "Model"
+  },
+  {
+   "startTime": 309.79,
+   "title": "What changed in Opus 5.5"
+  },
+  {
+   "startTime": 451.01,
+   "title": "The same tasks side-by-side"
+  },
+  {
+   "startTime": 624.4,
+   "title": "Tips for maximizing the value of your session"
+  },
+  {
+   "startTime": 636.86,
+   "title": "Raise effort before you change models"
+  },
+  {
+   "startTime": 717.36,
+   "title": "When medium fixes one layer"
+  },
+  {
+   "startTime": 770.35,
+   "title": "Changing effort mid-session"
+  },
+  {
+   "startTime": 797.92,
+   "title": "Choose the right model for your work"
+  },
+  {
+   "startTime": 821.68,
+   "title": "Opus 5.5 as the daily driver"
+  },
+  {
+   "startTime": 923.09,
+   "title": "Moving down for lookups"
+  },
+  {
+   "startTime": 1017.74,
+   "title": "Check your prompts when you migrate"
+  },
+  {
+   "startTime": 1102.81,
+   "title": "Caching and compaction"
+  },
+  {
+   "startTime": 1111.24,
+   "title": "How the cache works"
+  },
+  {
+   "startTime": 1189.23,
+   "title": "Session shape and hit rate"
+  },
+  {
+   "startTime": 1247.61,
+   "title": "Why long sessions cost more per turn"
+  },
+  {
+   "startTime": 1304.29,
+   "title": "Compaction, /compact and /clear"
+  },
+  {
+   "startTime": 1383.29,
+   "title": "What loads before you type"
+  },
+  {
+   "startTime": 1412.87,
+   "title": "The rest of the bill"
+  },
+  {
+   "startTime": 1421.33,
+   "title": "Measure it yourself"
+  },
+  {
+   "startTime": 1499.07,
+   "title": "Reading a session"
+  },
+  {
+   "startTime": 1554.51,
+   "title": "Keep in mind"
+  },
+  {
+   "startTime": 1627.23,
+   "title": "Outro"
+  }
+ ]
+}

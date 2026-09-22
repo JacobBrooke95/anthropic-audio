@@ -4703,6 +4703,14 @@
       "updated": "2026-09-18T21:40:13+00:00",
       "slug": "news-2026-09-18-accenture-embedded-evaluation",
       "episode": 49
+    },
+    "https://claude.com/blog/what-a-task-costs-on-opus-5-5": {
+      "first_seen": "2026-09-22T19:07:27+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-22T19:07:27+00:00",
+      "slug": "claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5",
+      "episode": 50
     }
   },
   "episodes": [
@@ -7270,8 +7278,74 @@
       "episode": 49,
       "created": "2026-09-18T21:40:13+00:00",
       "hero": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5",
+      "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+      "source": "claude-blog",
+      "title": "What a task costs on Opus 5.5",
+      "subtitle": "The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.",
+      "date": "2026-09-22T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Thinking",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+        },
+        {
+          "text": "/model",
+          "href": "https://code.claude.com/docs/en/model-config"
+        },
+        {
+          "text": "subagent",
+          "href": "https://code.claude.com/docs/en/sub-agents"
+        },
+        {
+          "text": "prompting anti-patterns",
+          "href": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"
+        },
+        {
+          "text": "CLAUDE.md file",
+          "href": "https://code.claude.com/docs/en/memory"
+        },
+        {
+          "text": "costs docs",
+          "href": "https://code.claude.com/docs/en/costs"
+        },
+        {
+          "text": "Claude Code Analytics API",
+          "href": "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api"
+        },
+        {
+          "text": "Usage and Cost API",
+          "href": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api"
+        },
+        {
+          "text": "Choosing a Claude model and effort level in Claude Code",
+          "href": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+        },
+        {
+          "text": "Effort",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/effort"
+        },
+        {
+          "text": "Prompt caching",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
+        },
+        {
+          "text": "Maximizing the value of your Claude Code sessions",
+          "href": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"
+        }
+      ],
+      "word_count": 4226,
+      "duration": 1648.274286,
+      "bytes": 13932463,
+      "episode": 50,
+      "created": "2026-09-22T19:07:27+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2b3cd0ef2a7b31c037352_og_what-a-task-costs-on-opus-5-5.jpg"
     }
   ],
-  "next_episode": 50,
+  "next_episode": 51,
   "baseline_date": "2026-08-14"
 }
