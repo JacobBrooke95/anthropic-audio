@@ -1,0 +1,691 @@
+{
+ "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects",
+ "title": "How to prepare for AI-driven code modernization projects",
+ "subtitle": "Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.",
+ "date": "2026-09-23T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3d3f3dbdbc6a5f1d0f52a_og_how-tohow-to-prepare-for-ai-driven-code-modernization-projects-prepare-for-ai-driven-code.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "In our Notes from the Field series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects.",
+   "html": "<em>In our </em><strong><em>Notes from the Field </em></strong><em>series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Code modernizations once scoped as multi-year, all-hands efforts can now finish in months (or weeks ), but the organizational work on either side often remains the same.",
+   "html": "<a href=\"https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization\">Code modernizations </a>once scoped as multi-year, all-hands efforts can now finish in months (or <a href=\"https://claude.com/blog/ai-code-migration\">weeks</a>), but the organizational work on either side often remains the same. "
+  },
+  {
+   "type": "paragraph",
+   "text": "For example, every change to a critical banking system must go through change management, review, and approval. It is a robust process because regulators, auditors, and the business require it.",
+   "html": "For example, every change to a critical banking system must go through change management, review, and approval. It is a robust process because regulators, auditors, and the business require it. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Those processes are what make critical systems trustworthy, and they were built on the assumption that a human wrote each change and a human would review each diff. Once agents accelerate writing the changes, the bottleneck shifts from producing changes to mobilizing the organization around them.",
+   "html": "Those processes are what make critical systems trustworthy, and they were built on the assumption that a human wrote each change and a human would review each diff. Once agents accelerate writing the changes, the bottleneck shifts from producing changes to mobilizing the organization around them."
+  },
+  {
+   "type": "paragraph",
+   "text": "This article covers the work enterprises must do before the modernization takes place: defining what done means, what evidence a change must carry, how certified changes will reach production, and what has to be staged so the run can start.",
+   "html": "This article covers the work enterprises must do before the modernization takes place: defining what done means, what evidence a change must carry, how certified changes will reach production, and what has to be staged so the run can start. "
+  },
+  {
+   "type": "paragraph",
+   "text": "We break this process into six steps:",
+   "html": "We break this process into six steps:"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    {
+     "text": "Define the target: the tech stack and behavior the modernized code must have.",
+     "html": "<strong>Define the target:</strong> the tech stack and behavior the modernized code must have. "
+    },
+    {
+     "text": "Create the certificate: the conditions that the changes must meet to be considered correct in the target state.",
+     "html": "<strong>Create the certificate:</strong> the conditions that the changes must meet to be considered correct in the target state. "
+    },
+    {
+     "text": "Set the promotion policy: the path by which certified changes get into production at the rate they’re produced.",
+     "html": "<strong>Set the promotion policy:</strong> the path by which certified changes get into production at the rate they’re produced. "
+    },
+    {
+     "text": "Put the prerequisites in place: environment, CI/CD, review capacity, and approvals.",
+     "html": "<strong>Put the prerequisites in place:</strong> environment, CI/CD, review capacity, and approvals."
+    },
+    {
+     "text": "Build and refine the agentic workflow: the custom Claude Code dynamic workflow that distributes the modernization across many smaller parallel subagent workstreams that produce the changes. This is built around the target, certificate, and promotion policy.",
+     "html": "<strong>Build and refine the agentic workflow: </strong>the custom Claude Code <a href=\"https://claude.com/blog/introducing-dynamic-workflows-in-claude-code\">dynamic workflow</a> that distributes the modernization across many smaller parallel subagent workstreams that produce the changes. This is built around the target, certificate, and promotion policy."
+    },
+    {
+     "text": "Run the modernization: prove the workflow end to end on a small partition of the codebase, then scale.",
+     "html": "<strong>Run the modernization:</strong> prove the workflow end to end on a small partition of the codebase, then scale. "
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 1: Define the target",
+   "html": "<strong>Step 1: Define the target</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "The target is the end state of the modernization. The desired end state determines which of the three kinds of modernization you are doing, detailed in the table below.",
+   "html": "The<strong> target </strong>is the end state of the modernization. The desired end state determines which of the three kinds of modernization you are doing, detailed in the table below. "
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Determine the modernization type",
+   "html": "<strong>Determine the modernization type</strong>"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "What it is",
+     "Choose when",
+     "The target is"
+    ],
+    [
+     "Uplift",
+     "Same-stack version bump (e.g., C++11 → C++20).",
+     "The stack is fine but the version has fallen behind: end-of-life runtimes, unpatched security issues, dependencies you can no longer upgrade.",
+     "A runtime version and package set."
+    ],
+    [
+     "Transform",
+     "Cross-stack rewrite that keeps behavior fixed (e.g., COBOL → Java).",
+     "The stack is the problem to resolve and the behavior is trusted.",
+     "Everything needed for an uplift, plus the language, frameworks, and architectural conventions the new code must follow."
+    ],
+    [
+     "Reimagine",
+     "Greenfield rebuild on a new architecture with modified behavior.",
+     "The behavior needs to be changed alongside the code.",
+     "Everything needed for a transform, plus a written behavioral spec for the new system."
+    ]
+   ],
+   "caption": "",
+   "html": "<table><tr><td>Type</td><td>What it is</td><td>Choose when</td><td>The target is</td></tr><tr><td>Uplift</td><td>Same-stack version bump (e.g., C++11 → C++20).</td><td>The stack is fine but the version has fallen behind: end-of-life runtimes, unpatched security issues, dependencies you can no longer upgrade.</td><td>A runtime version and package set.</td></tr><tr><td>Transform</td><td>Cross-stack rewrite that keeps behavior fixed (e.g., COBOL → Java).</td><td>The stack is the problem to resolve and the behavior is trusted.</td><td>Everything needed for an uplift, plus the language, frameworks, and architectural conventions the new code must follow.</td></tr><tr><td>Reimagine</td><td>Greenfield rebuild on a new architecture with modified behavior.</td><td>The behavior needs to be changed alongside the code.</td><td>Everything needed for a transform, plus a written behavioral spec for the new system.</td></tr></table>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Determining which type of modernization to do is often debated inside an organization. In our experience, the people closest to production want the stack swapped with behavior held constant to contain risk (transform modernization). On the other side are often the engineers who have lived with the codebase and want the modernization to pay down tech debt, plus other business stakeholders who want to take the opportunity to name new requirements (reimagine modernization).",
+   "html": "Determining which type of modernization to do is often debated inside an organization. In our experience, the people closest to production want the stack swapped with behavior held constant to contain risk (transform modernization). On the other side are often the engineers who have lived with the codebase and want the modernization to pay down tech debt, plus other business stakeholders who want to take the opportunity to name new requirements (reimagine modernization). "
+  },
+  {
+   "type": "paragraph",
+   "text": "Both positions are reasonable, but if the question is left unresolved it resurfaces later as an argument over whether a given change is “correct.” Building consensus on which path to take adds initial friction, but streamlines the project as a whole.",
+   "html": "Both positions are reasonable, but if the question is left unresolved it resurfaces later as an argument over whether a given change is “correct.” Building consensus on which path to take adds initial friction, but streamlines the project as a whole."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Map the codebase and create the behavioral spec",
+   "html": "<strong>Map the codebase and create the behavioral spec</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Understanding the current system is often a good first step for defining the target. Extracting what the old code actually does and creating an inventory of current behavior makes it easy to decide if parts should be changed or dropped, and so whether the modernization is a transform or a reimagine. This also often reveals unknown business logic and edge cases.",
+   "html": "Understanding the current system is often a good first step for defining the target. Extracting what the old code actually does and creating an inventory of current behavior makes it easy to decide if parts should be changed or dropped, and so whether the modernization is a transform or a reimagine. This also often reveals unknown business logic and edge cases. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude can do much of that discovery by mapping dependencies and documenting workflows that nobody remembers building . The code modernization plugin ’s assess, map, and extract-rules commands mine business rules with source citations that engineers can then review.",
+   "html": "Claude can do much of that discovery by <a href=\"https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization\">mapping dependencies and documenting workflows that nobody remembers building</a>. The <a href=\"https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization\">code modernization plugin</a>’s <em>assess, map, </em>and <em>extract-rules</em> commands mine business rules with source citations that engineers can then review. "
+  },
+  {
+   "type": "paragraph",
+   "text": "However, Claude’s discovery alone may not capture how a legacy system fully behaves. Interviews with business users and developers, and internal documentation, can fill those gaps. Context gathering may take some time upfront, but the quality of that context shapes every decision the workflow makes later.",
+   "html": "However, Claude’s discovery alone may not capture how a legacy system fully behaves. Interviews with business users and developers, and internal documentation, can fill those gaps. Context gathering may take some time upfront, but the quality of that context shapes every decision the workflow makes later."
+  },
+  {
+   "type": "paragraph",
+   "text": "For a reimagine, defining the target requires additional work: a detailed behavioral spec should be written down and agreed with user groups.",
+   "html": "For a reimagine, defining the target requires additional work: a detailed behavioral spec should be written down and agreed with user groups."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e022_efbbc4f0.png",
+   "alt": "",
+   "caption": "An interactive dependency map example from the code modernization plugin.",
+   "local": "img/01.png"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Establish the project’s justification and goals",
+   "html": "<strong>Establish the project’s justification and goals</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Alongside defining the target, the organization should consider why the modernization is worth undertaking at all. Modernizing legacy systems can reduce ongoing maintenance and operational costs, however, in our experience, cost reduction has not been the driving goal of most modernization projects.",
+   "html": "Alongside defining the target, the organization should consider why the modernization is worth undertaking at all. Modernizing legacy systems can reduce ongoing maintenance and operational costs, however, in our experience, cost reduction has not been the driving goal of most modernization projects."
+  },
+  {
+   "type": "quote",
+   "text": "Risk reduction is often the most important modernization benefit. Consider the risk of not doing the modernization when debating whether or not to undergo the project.",
+   "html": "Risk reduction is often the most important modernization benefit. Consider the risk of not doing the modernization when debating whether or not to undergo the project. "
+  },
+  {
+   "type": "paragraph",
+   "text": "For example, a system carrying unpatched vulnerabilities can mean a cyber breach or an outage severe enough to put the business itself at risk. An unsupported runtime or a shrinking pool of engineers who understand the system exacerbates the risk.",
+   "html": "For example, a system carrying unpatched vulnerabilities can mean a cyber breach or an outage severe enough to put the business itself at risk. An unsupported runtime or a shrinking pool of engineers who understand the system exacerbates the risk. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Agentic coding tools like Claude Code have shortened modernization timelines, but budgets are still hard to estimate, which leads to inertia. We have released the costs of some of our large-scale modernizations as have others . These can serve as a rough baseline, and we have additional guidance on budget projections at the bottom of this guide.",
+   "html": "Agentic coding tools like Claude Code have shortened modernization timelines, but budgets are still hard to estimate, which leads to inertia. We have released the costs of some of our <a href=\"https://claude.com/blog/ai-code-migration\">large-scale modernizations</a> as have <a href=\"https://claude.com/customers/lg-cns\">others</a>. These can serve as a rough baseline, and we have additional guidance on budget projections at the bottom of this guide. "
+  },
+  {
+   "type": "paragraph",
+   "text": "The main challenge in initiating these projects is usually building the internal consensus and commitment from the teams that own the system, and the teams that depend on it. Building the business case and setting the goals of the project, often at the leadership level, make this part of the process easier. This also helps anchor the tradeoffs in the certificate and promotion policy that follow. When stakeholders disagree over how much risk a change can carry, the risk of not modernizing is the counterweight.",
+   "html": "The main challenge in initiating these projects is usually building the internal consensus and commitment from the teams that own the system, and the teams that depend on it. Building the business case and setting the goals of the project, often at the leadership level, make this part of the process easier. This also helps anchor the tradeoffs in the certificate and promotion policy that follow. When stakeholders disagree over how much risk a change can carry, the risk of not modernizing is the counterweight. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 2: Define the certificate",
+   "html": "<strong>Step 2: Define the certificate</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "The certificate is the set of conditions or tests that every modernization change must meet. Pick the conditions that give the strongest cumulative evidence that the change is correct against the target.",
+   "html": "The <strong>certificate</strong> is the set of conditions or tests that every modernization change must meet. Pick the conditions that give the strongest cumulative evidence that the change is correct against the target. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Each condition should be checkable without a human in the loop, so the agentic workflow can iterate on a change until it meets the certificate or flag it for human review if it can’t.",
+   "html": "Each condition should be checkable without a human in the loop, so the agentic workflow can iterate on a change until it meets the certificate or flag it for human review if it can’t. "
+  },
+  {
+   "type": "paragraph",
+   "text": "What goes into the certificate depends on the target, but will usually draw from this list:",
+   "html": "What goes into the certificate depends on the target, but will usually draw from this list:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The original test suite passes",
+     "html": "The original test suite passes"
+    },
+    {
+     "text": "Claude-authored tests written during the modernization all pass",
+     "html": "Claude-authored tests written during the modernization all pass"
+    },
+    {
+     "text": "Test coverage meets an agreed threshold",
+     "html": "Test coverage meets an agreed threshold"
+    },
+    {
+     "text": "Performance benchmarks stay within an agreed bound",
+     "html": "Performance benchmarks stay within an agreed bound"
+    },
+    {
+     "text": "Independent adversarial reviews by Claude, each in a fresh context window, find no blocking issues",
+     "html": "Independent adversarial reviews by Claude, each in a fresh context window, find no blocking issues"
+    },
+    {
+     "text": "For user interfaces, Claude-driven computer use finds no regressions",
+     "html": "For user interfaces, Claude-driven computer use finds no regressions"
+    },
+    {
+     "text": "Current and target versions produce the same output from the same input, which can be live, recorded, or Claude-generated",
+     "html": "Current and target versions produce the same output from the same input, which can be live, recorded, or Claude-generated"
+    },
+    {
+     "text": "Persisted state and wire formats round-trip between current and target versions",
+     "html": "Persisted state and wire formats round-trip between current and target versions"
+    },
+    {
+     "text": "Changes run in staging for an agreed period with no regressions in error rates, latency, or alerts",
+     "html": "Changes run in staging for an agreed period with no regressions in error rates, latency, or alerts"
+    },
+    {
+     "text": "Static analysis and security scans show no new findings",
+     "html": "Static analysis and security scans show no new findings"
+    },
+    {
+     "text": "For compiled targets, the build is clean and type checks pass",
+     "html": "For compiled targets, the build is clean and type checks pass"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "text": "Write the certificate with the people who will review and promote changes into production. Bring in the developers, user groups, and business leads who depend on the codebase now, while the certificate and agentic workflow are still being designed.",
+   "html": "<strong>Write the certificate with the people who will review and promote changes into production. </strong>Bring in the developers, user groups, and business leads who depend on the codebase now, while the certificate and agentic workflow are still being designed. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Their expertise shapes what the certificate measures, and their early involvement is what earns their buy-in when changes reach review. A good check on the finished certificate is whether they would be comfortable merging on the certificate's evidence alone. If they see their own bar in it, the promotion policy in Step 3 can be lighter.",
+   "html": "Their expertise shapes what the certificate measures, and their early involvement is what earns their buy-in when changes reach review. A good check on the finished certificate is whether they would be comfortable merging on the certificate&#x27;s evidence alone. If they see their own bar in it, the promotion policy in Step 3 can be lighter. "
+  },
+  {
+   "type": "paragraph",
+   "text": "What the certificate checks against, and how, depends on the modernization type.",
+   "html": "What the certificate checks against, and how, depends on the modernization type. "
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "For an uplift modernization , parity is against the original codebase, and the original test suite can be the core of the certificate.",
+     "html": "<strong>For an uplift modernization</strong>,<strong> </strong>parity is against the original codebase, and the original test suite can be the core of the certificate. "
+    },
+    {
+     "text": "For a transform modernization, parity is also against the original codebase, but the original test suite rarely runs on the new stack. Replay of production traffic, differential testing between old and new, and a prod-parallel deployment do most of the work instead.",
+     "html": "<strong>For a transform modernization,</strong> parity is also against the original codebase, but the original test suite rarely runs on the new stack. Replay of production traffic, differential testing between old and new, and a prod-parallel deployment do most of the work instead. "
+    },
+    {
+     "text": "For a reimagine modernization , the certificate is anchored in the behavioral spec. This is the hardest case. A spec is less objective than an existing system to diff against, so a larger degree of model judgement is involved, which can lead to more variable outcomes. Here, the certificate leans on tests written from the spec, independent adversarial reviews by Claude that check each change against the sec, and differential checks where the new system keeps the old one’s behavior. Expect to revise the certificate as the spec is clarified: gaps in the spec show up here first.",
+     "html": "<strong>For a reimagine modernization</strong>, the certificate is anchored in the behavioral spec. This is the hardest case. A spec is less objective than an existing system to diff against, so a larger degree of model judgement is involved, which can lead to more variable outcomes. Here, the certificate leans on tests written from the spec, independent adversarial reviews by Claude that check each change against the sec, and differential checks where the new system keeps the old one’s behavior. Expect to revise the certificate as the spec is clarified: gaps in the spec show up here first."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Older systems often have thin test coverage, flaky tests, and little telemetry. Part of defining the certificate is identifying these gaps. If it will be difficult to support a strong certificate, one of the most useful things to do at this step is to use Claude to build the missing evidence, whether that’s standing up a prod-parallel setup, building a replay harness, or writing more tests.",
+   "html": "Older systems often have thin test coverage, flaky tests, and little telemetry. Part of defining the certificate is identifying these gaps. If it will be difficult to support a strong certificate, one of the most useful things to do at this step is to use Claude to build the missing evidence, whether that’s standing up a prod-parallel setup, building a replay harness, or writing more tests. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 3: Set the promotion policy",
+   "html": "<strong>Step 3: Set the promotion policy</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Agents will produce changes far faster than any human team can review them diff-by-diff. The promotion policy is a tiered review path–written down and agreed in advance–that sets the depth of human review for a change, so the modernization can finish on an acceptable timeline.",
+   "html": "Agents will produce changes far faster than any human team can review them diff-by-diff. The promotion policy is a tiered review path–written down and agreed in advance–that sets the depth of human review for a change, so the modernization can finish on an acceptable timeline. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Like the certificate, work this step with the reviewers, and fit it into your organization's existing change-management process wherever you can. The details will differ by organization and the risk tradeoffs it faces, but a few rules hold everywhere:",
+   "html": "Like the certificate, work this step with the reviewers, and fit it into your organization&#x27;s existing change-management process wherever you can. The details will differ by organization and the risk tradeoffs it faces, but a few rules hold everywhere:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Tier changes by blast radius and agent confidence. Use your organization's own change or risk classification if it has one. Keep full human review for critical paths.",
+     "html": "<strong>Tier changes by blast radius and agent confidence.</strong> Use your organization&#x27;s own change or risk classification if it has one. Keep full human review for critical paths."
+    },
+    {
+     "text": "Fix recurring flags at the source. Group and analyze the flagged changes over time. When the same kind of flag keeps recurring, fix the cause in the agentic workflow or the certificate rather than reviewing each one.",
+     "html": "<strong>Fix recurring flags at the source. </strong>Group and analyze the flagged changes over time. When the same kind of flag keeps recurring, fix the cause in the agentic workflow or the certificate rather than reviewing each one."
+    },
+    {
+     "text": "Design the output format with the reviewers. Agree on what information and format make review the fastest, and what signals give more confidence than others. Have them review early sample outputs in Step 5.",
+     "html": "<strong>Design the output format with the reviewers. </strong>Agree on what information and format make review the fastest, and what signals give more confidence than others. Have them review early sample outputs in Step 5."
+    },
+    {
+     "text": "Allocate SME time effectively . SMEs won't read every final diff, but their judgment is still the scarce input. Make it easy for them to go straight to the changes in the highest-risk tiers, and to the flagged agent decisions within each one, without wading through large diffs. A small number of expert hours then covers the changes that carry the most risk.",
+     "html": "<strong>Allocate SME time effectively</strong>. SMEs won&#x27;t read every final diff, but their judgment is still the scarce input. Make it easy for them to go straight to the changes in the highest-risk tiers, and to the flagged agent decisions within each one, without wading through large diffs. A small number of expert hours then covers the changes that carry the most risk."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Many of these rules front-load SME hours by engaging them early in the project. Their feedback tunes the certificate and the agentic workflow before the full modernization begins.",
+   "html": "Many of these rules front-load SME hours by engaging them early in the project. Their feedback tunes the certificate and the agentic workflow before the full modernization begins."
+  },
+  {
+   "type": "paragraph",
+   "text": "Their sign-off on the samples also becomes further justification for a lighter review path where there is high confidence. This is the reverse of the traditional, non-agentic pattern, where review happens at the end.",
+   "html": "Their sign-off on the samples also becomes further justification for a lighter review path where there is high confidence. This is the reverse of the traditional, non-agentic pattern, where review happens at the end."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e01f_878b06f2.png",
+   "alt": "",
+   "caption": "The path of a change from generation to production.",
+   "local": "img/02.png"
+  },
+  {
+   "type": "paragraph",
+   "text": "The promotion policy should also reflect where the modernization sits on the spectrum between speed and review depth. A modernization racing to a hard deadline, such as a runtime losing support, needs a faster policy with lighter human review and an explicit agreement to accept more risk per change.",
+   "html": "The promotion policy should also reflect where the modernization sits on the spectrum between speed and review depth. A modernization racing to a hard deadline, such as a runtime losing support, needs a faster policy with lighter human review and an explicit agreement to accept more risk per change. "
+  },
+  {
+   "type": "paragraph",
+   "text": "A modernization on a longer timeline can afford deeper human review and a slower cutover. Stakeholders will land on different points of this spectrum depending on their risk appetite and constraints so it is worth locking in before the work starts.",
+   "html": "A modernization on a longer timeline can afford deeper human review and a slower cutover. Stakeholders will land on different points of this spectrum depending on their risk appetite and constraints so it is worth locking in before the work starts."
+  },
+  {
+   "type": "paragraph",
+   "text": "In a regulated environment, taking a lighter human review path for any change can cause real discomfort. Individual approvers hesitate to sign off because they carry the risk of a bad change, while leadership carries the larger risk of an aging system.",
+   "html": "In a regulated environment, taking a lighter human review path for any change can cause real discomfort. Individual approvers hesitate to sign off because they carry the risk of a bad change, while leadership carries the larger risk of an aging system. "
+  },
+  {
+   "type": "paragraph",
+   "text": "In our experience, it is best to have the directive for the promotion policy come from the top of the organization. It is also better to agree on it beforehand so responsibility for a bug that reaches production is shared, not pinned on whoever approved the change.",
+   "html": "In our experience, it is best to have the directive for the promotion policy come from the top of the organization. It is also better to agree on it beforehand so responsibility for a bug that reaches production is shared, not pinned on whoever approved the change."
+  },
+  {
+   "type": "quote",
+   "text": "All of this still depends on a certificate detailed enough to serve as real evidence, and on reviewers who understand how Claude arrived at a change well enough to trust it.",
+   "html": "<strong>All of this still depends on a certificate detailed enough to serve as real evidence, and on reviewers who understand how Claude arrived at a change well enough to trust it. </strong>"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 4: Put the prerequisites in place",
+   "html": "<strong>Step 4: Put the prerequisites in place</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Much of this step runs through teams outside the modernization: platform or infrastructure for the host, QA or release engineering for test capacity, security and compliance for approvals. Each of those teams often has its own backlog or approval process, so open the conversations early, as soon as you have identified the requirements, often while Steps 1 through 3 are still underway.",
+   "html": "Much of this step runs through teams outside the modernization: platform or infrastructure for the host, QA or release engineering for test capacity, security and compliance for approvals. Each of those teams often has its own backlog or approval process, so open the conversations early, as soon as you have identified the requirements, often while Steps 1 through 3 are still underway."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Environment",
+   "html": "<strong>Environment</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A dedicated remote host for running the workflow with the codebase and other relevant sources reachable by Claude",
+     "html": "A dedicated remote host for running the workflow with the codebase and other relevant sources reachable by Claude"
+    },
+    {
+     "text": "Test capacity as required by the certificate",
+     "html": "Test capacity as required by the certificate"
+    },
+    {
+     "text": "Anything that strengthens the certificate: production telemetry, a prod-parallel setup, or production data for replay",
+     "html": "Anything that strengthens the certificate: production telemetry, a prod-parallel setup, or production data for replay"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Codebase and CI/CD",
+   "html": "<strong>Codebase and CI/CD</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A dependency map of the codebase, grounded in build and compile logs; import analysis; or runtime traces. Note: The plugin’s map command is a good starting point, but depending on the size and age of the codebase, more extensive upfront work may need to be done",
+     "html": "A dependency map of the codebase, grounded in build and compile logs; import analysis; or runtime traces. Note: The plugin’s <em>map</em> command is a good starting point, but depending on the size and age of the codebase, more extensive upfront work may need to be done"
+    },
+    {
+     "text": "Planned treatment of any dependencies or packages, as part of the target definition",
+     "html": "Planned treatment of any dependencies or packages, as part of the target definition"
+    },
+    {
+     "text": "A compatibility check ready to add to CI/CD, if needed",
+     "html": "A compatibility check ready to add to CI/CD, if needed"
+    },
+    {
+     "text": "An agreed code-freeze policy, if you are modernizing in place",
+     "html": "An agreed code-freeze policy, if you are modernizing in place"
+    },
+    {
+     "text": "A communication plan for active developers covering any code freezes and new compatibility requirements",
+     "html": "A communication plan for active developers covering any code freezes and new compatibility requirements"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Teams and review",
+   "html": "<strong>Teams and review</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Agreement from other teams that depend on the codebase on how they take part, like signing off on the certificate or reviewing under the promotion policy, with reviewer time set aside",
+     "html": "Agreement from other teams that depend on the codebase on how they take part, like signing off on the certificate or reviewing under the promotion policy, with reviewer time set aside"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Security and compliance",
+   "html": "<strong>Security and compliance</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A model access path for Claude Code approved for source code",
+     "html": "A model access path for Claude Code approved for source code"
+    },
+    {
+     "text": "Least-privilege access for the agentic workflow: write only to modernization branches and no production credentials",
+     "html": "Least-privilege access for the agentic workflow: write only to modernization branches and no production credentials"
+    },
+    {
+     "text": "Secrets and PII scrubbed or masked from the modernization branch",
+     "html": "Secrets and PII scrubbed or masked from the modernization branch"
+    },
+    {
+     "text": "Every change traceable and PR linked to an agent transcript and certificate evidence",
+     "html": "Every change traceable and PR linked to an agent transcript and certificate evidence"
+    },
+    {
+     "text": "License and vulnerability checks on new dependencies",
+     "html": "License and vulnerability checks on new dependencies"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 5: Build and refine the agentic workflow",
+   "html": "<strong>Step 5: Build and refine the agentic workflow</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use Claude Code to develop a customized dynamic workflow for modernizing the codebase.",
+   "html": "Use Claude Code to develop a customized <a href=\"https://claude.com/blog/introducing-dynamic-workflows-in-claude-code\">dynamic workflow</a> for modernizing the codebase. "
+  },
+  {
+   "type": "paragraph",
+   "text": "We recommend starting with the code modernization plugin , and putting everything the workflow may need on the file system or over MCP, where Claude can reach it. This includes the target, certificate, promotion policy, codebase, documentation, and whatever data sources or tooling the certificate requires. You can give this article to Claude as context too. This forms the central knowledge base for the project.",
+   "html": "We recommend starting with the<a href=\"https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization\"> code modernization plugin</a>, and putting everything the workflow may need on the file system or over MCP, where Claude can reach it. This includes the target, certificate, promotion policy, codebase, documentation, and whatever data sources or tooling the certificate requires. You can give this article to Claude as context too. This forms the central knowledge base for the project."
+  },
+  {
+   "type": "paragraph",
+   "text": "With that in place, building the modernization workflow is the easy part. Have SMEs review Claude’s work as needed, including any codebase-specific skills or extracted rules before anything downstream relies on it.",
+   "html": "With that in place, <a href=\"https://claude.com/blog/ai-code-migration\">building the modernization workflow </a>is the easy part. Have SMEs review Claude’s work as needed, including any codebase-specific skills or extracted rules before anything downstream relies on it. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Refine what you've built by applying it to small parts of the codebase, with SMEs reviewing the changes it produces, the agents’ process, and the evidence the certificate was met.",
+   "html": "Refine what you&#x27;ve built by applying it to small parts of the codebase, with SMEs reviewing the changes it produces, the agents’ process, and the evidence the certificate was met. "
+  },
+  {
+   "type": "quote",
+   "text": "You should modify the workflow, not each change, when issues surface. The goal is confidence that, once scaled, changes will meet the certificate almost everywhere and reviewers will be comfortable merging under the promotion policy.",
+   "html": "You should modify the workflow, not each change, when issues surface. The goal is confidence that, once scaled, changes will meet the certificate almost everywhere and reviewers will be comfortable merging under the promotion policy. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step 6: Run the modernization",
+   "html": "<strong>Step 6: Run the modernization</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "First, complete the modernization end to end on a small part of the codebase, including reviewing and landing the changes through the promotion policy. Fix anything that doesn’t work while it’s still cheap, repeat the process until you are confident, then scale to the full codebase.",
+   "html": "First, complete the modernization end to end on a small part of the codebase, including reviewing and landing the changes through the promotion policy. Fix anything that doesn’t work while it’s still cheap, repeat the process until you are confident, then scale to the full codebase. "
+  },
+  {
+   "type": "paragraph",
+   "text": "While transform and reimagine modernizations involve building the target alongside the existing system and cutting over once complete, an uplift has a second option: modernizing in place on the live codebase while development continues.",
+   "html": "While transform and reimagine modernizations involve building the target alongside the existing system and cutting over once complete, an uplift has a second option: modernizing in place on the live codebase while development continues. "
+  },
+  {
+   "type": "paragraph",
+   "text": "This is the usual choice when the system cannot be down, or when the codebase changes so quickly that it’s difficult to keep a separate modernized copy up to date. What we have seen work in this case is splitting the codebase into logical partitions from the leaves inward; freezing and modernizing one partition at a time; and gating CI/CD so new commits cannot undo a partition once it has been modernized.",
+   "html": "This is the usual choice when the system cannot be down, or when the codebase changes so quickly that it’s difficult to keep a separate modernized copy up to date. What we have seen work in this case is splitting the codebase into logical partitions from the leaves inward; freezing and modernizing one partition at a time; and gating CI/CD so new commits cannot undo a partition once it has been modernized. "
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e025_244d0cca.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/03.png"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "A note on cost",
+   "html": "<strong>A note on cost</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "We often get asked what a modernization like this will cost in tokens. Each modernization effort is different, but the main cost drivers include:",
+   "html": "We often get asked what a modernization like this will cost in tokens. Each modernization effort is different, but the main cost drivers include:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "How much of the codebase has to be read versus changed;",
+     "html": "How much of the codebase has to be read versus changed;"
+    },
+    {
+     "text": "How involved the certificate is (verification, not writing the change, is usually the larger share in a regulated environment);",
+     "html": "How involved the certificate is (verification, not writing the change, is usually the larger share in a regulated environment);"
+    },
+    {
+     "text": "How much new test writing and test repair the certificate demands; and",
+     "html": "How much new test writing and test repair the certificate demands; and "
+    },
+    {
+     "text": "How much reconciliation work comes from other teams merging around you while the run is in progress.",
+     "html": "How much reconciliation work comes from other teams merging around you while the run is in progress."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "text": "When completing the modernization on a small part of the codebase, measure token-usage and use that to extrapolate for the rest of the run. Treat anything the pilot couldn’t see, such as reconciliation on a live codebase, as an unknown. This way you can get an estimate for the cost floor for the full modernization.",
+   "html": "When completing the modernization on a small part of the codebase, measure token-usage and use that to extrapolate for the rest of the run. Treat anything the pilot couldn’t see, such as reconciliation on a live codebase, as an unknown. This way you can get an estimate for the cost floor for the full modernization. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Measurements from the pilot also show where to optimize your agentic workflow for cost. Find the parts of the workflow that consumed the most tokens and consider how to make them more efficient. Move compute-heavy verification signals behind cheaper gates so they only run once easier checks have passed.",
+   "html": "Measurements from the pilot also show where to optimize your agentic workflow for cost. Find the parts of the workflow that consumed the most tokens and consider how to make them more efficient. Move compute-heavy verification signals behind cheaper gates so they only run once easier checks have passed. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Consider using models like Sonnet that balance cost and capability for the mechanical, high-volume work the certificate fully checks. Keep more intelligent models for hard transformations and the adversarial reviews that verify correctness.",
+   "html": "Consider using models like Sonnet that balance cost and capability for the mechanical, high-volume work the certificate fully checks. Keep more intelligent models for hard transformations and the adversarial reviews that verify correctness. "
+  },
+  {
+   "type": "paragraph",
+   "text": "You can also escalate to a more expensive model when a less expensive one fails to meet the certificate, but analyze retry rates carefully while piloting, since several cheap attempts can cost more than one expensive one. If you give Claude access to both the workflow and the pilot data, it can do much of this analysis with you.",
+   "html": "You can also escalate to a more expensive model when a less expensive one fails to meet the certificate, but analyze retry rates carefully while piloting, since several cheap attempts can cost more than one expensive one. If you give Claude access to both the workflow and the pilot data, it can do much of this analysis with you. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Beyond the modernization",
+   "html": "<strong>Beyond the modernization</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "The modernized codebase is one output. The others are the workflow that produced it, a written certificate for what counts as correct, a promotion policy your change-management process has already accepted, and an evidence trail for every change that landed. Codify the playbook as a reusable asset, so the pattern is already in place for the next upgrade or rewrite.",
+   "html": "The modernized codebase is one output. The others are the workflow that produced it, a written certificate for what counts as correct, a promotion policy your change-management process has already accepted, and an evidence trail for every change that landed. Codify the playbook as a reusable asset, so the pattern is already in place for the next upgrade or rewrite."
+  },
+  {
+   "type": "paragraph",
+   "text": "Our forward deployed engineers work through these steps with customers on their most critical systems. If you're preparing a modernization, talk to our team .",
+   "html": "Our forward deployed engineers work through these steps with customers on their most critical systems. If you&#x27;re preparing a modernization,<a href=\"https://claude.com/contact-sales\"> talk to our team</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Additional resources",
+   "html": "<strong>Additional resources</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The public codemod plugin for Claude Code",
+     "html": "<a href=\"https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization\">The public codemod plugin for Claude Code</a>"
+    },
+    {
+     "text": "The AI-Native SDLC playbook",
+     "html": "<a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">The AI-Native SDLC playbook</a>"
+    },
+    {
+     "text": "Code modernization playbook",
+     "html": "<a href=\"https://resources.anthropic.com/code-modernization-playbook\">Code modernization playbook</a>"
+    },
+    {
+     "text": "COBOL Modernization with AI: Breaking the Cost Barrier",
+     "html": "<a href=\"https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization\">COBOL Modernization with AI: Breaking the Cost Barrier</a>"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "text": "Code modernizations",
+   "href": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization"
+  },
+  {
+   "text": "weeks",
+   "href": "https://claude.com/blog/ai-code-migration"
+  },
+  {
+   "text": "dynamic workflow",
+   "href": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
+  },
+  {
+   "text": "code modernization plugin",
+   "href": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization"
+  },
+  {
+   "text": "others",
+   "href": "https://claude.com/customers/lg-cns"
+  },
+  {
+   "text": "talk to our team",
+   "href": "https://claude.com/contact-sales"
+  },
+  {
+   "text": "The AI-Native SDLC playbook",
+   "href": "https://claude.com/blog/the-ai-native-sdlc-playbook"
+  },
+  {
+   "text": "Code modernization playbook",
+   "href": "https://resources.anthropic.com/code-modernization-playbook"
+  }
+ ],
+ "word_count": 2976,
+ "fetched_at": "2026-09-23T19:04:15+00:00"
+}

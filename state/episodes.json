@@ -4711,6 +4711,30 @@
       "updated": "2026-09-22T19:07:27+00:00",
       "slug": "claude-blog-2026-09-22-what-a-task-costs-on-opus-5-5",
       "episode": 50
+    },
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": {
+      "first_seen": "2026-09-23T19:04:15+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-23T19:04:15+00:00",
+      "slug": "news-2026-09-23-claude-discovers-novel-enzyme-system",
+      "episode": 51
+    },
+    "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects": {
+      "first_seen": "2026-09-23T19:14:29+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-23T19:14:29+00:00",
+      "slug": "claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects",
+      "episode": 52
+    },
+    "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
+      "first_seen": "2026-09-23T19:17:57+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-23T19:17:57+00:00",
+      "slug": "claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow",
+      "episode": 53
     }
   },
   "episodes": [
@@ -7344,8 +7368,178 @@
       "episode": 50,
       "created": "2026-09-22T19:07:27+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2b3cd0ef2a7b31c037352_og_what-a-task-costs-on-opus-5-5.jpg"
+    },
+    {
+      "slug": "news-2026-09-23-claude-discovers-novel-enzyme-system",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "source": "news",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-09-23T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "accelerate such discoveries",
+          "href": "https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health"
+        },
+        {
+          "text": "here",
+          "href": "https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf"
+        },
+        {
+          "text": "evolution",
+          "href": "https://www.science.org/doi/10.1126/science.aei0498"
+        },
+        {
+          "text": "regulation",
+          "href": "https://www.nature.com/articles/s41586-018-0557-5"
+        },
+        {
+          "text": "enzymes",
+          "href": "https://www.nature.com/articles/s41586-024-07552-4"
+        },
+        {
+          "text": "cell and gene therapies",
+          "href": "https://www.science.org/doi/10.1126/science.adz0276"
+        },
+        {
+          "text": "tools",
+          "href": "https://www.nature.com/articles/s41586-026-10176-5"
+        },
+        {
+          "text": "Model Hardware Standard",
+          "href": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "Claude Code",
+          "href": "https://claude.com/product/claude-code"
+        }
+      ],
+      "word_count": 1552,
+      "duration": 696.293878,
+      "bytes": 6247936,
+      "episode": 51,
+      "created": "2026-09-23T19:04:15+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects",
+      "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "source": "claude-blog",
+      "title": "How to prepare for AI-driven code modernization projects",
+      "subtitle": "Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.",
+      "date": "2026-09-23T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Code modernizations",
+          "href": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization"
+        },
+        {
+          "text": "weeks",
+          "href": "https://claude.com/blog/ai-code-migration"
+        },
+        {
+          "text": "dynamic workflow",
+          "href": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
+        },
+        {
+          "text": "code modernization plugin",
+          "href": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization"
+        },
+        {
+          "text": "others",
+          "href": "https://claude.com/customers/lg-cns"
+        },
+        {
+          "text": "talk to our team",
+          "href": "https://claude.com/contact-sales"
+        },
+        {
+          "text": "The AI-Native SDLC playbook",
+          "href": "https://claude.com/blog/the-ai-native-sdlc-playbook"
+        },
+        {
+          "text": "Code modernization playbook",
+          "href": "https://resources.anthropic.com/code-modernization-playbook"
+        }
+      ],
+      "word_count": 2976,
+      "duration": 1318.217143,
+      "bytes": 11325450,
+      "episode": 52,
+      "created": "2026-09-23T19:14:29+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3d3f3dbdbc6a5f1d0f52a_og_how-tohow-to-prepare-for-ai-driven-code-modernization-projects-prepare-for-ai-driven-code.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow",
+      "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+      "source": "claude-blog",
+      "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+      "subtitle": "CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.",
+      "date": "2026-09-23T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Power Digital",
+          "href": "https://powerdigitalmarketing.com/"
+        },
+        {
+          "text": "ThoughtSpot's agentic analytics platform",
+          "href": "https://www.thoughtspot.com/"
+        },
+        {
+          "text": "Spotter",
+          "href": "https://claude.com/connectors/thoughtspot-spotter"
+        },
+        {
+          "text": "CodeRabbit",
+          "href": "https://claude.com/platform/marketplace/coderabbit"
+        },
+        {
+          "text": "Vercel Sandbox",
+          "href": "https://vercel.com/sandbox"
+        },
+        {
+          "text": "Vercel Workflows",
+          "href": "https://vercel.com/workflows"
+        },
+        {
+          "text": "Snowflake",
+          "href": "https://claude.com/platform/marketplace/snowflake"
+        },
+        {
+          "text": "Vercel",
+          "href": "https://claude.com/platform/marketplace/vercel"
+        },
+        {
+          "text": "Claude Marketplace",
+          "href": "https://claude.com/marketplace"
+        },
+        {
+          "text": "submit a request",
+          "href": "https://claude.com/marketplace-contact-sales"
+        },
+        {
+          "text": "Learn more about Claude Marketplace",
+          "href": "https://claude.com/blog/claude-marketplace"
+        }
+      ],
+      "word_count": 906,
+      "duration": 445.44,
+      "bytes": 4351526,
+      "episode": 53,
+      "created": "2026-09-23T19:17:57+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab40d36d0d56741a76ac02c_og_claude-marketplace-customers.jpg"
     }
   ],
-  "next_episode": 51,
+  "next_episode": 54,
   "baseline_date": "2026-08-14"
 }

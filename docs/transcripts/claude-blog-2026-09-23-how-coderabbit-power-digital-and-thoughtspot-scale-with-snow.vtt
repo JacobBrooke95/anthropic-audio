@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:11.400
+This is Anthropic, Read Aloud. Today: How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace.
+
+2
+00:00:12.700 --> 00:00:18.961
+How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace.
+
+3
+00:00:19.411 --> 00:00:34.721
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.
+
+4
+00:00:35.171 --> 00:00:39.475
+From Claude Blog, published September 23, 2026.
+
+5
+00:00:40.475 --> 00:01:02.833
+Companies building with Claude also rely on other software to get the work done, like Snowflake to store and analyze their data or Vercel to run their apps. Claude Marketplace lets companies with an Anthropic commitment put part of it toward tools their teams already rely on, so one investment covers more of what their teams use every day, without a new budget request.
+
+6
+00:01:02.953 --> 00:01:10.363
+Here's how CodeRabbit, Power Digital and ThoughtSpot used Claude Marketplace to expand their work with Vercel and Snowflake.
+
+7
+00:01:11.163 --> 00:01:14.321
+Power Digital runs its clients' data on Snowflake.
+
+8
+00:01:14.771 --> 00:01:30.003
+Power Digital is a marketing agency that builds Nova, a platform for its teams and clients. Clients connect their data through Nova, which runs on Snowflake and powers reporting, in-house tools and models that improve marketing performance.
+
+9
+00:01:30.123 --> 00:01:51.195
+Snowflake lets Power Digital set up secure data environments for each client quickly, and with Snowflake Cortex A I it runs models like Claude directly on that data within their existing governance framework. Claude now runs across Power Digital, from client deliverables and finance operations to the models built into its own products.
+
+10
+00:01:51.315 --> 00:02:11.517
+Usage has grown from about 12 engineers in January to more than 800 people today. A Snowflake customer for five years, Power Digital expanded its Snowflake commitment through Claude Marketplace this year. Because the spend comes from a budget that's already approved, its teams can quickly scale their Snowflake usage.
+
+11
+00:02:11.967 --> 00:02:34.133
+Quote: “We’ve centralized so much of how we run on Claude, and we manage hundreds of tools across the company. Claude Marketplace let us bring Snowflake, which holds our clients’ data, into the same Anthropic commitment. By the time we asked, the contract was already being drawn up,” said John Saunders, Senior Vice President, Innovation at Power Digital. End quote.
+
+12
+00:02:34.933 --> 00:02:37.568
+ThoughtSpot builds A I analytics on Snowflake.
+
+13
+00:02:38.018 --> 00:02:52.027
+ThoughtSpot's agentic analytics platform delivers decision-ready insights to business users, grounded in their company's semantic and context layer to deliver trusted answers through deterministic and verifiable queries.
+
+14
+00:02:52.477 --> 00:03:08.058
+To power their A I features, ThoughtSpot uses Snowflake's inference A P I to run models like Claude directly against customers' data inside Snowflake, keeping the data, business context, access controls and A I inside one ecosystem.
+
+15
+00:03:08.178 --> 00:03:19.751
+ThoughtSpot applied its purchase of Snowflake's inference A P I to its existing Anthropic commitment, so its product team could start building with the A P I on budget already set aside.
+
+16
+00:03:20.201 --> 00:03:40.162
+Quote: “ Our Agentic Analytics platform runs on Claude, so buying Snowflake’s inference A P I through Claude Marketplace was the natural path. We applied a commitment we’d already made, so the purchase came out of budget we’d already approved, ” said Francois Lopitaux, SVP Product Management at ThoughtSpot. End quote.
+
+17
+00:03:40.612 --> 00:03:54.201
+ThoughtSpot is also growing alongside Claude. Its A I analyst, Spotter, is available as a connector for Claude, so users can analyze their data, build and explore dashboards, and take actions without leaving Claude.
+
+18
+00:03:54.651 --> 00:04:09.192
+Quote: “ Spotter, our A I analyst, is already in Claude’s connectors directory, and we’d like to sell our agentic products through the marketplace ourselves so our customers can do exactly what we just did," Lopitaux added. End quote.
+
+19
+00:04:09.992 --> 00:04:12.693
+CodeRabbit runs its coding agents on Vercel.
+
+20
+00:04:13.143 --> 00:04:35.008
+CodeRabbit builds on Claude to validate A I-generated code so engineering teams can control what ships. Its agents write and test code, so they need a safe place to run it. Vercel Sandbox runs each agent's code in an isolated Linux microVM with its own filesystem and network, away from other jobs and CodeRabbit's own systems.
+
+21
+00:04:35.128 --> 00:04:42.275
+Vercel Workflows coordinates the work, so long-running jobs can pause, resume and finish without hitting a time limit.
+
+22
+00:04:42.725 --> 00:04:57.850
+When CodeRabbit's engineering and product leaders wanted to move from a pay-as-you-go Vercel plan to a committed one, the company funded the upgrade from its recently expanded Anthropic commitment. With the budget already approved, the deal closed within a week.
+
+23
+00:04:58.300 --> 00:05:17.294
+Quote: “The value for us is flexibility: backing the tools our engineers trust with a budget we’ve already approved. The fact that we can deliver that same value to our customers directly on the Claude Marketplace is the ultimate win-win,” said Blair Pierson, Head of Global Partnerships, CodeRabbit. End quote.
+
+24
+00:05:18.094 --> 00:05:21.635
+Snowflake and Vercel grow with customers building on Claude.
+
+25
+00:05:22.085 --> 00:05:32.919
+For sellers like Snowflake and Vercel, Claude Marketplace is a way to reach customers who already build on Claude and offer those with an Anthropic commitment a faster way to buy.
+
+26
+00:05:33.369 --> 00:05:47.688
+Quote: “A I is trusted when it’s grounded in data and context. Claude runs directly in Snowflake, so our customers’ governance, context and permissions are already in place as the foundation for trusted insights on day one.
+
+27
+00:05:47.808 --> 00:06:07.775
+Claude Marketplace makes it easy to extend that relationship, letting customers direct part of their Anthropic commitment straight to Snowflake for A I workloads. It’s a motion we’re growing with Anthropic across our shared accounts,” said Omar Bed-Mohamed, Director, Enterprise Technology Partnerships, Snowflake. End quote.
+
+28
+00:06:08.225 --> 00:06:26.472
+Quote: “The Claude Marketplace enables customers like CodeRabbit to quickly procure Vercel's Agentic Infrastructure and scale their platform. We look forward to helping run agents for every company building on Claude,” said Zack Ciesinski, Head of Product Partnerships, Vercel. End quote.
+
+29
+00:06:27.272 --> 00:06:29.045
+Buying through Claude Marketplace.
+
+30
+00:06:29.495 --> 00:06:48.059
+Building with Claude often means pulling in the data platforms and infrastructure your teams already depend on. Claude Marketplace lets customers put part of their Anthropic commitment toward partners like Vercel, Snowflake, and more, so teams spend less time on procurement and more time on what they're building.
+
+31
+00:06:48.509 --> 00:07:00.277
+Using your Anthropic commitment this way is in limited preview. If you have one, talk to your account team or submit a request to see if you're eligible. Learn more about Claude Marketplace.
+
+32
+00:07:01.277 --> 00:07:21.453
+That was How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace, from Claude Blog, published September 23, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 22 Sep 2026 19:07:28 +0000</lastBuildDate>
-    <pubDate>Tue, 22 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2026 19:17:57 +0000</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,178 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</title>
+      <itunes:title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-23-claude-discovers-novel-enzyme-system/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+Published September 23, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• accelerate such discoveries: https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health
+• here: https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf
+• evolution: https://www.science.org/doi/10.1126/science.aei0498
+• regulation: https://www.nature.com/articles/s41586-018-0557-5
+• enzymes: https://www.nature.com/articles/s41586-024-07552-4
+• cell and gene therapies: https://www.science.org/doi/10.1126/science.adz0276
+• tools: https://www.nature.com/articles/s41586-026-10176-5
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• Claude Science: https://claude.com/product/claude-science
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-23-claude-discovers-novel-enzyme-system/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</a><br/><strong>Published:</strong> September 23, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Science<br/><strong>Length:</strong> 1,552 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health">accelerate such discoveries</a></li><li><a href="https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf">here</a></li><li><a href="https://www.science.org/doi/10.1126/science.aei0498">evolution</a></li><li><a href="https://www.nature.com/articles/s41586-018-0557-5">regulation</a></li><li><a href="https://www.nature.com/articles/s41586-024-07552-4">enzymes</a></li><li><a href="https://www.science.org/doi/10.1126/science.adz0276">cell and gene therapies</a></li><li><a href="https://www.nature.com/articles/s41586-026-10176-5">tools</a></li><li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://claude.com/product/claude-code">Claude Code</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-23-claude-discovers-novel-enzyme-system/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-09-23-claude-discovers-novel-enzyme-system.mp3" length="6247936" type="audio/mpeg"/>
+      <itunes:duration>696</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-09-23-claude-discovers-novel-enzyme-system.jpg?v=6b9c1333"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-23-claude-discovers-novel-enzyme-system.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-09-23-claude-discovers-novel-enzyme-system.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+Published September 23, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• accelerate such discoveries: https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health
+• here: https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf
+• evolution: https://www.science.org/doi/10.1126/science.aei0498
+• regulation: https://www.nature.com/articles/s41586-018-0557-5
+• enzymes: https://www.nature.com/articles/s41586-024-07552-4
+• cell and gene therapies: https://www.science.org/doi/10.1126/science.adz0276
+• tools: https://www.nature.com/articles/s41586-026-10176-5
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• Claude Science: https://claude.com/product/claude-science
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-09-23-claude-discovers-novel-enzyme-system/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>51</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-23-claude-discovers-novel-enzyme-system.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-09-23-claude-discovers-novel-enzyme-system.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: How to prepare for AI-driven code modernization projects</title>
+      <itunes:title>Claude Blog: How to prepare for AI-driven code modernization projects</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.
+
+Source: https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Code modernizations: https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+• weeks: https://claude.com/blog/ai-code-migration
+• dynamic workflow: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
+• code modernization plugin: https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization
+• others: https://claude.com/customers/lg-cns
+• talk to our team: https://claude.com/contact-sales
+• The AI-Native SDLC playbook: https://claude.com/blog/the-ai-native-sdlc-playbook
+• Code modernization playbook: https://resources.anthropic.com/code-modernization-playbook
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects">https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects</a><br/><strong>Published:</strong> September 23, 2026 · Claude Blog<br/><strong>Length:</strong> 2,976 words · 21 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization">Code modernizations</a></li><li><a href="https://claude.com/blog/ai-code-migration">weeks</a></li><li><a href="https://claude.com/blog/introducing-dynamic-workflows-in-claude-code">dynamic workflow</a></li><li><a href="https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization">code modernization plugin</a></li><li><a href="https://claude.com/customers/lg-cns">others</a></li><li><a href="https://claude.com/contact-sales">talk to our team</a></li><li><a href="https://claude.com/blog/the-ai-native-sdlc-playbook">The AI-Native SDLC playbook</a></li><li><a href="https://resources.anthropic.com/code-modernization-playbook">Code modernization playbook</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.mp3" length="11325450" type="audio/mpeg"/>
+      <itunes:duration>1318</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.jpg?v=201c2207"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.</itunes:subtitle>
+      <itunes:summary>Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy.
+
+Source: https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Code modernizations: https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+• weeks: https://claude.com/blog/ai-code-migration
+• dynamic workflow: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
+• code modernization plugin: https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization
+• others: https://claude.com/customers/lg-cns
+• talk to our team: https://claude.com/contact-sales
+• The AI-Native SDLC playbook: https://claude.com/blog/the-ai-native-sdlc-playbook
+• Code modernization playbook: https://resources.anthropic.com/code-modernization-playbook
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>52</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-to-prepare-for-ai-driven-code-modernization-projects.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace</title>
+      <itunes:title>Claude Blog: How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <description>CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.
+
+Source: https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Power Digital: https://powerdigitalmarketing.com/
+• ThoughtSpot's agentic analytics platform: https://www.thoughtspot.com/
+• Spotter: https://claude.com/connectors/thoughtspot-spotter
+• CodeRabbit: https://claude.com/platform/marketplace/coderabbit
+• Vercel Sandbox: https://vercel.com/sandbox
+• Vercel Workflows: https://vercel.com/workflows
+• Snowflake: https://claude.com/platform/marketplace/snowflake
+• Vercel: https://claude.com/platform/marketplace/vercel
+• Claude Marketplace: https://claude.com/marketplace
+• submit a request: https://claude.com/marketplace-contact-sales
+• Learn more about Claude Marketplace: https://claude.com/blog/claude-marketplace
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they&#x27;ve already committed to pay for the tools they run on.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace">https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace</a><br/><strong>Published:</strong> September 23, 2026 · Claude Blog<br/><strong>Length:</strong> 906 words · 7 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://powerdigitalmarketing.com/">Power Digital</a></li><li><a href="https://www.thoughtspot.com/">ThoughtSpot&#x27;s agentic analytics platform</a></li><li><a href="https://claude.com/connectors/thoughtspot-spotter">Spotter</a></li><li><a href="https://claude.com/platform/marketplace/coderabbit">CodeRabbit</a></li><li><a href="https://vercel.com/sandbox">Vercel Sandbox</a></li><li><a href="https://vercel.com/workflows">Vercel Workflows</a></li><li><a href="https://claude.com/platform/marketplace/snowflake">Snowflake</a></li><li><a href="https://claude.com/platform/marketplace/vercel">Vercel</a></li><li><a href="https://claude.com/marketplace">Claude Marketplace</a></li><li><a href="https://claude.com/marketplace-contact-sales">submit a request</a></li><li><a href="https://claude.com/blog/claude-marketplace">Learn more about Claude Marketplace</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.mp3" length="4351526" type="audio/mpeg"/>
+      <itunes:duration>445</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.jpg?v=435199fd"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools </itunes:subtitle>
+      <itunes:summary>CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.
+
+Source: https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Power Digital: https://powerdigitalmarketing.com/
+• ThoughtSpot's agentic analytics platform: https://www.thoughtspot.com/
+• Spotter: https://claude.com/connectors/thoughtspot-spotter
+• CodeRabbit: https://claude.com/platform/marketplace/coderabbit
+• Vercel Sandbox: https://vercel.com/sandbox
+• Vercel Workflows: https://vercel.com/workflows
+• Snowflake: https://claude.com/platform/marketplace/snowflake
+• Vercel: https://claude.com/platform/marketplace/vercel
+• Claude Marketplace: https://claude.com/marketplace
+• submit a request: https://claude.com/marketplace-contact-sales
+• Learn more about Claude Marketplace: https://claude.com/blog/claude-marketplace
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>53</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: What a task costs on Opus 5.5</title>
       <itunes:title>Claude Blog: What a task costs on Opus 5.5</itunes:title>

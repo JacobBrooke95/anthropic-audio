@@ -1,0 +1,77 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 154.48,
+   "title": "Step 1: Define the target"
+  },
+  {
+   "startTime": 167.86,
+   "title": "Determine the modernization type"
+  },
+  {
+   "startTime": 278.68,
+   "title": "Map the codebase and create the behavioral spec"
+  },
+  {
+   "startTime": 358.15,
+   "title": "Establish the project’s justification and goals"
+  },
+  {
+   "startTime": 461.74,
+   "title": "Step 2: Define the certificate"
+  },
+  {
+   "startTime": 668.96,
+   "title": "Step 3: Set the promotion policy"
+  },
+  {
+   "startTime": 876.31,
+   "title": "Step 4: Put the prerequisites in place"
+  },
+  {
+   "startTime": 904.64,
+   "title": "Environment"
+  },
+  {
+   "startTime": 923.84,
+   "title": "Codebase and CI/CD"
+  },
+  {
+   "startTime": 964.09,
+   "title": "Teams and review"
+  },
+  {
+   "startTime": 977.23,
+   "title": "Security and compliance"
+  },
+  {
+   "startTime": 1004.56,
+   "title": "Step 5: Build and refine the agentic workflow"
+  },
+  {
+   "startTime": 1080.97,
+   "title": "Step 6: Run the modernization"
+  },
+  {
+   "startTime": 1141.12,
+   "title": "A note on cost"
+  },
+  {
+   "startTime": 1249.28,
+   "title": "Beyond the modernization"
+  },
+  {
+   "startTime": 1283.45,
+   "title": "Additional resources"
+  },
+  {
+   "startTime": 1296.47,
+   "title": "Outro"
+  }
+ ]
+}
