@@ -10,7 +10,7 @@
     <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
     <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
     <webfeeds:accentColor>b5532e</webfeeds:accentColor>
-    <lastBuildDate>Wed, 23 Sep 2026 19:17:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 22:15:13 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <item>
       <title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</title>
@@ -164,6 +164,23 @@
 <h2><strong>Buying through Claude Marketplace</strong></h2>
 <p>Building with Claude often means pulling in the data platforms and infrastructure your teams already depend on. <a href="https://claude.com/marketplace">Claude Marketplace</a> lets customers put part of their Anthropic commitment toward partners like Vercel, Snowflake, and more, so teams spend less time on procurement and more time on what they&#x27;re building.</p>
 <p>Using your Anthropic commitment this way is in limited preview. If you have one, talk to your account team or<a href="https://claude.com/marketplace-contact-sales"> submit a request</a> to see if you&#x27;re eligible. <a href="https://claude.com/blog/claude-marketplace">Learn more about Claude Marketplace</a>.</p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Claude Blog: Claude Marketplace: one place to discover plugins, agents, and services from our partners</title>
+      <link>https://claude.com/blog/claude-marketplace</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-marketplace</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Claude Blog</category>
+      <description>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude. — Claude Blog. Audio edition: https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-23-claude-marketplace.mp3</description>
+      <content:encoded><![CDATA[<p><em>Claude Blog · September 23, 2026</em><br/>Original: <a href="https://claude.com/blog/claude-marketplace">https://claude.com/blog/claude-marketplace</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-23-claude-marketplace.mp3">Listen (2 min)</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-claude-marketplace/">Episode page</a></p><p><strong>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you&#x27;ve built to reach teams using Claude.</strong></p><p>Starting today, the <a href="https://claude.com/platform/marketplace">Claude Marketplace</a> brings plugins and connectors, agents and products, and service partners into one place. For customers, it provides a single destination to find the right tools and services. For builders and partners, it offers an easier way to reach teams using Claude. </p>
+<h2><strong>For customers: discover tools and services to help you do more with Claude</strong></h2>
+<p>The Claude Marketplace is where teams find what they need to expand how they use Claude. You can:</p>
+<ul><li><strong>Add connectors and plugins.</strong> Choose from more than 2,000 available today, including Atlassian, Google, Microsoft, Notion, Salesforce, and more.</li><li><strong>Buy agents and products.</strong> Use a portion of your committed Anthropic spend on Claude-powered software from companies like CrowdStrike, Cursor, Harvey, Legora, Lovable, and Snowflake.</li><li><strong>Scale with service partners.</strong> Connect with a consulting partner or system integrator from the <a href="https://partnerhub.claude.com/directory/">Claude Partner Network</a>, such as Accenture, Boston Consulting Group, or Deloitte, to build your AI strategy and roll Claude out across your organization.</li></ul>
+<figure><img src="https://jacobbrooke95.github.io/anthropic-audio/posts/claude-blog-2026-09-23-claude-marketplace/img/01.png" alt="" loading="lazy"></figure>
+<h2><strong>For builders and partners: get discovered by teams using Claude</strong></h2>
+<p>Companies that build tools, products, or services for Claude customers can be listed in the Claude Marketplace. Pick the path that fits what you offer:</p>
+<ul><li><strong>Building for teams that use Claude? </strong>Create a <a href="https://claude.com/docs/connectors/building/submission">connector</a> or <a href="https://claude.com/docs/plugins/submit">plugin</a> using the Model Context Protocol (MCP) and Agent Skills, the open standards pioneered by Anthropic.</li><li><strong>Selling a Claude-powered agent or product?</strong> <a href="https://claude.com/marketplace-partners">Apply</a> to list it on the marketplace. Teams can then use a portion of their committed Anthropic spend to buy it.</li><li><strong>Offering consulting or systems integration?</strong> Join the <a href="https://claude.com/form/cpn-partner-application">Claude Partner Network</a> to appear in the marketplace, where Claude customers can find and connect with you.</li></ul><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Claude Blog: What a task costs on Opus 5.5</title>

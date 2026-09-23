@@ -4735,6 +4735,14 @@
       "updated": "2026-09-23T19:17:57+00:00",
       "slug": "claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow",
       "episode": 53
+    },
+    "https://claude.com/blog/claude-marketplace": {
+      "first_seen": "2026-09-23T22:15:12+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-23T22:15:12+00:00",
+      "slug": "claude-blog-2026-09-23-claude-marketplace",
+      "episode": 54
     }
   },
   "episodes": [
@@ -7538,8 +7546,50 @@
       "episode": 53,
       "created": "2026-09-23T19:17:57+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab40d36d0d56741a76ac02c_og_claude-marketplace-customers.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-23-claude-marketplace",
+      "url": "https://claude.com/blog/claude-marketplace",
+      "source": "claude-blog",
+      "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+      "subtitle": "The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude.",
+      "date": "2026-09-23T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Marketplace",
+          "href": "https://claude.com/platform/marketplace"
+        },
+        {
+          "text": "Claude Partner Network",
+          "href": "https://partnerhub.claude.com/directory/"
+        },
+        {
+          "text": "connector",
+          "href": "https://claude.com/docs/connectors/building/submission"
+        },
+        {
+          "text": "plugin",
+          "href": "https://claude.com/docs/plugins/submit"
+        },
+        {
+          "text": "Apply",
+          "href": "https://claude.com/marketplace-partners"
+        },
+        {
+          "text": "Claude Partner Network",
+          "href": "https://claude.com/form/cpn-partner-application"
+        }
+      ],
+      "word_count": 271,
+      "duration": 172.199184,
+      "bytes": 2196275,
+      "episode": 54,
+      "created": "2026-09-23T22:15:12+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg"
     }
   ],
-  "next_episode": 54,
+  "next_episode": 55,
   "baseline_date": "2026-08-14"
 }

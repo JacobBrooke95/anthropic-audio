@@ -1,0 +1,21 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 54.82,
+   "title": "For customers: discover tools and services to help you do more with Claude"
+  },
+  {
+   "startTime": 102.58,
+   "title": "For builders and partners: get discovered by teams using Claude"
+  },
+  {
+   "startTime": 148.41,
+   "title": "Outro"
+  }
+ ]
+}

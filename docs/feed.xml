@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 19:17:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 22:15:13 +0000</lastBuildDate>
     <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -199,6 +199,56 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>53</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-how-coderabbit-power-digital-and-thoughtspot-scale-with-snow.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude Marketplace: one place to discover plugins, agents, and services from our partners</title>
+      <itunes:title>Claude Blog: Claude Marketplace: one place to discover plugins, agents, and services from our partners</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-claude-marketplace/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-marketplace</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <description>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude.
+
+Source: https://claude.com/blog/claude-marketplace
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Marketplace: https://claude.com/platform/marketplace
+• Claude Partner Network: https://partnerhub.claude.com/directory/
+• connector: https://claude.com/docs/connectors/building/submission
+• plugin: https://claude.com/docs/plugins/submit
+• Apply: https://claude.com/marketplace-partners
+• Claude Partner Network: https://claude.com/form/cpn-partner-application
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-claude-marketplace/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you&#x27;ve built to reach teams using Claude.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-marketplace">https://claude.com/blog/claude-marketplace</a><br/><strong>Published:</strong> September 23, 2026 · Claude Blog<br/><strong>Length:</strong> 271 words · 2 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/platform/marketplace">Claude Marketplace</a></li><li><a href="https://partnerhub.claude.com/directory/">Claude Partner Network</a></li><li><a href="https://claude.com/docs/connectors/building/submission">connector</a></li><li><a href="https://claude.com/docs/plugins/submit">plugin</a></li><li><a href="https://claude.com/marketplace-partners">Apply</a></li><li><a href="https://claude.com/form/cpn-partner-application">Claude Partner Network</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-claude-marketplace/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-23-claude-marketplace.mp3" length="2196275" type="audio/mpeg"/>
+      <itunes:duration>172</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-23-claude-marketplace.jpg?v=6ff33a41"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-claude-marketplace.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-23-claude-marketplace.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude.</itunes:subtitle>
+      <itunes:summary>The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude.
+
+Source: https://claude.com/blog/claude-marketplace
+Published September 23, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Marketplace: https://claude.com/platform/marketplace
+• Claude Partner Network: https://partnerhub.claude.com/directory/
+• connector: https://claude.com/docs/connectors/building/submission
+• plugin: https://claude.com/docs/plugins/submit
+• Apply: https://claude.com/marketplace-partners
+• Claude Partner Network: https://claude.com/form/cpn-partner-application
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-23-claude-marketplace/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>54</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-claude-marketplace.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-claude-marketplace.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Claude Blog: What a task costs on Opus 5.5</title>
