@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 66.8,
+   "title": "Claude Code trends"
+  },
+  {
+   "startTime": 142.17,
+   "title": "What makes Opus 5.5 cost effective for long, context heavy sessions"
+  },
+  {
+   "startTime": 158.91,
+   "title": "Cache is cheap"
+  },
+  {
+   "startTime": 207.69,
+   "title": "Claude Code is better at using the cache"
+  },
+  {
+   "startTime": 272.12,
+   "title": "The same task, but with fewer turns"
+  },
+  {
+   "startTime": 349.28,
+   "title": "Protect your cached reads"
+  },
+  {
+   "startTime": 392.41,
+   "title": "Outro"
+  }
+ ]
+}

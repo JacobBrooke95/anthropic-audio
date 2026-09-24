@@ -4743,6 +4743,14 @@
       "updated": "2026-09-23T22:15:12+00:00",
       "slug": "claude-blog-2026-09-23-claude-marketplace",
       "episode": 54
+    },
+    "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context": {
+      "first_seen": "2026-09-24T19:08:56+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-24T19:08:56+00:00",
+      "slug": "claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont",
+      "episode": 55
     }
   },
   "episodes": [
@@ -7588,8 +7596,46 @@
       "episode": 54,
       "created": "2026-09-23T22:15:12+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont",
+      "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "source": "claude-blog",
+      "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "subtitle": "Our latest Opus model is priced and trained to optimize costs for how developers code now.",
+      "date": "2026-09-24T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "costs about 40% less",
+          "href": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "text": "all the context you are providing is necessary",
+          "href": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+        },
+        {
+          "text": "as much of that context as possible is reading from cache",
+          "href": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"
+        },
+        {
+          "text": "The cost of a task on Opus 5.5",
+          "href": "https://claude.com/blog/what-a-task-costs-on-opus-5-5"
+        },
+        {
+          "text": "one-hour cache lifetime",
+          "href": "https://code.claude.com/docs/en/prompt-caching#choose-the-ttl-yourself"
+        }
+      ],
+      "word_count": 915,
+      "duration": 417.097143,
+      "bytes": 4150888,
+      "episode": 55,
+      "created": "2026-09-24T19:08:56+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab54ee79497f0573d0455eb_og_claude-opus-5-5-built-for-coding-sessions-that-use-more-context.jpg"
     }
   ],
-  "next_episode": 55,
+  "next_episode": 56,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:11.717
+This is Anthropic, Read Aloud. Today: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+2
+00:00:13.017 --> 00:00:19.393
+Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+3
+00:00:19.843 --> 00:00:25.407
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
+
+4
+00:00:25.857 --> 00:00:30.209
+From Claude Blog, published September 24, 2026.
+
+5
+00:00:31.209 --> 00:00:44.286
+We estimate Claude Opus 5.5 costs about 40 percent less to run than Opus 5 for typical workloads billed by token. For developers, exactly how those savings stack up matters.
+
+6
+00:00:44.736 --> 00:00:56.747
+If you pay by the token, you will see the greatest cost difference for longer-running, higher context sessions to the exact type of Claude Code sessions that have become more prevalent in the last six months.
+
+7
+00:00:57.197 --> 00:01:05.995
+This post will dive into the mechanics of what makes Opus 5.5 cost effective for how developers are coding today (and likely tomorrow).
+
+8
+00:01:06.795 --> 00:01:08.034
+Claude Code trends.
+
+9
+00:01:08.484 --> 00:01:27.855
+We've pulled aggregate data on how developers have been using Claude Code from March to September 2026. As model capabilities improve, developers have been deploying agents in increasingly sophisticated ways. The number of prompts per session has been steady, but we found some interesting behaviors:
+
+10
+00:01:28.305 --> 00:01:37.706
+Claude works 3.3 x longer on each prompt with more than 40 percent more model calls per prompt. There are 68 percent fewer interruptions.
+
+11
+00:01:37.946 --> 00:01:46.244
+Developers are about twice as likely to have a tool server connected or use a skill and a third less likely to paste text into a prompt.
+
+12
+00:01:46.484 --> 00:01:56.897
+Context per request has grown 2.6 x. The input to output token ratio moved from 189:1 to 324:1.
+
+13
+00:01:57.347 --> 00:02:10.301
+All of this points to developers aiming a harder working, better informed Claude toward bigger, more open-ended tasks. For these types of sessions, the economic impact of context engineering is compounded.
+
+14
+00:02:10.751 --> 00:02:21.370
+Simply put, Claude reads more tokens. You need to make sure all the context you are providing is necessary, and that as much of that context as possible is reading from cache.
+
+15
+00:02:22.170 --> 00:02:26.946
+What makes Opus 5.5 cost effective for long, context heavy sessions.
+
+16
+00:02:27.396 --> 00:02:38.114
+There are three changes that make long-running, context-heavy sessions more cost effective: changes to pricing, model behavior, and the Claude Code harness. Let’s look at each.
+
+17
+00:02:38.914 --> 00:02:39.837
+Cache is cheap.
+
+18
+00:02:40.287 --> 00:02:57.172
+For usage billed by the token, we reduced the cost of input and output tokens 20 percent, and we dropped the price of reading a cached token 60 percent. The latter reduction is significant because cache reads make up the majority of agentic and coding work costs.
+
+19
+00:02:57.622 --> 00:03:17.526
+And as we just discussed, context per request has increased roughly 2.6 x in six months, which means savings are trending in the right direction. The same price change for those billed by token saves more on today's Claude Code traffic than it would have six months ago, because more of the bill is now re-read context.
+
+20
+00:03:17.976 --> 00:03:26.891
+As of the publication date, a cached token on Opus 5.5 costs a fifth of what it does compared to competing models while outperforming them.
+
+21
+00:03:27.691 --> 00:03:29.894
+Claude Code is better at using the cache.
+
+22
+00:03:30.344 --> 00:03:49.396
+This is less specific to Opus 5.5, and more the result of many of the Claude Code features we’ve added in the last six months. Given the coding session trends we just discussed, you would expect a higher rate of cache misses, but the opposite is true. Input that misses the cache decreased by more than 50 percent.
+
+23
+00:03:49.846 --> 00:04:12.858
+For example, we made it harder to unintentionally break your cache with smaller papercuts like refreshing a login. We also made it harder to break with larger actions, like adding instructions mid-conversation or loading tools on demand. For newer models like Opus 5.5 and Fable 5.1, you can now change effort levels during your sessions without resetting your cache.
+
+24
+00:04:13.308 --> 00:04:31.322
+We also made the cache more useful for longer-running and delegated sessions. Developers on A P I keys and cloud providers can now set a one-hour cache lifetime (which subscribers already had) and forked subagents start from the parent's cache instead of paying for the same context again.
+
+25
+00:04:32.122 --> 00:04:34.233
+The same task, but with fewer turns.
+
+26
+00:04:34.683 --> 00:04:50.012
+Opus 5.5 can need fewer turns than other models to accomplish the same task. Zeta Labs saw fewer turns and tool calls per task than Opus 5, but at nearly half the cost and twice as many of their hardest tasks completed.
+
+27
+00:04:50.462 --> 00:05:12.311
+This won't hold for every task. In The cost of a task on Opus 5.5, Addy wrote, "On a well-scoped task, both models finish in about the same number of turns, and the price cut is all you get. The gap should be biggest on open-ended tasks, where a model can spend many turns on the wrong idea. No single number holds for every codebase, so measure it."
+
+28
+00:05:12.761 --> 00:05:29.855
+In other words, simple, short, and mechanical tasks will take the same amount of turns while longer, harder tasks have more potential for Opus 5.5 to avoid burning tokens on the wrong approach. A reduced turn is even more cost efficient than a cached token.
+
+29
+00:05:30.305 --> 00:05:48.481
+Also worth noting, especially as Claude works longer unattended or uninterrupted, is that Opus 5.5 generates output more than 30 percent faster than Opus 5. While this doesn’t increase cache hit rate or use less tokens, it means waiting less on long runs.
+
+30
+00:05:49.281 --> 00:05:50.734
+Protect your cached reads.
+
+31
+00:05:51.184 --> 00:06:07.725
+As agentic coding has matured, organizations have shifted from asking developers to scale at all costs to asking developers to scale efficiently. Run /usage in Claude Code to see how much of your usage is cached reads. Then protect that number:
+
+32
+00:06:08.175 --> 00:06:11.734
+Pick your model at the start of a session rather than switching midway.
+
+33
+00:06:11.974 --> 00:06:14.725
+Compact before you step away rather than after, and.
+
+34
+00:06:14.965 --> 00:06:20.725
+If you're on an A P I key or cloud provider, set the one-hour cache lifetime for long sessions.
+
+35
+00:06:21.175 --> 00:06:31.408
+Point Opus 5.5 at the open-ended, context-heavy work where those habits compound, and see What a task costs on Opus 5.5 for the worked numbers.
+
+36
+00:06:32.408 --> 00:06:53.109
+That was Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind, from Claude Blog, published September 24, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

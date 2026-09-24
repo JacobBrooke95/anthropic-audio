@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 22:15:13 +0000</lastBuildDate>
-    <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 19:08:56 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,54 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.</title>
+      <itunes:title>Claude Blog: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context</guid>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Our latest Opus model is priced and trained to optimize costs for how developers code now.
+
+Source: https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context
+Published September 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• costs about 40% less: https://www.anthropic.com/claude-opus-5-5
+• all the context you are providing is necessary: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
+• as much of that context as possible is reading from cache: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+• The cost of a task on Opus 5.5: https://claude.com/blog/what-a-task-costs-on-opus-5-5
+• one-hour cache lifetime: https://code.claude.com/docs/en/prompt-caching#choose-the-ttl-yourself
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Our latest Opus model is priced and trained to optimize costs for how developers code now.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context">https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context</a><br/><strong>Published:</strong> September 24, 2026 · Claude Blog<br/><strong>Length:</strong> 915 words · 6 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/claude-opus-5-5">costs about 40% less</a></li><li><a href="https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models">all the context you are providing is necessary</a></li><li><a href="https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions">as much of that context as possible is reading from cache</a></li><li><a href="https://claude.com/blog/what-a-task-costs-on-opus-5-5">The cost of a task on Opus 5.5</a></li><li><a href="https://code.claude.com/docs/en/prompt-caching#choose-the-ttl-yourself">one-hour cache lifetime</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.mp3" length="4150888" type="audio/mpeg"/>
+      <itunes:duration>417</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.jpg?v=b96b024d"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Our latest Opus model is priced and trained to optimize costs for how developers code now.</itunes:subtitle>
+      <itunes:summary>Our latest Opus model is priced and trained to optimize costs for how developers code now.
+
+Source: https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context
+Published September 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• costs about 40% less: https://www.anthropic.com/claude-opus-5-5
+• all the context you are providing is necessary: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
+• as much of that context as possible is reading from cache: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+• The cost of a task on Opus 5.5: https://claude.com/blog/what-a-task-costs-on-opus-5-5
+• one-hour cache lifetime: https://code.claude.com/docs/en/prompt-caching#choose-the-ttl-yourself
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>55</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <itunes:title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</itunes:title>
