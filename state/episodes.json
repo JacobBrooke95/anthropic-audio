@@ -4751,6 +4751,22 @@
       "updated": "2026-09-24T19:08:56+00:00",
       "slug": "claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont",
       "episode": 55
+    },
+    "https://www.anthropic.com/research/project-swap": {
+      "first_seen": "2026-09-24T23:02:05+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-24T23:02:05+00:00",
+      "slug": "research-2026-09-24-project-swap",
+      "episode": 56
+    },
+    "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels": {
+      "first_seen": "2026-09-24T23:08:15+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-24T23:08:15+00:00",
+      "slug": "claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels",
+      "episode": 57
     }
   },
   "episodes": [
@@ -7634,8 +7650,112 @@
       "episode": 55,
       "created": "2026-09-24T19:08:56+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab54ee79497f0573d0455eb_og_claude-opus-5-5-built-for-coding-sessions-that-use-more-context.jpg"
+    },
+    {
+      "slug": "research-2026-09-24-project-swap",
+      "url": "https://www.anthropic.com/research/project-swap",
+      "source": "research",
+      "title": "Project Swap: What happens when agents trade for us?",
+      "subtitle": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
+      "date": "2026-09-24T16:00:00+00:00",
+      "authors": [],
+      "category": "Economics",
+      "links": [
+        {
+          "text": "Project Deal",
+          "href": "https://www.anthropic.com/features/project-deal"
+        },
+        {
+          "text": "studied",
+          "href": "https://www.sciencedirect.com/science/article/abs/pii/0304406874900330"
+        },
+        {
+          "text": "Open Library",
+          "href": "https://openlibrary.org/"
+        },
+        {
+          "text": "public",
+          "href": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023"
+        },
+        {
+          "text": "datasets",
+          "href": "https://github.com/zygmuntz/goodbooks-10k"
+        },
+        {
+          "text": "a study",
+          "href": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.2118"
+        },
+        {
+          "text": "studies",
+          "href": "https://arxiv.org/pdf/2506.00073"
+        },
+        {
+          "text": "registration",
+          "href": "https://arxiv.org/abs/2406.12137"
+        },
+        {
+          "text": "systems",
+          "href": "https://arxiv.org/abs/2501.10114"
+        },
+        {
+          "text": "personhood credentials",
+          "href": "https://arxiv.org/abs/2408.07892"
+        },
+        {
+          "text": "here",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/7dcd7d8de6e132048f391f5201439c5e11b9fb2c.pdf"
+        },
+        {
+          "text": "https://amazon-reviews-2023.github.io/",
+          "href": "https://amazon-reviews-2023.github.io/"
+        }
+      ],
+      "word_count": 6376,
+      "duration": 2768.64,
+      "bytes": 23036115,
+      "episode": 56,
+      "created": "2026-09-24T23:02:05+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/98a29c28bc80505540f64da96f899288b380fbf0-1200x630.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels",
+      "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "source": "claude-blog",
+      "title": "Claude Tag now supports personal connectors in channels",
+      "subtitle": "Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.",
+      "date": "2026-09-24T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude Tag (beta)",
+          "href": "https://claude.com/product/tag"
+        },
+        {
+          "text": "admin attached to the channel",
+          "href": "https://claude.com/blog/agent-identity-access-model"
+        },
+        {
+          "text": "connectors",
+          "href": "https://claude.com/docs/claude-tag/concepts/settings-map"
+        },
+        {
+          "text": "connected it to your Claude account,",
+          "href": "http://claude.ai/customize"
+        },
+        {
+          "text": "#on-call channel to help with CI triage and response",
+          "href": "https://claude.com/blog/ai-ci-cd-on-call"
+        }
+      ],
+      "word_count": 618,
+      "duration": 299.72898,
+      "bytes": 3183681,
+      "episode": 57,
+      "created": "2026-09-24T23:08:15+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050faaf1c82e21ceab419b_og_claude-and-slack.jpg"
     }
   ],
-  "next_episode": 56,
+  "next_episode": 58,
   "baseline_date": "2026-08-14"
 }

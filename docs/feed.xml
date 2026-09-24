@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 19:08:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 23:08:16 +0000</lastBuildDate>
     <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -75,6 +75,116 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>55</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-opus-5-5-built-for-coding-sessions-that-use-more-cont.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Project Swap: What happens when agents trade for us?</title>
+      <itunes:title>Research: Project Swap: What happens when agents trade for us?</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-24-project-swap/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
+
+Source: https://www.anthropic.com/research/project-swap
+Published September 24, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Project Deal: https://www.anthropic.com/features/project-deal
+• studied: https://www.sciencedirect.com/science/article/abs/pii/0304406874900330
+• Open Library: https://openlibrary.org/
+• public: https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
+• datasets: https://github.com/zygmuntz/goodbooks-10k
+• a study: https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.2118
+• studies: https://arxiv.org/pdf/2506.00073
+• registration: https://arxiv.org/abs/2406.12137
+• systems: https://arxiv.org/abs/2501.10114
+• personhood credentials: https://arxiv.org/abs/2408.07892
+• here: https://www-cdn.anthropic.com/files/4zrzovbb/website/7dcd7d8de6e132048f391f5201439c5e11b9fb2c.pdf
+• https://amazon-reviews-2023.github.io/: https://amazon-reviews-2023.github.io/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-24-project-swap/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/project-swap">https://www.anthropic.com/research/project-swap</a><br/><strong>Published:</strong> September 24, 2026 · Anthropic Research<br/><strong>Category:</strong> Economics<br/><strong>Length:</strong> 6,376 words · 46 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/features/project-deal">Project Deal</a></li><li><a href="https://www.sciencedirect.com/science/article/abs/pii/0304406874900330">studied</a></li><li><a href="https://openlibrary.org/">Open Library</a></li><li><a href="https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023">public</a></li><li><a href="https://github.com/zygmuntz/goodbooks-10k">datasets</a></li><li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.2118">a study</a></li><li><a href="https://arxiv.org/pdf/2506.00073">studies</a></li><li><a href="https://arxiv.org/abs/2406.12137">registration</a></li><li><a href="https://arxiv.org/abs/2501.10114">systems</a></li><li><a href="https://arxiv.org/abs/2408.07892">personhood credentials</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/7dcd7d8de6e132048f391f5201439c5e11b9fb2c.pdf">here</a></li><li><a href="https://amazon-reviews-2023.github.io/">https://amazon-reviews-2023.github.io/</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-24-project-swap/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-24-project-swap.mp3" length="23036115" type="audio/mpeg"/>
+      <itunes:duration>2769</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-24-project-swap.jpg?v=30f84b63"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-24-project-swap.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-24-project-swap.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</itunes:subtitle>
+      <itunes:summary>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
+
+Source: https://www.anthropic.com/research/project-swap
+Published September 24, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Project Deal: https://www.anthropic.com/features/project-deal
+• studied: https://www.sciencedirect.com/science/article/abs/pii/0304406874900330
+• Open Library: https://openlibrary.org/
+• public: https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
+• datasets: https://github.com/zygmuntz/goodbooks-10k
+• a study: https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.2118
+• studies: https://arxiv.org/pdf/2506.00073
+• registration: https://arxiv.org/abs/2406.12137
+• systems: https://arxiv.org/abs/2501.10114
+• personhood credentials: https://arxiv.org/abs/2408.07892
+• here: https://www-cdn.anthropic.com/files/4zrzovbb/website/7dcd7d8de6e132048f391f5201439c5e11b9fb2c.pdf
+• https://amazon-reviews-2023.github.io/: https://amazon-reviews-2023.github.io/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-24-project-swap/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>56</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-24-project-swap.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-24-project-swap.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude Tag now supports personal connectors in channels</title>
+      <itunes:title>Claude Blog: Claude Tag now supports personal connectors in channels</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</guid>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
+
+Source: https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels
+Published September 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Tag (beta): https://claude.com/product/tag
+• admin attached to the channel: https://claude.com/blog/agent-identity-access-model
+• connectors: https://claude.com/docs/claude-tag/concepts/settings-map
+• connected it to your Claude account,: http://claude.ai/customize
+• #on-call channel to help with CI triage and response: https://claude.com/blog/ai-ci-cd-on-call
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you&#x27;re in control of how to present the output.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels">https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</a><br/><strong>Published:</strong> September 24, 2026 · Claude Blog<br/><strong>Length:</strong> 618 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/product/tag">Claude Tag (beta)</a></li><li><a href="https://claude.com/blog/agent-identity-access-model">admin attached to the channel</a></li><li><a href="https://claude.com/docs/claude-tag/concepts/settings-map">connectors</a></li><li><a href="http://claude.ai/customize">connected it to your Claude account,</a></li><li><a href="https://claude.com/blog/ai-ci-cd-on-call">#on-call channel to help with CI triage and response</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.mp3" length="3183681" type="audio/mpeg"/>
+      <itunes:duration>300</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.jpg?v=faf0f3a7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.</itunes:subtitle>
+      <itunes:summary>Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
+
+Source: https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels
+Published September 24, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude Tag (beta): https://claude.com/product/tag
+• admin attached to the channel: https://claude.com/blog/agent-identity-access-model
+• connectors: https://claude.com/docs/claude-tag/concepts/settings-map
+• connected it to your Claude account,: http://claude.ai/customize
+• #on-call channel to help with CI triage and response: https://claude.com/blog/ai-ci-cd-on-call
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>57</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Claude discovers a novel enzyme system with CRISPR-like repeats</title>

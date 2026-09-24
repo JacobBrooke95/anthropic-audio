@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.210
+This is Anthropic, Read Aloud. Today: Claude Tag now supports personal connectors in channels.
+
+2
+00:00:09.510 --> 00:00:12.625
+Claude Tag now supports personal connectors in channels.
+
+3
+00:00:13.075 --> 00:00:21.648
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
+
+4
+00:00:22.098 --> 00:00:26.429
+From Claude Blog, published September 24, 2026.
+
+5
+00:00:27.429 --> 00:00:44.779
+Claude Tag (beta) lets you add Claude to a Slack channel, where it works alongside your team. Until now, Claude could only use the connectors an admin attached to the channel, and most organizations keep that list short on purpose: they want access to follow the person, not the channel.
+
+6
+00:00:45.229 --> 00:01:00.304
+Now Claude can use your own connectors for a request you make in a channel. For example, your calendar, your drive, your assigned accounts on the CRM, or your staging deploys. If you have connected it to your Claude account, you can access it in the channel.
+
+7
+00:01:00.754 --> 00:01:21.146
+You decide how information is surfaced from when you ask Claude to access your connectors. You can review each response before it posts. Alternatively, you can use auto mode to post automatically unless Claude determines there is sensitive content that needs your review. On Enterprise plans, admins will be able to require review for everyone.
+
+8
+00:01:21.596 --> 00:01:37.590
+Personal connectors provide admins more governance options. They can provide access to a shared set of tools under an agent identity, have channel members only use personal connectors to rely on existing role-based access, or decide tool by tool.
+
+9
+00:01:38.040 --> 00:01:43.904
+Personal connectors in Claude Tag are rolling out now on Team plans, with Enterprise to follow.
+
+10
+00:01:44.704 --> 00:01:46.314
+Using personal connectors.
+
+11
+00:01:46.764 --> 00:01:58.474
+Most of what people need in a channel sits behind their own login: a time that works on your calendar, your open deals, a plan only you can open. Now you can ask for those in the channel too.
+
+12
+00:01:58.924 --> 00:02:12.034
+For example, here's Priya in #checkout-migration, a channel connected to GitHub. She asks: "@Claude check my Google Drive doc 'Checkout migration, Q3' against what we've shipped. What's still open?"
+
+13
+00:02:12.484 --> 00:02:22.077
+Figure 1: Priya asks Claude in #checkout-migration to check her plan against what shipped. The channel reaches GitHub. Only Priya can open the doc.
+
+14
+00:02:22.527 --> 00:02:31.755
+Claude reads the merged pull requests through the channel's GitHub connector. The doc is one only Priya can open. Before, Claude would have stopped there.
+
+15
+00:02:32.205 --> 00:02:52.963
+Now Claude reads the doc through Priya's Google Drive connector, separately from the channel's work, and posts what shipped and what's left. Priya's plan isn't sensitive, so she uses auto mode and Claude screens the comparison before it posts. For a document she'd rather check first, she can switch to review mode and see the response before the channel does.
+
+16
+00:02:53.413 --> 00:03:00.557
+Figure 2: The same thread. Claude's reply with the comparison, and the review prompt showing what will post before it does.
+
+17
+00:03:01.007 --> 00:03:14.795
+Everything Claude does through your connector appears in that tool's own log under your account, the way your direct-message work does today. The channel's own work stays under its service account, the one your security team already follows.
+
+18
+00:03:15.245 --> 00:03:24.631
+You decide what Claude reaches and what the channel sees, the same as when you use your connectors in a direct message, and you can disconnect a connector at any time.
+
+19
+00:03:25.431 --> 00:03:27.612
+Where the channel's own connectors still matter.
+
+20
+00:03:28.062 --> 00:03:45.097
+Personal connectors don't run unattended. Scheduled routines, and anything Claude starts on its own, use the connectors an admin attached to the channel. Tools that are needed for unattended actions, or actions the entire channel relies on, should use shared connectors.
+
+21
+00:03:45.547 --> 00:04:01.991
+For example, you may want to add Claude to your #on-call channel to help with CI triage and response. Claude can identify and help remediate issues (even after work hours) if you set up shared connectors to your runbook, monitoring tools, and deployment history.
+
+22
+00:04:02.441 --> 00:04:22.337
+A channel that solely relies on personal connectors suits closely supervised work. For example, collaboratively drafting an RFP response may require pulling data from pricing or other sensitive sources that are not provisioned to the entire channel. Anything Claude posts is visible to everyone in the channel.
+
+23
+00:04:23.137 --> 00:04:24.031
+What's next.
+
+24
+00:04:24.481 --> 00:04:32.275
+There's nothing to install. When a request of yours needs one of your connectors, Claude asks you the first time, then uses it in the thread.
+
+25
+00:04:32.725 --> 00:04:37.163
+Ask @Claude in a channel for what only you can reach. Learn more about Claude Tag.
+
+26
+00:04:38.163 --> 00:04:55.751
+That was Claude Tag now supports personal connectors in channels, from Claude Blog, published September 24, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

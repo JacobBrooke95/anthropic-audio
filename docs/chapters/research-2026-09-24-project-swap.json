@@ -1,0 +1,77 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 24.6,
+   "title": "Summary"
+  },
+  {
+   "startTime": 114.25,
+   "title": "Why we did this"
+  },
+  {
+   "startTime": 246.47,
+   "title": "How to make a market"
+  },
+  {
+   "startTime": 427.16,
+   "title": "How the experiment worked"
+  },
+  {
+   "startTime": 724.01,
+   "title": "How well Claude guesses preferences"
+  },
+  {
+   "startTime": 909.68,
+   "title": "The information powering the market limited outcomes"
+  },
+  {
+   "startTime": 1133.17,
+   "title": "On Claude’s own rankings, model choice makes a difference"
+  },
+  {
+   "startTime": 1290.52,
+   "title": "Ruthless agents did a bit better, while prosocial agents sometimes made sacrifices"
+  },
+  {
+   "startTime": 1420.72,
+   "title": "What the agents did on the trading floor"
+  },
+  {
+   "startTime": 1605.58,
+   "title": "People generally liked their books, and would give an agent a third of their yearly book budget"
+  },
+  {
+   "startTime": 1698.64,
+   "title": "Limitations"
+  },
+  {
+   "startTime": 1782.24,
+   "title": "Discussion: Implications for agentic markets"
+  },
+  {
+   "startTime": 2319.59,
+   "title": "Appendix"
+  },
+  {
+   "startTime": 2322.6,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 2351.56,
+   "title": "Citation"
+  },
+  {
+   "startTime": 2358.14,
+   "title": "References"
+  },
+  {
+   "startTime": 2746.6,
+   "title": "Outro"
+  }
+ ]
+}
