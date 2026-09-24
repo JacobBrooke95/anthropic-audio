@@ -30,8 +30,9 @@ GitHub Actions (hourly cron, PT business-hours guard)
      │                (music bed + slate in a second voice), loudness-normalised read,
      │                outro pad; 64 kbps MP3 with ID3 tags, embedded art, and ID3 chapters
      │                (CHAP/CTOC from headings); WebVTT transcript from per-chunk timings
-     ├─ artwork.py    3000×3000 JPEG episode art: keys the post's og:image illustration out of
-     │                its flat background, floats it on a gradient of the same colour + show cover
+     ├─ artwork.py    3000×3000 JPEG episode art, art-forward: the post's og:image illustration
+     │                keyed out of its flat background and re-centred on that exact colour
+     │                (sparse line art zoomed to fill the frame), small source + show labels
      ├─ site.py       docs/: index, episode pages (player + show notes + full text), post.md/.json
      ├─ feed.py       docs/feed.xml (RSS 2.0 + itunes + podcast namespaces, incl.
      │                podcast:transcript → WebVTT and podcast:chapters → docs/chapters/*.json)

@@ -66,7 +66,7 @@ def process(url: str, source: str, st: State, *, episode_no: int | None = None) 
     art_path = DOCS / "art" / f"{slug}.jpg"
     existing = next((e for e in st.episodes if e["url"] == url), None)
     ep_no = episode_no or (existing["episode"] if existing else st.next_episode)
-    art = episode_art(post, art_path, episode=ep_no)
+    art = episode_art(post, art_path)
     log.info("  artwork: %d bytes", len(art))
     res = synthesize(segs, mp3, slate=slate_line(post))
     log.info("  audio: %s, %.1f MB, %d chunks (%.0fs)", f"{res['duration']:.0f}s", res["bytes"] / 1e6, len(res["cues"]), time.time() - t0)
@@ -192,7 +192,7 @@ def cmd_art(args):
             log.warning("no post.json for %s — skipping", ep["slug"])
             continue
         post = Post.from_dict(json.loads(pj.read_text()))
-        art = episode_art(post, DOCS / "art" / f"{ep['slug']}.jpg", episode=ep["episode"])
+        art = episode_art(post, DOCS / "art" / f"{ep['slug']}.jpg")
         mp3 = DOCS / "audio" / f"{ep['slug']}.mp3"
         if mp3.exists():
             tag_mp3(mp3, title=ep["title"], artist=", ".join(ep.get("authors") or []) or "Anthropic",
