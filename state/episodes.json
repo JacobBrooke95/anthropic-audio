@@ -4767,6 +4767,22 @@
       "updated": "2026-09-24T23:08:15+00:00",
       "slug": "claude-blog-2026-09-24-claude-tag-now-supports-personal-connectors-in-channels",
       "episode": 57
+    },
+    "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
+      "first_seen": "2026-09-25T19:31:14+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-25T19:31:14+00:00",
+      "slug": "research-2026-09-25-yes-claude-can-do-nine-loops",
+      "episode": 58
+    },
+    "https://claude.com/blog/build-plugins-for-claude": {
+      "first_seen": "2026-09-25T19:34:53+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-25T19:34:53+00:00",
+      "slug": "claude-blog-2026-09-25-build-plugins-for-claude",
+      "episode": 59
     }
   },
   "episodes": [
@@ -7754,8 +7770,116 @@
       "episode": 57,
       "created": "2026-09-24T23:08:15+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050faaf1c82e21ceab419b_og_claude-and-slack.jpg"
+    },
+    {
+      "slug": "research-2026-09-25-yes-claude-can-do-nine-loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source": "research",
+      "title": "Yes, Claude can do Nine Loops",
+      "subtitle": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "date": "2026-09-25T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "4gravitons.com",
+          "href": "https://4gravitons.com/"
+        },
+        {
+          "text": "dabbled",
+          "href": "https://arxiv.org/abs/2502.05121"
+        },
+        {
+          "text": "this month alone",
+          "href": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "text": "a challenge",
+          "href": "https://4gravitons.com/2026/08/07/it-only-counts-when-ai-gets-to-my-field/"
+        },
+        {
+          "text": "The most precise prediction in particle physics you might have heard of used five",
+          "href": "https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment#Electron"
+        },
+        {
+          "text": "or for anything in the real world",
+          "href": "https://arstechnica.com/science/2013/05/earning-a-phd-by-studying-a-theory-that-we-know-is-wrong/"
+        },
+        {
+          "text": "surprising link",
+          "href": "https://www.quantamagazine.org/particle-physicists-puzzle-over-a-new-duality-20220801/"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "In March",
+          "href": "https://www.anthropic.com/research/vibe-physics"
+        },
+        {
+          "text": "full nine-loop result",
+          "href": "https://smsharma.io/cosmic-nine-loops/"
+        },
+        {
+          "text": "concurrent nine-loop result",
+          "href": "https://doi.org/10.5281/zenodo.22800071"
+        }
+      ],
+      "word_count": 3312,
+      "duration": 1246.92898,
+      "bytes": 10738627,
+      "episode": 58,
+      "created": "2026-09-25T19:31:14+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2ed453f8c87d2166b09940a859cd193b29678a88-3840x2160.png"
+    },
+    {
+      "slug": "claude-blog-2026-09-25-build-plugins-for-claude",
+      "url": "https://claude.com/blog/build-plugins-for-claude",
+      "source": "claude-blog",
+      "title": "Build plugins for Claude",
+      "subtitle": "Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live",
+      "date": "2026-09-25T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude directory",
+          "href": "https://claude.ai/directory"
+        },
+        {
+          "text": "directory submission portal",
+          "href": "https://claude.ai/directory/manage/new"
+        },
+        {
+          "text": "MCP 2.0",
+          "href": "https://modelcontextprotocol.io/specification/2026-07-28"
+        },
+        {
+          "text": "MCP extensions",
+          "href": "https://modelcontextprotocol.io/extensions/overview"
+        },
+        {
+          "text": "MCP Apps",
+          "href": "https://claude.com/docs/connectors/building/mcp-apps/getting-started"
+        },
+        {
+          "text": "Enterprise Managed Auth",
+          "href": "https://claude.com/docs/connectors/building/enterprise-managed-auth"
+        },
+        {
+          "text": "how to build a plugin",
+          "href": "https://claude.com/docs/build/overview"
+        }
+      ],
+      "word_count": 447,
+      "duration": 231.706122,
+      "bytes": 2594914,
+      "episode": 59,
+      "created": "2026-09-25T19:34:53+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg"
     }
   ],
-  "next_episode": 58,
+  "next_episode": 60,
   "baseline_date": "2026-08-14"
 }

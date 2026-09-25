@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:05.579
+This is Anthropic, Read Aloud. Today: Build plugins for Claude.
+
+2
+00:00:06.879 --> 00:00:08.338
+Build plugins for Claude.
+
+3
+00:00:08.788 --> 00:00:21.511
+Submit plugins to the Claude directory through a new directory submission portal. Package M C P connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live.
+
+4
+00:00:21.960 --> 00:00:26.371
+From Claude Blog, published September 25, 2026.
+
+5
+00:00:27.371 --> 00:00:35.721
+Every day, millions of people connect Claude to their apps, work tools, and data. Today, we're making it easier for developers to reach them.
+
+6
+00:00:36.171 --> 00:00:51.426
+Plugins package M C P connectors, Agent Skills, or both, and are the main way to build third-party extensions for Claude. Build a plugin, submit it through the new directory submission portal, and once approved, it's listed in the Claude directory.
+
+7
+00:00:52.226 --> 00:00:55.796
+Submit and track plugins in the directory submission portal.
+
+8
+00:00:56.246 --> 00:01:05.542
+The directory submission portal is open to developers on paid Claude plans. There are two ways to submit and get your plugin published in the Claude directory:
+
+9
+00:01:05.992 --> 00:01:10.090
+Single M C P connector: point to your remote M C P server.
+
+10
+00:01:10.330 --> 00:01:22.187
+Plugin bundle: combine M C P servers and skills, host them on GitHub, and submit the repo. In Claude Code, plugins can also include LSPs, commands, hooks, and agents.
+
+11
+00:01:22.637 --> 00:01:27.496
+Whichever path you choose, the portal will guide you from submission to launch. You can:
+
+12
+00:01:27.946 --> 00:01:35.054
+Auto-validate your plugin. Each submission is checked and safety-scanned as soon as you submit, so you catch issues early.
+
+13
+00:01:35.294 --> 00:01:43.078
+Review status and feedback. See where your plugin is in the review process, results from the safety scan, and recommended changes.
+
+14
+00:01:43.318 --> 00:01:48.252
+Publish when you’re ready. Once approved, you decide when to publish your plugin in Claude.
+
+15
+00:01:48.702 --> 00:01:55.578
+Figure 1: Stylized view of review status and recommended changes for a plugin. Data is illustrative.
+
+16
+00:01:56.378 --> 00:01:59.037
+Monitor and improve your plugin once it's published.
+
+17
+00:01:59.487 --> 00:02:16.853
+Once your plugin is live, usage analytics show installs by product surface and version, so you can prioritize fixes and features for your users. On the discovery side, you’ll see how often your listing is viewed and which searches lead people to it, so you can refine it to reach new users.
+
+18
+00:02:17.303 --> 00:02:23.034
+Figure 2: Stylized view of usage metrics for a published plugin. Data is illustrative.
+
+19
+00:02:23.834 --> 00:02:28.727
+Bring a rich experience to users with M C P 2.0 and its extensions.
+
+20
+00:02:29.177 --> 00:02:54.100
+Claude supports the latest M C P spec, commonly referred to as M C P 2.0, which includes a stateless core. You can improve the experience of using your plugin with two M C P extensions: M C P Apps, for interactive U I inside chat, and Enterprise Managed Auth, for zero-touch OAuth for enterprise users. Support for more M C P features and extensions is coming soon.
+
+21
+00:02:54.900 --> 00:02:56.656
+Start building plugins for Claude.
+
+22
+00:02:57.106 --> 00:03:18.669
+Plugins are the main way for third-party developers to create extensions for Claude. Over the coming weeks, one discovery experience will roll out across Claude and Claude Code. Skills and M C P connectors stay as building blocks, and the Claude directory will continue to list them. In the future, developers will be able to turn their connector listing into a plugin.
+
+23
+00:03:18.789 --> 00:03:25.160
+If you have an existing skill, connector, or plugin on the Claude directory, you do not need to make any changes.
+
+24
+00:03:25.610 --> 00:03:31.060
+To get started with building plugins, read our docs for how to build a plugin and submit your plugin here.
+
+25
+00:03:32.060 --> 00:03:47.719
+That was Build plugins for Claude, from Claude Blog, published September 25, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

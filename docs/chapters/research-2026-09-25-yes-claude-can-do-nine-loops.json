@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 204.29,
+   "title": "The challenge"
+  },
+  {
+   "startTime": 507.94,
+   "title": "Then people did it"
+  },
+  {
+   "startTime": 659.23,
+   "title": "So, problem solved?"
+  },
+  {
+   "startTime": 940.35,
+   "title": "An addendum: How does it feel to be scooped by a machine?"
+  },
+  {
+   "startTime": 1196.51,
+   "title": "Additional material"
+  },
+  {
+   "startTime": 1207.43,
+   "title": "Disclosure"
+  },
+  {
+   "startTime": 1226.16,
+   "title": "Outro"
+  }
+ ]
+}

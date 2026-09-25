@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 23:08:16 +0000</lastBuildDate>
-    <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 25 Sep 2026 19:34:54 +0000</lastBuildDate>
+    <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,118 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Yes, Claude can do Nine Loops</title>
+      <itunes:title>Research: Yes, Claude can do Nine Loops</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-25-yes-claude-can-do-nine-loops/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
+
+Source: https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+Published September 25, 2026 · Anthropic Research
+
+Links referenced in the post:
+• 4gravitons.com: https://4gravitons.com/
+• dabbled: https://arxiv.org/abs/2502.05121
+• this month alone: https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/
+• a challenge: https://4gravitons.com/2026/08/07/it-only-counts-when-ai-gets-to-my-field/
+• The most precise prediction in particle physics you might have heard of used five: https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment#Electron
+• or for anything in the real world: https://arstechnica.com/science/2013/05/earning-a-phd-by-studying-a-theory-that-we-know-is-wrong/
+• surprising link: https://www.quantamagazine.org/particle-physicists-puzzle-over-a-new-duality-20220801/
+• Claude Science: https://claude.com/product/claude-science
+• In March: https://www.anthropic.com/research/vibe-physics
+• full nine-loop result: https://smsharma.io/cosmic-nine-loops/
+• concurrent nine-loop result: https://doi.org/10.5281/zenodo.22800071
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-25-yes-claude-can-do-nine-loops/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude computes a nine-loop amplitude in N=4 super-Yang-Mills</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</a><br/><strong>Published:</strong> September 25, 2026 · Anthropic Research<br/><strong>Category:</strong> Science<br/><strong>Length:</strong> 3,312 words · 20 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://4gravitons.com/">4gravitons.com</a></li><li><a href="https://arxiv.org/abs/2502.05121">dabbled</a></li><li><a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/">this month alone</a></li><li><a href="https://4gravitons.com/2026/08/07/it-only-counts-when-ai-gets-to-my-field/">a challenge</a></li><li><a href="https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment#Electron">The most precise prediction in particle physics you might have heard of used five</a></li><li><a href="https://arstechnica.com/science/2013/05/earning-a-phd-by-studying-a-theory-that-we-know-is-wrong/">or for anything in the real world</a></li><li><a href="https://www.quantamagazine.org/particle-physicists-puzzle-over-a-new-duality-20220801/">surprising link</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://www.anthropic.com/research/vibe-physics">In March</a></li><li><a href="https://smsharma.io/cosmic-nine-loops/">full nine-loop result</a></li><li><a href="https://doi.org/10.5281/zenodo.22800071">concurrent nine-loop result</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-25-yes-claude-can-do-nine-loops/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-25-yes-claude-can-do-nine-loops.mp3" length="10738627" type="audio/mpeg"/>
+      <itunes:duration>1247</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-25-yes-claude-can-do-nine-loops.jpg?v=93ac8f76"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-25-yes-claude-can-do-nine-loops.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-25-yes-claude-can-do-nine-loops.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude computes a nine-loop amplitude in N=4 super-Yang-Mills</itunes:subtitle>
+      <itunes:summary>Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
+
+Source: https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+Published September 25, 2026 · Anthropic Research
+
+Links referenced in the post:
+• 4gravitons.com: https://4gravitons.com/
+• dabbled: https://arxiv.org/abs/2502.05121
+• this month alone: https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/
+• a challenge: https://4gravitons.com/2026/08/07/it-only-counts-when-ai-gets-to-my-field/
+• The most precise prediction in particle physics you might have heard of used five: https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment#Electron
+• or for anything in the real world: https://arstechnica.com/science/2013/05/earning-a-phd-by-studying-a-theory-that-we-know-is-wrong/
+• surprising link: https://www.quantamagazine.org/particle-physicists-puzzle-over-a-new-duality-20220801/
+• Claude Science: https://claude.com/product/claude-science
+• In March: https://www.anthropic.com/research/vibe-physics
+• full nine-loop result: https://smsharma.io/cosmic-nine-loops/
+• concurrent nine-loop result: https://doi.org/10.5281/zenodo.22800071
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-25-yes-claude-can-do-nine-loops/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>58</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-25-yes-claude-can-do-nine-loops.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-25-yes-claude-can-do-nine-loops.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Build plugins for Claude</title>
+      <itunes:title>Claude Blog: Build plugins for Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-25-build-plugins-for-claude/</link>
+      <guid isPermaLink="false">https://claude.com/blog/build-plugins-for-claude</guid>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live
+
+Source: https://claude.com/blog/build-plugins-for-claude
+Published September 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude directory: https://claude.ai/directory
+• directory submission portal: https://claude.ai/directory/manage/new
+• MCP 2.0: https://modelcontextprotocol.io/specification/2026-07-28
+• MCP extensions: https://modelcontextprotocol.io/extensions/overview
+• MCP Apps: https://claude.com/docs/connectors/building/mcp-apps/getting-started
+• Enterprise Managed Auth: https://claude.com/docs/connectors/building/enterprise-managed-auth
+• how to build a plugin: https://claude.com/docs/build/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-25-build-plugins-for-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it&#x27;s used and found once it&#x27;s live</p><p><strong>Source:</strong> <a href="https://claude.com/blog/build-plugins-for-claude">https://claude.com/blog/build-plugins-for-claude</a><br/><strong>Published:</strong> September 25, 2026 · Claude Blog<br/><strong>Length:</strong> 447 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.ai/directory">Claude directory</a></li><li><a href="https://claude.ai/directory/manage/new">directory submission portal</a></li><li><a href="https://modelcontextprotocol.io/specification/2026-07-28">MCP 2.0</a></li><li><a href="https://modelcontextprotocol.io/extensions/overview">MCP extensions</a></li><li><a href="https://claude.com/docs/connectors/building/mcp-apps/getting-started">MCP Apps</a></li><li><a href="https://claude.com/docs/connectors/building/enterprise-managed-auth">Enterprise Managed Auth</a></li><li><a href="https://claude.com/docs/build/overview">how to build a plugin</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-25-build-plugins-for-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-25-build-plugins-for-claude.mp3" length="2594914" type="audio/mpeg"/>
+      <itunes:duration>232</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-25-build-plugins-for-claude.jpg?v=6186cfd0"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-25-build-plugins-for-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-25-build-plugins-for-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live</itunes:subtitle>
+      <itunes:summary>Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live
+
+Source: https://claude.com/blog/build-plugins-for-claude
+Published September 25, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude directory: https://claude.ai/directory
+• directory submission portal: https://claude.ai/directory/manage/new
+• MCP 2.0: https://modelcontextprotocol.io/specification/2026-07-28
+• MCP extensions: https://modelcontextprotocol.io/extensions/overview
+• MCP Apps: https://claude.com/docs/connectors/building/mcp-apps/getting-started
+• Enterprise Managed Auth: https://claude.com/docs/connectors/building/enterprise-managed-auth
+• how to build a plugin: https://claude.com/docs/build/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-25-build-plugins-for-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>59</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-25-build-plugins-for-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-25-build-plugins-for-claude.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.</title>
       <itunes:title>Claude Blog: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.</itunes:title>

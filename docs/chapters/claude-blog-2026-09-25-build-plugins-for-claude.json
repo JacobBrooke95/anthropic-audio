@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 52.23,
+   "title": "Submit and track plugins in the directory submission portal"
+  },
+  {
+   "startTime": 116.38,
+   "title": "Monitor and improve your plugin once it's published"
+  },
+  {
+   "startTime": 143.83,
+   "title": "Bring a rich experience to users with M C P 2.0 and its extensions"
+  },
+  {
+   "startTime": 174.9,
+   "title": "Start building plugins for Claude"
+  },
+  {
+   "startTime": 212.06,
+   "title": "Outro"
+  }
+ ]
+}
