@@ -10,8 +10,34 @@
     <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
     <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
     <webfeeds:accentColor>b5532e</webfeeds:accentColor>
-    <lastBuildDate>Fri, 25 Sep 2026 19:34:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 21:17:07 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
+    <item>
+      <title>Claude Blog: Giving companies more control over their AI agents, with NVIDIA</title>
+      <link>https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
+      <guid isPermaLink="true">https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Claude Blog</category>
+      <description>Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform. — Claude Blog. Audio edition: https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-28-giving-companies-more-control-over-their-ai-agents-with-nvid.mp3</description>
+      <content:encoded><![CDATA[<p><em>Claude Blog · September 28, 2026</em><br/>Original: <a href="https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia">https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-28-giving-companies-more-control-over-their-ai-agents-with-nvid.mp3">Listen (5 min)</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-28-giving-companies-more-control-over-their-ai-agents-with-nvid/">Episode page</a></p><p><strong>Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform.</strong></p><p>NVIDIA today announced the <a href="https://nvidianews.nvidia.com/news/open-agent-safety-platform">Open Agent Safety Platform</a>, an open software platform and reference system design for strengthening AI security. Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack. </p>
+<p>Claude Managed Agents, a suite of composable APIs for building and deploying production-grade agents at scale, holds the credentials an agent needs in a vault so the agent never sees them. Open source NVIDIA OpenShell software is designed to control what the agent can execute and reach while it works. Customers who are using Managed Agents with OpenShell can limit what an agent can do, review what the agent did and confirm that the limits are in place. </p>
+<p>Companies are moving from using AI to answer questions to deploying agents that handle complex work across business units, use proprietary data and take actions on behalf of users. As models improve, agents find more uses and get more access. The more access an agent has, the more its company needs to control and check what it does. </p>
+<h2><strong>Protection in layers </strong></h2>
+<p>Protection starts with safeguards inside the model. Managed Agents and NVIDIA Open Shell add limits that sit outside the model and apply to what the agent does. Each layer is designed to enforce its limits independently, so protection doesn&#x27;t depend on any single layer. The layers are modular, so companies can adopt the ones that fit their setup. </p>
+<h2><strong>Claude Managed Agents does the work and holds the credentials </strong></h2>
+<p>With Managed Agents, the agent loop runs on a separate server from the sandbox, the isolated environment where the work happens. Credentials, meaning passwords and access keys, are held in a separate vault, so the agent never sees them. </p>
+<p>Managed Agents also provides audit trails, which record what each agent did, and integration with a company&#x27;s existing access controls. Companies can bring their own sandbox setup and choose where and how it runs. </p>
+<h2><strong>NVIDIA OpenShell sets what an agent can reach </strong></h2>
+<p><a href="https://www.nvidia.com/en-us/ai/openshell/">OpenShell</a> is open source secure runtime software from NVIDIA. It governs and monitors all AI agent behavior and enforces policies for every action. OpenShell blocks everything unless a rule allows it. It checks each tool an agent tries to use and applies rules to the files, network connections and data the agent accesses. The rules are enforced outside the agent, and OpenShell logs every decision it allows or blocks. </p>
+<p>Teams can start with narrow permissions, review the log, and use Claude to tighten the rules toward the least access a task needs. OpenShell&#x27;s policy prover then uses mathematical proof to confirm what the agent can reach under the rules the team wrote. </p>
+<h2><strong>What Claude Managed Agents includes </strong></h2>
+<ul><li>Production-grade agents with secure sandboxing, authentication, and tool execution handled for you. </li><li>Long-running sessions that operate autonomously for hours, with progress and outputs that persist even through disconnections. </li><li>Multi-agent orchestration, where agents can spin up and direct other agents to parallelize complex work. </li><li>Trusted governance, giving agents access to real systems with scoped permissions, identity management, and execution tracing built in. </li></ul>
+<h2><strong>How teams use Managed Agents </strong></h2>
+<ul><li><a href="https://claude.com/customers/notion-qa">Notion</a> lets teams hand work to Claude inside their workspace. Engineers use it to ship code, and other employees use it to produce websites and presentations. Dozens of tasks can run in parallel while the team works on the results together. </li><li><a href="https://claude.com/customers/rakuten-qa">Rakuten</a> runs specialist agents across engineering, product, sales, marketing, and finance, each deployed within a week. </li><li><a href="https://claude.com/customers/asana-qa">Asana</a> built AI Teammates, agents that work alongside people in Asana projects, take on tasks and draft deliverables. Using Managed Agents, the team added advanced features faster than it could have otherwise. </li></ul>
+<h2><strong>Availability </strong></h2>
+<p>Managed Agents is available today. It can operate in a sandbox you control either running on your own infrastructure, or with a managed provider. NVIDIA OpenShell is open source under the Apache 2.0 license and available on <a href="https://github.com/NVIDIA/OpenShell">GitHub</a> and NVIDIA&#x27;s <a href="https://docs.nvidia.com/openshell/latest/about/overview">developer resources page</a>. </p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
+    </item>
     <item>
       <title>Research: Yes, Claude can do Nine Loops</title>
       <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>

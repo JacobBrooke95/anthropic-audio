@@ -4783,6 +4783,14 @@
       "updated": "2026-09-25T19:34:53+00:00",
       "slug": "claude-blog-2026-09-25-build-plugins-for-claude",
       "episode": 59
+    },
+    "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
+      "first_seen": "2026-09-28T21:17:06+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-28T21:17:06+00:00",
+      "slug": "claude-blog-2026-09-28-giving-companies-more-control-over-their-ai-agents-with-nvid",
+      "episode": 60
     }
   },
   "episodes": [
@@ -7878,8 +7886,54 @@
       "episode": 59,
       "created": "2026-09-25T19:34:53+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-28-giving-companies-more-control-over-their-ai-agents-with-nvid",
+      "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+      "source": "claude-blog",
+      "title": "Giving companies more control over their AI agents, with NVIDIA",
+      "subtitle": "Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform.",
+      "date": "2026-09-28T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Open Agent Safety Platform",
+          "href": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        },
+        {
+          "text": "OpenShell",
+          "href": "https://www.nvidia.com/en-us/ai/openshell/"
+        },
+        {
+          "text": "Notion",
+          "href": "https://claude.com/customers/notion-qa"
+        },
+        {
+          "text": "Rakuten",
+          "href": "https://claude.com/customers/rakuten-qa"
+        },
+        {
+          "text": "Asana",
+          "href": "https://claude.com/customers/asana-qa"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "text": "developer resources page",
+          "href": "https://docs.nvidia.com/openshell/latest/about/overview"
+        }
+      ],
+      "word_count": 643,
+      "duration": 310.439184,
+      "bytes": 3259137,
+      "episode": 60,
+      "created": "2026-09-28T21:17:06+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abad50555dd1dd050f63495_og_giving-companies-more-control-over-their-ai-agents-with-nvidia.jpg"
     }
   ],
-  "next_episode": 60,
+  "next_episode": 61,
   "baseline_date": "2026-08-14"
 }

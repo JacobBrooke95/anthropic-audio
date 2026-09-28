@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 88.58,
+   "title": "Protection in layers"
+  },
+  {
+   "startTime": 112.69,
+   "title": "Claude Managed Agents does the work and holds the credentials"
+  },
+  {
+   "startTime": 146.39,
+   "title": "NVIDIA OpenShell sets what an agent can reach"
+  },
+  {
+   "startTime": 194.59,
+   "title": "What Claude Managed Agents includes"
+  },
+  {
+   "startTime": 227.88,
+   "title": "How teams use Managed Agents"
+  },
+  {
+   "startTime": 267.7,
+   "title": "Availability"
+  },
+  {
+   "startTime": 288.36,
+   "title": "Outro"
+  }
+ ]
+}
