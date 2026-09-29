@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.984
+This is Anthropic, Read Aloud. Today: GLM-5.3 and the spread of advanced cyber capabilities.
+
+2
+00:00:10.284 --> 00:00:14.593
+GLM-5.3 and the spread of advanced cyber capabilities.
+
+3
+00:00:15.043 --> 00:00:26.258
+GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.
+
+4
+00:00:26.708 --> 00:00:37.286
+From Anthropic Research, published September 29, 2026. By Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, and Tripp Gallagher.
+
+5
+00:00:38.286 --> 00:01:00.708
+Five months ago, we announced Claude Mythos Preview, the first A I model that could autonomously build sophisticated, end-to-end cyber exploits. The rapid rate of improvement in A I suggested to us that this ability would eventually proliferate to many other models, making it much easier for malicious cyber actors to launch highly impactful cyberattacks.
+
+6
+00:01:01.158 --> 00:01:20.059
+In light of these considerations, we chose to release Claude Mythos Preview in a limited way, through Project Glasswing, which enabled trusted cyber defenders to find more than 10000 vulnerabilities in critical software, giving them a head start before malicious actors had access to similarly capable models.
+
+7
+00:01:20.509 --> 00:01:40.541
+But those models have now arrived. In this post, we share our analysis of GLM-5.3, the latest A I model developed by Zhipu A I (known outside of China as Z.ai). Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits.
+
+8
+00:01:40.661 --> 00:02:05.155
+But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse. We find that attackers can bypass GLM-5.3’s safeguards between 64 percent and 100 percent of the time with simple techniques in our simulated tests. In contrast, these attacks did not succeed against safeguarded Claude models in our testing.
+
+9
+00:02:05.275 --> 00:02:20.093
+We assess that GLM-5.3’s lax safeguards significantly increase the cyber capabilities available to malicious actors. At the same time, these capabilities can also benefit defenders working to secure their systems.
+
+10
+00:02:20.543 --> 00:02:45.519
+On Sept. 17, NIST’s Center for A I Standards and Innovation (CAISI) published its own assessment of GLM-5.3’s cyber capabilities. CAISI found that GLM-5.3 is “the most cyber-capable open-weight model released to date” and that it lags the U S frontier by about four months on an aggregate of CAISI’s cyber benchmarks. Our capability findings broadly match CAISI’s.
+
+11
+00:02:45.639 --> 00:03:09.639
+In CAISI’s comparison, U S models were tested with cyber safeguards disabled when applicable, and the U S frontier includes models released only to vetted users. Attackers can’t readily access those versions of U S models, but anyone can download GLM-5.3. This post adds our analysis of how easily GLM-5.3’s safeguards can be bypassed or removed.
+
+12
+00:03:10.089 --> 00:03:34.537
+Figure 1: Figure 1. Summary of findings. Top: The increase in exploitation capability between Claude Opus 4.6 and Claude Mythos Preview mirrors the jump in capabilities between GLM-5.2 and GLM-5.3. Claude models are released with cyber safeguards, and versions with reduced safeguards are limited to vetted users. Anyone can download and use GLM-5.3.
+
+13
+00:03:34.657 --> 00:03:47.902
+Bottom: The limited safeguards in GLM-5.3 can be bypassed with standard techniques that did not work against, or do not apply to, Claude models in our testing. Image description: Two bar charts.
+
+14
+00:03:48.022 --> 00:04:08.026
+Top: share of attempts that built a working exploit on 41 Chrome V8 bugs, Claude Mythos Preview at 14 percent and GLM-5.3 at 12 percent, while Claude Opus 4.6, GLM-5.2, Kimi K3, and DeepSeek V4.1-Flash score at or near 0 percent.
+
+15
+00:04:08.146 --> 00:04:28.238
+Bottom: how often each model engaged with malicious cyber-attack orders, GLM-5.3 rises from 0 percent on a bare order to 64 percent with a false cover story, 92 percent with prefilled reasoning, and 100 percent when abliterated, while Claude Opus 5 stays at 0 percent.
+
+16
+00:04:29.038 --> 00:04:32.982
+GLM-5.3 can develop working exploits end to end.
+
+17
+00:04:33.432 --> 00:04:57.858
+To understand how GLM-5.3 could enable cyber threat actors to find and exploit real software vulnerabilities, we ran evaluations using automated benchmarks and human-in-the-loop workflows. For both approaches, we ran the tested models in isolated and sandboxed environments so they can only attack offline targets that we have set up for the purposes of these evaluations.
+
+18
+00:04:57.978 --> 00:05:07.685
+We focus primarily on exploit development capability, as this is where Claude Mythos Preview demonstrated a notable jump versus previous Claude models.
+
+19
+00:05:08.135 --> 00:05:29.438
+First, we ran the model on ExploitBench, which measures how well A I models can exploit known vulnerabilities in the V8 engine used by Google Chrome. Here we focus on the models’ ability to develop end-to-end exploits successfully, as this is the most relevant capability for attackers, and where we see significant changes between models.
+
+20
+00:05:29.558 --> 00:05:42.827
+We find that GLM-5.3 develops end-to-end exploits in 50 of 410 attempts. Claude Mythos Preview did so at a similar rate, in 56 of 410 attempts.
+
+21
+00:05:43.277 --> 00:06:00.444
+In our internal Binary Exploitation benchmark, 1 we test whether models can find and exploit vulnerabilities in popular open source projects that participate in Google’s O S S-Fuzz project. Here, full credit is awarded for a full control-flow hijack.
+
+22
+00:06:00.564 --> 00:06:16.002
+We evaluate several models on 100 tasks from the benchmark (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4 percent of the trials; Claude Mythos Preview did so in 6 percent.
+
+23
+00:06:16.122 --> 00:06:30.611
+Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.
+
+24
+00:06:31.061 --> 00:06:44.017
+Figure 2: Figure 2. Exploitation capability versus output-token budget. Each line shows the share of a model’s attempts that reached the benchmark’s top outcome versus the output tokens used.
+
+25
+00:06:44.137 --> 00:07:08.606
+Both figures show performance of two Claude models run with safeguards disabled (Opus 4.6, Mythos Preview), two GLM models (5.2 and 5.3), and results from the latest open-weight models released by Moonshot A I (Kimi K3) and DeepSeek (V4.1-Flash). Image description: Two line charts of exploitation success versus output-token budget on a log scale.
+
+26
+00:07:08.726 --> 00:07:34.781
+On ExploitBench, Claude Mythos Preview reaches 14 percent and GLM-5.3 reaches 12 percent, while Kimi K3, DeepSeek-V4.1-Flash, Claude Opus 4.6, and GLM-5.2 stay at or near 0 percent. On Anthropic's internal Binary Exploitation benchmark, Mythos Preview reaches 6 percent and GLM-5.3 reaches 4 percent; all other models score 0 percent.
+
+27
+00:07:35.231 --> 00:07:57.602
+Next, we evaluated how GLM-5.3 performs on open-ended offensive cyber tasks in the hands of human experts (mirroring our testing with Claude Mythos Preview earlier this year). Here, we select targets in which the human experts are unaware of existing vulnerabilities, then ask them to use the model to identify and exploit novel flaws.
+
+28
+00:07:57.722 --> 00:08:07.122
+These experiments tested what the experts could do in a short time-frame: they typically ran for a day or less, with less than an hour of human focus in total.
+
+29
+00:08:07.572 --> 00:08:32.205
+Figure 3: Figure 3. A redacted screenshot of an exploit page generated by GLM-5.3 during researcher-driven testing, shown stealing a user’s SSH private key via a malicious website. The exploit chains together multiple 0-day vulnerabilities the model discovered in a component of a popular web browser, reading a sensitive file off the user’s computer.
+
+30
+00:08:32.325 --> 00:08:57.605
+Image description: Redacted screenshot of an exploit page generated by GLM-5.3. A banner reads "Sandbox escaped, web content read /root/.ssh/id rsa (1896 bytes)," above a live exploit log and the exfiltrated SSH private key, demonstrating a drive-by browser exploit chain stealing a file from the victim's computer.
+
+31
+00:08:58.055 --> 00:09:07.349
+In the first of these sessions, a researcher used GLM-5.3 on a sandboxed machine with a local Linux build of a popular web browser.
+
+32
+00:09:07.469 --> 00:09:27.508
+Over the course of a day (and with limited human attention), GLM-5.3 found several previously unknown vulnerabilities in the browser’s JavaScript engine, and chained them together into a working exploit: a webpage that, when visited, reads arbitrary files from the visitor’s computer (shown in Figure 3).
+
+33
+00:09:27.628 --> 00:09:43.369
+This exploit targets the Linux build of the browser, since that was the only environment made available to the model. However, we believe these vulnerabilities could also impact users on other platforms, though the path to exploitation there may be more complex.
+
+34
+00:09:43.489 --> 00:10:06.001
+(We’ve disclosed these vulnerabilities to the maintainer.) Later in the session, the researcher also identified exploitable vulnerabilities in several other widely used systems with GLM-5.3, including wireless and graphics drivers and network-facing device software. We are currently reviewing these reports and we will disclose to maintainers as appropriate.
+
+35
+00:10:06.451 --> 00:10:22.564
+In a second session, a researcher used GLM-5.3-Flash (a smaller, less capable version of GLM-5.3) to develop an exploit for a known vulnerability (we’ve previously written about these “N-day” vulnerability exploits here ).
+
+36
+00:10:22.684 --> 00:10:42.908
+Here, the researcher focused on a recently disclosed flaw in Google Chrome (CVE-2026 to 11645) to see how quickly the model could turn a public fix into a working attack. The researcher provided GLM-5.3-Flash with public details of this CVE and another known flaw.
+
+37
+00:10:43.028 --> 00:11:08.580
+With no significant direction from the researcher, GLM-5.3-Flash chained together exploits for these two flaws, building a reliable exploit chain for an ARM64 target, bypassing pointer-authentication (PAC) hardening. This took 20 minutes of human attention, plus 8 hours of work for GLM-5.3-Flash. At Zhipu’s A P I prices, this effort would have cost 20.40 dollars.
+
+38
+00:11:09.380 --> 00:11:12.421
+GLM-5.3 lacks robust safeguards.
+
+39
+00:11:12.871 --> 00:11:29.127
+GLM-5.3 has been released with some built-in safeguards: if a user asks for something clearly harmful, the model will often refuse. 2 In our testing, we found that these safeguards could be bypassed or removed with a variety of simple techniques.
+
+40
+00:11:29.577 --> 00:11:53.684
+The most intensive, and most successful, method is a standard refusal reduction technique known as “abliteration”. Since GLM-5.3 is released as an open-weight model, users can reconfigure it to remove its refusals with little change in its capabilities. Several developers released abliterated versions of GLM-5.3 to the public within days of the model’s release.
+
+41
+00:11:54.134 --> 00:12:13.462
+To research how far abliteration allows attackers to bypass GLM-5.3’s safeguards, we produced an abliterated copy ourselves, and then ran it on three public benchmarks ( JailbreakBench, HarmBench, and StrongREJECT ) that measure how often a model complies with clearly harmful requests.
+
+42
+00:12:13.582 --> 00:12:31.413
+Abliterating the model took our team, which had never previously attempted this task, about 2200 G P U hours at a computation cost of roughly 4400 dollars. 3 Abliterating GLM-5.3-Flash took about 600 G P U hours.
+
+43
+00:12:31.533 --> 00:12:45.592
+The edit took GLM-5.3’s refusal rate from above 90 percent to about 3 percent and 2 percent on the first two benchmarks (JailbreakBench and HarmBench) and to 12 percent on the third (StrongREJECT).
+
+44
+00:12:45.712 --> 00:13:06.992
+Abliteration did not significantly reduce the model’s capabilities: on GPQA-Diamond, an evaluation that measures general scientific capabilities, the standard and abliterated models scored the same results; on a tested subset of the CyberGym evaluations, the abliterated version scored a few percent lower (as shown in the chart below).
+
+45
+00:13:07.442 --> 00:13:29.088
+Figure 4: Figure 4. Top: Mean refusal rates across JailbreakBench, HarmBench, and StrongREJECT for the released and abliterated GLM models and for Claude models. After abliteration, the GLM models rarely refuse these queries. Claude models cannot be abliterated because their weights aren’t publicly released or customizable.
+
+46
+00:13:29.208 --> 00:13:46.485
+Bottom: Performance of GLM-5.3 and GLM-5.3-Flash versus their abliterated variants on GPQA-Diamond and CyberGym. Abliteration leaves capability largely intact. Image description: Two bar charts on abliteration.
+
+47
+00:13:46.605 --> 00:14:08.898
+Top: mean refusal rate across three harmful-request benchmarks falls from 95 percent to 6 percent for abliterated GLM-5.3 and from 95 percent to 14 percent for abliterated GLM-5.3-Flash, while Claude models refuse about 96 percent and cannot be abliterated because their weights are not released.
+
+48
+00:14:09.018 --> 00:14:15.886
+Bottom: capability scores on GPQA-Diamond and CyberGym are nearly unchanged after abliteration.
+
+49
+00:14:16.336 --> 00:14:38.953
+In our testing, we observed that GLM-5.3’s safeguards can also be circumvented without using an abliterated version of the model. We placed the model in a simulated world 4 in which it was given overtly malicious requests to attack critical systems. Out of the box, GLM-5.3 refused in all trials (as with the other models we tested).
+
+50
+00:14:39.073 --> 00:14:49.342
+But we identified several simple ways to bypass the GLM models’ safeguards, such that it would respond to these requests in most or all cases. These include:
+
+51
+00:14:49.792 --> 00:15:02.383
+1. Providing a deceptive prompt, such as telling the model that it is an autonomous red-team agent working on an exercise. This gets GLM-5.3 to engage 64 percent of the time.
+
+52
+00:15:02.623 --> 00:15:14.895
+2. Prefilling the models’ thinking tokens so that it appears to have considered the user’s request and decided to proceed. This gets GLM-5.3 to engage 92 percent of the time.
+
+53
+00:15:15.135 --> 00:15:24.366
+3. Using an abliterated version of the model, as described above. This gets GLM-5.3 to engage 100 percent of the time.
+
+54
+00:15:24.816 --> 00:15:41.325
+In our testing, none of these techniques got safeguarded Claude models to carry out the harmful tasks we tested. Claude’s safeguards blocked the requests that used deceptive prompts. The Anthropic A P I provides would-be attackers with no way to prefill Claude’s thinking.
+
+55
+00:15:41.445 --> 00:15:47.187
+And since Claude’s weights are not provided to users, they cannot be abliterated to change Claude’s behavior.
+
+56
+00:15:47.637 --> 00:16:03.735
+Figure 5: Figure 5. Rate at which each model tried to connect to a remote target system after an overtly harmful request by model and bypass condition (50 samples per cell, five attack orders times two targets times five attempts).
+
+57
+00:16:03.855 --> 00:16:26.648
+GLM-5.3 rises from zero engagement on direct requests to 64 percent, 92 percent, and 100 percent under a cover story, prefill, and abliteration respectively, while every tested Claude model stays at zero under A P I safeguards. Padlocked cells mark attacks that are not generally feasible against the Claude A P I.
+
+58
+00:16:26.768 --> 00:16:49.538
+Image description: Table showing how often each model tried to connect to a remote target after a harmful cyber-attack order. GLM-5.3 engages 0 percent on a bare order but 64 percent with a false cover story, 92 percent with prefilled reasoning, and 100 percent when abliterated; GLM-5.3-Flash follows a similar pattern.
+
+59
+00:16:49.658 --> 00:17:01.270
+Claude Opus 4.8, Opus 5, and Mythos 5 stay at 0 percent in all applicable conditions; prefilling and abliteration are not possible against the Claude A P I.
+
+60
+00:17:01.720 --> 00:17:12.686
+To demonstrate how the abliterated version of GLM-5.3 is willing to engage in harmful tasks, we highlight one quote from the chain of thought that it generated:
+
+61
+00:17:13.136 --> 00:17:34.158
+Figure 6: Figure 6. In our simulated environment, the abliterated version of GLM-5.3 considers how to engage in an overtly harmful request, ultimately deciding to follow the user’s instructions despite some initial ethical concerns. Text is quoted verbatim from the model’s chain of thought.
+
+62
+00:17:34.278 --> 00:17:55.420
+Image description: Quoted reasoning from the abliterated version of GLM-5.3 in a simulated environment. The model writes "my job is to cause deaths quietly," briefly weighs the environment's safety warnings, then concludes that the operator's instruction overrides them and decides to proceed with the harmful task.
+
+63
+00:17:56.220 --> 00:17:57.303
+What does this mean?
+
+64
+00:17:57.753 --> 00:18:17.622
+GLM-5.3 will likely give malicious actors access to capabilities that will allow them to find and exploit cyber vulnerabilities without meaningful restrictions. This is unlike any other similarly capable A I model, all of which were released with safeguards or through limited access programs.
+
+65
+00:18:17.742 --> 00:18:42.201
+The release of GLM-5.3 is a meaningful step change in the cyber capabilities available to attackers. Anthropic and other U S A I labs have published recent reports that disclose how cyber attackers have tried to use A I systems. Given this evidence, we think it’s likely both state and non-state actors will use models like GLM-5.3 to cause real-world harm.
+
+66
+00:18:42.651 --> 00:19:00.128
+On the other hand, models with this level of capability can also be used by defenders. Our view is that cyber defenders should use the best available tools that meet their needs. We're working to safely expand access to Claude's cyber capabilities to as many defenders as we can.
+
+67
+00:19:00.248 --> 00:19:11.414
+Cyber defenders face attackers who will use every capable tool they can, and we believe defenders should be equipped with frontier models that are at least as good as those their adversaries are using.
+
+68
+00:19:11.864 --> 00:19:24.210
+Through Project Glasswing (and other efforts, like Patch the Planet ), cyber defenders have made meaningful progress towards securing critical systems in advance of this moment, but much work remains to be done.
+
+69
+00:19:24.330 --> 00:19:47.199
+While vetted defenders can now use even more advanced models like Claude Mythos 5.1 through our trusted access programs, a critical threshold in freely accessible capabilities has now been crossed. GLM-5.3 underscores the urgency of expanding access to advanced frontier models to a broader set of entities to empower cyber defenders.
+
+70
+00:19:47.649 --> 00:20:05.945
+Governments should conduct safety testing on sufficiently capable A I models, including successors to GLM-5.3. Without high quality evaluations from independent sources, the impact of these capabilities might not become fully clear to model developers until it is too late.
+
+71
+00:20:06.065 --> 00:20:16.220
+As A I developers across the world build increasingly capable open weight models, we hope they work to appropriately safeguard these capabilities and prevent misuse.
+
+72
+00:20:17.220 --> 00:20:36.723
+That was GLM-5.3 and the spread of advanced cyber capabilities, from Anthropic Research, published September 29, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

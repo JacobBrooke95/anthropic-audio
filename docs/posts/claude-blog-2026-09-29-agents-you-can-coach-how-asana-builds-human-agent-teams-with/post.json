@@ -1,0 +1,307 @@
+{
+ "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with",
+ "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
+ "subtitle": "Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.",
+ "date": "2026-09-29T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abbce678437b509bfe08237_og_agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "This is the third post in our series on building human-agent teams. The first shared what we’ve learned working with multiplayer AI at Anthropic. The second shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work.",
+   "html": "<em>This is the third post in our series on building human-agent teams. The </em><a href=\"https://claude.com/blog/building-effective-human-agent-teams\"><em>first</em></a><em> shared what we’ve learned working with multiplayer AI at Anthropic. The </em><a href=\"https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams\"><em>second</em></a><em> shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Years before they introduced AI agents, teams at Asana were iterating on ways to encode structure and accountability into how teams work together. They ultimately built the W ork Graph ® model, which maps out every task, project, goal, and conversation on a web of relationships, with defined owners, contributors, and dependencies.",
+   "html": "Years before they introduced AI agents, teams at Asana were iterating on ways to encode structure and accountability into how teams work together. They ultimately built the W<em>ork Graph</em>® model, which maps out every task, project, goal, and conversation on a web of relationships, with defined owners, contributors, and dependencies. "
+  },
+  {
+   "type": "paragraph",
+   "text": "When they started building AI agents, they decided that rather than adding new context structures for AI, agents would operate within this same model. They would have defined roles, be assigned tasks, read and write messages, and show up in activity feeds alongside human collaborators—with additional safeguards around what agents can access, and share.",
+   "html": "When they started building AI agents, they decided that rather than adding new context structures for AI, agents would operate within this same model. They would have defined roles, be assigned tasks, read and write messages, and show up in activity feeds alongside human collaborators—with additional safeguards around what agents can access, and share. "
+  },
+  {
+   "type": "paragraph",
+   "text": "We talked with Arnab Bose, Asana’s Chief Product Officer, about how Asana’s own teams use Claude and work alongside these agents, where Claude models power complex tasks: how each agent gets its role and access, who trains it, how work stays visible to everyone, and the types of jobs agents have on human-agent teams at Asana.",
+   "html": "We talked with Arnab Bose, Asana’s Chief Product Officer, about how Asana’s own teams use Claude and work alongside these agents, where Claude models power complex tasks: how each agent gets its role and access, who trains it, how work stays visible to everyone, and the types of jobs agents have on human-agent teams at Asana. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Think through and structure your work before agents act on it",
+   "html": "Think through and structure your work before agents act on it"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Asana employees, Claude is the default AI tool, connected to the platforms employees use to work, including Google Drive, Slack, and of course, Asana.",
+   "html": "For Asana employees, Claude is the default AI tool, connected to the platforms employees use to work, including Google Drive, Slack, and of course, Asana. "
+  },
+  {
+   "type": "paragraph",
+   "text": "\"A person makes sense of their day by taking unstructured data, an idea they have, a conversation in Slack, a meeting recording in Zoom, a Databricks report, information from Google Docs,” Arnab says. “They talk it through with Claude, and then they can pump all of that into the structure that Asana provides with projects and tasks.\" Once the structure is in place, agents can act on it, with the three capabilities we described in the first post of this series, Building effective human agent teams : persistent memory, their own credentials, and shared context.",
+   "html": "&quot;A person makes sense of their day by taking unstructured data, an idea they have, a conversation in Slack, a meeting recording in Zoom, a Databricks report, information from Google Docs,” Arnab says. “They talk it through with Claude, and then they can pump all of that into the structure that Asana provides with projects and tasks.&quot; Once the structure is in place, agents can act on it, with the three capabilities we described in the first post of this series, <a href=\"https://claude.com/blog/building-effective-human-agent-teams\"><em>Building effective human agent teams</em></a>: persistent memory, their own credentials, and shared context."
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Start with your own ideas. Bring the unstructured pieces of your day, an idea, a Slack conversation, or notes spread across docs, to Claude.",
+     "html": "<strong>Start with your own ideas.</strong> Bring the unstructured pieces of your day, an idea, a Slack conversation, or notes spread across docs, to Claude."
+    },
+    {
+     "text": "Debate and discuss with Claude. Use it as a thinking partner: talk the idea through until the next steps are clear.",
+     "html": "<strong>Debate and discuss with Claude.</strong> Use it as a thinking partner: talk the idea through until the next steps are clear."
+    },
+    {
+     "text": "Log the actionable items to the Work Graph. Move what's actionable into projects and tasks, where agents and colleagues can pick it up.",
+     "html": "<strong>Log the actionable items to the Work Graph.</strong> Move what&#x27;s actionable into projects and tasks, where agents and colleagues can pick it up."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Give every agent a role and the tools and access it needs",
+   "html": "Give every agent a role and the tools and access it needs"
+  },
+  {
+   "type": "paragraph",
+   "text": "Asana employees can work with AI agents in any project like they would with a human colleague. Humans design the teams they work on; each employee gets a list of recommended agents they can use to augment their teams’ goals.",
+   "html": "Asana employees can work with AI agents in any project like they would with a human colleague. Humans design the teams they work on; each employee gets a list of recommended agents they can use to augment their teams’ goals. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Agents are built around roles or types of work, for example, content writer, insights analyst, project manager, work intake specialist, campaign analyst, or campaign coordinator. Each agent comes with pre-built skills based on Asana’s research into how its customers do that work, and with the integrations they would need, such as Hubspot or a document drive.",
+   "html": "Agents are built around roles or types of work, for example, content writer, insights analyst, project manager, work intake specialist, campaign analyst, or campaign coordinator. Each agent comes with pre-built skills based on Asana’s research into how its customers do that work, and with the integrations they would need, such as Hubspot or a document drive. "
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abb134d1d061429065e9809_947344a3.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/01.png"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each agent also has a profile page that lists its name and purpose, the people who can use it, the administrators, instructions, skills, integrations, and permissions. Asana gives you the tools to make access intentional. “Asana is a contained work surface,” Arnab says. “You could choose to grant access to a specific set of projects versus everything, or a specific set of documents, or a combination of documents and apps.”",
+   "html": "Each agent also has a profile page that lists its name and purpose, the people who can use it, the administrators, instructions, skills, integrations, and permissions. Asana gives you the tools to make access intentional. “Asana is a contained work surface,” Arnab says. “You could choose to grant access to a specific set of projects versus everything, or a specific set of documents, or a combination of documents and apps.”"
+  },
+  {
+   "type": "paragraph",
+   "text": "Like human users, agents are subject to explicit access controls, but have an additional safeguard: Asana says an agent’s effective access is bounded by the permissions of the person who triggers it. This allows agents to have broad access to public content, while minimizing the risk of anyone accessing information the agent has learned in a private context.",
+   "html": "Like human users, agents are subject to explicit access controls, but have an additional safeguard: Asana says an agent’s effective access is bounded by the permissions of the person who triggers it. This allows agents to have broad access to public content, while minimizing the risk of anyone accessing information the agent has learned in a private context.  "
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Define the role before you create the agent. Think about the types of jobs that agents can do on your team, then write down the agent’s purpose, instructions, and which specific jobs it owns, the way you would for a new hire’s first quarter.",
+     "html": "<strong>Define the role before you create the agent. </strong>Think about the types of jobs that agents can do on your team, then write down the agent’s purpose, instructions, and which specific jobs it owns, the way you would for a new hire’s first quarter. "
+    },
+    {
+     "text": "Scope access. Decide which projects and documents the agent can read, which applications it can access, and which actions it can take.",
+     "html": "<strong>Scope access. </strong>Decide which projects and documents the agent can read, which applications it can access, and which actions it can take.  "
+    },
+    {
+     "text": "Name users and admins separately. Many people can work with an agent, but only a small, named group should govern what it can access and how it behaves.",
+     "html": "<strong>Name users and admins separately. </strong>Many people can work with an agent, but only a small, named group should govern what it can access and how it behaves. "
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Separate working with an agent from training it",
+   "html": "Separate working with an agent from training it"
+  },
+  {
+   "type": "paragraph",
+   "text": "A key feature of Asana’s agents, which it calls AI teammates, is shared memory, which enables an agent to retain information from previous instructions, allowing multiple users to reuse that memory to complete tasks or jobs faster. “AI teammates can be coached and trained as if they were a person on your team,” Arnab says.",
+   "html": "A key feature of Asana’s agents, which it calls AI teammates, is shared memory, which enables an agent to retain information from previous instructions, allowing multiple users to reuse that memory to complete tasks or jobs faster. “AI teammates can be coached and trained as if they were a person on your team,” Arnab says."
+  },
+  {
+   "type": "paragraph",
+   "text": "There is one role-based restriction in how shared memory works. While anyone can give an agent feedback on a task, only admins and editors can commit feedback to permanent memory, as well as undo, or delete from that memory. For everyone else, the feedback they provide applies only to the current task.",
+   "html": "There is one role-based restriction in how shared memory works. While anyone can give an agent feedback on a task, only admins and editors can commit feedback to permanent memory, as well as undo, or delete from that memory. For everyone else, the feedback they provide applies only to the current task. "
+  },
+  {
+   "type": "paragraph",
+   "text": "The split is intentional, Arnab says. Asana's communications team hold the pen on the company's voice and tone, so they would be the editors and admins of an agent that writes. Arnab can draft with it, but he can't modify its behavior. And most people never need to touch the machinery at all: \"Not everybody on the team needs to understand these concepts, like skills and behavior and memory. There are one or two people on the team who become experts, they set it up correctly, and all the other human beings on the team get the same benefits going forward.\"",
+   "html": "The split is intentional, Arnab says. Asana&#x27;s communications team hold the pen on the company&#x27;s voice and tone, so they would be the editors and admins of an agent that writes. Arnab can draft with it, but he can&#x27;t modify its behavior. And most people never need to touch the machinery at all: &quot;Not everybody on the team needs to understand these concepts, like skills and behavior and memory. There are one or two people on the team who become experts, they set it up correctly, and all the other human beings on the team get the same benefits going forward.&quot;"
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice:",
+   "html": "<strong>How to put this into practice:</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Decide who trains each agent, and who works with it. Identify subject matter experts inside your business who can help build the agents that the team uses. Everyone else can provide feedback on tasks, but cannot rewrite the agent.",
+     "html": "<strong>Decide who trains each agent, and who works with it. </strong>Identify subject matter experts inside your business who can help build the agents that the team uses. Everyone else can provide feedback on tasks, but cannot rewrite the agent. "
+    },
+    {
+     "text": "Match editors to expertise. The team that owns the standard the agent applies, like brand voice or planning conventions, owns (or administers) the agent.",
+     "html": "<strong>Match editors to expertise.</strong> The team that owns the standard the agent applies, like brand voice or planning conventions, owns (or administers) the agent. "
+    },
+    {
+     "text": "Build the memory as you work. Feedback can improve the agent with time. Ask the agent to remember decisions worth keeping, or delete ones that are no longer relevant or true.",
+     "html": "<strong>Build the memory as you work. </strong>Feedback can improve the agent with time. Ask the agent to remember decisions worth keeping, or delete ones that are no longer relevant or true. "
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Keep the agent’s work where everyone can see it",
+   "html": "Keep the agent’s work where everyone can see it"
+  },
+  {
+   "type": "paragraph",
+   "text": "Similar to how agents in Slack post transparently in channels , when a task is assigned to an AI teammate everyone can see that an agent is doing it, and what it does. The agent posts activity, including its research plan and the steps it took, so everyone with access to that task can read what it did, comment, and steer it toward the result they want.",
+   "html": "Similar to how <a href=\"https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams\">agents in Slack post transparently in channels</a>, when a task is assigned to an AI teammate everyone can see that an agent is doing it, and what it does. The agent posts activity, including its research plan and the steps it took, so everyone with access to that task can read what it did, comment, and steer it toward the result they want. "
+  },
+  {
+   "type": "paragraph",
+   "text": "When Asana’s communications team asked Arnab to review a briefing document for a speaking engagement, he @-mentioned the agent on the task and asked it to also factor in his talk track from an earlier talk. The message was brief because he had used that agent many times and the material he referenced was already in the Work Graph. A colleague on the communications team could see his request and the agent’s response, and go back and forth with the agent at the same time.",
+   "html": "When Asana’s communications team asked Arnab to review a briefing document for a speaking engagement, he @-mentioned the agent on the task and asked it to also factor in his talk track from an earlier talk. The message was brief because he had used that agent many times and the material he referenced was already in the Work Graph. A colleague on the communications team could see his request and the agent’s response, and go back and forth with the agent at the same time."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"You could probably get great quality responses from a one-on-one AI agent if you are highly AI fluent, get that document out, and post it back into Slack or into Asana,\" Arnab says. \"But at that point, the other human beings who are reviewing that content don't know what the prompt was and what the back-and-forth was. If they disagree with some of the guidance you provided, that's impossible for them to get aligned on.\" On a shared task, the request, the pushback, and the output are in one place, and the people reviewing the output can also revise the instructions that produced it.",
+   "html": "&quot;You could probably get great quality responses from a one-on-one AI agent if you are highly AI fluent, get that document out, and post it back into Slack or into Asana,&quot; Arnab says. &quot;But at that point, the other human beings who are reviewing that content don&#x27;t know what the prompt was and what the back-and-forth was. If they disagree with some of the guidance you provided, that&#x27;s impossible for them to get aligned on.&quot; On a shared task, the request, the pushback, and the output are in one place, and the people reviewing the output can also revise the instructions that produced it."
+  },
+  {
+   "type": "paragraph",
+   "text": "How to put this into practice",
+   "html": "<strong>How to put this into practice</strong>"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Bring in agents where your team reviews work. This way, the request, the agent’s steps, and the results are in one place, and reviewers can change the instructions or the output.",
+     "html": "<strong>Bring in agents where your team reviews work. </strong>This way, the request, the agent’s steps, and the results are in one place, and reviewers can change the instructions or the output."
+    },
+    {
+     "text": "Make agent work visibly agent work. This way, people will know the work is being done by an AI agent rather than a human colleague.",
+     "html": "<strong>Make agent work visibly agent work. </strong>This way, people will know the work is being done by an AI agent rather than a human colleague."
+    },
+    {
+     "text": "Enable reviewers to coach the agent’s work. Asana’s agents post their plan and steps in the shared task, so other reviewers can provide further instructions or feedback.",
+     "html": "<strong>Enable reviewers to coach the agent’s work. </strong>Asana’s agents post their plan and steps in the shared task, so other reviewers can provide further instructions or feedback."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Three jobs Asana has handed to agents",
+   "html": "Three jobs Asana has handed to agents"
+  },
+  {
+   "type": "paragraph",
+   "text": "Claude powers any agentic work that generates documents or runs complex tasks at Asana. Here are three examples from different teams across the company:",
+   "html": "Claude powers any agentic work that generates documents or runs complex tasks at Asana. Here are three examples from different teams across the company: "
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Answering product questions from a Slack channel",
+   "html": "<strong>Answering product questions from a Slack channel</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "As Asana launches features, sellers and customer success staff can ask questions in a shared Slack channel. Before AI teammates, the same questions were posted repeatedly and subject-matter experts were @-mentioned each time. A searchable knowledge base wasn’t a practical solution, Arnab says, because the answers are nuanced and they change. \"You kind of need to have some amount of taste-making around what is the current state of the product,\" he says.",
+   "html": "As Asana launches features, sellers and customer success staff can ask questions in a shared Slack channel. Before AI teammates, the same questions were posted repeatedly and subject-matter experts were @-mentioned each time. A searchable knowledge base wasn’t a practical solution, Arnab says, because the answers are nuanced and they change. &quot;You kind of need to have some amount of taste-making around what is the current state of the product,&quot; he says."
+  },
+  {
+   "type": "paragraph",
+   "text": "Those questions still go to Slack, because that's the simplest place for the field to ask. Now, an Asana app in the channel turns each question into an Asana task, and an agent picks it up. If approved guidance exists, the agent replies with source links. If there is no approved answer and the question points to a gap in the product, the agent creates a task in the product team's intake project and adds it to the backlog. And if the same question keeps coming up and the agent keeps posting the same record, it creates a task for the enablement team to update the training material and documentation.",
+   "html": "Those questions still go to Slack, because that&#x27;s the simplest place for the field to ask. Now, an Asana app in the channel turns each question into an Asana task, and an agent picks it up. If approved guidance exists, the agent replies with source links. If there is no approved answer and the question points to a gap in the product, the agent creates a task in the product team&#x27;s intake project and adds it to the backlog. And if the same question keeps coming up and the agent keeps posting the same record, it creates a task for the enablement team to update the training material and documentation. "
+  },
+  {
+   "type": "paragraph",
+   "text": "This process frees up valuable time for the enablement team to focus on strategic, higher priority work, while also informing other areas of the business. For example, if there are a lot of questions on a particular topic around a new product, that’s a signal for the enablement team to focus on it with extra training or information.",
+   "html": "This process frees up valuable time for the enablement team to focus on strategic, higher priority work, while also informing other areas of the business. For example, if there are a lot of questions on a particular topic around a new product, that’s a signal for the enablement team to focus on it with extra training or information. "
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Briefing executives on at-risk renewals",
+   "html": "<strong>Briefing executives on at-risk renewals</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Asana's Chief Customer Officer, Josh Abdulla, used to produce a weekly at-risk renewals briefing for the executive team based on updates from customer success managers (CSMs) who flagged at-risk renewals and updated accounts as conditions changed. Across thousands of customers globally, the volume of updates made it impossible to stay current without a dedicated person synthesizing them, which was tedious work, and it made the process reactive. \"Josh knew about problems when leaders told him, not when the data first showed it,\" Arnab says.",
+   "html": "Asana&#x27;s Chief Customer Officer, Josh Abdulla, used to produce a weekly at-risk renewals briefing for the executive team based on updates from customer success managers (CSMs) who flagged at-risk renewals and updated accounts as conditions changed. Across thousands of customers globally, the volume of updates made it impossible to stay current without a dedicated person synthesizing them, which was tedious work, and it made the process reactive. &quot;Josh knew about problems when leaders told him, not when the data first showed it,&quot; Arnab says."
+  },
+  {
+   "type": "paragraph",
+   "text": "The customer experience organization built an agent AI teammate in Asana called At-Risk Renewal. It reads every at-risk renewal task across the global portfolio, including each CSM's updates, status notes, and comments, and generates a structured daily digest organized into three buckets: positive momentum, negative momentum, and recommended follow-ups. It runs a global view first, then cuts by region, and pushes the digest automatically each morning to the Chief Customer Officer, the Chief Revenue Officer, and every regional customer success leader. Because the digest lands in a shared space, those leaders can ask follow-up questions, such as what the leading indicators were behind a particular account's churn forecast, and coach the agent to remember things for the next run, so the report improves each morning.",
+   "html": "The customer experience organization built an agent AI teammate in Asana called At-Risk Renewal. It reads every at-risk renewal task across the global portfolio, including each CSM&#x27;s updates, status notes, and comments, and generates a structured daily digest organized into three buckets: positive momentum, negative momentum, and recommended follow-ups. It runs a global view first, then cuts by region, and pushes the digest automatically each morning to the Chief Customer Officer, the Chief Revenue Officer, and every regional customer success leader. Because the digest lands in a shared space, those leaders can ask follow-up questions, such as what the leading indicators were behind a particular account&#x27;s churn forecast, and coach the agent to remember things for the next run, so the report improves each morning."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"They could probably have Claude generate a report for themselves,\" Arnab says. \"But how do we get to the place where there's standardization of the report, there's a shared workspace, and it keeps getting better with every single run?\"",
+   "html": "&quot;They could probably have Claude generate a report for themselves,&quot; Arnab says. &quot;But how do we get to the place where there&#x27;s standardization of the report, there&#x27;s a shared workspace, and it keeps getting better with every single run?&quot;"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Planning engineering cycles with Command",
+   "html": "<strong>Planning engineering cycles with Command</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "When Asana ran automated coding loops on its own product, its cycle times and releases slipped, because the cycles were getting bloated by automatically generated changes. The loop itself has become common at software companies: gather customer feedback from various channels, synthesize it, and trigger coding agents to turn it into pull requests (PRs). \"Code generation is now no longer the bottleneck,\" Arnab says. \"The bottleneck is around planning, decision-making, and refinement.\" Asana's engineering organization now runs on Command by Asana, a product for managing large engineering teams, and uses it to manage that loop.",
+   "html": "When Asana ran automated coding loops on its own product, its cycle times and releases slipped, because the cycles were getting bloated by automatically generated changes. The loop itself has become common at software companies: gather customer feedback from various channels, synthesize it, and trigger coding agents to turn it into pull requests (PRs). &quot;Code generation is now no longer the bottleneck,&quot; Arnab says. &quot;The bottleneck is around planning, decision-making, and refinement.&quot; Asana&#x27;s engineering organization now runs on Command by Asana, a product for managing large engineering teams, and uses it to manage that loop."
+  },
+  {
+   "type": "paragraph",
+   "text": "In Command, a team space holds a group of 10 to 12 engineers who work on one product. Agents populate the team's unplanned board with tickets pulled from customer feedback and from comments in the team's feedback channel in Slack. People decide what moves from that board into the cycle, and Command predicts time to completion for the cycle with optimistic, balanced, and conservative estimates.",
+   "html": "In Command, a team space holds a group of 10 to 12 engineers who work on one product. Agents populate the team&#x27;s unplanned board with tickets pulled from customer feedback and from comments in the team&#x27;s feedback channel in Slack. People decide what moves from that board into the cycle, and Command predicts time to completion for the cycle with optimistic, balanced, and conservative estimates. "
+  },
+  {
+   "type": "paragraph",
+   "text": "A ticket can be assigned to a person or to a coding agent, and because the cycle data is all in one place, a manager can ask in chat why a release is off track and what tradeoffs would bring it back. Command answers from the data with what's driving the signal and which changes to trade. All of it is exposed through Asana's MCP server, the connection that lets an assistant like Claude read it, so someone like Arnab or his CTO counterpart can ask Claude what's on track without opening Command.",
+   "html": "A ticket can be assigned to a person or to a coding agent, and because the cycle data is all in one place, a manager can ask in chat why a release is off track and what tradeoffs would bring it back. Command answers from the data with what&#x27;s driving the signal and which changes to trade. All of it is exposed through Asana&#x27;s MCP server, the connection that lets an assistant like Claude read it, so someone like Arnab or his CTO counterpart can ask Claude what&#x27;s on track without opening Command."
+  },
+  {
+   "type": "paragraph",
+   "text": "“Humanity thrives when teams can work together effortlessly, and today every team is part human, part agent,” Arnab says. “That’s the kind of work we design for: one shared context that both humans and agents can work from, with a distinct identity for every agent so its contributions and access can be audited, and a durable record of what agents can learn so the team’s knowledge compounds instead of evaporating.”",
+   "html": "“Humanity thrives when teams can work together effortlessly, and today every team is part human, part agent,” Arnab says. “That’s the kind of work we design for: one shared context that both humans and agents can work from, with a distinct identity for every agent so its contributions and access can be audited, and a durable record of what agents can learn so the team’s knowledge compounds instead of evaporating.”"
+  }
+ ],
+ "links": [
+  {
+   "text": "first",
+   "href": "https://claude.com/blog/building-effective-human-agent-teams"
+  },
+  {
+   "text": "second",
+   "href": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams"
+  }
+ ],
+ "word_count": 2285,
+ "fetched_at": "2026-09-29T20:31:00+00:00"
+}

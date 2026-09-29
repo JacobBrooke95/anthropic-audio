@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 21:17:07 +0000</lastBuildDate>
-    <pubDate>Mon, 28 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 20:48:20 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,180 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: GLM-5.3 and the spread of advanced cyber capabilities</title>
+      <itunes:title>Research: GLM-5.3 and the spread of advanced cyber capabilities</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
+      <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
+      <description>GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.
+
+Source: https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
+Published September 29, 2026 · Anthropic Research · by Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher
+
+Links referenced in the post:
+• announced: https://www.anthropic.com/glasswing
+• more than 10,000 vulnerabilities: https://www.anthropic.com/research/glasswing-initial-update
+• its own assessment: https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities
+• ExploitBench: https://arxiv.org/abs/2605.14153
+• testing with Claude Mythos Preview: https://red.anthropic.com/2026/mythos-preview
+• here: https://www.anthropic.com/research/n-days
+• standard refusal reduction technique: https://arxiv.org/abs/2406.11717
+• JailbreakBench: https://jailbreakbench.github.io/
+• HarmBench: https://www.harmbench.org/
+• StrongREJECT: https://strong-reject.readthedocs.io/en/latest/
+• Anthropic: https://www.anthropic.com/threat-intelligence-report-september-2026
+• other US AI labs: https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai
+• Patch the Planet: https://openai.com/index/patch-the-planet/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</a><br/><strong>Published:</strong> September 29, 2026 · Anthropic Research<br/><strong>Authors:</strong> Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher<br/><strong>Category:</strong> Frontier Red Team Policy<br/><strong>Length:</strong> 1,801 words · 20 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/glasswing">announced</a></li><li><a href="https://www.anthropic.com/research/glasswing-initial-update">more than 10,000 vulnerabilities</a></li><li><a href="https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities">its own assessment</a></li><li><a href="https://arxiv.org/abs/2605.14153">ExploitBench</a></li><li><a href="https://red.anthropic.com/2026/mythos-preview">testing with Claude Mythos Preview</a></li><li><a href="https://www.anthropic.com/research/n-days">here</a></li><li><a href="https://arxiv.org/abs/2406.11717">standard refusal reduction technique</a></li><li><a href="https://jailbreakbench.github.io/">JailbreakBench</a></li><li><a href="https://www.harmbench.org/">HarmBench</a></li><li><a href="https://strong-reject.readthedocs.io/en/latest/">StrongREJECT</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">Anthropic</a></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai">other US AI labs</a></li><li><a href="https://openai.com/index/patch-the-planet/">Patch the Planet</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.mp3" length="10701364" type="audio/mpeg"/>
+      <itunes:duration>1241</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.jpg?v=791ac95d"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.json" type="application/json+chapters"/>
+      <itunes:author>Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher</itunes:author>
+      <itunes:subtitle>GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.</itunes:subtitle>
+      <itunes:summary>GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.
+
+Source: https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
+Published September 29, 2026 · Anthropic Research · by Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher
+
+Links referenced in the post:
+• announced: https://www.anthropic.com/glasswing
+• more than 10,000 vulnerabilities: https://www.anthropic.com/research/glasswing-initial-update
+• its own assessment: https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities
+• ExploitBench: https://arxiv.org/abs/2605.14153
+• testing with Claude Mythos Preview: https://red.anthropic.com/2026/mythos-preview
+• here: https://www.anthropic.com/research/n-days
+• standard refusal reduction technique: https://arxiv.org/abs/2406.11717
+• JailbreakBench: https://jailbreakbench.github.io/
+• HarmBench: https://www.harmbench.org/
+• StrongREJECT: https://strong-reject.readthedocs.io/en/latest/
+• Anthropic: https://www.anthropic.com/threat-intelligence-report-september-2026
+• other US AI labs: https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai
+• Patch the Planet: https://openai.com/index/patch-the-planet/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>61</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-glm-5-3-and-the-spread-of-advanced-cyber-capabilities.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: What do you want from AI?</title>
+      <itunes:title>Research: What do you want from AI?</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-your-thoughts-on-ai/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
+      <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/your-thoughts-on-ai
+Published September 29, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Anthropic Interviewer: https://www.anthropic.com/about-anthropic-interviewer
+• participate here: https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog
+• science: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• medicine: https://openai.com/index/diagnose-rare-childhood-diseases/
+• more consequential: https://darioamodei.com/post/we-must-pace-the-frontier
+• a single security incident: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident
+• 81,000 people: https://www.anthropic.com/features/81k-interviews
+• the Anthropic Institute’s agenda: https://www.anthropic.com/research/anthropic-institute-agenda
+• Societal Impacts: https://www.anthropic.com/research/team/societal-impacts
+• Economics research: https://www.anthropic.com/research/81k-economics
+• have shown: https://arxiv.org/abs/2602.16800
+• Learn more: https://privacy.claude.com/en/collections/19084219-anthropic-interviewer
+• Usage Policy: https://www.anthropic.com/legal/aup
+• Terms of Service: https://www.anthropic.com/legal/consumer-terms
+• Anthropic Interviewer: https://www.anthropic.com/research/anthropic-interviewer
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-your-thoughts-on-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/your-thoughts-on-ai">https://www.anthropic.com/research/your-thoughts-on-ai</a><br/><strong>Published:</strong> September 29, 2026 · Anthropic Research<br/><strong>Category:</strong> Societal Impacts<br/><strong>Length:</strong> 1,518 words · 9 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/about-anthropic-interviewer">Anthropic Interviewer</a></li><li><a href="https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog">participate here</a></li><li><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">science</a></li><li><a href="https://openai.com/index/diagnose-rare-childhood-diseases/">medicine</a></li><li><a href="https://darioamodei.com/post/we-must-pace-the-frontier">more consequential</a></li><li><a href="https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident">a single security incident</a></li><li><a href="https://www.anthropic.com/features/81k-interviews">81,000 people</a></li><li><a href="https://www.anthropic.com/research/anthropic-institute-agenda">the Anthropic Institute’s agenda</a></li><li><a href="https://www.anthropic.com/research/team/societal-impacts">Societal Impacts</a></li><li><a href="https://www.anthropic.com/research/81k-economics">Economics research</a></li><li><a href="https://arxiv.org/abs/2602.16800">have shown</a></li><li><a href="https://privacy.claude.com/en/collections/19084219-anthropic-interviewer">Learn more</a></li><li><a href="https://www.anthropic.com/legal/aup">Usage Policy</a></li><li><a href="https://www.anthropic.com/legal/consumer-terms">Terms of Service</a></li><li><a href="https://www.anthropic.com/research/anthropic-interviewer">Anthropic Interviewer</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-your-thoughts-on-ai/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-29-your-thoughts-on-ai.mp3" length="5462131" type="audio/mpeg"/>
+      <itunes:duration>591</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-29-your-thoughts-on-ai.jpg?v=90035745"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-your-thoughts-on-ai.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-29-your-thoughts-on-ai.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/your-thoughts-on-ai
+Published September 29, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Anthropic Interviewer: https://www.anthropic.com/about-anthropic-interviewer
+• participate here: https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog
+• science: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• medicine: https://openai.com/index/diagnose-rare-childhood-diseases/
+• more consequential: https://darioamodei.com/post/we-must-pace-the-frontier
+• a single security incident: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident
+• 81,000 people: https://www.anthropic.com/features/81k-interviews
+• the Anthropic Institute’s agenda: https://www.anthropic.com/research/anthropic-institute-agenda
+• Societal Impacts: https://www.anthropic.com/research/team/societal-impacts
+• Economics research: https://www.anthropic.com/research/81k-economics
+• have shown: https://arxiv.org/abs/2602.16800
+• Learn more: https://privacy.claude.com/en/collections/19084219-anthropic-interviewer
+• Usage Policy: https://www.anthropic.com/legal/aup
+• Terms of Service: https://www.anthropic.com/legal/consumer-terms
+• Anthropic Interviewer: https://www.anthropic.com/research/anthropic-interviewer
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-29-your-thoughts-on-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>62</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-your-thoughts-on-ai.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-29-your-thoughts-on-ai.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Agents you can coach: how Asana builds human-agent teams with Claude</title>
+      <itunes:title>Claude Blog: Agents you can coach: how Asana builds human-agent teams with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with/</link>
+      <guid isPermaLink="false">https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</guid>
+      <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+
+Source: https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
+Published September 29, 2026 · Claude Blog
+
+Links referenced in the post:
+• first: https://claude.com/blog/building-effective-human-agent-teams
+• second: https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude">https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</a><br/><strong>Published:</strong> September 29, 2026 · Claude Blog<br/><strong>Length:</strong> 2,285 words · 15 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/blog/building-effective-human-agent-teams">first</a></li><li><a href="https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams">second</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.mp3" length="8080455" type="audio/mpeg"/>
+      <itunes:duration>909</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.jpg?v=3d8133cf"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.</itunes:subtitle>
+      <itunes:summary>Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+
+Source: https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
+Published September 29, 2026 · Claude Blog
+
+Links referenced in the post:
+• first: https://claude.com/blog/building-effective-human-agent-teams
+• second: https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>63</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: Giving companies more control over their AI agents, with NVIDIA</title>
       <itunes:title>Claude Blog: Giving companies more control over their AI agents, with NVIDIA</itunes:title>

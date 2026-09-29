@@ -1,0 +1,281 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:09.264
+This is Anthropic, Read Aloud. Today: Agents you can coach: how Asana builds human-agent teams with Claude.
+
+2
+00:00:10.564 --> 00:00:14.690
+Agents you can coach: how Asana builds human-agent teams with Claude.
+
+3
+00:00:15.140 --> 00:00:25.816
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered A I agents as teammates with scoped roles, shared memory, and work that everyone can see.
+
+4
+00:00:26.266 --> 00:00:30.597
+From Claude Blog, published September 29, 2026.
+
+5
+00:00:31.597 --> 00:00:51.745
+This is the third post in our series on building human-agent teams. The first shared what we’ve learned working with multiplayer A I at Anthropic. The second shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work.
+
+6
+00:00:52.195 --> 00:01:13.031
+Years before they introduced A I agents, teams at Asana were iterating on ways to encode structure and accountability into how teams work together. They ultimately built the W ork Graph model, which maps out every task, project, goal, and conversation on a web of relationships, with defined owners, contributors, and dependencies.
+
+7
+00:01:13.481 --> 00:01:34.517
+When they started building A I agents, they decided that rather than adding new context structures for A I, agents would operate within this same model. They would have defined roles, be assigned tasks, read and write messages, and show up in activity feeds alongside human collaborators, with additional safeguards around what agents can access, and share.
+
+8
+00:01:34.967 --> 00:01:55.617
+We talked with Arnab Bose, Asana’s Chief Product Officer, about how Asana’s own teams use Claude and work alongside these agents, where Claude models power complex tasks: how each agent gets its role and access, who trains it, how work stays visible to everyone, and the types of jobs agents have on human-agent teams at Asana.
+
+9
+00:01:56.417 --> 00:01:59.664
+Think through and structure your work before agents act on it.
+
+10
+00:02:00.114 --> 00:02:09.869
+For Asana employees, Claude is the default A I tool, connected to the platforms employees use to work, including Google Drive, Slack, and of course, Asana.
+
+11
+00:02:10.319 --> 00:02:23.546
+"A person makes sense of their day by taking unstructured data, an idea they have, a conversation in Slack, a meeting recording in Zoom, a Databricks report, information from Google Docs,” Arnab says.
+
+12
+00:02:23.666 --> 00:02:44.324
+“They talk it through with Claude, and then they can pump all of that into the structure that Asana provides with projects and tasks." Once the structure is in place, agents can act on it, with the three capabilities we described in the first post of this series, Building effective human agent teams: persistent memory, their own credentials, and shared context.
+
+13
+00:02:44.774 --> 00:02:46.402
+How to put this into practice:
+
+14
+00:02:46.852 --> 00:02:55.544
+Start with your own ideas. Bring the unstructured pieces of your day, an idea, a Slack conversation, or notes spread across docs, to Claude.
+
+15
+00:02:55.784 --> 00:03:02.547
+Debate and discuss with Claude. Use it as a thinking partner: talk the idea through until the next steps are clear.
+
+16
+00:03:02.787 --> 00:03:10.800
+Log the actionable items to the Work Graph. Move what's actionable into projects and tasks, where agents and colleagues can pick it up.
+
+17
+00:03:11.600 --> 00:03:15.043
+Give every agent a role and the tools and access it needs.
+
+18
+00:03:15.493 --> 00:03:29.310
+Asana employees can work with A I agents in any project like they would with a human colleague. Humans design the teams they work on; each employee gets a list of recommended agents they can use to augment their teams’ goals.
+
+19
+00:03:29.760 --> 00:03:51.595
+Agents are built around roles or types of work, for example, content writer, insights analyst, project manager, work intake specialist, campaign analyst, or campaign coordinator. Each agent comes with pre-built skills based on Asana’s research into how its customers do that work, and with the integrations they would need, such as Hubspot or a document drive.
+
+20
+00:03:52.045 --> 00:04:09.709
+Each agent also has a profile page that lists its name and purpose, the people who can use it, the administrators, instructions, skills, integrations, and permissions. Asana gives you the tools to make access intentional. “Asana is a contained work surface,” Arnab says.
+
+21
+00:04:09.829 --> 00:04:19.059
+“You could choose to grant access to a specific set of projects versus everything, or a specific set of documents, or a combination of documents and apps.”
+
+22
+00:04:19.509 --> 00:04:42.016
+Like human users, agents are subject to explicit access controls, but have an additional safeguard: Asana says an agent’s effective access is bounded by the permissions of the person who triggers it. This allows agents to have broad access to public content, while minimizing the risk of anyone accessing information the agent has learned in a private context.
+
+23
+00:04:42.466 --> 00:04:44.094
+How to put this into practice:
+
+24
+00:04:44.544 --> 00:04:58.489
+Define the role before you create the agent. Think about the types of jobs that agents can do on your team, then write down the agent’s purpose, instructions, and which specific jobs it owns, the way you would for a new hire’s first quarter.
+
+25
+00:04:58.729 --> 00:05:07.120
+Scope access. Decide which projects and documents the agent can read, which applications it can access, and which actions it can take.
+
+26
+00:05:07.360 --> 00:05:16.911
+Name users and admins separately. Many people can work with an agent, but only a small, named group should govern what it can access and how it behaves.
+
+27
+00:05:17.711 --> 00:05:20.007
+Separate working with an agent from training it.
+
+28
+00:05:20.457 --> 00:05:40.718
+A key feature of Asana’s agents, which it calls A I teammates, is shared memory, which enables an agent to retain information from previous instructions, allowing multiple users to reuse that memory to complete tasks or jobs faster. “A I teammates can be coached and trained as if they were a person on your team,” Arnab says.
+
+29
+00:05:41.168 --> 00:05:59.840
+There is one role-based restriction in how shared memory works. While anyone can give an agent feedback on a task, only admins and editors can commit feedback to permanent memory, as well as undo, or delete from that memory. For everyone else, the feedback they provide applies only to the current task.
+
+30
+00:06:00.290 --> 00:06:15.098
+The split is intentional, Arnab says. Asana's communications team hold the pen on the company's voice and tone, so they would be the editors and admins of an agent that writes. Arnab can draft with it, but he can't modify its behavior.
+
+31
+00:06:15.218 --> 00:06:33.922
+And most people never need to touch the machinery at all: "Not everybody on the team needs to understand these concepts, like skills and behavior and memory. There are one or two people on the team who become experts, they set it up correctly, and all the other human beings on the team get the same benefits going forward."
+
+32
+00:06:34.372 --> 00:06:36.000
+How to put this into practice:
+
+33
+00:06:36.450 --> 00:06:50.884
+Decide who trains each agent, and who works with it. Identify subject matter experts inside your business who can help build the agents that the team uses. Everyone else can provide feedback on tasks, but cannot rewrite the agent.
+
+34
+00:06:51.124 --> 00:07:01.179
+Match editors to expertise. The team that owns the standard the agent applies, like brand voice or planning conventions, owns (or administers) the agent.
+
+35
+00:07:01.419 --> 00:07:12.112
+Build the memory as you work. Feedback can improve the agent with time. Ask the agent to remember decisions worth keeping, or delete ones that are no longer relevant or true.
+
+36
+00:07:12.912 --> 00:07:15.446
+Keep the agent’s work where everyone can see it.
+
+37
+00:07:15.896 --> 00:07:37.184
+Similar to how agents in Slack post transparently in channels, when a task is assigned to an A I teammate everyone can see that an agent is doing it, and what it does. The agent posts activity, including its research plan and the steps it took, so everyone with access to that task can read what it did, comment, and steer it toward the result they want.
+
+38
+00:07:37.634 --> 00:07:57.247
+When Asana’s communications team asked Arnab to review a briefing document for a speaking engagement, he @-mentioned the agent on the task and asked it to also factor in his talk track from an earlier talk. The message was brief because he had used that agent many times and the material he referenced was already in the Work Graph.
+
+39
+00:07:57.367 --> 00:08:05.825
+A colleague on the communications team could see his request and the agent’s response, and go back and forth with the agent at the same time.
+
+40
+00:08:06.275 --> 00:08:25.709
+"You could probably get great quality responses from a one-on-one A I agent if you are highly A I fluent, get that document out, and post it back into Slack or into Asana," Arnab says. "But at that point, the other human beings who are reviewing that content don't know what the prompt was and what the back-and-forth was.
+
+41
+00:08:25.829 --> 00:08:41.280
+If they disagree with some of the guidance you provided, that's impossible for them to get aligned on." On a shared task, the request, the pushback, and the output are in one place, and the people reviewing the output can also revise the instructions that produced it.
+
+42
+00:08:41.730 --> 00:08:43.339
+How to put this into practice
+
+43
+00:08:43.789 --> 00:08:54.426
+Bring in agents where your team reviews work. This way, the request, the agent’s steps, and the results are in one place, and reviewers can change the instructions or the output.
+
+44
+00:08:54.666 --> 00:09:03.038
+Make agent work visibly agent work. This way, people will know the work is being done by an A I agent rather than a human colleague.
+
+45
+00:09:03.278 --> 00:09:13.652
+Enable reviewers to coach the agent’s work. Asana’s agents post their plan and steps in the shared task, so other reviewers can provide further instructions or feedback.
+
+46
+00:09:14.452 --> 00:09:16.915
+Three jobs Asana has handed to agents.
+
+47
+00:09:17.365 --> 00:09:27.509
+Claude powers any agentic work that generates documents or runs complex tasks at Asana. Here are three examples from different teams across the company:
+
+48
+00:09:28.309 --> 00:09:30.967
+Answering product questions from a Slack channel.
+
+49
+00:09:31.417 --> 00:09:52.536
+As Asana launches features, sellers and customer success staff can ask questions in a shared Slack channel. Before A I teammates, the same questions were posted repeatedly and subject-matter experts were @-mentioned each time. A searchable knowledge base wasn’t a practical solution, Arnab says, because the answers are nuanced and they change.
+
+50
+00:09:52.656 --> 00:09:58.352
+"You kind of need to have some amount of taste-making around what is the current state of the product," he says.
+
+51
+00:09:58.802 --> 00:10:14.458
+Those questions still go to Slack, because that's the simplest place for the field to ask. Now, an Asana app in the channel turns each question into an Asana task, and an agent picks it up. If approved guidance exists, the agent replies with source links.
+
+52
+00:10:14.578 --> 00:10:34.815
+If there is no approved answer and the question points to a gap in the product, the agent creates a task in the product team's intake project and adds it to the backlog. And if the same question keeps coming up and the agent keeps posting the same record, it creates a task for the enablement team to update the training material and documentation.
+
+53
+00:10:35.265 --> 00:10:55.607
+This process frees up valuable time for the enablement team to focus on strategic, higher priority work, while also informing other areas of the business. For example, if there are a lot of questions on a particular topic around a new product, that’s a signal for the enablement team to focus on it with extra training or information.
+
+54
+00:10:56.407 --> 00:10:58.835
+Briefing executives on at-risk renewals.
+
+55
+00:10:59.285 --> 00:11:15.710
+Asana's Chief Customer Officer, Josh Abdulla, used to produce a weekly at-risk renewals briefing for the executive team based on updates from customer success managers (CSMs) who flagged at-risk renewals and updated accounts as conditions changed.
+
+56
+00:11:15.830 --> 00:11:33.531
+Across thousands of customers globally, the volume of updates made it impossible to stay current without a dedicated person synthesizing them, which was tedious work, and it made the process reactive. "Josh knew about problems when leaders told him, not when the data first showed it," Arnab says.
+
+57
+00:11:33.981 --> 00:11:57.511
+The customer experience organization built an agent A I teammate in Asana called At-Risk Renewal. It reads every at-risk renewal task across the global portfolio, including each CSM's updates, status notes, and comments, and generates a structured daily digest organized into three buckets: positive momentum, negative momentum, and recommended follow-ups.
+
+58
+00:11:57.631 --> 00:12:09.898
+It runs a global view first, then cuts by region, and pushes the digest automatically each morning to the Chief Customer Officer, the Chief Revenue Officer, and every regional customer success leader.
+
+59
+00:12:10.018 --> 00:12:25.937
+Because the digest lands in a shared space, those leaders can ask follow-up questions, such as what the leading indicators were behind a particular account's churn forecast, and coach the agent to remember things for the next run, so the report improves each morning.
+
+60
+00:12:26.387 --> 00:12:38.903
+"They could probably have Claude generate a report for themselves," Arnab says. "But how do we get to the place where there's standardization of the report, there's a shared workspace, and it keeps getting better with every single run?"
+
+61
+00:12:39.703 --> 00:12:41.951
+Planning engineering cycles with Command.
+
+62
+00:12:42.401 --> 00:13:04.268
+When Asana ran automated coding loops on its own product, its cycle times and releases slipped, because the cycles were getting bloated by automatically generated changes. The loop itself has become common at software companies: gather customer feedback from various channels, synthesize it, and trigger coding agents to turn it into pull requests (P Rs).
+
+63
+00:13:04.388 --> 00:13:23.025
+"Code generation is now no longer the bottleneck," Arnab says. "The bottleneck is around planning, decision-making, and refinement." Asana's engineering organization now runs on Command by Asana, a product for managing large engineering teams, and uses it to manage that loop.
+
+64
+00:13:23.475 --> 00:13:37.675
+In Command, a team space holds a group of 10 to 12 engineers who work on one product. Agents populate the team's unplanned board with tickets pulled from customer feedback and from comments in the team's feedback channel in Slack.
+
+65
+00:13:37.795 --> 00:13:47.715
+People decide what moves from that board into the cycle, and Command predicts time to completion for the cycle with optimistic, balanced, and conservative estimates.
+
+66
+00:13:48.165 --> 00:14:05.491
+A ticket can be assigned to a person or to a coding agent, and because the cycle data is all in one place, a manager can ask in chat why a release is off track and what tradeoffs would bring it back. Command answers from the data with what's driving the signal and which changes to trade.
+
+67
+00:14:05.611 --> 00:14:19.341
+All of it is exposed through Asana's M C P server, the connection that lets an assistant like Claude read it, so someone like Arnab or his C T O counterpart can ask Claude what's on track without opening Command.
+
+68
+00:14:19.791 --> 00:14:27.620
+“Humanity thrives when teams can work together effortlessly, and today every team is part human, part agent,” Arnab says.
+
+69
+00:14:27.740 --> 00:14:45.636
+“That’s the kind of work we design for: one shared context that both humans and agents can work from, with a distinct identity for every agent so its contributions and access can be audited, and a durable record of what agents can learn so the team’s knowledge compounds instead of evaporating.”
+
+70
+00:14:46.636 --> 00:15:05.217
+That was Agents you can coach: how Asana builds human-agent teams with Claude, from Claude Blog, published September 29, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

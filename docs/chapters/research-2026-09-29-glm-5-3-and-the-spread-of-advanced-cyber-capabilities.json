@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 269.04,
+   "title": "GLM-5.3 can develop working exploits end to end"
+  },
+  {
+   "startTime": 669.38,
+   "title": "GLM-5.3 lacks robust safeguards"
+  },
+  {
+   "startTime": 1076.22,
+   "title": "What does this mean?"
+  },
+  {
+   "startTime": 1217.22,
+   "title": "Outro"
+  }
+ ]
+}

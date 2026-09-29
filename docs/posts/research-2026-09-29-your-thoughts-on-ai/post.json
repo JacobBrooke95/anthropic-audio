@@ -1,0 +1,332 @@
+{
+ "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+ "source": "research",
+ "slug": "research-2026-09-29-your-thoughts-on-ai",
+ "title": "What do you want from AI?",
+ "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+ "date": "2026-09-29T16:00:00+00:00",
+ "authors": [],
+ "category": "Societal Impacts",
+ "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can participate here .",
+   "html": "<em>We’re launching a new study using <a href=\"https://www.anthropic.com/about-anthropic-interviewer\">Anthropic Interviewer</a> to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can <a href=\"https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog\">participate here</a>.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in science and medicine , while at the same time the cost of its misuse grows more consequential — a single security incident can cause far more damage than it did a year ago.",
+   "html": "We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in <a href=\"https://www.anthropic.com/research/Claude-accelerates-protein-design\">science</a> and <a href=\"https://openai.com/index/diagnose-rare-childhood-diseases/\">medicine</a>, while at the same time the cost of its misuse grows <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">more consequential</a>—<a href=\"https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident\">a single security incident</a> can cause far more damage than it did a year ago."
+  },
+  {
+   "type": "paragraph",
+   "text": "How to weigh these benefits and risks shouldn’t be left to AI companies alone. Your voice can help guide us, other AI labs, and policymakers as we navigate this uncertain future together. Our big questions are:",
+   "html": "How to weigh these benefits and risks shouldn’t be left to AI companies alone. Your voice can help guide us, other AI labs, and policymakers as we navigate this uncertain future together. Our big questions are:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "What are your most meaningful experiences with AI, both positive and negative?",
+     "html": "What are your most meaningful experiences with AI, both positive and negative?"
+    },
+    {
+     "text": "Is there anything about how the world works (like work, school, healthcare, or government) that you’d like AI to help change?",
+     "html": "Is there anything about how the world works (like work, school, healthcare, or government) that you’d like AI to help change?"
+    },
+    {
+     "text": "What do you want from the companies developing AI?",
+     "html": "What do you want from the companies developing AI?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "This project builds on a similar study conducted last December, in which 81,000 people told us their hopes and worries about AI. That study shaped the Anthropic Institute’s agenda , was presented at the World Economic Forum to international leaders and decision-makers, and continues to guide our ongoing Societal Impacts and Economics research .",
+   "html": "This project builds on a similar study conducted last December, in which <a href=\"https://www.anthropic.com/features/81k-interviews\">81,000 people</a> told us their hopes and worries about AI. That study shaped <a href=\"https://www.anthropic.com/research/anthropic-institute-agenda\">the Anthropic Institute’s agenda</a>, was presented at the World Economic Forum to international leaders and decision-makers, and continues to guide our ongoing <a href=\"https://www.anthropic.com/research/team/societal-impacts\">Societal Impacts</a> and <a href=\"https://www.anthropic.com/research/81k-economics\">Economics research</a>."
+  },
+  {
+   "type": "paragraph",
+   "text": "AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.",
+   "html": "AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them."
+  },
+  {
+   "type": "paragraph",
+   "text": "We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to participate here .",
+   "html": "We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to <a href=\"https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog\">participate here</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "FAQ",
+   "html": " FAQ"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What’s the interview about?",
+   "html": "What’s the interview about?"
+  },
+  {
+   "type": "paragraph",
+   "text": "The interview asks about your experiences with AI and what you want from it. We’ll ask about the moments with AI that have mattered most to you, both positive and negative, whether there’s anything about how the world works that you’d like AI to help change, and what you want from the companies developing AI, including Anthropic. There are no right answers; we want to hear about your experiences in your own words… And we don’t want to give too much away before you take it!",
+   "html": "The interview asks about your experiences with AI and what you want from it. We’ll ask about the moments with AI that have mattered most to you, both positive and negative, whether there’s anything about how the world works that you’d like AI to help change, and what you want from the companies developing AI, including Anthropic. There are no right answers; we want to hear about your experiences in your own words… And we don’t want to give too much away before you take it!"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Do I have to share my interview publicly?",
+   "html": "Do I have to share my interview publicly?"
+  },
+  {
+   "type": "paragraph",
+   "text": "No. It’s optional.",
+   "html": "No. It’s optional."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What gets published if I make my interview public?",
+   "html": "What gets published if I make my interview public?"
+  },
+  {
+   "type": "paragraph",
+   "text": "We will publish your complete interview and the country associated with your conversation. We will not include your Claude account information, such as name or email address.",
+   "html": "We will publish your complete interview and the country associated with your conversation. We will not include your Claude account information, such as name or email address."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What are the benefits to publicly sharing my interview?",
+   "html": "What are the benefits to publicly sharing my interview?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Your perspective will be heard not just by us, but by anyone interested in studying and improving AI. We want anyone to be able to study how AI is impacting people and how AI development should progress.",
+   "html": "Your perspective will be heard not just by us, but by anyone interested in studying and improving AI. We want anyone to be able to study how AI is impacting people and how AI development should progress."
+  },
+  {
+   "type": "paragraph",
+   "text": "Researchers and policymakers around the world can read interviews in their own languages, read responses shared from different regions, and ask questions we didn’t think to ask. Many bring expertise we don't have on staff, and they may have insights we didn’t think to look for. Anyone can check whether our published findings actually reflect what participants said.",
+   "html": "Researchers and policymakers around the world can read interviews in their own languages, read responses shared from different regions, and ask questions we didn’t think to ask. Many bring expertise we don&#x27;t have on staff, and they may have insights we didn’t think to look for. Anyone can check whether our published findings actually reflect what participants said."
+  },
+  {
+   "type": "paragraph",
+   "text": "Your interview also becomes part of the public record of this moment in AI, open to future historians, journalists, and researchers, and can inform how society responds to this moment. That record is also hard for AI companies and others shaping AI development to ignore. If many participants say companies like Anthropic should do something differently, that language stays public where anyone can reference it.",
+   "html": "Your interview also becomes part of the public record of this moment in AI, open to future historians, journalists, and researchers, and can inform how society responds to this moment. That record is also hard for AI companies and others shaping AI development to ignore. If many participants say companies like Anthropic should do something differently, that language stays public where anyone can reference it."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What are the risks to publicly sharing my interview?",
+   "html": "What are the risks to publicly sharing my interview?"
+  },
+  {
+   "type": "paragraph",
+   "text": "While we won’t publish your Claude account information, such as your name or email address, we encourage participants to consider that anyone can read a public interview. This includes employers, friends and relatives, as well as governments and other companies. Depending on what a participant shares, others may be able to link the participant back to their interview. Details that seem harmless on their own, such as age, job, city, or where you studied, can make it easier to identify you. We don’t ask for these details in the interview and encourage participants to avoid sharing them.",
+   "html": "While we won’t publish your Claude account information, such as your name or email address, we encourage participants to consider that anyone can read a public interview. This includes employers, friends and relatives, as well as governments and other companies. Depending on what a participant shares, others may be able to link the participant back to their interview. Details that seem harmless on their own, such as age, job, city, or where you studied, can make it easier to identify you. We don’t ask for these details in the interview and encourage participants to avoid sharing them."
+  },
+  {
+   "type": "paragraph",
+   "text": "Once public, an interview could be used in ways a participant does not intend, including by scammers and other people who may seek to misuse personal information. We can remove our copy of your interview on request, but we can’t delete what people have already saved. For that reason, treat your decision to make your interview public as permanent.",
+   "html": "Once public, an interview could be used in ways a participant does not intend, including by scammers and other people who may seek to misuse personal information. We can remove our copy of your interview on request, but we can’t delete what people have already saved. For that reason, treat your decision to make your interview public as permanent."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Could someone identify me from my public interview?",
+   "html": "Could someone identify me from my public interview?"
+  },
+  {
+   "type": "paragraph",
+   "text": "We won’t attach your name or account information, but we don’t edit interviews, so we can’t guarantee you won’t be re-identified from what you say. Someone could use AI to combine small details, like employers or past projects, to work out who a participant is. Researchers have shown this can work with interviews from Anthropic Interviewer.",
+   "html": "We won’t attach your name or account information, but we don’t edit interviews, so we can’t guarantee you won’t be re-identified from what you say. Someone could use AI to combine small details, like employers or past projects, to work out who a participant is. Researchers <a href=\"https://arxiv.org/abs/2602.16800\">have shown</a> this can work with interviews from Anthropic Interviewer."
+  },
+  {
+   "type": "paragraph",
+   "text": "The best protection is to not share information that could identify you or others. During the interview, we show examples of information you shouldn’t share, and you review your full interview before deciding whether to make it public.",
+   "html": "The best protection is to not share information that could identify you or others. During the interview, we show examples of information you shouldn’t share, and you review your full interview before deciding whether to make it public."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How should I decide whether to publicly share my interview?",
+   "html": "How should I decide whether to publicly share my interview?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Before the interview, we explain what making an interview public involves. We tell participants that we will not include their Claude account information in the public release, but that others may be able to identify them from what they share. We also explain that making an interview public means anyone can read, save, and use it. We can remove our copy on request, but we can’t delete what people have already saved.",
+   "html": "Before the interview, we explain what making an interview public involves. We tell participants that we will not include their Claude account information in the public release, but that others may be able to identify them from what they share. We also explain that making an interview public means anyone can read, save, and use it. We can remove our copy on request, but we can’t delete what people have already saved."
+  },
+  {
+   "type": "paragraph",
+   "text": "During the interview, you will see examples of the types of sensitive information we advise not to share. After the interview, you can reread what you said before deciding whether to share it publicly. You will be reminded of both the benefits and risks, and if you choose to share, we will confirm your decision one last time.",
+   "html": "During the interview, you will see examples of the types of sensitive information we advise not to share. After the interview, you can reread what you said before deciding whether to share it publicly. You will be reminded of both the benefits and risks, and if you choose to share, we will confirm your decision one last time."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What happens if I don’t make my interview public?",
+   "html": "What happens if I don’t make my interview public?"
+  },
+  {
+   "type": "paragraph",
+   "text": "We’ll still analyze it as part of our Societal Impacts research, but your full interview won’t be published. We may still publish and share aggregated or de-identified findings resulting from your interview. If you don’t want us to analyze it either, you can end the interview early (see “Can I decide to end the interview early and delete the record?” below for more detail).",
+   "html": "We’ll still analyze it as part of our Societal Impacts research, but your full interview won’t be published. We may still publish and share aggregated or de-identified findings resulting from your interview. If you don’t want us to analyze it either, you can end the interview early (see “Can I decide to end the interview early and delete the record?” below for more detail)."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "If I make my interview publicly available, can I change my mind?",
+   "html": "If I make my interview publicly available, can I change my mind?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Not fully. Once your interview is public, anyone can read, save, and use it. We can remove our copy of your interview on request, but we can’t delete what people have already saved. Treat the decision as permanent. Learn more .",
+   "html": "Not fully. Once your interview is public, anyone can read, save, and use it. We can remove our copy of your interview on request, but we can’t delete what people have already saved. Treat the decision as permanent. <a href=\"https://privacy.claude.com/en/collections/19084219-anthropic-interviewer\">Learn more</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Will you edit my interview before publishing it?",
+   "html": "Will you edit my interview before publishing it?"
+  },
+  {
+   "type": "paragraph",
+   "text": "No, we don’t plan to edit interviews before publishing them. Once the study is complete, we’ll do a final review and may remove interviews we don't believe would be responsible to publish, such as interviews with confidential information or ones that violate our Usage Policy or Terms of Service .",
+   "html": "No, we don’t plan to edit interviews before publishing them. Once the study is complete, we’ll do a final review and may remove interviews we don&#x27;t believe would be responsible to publish, such as interviews with confidential information or ones that violate our <a href=\"https://www.anthropic.com/legal/aup\">Usage Policy</a> or <a href=\"https://www.anthropic.com/legal/consumer-terms\">Terms of Service</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How will Anthropic use my interview?",
+   "html": "How will Anthropic use my interview?"
+  },
+  {
+   "type": "paragraph",
+   "text": "We'll analyze interviews as part of our Societal Impacts research, share our findings publicly, and use the results to inform how we develop our models and products. Learn more .",
+   "html": "We&#x27;ll analyze interviews as part of our Societal Impacts research, share our findings publicly, and use the results to inform how we develop our models and products. <a href=\"https://privacy.claude.com/en/collections/19084219-anthropic-interviewer\">Learn more</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Can I decide to end the interview early and delete the record?",
+   "html": "Can I decide to end the interview early and delete the record?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Yes, you can stop at any time by clicking the “End interview” button. If you end early, your partial interview will be permanently deleted, and won’t be analyzed or published, including by Anthropic.",
+   "html": "Yes, you can stop at any time by clicking the “End interview” button. If you end early, your partial interview will be permanently deleted, and won’t be analyzed or published, including by Anthropic."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Who can take the interview and how long does it take?",
+   "html": "Who can take the interview and how long does it take?"
+  },
+  {
+   "type": "paragraph",
+   "text": "This study will run from September 29 to October 6, 2026, and is open to Free, Pro, and Max users on Claude and Claude Code whose accounts are at least two weeks old. Each interview takes roughly 15 minutes and is conducted by Anthropic Interviewer , an AI that asks you questions.",
+   "html": "This study will run from September 29 to October 6, 2026, and is open to Free, Pro, and Max users on Claude and Claude Code whose accounts are at least two weeks old. Each interview takes roughly 15 minutes and is conducted by <a href=\"https://www.anthropic.com/research/anthropic-interviewer\">Anthropic Interviewer</a>, an AI that asks you questions."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How is this different from the December 2025 study ?",
+   "html": "How is this different from the <a href=\"https://www.anthropic.com/features/81k-interviews\">December 2025 study</a>?"
+  },
+  {
+   "type": "paragraph",
+   "text": "We updated the questions, the study is open on more Claude products, and for the first time you can choose to make your interview public.",
+   "html": "We updated the questions, the study is open on more Claude products, and for the first time you can choose to make your interview public."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "When and where will the interviews be published?",
+   "html": "When and where will the interviews be published?"
+  },
+  {
+   "type": "paragraph",
+   "text": "The interviews will be published online once we have completed the study and our initial analysis.",
+   "html": "The interviews will be published online once we have completed the study and our initial analysis."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What are the limitations of this study?",
+   "html": "What are the limitations of this study?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Participants in this study will all be people who use Claude, which is not a representative sample of the public. Published interviews are a further subset, since people who opt in for public release may differ from those who don’t. And as with any interview, the questions we ask shape what people share. Even so, nothing like this has been public before. We believe it can significantly advance the study of how AI is changing people’s lives.",
+   "html": "Participants in this study will all be people who use Claude, which is not a representative sample of the public. Published interviews are a further subset, since people who opt in for public release may differ from those who don’t. And as with any interview, the questions we ask shape what people share. Even so, nothing like this has been public before. We believe it can significantly advance the study of how AI is changing people’s lives."
+  }
+ ],
+ "links": [
+  {
+   "text": "Anthropic Interviewer",
+   "href": "https://www.anthropic.com/about-anthropic-interviewer"
+  },
+  {
+   "text": "participate here",
+   "href": "https://claude.ai/redirect/website.v1.15375f9d-0822-475b-8688-12f4588d5021/anthropic-interviewer/your-thoughts-on-ai?from=blog"
+  },
+  {
+   "text": "science",
+   "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+  },
+  {
+   "text": "medicine",
+   "href": "https://openai.com/index/diagnose-rare-childhood-diseases/"
+  },
+  {
+   "text": "more consequential",
+   "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+  },
+  {
+   "text": "a single security incident",
+   "href": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident"
+  },
+  {
+   "text": "81,000 people",
+   "href": "https://www.anthropic.com/features/81k-interviews"
+  },
+  {
+   "text": "the Anthropic Institute’s agenda",
+   "href": "https://www.anthropic.com/research/anthropic-institute-agenda"
+  },
+  {
+   "text": "Societal Impacts",
+   "href": "https://www.anthropic.com/research/team/societal-impacts"
+  },
+  {
+   "text": "Economics research",
+   "href": "https://www.anthropic.com/research/81k-economics"
+  },
+  {
+   "text": "have shown",
+   "href": "https://arxiv.org/abs/2602.16800"
+  },
+  {
+   "text": "Learn more",
+   "href": "https://privacy.claude.com/en/collections/19084219-anthropic-interviewer"
+  },
+  {
+   "text": "Usage Policy",
+   "href": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://www.anthropic.com/legal/consumer-terms"
+  },
+  {
+   "text": "Anthropic Interviewer",
+   "href": "https://www.anthropic.com/research/anthropic-interviewer"
+  }
+ ],
+ "word_count": 1518,
+ "fetched_at": "2026-09-29T20:19:26+00:00"
+}

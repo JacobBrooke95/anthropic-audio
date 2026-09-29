@@ -1,0 +1,45 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 116.42,
+   "title": "Think through and structure your work before agents act on it"
+  },
+  {
+   "startTime": 191.6,
+   "title": "Give every agent a role and the tools and access it needs"
+  },
+  {
+   "startTime": 317.71,
+   "title": "Separate working with an agent from training it"
+  },
+  {
+   "startTime": 432.91,
+   "title": "Keep the agent’s work where everyone can see it"
+  },
+  {
+   "startTime": 554.45,
+   "title": "Three jobs Asana has handed to agents"
+  },
+  {
+   "startTime": 568.31,
+   "title": "Answering product questions from a Slack channel"
+  },
+  {
+   "startTime": 656.41,
+   "title": "Briefing executives on at-risk renewals"
+  },
+  {
+   "startTime": 759.7,
+   "title": "Planning engineering cycles with Command"
+  },
+  {
+   "startTime": 886.64,
+   "title": "Outro"
+  }
+ ]
+}
