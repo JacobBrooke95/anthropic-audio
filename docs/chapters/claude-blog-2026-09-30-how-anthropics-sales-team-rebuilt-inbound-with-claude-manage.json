@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 99.36,
+   "title": "Why the old inbound process broke"
+  },
+  {
+   "startTime": 156.43,
+   "title": "A buying agent that closes the gap"
+  },
+  {
+   "startTime": 219.08,
+   "title": "Why did we use Claude Managed Agents?"
+  },
+  {
+   "startTime": 313.48,
+   "title": "What we learned building the buying agent"
+  },
+  {
+   "startTime": 428.46,
+   "title": "What changed for customers"
+  },
+  {
+   "startTime": 464.51,
+   "title": "How the agent changed our sales organization"
+  },
+  {
+   "startTime": 558.55,
+   "title": "Outro"
+  }
+ ]
+}

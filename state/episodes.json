@@ -4815,6 +4815,30 @@
       "updated": "2026-09-29T20:48:19+00:00",
       "slug": "claude-blog-2026-09-29-agents-you-can-coach-how-asana-builds-human-agent-teams-with",
       "episode": 63
+    },
+    "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
+      "first_seen": "2026-09-30T20:07:22+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-30T20:07:22+00:00",
+      "slug": "claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage",
+      "episode": 64
+    },
+    "https://www.anthropic.com/research/what-work-can-robots-do": {
+      "first_seen": "2026-09-30T21:55:49+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-30T21:55:49+00:00",
+      "slug": "research-2026-09-30-what-work-can-robots-do",
+      "episode": 65
+    },
+    "https://claude.com/blog/claude-for-government-is-now-generally-available": {
+      "first_seen": "2026-09-30T22:00:37+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-09-30T22:00:37+00:00",
+      "slug": "claude-blog-2026-09-30-claude-for-government-is-now-generally-available",
+      "episode": 66
     }
   },
   "episodes": [
@@ -8135,8 +8159,534 @@
       "episode": 63,
       "created": "2026-09-29T20:48:19+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abbce678437b509bfe08237_og_agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage",
+      "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+      "source": "claude-blog",
+      "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+      "subtitle": "How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works",
+      "date": "2026-09-30T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Contact Sales",
+          "href": "https://claude.com/contact-sales"
+        },
+        {
+          "text": "Pricing",
+          "href": "https://claude.com/pricing#team-&-enterprise"
+        },
+        {
+          "text": "Claude.ai",
+          "href": "http://claude.ai"
+        },
+        {
+          "text": "Claude Managed Agents",
+          "href": "https://claude.com/blog/claude-managed-agents"
+        }
+      ],
+      "word_count": 1451,
+      "duration": 580.754286,
+      "bytes": 5447463,
+      "episode": 64,
+      "created": "2026-09-30T20:07:22+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd1625a34c79dbbb99b360_og_how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents.jpg"
+    },
+    {
+      "slug": "research-2026-09-30-what-work-can-robots-do",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source": "research",
+      "title": "What work can robots do?",
+      "subtitle": "What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.",
+      "date": "2026-09-30T16:00:00+00:00",
+      "authors": [],
+      "category": "Economics",
+      "links": [
+        {
+          "text": "our prior work",
+          "href": "https://www.anthropic.com/research/labor-market-impacts"
+        },
+        {
+          "text": "here",
+          "href": "https://cdn.sanity.io/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf"
+        },
+        {
+          "text": "https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests",
+          "href": "https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests"
+        },
+        {
+          "text": "https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance",
+          "href": "https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance"
+        },
+        {
+          "text": "https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch",
+          "href": "https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch"
+        },
+        {
+          "text": "https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter",
+          "href": "https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter"
+        },
+        {
+          "text": "https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html",
+          "href": "https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html"
+        },
+        {
+          "text": "https://www.stat-search.boj.or.jp/",
+          "href": "https://www.stat-search.boj.or.jp/"
+        },
+        {
+          "text": "https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/",
+          "href": "https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/"
+        },
+        {
+          "text": "https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion",
+          "href": "https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion"
+        },
+        {
+          "text": "https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/",
+          "href": "https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/"
+        },
+        {
+          "text": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en",
+          "href": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en"
+        },
+        {
+          "text": "https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing",
+          "href": "https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing"
+        },
+        {
+          "text": "https://bostondynamics.com/products/stretch/",
+          "href": "https://bostondynamics.com/products/stretch/"
+        },
+        {
+          "text": "https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/",
+          "href": "https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/"
+        },
+        {
+          "text": "https://www.builtrobotics.com/solutions/trenching",
+          "href": "https://www.builtrobotics.com/solutions/trenching"
+        },
+        {
+          "text": "https://www.jlg.com/en/canvas",
+          "href": "https://www.jlg.com/en/canvas"
+        },
+        {
+          "text": "https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery",
+          "href": "https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery"
+        },
+        {
+          "text": "https://www.ecfr.gov/current/title-14/section-121.385",
+          "href": "https://www.ecfr.gov/current/title-14/section-121.385"
+        },
+        {
+          "text": "https://cordis.europa.eu/project/id/775913",
+          "href": "https://cordis.europa.eu/project/id/775913"
+        },
+        {
+          "text": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026",
+          "href": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026"
+        },
+        {
+          "text": "https://www.forethought.org/research/the-industrial-explosion",
+          "href": "https://www.forethought.org/research/the-industrial-explosion"
+        },
+        {
+          "text": "https://www.econtai.org/research/AutomatingAIResearch.pdf",
+          "href": "https://www.econtai.org/research/AutomatingAIResearch.pdf"
+        },
+        {
+          "text": "https://epoch.ai/publications/how-fast-could-robot-production-scale-up",
+          "href": "https://epoch.ai/publications/how-fast-could-robot-production-scale-up"
+        },
+        {
+          "text": "https://www.agproud.com/articles/28362-developments-in-robotic-teat-sprayers-cut-costs-and-labor",
+          "href": "https://www.agproud.com/articles/28362-developments-in-robotic-teat-sprayers-cut-costs-and-labor"
+        },
+        {
+          "text": "https://www.durr-group.com/en/duerrmore/2019/autonomous-driving/x-light-and-x-wheel",
+          "href": "https://www.durr-group.com/en/duerrmore/2019/autonomous-driving/x-light-and-x-wheel"
+        },
+        {
+          "text": "https://www.epiroc.com/en-me/customer-stories/2024/autonomous-material-handling-a-crucial-step-toward-the-mine-of-the-future",
+          "href": "https://www.epiroc.com/en-me/customer-stories/2024/autonomous-material-handling-a-crucial-step-toward-the-mine-of-the-future"
+        },
+        {
+          "text": "https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html",
+          "href": "https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html"
+        },
+        {
+          "text": "https://www.fabrico.io/blog/maintenance-cost-as-percent-of-rav/",
+          "href": "https://www.fabrico.io/blog/maintenance-cost-as-percent-of-rav/"
+        },
+        {
+          "text": "https://www.faa.gov/aircraft/air_cert/step/safety_framework_aircraft_automation",
+          "href": "https://www.faa.gov/aircraft/air_cert/step/safety_framework_aircraft_automation"
+        },
+        {
+          "text": "https://foriauto.com/our-products/end-of-line/alignment-systems/wheel-alignment-systems/toe-tool-systems",
+          "href": "https://foriauto.com/our-products/end-of-line/alignment-systems/wheel-alignment-systems/toe-tool-systems"
+        },
+        {
+          "text": "https://patents.google.com/patent/US4033099A/en",
+          "href": "https://patents.google.com/patent/US4033099A/en"
+        },
+        {
+          "text": "https://patents.google.com/patent/US4118311A/en",
+          "href": "https://patents.google.com/patent/US4118311A/en"
+        },
+        {
+          "text": "https://fortune.com/2026/01/06/nvidia-jensen-huang-chatgpt-moment-for-robotics/",
+          "href": "https://fortune.com/2026/01/06/nvidia-jensen-huang-chatgpt-moment-for-robotics/"
+        },
+        {
+          "text": "https://gridwise.io/blog/how-are-robotaxis-affecting-driver-pay-in-av-cities",
+          "href": "https://gridwise.io/blog/how-are-robotaxis-affecting-driver-pay-in-av-cities"
+        },
+        {
+          "text": "https://unionstats.com/",
+          "href": "https://unionstats.com/"
+        },
+        {
+          "text": "https://www.cnbc.com/2026/08/01/uber-waymo-autonomous-vehicle-regulation.html",
+          "href": "https://www.cnbc.com/2026/08/01/uber-waymo-autonomous-vehicle-regulation.html"
+        },
+        {
+          "text": "https://www.choicesmagazine.org/choices-magazine/theme-articles/immigration-and-agriculture/the-status-of-labor-saving-mechanization-in-us-fruit-and-vegetable-harvesting",
+          "href": "https://www.choicesmagazine.org/choices-magazine/theme-articles/immigration-and-agriculture/the-status-of-labor-saving-mechanization-in-us-fruit-and-vegetable-harvesting"
+        },
+        {
+          "text": "https://www.ingenia.org.uk/articles/fruit-picking-robots/",
+          "href": "https://www.ingenia.org.uk/articles/fruit-picking-robots/"
+        },
+        {
+          "text": "https://www.aboutamazon.com/news/operations/amazon-robotics-cool-facts",
+          "href": "https://www.aboutamazon.com/news/operations/amazon-robotics-cool-facts"
+        },
+        {
+          "text": "https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf",
+          "href": "https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf"
+        },
+        {
+          "text": "https://mpra.ub.uni-muenchen.de/111812/",
+          "href": "https://mpra.ub.uni-muenchen.de/111812/"
+        },
+        {
+          "text": "https://kawasakirobotics.com/case-studies/at-the-forefront-of-frp-automation-spray-up-and-cutting-process-innovations-pioneered-by-kado-x-iec/",
+          "href": "https://kawasakirobotics.com/case-studies/at-the-forefront-of-frp-automation-spray-up-and-cutting-process-innovations-pioneered-by-kado-x-iec/"
+        },
+        {
+          "text": "https://doi.org/10.6028/NIST.GCR.16-005",
+          "href": "https://doi.org/10.6028/NIST.GCR.16-005"
+        },
+        {
+          "text": "https://www.bloomberg.com/news/articles/2026-02-19/new-york-s-robotaxi-plan-pulled-in-setback-to-waymo-expansion",
+          "href": "https://www.bloomberg.com/news/articles/2026-02-19/new-york-s-robotaxi-plan-pulled-in-setback-to-waymo-expansion"
+        },
+        {
+          "text": "https://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-simulation-facilities/537648/",
+          "href": "https://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-simulation-facilities/537648/"
+        },
+        {
+          "text": "https://mayekawa.com/products/deboning_machines/",
+          "href": "https://mayekawa.com/products/deboning_machines/"
+        },
+        {
+          "text": "https://mayekawa.com/with/stories/hamdas/",
+          "href": "https://mayekawa.com/with/stories/hamdas/"
+        },
+        {
+          "text": "https://www.mckinsey.com/featured-insights/the-next-normal/robotics",
+          "href": "https://www.mckinsey.com/featured-insights/the-next-normal/robotics"
+        },
+        {
+          "text": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050",
+          "href": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050"
+        },
+        {
+          "text": "https://news.nissyoku.co.jp/news/nss-8423-0032",
+          "href": "https://news.nissyoku.co.jp/news/nss-8423-0032"
+        },
+        {
+          "text": "https://www.therobotreport.com/pharm-robotics-advances-automated-dairy-cow-healthcare/",
+          "href": "https://www.therobotreport.com/pharm-robotics-advances-automated-dairy-cow-healthcare/"
+        },
+        {
+          "text": "https://oxmaint.com/industries/food-manufacturing/food-manufacturing-maintenance-budgeting-benchmarks-cost-control",
+          "href": "https://oxmaint.com/industries/food-manufacturing/food-manufacturing-maintenance-budgeting-benchmarks-cost-control"
+        },
+        {
+          "text": "https://www.rappler.com/technology/innovations/swagbot-artificial-intelligence-powered-robot-cattle-herder/",
+          "href": "https://www.rappler.com/technology/innovations/swagbot-artificial-intelligence-powered-robot-cattle-herder/"
+        },
+        {
+          "text": "https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026",
+          "href": "https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026"
+        },
+        {
+          "text": "https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300",
+          "href": "https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300"
+        },
+        {
+          "text": "https://www.therobotreport.com/path-robotics-raises-100m-to-automate-welding/",
+          "href": "https://www.therobotreport.com/path-robotics-raises-100m-to-automate-welding/"
+        },
+        {
+          "text": "https://www.therobotreport.com/okibo-opens-new-jersey-hq-and-launches-eg7-robot-in-u-s-market/",
+          "href": "https://www.therobotreport.com/okibo-opens-new-jersey-hq-and-launches-eg7-robot-in-u-s-market/"
+        },
+        {
+          "text": "https://www.mining.sandvik/en/news-and-media/news-archive/2023/06/sandvik-introduces-automine-autoload-2.0-for-improved-autonomous-bucket-loading",
+          "href": "https://www.mining.sandvik/en/news-and-media/news-archive/2023/06/sandvik-introduces-automine-autoload-2.0-for-improved-autonomous-bucket-loading"
+        },
+        {
+          "text": "https://www.schenck-rotec.com/en-us/product/wheel-assembly-lines/",
+          "href": "https://www.schenck-rotec.com/en-us/product/wheel-assembly-lines/"
+        },
+        {
+          "text": "https://www.scoop.co.nz/stories/BU2209/S00201/golden-opportunity-for-scott-technology-with-silver-fern-farms.htm",
+          "href": "https://www.scoop.co.nz/stories/BU2209/S00201/golden-opportunity-for-scott-technology-with-silver-fern-farms.htm"
+        },
+        {
+          "text": "https://www.simberobotics.com/store-intelligence/tally",
+          "href": "https://www.simberobotics.com/store-intelligence/tally"
+        },
+        {
+          "text": "https://www.statista.com/statistics/190680/us-industrial-consumer-price-estimates-for-retail-electricity-since-1970/",
+          "href": "https://www.statista.com/statistics/190680/us-industrial-consumer-price-estimates-for-retail-electricity-since-1970/"
+        },
+        {
+          "text": "https://futuretech.mit.edu/publication/beyond-ai-exposure-which-tasks-are-cost-effective-to-automate-with-computer-vision",
+          "href": "https://futuretech.mit.edu/publication/beyond-ai-exposure-which-tasks-are-cost-effective-to-automate-with-computer-vision"
+        },
+        {
+          "text": "https://www.anthropic.com/research/estimating-productivity-gains",
+          "href": "https://www.anthropic.com/research/estimating-productivity-gains"
+        },
+        {
+          "text": "http://manipulation.mit.edu",
+          "href": "http://manipulation.mit.edu"
+        },
+        {
+          "text": "https://tx-inc.com/en/blog/2022/08/10/11737/",
+          "href": "https://tx-inc.com/en/blog/2022/08/10/11737/"
+        },
+        {
+          "text": "https://www.metstrade.com/news/superyacht/rise-of-the-robots",
+          "href": "https://www.metstrade.com/news/superyacht/rise-of-the-robots"
+        },
+        {
+          "text": "https://www.leitungssatz-hub.de/en/robotik-challenge/robotik-challenge-2026/",
+          "href": "https://www.leitungssatz-hub.de/en/robotik-challenge/robotik-challenge-2026/"
+        },
+        {
+          "text": "https://news.engin.umich.edu/2015/07/u-m-opens-mcity-test-environment-for-connected-and-driverless-vehicles/",
+          "href": "https://news.engin.umich.edu/2015/07/u-m-opens-mcity-test-environment-for-connected-and-driverless-vehicles/"
+        },
+        {
+          "text": "https://fred.stlouisfed.org/series/B935RG3A086NBEA",
+          "href": "https://fred.stlouisfed.org/series/B935RG3A086NBEA"
+        },
+        {
+          "text": "https://www.bls.gov/productivity/technical-notes/labor-productivity-hours-worked-method-using-ces-all-employee-hours-nov-2022.htm",
+          "href": "https://www.bls.gov/productivity/technical-notes/labor-productivity-hours-worked-method-using-ces-all-employee-hours-nov-2022.htm"
+        },
+        {
+          "text": "https://www.bls.gov/oes/tables.htm",
+          "href": "https://www.bls.gov/oes/tables.htm"
+        },
+        {
+          "text": "https://www.bls.gov/cpi/",
+          "href": "https://www.bls.gov/cpi/"
+        },
+        {
+          "text": "https://fred.stlouisfed.org/series/LNS12034560",
+          "href": "https://fred.stlouisfed.org/series/LNS12034560"
+        },
+        {
+          "text": "https://www.bls.gov/oes/oes_ques.htm",
+          "href": "https://www.bls.gov/oes/oes_ques.htm"
+        },
+        {
+          "text": "https://www.census.gov/programs-surveys/aces.html",
+          "href": "https://www.census.gov/programs-surveys/aces.html"
+        },
+        {
+          "text": "https://www.oig.dot.gov/sites/default/files/FAA%20Flight%20Decek%20Automation_Final%20Report%5E1-7-16.pdf",
+          "href": "https://www.oig.dot.gov/sites/default/files/FAA%20Flight%20Decek%20Automation_Final%20Report%5E1-7-16.pdf"
+        },
+        {
+          "text": "https://www.farmersweekly.co.nz/technology/butcher-bot-pays-off-in-dollars-per-carcase/",
+          "href": "https://www.farmersweekly.co.nz/technology/butcher-bot-pays-off-in-dollars-per-carcase/"
+        },
+        {
+          "text": "https://www.farmersweekly.co.nz/technology/one-giant-leap-for-robo-meatworks/",
+          "href": "https://www.farmersweekly.co.nz/technology/one-giant-leap-for-robo-meatworks/"
+        },
+        {
+          "text": "https://www.waste360.com/waste-recycling/q-a-amp-s-matanya-horowitz-on-bringing-ai-to-the-recycling-and-how-the-tech-is-advancing",
+          "href": "https://www.waste360.com/waste-recycling/q-a-amp-s-matanya-horowitz-on-bringing-ai-to-the-recycling-and-how-the-tech-is-advancing"
+        },
+        {
+          "text": "https://www.wattagnet.com/broilers-turkeys/processing-slaughter/article/15526256/the-new-generation-of-automated-deboning-machines-wattagnet",
+          "href": "https://www.wattagnet.com/broilers-turkeys/processing-slaughter/article/15526256/the-new-generation-of-automated-deboning-machines-wattagnet"
+        },
+        {
+          "text": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
+          "href": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
+        },
+        {
+          "text": "https://www.forbes.com/sites/heatherwishartsmith/2023/03/20/built-robotics-unveils-autonomous-pile-driving-robot-expediting-solar-rollout/",
+          "href": "https://www.forbes.com/sites/heatherwishartsmith/2023/03/20/built-robotics-unveils-autonomous-pile-driving-robot-expediting-solar-rollout/"
+        },
+        {
+          "text": "https://doi.org/10.3386/w34836",
+          "href": "https://doi.org/10.3386/w34836"
+        },
+        {
+          "text": "https://www.vitaplus.com/wp-content/uploads/2018/06/Successfull-Calfraising_with-Auto-feeders2018_2.pdf",
+          "href": "https://www.vitaplus.com/wp-content/uploads/2018/06/Successfull-Calfraising_with-Auto-feeders2018_2.pdf"
+        },
+        {
+          "text": "https://doi.org/10.7910/DVN/DQW8IP",
+          "href": "https://doi.org/10.7910/DVN/DQW8IP"
+        },
+        {
+          "text": "https://doi.org/10.7910/DVN/7RYD2E",
+          "href": "https://doi.org/10.7910/DVN/7RYD2E"
+        },
+        {
+          "text": "https://www.ddorn.net/data.htm",
+          "href": "https://www.ddorn.net/data.htm"
+        },
+        {
+          "text": "https://github.com/openai/GPTs-are-GPTs",
+          "href": "https://github.com/openai/GPTs-are-GPTs"
+        },
+        {
+          "text": "https://doi.org/10.3886/ICPSR07845.v2",
+          "href": "https://doi.org/10.3886/ICPSR07845.v2"
+        },
+        {
+          "text": "https://www.onetcenter.org/database.html",
+          "href": "https://www.onetcenter.org/database.html"
+        },
+        {
+          "text": "https://www.onetcenter.org/taxonomy.html",
+          "href": "https://www.onetcenter.org/taxonomy.html"
+        },
+        {
+          "text": "https://www.onetcenter.org/crosswalks/dot/",
+          "href": "https://www.onetcenter.org/crosswalks/dot/"
+        },
+        {
+          "text": "https://doi.org/10.18128/D010.V16.0",
+          "href": "https://doi.org/10.18128/D010.V16.0"
+        },
+        {
+          "text": "https://fred.stlouisfed.org/series/PCEPI",
+          "href": "https://fred.stlouisfed.org/series/PCEPI"
+        },
+        {
+          "text": "https://www.bls.gov/ecec/",
+          "href": "https://www.bls.gov/ecec/"
+        },
+        {
+          "text": "https://www.bls.gov/emp/tables/occupations-largest-job-declines.htm",
+          "href": "https://www.bls.gov/emp/tables/occupations-largest-job-declines.htm"
+        },
+        {
+          "text": "https://www.bls.gov/ors/",
+          "href": "https://www.bls.gov/ors/"
+        },
+        {
+          "text": "https://www2.census.gov/programs-surveys/demo/guidance/industry-occupation/2018-occupation-code-list-and-crosswalk.xlsx",
+          "href": "https://www2.census.gov/programs-surveys/demo/guidance/industry-occupation/2018-occupation-code-list-and-crosswalk.xlsx"
+        },
+        {
+          "text": "https://www2.census.gov/programs-surveys/demo/guidance/industry-occupation/2018-ACS-PUMS-and-2018-SIPP-Public-Use-Occupation-Code-List.xlsx",
+          "href": "https://www2.census.gov/programs-surveys/demo/guidance/industry-occupation/2018-ACS-PUMS-and-2018-SIPP-Public-Use-Occupation-Code-List.xlsx"
+        },
+        {
+          "text": "https://www.census.gov/data/tables/2022/econ/aces/2022-aces-summary.html",
+          "href": "https://www.census.gov/data/tables/2022/econ/aces/2022-aces-summary.html"
+        },
+        {
+          "text": "https://doi.org/10.3886/ICPSR06100.v2",
+          "href": "https://doi.org/10.3886/ICPSR06100.v2"
+        },
+        {
+          "text": "https://occupationalinfo.org",
+          "href": "https://occupationalinfo.org"
+        },
+        {
+          "text": "https://web.stanford.edu/~mww/",
+          "href": "https://web.stanford.edu/~mww/"
+        },
+        {
+          "text": "https://www.michaelwebb.co/",
+          "href": "https://www.michaelwebb.co/"
+        }
+      ],
+      "word_count": 10989,
+      "duration": 6197.890612,
+      "bytes": 50359639,
+      "episode": 65,
+      "created": "2026-09-30T21:55:49+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-09-30-claude-for-government-is-now-generally-available",
+      "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "source": "claude-blog",
+      "title": "Claude for Government is now generally available",
+      "subtitle": "Claude Code CLI and Claude for Microsoft 365 also now available in early access.",
+      "date": "2026-09-30T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Claude for Government",
+          "href": "https://claude.com/solutions/government"
+        },
+        {
+          "text": "public beta since July",
+          "href": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government"
+        },
+        {
+          "text": "Claude",
+          "href": "https://claude.com/product/overview"
+        },
+        {
+          "text": "Claude Code",
+          "href": "https://claude.com/product/claude-code"
+        },
+        {
+          "text": "Claude for Microsoft 365",
+          "href": "https://claude.com/claude-for-microsoft-365"
+        },
+        {
+          "text": "FedRAMP Secure Configuration Guide",
+          "href": "https://trust.anthropic.com/resources#6ab2b125752bf0e0e8025505"
+        },
+        {
+          "text": "trust center",
+          "href": "https://trust.anthropic.com/"
+        },
+        {
+          "text": "claude.com/solutions/government",
+          "href": "http://claude.com/solutions/government"
+        }
+      ],
+      "word_count": 446,
+      "duration": 263.862857,
+      "bytes": 2894845,
+      "episode": 66,
+      "created": "2026-09-30T22:00:37+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd4814ec76c56b4489bc80_og_claude-for-government-is-now-generally-available.jpg"
     }
   ],
-  "next_episode": 64,
+  "next_episode": 67,
   "baseline_date": "2026-08-14"
 }

@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 20:48:20 +0000</lastBuildDate>
-    <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:00:38 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,186 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents</title>
+      <itunes:title>Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</guid>
+      <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+      <description>How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works
+
+Source: https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents
+Published September 30, 2026 · Claude Blog
+
+Links referenced in the post:
+• Contact Sales: https://claude.com/contact-sales
+• Pricing: https://claude.com/pricing#team-&amp;-enterprise
+• Claude.ai: http://claude.ai
+• Claude Managed Agents: https://claude.com/blog/claude-managed-agents
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents">https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</a><br/><strong>Published:</strong> September 30, 2026 · Claude Blog<br/><strong>Length:</strong> 1,451 words · 9 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/contact-sales">Contact Sales</a></li><li><a href="https://claude.com/pricing#team-&amp;-enterprise">Pricing</a></li><li><a href="http://claude.ai">Claude.ai</a></li><li><a href="https://claude.com/blog/claude-managed-agents">Claude Managed Agents</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.mp3" length="5447463" type="audio/mpeg"/>
+      <itunes:duration>581</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.jpg?v=8e45f0c7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works</itunes:subtitle>
+      <itunes:summary>How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works
+
+Source: https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents
+Published September 30, 2026 · Claude Blog
+
+Links referenced in the post:
+• Contact Sales: https://claude.com/contact-sales
+• Pricing: https://claude.com/pricing#team-&amp;-enterprise
+• Claude.ai: http://claude.ai
+• Claude Managed Agents: https://claude.com/blog/claude-managed-agents
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>64</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-how-anthropics-sales-team-rebuilt-inbound-with-claude-manage.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: What work can robots do?</title>
+      <itunes:title>Research: What work can robots do?</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-30-what-work-can-robots-do/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/what-work-can-robots-do</guid>
+      <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+      <description>What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.
+
+Source: https://www.anthropic.com/research/what-work-can-robots-do
+Published September 30, 2026 · Anthropic Research
+
+Links referenced in the post:
+• our prior work: https://www.anthropic.com/research/labor-market-impacts
+• here: https://cdn.sanity.io/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf
+• https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests: https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests
+• https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance: https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance
+• https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch: https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch
+• https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter: https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter
+• https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html: https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html
+• https://www.stat-search.boj.or.jp/: https://www.stat-search.boj.or.jp/
+• https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/: https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/
+• https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion: https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion
+• https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/: https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/
+• https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en: https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en
+• https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing: https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing
+• https://bostondynamics.com/products/stretch/: https://bostondynamics.com/products/stretch/
+• https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/: https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/
+• https://www.builtrobotics.com/solutions/trenching: https://www.builtrobotics.com/solutions/trenching
+• https://www.jlg.com/en/canvas: https://www.jlg.com/en/canvas
+• https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery: https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery
+• https://www.ecfr.gov/current/title-14/section-121.385: https://www.ecfr.gov/current/title-14/section-121.385
+• https://cordis.europa.eu/project/id/775913: https://cordis.europa.eu/project/id/775913
+• https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026: https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026
+• https://www.forethought.org/research/the-industrial-explosion: https://www.forethought.org/research/the-industrial-explosion
+• https://www.econtai.org/research/AutomatingAIResearch.pdf: https://www.econtai.org/research/AutomatingAIResearch.pdf
+• https://epoch…</description>
+      <content:encoded><![CDATA[<p>What work can robots do? Anthropic&#x27;s robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/what-work-can-robots-do">https://www.anthropic.com/research/what-work-can-robots-do</a><br/><strong>Published:</strong> September 30, 2026 · Anthropic Research<br/><strong>Category:</strong> Economics<br/><strong>Length:</strong> 10,989 words · 1h 43m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/labor-market-impacts">our prior work</a></li><li><a href="https://cdn.sanity.io/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf">here</a></li><li><a href="https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests">https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests</a></li><li><a href="https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance">https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance</a></li><li><a href="https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch">https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch</a></li><li><a href="https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter">https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter</a></li><li><a href="https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html">https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html</a></li><li><a href="https://www.stat-search.boj.or.jp/">https://www.stat-search.boj.or.jp/</a></li><li><a href="https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/">https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/</a></li><li><a href="https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion">https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion</a></li><li><a href="https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/">https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/</a></li><li><a href="https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en">https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en</a></li><li><a href="https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing">https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing</a></li><li><a href="https://bostondynamics.com/products/stretch/">https://bostondynamics.com/products/stretch/</a></li><li><a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/</a></li><li><a href="https://www.builtrobotics.com/solutions/trenching">https://www.builtrobotics.com/solutions/trenching</a></li><li><a href="https://www.jlg.com/en/canvas">https://www.jlg.com/en/canvas</a></li><li><a href="https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery">https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery</a></li><li><a href="https://www.ecfr.gov/current/title-14/section-121.385">https://www.ecfr.gov/current/title-14/section-121.385</a></li><li><a href="https://cordis.europa.eu/project/id/775913">https://cordis.europa.eu/project/id/775913</a></li><li><a href="https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026">https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026</a></li><li><a href="https://www.forethought.org/research/the-industrial-explosion">https://www.forethought.org/research/the-industrial-explosion</a></li><li><a href="https://www.econtai.org/research/AutomatingAIResearch.pdf">https://www.econtai.org/research/AutomatingAIResearch.pdf</a></li><li><a href="https://epoch.ai/publications/how-fast-could-robot-production-scale-up">https://epoch.ai/publications/how-fast-could-robot-production-scale-up</a></li><li><a href="https://www.agproud.com/articles/28362-developments-in-robotic-teat-sprayers-cut-costs-and-labor">https://www.agproud.com/articles/28362-developments-in-robotic-teat-sprayers-cut-costs-and-labor</a></li><li><a href="https://www.durr-group.com/en/duerrmore/2019/autonomous-driving/x-light-and-x-wheel">https://www.durr-group.com/en/duerrmore/2019/autonomous-driving/x-light-and-x-wheel</a></li><li><a href="https://www.epiroc.com/en-me/customer-stories/2024/autonomous-material-handling-a-crucial-step-toward-the-mine-of-the-future">https://www.epiroc.com/en-me/customer-stories/2024/autonomous-material-handling-a-crucial-step-toward-the-mine-of-the-future</a></li><li><a href="https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html">https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html</a></li><li><a href="https://www.fabrico.io/blog/maintenance-cost-as-percent-of-rav/">https://www.fabrico.io/blog/maintenance-cost-as-percent-of-rav/</a></li><li><a href="https://www.faa.gov/aircraft/air_cert/step/safety_framework_aircraft_automation">https://www.faa.gov/aircraft/air_cert/step/safety_framework_aircraft_automation</a></li><li><a href="https://foriauto.com/our-products/end-of-line/alignment-systems/wheel-alignment-systems/toe-tool-systems">https://foriauto.com/our-products/end-of-line/alignment-systems/wheel-alignment-systems/toe-tool-systems</a></li><li><a href="https://patents.google.com/patent/US4033099A/en">https://patents.google.com/patent/US4033099A/en</a></li><li><a href="https://patents.google.com/patent/US4118311A/en">https://patents.google.com/patent/US4118311A/en</a></li><li><a href="https://fortune.com/2026/01/06/nvidia-jensen-huang-chatgpt-moment-for-robotics/">https://fortune.com/2026/01/06/nvidia-jensen-huang-chatgpt-moment-for-robotics/</a></li><li><a href="https://gridwise.io/blog/how-are-robotaxis-affecting-driver-pay-in-av-cities">https://gridwise.io/blog/how-are-robotaxis-affecting-driver-pay-in-av-cities</a></li><li><a href="https://unionstats.com/">https://unionstats.com/</a></li><li><a href="https://www.cnbc.com/2026/08/01/uber-waymo-autonomous-vehicle-regulation.html">https://www.cnbc.com/2026/08/01/uber-waymo-autonomous-vehicle-regulation.html</a></li><li><a href="https://www.choicesmagazine.org/choices-magazine/theme-articles/immigration-and-agriculture/the-status-of-labor-saving-mechanization-in-us-fruit-and-vegetable-harvesting">https://www.choicesmagazine.org/choices-magazine/theme-articles/immigration-and-agriculture/the-status-of-labor-saving-mechanization-in-us-fruit-and-vegetable-harvesting</a></li><li><a href="https://www.ingenia.org.uk/articles/fruit-picking-robots/">https://www.ingenia.org.uk/articles/fruit-picking-robots/</a></li><li><a href="https://www.aboutamazon.com/news/operations/amazon-robotics-cool-facts">https://www.aboutamazon.com/news/operations/amazon-robotics-cool-facts</a></li><li><a href="https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf">https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf</a></li><li><a href="https://mpra.ub.uni-muenchen.de/111812/">https://mpra.ub.uni-muenchen.de/111812/</a></li><li><a href="https://kawasakirobotics.com/case-studies/at-the-forefront-of-frp-automation-spray-up-and-cutting-process-innovations-pioneered-by-kado-x-iec/">https://kawasakirobotics.com/case-studies/at-the-forefront-of-frp-automation-spray-up-and-cutting-process-innovations-pioneered-by-kado-x-iec/</a></li><li><a href="https://doi.org/10.6028/NIST.GCR.16-005">https://doi.org/10.6028/NIST.GCR.16-005</a></li><li><a href="https://www.bloomberg.com/news/articles/2026-02-19/new-york-s-robotaxi-plan-pulled-in-setback-to-waymo-expansion">https://www.bloomberg.com/news/articles/2026-02-19/new-york-s-robotaxi-plan-pulled-in-setback-to-waymo-expansion</a></li><li><a href="https://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-simulation-facilities/537648/">https://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-simulation-facilities/537648/</a></li><li><a href="https://mayekawa.com/products/deboning_machines/">https://mayekawa.com/products/deboning_machines/</a></li><li><a href="https://mayekawa.com/with/stories/hamdas/">https://mayekawa.com/with/stories/hamdas/</a></li><li><a href="https://www.mckinsey.com/featured-insights/the-next-normal/robotics">https://www.mckinsey.com/featured-insights/the-next-normal/robotics</a></li><li><a href="https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050">https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050</a></li><li><a href="https://news.nissyoku.co.jp/news/nss-8423-0032">https://news.nissyoku.co.jp/news/nss-8423-0032</a></li><li><a href="https://www.therobotreport.com/pharm-robotics-advances-automated-dairy-cow-healthcare/">https://www.therobotreport.com/pharm-robotics-advances-automated-dairy-cow-healthcare/</a></li><li><a href="https://oxmaint.com/industries/food-manufacturing/food-manufacturing-maintenance-budgeting-benchmarks-cost-control">https://oxmaint.com/industries/food-manufacturing/food-manufacturing-maintenance-budgeting-benchmarks-cost-control</a></li><li><a href="https://www.rappler.com/technology/innovations/swagbot-artificial-intelligence-powered-robot-cattle-herder/">https://www.rappler.com/technology/innovations/swagbot-artificial-intelligence-powered-robot-cattle-herder/</a></li><li><a href="https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026">https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026</a></li><li><a href="https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300">https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300</a></li><li><a href="https://www.therobotreport.com/path-robotics-raises-100m-to-automate-welding/">https://www.therobotreport.com/path-robotics-raises-100m-to-automate-welding/</a></li><li><a href="https://www.therobotreport.com/okibo-opens-new-jersey-hq-and-launches-eg7-robot-in-u-s-market/">https://www.therobotreport.com/okibo-opens-new-jersey-hq-and-launches-eg7-robot-in-u-s-market/</a></li><li><a href="https://www.mining.sandvik/en/news-and-media/news-archive/2023/06/sandvik-introduces-automine-autoload-2.0-for-improved-autonomous-bucket-loading">https://www.mining.sandvik/en/news-and-media/news-archive/2023/06/sandvik-introduces-automine-autoload-2.0-for-improved-autonomous-bucket-loading</a></li><li><a href="https://www.schenck-rotec.com/en-us/product/wheel-assembly-lines/">https://www.schenck-rotec.com/en-us/product/wheel-assembly-lines/</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-30-what-work-can-robots-do/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-30-what-work-can-robots-do.mp3" length="50359639" type="audio/mpeg"/>
+      <itunes:duration>6198</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-30-what-work-can-robots-do.jpg?v=e74f0d57"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-30-what-work-can-robots-do.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-30-what-work-can-robots-do.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.</itunes:subtitle>
+      <itunes:summary>What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.
+
+Source: https://www.anthropic.com/research/what-work-can-robots-do
+Published September 30, 2026 · Anthropic Research
+
+Links referenced in the post:
+• our prior work: https://www.anthropic.com/research/labor-market-impacts
+• here: https://cdn.sanity.io/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf
+• https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests: https://www.airbus.com/en/newsroom/press-releases/2020-06-airbus-concludes-attol-with-fully-autonomous-flight-tests
+• https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance: https://www.airbus.com/en/newsroom/press-releases/2023-01-airbus-tests-new-technologies-to-enhance-pilot-assistance
+• https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch: https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch
+• https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter: https://www.tekniskmuseum.no/en/stories/a-robotic-success-from-the-fighter
+• https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html: https://www.badger-technologies.com/news/press-releases/stop-and-shop-upgrade-marty-the-robot.html
+• https://www.stat-search.boj.or.jp/: https://www.stat-search.boj.or.jp/
+• https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/: https://www.reuters.com/world/asia-pacific/robots-poised-chatgpt-moment-unitree-ceo-says-2026-08-20/
+• https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion: https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion
+• https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/: https://www.geekwire.com/2025/amazons-robot-workforce-hits-1-million-heres-what-they-all-do/
+• https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en: https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en
+• https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing: https://www.bcg.com/publications/2015/lean-manufacturing-innovation-robotics-revolution-next-great-leap-manufacturing
+• https://bostondynamics.com/products/stretch/: https://bostondynamics.com/products/stretch/
+• https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/: https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/
+• https://www.builtrobotics.com/solutions/trenching: https://www.builtrobotics.com/solutions/trenching
+• https://www.jlg.com/en/canvas: https://www.jlg.com/en/canvas
+• https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery: https://my.clevelandclinic.org/health/treatments/16908-da-vinci-surgery
+• https://www.ecfr.gov/current/title-14/section-121.385: https://www.ecfr.gov/current/title-14/section-121.385
+• https://cordis.europa.eu/project/id/775913: https://cordis.europa.eu/project/id/775913
+• https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026: https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026
+• https://www.forethought.org/research/the-industrial-explosion: https://www.forethought.org/research/the-industrial-explosion
+• https://www.econtai.org/research/AutomatingAIResearch.pdf: https://www.econtai.org/research/AutomatingAIResearch.pdf
+• https://epoch…</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>65</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-30-what-work-can-robots-do.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-30-what-work-can-robots-do.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Claude for Government is now generally available</title>
+      <itunes:title>Claude Blog: Claude for Government is now generally available</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-claude-for-government-is-now-generally-available/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-government-is-now-generally-available</guid>
+      <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Claude Code CLI and Claude for Microsoft 365 also now available in early access.
+
+Source: https://claude.com/blog/claude-for-government-is-now-generally-available
+Published September 30, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Government: https://claude.com/solutions/government
+• public beta since July: https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government
+• Claude: https://claude.com/product/overview
+• Claude Code: https://claude.com/product/claude-code
+• Claude for Microsoft 365: https://claude.com/claude-for-microsoft-365
+• FedRAMP Secure Configuration Guide: https://trust.anthropic.com/resources#6ab2b125752bf0e0e8025505
+• trust center: https://trust.anthropic.com/
+• claude.com/solutions/government: http://claude.com/solutions/government
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-claude-for-government-is-now-generally-available/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude Code CLI and Claude for Microsoft 365 also now available in early access.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-for-government-is-now-generally-available">https://claude.com/blog/claude-for-government-is-now-generally-available</a><br/><strong>Published:</strong> September 30, 2026 · Claude Blog<br/><strong>Length:</strong> 446 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/solutions/government">Claude for Government</a></li><li><a href="https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government">public beta since July</a></li><li><a href="https://claude.com/product/overview">Claude</a></li><li><a href="https://claude.com/product/claude-code">Claude Code</a></li><li><a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a></li><li><a href="https://trust.anthropic.com/resources#6ab2b125752bf0e0e8025505">FedRAMP Secure Configuration Guide</a></li><li><a href="https://trust.anthropic.com/">trust center</a></li><li><a href="http://claude.com/solutions/government">claude.com/solutions/government</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-claude-for-government-is-now-generally-available/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.mp3" length="2894845" type="audio/mpeg"/>
+      <itunes:duration>264</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.jpg?v=806b9335"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude Code CLI and Claude for Microsoft 365 also now available in early access.</itunes:subtitle>
+      <itunes:summary>Claude Code CLI and Claude for Microsoft 365 also now available in early access.
+
+Source: https://claude.com/blog/claude-for-government-is-now-generally-available
+Published September 30, 2026 · Claude Blog
+
+Links referenced in the post:
+• Claude for Government: https://claude.com/solutions/government
+• public beta since July: https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government
+• Claude: https://claude.com/product/overview
+• Claude Code: https://claude.com/product/claude-code
+• Claude for Microsoft 365: https://claude.com/claude-for-microsoft-365
+• FedRAMP Secure Configuration Guide: https://trust.anthropic.com/resources#6ab2b125752bf0e0e8025505
+• trust center: https://trust.anthropic.com/
+• claude.com/solutions/government: http://claude.com/solutions/government
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-09-30-claude-for-government-is-now-generally-available/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>66</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-30-claude-for-government-is-now-generally-available.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: GLM-5.3 and the spread of advanced cyber capabilities</title>
       <itunes:title>Research: GLM-5.3 and the spread of advanced cyber capabilities</itunes:title>
