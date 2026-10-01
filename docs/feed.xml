@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 22:00:38 +0000</lastBuildDate>
-    <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:52:32 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,170 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Claude-shaped science</title>
+      <itunes:title>Research: Claude-shaped science</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-01-claude-shaped-science/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-shaped-science</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+Source: https://www.anthropic.com/research/claude-shaped-science
+Published October 1, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Vibe Physics: https://www.anthropic.com/research/vibe-physics
+• solving challenging: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+• longstanding problems: https://www.anthropic.com/research/riemann-zeta
+• Claude Science: https://claude.com/product/claude-science
+• nine-loop amplitude in N=4 super-Yang–Mills: https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+• newer pivot: https://arxiv.org/abs/2507.17815
+• life history: https://en.wikipedia.org/wiki/Life_history_theory
+• Stephen Hubbell suggested: https://press.princeton.edu/books/paperback/9780691021287/the-unified-neutral-theory-of-biodiversity-and-biogeography
+• Rampal Etienne: https://doi.org/10.1111/j.1461-0248.2004.00717.x
+• gnomAD: https://gnomad.broadinstitute.org/
+• 1000 Genomes Project: https://www.internationalgenome.org/about/
+• NBER working paper: https://www.nber.org/papers/w35782
+• database of word stress: http://www.accstack.org
+• bootloops.ai.: http://bootloops.ai
+• classifiers;: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• AI can sit inside that loop: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+• jagged frontiers: https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
+• www.bootloops.ai: http://www.bootloops.ai
+• GitHub: https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-01-claude-shaped-science/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/claude-shaped-science">https://www.anthropic.com/research/claude-shaped-science</a><br/><strong>Published:</strong> October 1, 2026 · Anthropic Research<br/><strong>Category:</strong> Science<br/><strong>Length:</strong> 4,514 words · 31 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/vibe-physics">Vibe Physics</a></li><li><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">solving challenging</a></li><li><a href="https://www.anthropic.com/research/riemann-zeta">longstanding problems</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops">nine-loop amplitude in N=4 super-Yang–Mills</a></li><li><a href="https://arxiv.org/abs/2507.17815">newer pivot</a></li><li><a href="https://en.wikipedia.org/wiki/Life_history_theory">life history</a></li><li><a href="https://press.princeton.edu/books/paperback/9780691021287/the-unified-neutral-theory-of-biodiversity-and-biogeography">Stephen Hubbell suggested</a></li><li><a href="https://doi.org/10.1111/j.1461-0248.2004.00717.x">Rampal Etienne</a></li><li><a href="https://gnomad.broadinstitute.org/">gnomAD</a></li><li><a href="https://www.internationalgenome.org/about/">1000 Genomes Project</a></li><li><a href="https://www.nber.org/papers/w35782">NBER working paper</a></li><li><a href="http://www.accstack.org">database of word stress</a></li><li><a href="http://bootloops.ai">bootloops.ai.</a></li><li><a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">classifiers;</a></li><li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science</a></li><li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">AI can sit inside that loop</a></li><li><a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged">jagged frontiers</a></li><li><a href="http://www.bootloops.ai">www.bootloops.ai</a></li><li><a href="https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1">GitHub</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-01-claude-shaped-science/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-01-claude-shaped-science.mp3" length="15834683" type="audio/mpeg"/>
+      <itunes:duration>1869</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-01-claude-shaped-science.jpg?v=eb5b876a"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-01-claude-shaped-science.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-01-claude-shaped-science.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across</itunes:subtitle>
+      <itunes:summary>Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+Source: https://www.anthropic.com/research/claude-shaped-science
+Published October 1, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Vibe Physics: https://www.anthropic.com/research/vibe-physics
+• solving challenging: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+• longstanding problems: https://www.anthropic.com/research/riemann-zeta
+• Claude Science: https://claude.com/product/claude-science
+• nine-loop amplitude in N=4 super-Yang–Mills: https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+• newer pivot: https://arxiv.org/abs/2507.17815
+• life history: https://en.wikipedia.org/wiki/Life_history_theory
+• Stephen Hubbell suggested: https://press.princeton.edu/books/paperback/9780691021287/the-unified-neutral-theory-of-biodiversity-and-biogeography
+• Rampal Etienne: https://doi.org/10.1111/j.1461-0248.2004.00717.x
+• gnomAD: https://gnomad.broadinstitute.org/
+• 1000 Genomes Project: https://www.internationalgenome.org/about/
+• NBER working paper: https://www.nber.org/papers/w35782
+• database of word stress: http://www.accstack.org
+• bootloops.ai.: http://bootloops.ai
+• classifiers;: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• AI can sit inside that loop: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+• jagged frontiers: https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
+• www.bootloops.ai: http://www.bootloops.ai
+• GitHub: https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-01-claude-shaped-science/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>67</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-01-claude-shaped-science.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-01-claude-shaped-science.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Barclays scales Claude to upgrade operations and improve client experience</title>
+      <itunes:title>News: Barclays scales Claude to upgrade operations and improve client experience</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-01-barclays-scales-claude/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/barclays-scales-claude</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+Source: https://www.anthropic.com/news/barclays-scales-claude
+Published October 1, 2026 · Anthropic Newsroom
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-01-barclays-scales-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/barclays-scales-claude">https://www.anthropic.com/news/barclays-scales-claude</a><br/><strong>Published:</strong> October 1, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 677 words · 6 min</p><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-01-barclays-scales-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-01-barclays-scales-claude.mp3" length="3696688" type="audio/mpeg"/>
+      <itunes:duration>364</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-01-barclays-scales-claude.jpg?v=fbb9ad6e"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-01-barclays-scales-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-01-barclays-scales-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</itunes:subtitle>
+      <itunes:summary>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+Source: https://www.anthropic.com/news/barclays-scales-claude
+Published October 1, 2026 · Anthropic Newsroom
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-01-barclays-scales-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>68</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-01-barclays-scales-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-01-barclays-scales-claude.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Claude Blog: Customize Claude Code with mods</title>
+      <itunes:title>Claude Blog: Customize Claude Code with mods</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-01-claude-code-mods/</link>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-mods</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.
+
+Source: https://claude.com/blog/claude-code-mods
+Published October 1, 2026 · Claude Blog
+
+Links referenced in the post:
+• read our guide to building your first mod: https://claude.dev/blog/getting-started-with-claude-code-mods/
+• Hooks: https://code.claude.com/docs/en/hooks
+• shared the design for mods on GitHub: https://github.com/anthropics/claude-code/issues/91870
+• view the source code: http://github.com/anthropics/claude-code/tree/main/mods
+• Claude directory: https://claude.ai/directory
+• submit it to the directory: https://claude.ai/directory/manage
+• documentation: https://code.claude.com/docs/en/plugins/mods/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-01-claude-code-mods/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-code-mods">https://claude.com/blog/claude-code-mods</a><br/><strong>Published:</strong> October 1, 2026 · Claude Blog<br/><strong>Length:</strong> 742 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.dev/blog/getting-started-with-claude-code-mods/">read our guide to building your first mod</a></li><li><a href="https://code.claude.com/docs/en/hooks">Hooks</a></li><li><a href="https://github.com/anthropics/claude-code/issues/91870">shared the design for mods on GitHub</a></li><li><a href="http://github.com/anthropics/claude-code/tree/main/mods">view the source code</a></li><li><a href="https://claude.ai/directory">Claude directory</a></li><li><a href="https://claude.ai/directory/manage">submit it to the directory</a></li><li><a href="https://code.claude.com/docs/en/plugins/mods/overview">documentation</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-01-claude-code-mods/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-10-01-claude-code-mods.mp3" length="3310719" type="audio/mpeg"/>
+      <itunes:duration>319</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-10-01-claude-code-mods.jpg?v=d4363d51"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-01-claude-code-mods.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-10-01-claude-code-mods.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.</itunes:subtitle>
+      <itunes:summary>Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.
+
+Source: https://claude.com/blog/claude-code-mods
+Published October 1, 2026 · Claude Blog
+
+Links referenced in the post:
+• read our guide to building your first mod: https://claude.dev/blog/getting-started-with-claude-code-mods/
+• Hooks: https://code.claude.com/docs/en/hooks
+• shared the design for mods on GitHub: https://github.com/anthropics/claude-code/issues/91870
+• view the source code: http://github.com/anthropics/claude-code/tree/main/mods
+• Claude directory: https://claude.ai/directory
+• submit it to the directory: https://claude.ai/directory/manage
+• documentation: https://code.claude.com/docs/en/plugins/mods/overview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-01-claude-code-mods/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>69</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-01-claude-code-mods.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-01-claude-code-mods.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents</title>
       <itunes:title>Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents</itunes:title>

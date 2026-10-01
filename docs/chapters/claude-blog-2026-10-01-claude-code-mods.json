@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 72.41,
+   "title": "Why we built mods"
+  },
+  {
+   "startTime": 101.56,
+   "title": "How mods work"
+  },
+  {
+   "startTime": 177.53,
+   "title": "Swap built-in features for your own"
+  },
+  {
+   "startTime": 200.93,
+   "title": "Mods for teams and enterprises"
+  },
+  {
+   "startTime": 275.99,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 298.97,
+   "title": "Outro"
+  }
+ ]
+}

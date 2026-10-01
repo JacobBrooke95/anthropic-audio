@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Customize Claude Code with mods — Anthropic, Read Aloud</title>
+<meta name="description" content="Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.">
+<meta property="og:title" content="Customize Claude Code with mods — Anthropic, Read Aloud">
+<meta property="og:description" content="Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.">
+<meta property="og:image" content="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-10-01-claude-code-mods.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (podcast)" href="https://jacobbrooke95.github.io/anthropic-audio/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (full-text posts)" href="https://jacobbrooke95.github.io/anthropic-audio/posts.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<link rel="icon" type="image/png" sizes="64x64" href="../../favicon.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+</head><body>
+<nav class="topnav" aria-label="Site"><div class="wrap">
+<a class="brand" href="../../"><img src="../../cover.jpg" alt="">Anthropic, Read Aloud</a>
+<a class="back" href="../../">← All episodes</a>
+</div></nav>
+<main class="wrap">
+<article>
+<header class="ep-head">
+<img class="ep-art" src="../../art/claude-blog-2026-10-01-claude-code-mods.jpg" alt="Episode artwork for “Customize Claude Code with mods”">
+<div class="ep-info">
+<div class="row"><span class="badge claude-blog">Claude Blog</span><span class="meta">Episode 69 · October 1, 2026 · 742 words</span></div>
+<h1 class="ep-title">Customize Claude Code with mods</h1>
+<p class="ep-sub">Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.</p>
+<div class="player" id="player" data-slug="claude-blog-2026-10-01-claude-code-mods" data-dur="318.9">
+<p class="plabel"><span>Listen to this episode</span><span class="dur">5:19</span></p>
+<audio controls preload="none" src="../../audio/claude-blog-2026-10-01-claude-code-mods.mp3"></audio>
+<div class="pui" hidden>
+<div class="p-main">
+<button type="button" class="p-play" aria-label="Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+<div class="p-right">
+<div class="p-bar" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="319" aria-valuenow="0" aria-valuetext="0:00">
+<div class="p-buf"></div><div class="p-fill"></div><div class="p-knob"></div>
+</div>
+<div class="p-times"><span class="p-cur">0:00</span><span class="p-chap"></span><span class="p-dur">5:19</span></div>
+</div>
+</div>
+<div class="p-ctl">
+<button type="button" data-skip="-30" title="Back 30 seconds" aria-label="Back 30 seconds">−30s</button>
+<button type="button" data-skip="-15" title="Back 15 seconds" aria-label="Back 15 seconds">−15s</button>
+<button type="button" class="p-rate" title="Playback speed" aria-label="Playback speed">1×</button>
+<button type="button" data-skip="15" title="Forward 15 seconds" aria-label="Forward 15 seconds">+15s</button>
+<button type="button" data-skip="30" title="Forward 30 seconds" aria-label="Forward 30 seconds">+30s</button>
+</div>
+<p class="p-resume" hidden>Resumed at <span class="p-resume-t"></span> — <button type="button" class="p-restart">start over</button></p>
+</div>
+</div>
+<nav class="chapters" id="chapters" hidden aria-label="Chapters" data-src="../../chapters/claude-blog-2026-10-01-claude-code-mods.json"></nav>
+<div class="actions">
+<a class="chip" href="../../audio/claude-blog-2026-10-01-claude-code-mods.mp3" download>Download MP3</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-10-01-claude-code-mods.vtt">Transcript (VTT)</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-10-01-claude-code-mods.txt">Transcript (text)</a>
+<a class="chip" href="../../posts/claude-blog-2026-10-01-claude-code-mods/post.md">Markdown</a>
+<a class="chip" href="../../posts/claude-blog-2026-10-01-claude-code-mods/post.json">JSON</a>
+<a class="chip" href="https://claude.com/blog/claude-code-mods">Original post ↗</a>
+</div>
+</div>
+</header>
+<details class="panel notes">
+<summary>Show notes &amp; every link in the post</summary>
+<div class="inner"><p>Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/claude-code-mods">https://claude.com/blog/claude-code-mods</a><br/><strong>Published:</strong> October 1, 2026 · Claude Blog<br/><strong>Length:</strong> 742 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.dev/blog/getting-started-with-claude-code-mods/">read our guide to building your first mod</a></li><li><a href="https://code.claude.com/docs/en/hooks">Hooks</a></li><li><a href="https://github.com/anthropics/claude-code/issues/91870">shared the design for mods on GitHub</a></li><li><a href="http://github.com/anthropics/claude-code/tree/main/mods">view the source code</a></li><li><a href="https://claude.ai/directory">Claude directory</a></li><li><a href="https://claude.ai/directory/manage">submit it to the directory</a></li><li><a href="https://code.claude.com/docs/en/plugins/mods/overview">documentation</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-01-claude-code-mods/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
+</details>
+<details class="panel" id="transcript" data-vtt="../../transcripts/claude-blog-2026-10-01-claude-code-mods.vtt" data-txt="../../transcripts/claude-blog-2026-10-01-claude-code-mods.txt">
+<summary>Transcript</summary>
+<div class="inner"><p class="meta">Click any line to jump the audio there. Also available as <a href="../../transcripts/claude-blog-2026-10-01-claude-code-mods.vtt">WebVTT (timed)</a> or <a href="../../transcripts/claude-blog-2026-10-01-claude-code-mods.txt">plain text</a>.</p>
+<div class="tr-body"><pre class="tr-out"></pre></div>
+<noscript><p class="meta">JavaScript is off — read the transcript via the links above.</p></noscript></div>
+</details>
+<details class="panel" open>
+<summary>Full text of the post</summary>
+<div class="inner"><article class="post">
+<p class="meta">Copied from <a href="https://claude.com/blog/claude-code-mods">https://claude.com/blog/claude-code-mods</a> on 2026-10-01 for the audio edition. © Anthropic, PBC.</p>
+<p>Today we&#x27;re introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app.</p>
+<p>Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only install mods from sources you trust, the same way you&#x27;d install any code on your computer.</p>
+<p>To see what mods can do, <a href="https://claude.dev/blog/getting-started-with-claude-code-mods/">read our guide to building your first mod</a>.</p>
+<h3>Why we built mods</h3>
+<p>Developers have asked for more control over how Claude Code works, without waiting for us to ship a feature. <a href="https://code.claude.com/docs/en/hooks">Hooks</a> helped give users some of this control, but hooks can&#x27;t rewrite events, draw new UI, or replace features. Mods can.</p>
+<p>We want Claude Code to feel like yours, so you can shape it to the way you work. We <a href="https://github.com/anthropics/claude-code/issues/91870">shared the design for mods on GitHub</a> before launch to get feedback from developers. Thank you to everyone who weighed in.</p>
+<h3>How mods work</h3>
+<p>Each time Claude Code does something, it emits an event. Examples include calling a tool, asking for permission, and drawing part of the screen. A mod is a function that hooks into one of these events. A mod can run before the event, after it, or instead of it. It can also wrap the event, running code both before and after. With one function, a mod can:</p>
+<ul><li>Rewrite a prompt before it reaches the model.</li><li>Block, rewrite, or retry a tool call.</li><li>Approve or deny a permission request.</li><li>Redact secrets from tool output before Claude reads it.</li></ul>
+<p>A mod can also change what you see. It can edit or replace part of the interface Claude Code draws, like a tool result or a question from Claude. It can add buttons and inputs, and other mods can respond when you press them. Today, a mod can target the terminal, the desktop app, or both.</p>
+<p>When several mods hook the same event, they run in the order they load. The first mod to load sees the event first and the result last. This lets you stack mods from different authors.</p>
+<p>You can also use Claude Code to mod Claude Code. Ask Claude to create a mod, and it can write the TypeScript, install it, and hot reload it in your session.</p>
+<h3>Swap built-in features for your own</h3>
+<p>Some built-in features of Claude Code now ship as mods. For example, the built-in <code>/diff</code> feature is now a mod, so you can turn it off (in <code>/plugin</code>) or replace it with your own version. We plan to move more built-in features to mods over time, so you can pare Claude Code down to a small core and add back only what you want.</p>
+<h3>Mods for teams and enterprises</h3>
+<p>Mods ship inside plugins, so your existing plugin controls apply. Admins can allow or block plugin marketplaces. On Team and Enterprise plans, an owner sets this in the admin console. On Claude API and third-party API plans, admins push managed settings to users&#x27; machines.</p>
+<p>On Team and Enterprise plans, and on any machine with managed settings, a built-in mod called <code>sec-default</code> (“security default”) loads first. It stops mods that users install from doing risky things, like overriding your permission deny rules. You can <a href="http://github.com/anthropics/claude-code/tree/main/mods">view the source code</a> to see what it restricts. Admins can load their own mods first instead. If you do, add <code>sec-default</code> to your list to keep its restrictions.</p>
+<p>Teams can also use mods to build their own controls and functionality. For example:</p>
+<ul><li><strong>CI/CD status: </strong>a mod can show your pipeline’s status in a pane beside the conversation, and update it as builds pass or fail.</li><li><strong>Production safeguards</strong>: a mod can require confirmation before any command touches production config.</li><li><strong>Audit logging: </strong>a mod that loads first can record every call that every other mod makes.</li></ul>
+<h3>Getting started</h3>
+<p>Mods are available today in the Claude Code CLI and desktop app. Install plugins that include mods from the <a href="https://claude.ai/directory">Claude directory</a> or by running <code>/plugin</code> in the CLI. To share a mod, package it in a plugin and <a href="https://claude.ai/directory/manage">submit it to the directory</a>. </p>
+<p>To build your own mods, read our <a href="https://claude.dev/blog/getting-started-with-claude-code-mods/">getting started guide</a> or see the <a href="https://code.claude.com/docs/en/plugins/mods/overview">documentation</a>.</p>
+</article></div>
+</details>
+</article>
+<script src="../../player.js" defer></script></main>
+<footer><div class="wrap">Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</div></footer>
+</body></html>

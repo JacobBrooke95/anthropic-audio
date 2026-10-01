@@ -4839,6 +4839,30 @@
       "updated": "2026-09-30T22:00:37+00:00",
       "slug": "claude-blog-2026-09-30-claude-for-government-is-now-generally-available",
       "episode": 66
+    },
+    "https://www.anthropic.com/research/claude-shaped-science": {
+      "first_seen": "2026-10-01T20:43:44+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-01T20:43:44+00:00",
+      "slug": "research-2026-10-01-claude-shaped-science",
+      "episode": 67
+    },
+    "https://www.anthropic.com/news/barclays-scales-claude": {
+      "first_seen": "2026-10-01T20:48:22+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-01T20:48:22+00:00",
+      "slug": "news-2026-10-01-barclays-scales-claude",
+      "episode": 68
+    },
+    "https://claude.com/blog/claude-code-mods": {
+      "first_seen": "2026-10-01T20:52:32+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-01T20:52:32+00:00",
+      "slug": "claude-blog-2026-10-01-claude-code-mods",
+      "episode": 69
     }
   },
   "episodes": [
@@ -8685,8 +8709,169 @@
       "episode": 66,
       "created": "2026-09-30T22:00:37+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd4814ec76c56b4489bc80_og_claude-for-government-is-now-generally-available.jpg"
+    },
+    {
+      "slug": "research-2026-10-01-claude-shaped-science",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "source": "research",
+      "title": "Claude-shaped science",
+      "subtitle": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
+      "date": "2026-10-01T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "Vibe Physics",
+          "href": "https://www.anthropic.com/research/vibe-physics"
+        },
+        {
+          "text": "solving challenging",
+          "href": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+        },
+        {
+          "text": "longstanding problems",
+          "href": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "nine-loop amplitude in N=4 super-Yang–Mills",
+          "href": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+        },
+        {
+          "text": "newer pivot",
+          "href": "https://arxiv.org/abs/2507.17815"
+        },
+        {
+          "text": "life history",
+          "href": "https://en.wikipedia.org/wiki/Life_history_theory"
+        },
+        {
+          "text": "Stephen Hubbell suggested",
+          "href": "https://press.princeton.edu/books/paperback/9780691021287/the-unified-neutral-theory-of-biodiversity-and-biogeography"
+        },
+        {
+          "text": "Rampal Etienne",
+          "href": "https://doi.org/10.1111/j.1461-0248.2004.00717.x"
+        },
+        {
+          "text": "gnomAD",
+          "href": "https://gnomad.broadinstitute.org/"
+        },
+        {
+          "text": "1000 Genomes Project",
+          "href": "https://www.internationalgenome.org/about/"
+        },
+        {
+          "text": "NBER working paper",
+          "href": "https://www.nber.org/papers/w35782"
+        },
+        {
+          "text": "database of word stress",
+          "href": "http://www.accstack.org"
+        },
+        {
+          "text": "bootloops.ai.",
+          "href": "http://bootloops.ai"
+        },
+        {
+          "text": "classifiers;",
+          "href": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "text": "AI can sit inside that loop",
+          "href": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        },
+        {
+          "text": "jagged frontiers",
+          "href": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged"
+        },
+        {
+          "text": "www.bootloops.ai",
+          "href": "http://www.bootloops.ai"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1"
+        }
+      ],
+      "word_count": 4514,
+      "duration": 1868.878367,
+      "bytes": 15834683,
+      "episode": 67,
+      "created": "2026-10-01T20:43:44+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg"
+    },
+    {
+      "slug": "news-2026-10-01-barclays-scales-claude",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "source": "news",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "subtitle": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+      "date": "2026-10-01T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [],
+      "word_count": 677,
+      "duration": 364.225306,
+      "bytes": 3696688,
+      "episode": 68,
+      "created": "2026-10-01T20:48:22+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "claude-blog-2026-10-01-claude-code-mods",
+      "url": "https://claude.com/blog/claude-code-mods",
+      "source": "claude-blog",
+      "title": "Customize Claude Code with mods",
+      "subtitle": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.",
+      "date": "2026-10-01T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "read our guide to building your first mod",
+          "href": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+        },
+        {
+          "text": "Hooks",
+          "href": "https://code.claude.com/docs/en/hooks"
+        },
+        {
+          "text": "shared the design for mods on GitHub",
+          "href": "https://github.com/anthropics/claude-code/issues/91870"
+        },
+        {
+          "text": "view the source code",
+          "href": "http://github.com/anthropics/claude-code/tree/main/mods"
+        },
+        {
+          "text": "Claude directory",
+          "href": "https://claude.ai/directory"
+        },
+        {
+          "text": "submit it to the directory",
+          "href": "https://claude.ai/directory/manage"
+        },
+        {
+          "text": "documentation",
+          "href": "https://code.claude.com/docs/en/plugins/mods/overview"
+        }
+      ],
+      "word_count": 742,
+      "duration": 318.902857,
+      "bytes": 3310719,
+      "episode": 69,
+      "created": "2026-10-01T20:52:32+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg"
     }
   ],
-  "next_episode": 67,
+  "next_episode": 70,
   "baseline_date": "2026-08-14"
 }

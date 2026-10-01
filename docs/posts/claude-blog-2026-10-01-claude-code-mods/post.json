@@ -1,0 +1,190 @@
+{
+ "url": "https://claude.com/blog/claude-code-mods",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-10-01-claude-code-mods",
+ "title": "Customize Claude Code with mods",
+ "subtitle": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.",
+ "date": "2026-10-01T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app.",
+   "html": "Today we&#x27;re introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app."
+  },
+  {
+   "type": "paragraph",
+   "text": "Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only install mods from sources you trust, the same way you'd install any code on your computer.",
+   "html": "Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only install mods from sources you trust, the same way you&#x27;d install any code on your computer."
+  },
+  {
+   "type": "paragraph",
+   "text": "To see what mods can do, read our guide to building your first mod .",
+   "html": "To see what mods can do, <a href=\"https://claude.dev/blog/getting-started-with-claude-code-mods/\">read our guide to building your first mod</a>."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why we built mods",
+   "html": "Why we built mods"
+  },
+  {
+   "type": "paragraph",
+   "text": "Developers have asked for more control over how Claude Code works, without waiting for us to ship a feature. Hooks helped give users some of this control, but hooks can't rewrite events, draw new UI, or replace features. Mods can.",
+   "html": "Developers have asked for more control over how Claude Code works, without waiting for us to ship a feature. <a href=\"https://code.claude.com/docs/en/hooks\">Hooks</a> helped give users some of this control, but hooks can&#x27;t rewrite events, draw new UI, or replace features. Mods can."
+  },
+  {
+   "type": "paragraph",
+   "text": "We want Claude Code to feel like yours, so you can shape it to the way you work. We shared the design for mods on GitHub before launch to get feedback from developers. Thank you to everyone who weighed in.",
+   "html": "We want Claude Code to feel like yours, so you can shape it to the way you work. We <a href=\"https://github.com/anthropics/claude-code/issues/91870\">shared the design for mods on GitHub</a> before launch to get feedback from developers. Thank you to everyone who weighed in."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How mods work",
+   "html": "How mods work"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each time Claude Code does something, it emits an event. Examples include calling a tool, asking for permission, and drawing part of the screen. A mod is a function that hooks into one of these events. A mod can run before the event, after it, or instead of it. It can also wrap the event, running code both before and after. With one function, a mod can:",
+   "html": "Each time Claude Code does something, it emits an event. Examples include calling a tool, asking for permission, and drawing part of the screen. A mod is a function that hooks into one of these events. A mod can run before the event, after it, or instead of it. It can also wrap the event, running code both before and after. With one function, a mod can:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Rewrite a prompt before it reaches the model.",
+     "html": "Rewrite a prompt before it reaches the model."
+    },
+    {
+     "text": "Block, rewrite, or retry a tool call.",
+     "html": "Block, rewrite, or retry a tool call."
+    },
+    {
+     "text": "Approve or deny a permission request.",
+     "html": "Approve or deny a permission request."
+    },
+    {
+     "text": "Redact secrets from tool output before Claude reads it.",
+     "html": "Redact secrets from tool output before Claude reads it."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "A mod can also change what you see. It can edit or replace part of the interface Claude Code draws, like a tool result or a question from Claude. It can add buttons and inputs, and other mods can respond when you press them. Today, a mod can target the terminal, the desktop app, or both.",
+   "html": "A mod can also change what you see. It can edit or replace part of the interface Claude Code draws, like a tool result or a question from Claude. It can add buttons and inputs, and other mods can respond when you press them. Today, a mod can target the terminal, the desktop app, or both."
+  },
+  {
+   "type": "paragraph",
+   "text": "When several mods hook the same event, they run in the order they load. The first mod to load sees the event first and the result last. This lets you stack mods from different authors.",
+   "html": "When several mods hook the same event, they run in the order they load. The first mod to load sees the event first and the result last. This lets you stack mods from different authors."
+  },
+  {
+   "type": "paragraph",
+   "text": "You can also use Claude Code to mod Claude Code. Ask Claude to create a mod, and it can write the TypeScript, install it, and hot reload it in your session.",
+   "html": "You can also use Claude Code to mod Claude Code. Ask Claude to create a mod, and it can write the TypeScript, install it, and hot reload it in your session."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Swap built-in features for your own",
+   "html": "Swap built-in features for your own"
+  },
+  {
+   "type": "paragraph",
+   "text": "Some built-in features of Claude Code now ship as mods. For example, the built-in /diff feature is now a mod, so you can turn it off (in /plugin ) or replace it with your own version. We plan to move more built-in features to mods over time, so you can pare Claude Code down to a small core and add back only what you want.",
+   "html": "Some built-in features of Claude Code now ship as mods. For example, the built-in <code>/diff</code> feature is now a mod, so you can turn it off (in <code>/plugin</code>) or replace it with your own version. We plan to move more built-in features to mods over time, so you can pare Claude Code down to a small core and add back only what you want."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Mods for teams and enterprises",
+   "html": "Mods for teams and enterprises"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mods ship inside plugins, so your existing plugin controls apply. Admins can allow or block plugin marketplaces. On Team and Enterprise plans, an owner sets this in the admin console. On Claude API and third-party API plans, admins push managed settings to users' machines.",
+   "html": "Mods ship inside plugins, so your existing plugin controls apply. Admins can allow or block plugin marketplaces. On Team and Enterprise plans, an owner sets this in the admin console. On Claude API and third-party API plans, admins push managed settings to users&#x27; machines."
+  },
+  {
+   "type": "paragraph",
+   "text": "On Team and Enterprise plans, and on any machine with managed settings, a built-in mod called sec-default (“security default”) loads first. It stops mods that users install from doing risky things, like overriding your permission deny rules. You can view the source code to see what it restricts. Admins can load their own mods first instead. If you do, add sec-default to your list to keep its restrictions.",
+   "html": "On Team and Enterprise plans, and on any machine with managed settings, a built-in mod called <code>sec-default</code> (“security default”) loads first. It stops mods that users install from doing risky things, like overriding your permission deny rules. You can <a href=\"http://github.com/anthropics/claude-code/tree/main/mods\">view the source code</a> to see what it restricts. Admins can load their own mods first instead. If you do, add <code>sec-default</code> to your list to keep its restrictions."
+  },
+  {
+   "type": "paragraph",
+   "text": "Teams can also use mods to build their own controls and functionality. For example:",
+   "html": "Teams can also use mods to build their own controls and functionality. For example:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "CI/CD status: a mod can show your pipeline’s status in a pane beside the conversation, and update it as builds pass or fail.",
+     "html": "<strong>CI/CD status: </strong>a mod can show your pipeline’s status in a pane beside the conversation, and update it as builds pass or fail."
+    },
+    {
+     "text": "Production safeguards : a mod can require confirmation before any command touches production config.",
+     "html": "<strong>Production safeguards</strong>: a mod can require confirmation before any command touches production config."
+    },
+    {
+     "text": "Audit logging: a mod that loads first can record every call that every other mod makes.",
+     "html": "<strong>Audit logging: </strong>a mod that loads first can record every call that every other mod makes."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Getting started",
+   "html": "Getting started"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mods are available today in the Claude Code CLI and desktop app. Install plugins that include mods from the Claude directory or by running /plugin in the CLI. To share a mod, package it in a plugin and submit it to the directory .",
+   "html": "Mods are available today in the Claude Code CLI and desktop app. Install plugins that include mods from the <a href=\"https://claude.ai/directory\">Claude directory</a> or by running <code>/plugin</code> in the CLI. To share a mod, package it in a plugin and <a href=\"https://claude.ai/directory/manage\">submit it to the directory</a>. "
+  },
+  {
+   "type": "paragraph",
+   "text": "To build your own mods, read our getting started guide or see the documentation .",
+   "html": "To build your own mods, read our <a href=\"https://claude.dev/blog/getting-started-with-claude-code-mods/\">getting started guide</a> or see the <a href=\"https://code.claude.com/docs/en/plugins/mods/overview\">documentation</a>."
+  }
+ ],
+ "links": [
+  {
+   "text": "read our guide to building your first mod",
+   "href": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+  },
+  {
+   "text": "Hooks",
+   "href": "https://code.claude.com/docs/en/hooks"
+  },
+  {
+   "text": "shared the design for mods on GitHub",
+   "href": "https://github.com/anthropics/claude-code/issues/91870"
+  },
+  {
+   "text": "view the source code",
+   "href": "http://github.com/anthropics/claude-code/tree/main/mods"
+  },
+  {
+   "text": "Claude directory",
+   "href": "https://claude.ai/directory"
+  },
+  {
+   "text": "submit it to the directory",
+   "href": "https://claude.ai/directory/manage"
+  },
+  {
+   "text": "documentation",
+   "href": "https://code.claude.com/docs/en/plugins/mods/overview"
+  }
+ ],
+ "word_count": 742,
+ "fetched_at": "2026-10-01T20:48:22+00:00"
+}

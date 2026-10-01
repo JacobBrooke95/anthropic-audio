@@ -1,0 +1,111 @@
+{
+ "url": "https://www.anthropic.com/news/barclays-scales-claude",
+ "source": "news",
+ "slug": "news-2026-10-01-barclays-scales-claude",
+ "title": "Barclays scales Claude to upgrade operations and improve client experience",
+ "subtitle": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+ "date": "2026-10-01T16:00:00+00:00",
+ "authors": [],
+ "category": "Announcements",
+ "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+   "html": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
+  },
+  {
+   "type": "paragraph",
+   "text": "Barclays is extending Claude across the bank to accelerate software development, modernize legacy systems, and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by the end of 2026, rising to a majority of software engineers in 2027.",
+   "html": "Barclays is extending Claude across the bank to accelerate software development, modernize legacy systems, and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by the end of 2026, rising to a majority of software engineers in 2027."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Barclays builds with Claude to better serve customers",
+   "html": "Barclays builds with Claude to better serve customers"
+  },
+  {
+   "type": "paragraph",
+   "text": "Integrating AI across a large, complex, and highly regulated organization requires both capable technology and disciplined governance. Expanding its collaboration with Anthropic reflects a shared commitment to deploying AI responsibly, reliably, and in ways that deliver real outcomes, such as providing faster support for customers.",
+   "html": "Integrating AI across a large, complex, and highly regulated organization requires both capable technology and disciplined governance. Expanding its collaboration with Anthropic reflects a shared commitment to deploying AI responsibly, reliably, and in ways that deliver real outcomes, such as providing faster support for customers."
+  },
+  {
+   "type": "paragraph",
+   "text": "“The true measure of any technology is the impact it has on customers, clients, and colleagues, and the outcomes it enables,” said Anne Marie Darling, Group Co-Chief Operating Officer at Barclays. “Expanding the use of Claude across Barclays is about more than adopting AI. It is about transforming how work gets done: reimagining processes, enhancing customer and client experiences, and building a simpler, more efficient organization within a secure and well-governed environment. By reducing time spent on routine activities and streamlining decision-making, we can enable colleagues to focus their expertise where it matters most, solving more complex problems, accelerating innovation, and delivering better outcomes for our customers, clients, and business.”",
+   "html": "“The true measure of any technology is the impact it has on customers, clients, and colleagues, and the outcomes it enables,” said Anne Marie Darling, Group Co-Chief Operating Officer at Barclays. “Expanding the use of Claude across Barclays is about more than adopting AI. It is about transforming how work gets done: reimagining processes, enhancing customer and client experiences, and building a simpler, more efficient organization within a secure and well-governed environment. By reducing time spent on routine activities and streamlining decision-making, we can enable colleagues to focus their expertise where it matters most, solving more complex problems, accelerating innovation, and delivering better outcomes for our customers, clients, and business.”"
+  },
+  {
+   "type": "paragraph",
+   "text": "“Software engineering and cyber security are both being reshaped by increasingly capable AI systems,” said Craig Bright, Group Co-Chief Operating Officer at Barclays. “We're moving towards AI as an increasingly agentic capability embedded within how we build, test, secure, and operate technology. At Barclays, we're using Claude to help modernize legacy platforms, improve software quality, and allow our technical experts to focus on the most complex challenges. The combination of skilled engineers, cyber specialists, and trusted AI capabilities has the potential to fundamentally improve how technology is developed and managed across large-scale enterprises.”",
+   "html": "“Software engineering and cyber security are both being reshaped by increasingly capable AI systems,” said Craig Bright, Group Co-Chief Operating Officer at Barclays. “We&#x27;re moving towards AI as an increasingly agentic capability embedded within how we build, test, secure, and operate technology. At Barclays, we&#x27;re using Claude to help modernize legacy platforms, improve software quality, and allow our technical experts to focus on the most complex challenges. The combination of skilled engineers, cyber specialists, and trusted AI capabilities has the potential to fundamentally improve how technology is developed and managed across large-scale enterprises.”"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Claude powers knowledge assistance to speed up customer servicing",
+   "html": "Claude powers knowledge assistance to speed up customer servicing"
+  },
+  {
+   "type": "paragraph",
+   "text": "One example of the partnership already in action is Barclays’ Colleague Knowledge Assistant, which helps Barclays UK employees find information and answers more quickly when supporting their over 20 million UK retail customers.",
+   "html": "One example of the partnership already in action is Barclays’ Colleague Knowledge Assistant, which helps Barclays UK employees find information and answers more quickly when supporting their over 20 million UK retail customers."
+  },
+  {
+   "type": "paragraph",
+   "text": "The capability, which has been live since 2025, is powered by Claude through a retrieval-augmented generation architecture. More than 16,000 colleagues have adopted the assistant, and it has handled over one million searches.",
+   "html": "The capability, which has been live since 2025, is powered by Claude through a retrieval-augmented generation architecture. More than 16,000 colleagues have adopted the assistant, and it has handled over one million searches."
+  },
+  {
+   "type": "paragraph",
+   "text": "The result is faster access to information and quicker support for customers.",
+   "html": "The result is faster access to information and quicker support for customers."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Enhancing operational efficiency in Barclays’ Global Markets business",
+   "html": "Enhancing operational efficiency in Barclays’ Global Markets business"
+  },
+  {
+   "type": "paragraph",
+   "text": "Within Barclays' Global Markets business, Claude models are helping streamline how client inquiries are processed and managed.",
+   "html": "Within Barclays&#x27; Global Markets business, Claude models are helping streamline how client inquiries are processed and managed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Teams use Claude models to classify, enrich, and determine the optimal processing route for incoming emails, helping to prioritize and ensure requests contain the information needed for operations colleagues to take action. The platform processes approximately 120,000 emails each day, reducing manual handling activity while helping colleagues identify and act on relevant information more efficiently.",
+   "html": "Teams use Claude models to classify, enrich, and determine the optimal processing route for incoming emails, helping to prioritize and ensure requests contain the information needed for operations colleagues to take action. The platform processes approximately 120,000 emails each day, reducing manual handling activity while helping colleagues identify and act on relevant information more efficiently."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Scaling AI responsibly",
+   "html": "Scaling AI responsibly"
+  },
+  {
+   "type": "paragraph",
+   "text": "As Barclays continues to expand its use of AI, responsible deployment remains central to the partnership. The bank applies robust governance, security controls, and human oversight to AI use cases, ensuring technology is deployed safely and effectively across the organization.",
+   "html": "As Barclays continues to expand its use of AI, responsible deployment remains central to the partnership. The bank applies robust governance, security controls, and human oversight to AI use cases, ensuring technology is deployed safely and effectively across the organization."
+  },
+  {
+   "type": "paragraph",
+   "text": "“Our work with Barclays is a significant milestone for us in the UK. Barclays serves millions of customers and clients across the globe, so their standard for AI is high. That's why Barclays is rolling Claude out with strong security and oversight,” said Paul Smith, Chief Commercial Officer at Anthropic. “Claude now helps 16,000 Barclays’ colleagues find answers for customers, sorts 120,000 emails a day, and will be in the hands of most Barclays engineers by 2027. Very few institutions hold AI to such a high standard.”",
+   "html": "“Our work with Barclays is a significant milestone for us in the UK. Barclays serves millions of customers and clients across the globe, so their standard for AI is high. That&#x27;s why Barclays is rolling Claude out with strong security and oversight,” said Paul Smith, Chief Commercial Officer at Anthropic. “Claude now helps 16,000 Barclays’ colleagues find answers for customers, sorts 120,000 emails a day, and will be in the hands of most Barclays engineers by 2027. Very few institutions hold AI to such a high standard.”"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Looking ahead",
+   "html": "Looking ahead"
+  },
+  {
+   "type": "paragraph",
+   "text": "The expanded partnership reflects Barclays’ long-term commitment to using AI to improve productivity, strengthen resilience, and improve customer and client outcomes. By combining Anthropic’s frontier AI capabilities with Barclays’ focus on responsible innovation, the organizations are working together to scale practical AI applications across one of the world’s largest financial institutions.",
+   "html": "The expanded partnership reflects Barclays’ long-term commitment to using AI to improve productivity, strengthen resilience, and improve customer and client outcomes. By combining Anthropic’s frontier AI capabilities with Barclays’ focus on responsible innovation, the organizations are working together to scale practical AI applications across one of the world’s largest financial institutions."
+  }
+ ],
+ "links": [],
+ "word_count": 677,
+ "fetched_at": "2026-10-01T20:43:45+00:00"
+}

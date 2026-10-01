@@ -1,0 +1,489 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:05.332
+This is Anthropic, Read Aloud. Today: Claude-shaped science.
+
+2
+00:00:06.632 --> 00:00:07.817
+Claude-shaped science.
+
+3
+00:00:08.267 --> 00:00:25.536
+Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+4
+00:00:25.986 --> 00:00:30.368
+From Anthropic Research, published October 1, 2026.
+
+5
+00:00:31.368 --> 00:00:45.384
+Summary: In this guest post, Prof. Matthew Schwartz returns to describe a new approach to A I-accelerated science. In Vibe Physics, Schwartz discussed similarities in capability between Claude and a physics graduate student.
+
+6
+00:00:45.504 --> 00:01:03.210
+Here, he describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of L L M tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science.
+
+7
+00:01:03.330 --> 00:01:24.856
+Because similar calculations often turn up across very disparate areas of science, Claude found connections to ecology, population genetics, and a dozen other fields. These connections were often technically correct but scientifically unremarkable at first, so Schwartz worked with domain experts to steer BootLoops toward questions those fields care about.
+
+8
+00:01:24.976 --> 00:01:29.053
+Below, we share more about these projects and how BootLoops came about.
+
+9
+00:01:29.503 --> 00:01:51.573
+Agentic A I is improving rapidly. Everyone notices the models seem smarter: they know more, make fewer mistakes, and have better ideas. If you follow the trend lines, it is easy to speak confidently about the potential of A I to revolutionize science. However, academic scientists trying to use the models today in their own work often feel a disconnect.
+
+10
+00:01:51.693 --> 00:02:11.342
+The models may be solving challenging and longstanding problems, but so far these have mostly been well-scoped applications of existing techniques. Many of the headlines seem to be in mathematics, the one part of science where a problem can be stated completely and an answer checked absolutely. But most of science is not like that.
+
+11
+00:02:11.462 --> 00:02:20.721
+And for many of us researchers and students, the distance between those headlines and what happens when we use these models can leave us frustrated and anxious.
+
+12
+00:02:21.171 --> 00:02:41.326
+The core conflict, as I see it, is that although these models are brilliant, working like a human scientist is not what current L L Ms do best. Claude and GPT are good at science, but they are not scientists: yes, they are smart, but it can take a lot of hand-holding to get them to produce anything of scientific value.
+
+13
+00:02:41.446 --> 00:02:55.957
+Physicists would call this an “impedance mismatch”: two systems that each work fine but are poorly matched, so most of what one puts in never gets through to the other. Here, the mismatch is between what scientists want and what A I does well.
+
+14
+00:02:56.407 --> 00:02:57.650
+So how can we fix it?
+
+15
+00:02:58.100 --> 00:03:18.132
+I started looking for examples where the impedance mismatches are less acute. I began by having Claude build an accessible suite of tools for mathematical physics. Before long, the tools found uses for other problems. This iterative process generated a set of software and scientific protocols, which I call BootLoops.
+
+16
+00:03:18.252 --> 00:03:38.550
+BootLoops functions as a kind of harness for the L L M, much like Claude Code or Claude Science is a harness for Claude, or Codex is a harness for GPT. I’ve found BootLoops especially well-suited for a class of quantitative problems in science. It is also open-source, so it can be used with whatever model you like.
+
+17
+00:03:39.000 --> 00:03:58.647
+Figure 1: The current generation of A I tools is not capable of solving most problems in science. However, they are astonishingly good at certain “agentic-A I-shaped” problems. Image description: A visualization of the overlap between what A I can do, and what scientists want to do. Only some of the areas touch.
+
+18
+00:03:59.097 --> 00:04:21.443
+Once Claude had BootLoops, it kept noticing the same pattern: many fields have problems that a technique from mathematics, physics, or computer science would solve outright if anyone knew it existed. I started calling these “Claude-shaped” problems, and followed them outside high-energy theoretical physics, my home turf, into geology, biology, economics, and linguistics.
+
+19
+00:04:21.563 --> 00:04:35.814
+In these other areas, I could not rely on my own expertise to know whether what Claude found was interesting. So I found some experts and asked. With their guidance, BootLoops was able to make substantive advances in many research areas.
+
+20
+00:04:36.264 --> 00:04:49.277
+Below, I share how BootLoops came about, describe some early findings in areas where I have been applying it, and share some of my thinking on how to resolve the impedance mismatch between human and A I scientists today.
+
+21
+00:04:50.077 --> 00:04:51.245
+Claude, take the wheel!
+
+22
+00:04:51.695 --> 00:05:14.063
+Last December, I tried using Claude as a research assistant, and found that Claude Opus 4.5 performed like a strong graduate student at 20 times the speed. Despite Claude producing a high-quality paper at the end of the experiment, it was a slog to get there. I had to correct every sentence it wrote, steer it away from irrelevant threads, and pull it back from dead ends.
+
+23
+00:05:14.513 --> 00:05:27.911
+This summer, I tried doing something different: instead of treating Claude like the collaborator I wanted it to be, I started to treat it like the collaborator it actually is. This required looking for problems suited to its strengths.
+
+24
+00:05:28.031 --> 00:05:46.580
+Right now, Claude is just not able to help me with deep conceptual questions, but it does have a virtually unlimited breadth of knowledge across all domains, incredible coding skills, leading-edge knowledge of mathematics and statistics, and the ability to parse papers, appendices, and data at machine speed.
+
+25
+00:05:47.030 --> 00:06:02.400
+A natural place to start looking for Claude-shaped problems was in areas where coding could help. When Anthropic released Claude Fable 5 in Summer 2026, I wanted to see whether its cyber capabilities would translate to scientific computing.
+
+26
+00:06:02.520 --> 00:06:12.248
+So I sought to test it by having it port, code up, and improve various methods from a handful of my papers and the adjacent literature on scattering amplitudes.
+
+27
+00:06:12.698 --> 00:06:35.760
+Scattering amplitudes are how we interpret data from the Large Hadron Collider: smash two protons at 13 trillion electron volts, and the amplitude is the theoretical bridge between the debris and whatever new particle, a Higgs boson or something unknown, the collision produced. At their core are Feynman diagrams, multidimensional integrals of a particular form.
+
+28
+00:06:35.880 --> 00:06:41.721
+The ones we are struggling with now can each be a PhD thesis, or occupy a group for years.
+
+29
+00:06:42.171 --> 00:07:04.810
+Over the past 20 years an alternative has grown up: the S-matrix bootstrap. In the bootstrap approach, instead of grinding out the integral, you impose physical constraints until only one answer is possible. Knowing where the amplitude is infinite (its “singularities”) might narrow it to 20000 options; a symmetry cuts that to 500; and so on down to one.
+
+30
+00:07:04.930 --> 00:07:23.665
+The traditional bootstrap is purely analytic and has gone furthest in the most symmetric theories, where the constraints reach all the way to a single option (the nine-loop amplitude in N=4 super-Yang to Mills is an example). Closer to the real world you often run out of constraints before the end.
+
+31
+00:07:23.785 --> 00:07:40.257
+A newer pivot, the semi-numerical bootstrap, closes the gap when you can also compute the amplitude at a handful of points to absurd precision (sometimes 1000 digits): if few enough options remain, those numbers pin down the remaining coefficients exactly.
+
+32
+00:07:40.707 --> 00:08:04.678
+The semi-numerical bootstrap seemed ideal for agentic A I. It draws on mathematics, physics, and computer science that no one person has mastered; it needs a great deal of coding and algorithm development; and it is checkable, since the same numerics let anyone, expert or not, verify the final answer against the integral to as many digits as they like by running two scripts.
+
+33
+00:08:04.798 --> 00:08:24.573
+The community's expertise is also unevenly distributed: good ideas sit in Wolfram Language, C++, Python, or Julia, and many more sit in papers with no code at all. So my first assignment for Fable 5 was to port all of it to a common framework, and to write the code the papers never provided.
+
+34
+00:08:25.023 --> 00:08:42.856
+Claude did this effortlessly. I was surprised when it reproduced the results from my paper in around 20 minutes, while the code I wrote to do it took me weeks. However, I was not surprised when it informed me that I was doing something very inefficiently and that there was a better algorithm I was unaware of.
+
+35
+00:08:43.306 --> 00:08:59.540
+Then, I asked Claude to search for unsolved amplitudes it could compute. It turns out that problems that are simple enough for the S-matrix bootstrap are also simple enough for humans to do, and, indeed, most have been done. It nevertheless found a few unsolved problems.
+
+36
+00:08:59.660 --> 00:09:14.050
+After some discussion with the model, it became clear that Claude was limiting itself to amplitudes with the simplest family of functions: logarithms. So I asked, could it do the same thing for the next simplest family, elliptic functions?
+
+37
+00:09:14.500 --> 00:09:29.857
+Elliptic integrals are really hard, even for people like me who spend a lot of their time computing integrals. Only a handful of elliptic Feynman integrals have ever been computed, and none completely by the bootstrap, at least to my or Claude’s knowledge.
+
+38
+00:09:29.977 --> 00:09:48.131
+The issue is not that the methods wouldn’t work, but rather that nobody had tried, since the expertise needed to do so is distributed among many humans. Claude, by contrast, easily generalized all of the machinery it had ported and built for the logarithmic case to these other integral classes.
+
+39
+00:09:48.251 --> 00:10:08.651
+This time it wrote most of the software itself, or borrowed it from mathematics rather than physics. As the toolkit grew, it started to land one integral after another. Soon we had 30 integrals BootLooped from end to end, comprising 15 reproductions of known results by this new method and 15 that had never before been computed.
+
+40
+00:10:09.101 --> 00:10:20.874
+That was all after only a few weeks. Initially, I thought I would be satisfied just to do a write-up on that, but I was too tempted to see what else we (that is, me and Claude with BootLoops) could do.
+
+41
+00:10:21.674 --> 00:10:22.773
+“I know Kung Fu”.
+
+42
+00:10:23.223 --> 00:10:43.780
+A serendipitous feature of science is that the same equations often appear over and over again in different contexts. In physics, for example, the diffusion equation, Fokker-Planck equation, and Schrödinger equation all have the same mathematical form, so if you develop a method to solve one problem, you can often apply it to many others.
+
+43
+00:10:43.900 --> 00:10:51.002
+I knew that computations BootLoops was good at were relevant elsewhere: in cosmology and string theory, for example.
+
+44
+00:10:51.122 --> 00:11:08.084
+What I didn’t know, but Claude was happy to tell me, was that these integrals could also map onto Bayesian evidence integrals in population genetics, or that the finite-field methods used for Feynman integral reduction could also apply to problems in evolutionary biology.
+
+45
+00:11:08.534 --> 00:11:20.204
+This kicked off a particularly fertile period of searching for and solving Claude-shaped (and, more narrowly, BootLoops-shaped) problems. Some ideas were immediately obvious as great applications.
+
+46
+00:11:20.324 --> 00:11:41.287
+For example, the science of phylogenetics studies how to organize species into family trees using DNA; the relevant computation is a Bayesian evidence integral, whose output is a single number saying how well a candidate tree accounts for the observed DNA, an integral of the same kind BootLoops was originally built to do.
+
+47
+00:11:41.407 --> 00:11:59.433
+As the ideas came, I insisted that Claude both use old tools and build new ones, so that the harness would grow. Each tool, even from a failed project, opened up new doors. Claude was getting more and more capable. It was like Neo in The Matrix after waking up from the Kung Fu download.
+
+48
+00:11:59.883 --> 00:12:18.593
+Quote: As the projects drifted from my professional comfort zone, however, I started to worry. When Claude claims something it did in my field is fantastic, I can judge whether that’s true or not (it often isn’t). But when it claims something it did in another field is fantastic, I find myself agreeing.
+
+49
+00:12:18.713 --> 00:12:33.485
+My suspicion heightened, I knew I needed to bring in some experts to be sure. Indeed, I found that in almost all cases, Claude was technically correct, but the result was not all that interesting until the expert helped steer us. End quote.
+
+50
+00:12:33.935 --> 00:12:55.396
+One such project was on neutral biodiversity theory in ecology. In any ecosystem, some species thrive while others die off. Neutral theory asks how much of that life history is due to random chance. Building on earlier work, in 2001, the ecologist Stephen Hubbell suggested, provocatively, that perhaps it was all random.
+
+51
+00:12:55.516 --> 00:13:14.342
+In 2005, the ecologist Rampal Etienne put an equation to Hubbell’s theory allowing it (at least in principle) to be tested in a precise way. Unfortunately, for 20 years nobody could solve the equation at scale. Claude recognized Etienne’s equation as BootLoops-shaped, and solved it.
+
+52
+00:13:14.462 --> 00:13:28.905
+Applying the computation to data, we established that in ecology’s most studied forest on earth, Barro Colorado Island in the Panama Canal, the mix of tree species changes 4.5 times faster than neutral theory allows.
+
+53
+00:13:29.355 --> 00:13:51.670
+Excited by this result, I brought it to James O’Dwyer, a professor in plant biology and an expert in neutral theory. James was patient with me. Though he was impressed by the technical feat, he said the results would likely “be met with a shrug by many ecologists.” Ecologists had already observed, more qualitatively, that neutral theory can’t keep up with real forests.
+
+54
+00:13:51.790 --> 00:14:05.550
+But James had a better idea: subtract the neutral prediction and study the remainder. This would give us a better sense of what changes were attributable to natural selection, competition, and the differences between species.
+
+55
+00:14:06.000 --> 00:14:22.603
+James and I proceeded to work intensively with Claude to craft a successor model. James has a physics background, so the disciplinary language barrier was more easily surmountable, but, like many scientists, he had not yet really appreciated the power of agentic A I.
+
+56
+00:14:22.723 --> 00:14:43.065
+As the collaboration progressed, I became a sort of Claude handler, translating Claude-speak to James and keeping the model on track, while James pushed the model to produce something ecologists might value. The final result is something all three of us are proud of: a minimal predictive model of life histories in excellent agreement with data.
+
+57
+00:14:43.185 --> 00:14:50.638
+We are currently extending the model from Panama to other global forest plots, using datasets that Claude has helped curate.
+
+58
+00:14:51.088 --> 00:15:03.795
+Figure 2: Every forest inventory plot in the United States, characterized by the life history strategy of its flora: hardy (long-lived), vigorous (fast-growing) or fruitful (prolific recruiters).
+
+59
+00:15:03.915 --> 00:15:23.265
+The classification comes from a demographic model, built by Schwartz and O’Dwyer using Claude, that characterizes each species on longevity, growth, and recruitment after subtracting the fluctuations due to random chance (neutral biodiversity theory) to expose the species-dependent biology.
+
+60
+00:15:23.385 --> 00:15:30.093
+Image description: Graph of every forest inventory in the U S color-coded by life history strategy.
+
+61
+00:15:30.543 --> 00:15:54.887
+Another project involved looking at exact calculations in population genetics, a field that studies how genes vary within a population and why. Claude first used methods imported from mathematical physics to solve a 30-year-old integral expression for how natural selection shapes rare mutations. We applied it to gnomAD, the largest public catalog of human genetic variation.
+
+62
+00:15:55.007 --> 00:16:16.468
+Claude was very excited about this result, but I wasn’t so sure. I had to write to three different biologists for validation before one responded, but at last I was able to recruit my colleague Michael Desai, who works in the field, though not on this exact problem. As with James, Michael was impressed by the technical result but not compelled by the science.
+
+63
+00:16:16.918 --> 00:16:38.326
+Michael noted, however, that more impactful results might come from studying correlations between pairs of mutations on a single chromosome, using the same or similar methodology. Within this scope, Claude found and built new tools, like the inequality certificates used for computer-assisted proofs in mathematics, and added them to the BootLoops kit.
+
+64
+00:16:38.446 --> 00:17:00.307
+We then analyzed 5.7 billion pairs of nearby mutations in genomes from the 1000 Genomes Project, and found evidence for a mechanism called gene conversion. This is an important finding because nearly every analysis that uses linked genetic variation, from population history to disease mapping, ignores gene conversion.
+
+65
+00:17:00.427 --> 00:17:09.383
+The bigger lesson is that A I can help find biology hidden in enormous genomic datasets, of which there are thousands sitting in public archives.
+
+66
+00:17:09.833 --> 00:17:30.863
+Other projects had a similar arc: Claude comes up with an initial finding I find compelling. I bring it to an expert, who is unmoved but sees the potential, and together we sculpt it into meaningful science. Interestingly, some of these drifted from BootLoops-shaped quantitative calculations to more general Claude-shaped work. For example:
+
+67
+00:17:31.313 --> 00:17:41.218
+Economics. Economics journals now ask authors for a replication package, and an editor is often tasked with checking it. That is careful, manual work.
+
+68
+00:17:41.338 --> 00:18:04.584
+Working with two economists, we built an A I data editor: it ported the packages of 4452 papers in five leading journals from MATLAB, Stata, and other commercial tools to open-source code (some 30000 routines) and checked essentially every validatable number against the published tables. The results appear in an NBER working paper.
+
+69
+00:18:04.824 --> 00:18:13.204
+Linguistics. Word-stress catalogs are typically assembled by hand, with a few hundred languages, selection effects, and human preferences.
+
+70
+00:18:13.324 --> 00:18:31.819
+Claude scoured every openly accessible source and, working with three linguists, we produced AccStack: a database of word stress covering 6072 languages, quoting the deciding passage for nearly every entry, plus a bibliography of 160000 phonology works.
+
+71
+00:18:32.269 --> 00:18:41.666
+Some additional highlights, each of which was done in collaboration with experts, and each of which is undergoing further exploration and verification, include:
+
+72
+00:18:42.116 --> 00:18:56.530
+Phylogenetics. We made the Bayesian evidence for evolutionary trees fast to compute and exactly checkable, and found that single genes are often tied between competing trees by less than the error of standard sampling programs.
+
+73
+00:18:56.770 --> 00:19:10.965
+Earth science. We combined equations and data from atmospheric science, geochemistry, and climate modeling to build a quantitative, predictive model of how the Great Oxidation Event unfolded through four glaciations.
+
+74
+00:19:11.205 --> 00:19:22.446
+Genomics. We studied the statistics of single-cell RNA counts at scale to characterize bursting rates and the departure from the textbook telegraph model of gene expression.
+
+75
+00:19:22.686 --> 00:19:36.630
+Sunspots. We deduced the lifecycle of sunspots using the methods of human population demographics, then extended the methodology to characterize starspots, a confounding factor in many exoplanet searches.
+
+76
+00:19:36.870 --> 00:19:52.262
+Mathematical physics. We solved Watson’s “final problem”: the exact return probability of a 3D random walk with three unequal hopping rates, the last of the lattice integrals George Watson began in 1939.
+
+77
+00:19:52.502 --> 00:20:05.415
+Cosmology. We built a complete theoretical toolkit to fit cosmological parameters to data on the universe’s large-scale structure, including the full two-loop power spectrum and the one-loop trispectrum.
+
+78
+00:20:05.655 --> 00:20:19.970
+Statistics. Mixture models are notoriously ill-behaved; we derived precise approximations to their Bayesian evidence that make model selection practical, with applications from biostatistics to textual analysis.
+
+79
+00:20:20.420 --> 00:20:37.346
+Overall, this approach of iterative improvement of BootLoops, searching for Claude-shaped applications, and pushing to the scientific frontier with experts has been astonishingly productive. More information about these projects and others can be found on bootloops.ai.
+
+80
+00:20:38.146 --> 00:20:39.527
+The technical details.
+
+81
+00:20:39.977 --> 00:20:56.968
+Running many projects at once (36 manuscripts in 18 fields with 19 coauthors over three months, out of some 400 candidate problems) takes a lot of coordination, both for me and for Claude. The setup that makes this manageable is fairly simple.
+
+82
+00:20:57.088 --> 00:21:16.449
+The Claude Code sessions all run in terminals on Google Cloud virtual machines, linked to various GitHub and Overleaf repos depending on my collaborators’ preferences. I have separate sessions for each project, plus a master session that coordinates the others, allocates compute, and validates results.
+
+83
+00:21:16.569 --> 00:21:36.468
+Each session involves agents that run the computations in the background, with intermediate results stored in markdown files in their respective folders. These subagents are helpful because I regularly run into Fable 5’s classifiers; instead of these blocks corrupting my whole session, they just shut down a single agent.
+
+84
+00:21:36.588 --> 00:21:51.427
+I also have separate sessions for writing results; creating the GitHub repos, tool manuals, and the BootLoops website; writing and validating all the separate tool codes; and checking and rechecking results as an adversarial referee.
+
+85
+00:21:51.877 --> 00:22:13.432
+Still, the sessions require a lot of guidance. For example, Claude has no sense of time, and loves to be dramatic. At the end of one project, it told me “Matt, the formula is solved. Two years of campaign, four deep marches,...”. It had only been working for three days. When I ask for ETAs, the estimates are always either way too long or way too short.
+
+86
+00:22:13.552 --> 00:22:27.241
+I tried telling Claude not to commit to an estimate until it ran a test to confirm, but that didn’t work well either. Over time, I started to get a feel for how long things would take myself, since I couldn’t rely on Claude to tell me.
+
+87
+00:22:27.691 --> 00:22:50.299
+A bigger problem was that Claude’s default approach seemed to be to try to grind through a long, multiday calculation rather than build a new tool that would make that same calculation take mere minutes. Time and again, I had to tell it to think smarter, not harder. Over the course of these long projects, compaction would often kick in, causing Claude to lose important context.
+
+88
+00:22:50.419 --> 00:23:10.251
+To guard against this, I had Claude periodically organize its files and consolidate them, so it always had access to the latest version of the plan. I’ve written protocol skills and other tools into the BootLoops harness to address this. Some of these problems have also been solved in good commercial harnesses, like Claude Science.
+
+89
+00:23:10.371 --> 00:23:19.434
+But many are just the sorts of irritations inherent in the current generation of agentic A I that I expect the models will eventually outgrow.
+
+90
+00:23:19.884 --> 00:23:24.103
+Here are a few more failure modes I encountered, and tips for dealing with them:
+
+91
+00:23:24.553 --> 00:23:45.737
+Claude loves to declare victory. “Done, with one asterisk” is often “not done at all.” “Exactly that, with one refinement” usually means “no.” Giving Claude clear and rigid standards for what success looks like can help with this. On one project, it was proud of its proof, up to “one unproven lemma.” That lemma was the whole proof! I said no unproven lemmas.
+
+92
+00:23:45.857 --> 00:23:48.273
+Then “done” again, but now with a new axiom.
+
+93
+00:23:48.513 --> 00:24:00.774
+Look at everything yourself. I always ask to see plots. Even with all the monitors I set up, I’ve found the automated checks still can’t be trusted. Beware of qualitative claims like “good agreement.”.
+
+94
+00:24:01.014 --> 00:24:10.682
+Question the conclusions. Claude is good at performing calculations, but the conclusions it draws can be wrong. Have it explain what it found until you believe it.
+
+95
+00:24:10.922 --> 00:24:32.657
+Supply the taste. Claude can find Claude-shaped problems, but there are thousands, perhaps millions, of them. Claude seems to favor old debates, highly cited but long forgotten. Asking it to focus on what is newly possible, not what is merely faster or involves more digits, helps, but you still can’t trust its judgment of whether something is interesting.
+
+96
+00:24:32.897 --> 00:24:41.187
+Follow up. Once Claude has a great result, ask for an even greater one. It will always come up with something, and occasionally it’s brilliant.
+
+97
+00:24:41.427 --> 00:25:00.102
+Watch out for the grind. Honestly, I never succeeded in getting Claude to estimate time well. Instead, I developed a sense of how long something interesting should take, and I learned to sense whether Claude was making what I considered progress on a sensible time scale. The model will grind forever if you let it.
+
+98
+00:25:00.552 --> 00:25:15.571
+It also bears mentioning that these projects were compute- and token-intensive. Part of the expense, for me, came from trying to build tools that would be useful beyond any one project: connecting fields, and assembling a package that others could pick up.
+
+99
+00:25:15.691 --> 00:25:33.929
+I hope the BootLoops harness can be used broadly across quantitative science without each user having to rebuild everything from scratch. Agentic A I makes it easier to connect ideas and share codebases, and if we learn to use that strength, the community can move faster than any individual could alone.
+
+100
+00:25:34.729 --> 00:25:35.406
+Outlook.
+
+101
+00:25:35.856 --> 00:25:53.344
+No matter how smart the models become, most scientific progress comes from real-world data that has to be acquired, understood, and checked, with each round informing the next question. A I can sit inside that loop, and that is genuinely valuable, but it does not collapse the loop to a point.
+
+102
+00:25:53.464 --> 00:26:03.426
+Understanding is built up in increments, each one resting on the last; a cure for cancer or a fusion reactor will arrive that way too, not from a single prompt.
+
+103
+00:26:03.876 --> 00:26:20.884
+The focus on Millennium Prize Problems and Big Science may be, as Claude likes to say, a “footgun”: a feature that makes it easy to shoot yourself in the foot. Here, the risk is that unrealistic expectations may discourage productive uses that are already possible.
+
+104
+00:26:21.004 --> 00:26:40.482
+Real progress will probably come the way it always has: by strengthening the foundations of scientific research and constructing increasingly sophisticated applications upon them. It will be sped up dramatically, as illustrated by the work I’ve described, but I don’t see any evidence or need to revisit the scientific method.
+
+105
+00:26:40.932 --> 00:27:02.870
+A term I like that is sometimes used to discuss A I science is the convex hull. Take a shape and connect every pair of its points with a straight line; the new shape you get is the smallest convex shape that contains the original: its convex hull. Science is now very disjointed: there are jagged frontiers everywhere. Biology pokes out one way, math another.
+
+106
+00:27:02.990 --> 00:27:17.553
+One lab might spend 20 years learning everything about a single set of genes with a single method they have mastered, while neighboring genes and alternative methods lie fallow. A harness like BootLoops can connect these points, filling in the hull.
+
+107
+00:27:18.003 --> 00:27:38.885
+Figure 3: Human knowledge today is jagged, particular scientists and subfields have pushed knowledge more in some directions than others. The middle regions, where humans could reach but no particular human has, are ideal for A I. Particular software packages like ACTUARY or NUMKIN within the BootLoops package help fill in the gaps.
+
+108
+00:27:39.335 --> 00:27:58.386
+Things are changing fast, and it’s practically impossible to plan ahead. Why apply for a grant for three years of funding to compute a problem an A I model might end up solving overnight? I still don’t know how to train graduate students. Since I published my piece on vibe physics, that feeling has only become more acute.
+
+109
+00:27:58.506 --> 00:28:16.074
+In some fields, such as computer science, the disruption is downright scary. Two years ago, I would have recommended a course on “Python for engineers” as essential. Today, it’s unnecessary. I have spent a lot of time on machine learning, building models to study various physical phenomena.
+
+110
+00:28:16.194 --> 00:28:28.770
+Now, all of those models can be built by A I, so even learning the ins and outs of neural networks is of limited utility. Just tell Claude to find the state-of-the-art M L approach and it will do it for you.
+
+111
+00:28:29.220 --> 00:28:47.908
+I think BootLoops shows that if you find the right problem, much of the technical work of solving it can now be automated. That is liberating, in a way. But humans are still needed for the conceptual part. Because of that, I hope we can figure out a way to give humans the credit they deserve even for Claude-shaped science.
+
+112
+00:28:48.028 --> 00:29:04.062
+Curiously, A I runs the risk of inverting the usual business model, where the person at the top gets the credit and the people working on the problem hands-on get none. I don’t know how this resolves, but it won’t be resolved by pretending the human contribution was the typing.
+
+113
+00:29:04.512 --> 00:29:23.156
+So where does this leave Joe Scientist? If you ask me, in a great place, actually. We now have tools at our fingertips that can make progress on seemingly intractable problems with lightning speed. I can foresee huge growth on the horizon in data-rich-but-theory-starved fields like systems biology.
+
+114
+00:29:23.276 --> 00:29:41.900
+I can also easily imagine human minds being freed from the tedium of calculation and analysis to do the deeper intellectual work of direction and guidance. And most of all, I anticipate scientists branching out from their home turf to find synergy and collaboration, as I have with BootLoops.
+
+115
+00:29:42.020 --> 00:29:49.418
+The most refreshing outcome of focusing on Claude-shaped science is that it helps us appreciate what human-shaped science looks like.
+
+116
+00:29:49.868 --> 00:30:02.035
+Details of the BootLoops harness and the science it has enabled can be found at www.bootloops.ai. The BootLoops harness is on GitHub for anyone to use and contribute to.
+
+117
+00:30:02.835 --> 00:30:03.812
+Acknowledgements.
+
+118
+00:30:04.262 --> 00:30:26.435
+The science I produced with Claude and BootLoops would not have been anywhere near as interesting without the guidance and collaboration from my fellow humans: Isaiah Andrews, Nima Arkani-Hamed, Michael Desai, Scott Edwards, Noam Elkies, Cecilia Garraffo, Matthew Gordon, Thomas Grimm, Martin Hemberg, Mikhail Ivanov, David Johnston, Gary King, Paul Lewis, Brendan Meade,
+
+119
+00:30:26.555 --> 00:30:35.387
+Amara McCune, Joe Pater, Subhabrata Sen, Siddharth Mishra-Sharma, James O’Dwyer, Kevin Ryan, Jesse Shapiro, and Xiaoyuan Zhang.
+
+120
+00:30:36.187 --> 00:30:36.985
+Disclosure.
+
+121
+00:30:37.435 --> 00:30:48.118
+During this project, Schwartz has been working as a visiting researcher at Anthropic. BootLoops is not an Anthropic project; it is owned and maintained by Matthew Schwartz.
+
+122
+00:30:49.118 --> 00:31:04.881
+That was Claude-shaped science, from Anthropic Research, published October 1, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

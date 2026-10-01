@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.652
+This is Anthropic, Read Aloud. Today: Customize Claude Code with mods.
+
+2
+00:00:07.952 --> 00:00:09.928
+Customize Claude Code with mods.
+
+3
+00:00:10.378 --> 00:00:25.301
+Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom U I, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.
+
+4
+00:00:25.751 --> 00:00:29.676
+From Claude Blog, published October 1, 2026.
+
+5
+00:00:30.676 --> 00:00:51.664
+Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new U I, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin.
+
+6
+00:00:51.784 --> 00:00:54.910
+They work in the Claude Code C L I and desktop app.
+
+7
+00:00:55.360 --> 00:01:07.442
+Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only install mods from sources you trust, the same way you'd install any code on your computer.
+
+8
+00:01:07.892 --> 00:01:11.613
+To see what mods can do, read our guide to building your first mod.
+
+9
+00:01:12.413 --> 00:01:13.635
+Why we built mods.
+
+10
+00:01:14.085 --> 00:01:28.446
+Developers have asked for more control over how Claude Code works, without waiting for us to ship a feature. Hooks helped give users some of this control, but hooks can't rewrite events, draw new U I, or replace features. Mods can.
+
+11
+00:01:28.896 --> 00:01:40.756
+We want Claude Code to feel like yours, so you can shape it to the way you work. We shared the design for mods on GitHub before launch to get feedback from developers. Thank you to everyone who weighed in.
+
+12
+00:01:41.556 --> 00:01:42.591
+How mods work.
+
+13
+00:01:43.041 --> 00:02:05.241
+Each time Claude Code does something, it emits an event. Examples include calling a tool, asking for permission, and drawing part of the screen. A mod is a function that hooks into one of these events. A mod can run before the event, after it, or instead of it. It can also wrap the event, running code both before and after. With one function, a mod can:
+
+14
+00:02:05.691 --> 00:02:07.927
+Rewrite a prompt before it reaches the model.
+
+15
+00:02:08.167 --> 00:02:10.529
+Block, rewrite, or retry a tool call.
+
+16
+00:02:10.769 --> 00:02:12.969
+Approve or deny a permission request.
+
+17
+00:02:13.209 --> 00:02:16.386
+Redact secrets from tool output before Claude reads it.
+
+18
+00:02:16.836 --> 00:02:35.326
+A mod can also change what you see. It can edit or replace part of the interface Claude Code draws, like a tool result or a question from Claude. It can add buttons and inputs, and other mods can respond when you press them. Today, a mod can target the terminal, the desktop app, or both.
+
+19
+00:02:35.776 --> 00:02:46.862
+When several mods hook the same event, they run in the order they load. The first mod to load sees the event first and the result last. This lets you stack mods from different authors.
+
+20
+00:02:47.312 --> 00:02:56.730
+You can also use Claude Code to mod Claude Code. Ask Claude to create a mod, and it can write the TypeScript, install it, and hot reload it in your session.
+
+21
+00:02:57.530 --> 00:02:59.399
+Swap built-in features for your own.
+
+22
+00:02:59.849 --> 00:03:20.133
+Some built-in features of Claude Code now ship as mods. For example, the built-in /diff feature is now a mod, so you can turn it off (in /plugin ) or replace it with your own version. We plan to move more built-in features to mods over time, so you can pare Claude Code down to a small core and add back only what you want.
+
+23
+00:03:20.933 --> 00:03:22.884
+Mods for teams and enterprises.
+
+24
+00:03:23.334 --> 00:03:42.555
+Mods ship inside plugins, so your existing plugin controls apply. Admins can allow or block plugin marketplaces. On Team and Enterprise plans, an owner sets this in the admin console. On Claude A P I and third-party A P I plans, admins push managed settings to users' machines.
+
+25
+00:03:43.005 --> 00:04:04.222
+On Team and Enterprise plans, and on any machine with managed settings, a built-in mod called sec-default (“security default”) loads first. It stops mods that users install from doing risky things, like overriding your permission deny rules. You can view the source code to see what it restricts. Admins can load their own mods first instead.
+
+26
+00:04:04.342 --> 00:04:07.857
+If you do, add sec-default to your list to keep its restrictions.
+
+27
+00:04:08.307 --> 00:04:13.382
+Teams can also use mods to build their own controls and functionality. For example:
+
+28
+00:04:13.832 --> 00:04:22.932
+CI/CD status: a mod can show your pipeline’s status in a pane beside the conversation, and update it as builds pass or fail.
+
+29
+00:04:23.172 --> 00:04:29.610
+Production safeguards: a mod can require confirmation before any command touches production config.
+
+30
+00:04:29.850 --> 00:04:35.195
+Audit logging: a mod that loads first can record every call that every other mod makes.
+
+31
+00:04:35.995 --> 00:04:37.007
+Getting started.
+
+32
+00:04:37.457 --> 00:04:53.030
+Mods are available today in the Claude Code C L I and desktop app. Install plugins that include mods from the Claude directory or by running /plugin in the C L I. To share a mod, package it in a plugin and submit it to the directory.
+
+33
+00:04:53.480 --> 00:04:57.971
+To build your own mods, read our getting started guide or see the documentation.
+
+34
+00:04:58.971 --> 00:05:14.906
+That was Customize Claude Code with mods, from Claude Blog, published October 1, 2026. Read the original at claude dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

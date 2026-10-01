@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 290.08,
+   "title": "Claude, take the wheel!"
+  },
+  {
+   "startTime": 621.67,
+   "title": "“I know Kung Fu”"
+  },
+  {
+   "startTime": 1238.15,
+   "title": "The technical details"
+  },
+  {
+   "startTime": 1534.73,
+   "title": "Outlook"
+  },
+  {
+   "startTime": 1802.84,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 1836.19,
+   "title": "Disclosure"
+  },
+  {
+   "startTime": 1849.12,
+   "title": "Outro"
+  }
+ ]
+}

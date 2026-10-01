@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 57.29,
+   "title": "Barclays builds with Claude to better serve customers"
+  },
+  {
+   "startTime": 175.02,
+   "title": "Claude powers knowledge assistance to speed up customer servicing"
+  },
+  {
+   "startTime": 215.27,
+   "title": "Enhancing operational efficiency in Barclays’ Global Markets business"
+  },
+  {
+   "startTime": 256.15,
+   "title": "Scaling A I responsibly"
+  },
+  {
+   "startTime": 313.14,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 340.89,
+   "title": "Outro"
+  }
+ ]
+}
