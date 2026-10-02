@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 20:52:32 +0000</lastBuildDate>
-    <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 19:58:01 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,46 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</title>
+      <itunes:title>News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-02-claude-frontier-academy/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-frontier-academy</guid>
+      <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.
+
+Source: https://www.anthropic.com/news/claude-frontier-academy
+Published October 2, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Partner Network: https://claude.com/blog/four-role-based-claude-certifications
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-02-claude-frontier-academy/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/claude-frontier-academy">https://www.anthropic.com/news/claude-frontier-academy</a><br/><strong>Published:</strong> October 2, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 1,224 words · 10 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://claude.com/blog/four-role-based-claude-certifications">Claude Partner Network</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-02-claude-frontier-academy/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-02-claude-frontier-academy.mp3" length="5647393" type="audio/mpeg"/>
+      <itunes:duration>607</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-02-claude-frontier-academy.jpg?v=29875c8a"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-02-claude-frontier-academy.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-02-claude-frontier-academy.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.</itunes:subtitle>
+      <itunes:summary>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.
+
+Source: https://www.anthropic.com/news/claude-frontier-academy
+Published October 2, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Claude Partner Network: https://claude.com/blog/four-role-based-claude-certifications
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-02-claude-frontier-academy/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>70</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-02-claude-frontier-academy.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-02-claude-frontier-academy.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Claude-shaped science</title>
       <itunes:title>Research: Claude-shaped science</itunes:title>
