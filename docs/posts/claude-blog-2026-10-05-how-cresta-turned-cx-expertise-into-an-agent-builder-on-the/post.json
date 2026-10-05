@@ -1,0 +1,337 @@
+{
+ "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+ "source": "claude-blog",
+ "slug": "claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the",
+ "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+ "subtitle": "See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.",
+ "date": "2026-10-05T16:00:00+00:00",
+ "authors": [],
+ "category": "",
+ "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3abb461da4f99937643c6_og_how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk.jpg",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "text": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents.",
+   "html": "<em>In our series, </em><strong><em>How startups build with Claude</em></strong><em>, we look at the decisions behind AI products. Here, we explore how </em><a href=\"https://cresta.com/\"><em>Cresta</em></a><em> brought its expertise building AI-native customer experience into </em><a href=\"https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development\"><em>Conductor</em></a><em>, an agent that helps developers build and improve other agents.</em>"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "The quick pitch"
+    ],
+    [
+     "Name",
+     "Cresta"
+    ],
+    [
+     "Founded",
+     "2017"
+    ],
+    [
+     "CEO",
+     "Ping Wu"
+    ],
+    [
+     "Growth",
+     "$270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences"
+    ]
+   ],
+   "caption": "",
+   "html": "<table><tr><td>The quick pitch</td></tr><tr><td>Name</td><td>Cresta</td></tr><tr><td>Founded</td><td>2017</td></tr><tr><td>CEO</td><td>Ping Wu</td></tr><tr><td>Growth</td><td>$270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences</td></tr></table>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Building enterprise AI agents for customer experience use cases requires understanding the context embedded across a wide range of customer interactions. For example, customers may:",
+   "html": "Building enterprise AI agents for customer experience use cases requires understanding the context embedded across a wide range of customer interactions. For example, customers may:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Ask for a refund without saying which purchase they mean,",
+     "html": "Ask for a refund without saying which purchase they mean, "
+    },
+    {
+     "text": "Report a billing problem and a login issue in the same message, or",
+     "html": "Report a billing problem and a login issue in the same message, or "
+    },
+    {
+     "text": "Request a refund after the return window has closed.",
+     "html": "Request a refund after the return window has closed. "
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "To respond correctly, the agent may need to check what the customer bought, the refund policy, their account history, or the payment status.",
+   "html": "To respond correctly, the agent may need to check what the customer bought, the refund policy, their account history, or the payment status."
+  },
+  {
+   "type": "paragraph",
+   "text": "Cresta sees these interactions at volume. Its platform powers customer experience, AI agents that handle conversations on their own, provide real-time guidance for the human agents working alongside them, and surface conversation intelligence that shows the business where to improve.",
+   "html": "Cresta sees these interactions at volume. Its platform powers customer experience, AI agents that handle conversations on their own, provide real-time guidance for the human agents working alongside them, and surface conversation intelligence that shows the business where to improve. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Building and maintaining customer experience agents requires organizations to make key decisions on operating requirements: what the agent needs to know, which systems it must access, and where its behavior should be flexible or deterministic. Cresta wanted to make that judgment available to more teams without each one starting from scratch.",
+   "html": "Building and maintaining customer experience agents requires organizations to make key decisions on operating requirements: what the agent needs to know, which systems it must access, and where its behavior should be flexible or deterministic. Cresta wanted to make that judgment available to more teams without each one starting from scratch. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor is the result: a natural language agent builder that helps teams turn complex business context into production-ready agents. Users describe what they want to build, and Conductor guides the work from a grounded blueprint through implementation, evaluation, and optimization.",
+   "html": "Conductor is the result: a natural language agent builder that helps teams turn complex business context into production-ready agents. Users describe what they want to build, and Conductor guides the work from a grounded blueprint through implementation, evaluation, and optimization."
+  },
+  {
+   "type": "paragraph",
+   "text": "Cresta originally built an early version of Conductor using Claude Sonnet and Claude Opus to help internal teams support customer deployments. The open question was whether Cresta could turn that system into a product customers could use to build agents directly within the platform. To carry out open-ended development work, Conductor uses the Claude Agent SDK as a general-purpose harness to gather context, use tools, write and run code, and adapt based on the results.",
+   "html": "Cresta originally built an early version of Conductor using Claude Sonnet and Claude Opus to help internal teams support customer deployments. The open question was whether Cresta could turn that system into a product customers could use to build agents directly <em>within</em> the platform.  To carry out open-ended development work, Conductor uses the Claude Agent SDK as a general-purpose harness to gather context, use tools, write and run code, and adapt based on the results."
+  },
+  {
+   "type": "paragraph",
+   "text": "“We used Claude Code internally as a dev tool because it was very effective at the software development aspects of building an agent,” said Renjie Li, Engineering Lead for Cresta Conductor. “The Claude Agent SDK gave us a way to use that same agentic development harness programmatically. With Conductor, we’ve connected it with Cresta’s deep conversation intelligence, CX expertise, evaluations, and runtime to give users the agent-building experience we wish we’d had from day one.”",
+   "html": "“We used Claude Code internally as a dev tool because it was very effective at the software development aspects of building an agent,” said Renjie Li, Engineering Lead for Cresta Conductor. “The Claude Agent SDK gave us a way to use that same agentic development harness programmatically. With Conductor, we’ve connected it with Cresta’s deep conversation intelligence, CX expertise, evaluations, and runtime to give users the agent-building experience we wish we’d had from day one.”"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cresta reports that in early use cases across Cresta and its partners, Conductor cut initial deployment time roughly in half.",
+   "html": "Cresta reports that in early use cases across Cresta and its partners, Conductor cut initial deployment time roughly in half. "
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3a966e07da0d8501b6945_cresta-conductor-architecture-original-style.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/01.png"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "A meta-agent that helps build the next agent",
+   "html": "<strong>A meta-agent that helps build the next agent</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor is a self-improving meta-agent built on established best practices for CX agent development. As teams build and refine more agents with it, they capture their own proven patterns, workflows, and expert judgment. This creates a knowledge flywheel that makes future development faster and more consistent.",
+   "html": "Conductor is a self-improving meta-agent built on established best practices for CX agent development. As teams build and refine more agents with it, they capture their own proven patterns, workflows, and expert judgment. This creates a knowledge flywheel that makes future development faster and more consistent."
+  },
+  {
+   "type": "paragraph",
+   "text": "After launch, production interactions, workflow outcomes, and feedback become new signals for the next improvement.",
+   "html": "After launch, production interactions, workflow outcomes, and feedback become new signals for the next improvement. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor helps builders turn what they learned from an agent build into a reusable memory artifact, capturing patterns, business rules, and evaluation approaches. They can then share it as skill with the rest of the team, so others can build from the same proven practices.",
+   "html": "Conductor helps builders turn what they learned from an agent build into a reusable memory artifact, capturing patterns, business rules, and evaluation approaches. They can then share it as skill with the rest of the team, so others can build from the same proven practices."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Making the important decisions easier",
+   "html": "<strong>Making the important decisions easier</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Writing the first prompt is only one part of building a useful agent. One of the harder calls is where a conversation should stay flexible and where it needs explicit business rules and controlled tool behavior.",
+   "html": "Writing the first prompt is only one part of building a useful agent. One of the harder calls is where a conversation should stay flexible and where it needs explicit business rules and controlled tool behavior."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"You don't want to go too deterministic, otherwise you create a giant decision tree trying to map out every possible branch… but there are enterprise-critical workflows that you need to make sure work all the time, especially for highly regulated industries with low risk tolerance,\" said Renjie. \"Conductor helps discover and harden those deterministic requirements and the implementation with the flexibility to improve the overall experience.\"",
+   "html": "&quot;You don&#x27;t want to go too deterministic, otherwise you create a giant decision tree trying to map out every possible branch… but there are enterprise-critical workflows that you need to make sure work all the time, especially for highly regulated industries with low risk tolerance,&quot; said Renjie. &quot;Conductor helps discover and harden those deterministic requirements and the implementation with the flexibility to improve the overall experience.&quot;"
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor draws on historical conversations to help teams identify where a human should stay in the loop and where the model can be given room to adapt. Once those boundaries are set, developers still need to test the deterministic pieces against the requirements they're meant to enforce, and revise those tests as the underlying business rules change.",
+   "html": "Conductor draws on historical conversations to help teams identify where a human should stay in the loop and where the model can be given room to adapt. Once those boundaries are set, developers still need to test the deterministic pieces against the requirements they&#x27;re meant to enforce, and revise those tests as the underlying business rules change. "
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How Cresta evaluates Conductor",
+   "html": "<strong>How Cresta evaluates Conductor</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor is measured on how well it builds agents. To that end, Cresta runs Conductor through a set of build tasks:",
+   "html": "Conductor is measured on how well it builds agents. To that end, Cresta runs Conductor through a set of build tasks:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Build a new agent",
+     "html": "Build a new agent"
+    },
+    {
+     "text": "Write a test case for one",
+     "html": "Write a test case for one"
+    },
+    {
+     "text": "Change an agent that already exists",
+     "html": "Change an agent that already exists"
+    },
+    {
+     "text": "Perform root cause analysis",
+     "html": "Perform root cause analysis"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finishing the task is not the only bar. The team also looks at the outcomes, how Conductor got there, and what it used along the way.",
+   "html": "Finishing the task is not the only bar. The team also looks at the outcomes, how Conductor got there, and what it used along the way."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Evaluation",
+     "Question it answers"
+    ],
+    [
+     "Outcome",
+     "Did Conductor produce the requested, usable artifact?"
+    ],
+    [
+     "Execution path",
+     "Did it use the appropriate tools and required context?"
+    ],
+    [
+     "Quality",
+     "How does the result compare with a curated reference?"
+    ],
+    [
+     "Resource use",
+     "How much time and model usage did the task require?"
+    ]
+   ],
+   "caption": "",
+   "html": "<table><tr><td>Evaluation</td><td>Question it answers</td></tr><tr><td>Outcome</td><td>Did Conductor produce the requested, usable artifact?</td></tr><tr><td>Execution path</td><td>Did it use the appropriate tools and required context?</td></tr><tr><td>Quality</td><td>How does the result compare with a curated reference?</td></tr><tr><td>Resource use</td><td>How much time and model usage did the task require?</td></tr></table>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Those same tasks function as a safety net. When a new Claude model is launched or the Conductor framework is updated, Cresta reruns its evaluations. It uses the same tasks and same scoring to identify what improved and what still needs work before anyone commits to the change.",
+   "html": "Those same tasks function as a safety net. When a new Claude model is launched or the Conductor framework is updated, Cresta reruns its evaluations. It uses the same tasks and same scoring to identify what improved and what still needs work before anyone commits to the change."
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3a91f9f5ee36b2b3dcc52_cresta-eval-1-what-we-evaluate.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/02.png"
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3a92f9c523d9a223f3798_cresta-eval-2-how-each-scenario-is-executed.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/03.png"
+  },
+  {
+   "type": "image",
+   "src": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3a9409092cb2380e00bda_cresta-eval-3-how-we-expose-the-run-data.png",
+   "alt": "",
+   "caption": "",
+   "local": "img/04.png"
+  },
+  {
+   "type": "paragraph",
+   "text": "That same evaluation discipline is built into Conductor, which allows its users to check and see if their agents are performing as intended. Conductor turns requirements and edge cases captured during the build phases into tests within its evaluation module.",
+   "html": "That same evaluation discipline is built into Conductor, which allows its users to check and see if their agents are performing as intended. Conductor turns requirements and edge cases captured during the build phases into tests within its evaluation module. "
+  },
+  {
+   "type": "paragraph",
+   "text": "Teams can then monitor the workflows that need to work every time as policies, connected systems, and conversation patterns change. That gives them a practical way to update an agent as the business changes without losing the reliability of the workflows they have already hardened.",
+   "html": "Teams can then monitor the workflows that need to work every time as policies, connected systems, and conversation patterns change. That gives them a practical way to update an agent as the business changes without losing the reliability of the workflows they have already hardened."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Building Conductor on the Claude Agent SDK",
+   "html": "<strong>Building Conductor on the Claude Agent SDK</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cresta designed Conductor as the CX-specific control plane for agent development. It brings together conversation data, domain expertise, and development practices, then governs each agent run through policy, observability, verification, and feedback-driven improvement.",
+   "html": "Cresta designed Conductor as the CX-specific control plane for agent development. It brings together conversation data, domain expertise, and development practices, then governs each agent run through policy, observability, verification, and feedback-driven improvement."
+  },
+  {
+   "type": "paragraph",
+   "text": "The Claude Agent SDK sits beneath Conductor as a general-purpose execution harness. It manages the work of gathering context, calling tools, and writing and running code; Conductor layers Cresta's CX workflows, tools, and domain context on top.",
+   "html": "The Claude Agent SDK sits beneath Conductor as a general-purpose execution harness. It manages the work of gathering context, calling tools, and writing and running code; Conductor layers Cresta&#x27;s CX workflows, tools, and domain context on top."
+  },
+  {
+   "type": "paragraph",
+   "text": "The team evaluated the SDK against the work Conductor needed to perform: tasks with multiple steps, substantial context, and repeated tool use. Its review covered data privacy, tenant architecture, organization-level key distribution, controls, and observability across the implementation.",
+   "html": "The team evaluated the SDK against the work Conductor needed to perform: tasks with multiple steps, substantial context, and repeated tool use. Its review covered data privacy, tenant architecture, organization-level key distribution, controls, and observability across the implementation."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Anthropic gives us a strong, general-purpose foundation for agentic software development. That lets us put our engineering investment where Cresta creates the most durable customer value,\" said Xiangru Chen, VP of Engineering at Cresta.",
+   "html": "&quot;Anthropic gives us a strong, general-purpose foundation for agentic software development. That lets us put our engineering investment where Cresta creates the most durable customer value,&quot; said Xiangru Chen, VP of Engineering at Cresta."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Putting Cresta's engineering expertise directly in customers' hands",
+   "html": "<strong>Putting Cresta&#x27;s engineering expertise directly in customers&#x27; hands</strong>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Conductor started inside Cresta, helping its own forward-deployed team learn which development tasks could become repeatable, where context mattered most, and what builders needed to inspect along the way. Its success in that internal work gave the team confidence to bring the same capabilities to customers and partners.",
+   "html": "Conductor started inside Cresta, helping its own forward-deployed team learn which development tasks could become repeatable, where context mattered most, and what builders needed to inspect along the way. Its success in that internal work gave the team confidence to bring the same capabilities to customers and partners."
+  },
+  {
+   "type": "paragraph",
+   "text": "For any team whose product deploys custom agents faster than its engineers can hand-build them, Cresta's approach is a useful reference point: with agents or meta-agents, the work after the initial build is often the hardest part.",
+   "html": "For any team whose product deploys custom agents faster than its engineers can hand-build them, Cresta&#x27;s approach is a useful reference point: with agents or meta-agents, the work after the initial build is often the hardest part."
+  },
+  {
+   "type": "paragraph",
+   "text": "See how Conductor turns business context into better agent design, implementation, and ongoing improvement.",
+   "html": "See how <a href=\"https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development\">Conductor</a> turns business context into better agent design, implementation, and ongoing improvement."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Best practices from the Cresta team"
+    ],
+    [
+     "Dogfood your products",
+     "Conductor ran as an internal tool first, and only became a product once its output matched what an engineer with deep AI expertise would build."
+    ],
+    [
+     "Focus on your unique advantages",
+     "Cresta drew a hard line between the expertise only they could bring (their conversation data and understanding of customer experience) and what they could take off the shelf from the Agent SDK, and refused to build anything on the wrong side of it."
+    ],
+    [
+     "What parts of your agent need to be deterministic",
+     "Harden the enterprise-critical workflows that can never go wrong and leave the rest flexible, or you won't end up with the interactive agentic experience you want."
+    ],
+    [
+     "Getting to production is the easy part",
+     "The initial build is only about 20% of the effort, the other 80% is the testing, optimization, and continuous improvement that follows, so design your tooling around the iteration loop, not the launch."
+    ]
+   ],
+   "caption": "",
+   "html": "<table><tr><td>Best practices from the Cresta team</td></tr><tr><td>Dogfood your products</td><td>Conductor ran as an internal tool first, and only became a product once its output matched what an engineer with deep AI expertise would build.</td></tr><tr><td>Focus on your unique advantages</td><td>Cresta drew a hard line between the expertise only they could bring (their conversation data and understanding of customer experience) and what they could take off the shelf from the Agent SDK, and refused to build anything on the wrong side of it.</td></tr><tr><td>What parts of your agent need to be deterministic</td><td>Harden the enterprise-critical workflows that can never go wrong and leave the rest flexible, or you won&#x27;t end up with the interactive agentic experience you want.</td></tr><tr><td>Getting to production is the easy part</td><td>The initial build is only about 20% of the effort, the other 80% is the testing, optimization, and continuous improvement that follows, so design your tooling around the iteration loop, not the launch.</td></tr></table>"
+  }
+ ],
+ "links": [
+  {
+   "text": "Cresta",
+   "href": "https://cresta.com/"
+  },
+  {
+   "text": "Conductor",
+   "href": "https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development"
+  }
+ ],
+ "word_count": 1161,
+ "fetched_at": "2026-10-05T21:58:24+00:00"
+}

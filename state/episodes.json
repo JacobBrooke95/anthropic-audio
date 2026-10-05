@@ -4871,6 +4871,14 @@
       "updated": "2026-10-02T19:58:00+00:00",
       "slug": "news-2026-10-02-claude-frontier-academy",
       "episode": 70
+    },
+    "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
+      "first_seen": "2026-10-05T22:11:08+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-05T22:11:08+00:00",
+      "slug": "claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the",
+      "episode": 71
     }
   },
   "episodes": [
@@ -8900,8 +8908,34 @@
       "episode": 70,
       "created": "2026-10-02T19:58:00+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather"
+    },
+    {
+      "slug": "claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the",
+      "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "source": "claude-blog",
+      "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+      "subtitle": "See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.",
+      "date": "2026-10-05T16:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Cresta",
+          "href": "https://cresta.com/"
+        },
+        {
+          "text": "Conductor",
+          "href": "https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development"
+        }
+      ],
+      "word_count": 1161,
+      "duration": 679.57551,
+      "bytes": 6237135,
+      "episode": 71,
+      "created": "2026-10-05T22:11:08+00:00",
+      "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3abb461da4f99937643c6_og_how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk.jpg"
     }
   ],
-  "next_episode": 71,
+  "next_episode": 72,
   "baseline_date": "2026-08-14"
 }

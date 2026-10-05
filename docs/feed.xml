@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 19:58:01 +0000</lastBuildDate>
-    <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2026 22:11:08 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,48 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Claude Blog: How Cresta turned CX expertise into an agent builder on the Claude Agent SDK</title>
+      <itunes:title>Claude Blog: How Cresta turned CX expertise into an agent builder on the Claude Agent SDK</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/</link>
+      <guid isPermaLink="false">https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Source: https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk
+Published October 5, 2026 · Claude Blog
+
+Links referenced in the post:
+• Cresta: https://cresta.com/
+• Conductor: https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk">https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</a><br/><strong>Published:</strong> October 5, 2026 · Claude Blog<br/><strong>Length:</strong> 1,161 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://cresta.com/">Cresta</a></li><li><a href="https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development">Conductor</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.mp3" length="6237135" type="audio/mpeg"/>
+      <itunes:duration>680</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.jpg?v=0675f9e3"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.</itunes:subtitle>
+      <itunes:summary>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Source: https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk
+Published October 5, 2026 · Claude Blog
+
+Links referenced in the post:
+• Cresta: https://cresta.com/
+• Conductor: https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>71</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</title>
       <itunes:title>News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</itunes:title>

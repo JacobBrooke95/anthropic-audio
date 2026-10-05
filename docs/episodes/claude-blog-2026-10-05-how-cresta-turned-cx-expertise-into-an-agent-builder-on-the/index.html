@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How Cresta turned CX expertise into an agent builder on the Claude Agent SDK — Anthropic, Read Aloud</title>
+<meta name="description" content="See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.">
+<meta property="og:title" content="How Cresta turned CX expertise into an agent builder on the Claude Agent SDK — Anthropic, Read Aloud">
+<meta property="og:description" content="See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.">
+<meta property="og:image" content="https://jacobbrooke95.github.io/anthropic-audio/art/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (podcast)" href="https://jacobbrooke95.github.io/anthropic-audio/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Anthropic, Read Aloud (full-text posts)" href="https://jacobbrooke95.github.io/anthropic-audio/posts.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<link rel="icon" type="image/png" sizes="64x64" href="../../favicon.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+</head><body>
+<nav class="topnav" aria-label="Site"><div class="wrap">
+<a class="brand" href="../../"><img src="../../cover.jpg" alt="">Anthropic, Read Aloud</a>
+<a class="back" href="../../">← All episodes</a>
+</div></nav>
+<main class="wrap">
+<article>
+<header class="ep-head">
+<img class="ep-art" src="../../art/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.jpg" alt="Episode artwork for “How Cresta turned CX expertise into an agent builder on the Claude Agent SDK”">
+<div class="ep-info">
+<div class="row"><span class="badge claude-blog">Claude Blog</span><span class="meta">Episode 71 · October 5, 2026 · 1,161 words</span></div>
+<h1 class="ep-title">How Cresta turned CX expertise into an agent builder on the Claude Agent SDK</h1>
+<p class="ep-sub">See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.</p>
+<div class="player" id="player" data-slug="claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the" data-dur="679.6">
+<p class="plabel"><span>Listen to this episode</span><span class="dur">11:20</span></p>
+<audio controls preload="none" src="../../audio/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.mp3"></audio>
+<div class="pui" hidden>
+<div class="p-main">
+<button type="button" class="p-play" aria-label="Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+<div class="p-right">
+<div class="p-bar" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="680" aria-valuenow="0" aria-valuetext="0:00">
+<div class="p-buf"></div><div class="p-fill"></div><div class="p-knob"></div>
+</div>
+<div class="p-times"><span class="p-cur">0:00</span><span class="p-chap"></span><span class="p-dur">11:20</span></div>
+</div>
+</div>
+<div class="p-ctl">
+<button type="button" data-skip="-30" title="Back 30 seconds" aria-label="Back 30 seconds">−30s</button>
+<button type="button" data-skip="-15" title="Back 15 seconds" aria-label="Back 15 seconds">−15s</button>
+<button type="button" class="p-rate" title="Playback speed" aria-label="Playback speed">1×</button>
+<button type="button" data-skip="15" title="Forward 15 seconds" aria-label="Forward 15 seconds">+15s</button>
+<button type="button" data-skip="30" title="Forward 30 seconds" aria-label="Forward 30 seconds">+30s</button>
+</div>
+<p class="p-resume" hidden>Resumed at <span class="p-resume-t"></span> — <button type="button" class="p-restart">start over</button></p>
+</div>
+</div>
+<nav class="chapters" id="chapters" hidden aria-label="Chapters" data-src="../../chapters/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.json"></nav>
+<div class="actions">
+<a class="chip" href="../../audio/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.mp3" download>Download MP3</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.vtt">Transcript (VTT)</a>
+<a class="chip" href="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.txt">Transcript (text)</a>
+<a class="chip" href="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/post.md">Markdown</a>
+<a class="chip" href="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/post.json">JSON</a>
+<a class="chip" href="https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk">Original post ↗</a>
+</div>
+</div>
+</header>
+<details class="panel notes">
+<summary>Show notes &amp; every link in the post</summary>
+<div class="inner"><p>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.</p><p><strong>Source:</strong> <a href="https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk">https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</a><br/><strong>Published:</strong> October 5, 2026 · Claude Blog<br/><strong>Length:</strong> 1,161 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://cresta.com/">Cresta</a></li><li><a href="https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development">Conductor</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p></div>
+</details>
+<details class="panel" id="transcript" data-vtt="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.vtt" data-txt="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.txt">
+<summary>Transcript</summary>
+<div class="inner"><p class="meta">Click any line to jump the audio there. Also available as <a href="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.vtt">WebVTT (timed)</a> or <a href="../../transcripts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the.txt">plain text</a>.</p>
+<div class="tr-body"><pre class="tr-out"></pre></div>
+<noscript><p class="meta">JavaScript is off — read the transcript via the links above.</p></noscript></div>
+</details>
+<details class="panel" open>
+<summary>Full text of the post</summary>
+<div class="inner"><article class="post">
+<p class="meta">Copied from <a href="https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk">https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</a> on 2026-10-05 for the audio edition. © Anthropic, PBC.</p>
+<p><em>In our series, </em><strong><em>How startups build with Claude</em></strong><em>, we look at the decisions behind AI products. Here, we explore how </em><a href="https://cresta.com/"><em>Cresta</em></a><em> brought its expertise building AI-native customer experience into </em><a href="https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development"><em>Conductor</em></a><em>, an agent that helps developers build and improve other agents.</em></p>
+<figure><table><tr><td>The quick pitch</td></tr><tr><td>Name</td><td>Cresta</td></tr><tr><td>Founded</td><td>2017</td></tr><tr><td>CEO</td><td>Ping Wu</td></tr><tr><td>Growth</td><td>$270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences</td></tr></table></figure>
+<p>Building enterprise AI agents for customer experience use cases requires understanding the context embedded across a wide range of customer interactions. For example, customers may:</p>
+<ul><li>Ask for a refund without saying which purchase they mean, </li><li>Report a billing problem and a login issue in the same message, or </li><li>Request a refund after the return window has closed. </li></ul>
+<p>To respond correctly, the agent may need to check what the customer bought, the refund policy, their account history, or the payment status.</p>
+<p>Cresta sees these interactions at volume. Its platform powers customer experience, AI agents that handle conversations on their own, provide real-time guidance for the human agents working alongside them, and surface conversation intelligence that shows the business where to improve. </p>
+<p>Building and maintaining customer experience agents requires organizations to make key decisions on operating requirements: what the agent needs to know, which systems it must access, and where its behavior should be flexible or deterministic. Cresta wanted to make that judgment available to more teams without each one starting from scratch. </p>
+<p>Conductor is the result: a natural language agent builder that helps teams turn complex business context into production-ready agents. Users describe what they want to build, and Conductor guides the work from a grounded blueprint through implementation, evaluation, and optimization.</p>
+<p>Cresta originally built an early version of Conductor using Claude Sonnet and Claude Opus to help internal teams support customer deployments. The open question was whether Cresta could turn that system into a product customers could use to build agents directly <em>within</em> the platform.  To carry out open-ended development work, Conductor uses the Claude Agent SDK as a general-purpose harness to gather context, use tools, write and run code, and adapt based on the results.</p>
+<p>“We used Claude Code internally as a dev tool because it was very effective at the software development aspects of building an agent,” said Renjie Li, Engineering Lead for Cresta Conductor. “The Claude Agent SDK gave us a way to use that same agentic development harness programmatically. With Conductor, we’ve connected it with Cresta’s deep conversation intelligence, CX expertise, evaluations, and runtime to give users the agent-building experience we wish we’d had from day one.”</p>
+<p>Cresta reports that in early use cases across Cresta and its partners, Conductor cut initial deployment time roughly in half. </p>
+<figure><img src="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/img/01.png" alt="" loading="lazy"></figure>
+<h2><strong>A meta-agent that helps build the next agent</strong></h2>
+<p>Conductor is a self-improving meta-agent built on established best practices for CX agent development. As teams build and refine more agents with it, they capture their own proven patterns, workflows, and expert judgment. This creates a knowledge flywheel that makes future development faster and more consistent.</p>
+<p>After launch, production interactions, workflow outcomes, and feedback become new signals for the next improvement. </p>
+<p>Conductor helps builders turn what they learned from an agent build into a reusable memory artifact, capturing patterns, business rules, and evaluation approaches. They can then share it as skill with the rest of the team, so others can build from the same proven practices.</p>
+<h3><strong>Making the important decisions easier</strong></h3>
+<p>Writing the first prompt is only one part of building a useful agent. One of the harder calls is where a conversation should stay flexible and where it needs explicit business rules and controlled tool behavior.</p>
+<p>&quot;You don&#x27;t want to go too deterministic, otherwise you create a giant decision tree trying to map out every possible branch… but there are enterprise-critical workflows that you need to make sure work all the time, especially for highly regulated industries with low risk tolerance,&quot; said Renjie. &quot;Conductor helps discover and harden those deterministic requirements and the implementation with the flexibility to improve the overall experience.&quot;</p>
+<p>Conductor draws on historical conversations to help teams identify where a human should stay in the loop and where the model can be given room to adapt. Once those boundaries are set, developers still need to test the deterministic pieces against the requirements they&#x27;re meant to enforce, and revise those tests as the underlying business rules change. </p>
+<h2><strong>How Cresta evaluates Conductor</strong></h2>
+<p>Conductor is measured on how well it builds agents. To that end, Cresta runs Conductor through a set of build tasks:</p>
+<ul><li>Build a new agent</li><li>Write a test case for one</li><li>Change an agent that already exists</li><li>Perform root cause analysis</li></ul>
+<p>Finishing the task is not the only bar. The team also looks at the outcomes, how Conductor got there, and what it used along the way.</p>
+<figure><table><tr><td>Evaluation</td><td>Question it answers</td></tr><tr><td>Outcome</td><td>Did Conductor produce the requested, usable artifact?</td></tr><tr><td>Execution path</td><td>Did it use the appropriate tools and required context?</td></tr><tr><td>Quality</td><td>How does the result compare with a curated reference?</td></tr><tr><td>Resource use</td><td>How much time and model usage did the task require?</td></tr></table></figure>
+<p>Those same tasks function as a safety net. When a new Claude model is launched or the Conductor framework is updated, Cresta reruns its evaluations. It uses the same tasks and same scoring to identify what improved and what still needs work before anyone commits to the change.</p>
+<figure><img src="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/img/02.png" alt="" loading="lazy"></figure>
+<figure><img src="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/img/03.png" alt="" loading="lazy"></figure>
+<figure><img src="../../posts/claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the/img/04.png" alt="" loading="lazy"></figure>
+<p>That same evaluation discipline is built into Conductor, which allows its users to check and see if their agents are performing as intended. Conductor turns requirements and edge cases captured during the build phases into tests within its evaluation module. </p>
+<p>Teams can then monitor the workflows that need to work every time as policies, connected systems, and conversation patterns change. That gives them a practical way to update an agent as the business changes without losing the reliability of the workflows they have already hardened.</p>
+<h2><strong>Building Conductor on the Claude Agent SDK</strong></h2>
+<p>Cresta designed Conductor as the CX-specific control plane for agent development. It brings together conversation data, domain expertise, and development practices, then governs each agent run through policy, observability, verification, and feedback-driven improvement.</p>
+<p>The Claude Agent SDK sits beneath Conductor as a general-purpose execution harness. It manages the work of gathering context, calling tools, and writing and running code; Conductor layers Cresta&#x27;s CX workflows, tools, and domain context on top.</p>
+<p>The team evaluated the SDK against the work Conductor needed to perform: tasks with multiple steps, substantial context, and repeated tool use. Its review covered data privacy, tenant architecture, organization-level key distribution, controls, and observability across the implementation.</p>
+<p>&quot;Anthropic gives us a strong, general-purpose foundation for agentic software development. That lets us put our engineering investment where Cresta creates the most durable customer value,&quot; said Xiangru Chen, VP of Engineering at Cresta.</p>
+<h2><strong>Putting Cresta&#x27;s engineering expertise directly in customers&#x27; hands</strong></h2>
+<p>Conductor started inside Cresta, helping its own forward-deployed team learn which development tasks could become repeatable, where context mattered most, and what builders needed to inspect along the way. Its success in that internal work gave the team confidence to bring the same capabilities to customers and partners.</p>
+<p>For any team whose product deploys custom agents faster than its engineers can hand-build them, Cresta&#x27;s approach is a useful reference point: with agents or meta-agents, the work after the initial build is often the hardest part.</p>
+<p>See how <a href="https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development">Conductor</a> turns business context into better agent design, implementation, and ongoing improvement.</p>
+<figure><table><tr><td>Best practices from the Cresta team</td></tr><tr><td>Dogfood your products</td><td>Conductor ran as an internal tool first, and only became a product once its output matched what an engineer with deep AI expertise would build.</td></tr><tr><td>Focus on your unique advantages</td><td>Cresta drew a hard line between the expertise only they could bring (their conversation data and understanding of customer experience) and what they could take off the shelf from the Agent SDK, and refused to build anything on the wrong side of it.</td></tr><tr><td>What parts of your agent need to be deterministic</td><td>Harden the enterprise-critical workflows that can never go wrong and leave the rest flexible, or you won&#x27;t end up with the interactive agentic experience you want.</td></tr><tr><td>Getting to production is the easy part</td><td>The initial build is only about 20% of the effort, the other 80% is the testing, optimization, and continuous improvement that follows, so design your tooling around the iteration loop, not the launch.</td></tr></table></figure>
+</article></div>
+</details>
+</article>
+<script src="../../player.js" defer></script></main>
+<footer><div class="wrap">Unofficial. Post content © Anthropic, PBC — copied here for the audio edition with links back to the originals. Audio generated automatically with Kokoro TTS. Not affiliated with or endorsed by Anthropic. <a href="https://github.com/JacobBrooke95/anthropic-audio">Source &amp; pipeline on GitHub</a>.</div></footer>
+</body></html>

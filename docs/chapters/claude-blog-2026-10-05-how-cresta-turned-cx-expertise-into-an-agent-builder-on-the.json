@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 239.49,
+   "title": "A meta-agent that helps build the next agent"
+  },
+  {
+   "startTime": 287.66,
+   "title": "Making the important decisions easier"
+  },
+  {
+   "startTime": 352.27,
+   "title": "How Cresta evaluates Conductor"
+  },
+  {
+   "startTime": 463.48,
+   "title": "Building Conductor on the Claude Agent S D K"
+  },
+  {
+   "startTime": 538.3,
+   "title": "Putting Cresta's engineering expertise directly in customers' hands"
+  },
+  {
+   "startTime": 656.08,
+   "title": "Outro"
+  }
+ ]
+}
