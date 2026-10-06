@@ -1,0 +1,201 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.333
+This is Anthropic, Read Aloud. Today: Expanding the Cyber Verification Program.
+
+2
+00:00:08.633 --> 00:00:11.036
+Expanding the Cyber Verification Program.
+
+3
+00:00:11.486 --> 00:00:15.938
+From Anthropic Newsroom, published October 6, 2026.
+
+4
+00:00:16.938 --> 00:00:38.403
+We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work.
+
+5
+00:00:38.523 --> 00:00:52.530
+Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can apply here.
+
+6
+00:00:52.980 --> 00:01:16.344
+Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it. For this reason, our generally available models, such as Claude Opus 5.5, Claude Fable 5.1, and Claude Sonnet 5.5, have conservative cyber safeguards that block most cyber work.
+
+7
+00:01:16.464 --> 00:01:26.675
+This is intended to limit the harmful activities malicious actors can carry out using our models, while we continue to work to reduce false positives for secure coding.
+
+8
+00:01:27.125 --> 00:01:40.803
+But defenders also need access to the best tools and most powerful capabilities to secure their systems. For the past six months, we’ve enabled trusted access through two programs: Project Glasswing and the CVP.
+
+9
+00:01:40.923 --> 00:01:54.086
+The former gave a group of organizations securing the most critical software access to Claude Mythos; the latter gave vetted security teams access to reduced safeguards on Claude Opus and Claude Sonnet models.
+
+10
+00:01:54.536 --> 00:02:04.873
+Now, we’re integrating these programs into one expanded offering, designed to give more security organizations access to the capabilities they need to protect their systems.
+
+11
+00:02:05.673 --> 00:02:06.818
+New access tiers.
+
+12
+00:02:07.268 --> 00:02:19.663
+The updated access tiers make specific model capabilities available to security professionals based on the scope of their cyber work. Each has different verification requirements and security controls.
+
+13
+00:02:20.113 --> 00:02:31.526
+Defense Access is for defensive work, including security operations center and incident response tasks, reverse-engineering malware, and analyzing and validating vulnerabilities.
+
+14
+00:02:31.646 --> 00:02:52.638
+Examples of qualifying organizations include security teams at companies, nonprofits, universities, and government bodies who are defending systems they own or maintain; operators of critical infrastructure of any size, such as regional hospitals or municipal utilities; smaller security firms; open-source maintainers;
+
+15
+00:02:52.758 --> 00:02:57.123
+and individual researchers with a track record of reported vulnerabilities.
+
+16
+00:02:57.573 --> 00:03:07.208
+We expect many organizations conducting defensive cybersecurity work to qualify for this tier. We aim to respond to applications within a few days.
+
+17
+00:03:07.658 --> 00:03:23.437
+Red Team Access adds authorized penetration testing and red-teaming to the defensive uses above. Examples of qualifying organizations include in-house red teams, government red teams, and security and penetration testing firms.
+
+18
+00:03:23.557 --> 00:03:46.853
+Organizations in this tier can only perform adversarial testing against systems they are authorized to test, including IT systems in critical industries. Users will still experience real-time blocks on actions that could cause physical harm or mass disruption, such as deploying ransomware, damaging physical systems, or pen testing high-risk safety systems.
+
+19
+00:03:47.303 --> 00:04:09.006
+Given the increased eligibility requirements and security controls, we expect applications in this tier to take a few weeks to review. Qualifying organizations will be enrolled in the Defense Access tier while we review their Red Team Access applications. Currently, this tier is for organizations only; individual researchers are not eligible.
+
+20
+00:04:09.456 --> 00:04:31.024
+Specialized Access, which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks.
+
+21
+00:04:31.474 --> 00:04:45.157
+For this tier, we currently review every organization in depth in collaboration with the U S government. Existing members of Project Glasswing will transition to this tier and do not require reapproval for current models.
+
+22
+00:04:45.607 --> 00:04:56.888
+Our generally available models can continue to be used for tasks such as code review, patching known issues, vulnerability finding in owned source code, and triage of security alerts.
+
+23
+00:04:57.338 --> 00:05:20.796
+Data retention is required for organizations enrolled in the program so that we can monitor for cyber misuse. Once Enterprise Frontier Safeguards (EFS), a new solution that combines the privacy of zero data retention with robust safeguards, is available later this fall, eligible organizations will be able to store data in cloud infrastructure they control.
+
+24
+00:05:20.916 --> 00:05:38.146
+Until EFS is available, organizations with access to Claude Fable 5.1 or Claude Mythos 5.1 with zero data retention can also use CVP with zero data retention. To register interest in EFS, fill out this form.
+
+25
+00:05:38.596 --> 00:05:46.913
+Below, we share an overview of what’s available at each CVP access level, as well as requirements for security and privacy controls:
+
+26
+00:05:47.363 --> 00:05:51.182
+Figure 1: Overview of the Cyber Verification Program tiers.
+
+27
+00:05:51.982 --> 00:05:53.881
+Testing the efficacy of our tiers.
+
+28
+00:05:54.331 --> 00:06:13.244
+To assess the efficacy of our CVP protections, we ran Claude Opus 5.5 through CyScenarioBench, an evaluation that measures whether models can plan and execute multi-stage cyber operations under realistic constraints, with safeguards tuned for our different CVP tiers.
+
+29
+00:06:13.364 --> 00:06:31.028
+Because this evaluation involves complex, interactive offensive scenarios, we would expect Claude to experience significant blocks both on the generally available model and in the Defense Access tier, while experiencing no blocks in the Red Team Access and Specialized Access tiers.
+
+30
+00:06:31.478 --> 00:06:37.778
+Across five attempts at each of the 10 CyScenarioBench challenges in each access tier, we found that:
+
+31
+00:06:38.228 --> 00:06:42.475
+Without CVP access, every task was blocked on the first prompt.
+
+32
+00:06:42.715 --> 00:06:51.381
+In the Defense Access tier, 46 of the 50 trials were blocked at some point in the challenge, while the remaining four tasks succeeded; and.
+
+33
+00:06:51.621 --> 00:07:10.988
+In the Red Team Access tier, no blocks occurred, and Claude Opus 5.5 successfully completed 34 of the 50 tasks, effectively equivalent to the model’s 67.6 percent success rate on this evaluation with no safeguards applied (representative of Specialized Access).
+
+34
+00:07:11.438 --> 00:07:27.851
+These evaluations give us confidence that we can make advanced cyber capabilities safely available to a broader set of defenders, expanding the defensive efforts we began with Project Glasswing. We will continue to refine our tier-based classifiers over time.
+
+35
+00:07:28.301 --> 00:07:49.097
+Figure 2: On CyScenarioBench, our safeguards blocked 46 of 50 tasks on Claude Opus 5.5 in the Defense Access tier, while the Red Team Access tier on Claude Opus 5.5 did not block any tasks, and completed 34 of 50, the same completion rate as when no safeguards are applied.
+
+36
+00:07:49.897 --> 00:07:51.677
+Giving defenders the advantage.
+
+37
+00:07:52.127 --> 00:08:12.650
+Through Project Glasswing, we found that Claude Mythos models significantly increased the rate at which organizations were able to identify vulnerabilities in their systems. Through the program, our partners uncovered at least 129000 verified software vulnerabilities between April and July 2026.
+
+38
+00:08:12.770 --> 00:08:37.239
+And through our own open-source scanning efforts, we found an additional 5500 verified software vulnerabilities between April and October 2026. Of these verified vulnerabilities, more than 33000 have so far been rated as critical- or high-severity. This is likely an undercount, as it is based on survey data from only a subset of Glasswing partners.
+
+39
+00:08:37.359 --> 00:08:41.167
+As such, we expect the true impact to be at least five times higher.
+
+40
+00:08:41.617 --> 00:08:59.878
+When asked how long it would have taken them to find the same number of vulnerabilities without Claude Mythos models, several partners told us that the models had increased their rate of vulnerability finding by months or even years. Read more from our partners at Booz Allen and Comcast about their experience.
+
+41
+00:09:00.328 --> 00:09:12.953
+Figure 3: These results represent a lower bound on the program’s impact on third-party code, as they’re based on partial data from 33 partner reports and Anthropic’s open-source partnerships.
+
+42
+00:09:13.073 --> 00:09:27.916
+Data limitations include that organizations took different approaches to triaging, and fewer than 50 percent of partners disclosed patched numbers, often because their fixes were still in progress, so the patch rate is significantly undercounted.
+
+43
+00:09:28.366 --> 00:09:44.469
+The changes we’re making to our Cyber Verification Program today are intended to extend the impact of Project Glasswing to a much larger number of cyber defenders. We’re also continuing our efforts to help secure open-source software and critical infrastructure.
+
+44
+00:09:44.589 --> 00:09:51.991
+In the coming weeks, we’ll share more about this work and what we’ve learned as we continue to work to give defenders a permanent advantage.
+
+45
+00:09:52.791 --> 00:09:53.996
+Apply for access.
+
+46
+00:09:54.446 --> 00:10:07.359
+Interested organizations can apply to CVP here. As part of the application process, we will verify all applicants and request proof of the required security controls for the relevant access tier.
+
+47
+00:10:07.479 --> 00:10:28.086
+Existing CVP members will keep their current settings for previous models and will be automatically evaluated for access to Claude Opus 5.5, Claude Sonnet 5.5, and Claude Mythos 5.1 through the updated program. Admins will need to assign access to specific workspaces by following these steps.
+
+48
+00:10:28.536 --> 00:10:42.347
+CVP is available on the Claude Platform, Google Cloud’s Vertex A I, and Microsoft Foundry. CVP is only available on Amazon Bedrock for customers eligible for Enterprise Frontier Safeguards.
+
+49
+00:10:42.797 --> 00:10:50.154
+If you’re blocked on work you think your tier should allow, you can report it here. Full details on each tier can be found in our Help Center.
+
+50
+00:10:51.154 --> 00:11:08.192
+That was Expanding the Cyber Verification Program, from Anthropic Newsroom, published October 6, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

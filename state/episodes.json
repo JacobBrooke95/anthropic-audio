@@ -4879,6 +4879,14 @@
       "updated": "2026-10-05T22:11:08+00:00",
       "slug": "claude-blog-2026-10-05-how-cresta-turned-cx-expertise-into-an-agent-builder-on-the",
       "episode": 71
+    },
+    "https://www.anthropic.com/news/cyber-verification-program": {
+      "first_seen": "2026-10-06T20:22:08+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-06T20:22:08+00:00",
+      "slug": "news-2026-10-06-cyber-verification-program",
+      "episode": 72
     }
   },
   "episodes": [
@@ -8934,8 +8942,70 @@
       "episode": 71,
       "created": "2026-10-05T22:11:08+00:00",
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ac3abb461da4f99937643c6_og_how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk.jpg"
+    },
+    {
+      "slug": "news-2026-10-06-cyber-verification-program",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source": "news",
+      "title": "Expanding the Cyber Verification Program",
+      "subtitle": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "date": "2026-10-06T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "apply here",
+          "href": "https://portal.anthropic.com/programs/cvp"
+        },
+        {
+          "text": "Claude Opus 5.5",
+          "href": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "text": "Claude Fable 5.1",
+          "href": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "text": "Claude Sonnet 5.5",
+          "href": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "text": "Project Glasswing",
+          "href": "https://www.anthropic.com/glasswing"
+        },
+        {
+          "text": "CVP",
+          "href": "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet"
+        },
+        {
+          "text": "Enterprise Frontier Safeguards",
+          "href": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+        },
+        {
+          "text": "fill out this form",
+          "href": "https://claude.com/form/enterprise-frontier-safeguards"
+        },
+        {
+          "text": "Booz Allen and Comcast",
+          "href": "https://claude.com/blog/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"
+        },
+        {
+          "text": "these steps",
+          "href": "https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console"
+        },
+        {
+          "text": "report it here",
+          "href": "https://claude.com/form/cyber-block-false-positive-report-cvp-rejection-appeal"
+        }
+      ],
+      "word_count": 1328,
+      "duration": 672.182857,
+      "bytes": 6134999,
+      "episode": 72,
+      "created": "2026-10-06T20:22:08+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather"
     }
   ],
-  "next_episode": 72,
+  "next_episode": 73,
   "baseline_date": "2026-08-14"
 }
