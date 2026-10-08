@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 169.46,
+   "title": "Defending critical infrastructure"
+  },
+  {
+   "startTime": 711.41,
+   "title": "Securing open-source software"
+  },
+  {
+   "startTime": 884.78,
+   "title": "Why we're doing this"
+  },
+  {
+   "startTime": 970.36,
+   "title": "The path ahead"
+  },
+  {
+   "startTime": 1044.89,
+   "title": "Outro"
+  }
+ ]
+}

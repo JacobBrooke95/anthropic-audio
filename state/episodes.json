@@ -4887,6 +4887,30 @@
       "updated": "2026-10-06T20:22:08+00:00",
       "slug": "news-2026-10-06-cyber-verification-program",
       "episode": 72
+    },
+    "https://www.anthropic.com/research/the-missing-map-of-the-sky": {
+      "first_seen": "2026-10-08T20:52:55+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-08T20:52:55+00:00",
+      "slug": "research-2026-10-08-the-missing-map-of-the-sky",
+      "episode": 73
+    },
+    "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source": {
+      "first_seen": "2026-10-08T21:02:01+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-08T21:02:01+00:00",
+      "slug": "research-2026-10-08-launching-opt-in-vuln-finding-service-for-open-source",
+      "episode": 74
+    },
+    "https://www.anthropic.com/news/anthropic-cyber-mission": {
+      "first_seen": "2026-10-08T21:20:52+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-08T21:20:52+00:00",
+      "slug": "news-2026-10-08-anthropic-cyber-mission",
+      "episode": 75
     }
   },
   "episodes": [
@@ -9004,8 +9028,206 @@
       "episode": 72,
       "created": "2026-10-06T20:22:08+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather"
+    },
+    {
+      "slug": "research-2026-10-08-the-missing-map-of-the-sky",
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "source": "research",
+      "title": "The missing map of the sky",
+      "subtitle": "Claude Science helped produce the first complete map of the sky in UV light",
+      "date": "2026-10-08T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "you can see it here",
+          "href": "https://menard.pha.jhu.edu/uvmap/"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "text": "GALEX",
+          "href": "https://archive.stsci.edu/missions-and-data/galex"
+        },
+        {
+          "text": "Swift",
+          "href": "https://swift.gsfc.nasa.gov/archive/"
+        },
+        {
+          "text": "FIMS/SPEAR",
+          "href": "https://archive.stsci.edu/missions-and-data/fims-spear"
+        },
+        {
+          "text": "TD-1",
+          "href": "https://catalog.data.gov/dataset/td1-stellar-ultraviolet-fluxes-catalog"
+        },
+        {
+          "text": "Planck",
+          "href": "https://pla.esac.esa.int/#home"
+        },
+        {
+          "text": "Gaia",
+          "href": "https://gea.esac.esa.int/archive/"
+        }
+      ],
+      "word_count": 1509,
+      "duration": 730.409796,
+      "bytes": 6744029,
+      "episode": 73,
+      "created": "2026-10-08T20:52:55+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png"
+    },
+    {
+      "slug": "research-2026-10-08-launching-opt-in-vuln-finding-service-for-open-source",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "source": "research",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "subtitle": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
+      "date": "2026-10-08T16:00:00+00:00",
+      "authors": [],
+      "category": "Frontier Red Team",
+      "links": [
+        {
+          "text": "OSS Scanner",
+          "href": "https://red.anthropic.com/oss-scanner"
+        },
+        {
+          "text": "Project Glasswing",
+          "href": "https://www.anthropic.com/glasswing"
+        },
+        {
+          "text": "discover vulnerabilities",
+          "href": "https://www.anthropic.com/research/mythos-preview"
+        },
+        {
+          "text": "reported extensively",
+          "href": "https://www.anthropic.com/research/zero-days"
+        },
+        {
+          "text": "CyberGym",
+          "href": "https://arxiv.org/abs/2506.02548"
+        },
+        {
+          "text": "mostly slop",
+          "href": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/"
+        },
+        {
+          "text": "high-quality bug reports",
+          "href": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/"
+        },
+        {
+          "text": "over 29,000 candidate vulnerabilities",
+          "href": "https://red.anthropic.com/2026/cvd/"
+        },
+        {
+          "text": "in minutes",
+          "href": "https://www.anthropic.com/research/n-days"
+        },
+        {
+          "text": "coordinated vulnerability disclosure (CVD) process",
+          "href": "https://www.anthropic.com/coordinated-vulnerability-disclosure"
+        },
+        {
+          "text": "Google's OSS-Fuzz",
+          "href": "https://google.github.io/oss-fuzz/"
+        },
+        {
+          "text": "Claude Security",
+          "href": "https://claude.com/product/claude-security"
+        },
+        {
+          "text": "this GitHub repo",
+          "href": "https://github.com/anthropics/oss-scanner"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "text": "Claude for OSS",
+          "href": "https://claude.com/contact-sales/claude-for-oss"
+        }
+      ],
+      "word_count": 961,
+      "duration": 476.969796,
+      "bytes": 4596113,
+      "episode": 74,
+      "created": "2026-10-08T21:02:01+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "news-2026-10-08-anthropic-cyber-mission",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source": "news",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-10-08T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "OSS Scanner",
+          "href": "http://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        },
+        {
+          "text": "Project Glasswing",
+          "href": "https://www.anthropic.com/glasswing"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "text": "register your interest here",
+          "href": "http://claude.com/form/critical-infrastructure-defense-program-interest"
+        },
+        {
+          "text": "we launched a cyber defense program",
+          "href": "https://statescoop.com/anthropic-launches-15m-cyber-defense-program-for-state-local-tribal-and-territorial-governments/"
+        },
+        {
+          "text": "coordinated vulnerability disclosure process",
+          "href": "https://red.anthropic.com/2026/cvd/"
+        },
+        {
+          "text": "OSS Scanner",
+          "href": "https://red.anthropic.com/oss-scanner"
+        },
+        {
+          "text": "Google’s OSS-Fuzz",
+          "href": "https://github.com/google/oss-fuzz"
+        },
+        {
+          "text": "launched in August",
+          "href": "https://claude.com/resources/articles/bringing-claude-mythos-5-to-more-defenders"
+        },
+        {
+          "text": "Claude for Open Source",
+          "href": "https://claude.com/contact-sales/claude-for-oss"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://portal.anthropic.com/login"
+        },
+        {
+          "text": "Claude Security",
+          "href": "https://claude.com/product/claude-security"
+        },
+        {
+          "text": "The cost of exploiting vulnerabilities has dropped",
+          "href": "https://www.anthropic.com/news/expanding-project-glasswing"
+        }
+      ],
+      "word_count": 2284,
+      "duration": 1065.978776,
+      "bytes": 9393210,
+      "episode": 75,
+      "created": "2026-10-08T21:20:52+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg"
     }
   ],
-  "next_episode": 73,
+  "next_episode": 76,
   "baseline_date": "2026-08-14"
 }

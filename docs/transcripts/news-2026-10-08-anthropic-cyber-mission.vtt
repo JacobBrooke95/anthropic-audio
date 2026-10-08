@@ -1,0 +1,333 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.859
+This is Anthropic, Read Aloud. Today: Introducing the Anthropic Cyber Mission.
+
+2
+00:00:08.159 --> 00:00:10.357
+Introducing the Anthropic Cyber Mission.
+
+3
+00:00:10.807 --> 00:00:18.551
+Anthropic is an A I safety and research company that's working to build reliable, interpretable, and steerable A I systems.
+
+4
+00:00:19.001 --> 00:00:23.412
+From Anthropic Newsroom, published October 8, 2026.
+
+5
+00:00:24.412 --> 00:00:41.734
+Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems. We’re starting with two areas:
+
+6
+00:00:42.184 --> 00:01:04.692
+Critical infrastructure: Starting with securing the operational technology behind power grids, water systems, and transportation networks, and protecting government systems. Today, we’re introducing the Critical Infrastructure Defense Program (CIDP), which brings frontier models, on-site engineers, and threat research to the defenders that protect operational technology.
+
+7
+00:01:04.932 --> 00:01:23.424
+Open-source software: Finding vulnerabilities and proposing patches in the free, shared code that most software depends on, and hardening the underlying code. Today, we’re launching O S S Scanner, which offers open-source projects regular security scans from our strongest models, for free.
+
+8
+00:01:23.874 --> 00:01:42.601
+Frontier models can be misused to exploit vulnerabilities and conduct cyber operations. Despite best efforts, many areas of technology remain dangerously exposed. State-sponsored adversaries have spent years gaining footholds in these systems, across many sectors, so that they can disrupt them.
+
+9
+00:01:42.721 --> 00:02:05.951
+Defenders of critical infrastructure and the O S S community have decades of security experience but have faced severe resource shortages that are exacerbated by this moment. We are recognizing their expertise in these domains and offering our support. We will also expand the Cyber Mission to release tools, research, and resources in new areas to help secure the world.
+
+10
+00:02:06.401 --> 00:02:28.182
+As part of Project Glasswing, partners uncovered many vulnerabilities, but we haven’t yet achieved a sufficient reduction in cyber risk. It’s easier than ever to find vulnerabilities, but verifying, prioritizing, and fixing these findings remains challenging. Based on lessons from Project Glasswing, we’re starting these new efforts to support defenders.
+
+11
+00:02:28.302 --> 00:02:48.662
+Earlier this week, we merged Project Glasswing into our expanded Cyber Verification Program, which gives many more defenders access to our most capable models. And through the Anthropic Cyber Mission, we’ll deploy Anthropic engineering talent and provide tools and funding for those who secure critical infrastructure and open-source software.
+
+12
+00:02:49.462 --> 00:02:51.423
+Defending critical infrastructure.
+
+13
+00:02:51.873 --> 00:03:11.729
+Power grids, water utilities, factories, and transportation networks run on controllers, control software, and industrial networks built to last for decades. These systems are known as “operational technology,” and they often cannot be taken offline to patch, so known vulnerabilities can stay unresolved for years.
+
+14
+00:03:11.849 --> 00:03:29.362
+Securing them is specialized work: the equipment is proprietary, changes are risky, and a mistake can take down a plant. Operators of every size rely on a small set of trusted providers to support that work, telling them what’s exposed and which fixes to make on a running system.
+
+15
+00:03:29.812 --> 00:03:51.657
+Today, we’re introducing the Critical Infrastructure Defense Program, which brings frontier Claude models, on-site engineers, and our threat research to those trusted providers. Its founding partners are Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation.
+
+16
+00:03:52.107 --> 00:04:10.663
+These organizations represent the providers that operators rely on to secure these systems: the consulting and advanced technology companies that run security programs, the security companies that guard the business and industrial networks, and the manufacturers that build and patch the equipment itself.
+
+17
+00:04:11.113 --> 00:04:32.282
+This work is underway. Several partners are currently working with Claude to fix vulnerabilities and help customers do the same. Critical infrastructure is hard to defend in many ways that A I cannot fix, but we believe that frontier models can help find and repair weaknesses before those weaknesses are used to cut off power or make water unsafe.
+
+18
+00:04:32.402 --> 00:04:39.148
+Our first step is to work with a small cohort of providers to learn which strategies are most effective and practical.
+
+19
+00:04:39.598 --> 00:04:46.017
+If your company builds security products or services for critical infrastructure, you can register your interest here.
+
+20
+00:04:46.467 --> 00:04:48.975
+Figure 1: Rockwell Automation logo.
+
+21
+00:04:49.425 --> 00:05:05.623
+Quote: As A I continues to advance, it presents an important opportunity to strengthen cybersecurity across critical infrastructure, provided it is applied responsibly, validated rigorously, and deployed with safety and reliability at the forefront.
+
+22
+00:05:05.743 --> 00:05:27.032
+We are pleased to contribute our operational technology and industrial cybersecurity expertise to help develop practical approaches for applying A I in ways that strengthen the resilience of the infrastructure society depends on every day.Tony Baker VP, Digital Trust and Chief Product Security Officer, Rockwell Automation. End quote.
+
+23
+00:05:27.482 --> 00:05:29.626
+Figure 2: PwC logo.
+
+24
+00:05:30.076 --> 00:05:42.577
+Quote: Through our work with critical infrastructure organizations, PwC’s cyber OT practice has seen firsthand the gravity of consequences cyber breaches can have in these environments.
+
+25
+00:05:42.697 --> 00:06:01.735
+I firmly believe that a coordinated, industry-wide effort is necessary to identify vulnerabilities, mitigate risks, and strengthen the resilience of our critical systems.Harshul Joshi Partner, U S OT/ICS Security Lead, Cyber Data and Tech Risk, PwC. End quote.
+
+26
+00:06:02.185 --> 00:06:04.765
+Figure 3: Palo Alto Networks logo.
+
+27
+00:06:05.215 --> 00:06:23.861
+Quote: Threat actors are using A I to find and exploit exposures at machine speed. By combining Unit 42 threat intelligence and operational expertise with Anthropic’s frontier models, we’re helping operators defend against adversaries looking to attack and disrupt essential services.
+
+28
+00:06:23.981 --> 00:06:37.002
+Together, we are giving defenders the speed and precision needed to close attack paths before exposure becomes impact.Sam Rubin Senior Vice President, Unit 42, Palo Alto Networks. End quote.
+
+29
+00:06:37.452 --> 00:06:39.761
+Figure 4: Nozomi Networks logo.
+
+30
+00:06:40.211 --> 00:06:56.956
+Quote: Frontier A I is evolving faster than any single organization can track alone. That’s why the Critical Infrastructure Defense Program matters. It brings together the people who understand these environments with the frontier capabilities now available to defend them.
+
+31
+00:06:57.076 --> 00:07:10.036
+We’re proud to contribute our experience and to learn alongside the other partners working to protect the systems the world depends on.Moreno Carullo Co-Founder and C T O, Nozomi Networks. End quote.
+
+32
+00:07:10.486 --> 00:07:12.678
+Figure 5: Insane Cyber logo.
+
+33
+00:07:13.128 --> 00:07:31.375
+Quote: The sites that need protection most, like remote substations, offshore platforms, and air-gapped plants, are exactly where traditional tools can’t reach and specialists can’t be. What no one had solved was the hours: more data than any team can work through, at more sites than any team can staff.
+
+34
+00:07:31.495 --> 00:07:44.684
+Claude closes that gap, so our analysts and our customers’ operators spend their time on the judgment calls that keep critical systems running safely.Dan Gunter C E O and Founder, Insane Cyber. End quote.
+
+35
+00:07:45.134 --> 00:07:47.078
+Figure 6: Dragos logo.
+
+36
+00:07:47.528 --> 00:08:02.312
+Quote: Critical infrastructure and the people who depend on it benefit when the vendor community shares what they learn about the opportunities and challenges that A I presents to operational environments, rather than keeping that knowledge in silos.
+
+37
+00:08:02.432 --> 00:08:23.019
+Joining Anthropic's Critical Infrastructure Defense Program is one of the ways we help align frontier A I to a collective defense strategy built around the realities of the operational technology (OT) that keeps the lights on, water safe, and transportation running.Jon Lavender Chief Technology Officer, Dragos. End quote.
+
+38
+00:08:23.469 --> 00:08:25.650
+Figure 7: CrowdStrike logo.
+
+39
+00:08:26.100 --> 00:08:40.960
+Quote: Critical infrastructure is where cyber risk becomes real-world risk. As adversaries use A I to move faster and operate at greater scale, critical infrastructure facing machine-speed threats requires machine-speed defense.
+
+40
+00:08:41.080 --> 00:08:57.189
+By bringing CrowdStrike’s deep security context and expertise together with Anthropic’s frontier A I expertise, we can put a greater advantage in the hands of critical infrastructure defenders.Daniel Bernard Chief Business Officer, CrowdStrike. End quote.
+
+41
+00:08:57.639 --> 00:08:59.952
+Figure 8: Hitachi, Ltd. logo.
+
+42
+00:09:00.402 --> 00:09:16.513
+Quote: Amid the rapid evolution of A I and the increasing sophistication and speed of cyber threats, ensuring cybersecurity in OT environments that support social infrastructure has become one of the highest priorities facing society today.
+
+43
+00:09:16.633 --> 00:09:33.853
+Through participation in this program, we look forward to collaborating with Anthropic and fellow partners to further enhance cyber resilience for critical infrastructure.Hiroaki Koiwa Head of Cyber CoE, A I and Software Services Business Unit, Hitachi, Ltd. End quote.
+
+44
+00:09:34.303 --> 00:09:37.271
+Figure 9: Deloitte and Touche LLP logo.
+
+45
+00:09:37.721 --> 00:09:45.968
+Quote: As A I accelerates, critical infrastructure operators need solutions that address security vulnerabilities at machine speed.
+
+46
+00:09:46.088 --> 00:10:03.153
+Together with Anthropic, Deloitte is helping provide these enterprises with the enablement needed to close security gaps and strengthen resilience, moving at pace with the realities of frontier A I.Adnan Amjad U S Cyber Leader, Deloitte and Touche LLP. End quote.
+
+47
+00:10:03.603 --> 00:10:05.547
+Figure 10: Booz Allen logo.
+
+48
+00:10:05.997 --> 00:10:19.726
+Quote: Operational technology is the next frontier for autonomous A I-enabled attacks. The question is no longer whether A I can affect an industrial process, but how much control it can gain, and how quickly.
+
+49
+00:10:19.846 --> 00:10:36.230
+The Critical Infrastructure Defense Program is convening the best of private-sector innovation and investment to strengthen OT and ICS resilience across federal and commercial missions.Andrew Turner President of Commercial Cyber, Booz Allen. End quote.
+
+50
+00:10:36.680 --> 00:10:38.693
+Figure 11: Accenture logo.
+
+51
+00:10:39.143 --> 00:10:59.988
+Quote: Organizations that keep our power on, medicine safe, food supply secure, and communications running face some of the most consequential cyber risks in the world. Accenture is committed to bringing our deep OT security expertise to the organizations that protect the critical infrastructure communities depend on every day.
+
+52
+00:11:00.108 --> 00:11:09.602
+This partnership will help put A I-powered defense in the hands of those who need it most.Harpreet Sidhu Global Cybersecurity Lead, Accenture. End quote.
+
+53
+00:11:10.052 --> 00:11:11.575
+01 / 11
+
+54
+00:11:12.025 --> 00:11:18.210
+In June, we launched a cyber defense program for state, local, tribal, and territorial governments.
+
+55
+00:11:18.330 --> 00:11:35.418
+Since then, we’ve offered frontier Claude models and technical support to more than half of all U S states and some of the country’s largest public critical infrastructure operators, speeding up code scanning and patching, incident response, red teaming, and other security workflows.
+
+56
+00:11:35.868 --> 00:11:50.606
+We are listening to and learning from the people who know this landscape best. Our approach is to work with the companies, coalitions, governments, and nonprofits that know this landscape and that operators trust, and provide support where it’s most needed.
+
+57
+00:11:51.406 --> 00:11:53.146
+Securing open-source software.
+
+58
+00:11:53.596 --> 00:12:16.635
+Almost all software relies on open-source code, much of it maintained by small teams of volunteers. Under Project Glasswing, we scanned hundreds of widely used open-source projects, had humans triage and review many of the potential vulnerabilities uncovered, and privately reported what we found to their maintainers through our coordinated vulnerability disclosure process.
+
+59
+00:12:17.085 --> 00:12:37.523
+Some maintainers with the capacity to triage at scale asked us for everything our models had found in their project, reviewed or not. In response, we’re launching O S S Scanner, an opt-in service inspired by Google’s O S S-Fuzz. Enrolled projects receive periodic scans from our most capable models, free of charge.
+
+60
+00:12:37.643 --> 00:12:58.083
+Each report includes a proof of concept of how the bug could be exploited, an explanation, and a suggested fix where one is available. The reports are model-generated and sent without human review. That means maintainers receive them faster, but it also means that some will contain inaccuracies, such as a wrong severity rating.
+
+61
+00:12:58.203 --> 00:13:10.008
+We expect a true-positive rate above 90 percent, and will work to improve the true positive rate and fix quality over time. The team’s post explains how it works and how to enroll.
+
+62
+00:13:10.458 --> 00:13:21.162
+The service is meant for projects with the capacity to keep up with surfaced findings. For others, we will continue to share human-verified disclosures under our CVD policy.
+
+63
+00:13:21.612 --> 00:13:26.156
+O S S Scanner is a first step. From here, our open-source work aims to:
+
+64
+00:13:26.606 --> 00:13:35.040
+Get findings to maintainers faster. Bring O S S Scanner to more projects while keeping human-verified disclosure for those that need it.
+
+65
+00:13:35.280 --> 00:13:41.727
+Accelerate fixes. Automate triage and patching, which are still mostly manual, for projects that want it.
+
+66
+00:13:41.967 --> 00:13:52.126
+Explore new secure architectures and coding practices. Research and share methods for hardening or rewriting code with projects that want to go further than patching.
+
+67
+00:13:52.576 --> 00:13:59.990
+We’ll do this based on guidance from open-source maintainers and foundations, and share what works so other projects can replicate it.
+
+68
+00:14:00.110 --> 00:14:22.211
+We funded the organizations behind widely used open-source code, including the Python Software Foundation, Alpha-Omega and OpenSSF through the Linux Foundation, and the Apache Software Foundation, as well as supporting Akrites and Gold Eagle, which collect and coordinate vulnerability reports from many sources to avoid overwhelming maintainers.
+
+69
+00:14:22.331 --> 00:14:31.291
+The Defender Advantage Fund (0xDAF), which we launched in August, supports pilot programs in these areas and keeps O S S Scanner free.
+
+70
+00:14:31.741 --> 00:14:43.975
+Maintainers can also apply to Claude for Open Source for free Claude Max subscriptions, and to the Cyber Verification Program for expanded access to Claude’s cyber capabilities for defensive work.
+
+71
+00:14:44.775 --> 00:14:45.956
+Why we're doing this.
+
+72
+00:14:46.406 --> 00:15:08.611
+Highly cyber-capable A I models are widely available to attackers now. But defensive tools, including our own, have not yet reached enough of the defenders who need them. O S S Scanner, our Cyber Verification Program, defensive products our partners build on our platform, and Claude Security are some of our efforts here, and we’ll be adding others as soon as possible.
+
+73
+00:15:09.061 --> 00:15:31.541
+Our forecast is that in two years, A I will favor defense: it will be easier to catch bugs before they ship, write fundamentally secure software from scratch, and actively defend systems with models. But in the near term, that may not be true. The cost of exploiting vulnerabilities has dropped, while verifying, disclosing, and fixing them is slow and still depends on people.
+
+74
+00:15:31.661 --> 00:15:46.651
+In Glasswing, we often saw months pass between a vulnerability being found and being fixed. With operational technology, a fix may have to wait until it can be applied safely to running machinery, in some rare cases, this might take decades.
+
+75
+00:15:47.101 --> 00:16:09.559
+Success means critical infrastructure such as water, power, transport, and communications keep running in the face of attacks by capable adversaries, with fewer exploitable paths in and faster recovery when something gets through. This will take years and we expect the Anthropic Cyber Mission to change as we, together with the public and private sector, learn what works.
+
+76
+00:16:10.359 --> 00:16:11.255
+The path ahead.
+
+77
+00:16:11.705 --> 00:16:31.390
+Over the coming months, we’ll bring the Critical Infrastructure Defense Program to more partners and more sectors, and we’ll share what we learn along the way, including what didn’t work. We also expect other A I developers, security companies, and governments to run efforts of their own, and we’d like to collaborate with them wherever that helps defenders.
+
+78
+00:16:31.840 --> 00:16:49.957
+We will also expand our work to help secure open source and the broader supply chain. This includes researching new ways of writing software and new ways of defending systems. We intend to share frontier research, tools, and resources to help others secure their software and supply chain.
+
+79
+00:16:50.407 --> 00:16:51.807
+If you’d like to work with us:
+
+80
+00:16:52.257 --> 00:17:07.016
+Companies that build security products or services for critical infrastructure, including security vendors, system integrators, and equipment manufacturers, can register their interest in the Critical Infrastructure Defense Program as we expand it.
+
+81
+00:17:07.256 --> 00:17:12.259
+Core maintainers of critical open-source projects can enroll in O S S Scanner.
+
+82
+00:17:12.499 --> 00:17:23.891
+Security teams of any size, including operators of critical infrastructure and open-source maintainers, can apply to our expanded Cyber Verification Program for access to our models.
+
+83
+00:17:24.891 --> 00:17:41.979
+That was Introducing the Anthropic Cyber Mission, from Anthropic Newsroom, published October 8, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

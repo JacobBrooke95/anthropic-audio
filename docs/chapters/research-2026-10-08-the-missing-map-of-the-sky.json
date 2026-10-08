@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 120.99,
+   "title": "Why no complete UV map existed"
+  },
+  {
+   "startTime": 219.47,
+   "title": "Building the missing map"
+  },
+  {
+   "startTime": 466.74,
+   "title": "Trial and error"
+  },
+  {
+   "startTime": 574.9,
+   "title": "The final map"
+  },
+  {
+   "startTime": 654.99,
+   "title": "Acknowledgments"
+  },
+  {
+   "startTime": 680.23,
+   "title": "Footnotes"
+  },
+  {
+   "startTime": 710.2,
+   "title": "Outro"
+  }
+ ]
+}
