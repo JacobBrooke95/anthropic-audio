@@ -1,0 +1,45 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 93.38,
+   "title": "A new section on deceptive activity"
+  },
+  {
+   "startTime": 143.57,
+   "title": "Refocusing our elections section"
+  },
+  {
+   "startTime": 214.04,
+   "title": "Clarifying our weapons prohibitions"
+  },
+  {
+   "startTime": 242.68,
+   "title": "More precise language on surveillance and law enforcement"
+  },
+  {
+   "startTime": 308.51,
+   "title": "Clearer requirements for high-risk use cases"
+  },
+  {
+   "startTime": 377.93,
+   "title": "Addressing abusive behavior toward our models"
+  },
+  {
+   "startTime": 424.69,
+   "title": "Clarifying our Supported Regions Policy"
+  },
+  {
+   "startTime": 459.31,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 477.48,
+   "title": "Outro"
+  }
+ ]
+}

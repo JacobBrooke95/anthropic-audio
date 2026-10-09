@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 21:20:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:23:12 +0000</lastBuildDate>
     <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -213,6 +213,110 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>75</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-anthropic-cyber-mission.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-anthropic-cyber-mission.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: 2026 Usage Policy update</title>
+      <itunes:title>News: 2026 Usage Policy update</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-2026-usage-policy-update/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/2026-usage-policy-update</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+      <description>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
+
+Source: https://www.anthropic.com/news/2026-usage-policy-update
+Published October 8, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• latest threat intelligence report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Usage Policy: https://www.anthropic.com/legal/aup
+• Supported Regions Policy: https://www.anthropic.com/supported-countries
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• end rare conversations with persistently abusive users: https://www.anthropic.com/research/end-subset-conversations
+• updated our Supported Regions Policy: https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-2026-usage-policy-update/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/2026-usage-policy-update">https://www.anthropic.com/news/2026-usage-policy-update</a><br/><strong>Published:</strong> October 8, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 1,111 words · 8 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">latest threat intelligence report</a></li><li><a href="https://www.anthropic.com/legal/aup">Usage Policy</a></li><li><a href="https://www.anthropic.com/supported-countries">Supported Regions Policy</a></li><li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard</a></li><li><a href="https://www.anthropic.com/research/end-subset-conversations">end rare conversations with persistently abusive users</a></li><li><a href="https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions">updated our Supported Regions Policy</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-2026-usage-policy-update/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-08-2026-usage-policy-update.mp3" length="4725480" type="audio/mpeg"/>
+      <itunes:duration>499</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-08-2026-usage-policy-update.jpg?v=6eb937da"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-2026-usage-policy-update.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-08-2026-usage-policy-update.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</itunes:subtitle>
+      <itunes:summary>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
+
+Source: https://www.anthropic.com/news/2026-usage-policy-update
+Published October 8, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• latest threat intelligence report: https://www.anthropic.com/threat-intelligence-report-september-2026
+• Usage Policy: https://www.anthropic.com/legal/aup
+• Supported Regions Policy: https://www.anthropic.com/supported-countries
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• end rare conversations with persistently abusive users: https://www.anthropic.com/research/end-subset-conversations
+• updated our Supported Regions Policy: https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-2026-usage-policy-update/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>76</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-2026-usage-policy-update.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-2026-usage-policy-update.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Building on our commitment to American scientific discovery</title>
+      <itunes:title>News: Building on our commitment to American scientific discovery</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-genesis-mission-commitment/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/genesis-mission-commitment</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
+
+Source: https://www.anthropic.com/news/genesis-mission-commitment
+Published October 8, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Genesis Mission: https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission
+• last December: https://www.anthropic.com/news/genesis-mission-partnership
+• worked with: https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and
+• Science: A New Golden Age: https://www.whitehouse.gov/science/
+• Claude Science: https://claude.com/product/claude-science
+• opened 10,000 free and discounted Claude seats: https://www.anthropic.com/news/expanding-support-for-scientists
+• AI for Science: https://www.anthropic.com/news/ai-for-science-program
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-genesis-mission-commitment/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/genesis-mission-commitment">https://www.anthropic.com/news/genesis-mission-commitment</a><br/><strong>Published:</strong> October 8, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 368 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission">Genesis Mission</a></li><li><a href="https://www.anthropic.com/news/genesis-mission-partnership">last December</a></li><li><a href="https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and">worked with</a></li><li><a href="https://www.whitehouse.gov/science/">Science: A New Golden Age</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://www.anthropic.com/news/expanding-support-for-scientists">opened 10,000 free and discounted Claude seats</a></li><li><a href="https://www.anthropic.com/news/ai-for-science-program">AI for Science</a></li><li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-genesis-mission-commitment/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-08-genesis-mission-commitment.mp3" length="2430636" type="audio/mpeg"/>
+      <itunes:duration>206</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-08-genesis-mission-commitment.jpg?v=63de4f21"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-genesis-mission-commitment.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-08-genesis-mission-commitment.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.</itunes:subtitle>
+      <itunes:summary>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
+
+Source: https://www.anthropic.com/news/genesis-mission-commitment
+Published October 8, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Genesis Mission: https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission
+• last December: https://www.anthropic.com/news/genesis-mission-partnership
+• worked with: https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and
+• Science: A New Golden Age: https://www.whitehouse.gov/science/
+• Claude Science: https://claude.com/product/claude-science
+• opened 10,000 free and discounted Claude seats: https://www.anthropic.com/news/expanding-support-for-scientists
+• AI for Science: https://www.anthropic.com/news/ai-for-science-program
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-08-genesis-mission-commitment/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>77</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-genesis-mission-commitment.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-08-genesis-mission-commitment.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Expanding the Cyber Verification Program</title>

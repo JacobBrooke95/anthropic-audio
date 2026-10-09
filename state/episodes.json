@@ -4911,6 +4911,22 @@
       "updated": "2026-10-08T21:20:52+00:00",
       "slug": "news-2026-10-08-anthropic-cyber-mission",
       "episode": 75
+    },
+    "https://www.anthropic.com/news/2026-usage-policy-update": {
+      "first_seen": "2026-10-09T01:19:25+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-09T01:19:25+00:00",
+      "slug": "news-2026-10-08-2026-usage-policy-update",
+      "episode": 76
+    },
+    "https://www.anthropic.com/news/genesis-mission-commitment": {
+      "first_seen": "2026-10-09T01:23:11+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-09T01:23:11+00:00",
+      "slug": "news-2026-10-08-genesis-mission-commitment",
+      "episode": 77
     }
   },
   "episodes": [
@@ -9226,8 +9242,100 @@
       "episode": 75,
       "created": "2026-10-08T21:20:52+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg"
+    },
+    {
+      "slug": "news-2026-10-08-2026-usage-policy-update",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source": "news",
+      "title": "2026 Usage Policy update",
+      "subtitle": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+      "date": "2026-10-08T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "latest threat intelligence report",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "text": "Usage Policy",
+          "href": "https://www.anthropic.com/legal/aup"
+        },
+        {
+          "text": "Supported Regions Policy",
+          "href": "https://www.anthropic.com/supported-countries"
+        },
+        {
+          "text": "Model Hardware Standard",
+          "href": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        },
+        {
+          "text": "end rare conversations with persistently abusive users",
+          "href": "https://www.anthropic.com/research/end-subset-conversations"
+        },
+        {
+          "text": "updated our Supported Regions Policy",
+          "href": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
+        }
+      ],
+      "word_count": 1111,
+      "duration": 498.834286,
+      "bytes": 4725480,
+      "episode": 76,
+      "created": "2026-10-09T01:19:25+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "news-2026-10-08-genesis-mission-commitment",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "source": "news",
+      "title": "Building on our commitment to American scientific discovery",
+      "subtitle": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+      "date": "2026-10-08T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "Genesis Mission",
+          "href": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        },
+        {
+          "text": "last December",
+          "href": "https://www.anthropic.com/news/genesis-mission-partnership"
+        },
+        {
+          "text": "worked with",
+          "href": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and"
+        },
+        {
+          "text": "Science: A New Golden Age",
+          "href": "https://www.whitehouse.gov/science/"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "opened 10,000 free and discounted Claude seats",
+          "href": "https://www.anthropic.com/news/expanding-support-for-scientists"
+        },
+        {
+          "text": "AI for Science",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "Model Hardware Standard",
+          "href": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        }
+      ],
+      "word_count": 368,
+      "duration": 206.471837,
+      "bytes": 2430636,
+      "episode": 77,
+      "created": "2026-10-09T01:23:11+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather"
     }
   ],
-  "next_episode": 76,
+  "next_episode": 78,
   "baseline_date": "2026-08-14"
 }
