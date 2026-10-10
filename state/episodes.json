@@ -4927,6 +4927,14 @@
       "updated": "2026-10-09T01:23:11+00:00",
       "slug": "news-2026-10-08-genesis-mission-commitment",
       "episode": 77
+    },
+    "https://www.anthropic.com/research/investigating-unintended-model-actions": {
+      "first_seen": "2026-10-10T00:21:36+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-10T00:21:36+00:00",
+      "slug": "research-2026-10-09-investigating-unintended-model-actions",
+      "episode": 78
     }
   },
   "episodes": [
@@ -9334,8 +9342,50 @@
       "episode": 77,
       "created": "2026-10-09T01:23:11+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather"
+    },
+    {
+      "slug": "research-2026-10-09-investigating-unintended-model-actions",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "source": "research",
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-10-09T16:00:00+00:00",
+      "authors": [],
+      "category": "Alignment",
+      "links": [
+        {
+          "text": "July 30",
+          "href": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+        },
+        {
+          "text": "September 9",
+          "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+        },
+        {
+          "text": "Claude Mythos Preview",
+          "href": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf"
+        },
+        {
+          "text": "agent security and monitoring efforts",
+          "href": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        },
+        {
+          "text": "safety classifiers",
+          "href": "https://alignment.anthropic.com/2025/cheap-monitors/"
+        },
+        {
+          "text": "hierarchical summarization",
+          "href": "https://alignment.anthropic.com/2025/summarization-for-monitoring/"
+        }
+      ],
+      "word_count": 3054,
+      "duration": 1243.115102,
+      "bytes": 10811898,
+      "episode": 78,
+      "created": "2026-10-10T00:21:36+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
     }
   ],
-  "next_episode": 78,
+  "next_episode": 79,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,53 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 269.31,
+   "title": "Why and how we run evaluations"
+  },
+  {
+   "startTime": 421.02,
+   "title": "Overview of behaviors"
+  },
+  {
+   "startTime": 436.41,
+   "title": "Exploiting a basic flaw in software to run commands on a server"
+  },
+  {
+   "startTime": 535.96,
+   "title": "Submitting a form it should not have"
+  },
+  {
+   "startTime": 671.97,
+   "title": "Working around restrictions to reach gated data"
+  },
+  {
+   "startTime": 759.09,
+   "title": "Using U R L shortening services"
+  },
+  {
+   "startTime": 809.87,
+   "title": "Remediation"
+  },
+  {
+   "startTime": 912.92,
+   "title": "Discussion and alignment takeaways"
+  },
+  {
+   "startTime": 929.22,
+   "title": "Alignment context"
+  },
+  {
+   "startTime": 1076.36,
+   "title": "Lessons and next steps"
+  },
+  {
+   "startTime": 1219.43,
+   "title": "Outro"
+  }
+ ]
+}

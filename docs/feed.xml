@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 01:23:12 +0000</lastBuildDate>
-    <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Oct 2026 00:21:37 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,56 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Investigating unintended model actions in our evaluations and internal use</title>
+      <itunes:title>Research: Investigating unintended model actions in our evaluations and internal use</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-09-investigating-unintended-model-actions/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
+      <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/investigating-unintended-model-actions
+Published October 9, 2026 · Anthropic Research
+
+Links referenced in the post:
+• July 30: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• September 9: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+• Claude Mythos Preview: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• agent security and monitoring efforts: https://www.anthropic.com/news/improving-alignment-security-efforts
+• safety classifiers: https://alignment.anthropic.com/2025/cheap-monitors/
+• hierarchical summarization: https://alignment.anthropic.com/2025/summarization-for-monitoring/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-09-investigating-unintended-model-actions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/investigating-unintended-model-actions">https://www.anthropic.com/research/investigating-unintended-model-actions</a><br/><strong>Published:</strong> October 9, 2026 · Anthropic Research<br/><strong>Category:</strong> Alignment<br/><strong>Length:</strong> 3,054 words · 20 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">July 30</a></li><li><a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">September 9</a></li><li><a href="https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf">Claude Mythos Preview</a></li><li><a href="https://www.anthropic.com/news/improving-alignment-security-efforts">agent security and monitoring efforts</a></li><li><a href="https://alignment.anthropic.com/2025/cheap-monitors/">safety classifiers</a></li><li><a href="https://alignment.anthropic.com/2025/summarization-for-monitoring/">hierarchical summarization</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-09-investigating-unintended-model-actions/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-09-investigating-unintended-model-actions.mp3" length="10811898" type="audio/mpeg"/>
+      <itunes:duration>1243</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-09-investigating-unintended-model-actions.jpg?v=016409b2"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-09-investigating-unintended-model-actions.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-09-investigating-unintended-model-actions.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/research/investigating-unintended-model-actions
+Published October 9, 2026 · Anthropic Research
+
+Links referenced in the post:
+• July 30: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+• September 9: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+• Claude Mythos Preview: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+• agent security and monitoring efforts: https://www.anthropic.com/news/improving-alignment-security-efforts
+• safety classifiers: https://alignment.anthropic.com/2025/cheap-monitors/
+• hierarchical summarization: https://alignment.anthropic.com/2025/summarization-for-monitoring/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-09-investigating-unintended-model-actions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>78</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-09-investigating-unintended-model-actions.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-09-investigating-unintended-model-actions.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: The missing map of the sky</title>
       <itunes:title>Research: The missing map of the sky</itunes:title>
