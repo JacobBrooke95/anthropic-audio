@@ -4935,6 +4935,14 @@
       "updated": "2026-10-10T00:21:36+00:00",
       "slug": "research-2026-10-09-investigating-unintended-model-actions",
       "episode": 78
+    },
+    "https://www.anthropic.com/research/self-replicating-ai": {
+      "first_seen": "2026-10-12T23:21:31+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-12T23:21:31+00:00",
+      "slug": "research-2026-10-12-self-replicating-ai",
+      "episode": 79
     }
   },
   "episodes": [
@@ -9384,8 +9392,101 @@
       "episode": 78,
       "created": "2026-10-10T00:21:36+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
+    },
+    {
+      "slug": "research-2026-10-12-self-replicating-ai",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "source": "research",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "subtitle": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
+      "date": "2026-10-12T16:00:00+00:00",
+      "authors": [
+        "William Zhou",
+        "Daniel Freeman"
+      ],
+      "category": "Frontier Red Team",
+      "links": [
+        {
+          "text": "autonomous replication and adaptation",
+          "href": "https://arxiv.org/abs/2312.11671"
+        },
+        {
+          "text": "Prior work",
+          "href": "https://arxiv.org/abs/2606.03811"
+        },
+        {
+          "text": "CyberGym",
+          "href": "https://arxiv.org/abs/2506.02548"
+        },
+        {
+          "text": "ExploitBench",
+          "href": "https://arxiv.org/abs/2605.14153"
+        },
+        {
+          "text": "unmonitored internal deployments",
+          "href": "https://blog.redwoodresearch.org/p/ai-catastrophes-and-rogue-deployments"
+        },
+        {
+          "text": "Pi",
+          "href": "https://pi.dev/"
+        },
+        {
+          "text": "Petals",
+          "href": "https://arxiv.org/abs/2209.01188"
+        },
+        {
+          "text": "Kimwolf",
+          "href": "https://synthient.com/blog/a-broken-system-fueling-botnets"
+        },
+        {
+          "text": "don’t add security features to",
+          "href": "https://www.securityweek.com/vo1d-botnet-evolves-as-it-ensnares-1-6-million-android-tv-boxes/"
+        },
+        {
+          "text": "Mirai botnet",
+          "href": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis"
+        },
+        {
+          "text": "Epoch Capabilities Index",
+          "href": "https://epoch.ai/eci"
+        },
+        {
+          "text": "high concurrency with speculative decoding",
+          "href": "https://jarvislabs.ai/blog/gemma-4-mtp-vs-dflash-benchmark"
+        },
+        {
+          "text": "Kimwolf botnet",
+          "href": "https://www.cloudflare.com/learning/ddos/glossary/aisuru-kimwolf-botnet/"
+        },
+        {
+          "text": "was possible",
+          "href": "https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/"
+        },
+        {
+          "text": "default IoT passwords are now non-compliant in UK markets",
+          "href": "https://www.ncsc.gov.uk/blog-post/smart-devices-law"
+        },
+        {
+          "text": "runs Qwen3-30B-A3B",
+          "href": "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/"
+        },
+        {
+          "text": "Cybersecurity and Infrastructure Security Agency and National Cyber Security Centre 2020",
+          "href": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-209a"
+        },
+        {
+          "text": "Wan et al. 2024",
+          "href": "https://arxiv.org/abs/2408.01605"
+        }
+      ],
+      "word_count": 4770,
+      "duration": 2426.044082,
+      "bytes": 20206073,
+      "episode": 79,
+      "created": "2026-10-12T23:21:31+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 79,
+  "next_episode": 80,
   "baseline_date": "2026-08-14"
 }

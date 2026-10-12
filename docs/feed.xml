@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 00:21:37 +0000</lastBuildDate>
-    <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:21:32 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,80 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: AI models may be capable of self-replicating without access to a datacenter</title>
+      <itunes:title>Research: AI models may be capable of self-replicating without access to a datacenter</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-12-self-replicating-ai/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/self-replicating-ai</guid>
+      <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.
+
+Source: https://www.anthropic.com/research/self-replicating-ai
+Published October 12, 2026 · Anthropic Research · by William Zhou, Daniel Freeman
+
+Links referenced in the post:
+• autonomous replication and adaptation: https://arxiv.org/abs/2312.11671
+• Prior work: https://arxiv.org/abs/2606.03811
+• CyberGym: https://arxiv.org/abs/2506.02548
+• ExploitBench: https://arxiv.org/abs/2605.14153
+• unmonitored internal deployments: https://blog.redwoodresearch.org/p/ai-catastrophes-and-rogue-deployments
+• Pi: https://pi.dev/
+• Petals: https://arxiv.org/abs/2209.01188
+• Kimwolf: https://synthient.com/blog/a-broken-system-fueling-botnets
+• don’t add security features to: https://www.securityweek.com/vo1d-botnet-evolves-as-it-ensnares-1-6-million-android-tv-boxes/
+• Mirai botnet: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis
+• Epoch Capabilities Index: https://epoch.ai/eci
+• high concurrency with speculative decoding: https://jarvislabs.ai/blog/gemma-4-mtp-vs-dflash-benchmark
+• Kimwolf botnet: https://www.cloudflare.com/learning/ddos/glossary/aisuru-kimwolf-botnet/
+• was possible: https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/
+• default IoT passwords are now non-compliant in UK markets: https://www.ncsc.gov.uk/blog-post/smart-devices-law
+• runs Qwen3-30B-A3B: https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/
+• Cybersecurity and Infrastructure Security Agency and National Cyber Security Centre 2020: https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-209a
+• Wan et al. 2024: https://arxiv.org/abs/2408.01605
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-12-self-replicating-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/self-replicating-ai">https://www.anthropic.com/research/self-replicating-ai</a><br/><strong>Published:</strong> October 12, 2026 · Anthropic Research<br/><strong>Authors:</strong> William Zhou, Daniel Freeman<br/><strong>Category:</strong> Frontier Red Team<br/><strong>Length:</strong> 4,770 words · 40 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://arxiv.org/abs/2312.11671">autonomous replication and adaptation</a></li><li><a href="https://arxiv.org/abs/2606.03811">Prior work</a></li><li><a href="https://arxiv.org/abs/2506.02548">CyberGym</a></li><li><a href="https://arxiv.org/abs/2605.14153">ExploitBench</a></li><li><a href="https://blog.redwoodresearch.org/p/ai-catastrophes-and-rogue-deployments">unmonitored internal deployments</a></li><li><a href="https://pi.dev/">Pi</a></li><li><a href="https://arxiv.org/abs/2209.01188">Petals</a></li><li><a href="https://synthient.com/blog/a-broken-system-fueling-botnets">Kimwolf</a></li><li><a href="https://www.securityweek.com/vo1d-botnet-evolves-as-it-ensnares-1-6-million-android-tv-boxes/">don’t add security features to</a></li><li><a href="https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis">Mirai botnet</a></li><li><a href="https://epoch.ai/eci">Epoch Capabilities Index</a></li><li><a href="https://jarvislabs.ai/blog/gemma-4-mtp-vs-dflash-benchmark">high concurrency with speculative decoding</a></li><li><a href="https://www.cloudflare.com/learning/ddos/glossary/aisuru-kimwolf-botnet/">Kimwolf botnet</a></li><li><a href="https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/">was possible</a></li><li><a href="https://www.ncsc.gov.uk/blog-post/smart-devices-law">default IoT passwords are now non-compliant in UK markets</a></li><li><a href="https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/">runs Qwen3-30B-A3B</a></li><li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-209a">Cybersecurity and Infrastructure Security Agency and National Cyber Security Centre 2020</a></li><li><a href="https://arxiv.org/abs/2408.01605">Wan et al. 2024</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-12-self-replicating-ai/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-12-self-replicating-ai.mp3" length="20206073" type="audio/mpeg"/>
+      <itunes:duration>2426</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-12-self-replicating-ai.jpg?v=29790477"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-12-self-replicating-ai.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-12-self-replicating-ai.json" type="application/json+chapters"/>
+      <itunes:author>William Zhou, Daniel Freeman</itunes:author>
+      <itunes:subtitle>Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.</itunes:subtitle>
+      <itunes:summary>Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.
+
+Source: https://www.anthropic.com/research/self-replicating-ai
+Published October 12, 2026 · Anthropic Research · by William Zhou, Daniel Freeman
+
+Links referenced in the post:
+• autonomous replication and adaptation: https://arxiv.org/abs/2312.11671
+• Prior work: https://arxiv.org/abs/2606.03811
+• CyberGym: https://arxiv.org/abs/2506.02548
+• ExploitBench: https://arxiv.org/abs/2605.14153
+• unmonitored internal deployments: https://blog.redwoodresearch.org/p/ai-catastrophes-and-rogue-deployments
+• Pi: https://pi.dev/
+• Petals: https://arxiv.org/abs/2209.01188
+• Kimwolf: https://synthient.com/blog/a-broken-system-fueling-botnets
+• don’t add security features to: https://www.securityweek.com/vo1d-botnet-evolves-as-it-ensnares-1-6-million-android-tv-boxes/
+• Mirai botnet: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis
+• Epoch Capabilities Index: https://epoch.ai/eci
+• high concurrency with speculative decoding: https://jarvislabs.ai/blog/gemma-4-mtp-vs-dflash-benchmark
+• Kimwolf botnet: https://www.cloudflare.com/learning/ddos/glossary/aisuru-kimwolf-botnet/
+• was possible: https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/
+• default IoT passwords are now non-compliant in UK markets: https://www.ncsc.gov.uk/blog-post/smart-devices-law
+• runs Qwen3-30B-A3B: https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/
+• Cybersecurity and Infrastructure Security Agency and National Cyber Security Centre 2020: https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-209a
+• Wan et al. 2024: https://arxiv.org/abs/2408.01605
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-12-self-replicating-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>79</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-12-self-replicating-ai.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-12-self-replicating-ai.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Investigating unintended model actions in our evaluations and internal use</title>
       <itunes:title>Research: Investigating unintended model actions in our evaluations and internal use</itunes:title>

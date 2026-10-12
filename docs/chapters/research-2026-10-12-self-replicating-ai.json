@@ -1,0 +1,113 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 96.01,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 297.28,
+   "title": "Threat modelling"
+  },
+  {
+   "startTime": 536.09,
+   "title": "A. Inference setup"
+  },
+  {
+   "startTime": 569.85,
+   "title": "Aside"
+  },
+  {
+   "startTime": 608.49,
+   "title": "Evaluating inference setup performance"
+  },
+  {
+   "startTime": 680.38,
+   "title": "How does a model run on Smart TVs?"
+  },
+  {
+   "startTime": 749.51,
+   "title": "B. Going viral: autonomous setup and replication across a G C P node fleet"
+  },
+  {
+   "startTime": 773.72,
+   "title": "Autonomous inference setup and replication (with simplified cyber)"
+  },
+  {
+   "startTime": 830.52,
+   "title": "Why task the models to stand up inference for Llama3.1 to 8 billion and not themselves?"
+  },
+  {
+   "startTime": 1023.33,
+   "title": "C. How fast might an A I IoT worm replicate?"
+  },
+  {
+   "startTime": 1221.1,
+   "title": "D. Adaptation and uplift"
+  },
+  {
+   "startTime": 1223.72,
+   "title": "Learning on the job"
+  },
+  {
+   "startTime": 1287.86,
+   "title": "Taking advice"
+  },
+  {
+   "startTime": 1348.55,
+   "title": "E. How is this different from a pre-A I botnet?"
+  },
+  {
+   "startTime": 1389.05,
+   "title": "F. Blue-team mitigations"
+  },
+  {
+   "startTime": 1524.05,
+   "title": "G. Conclusion: Signs of life"
+  },
+  {
+   "startTime": 1624.15,
+   "title": "Appendix"
+  },
+  {
+   "startTime": 1625.74,
+   "title": "A. The Memento harness"
+  },
+  {
+   "startTime": 1692.38,
+   "title": "B. Why pipeline parallel?"
+  },
+  {
+   "startTime": 1742.49,
+   "title": "C. Throughput and memory on IoT hardware"
+  },
+  {
+   "startTime": 1855.29,
+   "title": "D. Edge Accelerators"
+  },
+  {
+   "startTime": 2014.52,
+   "title": "Aside"
+  },
+  {
+   "startTime": 2061.25,
+   "title": "E. Spearphishing capability"
+  },
+  {
+   "startTime": 2116.07,
+   "title": "F. Propagation with scripted inference setup"
+  },
+  {
+   "startTime": 2154.94,
+   "title": "Footnotes"
+  },
+  {
+   "startTime": 2402.72,
+   "title": "Outro"
+  }
+ ]
+}
