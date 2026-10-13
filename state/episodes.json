@@ -4943,6 +4943,14 @@
       "updated": "2026-10-12T23:21:31+00:00",
       "slug": "research-2026-10-12-self-replicating-ai",
       "episode": 79
+    },
+    "https://www.anthropic.com/research/distillation-defenses": {
+      "first_seen": "2026-10-13T20:53:42+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-13T20:53:42+00:00",
+      "slug": "research-2026-10-12-distillation-defenses",
+      "episode": 80
     }
   },
   "episodes": [
@@ -9485,8 +9493,74 @@
       "episode": 79,
       "created": "2026-10-12T23:21:31+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "research-2026-10-12-distillation-defenses",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "source": "research",
+      "title": "Strengthening our defenses against distillation attacks",
+      "subtitle": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "date": "2026-10-12T16:00:00+00:00",
+      "authors": [],
+      "category": "Policy",
+      "links": [
+        {
+          "text": "wrote in September",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#illicit-distillation-sep-26"
+        },
+        {
+          "text": "biology",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#biological-misuse-sep-26"
+        },
+        {
+          "text": "cybersecurity",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26"
+        },
+        {
+          "text": "since assessed",
+          "href": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities"
+        },
+        {
+          "text": "Our own research has found",
+          "href": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+        },
+        {
+          "text": "military, intelligence, and surveillance systems",
+          "href": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+        },
+        {
+          "text": "between conversations",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#gtg-16002-moonshot-serves-claude-instead-of-kimi-and-collects-exchanges-for-model-training"
+        },
+        {
+          "text": "between models",
+          "href": "https://arxiv.org/abs/2608.09867"
+        },
+        {
+          "text": "proxy networks",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#how-unauthorized-labs-access-anthropics-models"
+        },
+        {
+          "text": "preserved thinking",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking"
+        },
+        {
+          "text": "constitutional classifiers research",
+          "href": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+        },
+        {
+          "text": "resumed charging for requests",
+          "href": "https://x.com/ClaudeDevs/status/2103170368794185758"
+        }
+      ],
+      "word_count": 1930,
+      "duration": 908.303673,
+      "bytes": 8049136,
+      "episode": 80,
+      "created": "2026-10-13T20:53:42+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg"
     }
   ],
-  "next_episode": 80,
+  "next_episode": 81,
   "baseline_date": "2026-08-14"
 }
