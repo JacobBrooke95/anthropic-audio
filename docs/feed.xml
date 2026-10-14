@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 19:24:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 23:19:16 +0000</lastBuildDate>
     <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -77,6 +77,74 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>81</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-singapore-office-opening.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-singapore-office-opening.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Preparing for the 2026 US midterms</title>
+      <itunes:title>News: Preparing for the 2026 US midterms</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-2026-us-midterms/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/2026-us-midterms</guid>
+      <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+
+Source: https://www.anthropic.com/news/2026-us-midterms
+Published October 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• update on our election safeguards: https://www.anthropic.com/news/election-safeguards-update
+• increase: https://www.anthropic.com/news/elections-ai-2024
+• election integrity policies: https://www.anthropic.com/legal/aup
+• a privacy-preserving method: https://www.anthropic.com/research/clio
+• Democracy Works: https://www.democracy.works/
+• political evenhandedness evaluation: https://www.anthropic.com/news/political-even-handedness
+• The Future of Free Speech: https://futurefreespeech.org/
+• Foundation for American Innovation: https://www.thefai.org/
+• Collective Intelligence Project: https://www.cip.org/
+• announced: https://www.anthropic.com/news/2026-usage-policy-update
+• published a guide: https://cdn.sanity.io/files/4zrzovbb/website/027b10ca405e9bb66b98c88d911b4b21a0b70123.pdf
+• Institute for Strategic Dialogue: https://www.isdglobal.org/
+• McCain Institute: https://www.mccaininstitute.org/
+• examples: https://www.anthropic.com/research/investigating-unintended-model-actions
+• threat intelligence report: https://www.anthropic.com/threat-intelligence-report-september-2026
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-2026-us-midterms/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/2026-us-midterms">https://www.anthropic.com/news/2026-us-midterms</a><br/><strong>Published:</strong> October 14, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Policy<br/><strong>Length:</strong> 1,576 words · 12 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/election-safeguards-update">update on our election safeguards</a></li><li><a href="https://www.anthropic.com/news/elections-ai-2024">increase</a></li><li><a href="https://www.anthropic.com/legal/aup">election integrity policies</a></li><li><a href="https://www.anthropic.com/research/clio">a privacy-preserving method</a></li><li><a href="https://www.democracy.works/">Democracy Works</a></li><li><a href="https://www.anthropic.com/news/political-even-handedness">political evenhandedness evaluation</a></li><li><a href="https://futurefreespeech.org/">The Future of Free Speech</a></li><li><a href="https://www.thefai.org/">Foundation for American Innovation</a></li><li><a href="https://www.cip.org/">Collective Intelligence Project</a></li><li><a href="https://www.anthropic.com/news/2026-usage-policy-update">announced</a></li><li><a href="https://cdn.sanity.io/files/4zrzovbb/website/027b10ca405e9bb66b98c88d911b4b21a0b70123.pdf">published a guide</a></li><li><a href="https://www.isdglobal.org/">Institute for Strategic Dialogue</a></li><li><a href="https://www.mccaininstitute.org/">McCain Institute</a></li><li><a href="https://www.anthropic.com/research/investigating-unintended-model-actions">examples</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">threat intelligence report</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-2026-us-midterms/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-14-2026-us-midterms.mp3" length="7047669" type="audio/mpeg"/>
+      <itunes:duration>778</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-14-2026-us-midterms.jpg?v=77163bb5"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-2026-us-midterms.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-14-2026-us-midterms.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.</itunes:subtitle>
+      <itunes:summary>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+
+Source: https://www.anthropic.com/news/2026-us-midterms
+Published October 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• update on our election safeguards: https://www.anthropic.com/news/election-safeguards-update
+• increase: https://www.anthropic.com/news/elections-ai-2024
+• election integrity policies: https://www.anthropic.com/legal/aup
+• a privacy-preserving method: https://www.anthropic.com/research/clio
+• Democracy Works: https://www.democracy.works/
+• political evenhandedness evaluation: https://www.anthropic.com/news/political-even-handedness
+• The Future of Free Speech: https://futurefreespeech.org/
+• Foundation for American Innovation: https://www.thefai.org/
+• Collective Intelligence Project: https://www.cip.org/
+• announced: https://www.anthropic.com/news/2026-usage-policy-update
+• published a guide: https://cdn.sanity.io/files/4zrzovbb/website/027b10ca405e9bb66b98c88d911b4b21a0b70123.pdf
+• Institute for Strategic Dialogue: https://www.isdglobal.org/
+• McCain Institute: https://www.mccaininstitute.org/
+• examples: https://www.anthropic.com/research/investigating-unintended-model-actions
+• threat intelligence report: https://www.anthropic.com/threat-intelligence-report-september-2026
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-2026-us-midterms/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>82</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-2026-us-midterms.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-2026-us-midterms.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: AI models may be capable of self-replicating without access to a datacenter</title>

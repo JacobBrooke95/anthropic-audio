@@ -4959,6 +4959,14 @@
       "updated": "2026-10-14T19:24:34+00:00",
       "slug": "news-2026-10-14-singapore-office-opening",
       "episode": 81
+    },
+    "https://www.anthropic.com/news/2026-us-midterms": {
+      "first_seen": "2026-10-14T23:19:16+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-14T23:19:16+00:00",
+      "slug": "news-2026-10-14-2026-us-midterms",
+      "episode": 82
     }
   },
   "episodes": [
@@ -9609,8 +9617,86 @@
       "episode": 81,
       "created": "2026-10-14T19:24:34+00:00",
       "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive"
+    },
+    {
+      "slug": "news-2026-10-14-2026-us-midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "source": "news",
+      "title": "Preparing for the 2026 US midterms",
+      "subtitle": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+      "date": "2026-10-14T16:00:00+00:00",
+      "authors": [],
+      "category": "Policy",
+      "links": [
+        {
+          "text": "update on our election safeguards",
+          "href": "https://www.anthropic.com/news/election-safeguards-update"
+        },
+        {
+          "text": "increase",
+          "href": "https://www.anthropic.com/news/elections-ai-2024"
+        },
+        {
+          "text": "election integrity policies",
+          "href": "https://www.anthropic.com/legal/aup"
+        },
+        {
+          "text": "a privacy-preserving method",
+          "href": "https://www.anthropic.com/research/clio"
+        },
+        {
+          "text": "Democracy Works",
+          "href": "https://www.democracy.works/"
+        },
+        {
+          "text": "political evenhandedness evaluation",
+          "href": "https://www.anthropic.com/news/political-even-handedness"
+        },
+        {
+          "text": "The Future of Free Speech",
+          "href": "https://futurefreespeech.org/"
+        },
+        {
+          "text": "Foundation for American Innovation",
+          "href": "https://www.thefai.org/"
+        },
+        {
+          "text": "Collective Intelligence Project",
+          "href": "https://www.cip.org/"
+        },
+        {
+          "text": "announced",
+          "href": "https://www.anthropic.com/news/2026-usage-policy-update"
+        },
+        {
+          "text": "published a guide",
+          "href": "https://cdn.sanity.io/files/4zrzovbb/website/027b10ca405e9bb66b98c88d911b4b21a0b70123.pdf"
+        },
+        {
+          "text": "Institute for Strategic Dialogue",
+          "href": "https://www.isdglobal.org/"
+        },
+        {
+          "text": "McCain Institute",
+          "href": "https://www.mccaininstitute.org/"
+        },
+        {
+          "text": "examples",
+          "href": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+        },
+        {
+          "text": "threat intelligence report",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        }
+      ],
+      "word_count": 1576,
+      "duration": 778.213878,
+      "bytes": 7047669,
+      "episode": 82,
+      "created": "2026-10-14T23:19:16+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg"
     }
   ],
-  "next_episode": 82,
+  "next_episode": 83,
   "baseline_date": "2026-08-14"
 }

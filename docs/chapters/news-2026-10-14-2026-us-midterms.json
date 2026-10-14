@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 49.06,
+   "title": "How people use Claude for elections and politics"
+  },
+  {
+   "startTime": 205.73,
+   "title": "Connecting people to trusted sources"
+  },
+  {
+   "startTime": 276.07,
+   "title": "Measuring and preventing political bias"
+  },
+  {
+   "startTime": 462.17,
+   "title": "How we define misuse"
+  },
+  {
+   "startTime": 534.2,
+   "title": "Testing and strengthening our defenses"
+  },
+  {
+   "startTime": 645.57,
+   "title": "What we've found"
+  },
+  {
+   "startTime": 714.2,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 756.09,
+   "title": "Outro"
+  }
+ ]
+}

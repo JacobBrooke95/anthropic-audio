@@ -1,0 +1,217 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.225
+This is Anthropic, Read Aloud. Today: Preparing for the 2026 U S midterms.
+
+2
+00:00:09.525 --> 00:00:12.726
+Preparing for the 2026 U S midterms.
+
+3
+00:00:13.176 --> 00:00:22.727
+Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s U S midterms.
+
+4
+00:00:23.177 --> 00:00:27.785
+From Anthropic Newsroom, published October 14, 2026.
+
+5
+00:00:28.785 --> 00:00:40.179
+Earlier this year, we shared an update on our election safeguards, which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information.
+
+6
+00:00:40.629 --> 00:00:48.256
+Below, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s U S midterms.
+
+7
+00:00:49.056 --> 00:00:51.896
+How people use Claude for elections and politics.
+
+8
+00:00:52.346 --> 00:01:13.809
+Our goal is for Claude to be a useful tool for political conversations, while preventing election-related abuse. That starts with understanding how people actually use Claude in these contexts. To do this, we used Anthropic Insights to develop a new analysis of 250000 conversations over the course of a recent one-week period. 1
+
+9
+00:01:14.259 --> 00:01:38.686
+Today, conversations that touch broadly on politics, public policy, or social issues account for about 5.75 percent of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services.
+
+10
+00:01:38.806 --> 00:01:51.618
+About 0.51 percent of all conversations are specifically about elections or voting. As we get closer to Election Day, we expect the share of political and election-related queries to increase.
+
+11
+00:01:52.068 --> 00:02:12.197
+This sample suggests people rarely ask Claude whom or what to vote for. These kinds of requests showed up in about 0.01 percent of U S Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue.
+
+12
+00:02:12.317 --> 00:02:22.539
+Requests that violated our election integrity policies were even less common, appearing in about 0.002 percent of conversations. 2
+
+13
+00:02:22.989 --> 00:02:48.284
+Figure 1: How many U S Claude.ai conversations touch on politics, are about elections, or ask Claude whom or what to vote for. Each dot represents 1 in every 10000 conversations in a random sample of about 250000 U S Claude.ai consumer conversations from September 21 to 27, 2026, which Claude classified using a privacy-preserving method.
+
+14
+00:02:48.404 --> 00:03:03.854
+Because requests for a recommendation on whom or what to vote for are so rare, we show the upper end of a 95 percent confidence interval for that group. Examples are illustrative only. Most of the requests we see are informational in nature.
+
+15
+00:03:03.974 --> 00:03:14.257
+People turn to Claude to make sense of geopolitical events, research candidates, draft documents, assist with coursework, and weigh arguments for and against policies.
+
+16
+00:03:14.707 --> 00:03:24.925
+Figure 2: What people ask Claude for in political conversations. Conversations were clustered in a privacy-preserving, bottom-up manner through Anthropic Insights.
+
+17
+00:03:25.725 --> 00:03:27.898
+Connecting people to trusted sources.
+
+18
+00:03:28.348 --> 00:03:49.532
+Ahead of Election Day, we've added two ways for people to get reliable information directly in their conversations with Claude. As we shared in April, when people ask Claude.ai about voter registration, polling places, or election dates, we’ll continue to display a banner linking to TurboVote, a nonpartisan resource from Democracy Works.
+
+19
+00:03:49.982 --> 00:04:08.200
+Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the U S. Someone asking where to vote or what I D to bring to their polling place will now get an answer specific to their state, without leaving the conversation.
+
+20
+00:04:08.320 --> 00:04:15.936
+These responses draw on publicly available information that Democracy Works collects from state and local election sources.
+
+21
+00:04:16.386 --> 00:04:20.858
+Figure 3: Official voting information presented by Democracy Works.
+
+22
+00:04:21.308 --> 00:04:35.273
+Additionally, Claude will begin showing up-to-date results on election night and in the days that follow, so that when people ask for current vote counts or election results, they'll be shown the latest official numbers directly in their conversation.
+
+23
+00:04:36.073 --> 00:04:38.483
+Measuring and preventing political bias.
+
+24
+00:04:38.933 --> 00:05:03.331
+When people ask Claude about politics, they should get accurate and evenhanded answers that don't favor any particular political viewpoint. That’s why we test our models extensively for political bias before every model launch. Claude Opus 5.5, Sonnet 5.5, and Haiku 5.5 are our most evenhanded to date, scoring 99 percent on our political evenhandedness evaluation.
+
+25
+00:05:03.451 --> 00:05:21.283
+Our latest models also engage more readily with political discussions and decline fewer requests, so people can get the information they came for. We're continuing to refine these evaluations, and also looking beyond them for new ways to pressure-test how our models handle political topics.
+
+26
+00:05:21.733 --> 00:05:30.722
+As part of that effort, we asked three independent groups to review how Claude handles free expression, each from a different angle with different methodologies.
+
+27
+00:05:30.842 --> 00:05:50.682
+The Future of Free Speech, an independent think tank at Vanderbilt University, tested Claude on hundreds of requests on contentious topics, and the Foundation for American Innovation compared how Claude responded to matched prompts from the left and right, ranging from mainstream policy debates to more extreme scenarios.
+
+28
+00:05:50.802 --> 00:06:06.915
+On both of these evaluations, most of the responses were rated as strong, engaging substantively with requests. The Collective Intelligence Project surveyed more than 2000 people in the U S, U K, and India in developing an evaluation.
+
+29
+00:06:07.035 --> 00:06:28.453
+Through a three-stage process, participants proposed principles for handling sensitive topics, ranging from health to politics, identified topics to test, and helped develop criteria for judging model responses. CIP synthesized this input and tested for agreement across demographic and cultural groups to establish shared principles.
+
+30
+00:06:28.903 --> 00:06:48.508
+These evaluations also identified areas where Claude still falls short. The Future of Free Speech and the Collective Intelligence Project both found that Claude rarely refused requests, but sometimes added unsolicited caveats and counterarguments, such as inserting an opposing view into an advocacy email.
+
+31
+00:06:48.628 --> 00:06:59.378
+And the Foundation for American Innovation found that Claude Sonnet 4.5 didn’t always hedge evenly, and was more likely to soften arguments for right-leaning positions.
+
+32
+00:06:59.828 --> 00:07:20.900
+We're addressing this in a few ways. We've improved how Claude responds to direct yes-or-no questions and requests for shorter answers, where we found its answers could be less balanced. We're also using these findings to improve when and how Claude adds caveats or counterarguments, so it treats requests from across the political spectrum more consistently.
+
+33
+00:07:21.020 --> 00:07:41.372
+And we're continuing to improve how we test for uneven hedging, building on existing evaluations that use matched prompts from the left and right. More broadly, we're working to expand our political bias evaluations to better reflect real conversations and to cover candidates and voting questions as well as policy issues.
+
+34
+00:07:42.172 --> 00:07:43.521
+How we define misuse.
+
+35
+00:07:43.971 --> 00:08:03.769
+Our Usage Policy prohibits using Claude to deceive voters or disrupt elections, from spreading false information about candidates or how to vote, to impersonating election officials or trying to suppress turnout. Each year, we update the policy to reflect our models’ evolving capabilities and feedback from our customers.
+
+36
+00:08:03.889 --> 00:08:14.104
+This year’s update, which we announced last week, clarifies what our election rules cover and what they don't, and adds new examples to help people understand where the lines fall.
+
+37
+00:08:14.554 --> 00:08:36.677
+We know many political campaigns use Claude for legitimate, everyday tasks, so we recently published a guide to help them understand where these policies apply. It covers the many ways campaigns can put Claude to work, such as drafting press statements and fundraising emails, prepping for debates, analyzing turnout data, and building voter outreach materials.
+
+38
+00:08:36.797 --> 00:08:53.399
+It also spells out what’s prohibited, such as using Claude to create fake social media profiles that pose as real people, mass-producing comments to inflate a campaign’s engagement, or writing content for news sites and pages that falsely claim to be independent.
+
+39
+00:08:54.199 --> 00:08:56.254
+Testing and strengthening our defenses.
+
+40
+00:08:56.704 --> 00:09:16.867
+We deploy automated classifiers that are trained to detect election-related abuse. To see how these safeguards hold up in practice, we partnered with the Institute for Strategic Dialogue (ISD) and the McCain Institute, both independent research organizations, to pressure-test our protections in the U S, Israel, and Brazil.
+
+41
+00:09:16.987 --> 00:09:37.108
+Analysts tested whether Claude would assist with deceptive campaigning, misinformation, and other forms of election abuse. They began with direct requests, then broke full campaigns into smaller tasks that could look harmless on their own, such as audience research, building news sites, drafting content, and planning its distribution.
+
+42
+00:09:37.228 --> 00:09:48.191
+They found that Claude reliably refused a single harmful request, but could miss a malicious campaign when it was spread across many individual requests that looked harmless on their own.
+
+43
+00:09:48.641 --> 00:10:05.559
+Building on these findings and our own, we've added new classifiers to better identify novel and multi-step misuse, including attempts to build fake social media accounts and news sites aimed at political discussions, or to run financially motivated election schemes.
+
+44
+00:10:05.679 --> 00:10:26.048
+We also enhanced our ability to detect election-related misuse by foreign state actors, and strengthened our cyber protections for election infrastructure and campaigns. Finally, we built targeted safeguards for localized risks identified in the U S, Israel, and Brazil, which all have major national elections this year.
+
+45
+00:10:26.498 --> 00:10:44.771
+Our threat intelligence and enforcement teams review flagged activity and take action when they confirm a violation, including banning accounts. We also routinely share examples of unintended model actions or behavior we've observed during our evaluations and internal use of Claude.
+
+46
+00:10:45.571 --> 00:10:46.448
+What we've found.
+
+47
+00:10:46.898 --> 00:11:06.695
+Our recent threat intelligence report reflects a broader shift in election-related abuse trends. Political, state-aligned, and commercial actors are now incorporating A I into nearly every aspect of their influence operations, from planning and content creation to building platforms used to disseminate a message.
+
+48
+00:11:06.815 --> 00:11:15.204
+Because we see these early stages of an operation happening on Claude, we often have a chance to stop these efforts before they ever reach the public.
+
+49
+00:11:15.654 --> 00:11:33.467
+Our teams have continued to investigate and prevent coordinated abuse around elections, including the U S midterms. In one case, foreign-based operators of a fake news site used Claude to produce U S midterm coverage favoring Russian, Iranian, and North Korean narratives.
+
+50
+00:11:33.587 --> 00:11:53.402
+We've also observed threat actors seeking to exploit the election for financial gain, using Claude to produce fabricated news and other content designed to attract American audiences and generate advertising revenue. We banned the accounts involved in these cases and improved our ability to detect this type of abuse.
+
+51
+00:11:54.202 --> 00:11:55.079
+Looking ahead.
+
+52
+00:11:55.529 --> 00:12:16.521
+More people are turning to Claude for information about this year’s elections than ever before. We have a responsibility to make sure the answers they get are accurate and balanced, and that Claude isn’t used to undermine the democratic process. We’ll continue to invest in making Claude more evenhanded, preventing and addressing misuse, and being transparent in our actions.
+
+53
+00:12:16.641 --> 00:12:35.094
+This work will be critical in the upcoming U S midterms and extends to elections around the world as well. In the coming months, we also hope to share a more comprehensive look at how people used Claude throughout the election cycle, with the goal of strengthening our election-related evaluations and safeguards.
+
+54
+00:12:36.094 --> 00:12:54.228
+That was Preparing for the 2026 U S midterms, from Anthropic Newsroom, published October 14, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
