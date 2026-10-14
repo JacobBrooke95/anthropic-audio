@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 90.58,
+   "title": "Supporting responsible A I in Singapore"
+  },
+  {
+   "startTime": 247.58,
+   "title": "How Singapore is working with Claude"
+  },
+  {
+   "startTime": 369.57,
+   "title": "Building with the developer community"
+  },
+  {
+   "startTime": 404.68,
+   "title": "Outro"
+  }
+ ]
+}

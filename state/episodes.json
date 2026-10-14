@@ -4951,6 +4951,14 @@
       "updated": "2026-10-13T20:53:42+00:00",
       "slug": "research-2026-10-12-distillation-defenses",
       "episode": 80
+    },
+    "https://www.anthropic.com/news/singapore-office-opening": {
+      "first_seen": "2026-10-14T19:24:34+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-14T19:24:34+00:00",
+      "slug": "news-2026-10-14-singapore-office-opening",
+      "episode": 81
     }
   },
   "episodes": [
@@ -9559,8 +9567,50 @@
       "episode": 80,
       "created": "2026-10-13T20:53:42+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg"
+    },
+    {
+      "slug": "news-2026-10-14-singapore-office-opening",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source": "news",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "subtitle": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+      "date": "2026-10-14T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "Generative AI Evaluation Sandbox",
+          "href": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2023/generative-ai-evaluation-sandbox"
+        },
+        {
+          "text": "red-teaming project",
+          "href": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems"
+        },
+        {
+          "text": "Anthropic Economic Index",
+          "href": "https://www.anthropic.com/economic-index#global-usage"
+        },
+        {
+          "text": "Economic Index",
+          "href": "https://www.anthropic.com/economic-index#country-usage"
+        },
+        {
+          "text": "in-region inference",
+          "href": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/"
+        },
+        {
+          "text": "careers page",
+          "href": "https://www.anthropic.com/careers/jobs?office=4063231008"
+        }
+      ],
+      "word_count": 859,
+      "duration": 429.00898,
+      "bytes": 4225230,
+      "episode": 81,
+      "created": "2026-10-14T19:24:34+00:00",
+      "hero": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive"
     }
   ],
-  "next_episode": 81,
+  "next_episode": 82,
   "baseline_date": "2026-08-14"
 }

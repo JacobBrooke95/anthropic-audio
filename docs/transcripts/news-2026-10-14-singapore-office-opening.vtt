@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:10.112
+This is Anthropic, Read Aloud. Today: Anthropic opens Singapore office and signs MOU with the Government of Singapore.
+
+2
+00:00:11.412 --> 00:00:16.741
+Anthropic opens Singapore office and signs MOU with the Government of Singapore.
+
+3
+00:00:17.191 --> 00:00:27.308
+Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on A I safety, evaluation, and responsible adoption.
+
+4
+00:00:27.758 --> 00:00:32.366
+From Anthropic Newsroom, published October 14, 2026.
+
+5
+00:00:33.366 --> 00:00:47.654
+Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore, our fifth in the region, and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information.
+
+6
+00:00:47.774 --> 00:01:08.405
+Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTech Singapore, Grab, and DBS. Our growing local team will ensure these organizations and many more stay on the frontier with safe, capable A I.
+
+7
+00:01:08.855 --> 00:01:29.779
+“We’re committed to Singapore for the long term,” said Dale Finlay, General Manager of ASEAN at Anthropic. “Our customers here hold A I to an extremely high standard, especially when it comes to reliability and security. Having a team on the ground means we can get even closer to the organizations putting Claude to work on their hardest problems.”
+
+8
+00:01:30.579 --> 00:01:33.098
+Supporting responsible A I in Singapore.
+
+9
+00:01:33.548 --> 00:01:55.028
+Kai Fong Chng, Permanent Secretary of the Ministry of Digital Development and Information, and Anthropic co-founder Ben Mann signed the MOU on the sidelines of Singapore International Cyber Week. Minister for Digital Development and Information Josephine Teo and Michael Sellitto, Anthropic Head of APAC Policy, witnessed the signing.
+
+10
+00:01:55.148 --> 00:02:07.372
+It sets out areas of cooperation in A I safety, security, and model evaluation; research on A I adoption and its impact; and responsible adoption across the public and private sectors.
+
+11
+00:02:07.822 --> 00:02:30.256
+“Singapore has been a leader in responsible A I, with a long track record of investment in model testing and evaluation,” said Mann. “We founded Anthropic on the belief that capability and safety have to go hand in hand. With this MOU, we’ll partner with Singapore to help ensure the transition to powerful A I goes well here, across Asia-Pacific, and around the world.”
+
+12
+00:02:30.706 --> 00:02:44.572
+“Singapore’s approach to A I has always been to enable innovation while keeping pace with its evolving risks. Trust is critical for businesses, workers, and the public to use A I with confidence,” said Chng.
+
+13
+00:02:44.692 --> 00:02:57.417
+“This partnership with Anthropic reflects the Government’s commitment to scaling up the responsible adoption of A I, deepening capabilities in our companies and government agencies, and delivering impact for Singapore.”
+
+14
+00:02:57.867 --> 00:03:15.894
+Our work with Singapore goes back to 2023, when we joined the Generative A I Evaluation Sandbox run by the Infocomm Media Development Authority and the A I Verify Foundation. We later partnered with them on a red-teaming project in English, Mandarin, Malay, and Tamil.
+
+15
+00:03:16.344 --> 00:03:28.376
+Under the MOU, we plan to hold technical exchanges with Singapore’s A I safety, security, and assurance institutions on model evaluation, testing standards, and incident response.
+
+16
+00:03:28.496 --> 00:03:41.445
+We do similar work with safety institutes around the world, where sharing technical information provides governments with a clearer view of frontier A I capabilities and risks, while helping developers build safer models.
+
+17
+00:03:41.895 --> 00:03:55.245
+We’ll also look for ways to strengthen A I skills in Singapore, help small and medium-sized businesses adopt A I responsibly, and support the government’s goal of building A I capability among public officers.
+
+18
+00:03:55.365 --> 00:04:06.777
+We plan to share research and data with the government, including from the Anthropic Economic Index, and to offer technical and policy expertise as Singapore develops its rules for A I.
+
+19
+00:04:07.577 --> 00:04:09.537
+How Singapore is working with Claude.
+
+20
+00:04:09.987 --> 00:04:22.324
+In our latest Economic Index, Singapore ranks second of 121 countries in Claude.ai usage relative to its population, at nearly six times what its size alone would predict.
+
+21
+00:04:22.774 --> 00:04:45.901
+In the public sector, more than 1500 engineers and technical staff at the Government Technology Agency of Singapore (GovTech Singapore) have adopted Claude Code to modernize government systems and speed up software delivery. This has helped GovTech Singapore teams build, maintain, and enhance digital services more efficiently at national scale.
+
+22
+00:04:46.021 --> 00:04:52.435
+The Cyber Security Agency of Singapore is exploring how Claude could help strengthen the country’s cyber defense.
+
+23
+00:04:52.885 --> 00:05:13.551
+In financial services, DBS, Southeast Asia’s largest bank, works with Claude across a range of use cases in its Singapore operations, including software development and day-to-day productivity, as part of its broader A I innovation efforts. These applications operate within the bank’s strict security and governance framework.
+
+24
+00:05:13.671 --> 00:05:32.167
+GIC, Singapore’s sovereign wealth fund, is rolling out Claude across its investment and corporate services teams. Organizations in regulated sectors like financial services can now run Claude with in-region inference on Amazon Bedrock, helping them meet strict data processing requirements.
+
+25
+00:05:32.617 --> 00:05:49.545
+Singapore’s largest technology companies and startups are building with Claude too. Grab powers BriX, its sales assistant, with Claude. The assistant saves Grab’s sales teams approximately 40000 hours every quarter and surfaces new sales opportunities.
+
+26
+00:05:49.665 --> 00:06:08.771
+Sea, the business behind Shopee, Garena, and Monee, works with Claude to help Shopee’s customer service chatbot respond faster and more accurately, and thousands of its employees write and debug code with Claude. And Supabase, the developer platform with strong roots in Singapore, is building with Claude Code.
+
+27
+00:06:09.571 --> 00:06:11.634
+Building with the developer community.
+
+28
+00:06:12.084 --> 00:06:20.335
+This week, senior leaders from Anthropic are in Singapore to open the office and meet with customers, developers, and policymakers.
+
+29
+00:06:20.785 --> 00:06:36.474
+Today, we hosted Builder Summit Singapore, bringing more than 300 developers together with engineering and product leaders from Anthropic. Earlier in the week, Singapore’s Claude community ambassadors held a meetup for more than 700 local builders.
+
+30
+00:06:36.924 --> 00:06:43.678
+Our Singapore office is now open and hiring. To learn more about joining the team, visit our careers page.
+
+31
+00:06:44.678 --> 00:07:05.016
+That was Anthropic opens Singapore office and signs MOU with the Government of Singapore, from Anthropic Newsroom, published October 14, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

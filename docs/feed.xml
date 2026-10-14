@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 20:53:43 +0000</lastBuildDate>
-    <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Oct 2026 19:24:35 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,56 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Anthropic opens Singapore office and signs MOU with the Government of Singapore</title>
+      <itunes:title>News: Anthropic opens Singapore office and signs MOU with the Government of Singapore</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-singapore-office-opening/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/singapore-office-opening</guid>
+      <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.
+
+Source: https://www.anthropic.com/news/singapore-office-opening
+Published October 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Generative AI Evaluation Sandbox: https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2023/generative-ai-evaluation-sandbox
+• red-teaming project: https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems
+• Anthropic Economic Index: https://www.anthropic.com/economic-index#global-usage
+• Economic Index: https://www.anthropic.com/economic-index#country-usage
+• in-region inference: https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/
+• careers page: https://www.anthropic.com/careers/jobs?office=4063231008
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-singapore-office-opening/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/singapore-office-opening">https://www.anthropic.com/news/singapore-office-opening</a><br/><strong>Published:</strong> October 14, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 859 words · 7 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2023/generative-ai-evaluation-sandbox">Generative AI Evaluation Sandbox</a></li><li><a href="https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems">red-teaming project</a></li><li><a href="https://www.anthropic.com/economic-index#global-usage">Anthropic Economic Index</a></li><li><a href="https://www.anthropic.com/economic-index#country-usage">Economic Index</a></li><li><a href="https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/">in-region inference</a></li><li><a href="https://www.anthropic.com/careers/jobs?office=4063231008">careers page</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-singapore-office-opening/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-14-singapore-office-opening.mp3" length="4225230" type="audio/mpeg"/>
+      <itunes:duration>429</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-14-singapore-office-opening.jpg?v=f5d216e3"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-singapore-office-opening.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-14-singapore-office-opening.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</itunes:subtitle>
+      <itunes:summary>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.
+
+Source: https://www.anthropic.com/news/singapore-office-opening
+Published October 14, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Generative AI Evaluation Sandbox: https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2023/generative-ai-evaluation-sandbox
+• red-teaming project: https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems
+• Anthropic Economic Index: https://www.anthropic.com/economic-index#global-usage
+• Economic Index: https://www.anthropic.com/economic-index#country-usage
+• in-region inference: https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/
+• careers page: https://www.anthropic.com/careers/jobs?office=4063231008
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-14-singapore-office-opening/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>81</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-singapore-office-opening.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-singapore-office-opening.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: AI models may be capable of self-replicating without access to a datacenter</title>
       <itunes:title>Research: AI models may be capable of self-replicating without access to a datacenter</itunes:title>
