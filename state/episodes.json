@@ -4967,6 +4967,14 @@
       "updated": "2026-10-14T23:19:16+00:00",
       "slug": "news-2026-10-14-2026-us-midterms",
       "episode": 82
+    },
+    "https://www.anthropic.com/news/an-update-on-independent-evaluators": {
+      "first_seen": "2026-10-15T19:10:53+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-15T19:10:53+00:00",
+      "slug": "news-2026-10-15-an-update-on-independent-evaluators",
+      "episode": 83
     }
   },
   "episodes": [
@@ -9695,8 +9703,66 @@
       "episode": 82,
       "created": "2026-10-14T23:19:16+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg"
+    },
+    {
+      "slug": "news-2026-10-15-an-update-on-independent-evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source": "news",
+      "title": "An update on independent evaluators",
+      "subtitle": "Anthropic announces updates to embedding independent evaluators",
+      "date": "2026-10-15T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "stronger independent, third-party assessment",
+          "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "text": "METR",
+          "href": "https://metr.org/"
+        },
+        {
+          "text": "several reviews of our Risk Reports",
+          "href": "https://metr.org/risk-assessment/"
+        },
+        {
+          "text": "SecureBio",
+          "href": "https://securebio.org/"
+        },
+        {
+          "text": "Accenture",
+          "href": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "text": "Hugging Face",
+          "href": "https://huggingface.co/"
+        },
+        {
+          "text": "alignment faking",
+          "href": "https://www.anthropic.com/research/alignment-faking"
+        },
+        {
+          "text": "robust safety oversight",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf"
+        },
+        {
+          "text": "August Risk Report",
+          "href": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf"
+        },
+        {
+          "text": "publishing a pilot review",
+          "href": "https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf"
+        }
+      ],
+      "word_count": 912,
+      "duration": 415.268571,
+      "bytes": 4059480,
+      "episode": 83,
+      "created": "2026-10-15T19:10:53+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg"
     }
   ],
-  "next_episode": 83,
+  "next_episode": 84,
   "baseline_date": "2026-08-14"
 }

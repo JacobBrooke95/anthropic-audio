@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.000
+This is Anthropic, Read Aloud. Today: An update on independent evaluators.
+
+2
+00:00:08.300 --> 00:00:10.612
+An update on independent evaluators.
+
+3
+00:00:11.062 --> 00:00:15.195
+Anthropic announces updates to embedding independent evaluators.
+
+4
+00:00:15.645 --> 00:00:20.181
+From Anthropic Newsroom, published October 15, 2026.
+
+5
+00:00:21.181 --> 00:00:36.945
+Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators.
+
+6
+00:00:37.065 --> 00:00:45.874
+Today, we’re announcing that we’ve started to give employee-like access to a team from METR, a nonprofit that evaluates frontier A I models.
+
+7
+00:00:46.324 --> 00:01:03.668
+METR will publish the results of its risk assessments. Over the past year, we’ve worked with METR on several reviews of our Risk Reports. We’re also working with SecureBio and Accenture as evaluators, and are in early discussions with several other organizations, including Hugging Face.
+
+8
+00:01:04.118 --> 00:01:07.171
+Here, we explain our approach to working with evaluators.
+
+9
+00:01:07.971 --> 00:01:10.254
+Why we work with independent evaluators.
+
+10
+00:01:10.704 --> 00:01:32.352
+As models have become more powerful, they’ve required stronger safeguards and more challenging risk assessments. We want to be publicly accountable for the decisions we’re making. But we can’t publicly share all the information relevant to our safety work. Some of it could be useful to malicious actors, or is commercially sensitive, like compute or training information.
+
+11
+00:01:32.472 --> 00:01:51.559
+Instead, we’re giving third-party evaluators deep access to our information, and are having them share evidence and reasoned conclusions about the risks involved in building our models. We aim to close the gap between what evaluators understand about a frontier A I company’s systems and what the company itself understands.
+
+12
+00:01:52.009 --> 00:01:55.568
+To evaluate frontier models, evaluators need the following:
+
+13
+00:01:56.018 --> 00:02:04.660
+Expertise in assessing the capabilities of frontier models, including understanding the way evaluations can go wrong, such as alignment faking.
+
+14
+00:02:04.900 --> 00:02:12.258
+Independence: they shouldn’t hold equity in the company they’re evaluating, or be financially or operationally dependent on it.
+
+15
+00:02:12.498 --> 00:02:24.905
+Enough access to meaningfully evaluate risks. Beyond access to the latest models, evaluators also need visibility into how those models were trained, into how our safeguards function, and more.
+
+16
+00:02:25.145 --> 00:02:29.503
+Freedom to publish observations and assessments of a model or a process.
+
+17
+00:02:29.953 --> 00:02:48.891
+Although the analogy isn’t exact, bank supervision operates on similar logic. Banks know more about their own risk positions than outsiders do, so regulators assign resident examiners to work inside the largest banks. If a bank’s risk-taking could threaten the public, third parties try to see that in advance.
+
+18
+00:02:49.341 --> 00:03:02.364
+For the A I industry, this is a step toward robust safety oversight. We’re moving quickly with multiple evaluators and learning actively about what kinds of partnership work. We’re committed to sharing updates as we go.
+
+19
+00:03:03.164 --> 00:03:05.335
+What we mean by “employee-like access”.
+
+20
+00:03:05.785 --> 00:03:17.655
+We’ve onboarded six METR employees with company hardware, office space, and access to internal tools and systems that are roughly on par with what our own risk assessment teams have access to.
+
+21
+00:03:17.775 --> 00:03:37.145
+Outside a small number of clearly defined categories (for example, data about customers, attorney-client privileged information, or information about our model architectures), Anthropic employees are encouraged to share information with them just as they would with a fellow employee working on alignment risk. 1
+
+22
+00:03:37.595 --> 00:03:52.187
+METR will publish its analysis of our risk levels, incidents, or practices. Anthropic can’t veto publication, but we can require them to redact information if it falls into narrow, predefined categories like the ones above.
+
+23
+00:03:52.307 --> 00:04:02.646
+METR is free to characterize our redactions publicly, and say whether it believes the redactions were justified, as long as it does so without revealing the redacted information.
+
+24
+00:04:03.096 --> 00:04:23.256
+Our engagement with METR is limited to a small team operating under enforceable agreements. Other METR employees are siloed from that team’s work, including researchers who work with us on other projects. Embedded evaluation gives a few qualified people working under Anthropic’s security standards a close view of how we operate.
+
+25
+00:04:23.376 --> 00:04:29.883
+It’s not a way for other organizations to obtain our information, or that of our customers and partners.
+
+26
+00:04:30.683 --> 00:04:32.615
+Our other evaluator partnerships.
+
+27
+00:04:33.065 --> 00:04:44.991
+We’re working on several other partnerships. Because these other partnerships are still in early stages, we’re providing these evaluators with more limited information, and they have more limited publication rights.
+
+28
+00:04:45.111 --> 00:05:01.815
+Our goal with these early engagements is to make sure that our partners protect confidential information and have the requisite resources and expertise to evaluate our models. As partnerships progress and we build trust, we hope to fully embed more independent evaluators.
+
+29
+00:05:02.265 --> 00:05:14.526
+We’re developing three tiers of access for evaluators. Over time, we hope to have several evaluators at the third tier, with each team publishing their own analysis of our risk posture and key decisions.
+
+30
+00:05:14.976 --> 00:05:26.926
+In the first tier, evaluators conduct narrowly scoped risk investigations. We decide what access to provide a first-tier evaluator, and evaluators can publish their findings with our approval.
+
+31
+00:05:27.376 --> 00:05:42.625
+In the second tier, evaluators can publish without our approval, and they have access to more information. We can still require removal of specific categories of information, though evaluators can publish their views on whether our redactions were justified.
+
+32
+00:05:43.075 --> 00:05:51.616
+The third tier is the arrangement we’ve described with METR, with employee-like access and publication rights similar to those of the second tier.
+
+33
+00:05:52.066 --> 00:06:12.439
+SecureBio is currently in the first tier. It’s in the process of reviewing the chemical and biological weapons chapter of our August Risk Report, after completing and publishing a pilot review of our previous risk report. After this review is complete, we will consider moving to projects with increased access and publication rights.
+
+34
+00:06:12.889 --> 00:06:26.884
+With Accenture and Faculty, we're working toward an ambitious partnership that includes evaluating and red-teaming models, conducting alignment assessments, testing model safeguards, and building capabilities across our organizations.
+
+35
+00:06:27.334 --> 00:06:33.155
+We’re embedding evaluators voluntarily, and we believe every frontier A I company should do the same.
+
+36
+00:06:34.155 --> 00:06:51.268
+That was An update on independent evaluators, from Anthropic Newsroom, published October 15, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

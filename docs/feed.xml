@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 23:19:16 +0000</lastBuildDate>
-    <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2026 19:10:54 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,64 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: An update on independent evaluators</title>
+      <itunes:title>News: An update on independent evaluators</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-15-an-update-on-independent-evaluators/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
+      <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Anthropic announces updates to embedding independent evaluators
+
+Source: https://www.anthropic.com/news/an-update-on-independent-evaluators
+Published October 15, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• stronger independent, third-party assessment: https://darioamodei.com/post/we-must-pace-the-frontier
+• METR: https://metr.org/
+• several reviews of our Risk Reports: https://metr.org/risk-assessment/
+• SecureBio: https://securebio.org/
+• Accenture: https://www.anthropic.com/news/accenture-embedded-evaluation
+• Hugging Face: https://huggingface.co/
+• alignment faking: https://www.anthropic.com/research/alignment-faking
+• robust safety oversight: https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf
+• August Risk Report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+• publishing a pilot review: https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-15-an-update-on-independent-evaluators/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic announces updates to embedding independent evaluators</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/an-update-on-independent-evaluators">https://www.anthropic.com/news/an-update-on-independent-evaluators</a><br/><strong>Published:</strong> October 15, 2026 · Anthropic Newsroom<br/><strong>Category:</strong> Announcements<br/><strong>Length:</strong> 912 words · 6 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://darioamodei.com/post/we-must-pace-the-frontier">stronger independent, third-party assessment</a></li><li><a href="https://metr.org/">METR</a></li><li><a href="https://metr.org/risk-assessment/">several reviews of our Risk Reports</a></li><li><a href="https://securebio.org/">SecureBio</a></li><li><a href="https://www.anthropic.com/news/accenture-embedded-evaluation">Accenture</a></li><li><a href="https://huggingface.co/">Hugging Face</a></li><li><a href="https://www.anthropic.com/research/alignment-faking">alignment faking</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf">robust safety oversight</a></li><li><a href="https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf">August Risk Report</a></li><li><a href="https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf">publishing a pilot review</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-15-an-update-on-independent-evaluators/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-15-an-update-on-independent-evaluators.mp3" length="4059480" type="audio/mpeg"/>
+      <itunes:duration>415</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-15-an-update-on-independent-evaluators.jpg?v=e0cab586"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-15-an-update-on-independent-evaluators.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-15-an-update-on-independent-evaluators.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic announces updates to embedding independent evaluators</itunes:subtitle>
+      <itunes:summary>Anthropic announces updates to embedding independent evaluators
+
+Source: https://www.anthropic.com/news/an-update-on-independent-evaluators
+Published October 15, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• stronger independent, third-party assessment: https://darioamodei.com/post/we-must-pace-the-frontier
+• METR: https://metr.org/
+• several reviews of our Risk Reports: https://metr.org/risk-assessment/
+• SecureBio: https://securebio.org/
+• Accenture: https://www.anthropic.com/news/accenture-embedded-evaluation
+• Hugging Face: https://huggingface.co/
+• alignment faking: https://www.anthropic.com/research/alignment-faking
+• robust safety oversight: https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf
+• August Risk Report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+• publishing a pilot review: https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-15-an-update-on-independent-evaluators/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>83</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-15-an-update-on-independent-evaluators.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-15-an-update-on-independent-evaluators.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Anthropic opens Singapore office and signs MOU with the Government of Singapore</title>
       <itunes:title>News: Anthropic opens Singapore office and signs MOU with the Government of Singapore</itunes:title>
