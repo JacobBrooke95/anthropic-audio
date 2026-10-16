@@ -1,0 +1,23 @@
+Working at the frontier shapes expectations for the future.
+
+From Anthropic Research, published October 16, 2026.
+
+We’re sharing two reports: the first covers how A I is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect A I to affect work and the economy.
+
+Anthropic staff and U S workers don’t seem to have different theories about how A I affects jobs. Instead, they have different experiences of what A I capabilities are. Those different experiences seem closely related to perceptions about what will happen to work in the future.
+
+Anthropic is a company at the frontier of A I adoption, and that adoption has changed the way we hire. We find that over the past year, we're hiring for a smaller share of junior positions, and a smaller share of our employees work in technical roles. At the same time, the rate of hours worked by A I agents has shot up. By March 2026, agents worked more hours than employees. By August, there were six times more agents than employees at Anthropic, and productivity increased.
+
+That’s led to Anthropic producing more code per person, but that’s a notoriously imperfect measure. We see signs of increased productivity elsewhere: we’ve closed more sales per sales representative, and processed more contracts. When our researchers follow the same employee over time, they find the employee’s output rises as their adoption of A I tools increases.
+
+All this acceleration means that, increasingly, the bottleneck is human attention. As a result, employees spend more time building ways to better monitor work their agents are doing.
+
+Anthropic could be a leading indicator of how A I will shift work organization, hiring, and labor demand across the economy. An A I lab is different from more traditional businesses in how it adopts A I into its work, but research findings about our own workplace may still be instructive about broader transformations, including dynamics for future A I-native companies.
+
+Because Anthropic employees experience A I’s effect on work so differently, it stands to reason that they might have different predictions about A I’s effect on the future of work. That’s what our second report investigates. We surveyed Anthropic employees, and compared them to an August survey of almost 11000 U S adults, fielded by Morning Consult and weighted to be representative of the adult population.
+
+The public expects A I capabilities to advance rapidly in the coming years; Anthropic staff tend to expect even faster progress. There are a number of questions with big gaps between staff and the public. For example, 39 percent of U S adults, and 91 percent of staff, expect A I will be able to make a Nobel-level discovery by 2030. More than half of Anthropic staff expect A I to be able to do at least 80 percent of their current work by 2030; only 5 percent of Americans expect A I to be that capable.
+
+That said, there’s considerable variation in both groups: 2 out of 10 Anthropic staff have expectations similar to those of the typical U S adult. And Anthropic staff and the public also agree on some key questions. In each bucket, people who expect A I to do comparably more of their own work anticipate similar increases in unemployment. In other words, both the public and Anthropic staff have similar economic models of how A I affects the labor market, but ultimately their personal experiences with A I lead them to different expectations for the economy of the future.
+
+That was Working at the frontier shapes expectations for the future, from Anthropic Research, published October 16, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

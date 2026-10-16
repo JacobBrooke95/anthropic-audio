@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 16 Oct 2026 19:28:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 22:56:13 +0000</lastBuildDate>
     <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -155,6 +155,170 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>85</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-designing-efficient-quantum-circuits.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-designing-efficient-quantum-circuits.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: The AI expectations gap</title>
+      <itunes:title>Research: The AI expectations gap</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ai-expectations-gap/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/ai-expectations-gap</guid>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
+
+Source: https://www.anthropic.com/research/ai-expectations-gap
+Published October 16, 2026 · Anthropic Research · by Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory
+
+Links referenced in the post:
+• How Employment is Changing at Anthropic: http://anthropic.com/research/employment-at-anthropic
+• Economic Scenarios for Transformative AI: https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf
+• www.anthropic.com/institute/econ-scenarios: https://www.anthropic.com/institute/econ-scenarios
+• https://www.anthropic.com/institute/recursive-self-improvement: https://www.anthropic.com/institute/recursive-self-improvement
+• https://www.anthropic.com/research/economic-index-june-2026-report: https://www.anthropic.com/research/economic-index-june-2026-report
+• https://www.anthropic.com/research/employment-at-anthropic: https://www.anthropic.com/research/employment-at-anthropic
+• here: https://www-cdn.anthropic.com/1bc1a3067f9c9883d6d556b38f26fd4f1e1b640f/The AI Expectations Gap - Appendix.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ai-expectations-gap/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI&#x27;s future impact on the economy? This note presents new survey evidence on these questions.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/ai-expectations-gap">https://www.anthropic.com/research/ai-expectations-gap</a><br/><strong>Published:</strong> October 16, 2026 · Anthropic Research<br/><strong>Authors:</strong> Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory<br/><strong>Category:</strong> Economics<br/><strong>Length:</strong> 3,092 words · 26 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="http://anthropic.com/research/employment-at-anthropic">How Employment is Changing at Anthropic</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf">Economic Scenarios for Transformative AI</a></li><li><a href="https://www.anthropic.com/institute/econ-scenarios">www.anthropic.com/institute/econ-scenarios</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">https://www.anthropic.com/institute/recursive-self-improvement</a></li><li><a href="https://www.anthropic.com/research/economic-index-june-2026-report">https://www.anthropic.com/research/economic-index-june-2026-report</a></li><li><a href="https://www.anthropic.com/research/employment-at-anthropic">https://www.anthropic.com/research/employment-at-anthropic</a></li><li><a href="https://www-cdn.anthropic.com/1bc1a3067f9c9883d6d556b38f26fd4f1e1b640f/The AI Expectations Gap - Appendix.pdf">here</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ai-expectations-gap/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-16-ai-expectations-gap.mp3" length="13962244" type="audio/mpeg"/>
+      <itunes:duration>1618</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-16-ai-expectations-gap.jpg?v=adfd4545"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ai-expectations-gap.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-16-ai-expectations-gap.json" type="application/json+chapters"/>
+      <itunes:author>Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory</itunes:author>
+      <itunes:subtitle>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</itunes:subtitle>
+      <itunes:summary>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
+
+Source: https://www.anthropic.com/research/ai-expectations-gap
+Published October 16, 2026 · Anthropic Research · by Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory
+
+Links referenced in the post:
+• How Employment is Changing at Anthropic: http://anthropic.com/research/employment-at-anthropic
+• Economic Scenarios for Transformative AI: https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf
+• www.anthropic.com/institute/econ-scenarios: https://www.anthropic.com/institute/econ-scenarios
+• https://www.anthropic.com/institute/recursive-self-improvement: https://www.anthropic.com/institute/recursive-self-improvement
+• https://www.anthropic.com/research/economic-index-june-2026-report: https://www.anthropic.com/research/economic-index-june-2026-report
+• https://www.anthropic.com/research/employment-at-anthropic: https://www.anthropic.com/research/employment-at-anthropic
+• here: https://www-cdn.anthropic.com/1bc1a3067f9c9883d6d556b38f26fd4f1e1b640f/The AI Expectations Gap - Appendix.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ai-expectations-gap/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>86</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ai-expectations-gap.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ai-expectations-gap.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: How employment is changing at Anthropic</title>
+      <itunes:title>Research: How employment is changing at Anthropic</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-employment-at-anthropic/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/employment-at-anthropic</guid>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <description>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.
+
+Source: https://www.anthropic.com/research/employment-at-anthropic
+Published October 16, 2026 · Anthropic Research · by Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• other domain experts: https://www.anthropic.com/research/claude-code-expertise
+• surveying Anthropic engineers: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+• automation of model training and research: https://www.anthropic.com/institute/recursive-self-improvement
+• business impact: https://www.nber.org/papers/w35275
+• employees at Anthropic expected: https://www.anthropic.com/research/ai-expectations-gap
+• AI-native start-ups: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+• AI-adopters: https://www.nber.org/papers/w34162
+• fewer entry-level: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
+• so-so’: https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.2.3
+• inefficient: https://academic.oup.com/restud/article-abstract/92/1/69/7612958?redirectedFrom=fulltext
+• retraining: https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs
+• https://doi.org/10.1257/jep.33.2.3: https://doi.org/10.1257/jep.33.2.3
+• https://academic.oup.com/restud/article-abstract/92/1/69/7612958: https://academic.oup.com/restud/article-abstract/92/1/69/7612958
+• https://doi.org/10.3386/w35275: https://doi.org/10.3386/w35275
+• https://doi.org/10.3386/w34162: https://doi.org/10.3386/w34162
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-employment-at-anthropic/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/employment-at-anthropic">https://www.anthropic.com/research/employment-at-anthropic</a><br/><strong>Published:</strong> October 16, 2026 · Anthropic Research<br/><strong>Authors:</strong> Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory<br/><strong>Category:</strong> Economics<br/><strong>Length:</strong> 4,952 words · 38 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/claude-code-expertise">other domain experts</a></li><li><a href="https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic">surveying Anthropic engineers</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">automation of model training and research</a></li><li><a href="https://www.nber.org/papers/w35275">business impact</a></li><li><a href="https://www.anthropic.com/research/ai-expectations-gap">employees at Anthropic expected</a></li><li><a href="https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf">AI-native start-ups</a></li><li><a href="https://www.nber.org/papers/w34162">AI-adopters</a></li><li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555">fewer entry-level</a></li><li><a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.2.3">so-so’</a></li><li><a href="https://academic.oup.com/restud/article-abstract/92/1/69/7612958?redirectedFrom=fulltext">inefficient</a></li><li><a href="https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs">retraining</a></li><li><a href="https://doi.org/10.1257/jep.33.2.3">https://doi.org/10.1257/jep.33.2.3</a></li><li><a href="https://academic.oup.com/restud/article-abstract/92/1/69/7612958">https://academic.oup.com/restud/article-abstract/92/1/69/7612958</a></li><li><a href="https://doi.org/10.3386/w35275">https://doi.org/10.3386/w35275</a></li><li><a href="https://doi.org/10.3386/w34162">https://doi.org/10.3386/w34162</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-employment-at-anthropic/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-16-employment-at-anthropic.mp3" length="19470370" type="audio/mpeg"/>
+      <itunes:duration>2338</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-16-employment-at-anthropic.jpg?v=57cd19c9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-employment-at-anthropic.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-16-employment-at-anthropic.json" type="application/json+chapters"/>
+      <itunes:author>Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory</itunes:author>
+      <itunes:subtitle>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</itunes:subtitle>
+      <itunes:summary>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.
+
+Source: https://www.anthropic.com/research/employment-at-anthropic
+Published October 16, 2026 · Anthropic Research · by Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• other domain experts: https://www.anthropic.com/research/claude-code-expertise
+• surveying Anthropic engineers: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+• automation of model training and research: https://www.anthropic.com/institute/recursive-self-improvement
+• business impact: https://www.nber.org/papers/w35275
+• employees at Anthropic expected: https://www.anthropic.com/research/ai-expectations-gap
+• AI-native start-ups: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+• AI-adopters: https://www.nber.org/papers/w34162
+• fewer entry-level: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
+• so-so’: https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.2.3
+• inefficient: https://academic.oup.com/restud/article-abstract/92/1/69/7612958?redirectedFrom=fulltext
+• retraining: https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs
+• https://doi.org/10.1257/jep.33.2.3: https://doi.org/10.1257/jep.33.2.3
+• https://academic.oup.com/restud/article-abstract/92/1/69/7612958: https://academic.oup.com/restud/article-abstract/92/1/69/7612958
+• https://doi.org/10.3386/w35275: https://doi.org/10.3386/w35275
+• https://doi.org/10.3386/w34162: https://doi.org/10.3386/w34162
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-employment-at-anthropic/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>87</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-employment-at-anthropic.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-employment-at-anthropic.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Working at the frontier shapes expectations for the future</title>
+      <itunes:title>Research: Working at the frontier shapes expectations for the future</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-expectations-for-the-future/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/expectations-for-the-future</guid>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.
+
+Source: https://www.anthropic.com/research/expectations-for-the-future
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• the first: https://www.anthropic.com/research/employment-at-anthropic
+• the second: https://www.anthropic.com/research/ai-expectations-gap
+• research findings: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-expectations-for-the-future/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/expectations-for-the-future">https://www.anthropic.com/research/expectations-for-the-future</a><br/><strong>Published:</strong> October 16, 2026 · Anthropic Research<br/><strong>Category:</strong> Economics<br/><strong>Length:</strong> 547 words · 4 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/employment-at-anthropic">the first</a></li><li><a href="https://www.anthropic.com/research/ai-expectations-gap">the second</a></li><li><a href="https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic">research findings</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-expectations-for-the-future/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-16-expectations-for-the-future.mp3" length="3117055" type="audio/mpeg"/>
+      <itunes:duration>260</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-16-expectations-for-the-future.jpg?v=75c06bfa"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-expectations-for-the-future.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-16-expectations-for-the-future.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</itunes:subtitle>
+      <itunes:summary>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.
+
+Source: https://www.anthropic.com/research/expectations-for-the-future
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• the first: https://www.anthropic.com/research/employment-at-anthropic
+• the second: https://www.anthropic.com/research/ai-expectations-gap
+• research findings: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-expectations-for-the-future/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>88</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-expectations-for-the-future.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-expectations-for-the-future.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: An update on independent evaluators</title>

@@ -1,0 +1,469 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:06.167
+This is Anthropic, Read Aloud. Today: The A I expectations gap.
+
+2
+00:00:07.467 --> 00:00:09.148
+The A I expectations gap.
+
+3
+00:00:09.598 --> 00:00:21.203
+How will A I reshape the economy in the years ahead? What is the core source of disagreement about A I's future impact on the economy? This note presents new survey evidence on these questions.
+
+4
+00:00:21.653 --> 00:00:32.348
+From Anthropic Research, published October 16, 2026. By Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, and Peter McCrory.
+
+5
+00:00:33.348 --> 00:00:34.320
+Key findings.
+
+6
+00:00:34.770 --> 00:00:53.083
+1. U S adults expect A I capabilities to advance rapidly in the coming years; Anthropic staff expect even faster progress; 39 percent of U S adults and 91 percent of staff expect that A I will be able to make a Nobel-level discovery by 2030.
+
+7
+00:00:53.323 --> 00:01:10.858
+2. Anthropic staff expect much larger productivity gains from A I on the tasks it is well-suited for. Among U S adults who use A I at work, 26 percent say a task takes a quarter of the time or less with A I, compared to 59 percent of Anthropic staff.
+
+8
+00:01:11.098 --> 00:01:23.706
+3. When it comes to their own job, over half of Anthropic staff expect A I to be able to do at least 80 percent of their current work by 2030, compared with 5 percent of U S workers.
+
+9
+00:01:23.946 --> 00:01:43.674
+4. Among both U S workers and Anthropic staff, people who expect A I to do more of their own work anticipate higher unemployment. While there are differences in beliefs about future capabilities, the perceived link between how A I might change one’s own job and broader unemployment is very similar for both groups.
+
+10
+00:01:44.474 --> 00:01:45.317
+Introduction.
+
+11
+00:01:45.767 --> 00:02:08.125
+How will A I reshape the economy in the years ahead? A I capabilities are advancing rapidly, and the possibility that future A I models may be able to build their own successors (recursive self-improvement) could further accelerate the rate of progress. How quickly this might materialize and to what extent is unclear. Forecasts vary widely and are fiercely debated.
+
+12
+00:02:08.575 --> 00:02:30.804
+What is the core source of disagreement about A I's future impact on the economy? Is it principally due to differences in beliefs about how quickly A I capabilities will improve? Or does it reflect disagreement about how quickly and in what form those capabilities translate to real-world adoption? Which views on the future path of A I are consistent with rapid economic growth?
+
+13
+00:02:31.254 --> 00:02:43.888
+This note presents new survey evidence on these questions. In August 2026, we surveyed two groups: a sample of U S adults that was nationally representative and Anthropic staff.
+
+14
+00:02:44.008 --> 00:03:02.131
+1 The questions covered, among other things, A I’s capabilities, how widely it will be used, how much time it saves, how autonomous it will be, and how difficult it will be for a displaced worker to find a job in a different occupation. 2 Anthropic staff build and use frontier A I every day.
+
+15
+00:03:02.251 --> 00:03:11.552
+The second survey therefore shows how people closest to the technology anticipate its future, both in capabilities and in broader economic impact.
+
+16
+00:03:12.002 --> 00:03:31.978
+We report the following main findings. First, the two groups largely agree about what A I can do today but disagree about the pace of future progress. Anthropic staff expect capabilities to advance faster, A I to be used more widely and with less human involvement, and the time it saves on a task to be much larger.
+
+17
+00:03:32.098 --> 00:03:42.893
+For example, 91 percent of staff expect A I to be able to make a Nobel-level discovery by 2030, compared to 39 percent of U S adults.
+
+18
+00:03:43.343 --> 00:03:58.253
+Second, there are sharp differences concerning people's own jobs. On average, staff members expect A I to be able to do 75 percent of their current work by 2030, compared to 28 percent for U S workers overall.
+
+19
+00:03:58.703 --> 00:04:16.281
+Third, the two groups seem to reason about the labor market in a similar way: people who expect A I to do more of their own work in the future forecast higher unemployment. And, at the same level of expected A I automation of their own work, both groups forecast about the same unemployment rate.
+
+20
+00:04:17.081 --> 00:04:18.828
+What people expect A I to do.
+
+21
+00:04:19.628 --> 00:04:20.642
+Capabilities.
+
+22
+00:04:21.092 --> 00:04:43.321
+We first investigate expectations about A I capabilities. We asked when A I will be able to do each of eight tasks as well as a skilled professional, from writing routine emails to making a Nobel-level scientific discovery. U S adults and Anthropic staff largely agree on what A I can do today, particularly when it comes to more complex tasks.
+
+23
+00:04:43.441 --> 00:04:48.683
+Both groups rank tasks in nearly the same order of difficulty (Figure 1, panel A).
+
+24
+00:04:49.133 --> 00:05:09.549
+The groups disagree on the path of future A I progress. For example, around a quarter of U S adults and Anthropic staff think that A I can design, conduct, and publish scientific studies today. But by next year, 9 in 10 staff expect this to be feasible for A I as compared to just 38 percent for the general public.
+
+25
+00:05:09.669 --> 00:05:31.728
+By 2030, 39 percent of U S adults expect A I to be able to make a Nobel-level discovery (panel C), compared with 91 percent of staff. What is perhaps the most striking difference, depending on the task, between 19 and 40 percent of U S adults say A I will never be able to do a given task, compared with at most 2 percent of staff.
+
+26
+00:05:32.178 --> 00:05:48.595
+In part, differences in views reflect differences in frequency of A I use. Among those who use A I at work regularly (about a fifth of respondents), 56 percent expect A I to be able to do at least seven of the eight named tasks by 2030.
+
+27
+00:05:48.715 --> 00:06:01.130
+This is substantially higher than among all U S adults (41 percent) and among those who have never used an A I tool (28 percent), but still well short of the staff view (96 percent).
+
+28
+00:06:01.580 --> 00:06:23.390
+Figure 1: Figure 1: Share of respondents who expect A I to be able to complete the listed tasks as well as a skilled professional. Respondents were asked when A I will be able to complete these tasks, regardless of whether companies will actually use it. Panels show the share answering (A) already, (B) by 2027, and (C) by 2030.
+
+29
+00:06:23.510 --> 00:06:33.439
+U S adults’ responses (N=10980) are weighted to be nationally representative, Anthropic staff responses are unweighted.
+
+30
+00:06:34.239 --> 00:06:35.871
+Adoption and its obstacles.
+
+31
+00:06:36.321 --> 00:06:55.219
+The impact of A I on the economy is not solely determined by raw capabilities. People and businesses need to actually use A I, which takes time and experimentation. Of the work tasks A I will be able to do, U S adults expect that 42 percent will be done with A I by 2030.
+
+32
+00:06:55.339 --> 00:07:04.744
+Anthropic staff expect noticeably faster diffusion over the next few years, with A I used for 65 percent of all tasks for which it could be used.
+
+33
+00:07:05.194 --> 00:07:23.740
+To understand what might hold back A I adoption at work, we asked U S adults to choose up to three obstacles from a list of nine that they expect to be the biggest. The general public expects that people's preferences and rules, more than the technological constraints, may be what holds adoption back (Figure 2).
+
+34
+00:07:23.860 --> 00:07:37.397
+“Customers preferring to deal with a person” was the obstacle selected most often, followed by “data privacy and security concerns,” “A I not being reliable enough,” and “laws, regulations or liability.”
+
+35
+00:07:37.847 --> 00:08:01.777
+Figure 2: Figure 2: Obstacles to A I use at work in 2030 named by U S adults. Respondents were told that businesses do not always use A I even when it is technically capable of doing a task, and were asked which of nine obstacles will be the biggest to A I being used at work in 2030. Each could choose up to three, so shares sum to more than 100 percent.
+
+36
+00:08:01.897 --> 00:08:04.639
+We did not ask this question to Anthropic staff.
+
+37
+00:08:05.089 --> 00:08:26.004
+Notably, U S adults who use A I regularly at work rank data privacy and security concerns first (42 percent consider it among the top 3 obstacles, compared with 37 percent among the rest) and see customer preferences to deal with humans as slightly less important (37 percent versus 42 percent).
+
+38
+00:08:26.804 --> 00:08:28.324
+How autonomous A I will be.
+
+39
+00:08:28.774 --> 00:08:46.365
+The impact of A I on the labor market will in part depend on whether A I completes complex tasks autonomously or in collaboration with a human. The former tends to displace human workers. Alternatively, when A I complements human capabilities, workers become more productive.
+
+40
+00:08:46.485 --> 00:09:03.623
+To get a sense for anticipated automation versus augmentation in 2030 among Anthropic staff and the general public, we asked how A I and humans will work together on various tasks ranging from email drafting to legal contracting by 2030.
+
+41
+00:09:03.743 --> 00:09:21.982
+At Anthropic, the vast majority of staff say that by 2030 A I will either complete tasks alone or with a worker evaluating the work (Figure 3). By contrast, 4 in 10 U S adults instead expect that humans will do most of the work themselves or with some A I help.
+
+42
+00:09:22.432 --> 00:09:42.549
+Figure 3: Figure 3: Share of respondents who expect A I to do each task alone or with a worker checking. Respondents were asked to imagine that A I is useful for each of the five tasks and asked who will be doing them: A I alone; A I does most of it, with workers checking; workers do most of it, with A I helping; or workers alone.
+
+43
+00:09:42.669 --> 00:09:45.190
+Bars show the share choosing either of the first two.
+
+44
+00:09:45.990 --> 00:09:46.961
+Time savings.
+
+45
+00:09:47.411 --> 00:10:08.266
+How much A I raises output depends not only on which tasks it can do and how widely it is used, but also on how much faster and better it does them. A technology that is just good enough to replace workers, what Acemoglu and Restrepo (2019) call a "so-so" technology, displaces work without much increase in GDP.
+
+46
+00:10:08.386 --> 00:10:16.958
+By contrast, a technology that completes tasks at a small fraction of cost or in a fraction of time can meaningfully raise GDP.
+
+47
+00:10:17.408 --> 00:10:35.167
+To measure perceptions about the productivity lift from A I, we asked the general public and Anthropic staff how long a task for which A I is well suited takes with A I, compared with doing it without A I. A task done in half the time corresponds to a doubling of output per hour. 3
+
+48
+00:10:35.617 --> 00:10:54.070
+Anthropic staff report much larger expected savings, with 85 percent saying that it takes half the time or less. Among U S adults who use A I at work, the typical answer is half the time, and 29 percent say the task takes just as long or longer, while only 5 percent of staff say so.
+
+49
+00:10:54.190 --> 00:11:09.081
+Among U S adults, 26 percent of those who use A I at work say a task takes a quarter of the time or less, and 21 percent of those who do not use A I at work say the same. For staff, that share is 59 percent (Figure 4).
+
+50
+00:11:09.531 --> 00:11:33.527
+Staff may be describing what they experience at work. As discussed further in How Employment is Changing at Anthropic, Anthropic employees increased productivity on some dimensions after adopting agentic tools: the lines of code engineers added tripled in the month after adopting coding agents and sales representatives closed more deals with clients after adopting A I agents.
+
+51
+00:11:33.647 --> 00:11:38.812
+Output per person also rose in other business functions, like legal and recruiting.
+
+52
+00:11:39.262 --> 00:12:01.048
+Figure 4: Figure 4: Share of respondents who say a task takes a quarter of the time or less with A I. Respondents were asked to think of a task that today's A I is well suited for, such as summarizing a document or drafting an email, and how long it takes to finish using A I, counting the time spent checking and fixing its work, compared with not using A I.
+
+53
+00:12:01.168 --> 00:12:09.274
+Bars show the share answering "about a quarter of the time" or "about a tenth of the time or less." Figure A2 shows all answers.
+
+54
+00:12:10.074 --> 00:12:11.356
+Own work and jobs.
+
+55
+00:12:12.156 --> 00:12:14.804
+How much of their own work A I will be able to do.
+
+56
+00:12:15.254 --> 00:12:33.927
+Perhaps unsurprisingly, we find a large gap in perceptions between the general public and Anthropic staff when it comes to A I’s impact on their own jobs (Figure 5). On average, Anthropic staff members say A I will be able to do 75 percent of their current work hours by 2030.
+
+57
+00:12:34.047 --> 00:12:46.676
+U S workers (respondents who report having a job) put the share at 28 percent on average, and only 1 in 20 say that A I could do 80 percent or more of their work hours by 2030.
+
+58
+00:12:47.126 --> 00:13:03.958
+Across U S workers, expectations vary by occupation: A I is expected to be able to do 25 percent of work hours among manual trades, production and transport workers and 33 percent for workers in computer, engineering and science occupations.
+
+59
+00:13:04.078 --> 00:13:16.314
+For this latter group, those who use A I regularly expect only 40 percent, a belief that is closer to the average U S worker than to the average Anthropic staff member (75 percent).
+
+60
+00:13:16.764 --> 00:13:39.783
+Figure 5: Figure 5: Share of their own work hours that respondents expect A I to be able to do by 2030. Share of the respondent's current work hours that A I will be able to do by 2030. The U S adults sample is restricted to employed respondents only. Staff answered on a slider while U S adults choose a range and we use range midpoints.
+
+61
+00:13:39.903 --> 00:13:42.742
+Bars show 95 percent confidence intervals.
+
+62
+00:13:43.542 --> 00:13:46.337
+Own-job exposure and unemployment forecasts.
+
+63
+00:13:46.787 --> 00:14:02.466
+How much of their own work people expect A I to do goes a long way toward explaining what they expect for the labor market. We told respondents that the current unemployment rate was about 4.2 percent and asked them to forecast the rate in 2030.
+
+64
+00:14:02.586 --> 00:14:13.356
+Figure 6 groups respondents by the share of their own hours they expect A I to be able to do by 2030, and shows each group's average unemployment rate forecast.
+
+65
+00:14:13.806 --> 00:14:38.076
+U S workers who expect A I to be able to do less than half of their work forecast unemployment of 7 to 8 percent. Above half, the forecast increases with the share of A I-exposed work. Those who expect A I to do 80 percent or more of their work expect, on average, an unemployment rate of 12.2 percent in 2030, above its peak during the Great Financial Crisis.
+
+66
+00:14:38.196 --> 00:14:58.655
+Across U S workers, ten more percentage points of work affected is associated with 0.4 points more forecasted unemployment. General optimism about A I does not explain this. Holding their own work exposure fixed, the share of the eight tasks a worker expects A I to master is unrelated to the forecast.
+
+67
+00:14:59.105 --> 00:15:18.642
+Even though their own reported exposure is much higher, the same gradient appears among Anthropic staff, with forecasts closely mirroring those of the general population. Therefore, these two groups do not seem to hold different theories of how A I will simultaneously affect their own jobs and the broader labor market.
+
+68
+00:15:18.762 --> 00:15:24.309
+They have different experiences of what A I capabilities are and, in turn, expectations.
+
+69
+00:15:24.759 --> 00:15:43.896
+Figure 6: Figure 6: Mean forecast of the 2030 unemployment rate, by the share of their own work hours that respondents expect A I to be able to do. Respondents were told that the U S unemployment rate is 4.2 percent today and asked what they expect it to be in 2030.
+
+70
+00:15:44.016 --> 00:16:04.936
+Panel (A) groups employed respondents by the share of their current work hours they expect A I to be able to do by 2030, and shows each group's mean forecast and 95 percent confidence interval. Groups with fewer than 20 respondents are omitted. Panel (B) shows the share of U S workers and of Anthropic staff in each group.
+
+71
+00:16:05.736 --> 00:16:07.292
+Hiring and re-employment.
+
+72
+00:16:07.742 --> 00:16:27.496
+Even though Anthropic staff expect A I to be able to do most of their work, they also expect Anthropic to keep hiring. 95 percent of Anthropic staff expect headcount to grow over the next 12 months, the median staff member expects it to grow by 66 percent, and 27 percent expect it at least to double.
+
+73
+00:16:27.616 --> 00:16:43.464
+These are the personal expectations of staff members in an internal poll and do not represent Anthropic's plans or its view of its headcount. Even so, they show that automating tasks and shedding jobs are different forecasts, at least at a frontier A I lab.
+
+74
+00:16:43.914 --> 00:17:02.216
+Anthropic staff, however, are slightly more pessimistic than U S adults about how quickly workers displaced by A I can find new work. We asked how long it would take a person who loses their job to A I automation in 2030, and who needs to switch occupations, to find a new one.
+
+75
+00:17:02.336 --> 00:17:16.693
+4 The median Anthropic staff member expects that a worker displaced by A I would take 12 months to find a role in a new occupation. This compares to the median U S adult response in the range of 7 to 12 months.
+
+76
+00:17:17.493 --> 00:17:21.184
+Expectations about A I and their economic implications.
+
+77
+00:17:21.984 --> 00:17:26.078
+Mapping survey responses to model-implied economic scenarios.
+
+78
+00:17:26.528 --> 00:17:39.968
+In Economic Scenarios for Transformative A I we introduced a structured framework for assessing how different future paths for A I capabilities and diffusion might translate into differences in economic outcomes.
+
+79
+00:17:40.088 --> 00:17:53.507
+The model allows us to translate each respondent’s answers across five dimensions, capabilities, diffusion, automation, productivity, and worker transition frictions, into model-implied economic outcomes.
+
+80
+00:17:53.627 --> 00:18:18.562
+5 Across both our U S adult and Anthropic staff samples, we identify every respondent who answered all questions related to the key model inputs (3259 U S adults and 1093 staff). We then evaluate the economic scenario implied by those answers for each respondent, focusing below on implications for GDP growth in 2030.
+
+81
+00:18:19.012 --> 00:18:44.733
+The median U S adult's answers imply GDP growth of 5.4 percent in 2030, according to the model. The median staff member's answers imply GDP growth accelerating to 17.1 percent by 2030. There is significant variation within each group, so the distributions overlap widely (Figure 7). Figure A1 in the appendix shows how much each belief contributes to this gap.
+
+82
+00:18:45.533 --> 00:18:48.450
+Responses from online scenario explorer quiz.
+
+83
+00:18:48.900 --> 00:19:08.760
+Figure 7 also shows the economic scenarios implied by inputs provided by site visitors to an interactive scenario explorer based on this economic model that was published at www.anthropic.com/institute/econ-scenarios on September 9, 2026.
+
+84
+00:19:09.210 --> 00:19:29.184
+The interactive explorer asked shorter form versions of the questions we fielded to U S adults and Anthropic staff in August 2026. 23075 visitors completed the survey in the first 48 hours after publication, connecting from more than 140 countries worldwide.
+
+85
+00:19:29.304 --> 00:19:47.939
+These visitors chose to come to a page on Anthropic's website and to take the quiz, so they are likely to be more interested in A I than the general public. Indeed, their answers place them between those of U S adults and Anthropic staff: the median visitor's answers imply 12.5 percent growth.
+
+86
+00:19:48.389 --> 00:20:12.985
+Figure 7: Figure 7: Model-implied GDP growth in 2030, based on the expectations of U S adults, website visitors and Anthropic staff. Each respondent's answers to the five questions on capabilities, adoption, autonomy, time savings and re-employment are run through the model from Economic Scenarios for Transformative A I; see Appendix B therein for details.
+
+87
+00:20:13.105 --> 00:20:34.465
+The thick bar spans the 25th to 75th percentile and the thin line the 10th to 90th percentile. Dotted lines mark three scenarios laid out in the paper: Modest (annual GDP growth of 2.4 percent), Substantial (5.4 percent GDP growth) and Extreme (15.4 percent GDP growth).
+
+88
+00:20:34.585 --> 00:20:59.460
+The figure includes respondents who answered all five questions: 3259 U S adults (2030 half only), 1093 Anthropic staff, and the 23075 website visitors who completed the quiz available at anthropic.com/institute/econ-scenarios in the 48 hours after its launch on September 9, 2026.
+
+89
+00:21:00.260 --> 00:21:01.254
+Inside the lab.
+
+90
+00:21:01.704 --> 00:21:23.799
+One reason staff are more optimistic about A I capabilities may be that they have greater visibility into the development process. The Anthropic Institute recently published a report on progress toward recursive self-improvement (RSI), a process where A I systems increasingly improve their own capabilities (Favaro and Clark, 2026).
+
+91
+00:21:24.249 --> 00:21:49.487
+To shed light on whether staff themselves expect this to happen, we asked Anthropic staff what share of the work of building an early-2026 frontier model is done by A I today, and what they expect it to be in the future (Figure 8). 6 Among surveyed Anthropic staff, the median answer today is 51 percent, 80 percent by the end of 2027 and 95 percent by the end of 2030.
+
+92
+00:21:49.937 --> 00:22:08.583
+Estimates of the share of work that A I does in A I development vary far more within teams than between them. Still, staff on research teams, who are closest to the work of building models, put A I's share today somewhat higher: 60 percent on average, against 53 percent for all other survey respondents.
+
+93
+00:22:08.703 --> 00:22:19.007
+This is consistent with information playing some role, although researchers, by virtue of the nature of their work, may also use A I more in their own work than other employees.
+
+94
+00:22:19.457 --> 00:22:30.038
+As with the hiring forecasts, these responses are the personal views of staff members in an internal poll fielded to Anthropic staff in August 2026.
+
+95
+00:22:30.488 --> 00:22:52.561
+Figure 8: Figure 8: Anthropic staff's estimates of the share of the work of building a frontier model that is done by A I. Anthropic staff were asked what share of the work of building an early-2026 frontier model is done by A I today, and what they expect that share to be at the end of 2027 and 2030.
+
+96
+00:22:52.681 --> 00:23:09.108
+The tick marks the median answer, the boxes span 25th to 75th percentile, and the lines span 10th to 90th percentile. Answers are the personal estimates of staff members in an internal poll and are not a measurement by Anthropic or a company forecast.
+
+97
+00:23:09.908 --> 00:23:10.721
+Conclusion.
+
+98
+00:23:11.171 --> 00:23:25.681
+U S adults and Anthropic staff largely agree about what A I can do today. However, they disagree about how quickly it will improve, how widely it will be used, and how large the productivity gains measured by time saved will be.
+
+99
+00:23:25.801 --> 00:23:38.451
+Through the lens of the model in Economic Scenarios for Transformative A I, the median U S adult's answers imply a scenario in which the U S economy grows at more than twice its typical rate.
+
+100
+00:23:38.571 --> 00:23:58.555
+Among Anthropic staff working at the frontier of A I development and usage, expectations about A I progress, adoption, and automation of knowledge work imply a transformative and historically unprecedented change to the economy: by 2030, GDP is doubling in size roughly every four and a half years.
+
+101
+00:23:59.005 --> 00:24:17.032
+Those who expect A I to do more of their own work in the years ahead expect higher unemployment as well. This is true for the general public in the U S and among Anthropic employees; on average, Anthropic staff expect faster automation of their own work and, in turn, higher unemployment.
+
+102
+00:24:17.152 --> 00:24:28.565
+We find that this disagreement in expectations is closely tied to differing views between Anthropic staff and the general public about how much of their own work will be automated in the years ahead.
+
+103
+00:24:29.015 --> 00:24:49.303
+The day-to-day experience with A I varies widely between the two groups. Most Anthropic staff already work alongside A I that does much of their job, whereas few U S workers do. Those who do already hold expectations closer to those of Anthropic staff, which suggests that public expectations may shift as A I use spreads.
+
+104
+00:24:49.423 --> 00:24:55.983
+How far they shift will depend on whether A I comes to do as much of the work elsewhere as it does at a frontier lab.
+
+105
+00:24:56.783 --> 00:24:58.167
+Suggested citation.
+
+106
+00:24:58.617 --> 00:25:02.992
+A code block of 9 lines appears here; see the original post for the code.
+
+107
+00:25:03.792 --> 00:25:04.768
+Acknowledgments.
+
+108
+00:25:05.218 --> 00:25:25.612
+Scott Booth, Meredith Callan, Yena Cho, Adam Farina, Ben Fowler, Ryan Heller, Aisling Keenan, Eva Lyubich, Maxim Massenkoff, Matt Mohn (Morning Consult), Matt Monday (Morning Consult), Kerry Persen, Sarah Pollack, Santi Ruiz, Monika Tuchowska, Heather Whitney, Nathan Wilmers, Kim Withee, Charles Yang, Jack Clark, Dario Amodei
+
+109
+00:25:26.412 --> 00:25:27.242
+References.
+
+110
+00:25:27.692 --> 00:25:41.008
+Acemoglu, D. and P. Restrepo (2019). "Automation and New Tasks: How Technology Displaces and Reinstates Labor." Journal of Economic Perspectives 33(2), 3 to 30.
+
+111
+00:25:41.458 --> 00:25:49.826
+Favaro, M. and J. Clark (2026). “When A I Builds Itself.” The Anthropic Institute. anthropic dot com.
+
+112
+00:25:50.276 --> 00:26:05.457
+Korinek, A., C. I. Jones, S. Sacher, T. Cotter and P. McCrory (2026). "Economic Scenarios for Transformative A I." The Anthropic Institute Working Paper number 2026 to 02.
+
+113
+00:26:05.907 --> 00:26:20.606
+Massenkoff, M., E. Lyubich, S. Sacher, Z. Hitzig, S. Zhang, R. Heller and P. McCrory (2026). “Anthropic Economic Index report: Cadences.” The Anthropic Institute. anthropic dot com.
+
+114
+00:26:21.056 --> 00:26:33.158
+Wilmers, N., R. Catipon, M. Massenkoff and P. McCrory (2026). “How Employment is Changing at Anthropic.” The Anthropic Institute. anthropic dot com.
+
+115
+00:26:33.958 --> 00:26:34.752
+Appendix.
+
+116
+00:26:35.202 --> 00:26:36.163
+Available here.
+
+117
+00:26:37.163 --> 00:26:53.751
+That was The A I expectations gap, from Anthropic Research, published October 16, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
