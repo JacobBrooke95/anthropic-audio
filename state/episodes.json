@@ -4975,6 +4975,22 @@
       "updated": "2026-10-15T19:10:53+00:00",
       "slug": "news-2026-10-15-an-update-on-independent-evaluators",
       "episode": 83
+    },
+    "https://www.anthropic.com/research/ecdsa-curve-origins": {
+      "first_seen": "2026-10-16T19:01:10+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-16T19:01:10+00:00",
+      "slug": "research-2026-10-16-ecdsa-curve-origins",
+      "episode": 84
+    },
+    "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+      "first_seen": "2026-10-16T19:28:57+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-16T19:28:57+00:00",
+      "slug": "research-2026-10-16-designing-efficient-quantum-circuits",
+      "episode": 85
     }
   },
   "episodes": [
@@ -9761,8 +9777,148 @@
       "episode": 83,
       "created": "2026-10-15T19:10:53+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-10-16-ecdsa-curve-origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "research",
+      "title": "Claude reveals ECDSA curve origins",
+      "subtitle": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+      "date": "2026-10-16T16:00:00+00:00",
+      "authors": [],
+      "category": "Frontier Red Team",
+      "links": [
+        {
+          "text": "FIPS 186-2 Digital Signature Standard",
+          "href": "https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf"
+        },
+        {
+          "text": "Neal Koblitz",
+          "href": "https://sites.math.washington.edu/~koblitz/"
+        },
+        {
+          "text": "Alfred Menezes",
+          "href": "https://uwaterloo.ca/scholar/ajmeneze"
+        },
+        {
+          "text": "A Riddle Wrapped in an Enigma",
+          "href": "https://eprint.iacr.org/2015/1018.pdf"
+        },
+        {
+          "text": "amateur investigation into the origin of the seeds",
+          "href": "https://saweis.net/posts/nist-curve-seed-origins.html"
+        },
+        {
+          "text": "bounty for anyone who could find them",
+          "href": "https://words.filippo.io/seeds-bounty/"
+        },
+        {
+          "text": "lrand48",
+          "href": "https://linux.die.net/man/3/lrand48"
+        },
+        {
+          "text": "Lenstra–Lenstra–Lovász (LLL)",
+          "href": "https://en.wikipedia.org/wiki/Lenstra%E2%80%93Lenstra%E2%80%93Lov%C3%A1sz_lattice_basis_reduction_algorithm"
+        },
+        {
+          "text": "srand48",
+          "href": "https://linux.die.net/man/3/srand48"
+        },
+        {
+          "text": "FreeLIP",
+          "href": "https://cr.yp.to/speed/mult/freelip.html"
+        },
+        {
+          "text": "Arjen Lenstra",
+          "href": "https://en.wikipedia.org/wiki/Arjen_Lenstra"
+        },
+        {
+          "text": "Victor Shoup",
+          "href": "https://shoup.net/"
+        },
+        {
+          "text": "NTL library",
+          "href": "https://libntl.org/"
+        },
+        {
+          "text": "Internet Security Research Group",
+          "href": "https://www.abetterinternet.org/"
+        },
+        {
+          "text": "evil Internet meme",
+          "href": "https://cr.yp.to/papers/safecurves-20240809.pdf"
+        },
+        {
+          "text": "Yo La Tengo of NSA bogeymen",
+          "href": "https://sockpuppet.org/blog/2015/08/04/is-extended-random-malicious/"
+        },
+        {
+          "text": "Filippo Valsorda",
+          "href": "https://filippo.io/"
+        }
+      ],
+      "word_count": 2385,
+      "duration": 847.412245,
+      "bytes": 7527779,
+      "episode": 84,
+      "created": "2026-10-16T19:01:10+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "research-2026-10-16-designing-efficient-quantum-circuits",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "research",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "subtitle": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
+      "date": "2026-10-16T16:00:00+00:00",
+      "authors": [],
+      "category": "Science",
+      "links": [
+        {
+          "text": "Read the full paper on arXiv",
+          "href": "https://arxiv.org/abs/2610.22367"
+        },
+        {
+          "text": "classical",
+          "href": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+        },
+        {
+          "text": "algorithms",
+          "href": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations"
+        },
+        {
+          "text": "divsteps",
+          "href": "https://tches.iacr.org/index.php/TCHES/article/view/8298"
+        },
+        {
+          "text": "Schrottenloher",
+          "href": "https://arxiv.org/abs/2606.02235"
+        },
+        {
+          "text": "Luo et al.",
+          "href": "https://arxiv.org/abs/2607.13816"
+        },
+        {
+          "text": "Decoded quantum interferometry (DQI)",
+          "href": "https://arxiv.org/abs/2408.08292"
+        },
+        {
+          "text": "Google Quantum AI",
+          "href": "https://arxiv.org/abs/2510.10967"
+        },
+        {
+          "text": "Frontier",
+          "href": "https://www.olcf.ornl.gov/frontier/"
+        }
+      ],
+      "word_count": 3570,
+      "duration": 1570.690612,
+      "bytes": 13337566,
+      "episode": 85,
+      "created": "2026-10-16T19:28:57+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg"
     }
   ],
-  "next_episode": 84,
+  "next_episode": 86,
   "baseline_date": "2026-08-14"
 }

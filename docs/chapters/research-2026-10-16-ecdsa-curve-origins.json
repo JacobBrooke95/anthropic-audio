@@ -1,0 +1,57 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 176.73,
+   "title": "Claude found the seeds"
+  },
+  {
+   "startTime": 247.27,
+   "title": "What this means"
+  },
+  {
+   "startTime": 292.21,
+   "title": "How it was found"
+  },
+  {
+   "startTime": 533.63,
+   "title": "Claude found some base points too"
+  },
+  {
+   "startTime": 640.66,
+   "title": "Open questions"
+  },
+  {
+   "startTime": 737.5,
+   "title": "The bounty"
+  },
+  {
+   "startTime": 747.42,
+   "title": "Who we are"
+  },
+  {
+   "startTime": 761.75,
+   "title": "Acknowledgements"
+  },
+  {
+   "startTime": 780.06,
+   "title": "Code to reproduce the seeds"
+  },
+  {
+   "startTime": 794.09,
+   "title": "Code to reproduce selected base points"
+  },
+  {
+   "startTime": 808.72,
+   "title": "License"
+  },
+  {
+   "startTime": 826.02,
+   "title": "Outro"
+  }
+ ]
+}

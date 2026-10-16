@@ -1,0 +1,53 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 466.7,
+   "title": "A new reversible algorithm"
+  },
+  {
+   "startTime": 589.07,
+   "title": "A hard first test: modular inversion"
+  },
+  {
+   "startTime": 686.01,
+   "title": "The memory demands of divsteps"
+  },
+  {
+   "startTime": 769.78,
+   "title": "How Claude got around the memory problem"
+  },
+  {
+   "startTime": 861.46,
+   "title": "A family of designs"
+  },
+  {
+   "startTime": 918.92,
+   "title": "Optimizing a quantum optimizer"
+  },
+  {
+   "startTime": 993.13,
+   "title": "A more efficient quantum decoder"
+  },
+  {
+   "startTime": 1174.76,
+   "title": "A simplified approach to storage"
+  },
+  {
+   "startTime": 1347.67,
+   "title": "What we learned"
+  },
+  {
+   "startTime": 1540.17,
+   "title": "Acknowledgments"
+  },
+  {
+   "startTime": 1548.69,
+   "title": "Outro"
+  }
+ ]
+}

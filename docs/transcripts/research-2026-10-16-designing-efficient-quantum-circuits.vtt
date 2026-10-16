@@ -1,0 +1,429 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.704
+This is Anthropic, Read Aloud. Today: Designing more efficient quantum circuits with Claude.
+
+2
+00:00:09.004 --> 00:00:11.721
+Designing more efficient quantum circuits with Claude.
+
+3
+00:00:12.171 --> 00:00:21.571
+Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.
+
+4
+00:00:22.021 --> 00:00:26.675
+From Anthropic Research, published October 16, 2026.
+
+5
+00:00:27.675 --> 00:00:47.238
+Quantum computers will need carefully designed circuits to run useful algorithms on limited hardware. We gave Claude plain-language specifications for eight such circuits, drawn from chemistry, optimization, physics simulation, and number theory, along with an automated evaluator that checks and scores each design.
+
+6
+00:00:47.358 --> 00:01:07.432
+Working largely on its own, Claude found designs that improve on the best published circuits, in some cases by an order of magnitude or more. Such improvements substantially reduce the quantum resources that useful applications require, so practical quantum computers could arrive sooner than previously anticipated.
+
+7
+00:01:07.882 --> 00:01:26.911
+This work was led by Andi Gu as part of Anthropic’s STEM Fellows Program, with mentorship from Alek Kemeny, a quantum physicist at Anthropic, in collaboration with Susanne Yelin (Harvard University) and Mikhail Lukin (Harvard University and QuEra Computing). Read the full paper on arXiv.
+
+8
+00:01:27.361 --> 00:01:41.303
+Unlike classical computers, which store information in bits whose value is either 0 or 1, quantum computers store information in qubits, which can be built from single atoms, superconducting circuits, or particles of light.
+
+9
+00:01:41.423 --> 00:02:01.477
+These qubits make use of quantum phenomena such as superposition, which allows a quantum system to exist in a combination of states at once, in order to process information in ways that could make certain problems in fields like chemistry, materials science, and number theory tractable, even when they are too hard for traditional computers.
+
+10
+00:02:01.927 --> 00:02:20.657
+The quantum computers the field has built to date only have hundreds to thousands of qubits, too few to run many of the algorithms that promise practical advantages over classical computers. And these qubits are highly sensitive to environmental noise, such as heat, vibration, and even cosmic rays.
+
+11
+00:02:20.777 --> 00:02:27.531
+A tiny disturbance can nudge a qubit’s state, and these small errors pile up until the computer gives the wrong answer.
+
+12
+00:02:27.981 --> 00:02:50.849
+Given that both qubits and computing time are scarce resources, researchers have been working to redesign quantum algorithms to use fewer qubits and complete computations in less time. An illustrative example is simulating FeMoco, the iron to sulfur cluster at the heart of nitrogenase, the enzyme that bacteria use to turn nitrogen from the air into ammonia.
+
+13
+00:02:50.969 --> 00:03:00.164
+Understanding how it works could help scientists design better industrial catalysts, the substances manufacturers use to speed up chemical reactions.
+
+14
+00:03:00.614 --> 00:03:24.699
+In 2017, researchers estimated that a quantum computer would need about 50 trillion Toffoli gates to compute FeMoco’s ground-state energy, the energy of its most stable configuration, which chemists need in order to predict how FeMoco reacts. (Similar to ordinary computers, quantum computers work by applying a long sequence of simple operations, called gates, to their qubits.
+
+15
+00:03:24.819 --> 00:03:34.078
+The Toffoli gate is one of the most expensive gates to run, so counting Toffoli gates is a standard way to estimate how long a computation will take.)
+
+16
+00:03:34.528 --> 00:03:52.122
+Through a series of algorithmic advances, the estimated number of gates has come down to about 340 million, a roughly 150000-fold reduction, corresponding to a few hours of computation on a future machine with about three million physical qubits. 1
+
+17
+00:03:52.572 --> 00:04:13.601
+These reductions largely came from redesigning the circuits that carry out the computation, rather than from making better hardware. Claude has proven particularly adept at optimizing classical algorithms, so we wanted to see whether it could do the same for quantum algorithms if it were given only a plain-language description of what each circuit must compute.
+
+18
+00:04:14.051 --> 00:04:37.192
+Claude is unusually well suited to this task, for several reasons. First, quantum algorithms are implemented as quantum circuits. These are composed of sequences of gates, like the Toffoli gates mentioned above. Importantly, these circuits can be described in code, so we can make use of Claude’s coding capabilities to write, run, and revise circuit designs as ordinary programs.
+
+19
+00:04:37.312 --> 00:04:56.020
+Second, the (fairly common) class of quantum algorithms we were most interested in optimizing can be tested efficiently for correctness, as each input gives one definite output that an ordinary computer can check. This means we could have an external evaluator program validate Claude’s proposals.
+
+20
+00:04:56.140 --> 00:05:07.596
+Finally, we can give Claude a clear, objective score to improve: the number of qubits used, multiplied by the number of gates, which serves as a proxy for how long the circuit would take to run.
+
+21
+00:05:08.046 --> 00:05:24.195
+We found that Claude Mythos 5 could successfully work in a closed loop, proposing a circuit design, receiving feedback and a score from the evaluator program, and using that feedback to improve its next attempt, with no human input between rounds (see Figure 1).
+
+22
+00:05:24.315 --> 00:05:44.934
+Across eight computational primitives, the basic routines that larger quantum algorithms are built from, for chemistry, optimization, quantum simulation, number theory, and numerical computing, Claude discovered novel designs that used both fewer qubits and fewer gates than the best previously published algorithms (Figure 2).
+
+23
+00:05:45.384 --> 00:05:55.048
+In each case, the improvement resulted from uncovering new structural and mathematical insights about the problem, rather than from fine-tuning existing designs.
+
+24
+00:05:55.168 --> 00:06:10.562
+For example, when compiling a circuit for simulating an iron-sulfide molecule, Claude noticed that the molecule’s symmetries and repeating structure meant that some results could be calculated once and reused, rather than recomputed for every part of the system.
+
+25
+00:06:10.682 --> 00:06:21.508
+In other cases, it found that existing circuits included costly components that were needed to handle only extremely rare inputs, and it redesigned them without those components.
+
+26
+00:06:21.958 --> 00:06:40.943
+Below, we describe two of Claude’s discoveries. The first is a new way to perform modular inversion, a bit of arithmetic that is the most expensive step in elliptic-curve calculations. The second makes the costliest step of a leading quantum optimization algorithm about 12 x cheaper.
+
+27
+00:06:41.393 --> 00:07:01.885
+These results suggest that A I can now help redesign quantum circuits, a key step in making quantum algorithms faster and easier to run. Faster circuit design could bring the problems quantum computers are meant to solve, from designing new medicines and better batteries to finding cleaner ways of making fertilizer, within reach sooner.
+
+28
+00:07:02.335 --> 00:07:24.870
+Figure 1: Closed to loop quantum circuit optimization. Claude designs new implementations in Python, which are then sent to a programmatic evaluator. The evaluator checks whether the proposed implementation is correct, then scores it on the number of qubits and gates it requires. This information is then sent to Claude, which uses it to improve its implementation.
+
+29
+00:07:24.990 --> 00:07:27.255
+The code and values shown are illustrative.
+
+30
+00:07:27.705 --> 00:07:45.897
+Figure 1: Figure 2: Claude designed smaller and faster circuits across eight different quantum-circuit design tasks. Gray marks show the best previously published designs; orange marks and lines show Claude’s designs. Point addition, the eighth task, is compared in Table 1 below.
+
+31
+00:07:46.697 --> 00:07:48.355
+A new reversible algorithm.
+
+32
+00:07:48.805 --> 00:08:05.922
+Designing a quantum circuit involves two constraints that ordinary programming doesn’t have. The first is that a quantum circuit can’t make “if-then” decisions the way an ordinary program can. An ordinary program can check a value and then run only one of two pieces of code.
+
+33
+00:08:06.042 --> 00:08:19.518
+But a quantum computer runs on a superposition of many inputs at once, some of which would run the first piece of code and some of which would run the second, so the circuit has to include the operations for both every time it runs.
+
+34
+00:08:19.968 --> 00:08:36.995
+The second is that a quantum circuit can’t discard information. An ordinary program can overwrite or delete its scratch work once it’s completed it; in a quantum computer, such intermediate information can’t simply be erased, because every step of a quantum circuit must be reversible.
+
+35
+00:08:37.115 --> 00:08:53.579
+Leaving that information in place isn’t an option, either, because leftover scratch work would corrupt the final result. The only way to discard information is to “uncompute” it by running the computation that created it in reverse, at the cost of additional gates.
+
+36
+00:08:53.699 --> 00:09:01.507
+Both of these constraints make quantum circuits far more expensive, in both runtime and qubits, than their classical counterparts.
+
+37
+00:09:01.957 --> 00:09:22.043
+This constraint forces a difficult trade-off between space (that is, qubits) and time. At one extreme, a quantum circuit can uncompute intermediate results as soon as they have been used. This frees up qubits, but if those same results are needed again later, the circuit must recompute them, which adds gates and increases the runtime.
+
+38
+00:09:22.163 --> 00:09:32.057
+At the other extreme, the circuit can retain intermediate results until they’re no longer needed. This avoids repeating work, but it can require many more qubits.
+
+39
+00:09:32.507 --> 00:09:48.272
+This is what makes quantum circuit design an especially interesting test of Claude’s capabilities. The circuits can be written as ordinary code, but improving them requires the model to reason under a set of constraints quite unlike those of ordinary programming.
+
+40
+00:09:49.072 --> 00:09:51.644
+A hard first test: modular inversion.
+
+41
+00:09:52.094 --> 00:10:12.839
+The first task we gave Claude was point addition, a rule for combining two points on a mathematical curve (an elliptic curve) to produce a third. Point addition is the core step in quantum algorithms for the discrete logarithm problem on elliptic curves: given a starting point and the result of adding it to itself n times, find n.
+
+42
+00:10:12.959 --> 00:10:21.705
+For large curves, ordinary computers can’t solve this problem in any reasonable amount of time, but a sufficiently large quantum computer could.
+
+43
+00:10:22.155 --> 00:10:41.995
+These algorithms perform point addition many times over, including in reverse, and these additions account for most of their qubit and runtime costs. Problems like this, easy to compute, extremely hard to reverse, were among the first where quantum computers were shown to offer an exponential speedup over ordinary ones.
+
+44
+00:10:42.115 --> 00:10:55.928
+For these reasons, point addition has become one of the field’s standard benchmarks. This made it a demanding test for Claude. So, we asked it to map out how few qubits, as well as how few gates, point addition really needs.
+
+45
+00:10:56.378 --> 00:11:13.380
+We gave Claude a one-paragraph brief. It explained the mathematical rule for point addition, and how the evaluator would check each proposed circuit for correctness and score it on the number of qubits and gates it used. It also instructed Claude to explore several approaches in parallel.
+
+46
+00:11:13.500 --> 00:11:25.211
+After working for 53 hours with minimal human input (limited to the initial brief and occasional prompts to think more broadly), Claude arrived at a completely new approach to the problem.
+
+47
+00:11:26.011 --> 00:11:27.812
+The memory demands of divsteps.
+
+48
+00:11:28.262 --> 00:11:52.561
+Most of the cost of point addition comes from a single step, called modular inversion. Elliptic-curve arithmetic uses numbers that wrap back around when they reach a fixed limit. Modular inversion is the wraparound version of division: given an integer a, find x such that ax ≡ 1 (mod p ). Ordinary computers can perform this operation efficiently using a method called divsteps.
+
+49
+00:11:52.681 --> 00:12:11.723
+Divsteps starts with a pair of numbers and repeatedly simplifies them over many rounds of iteration. In each round, divsteps examines the current pair of numbers and conditionally swaps, adds, subtracts, or halves them. Along the way, it preserves just enough information to produce the modular inverse at the end.
+
+50
+00:12:12.173 --> 00:12:31.677
+Despite its success on ordinary computers, divsteps had not yet produced a practical quantum circuit, because of the reversibility constraint described above. The record of which operation was chosen at each iteration, called branch information, is the kind of scratch work that a traditional program can simply discard.
+
+51
+00:12:31.797 --> 00:12:48.985
+In contrast, a quantum circuit has to retain that record so the computation can be run backward. A straightforward quantum version of divsteps is therefore forced to accumulate a long history of branch information, which requires an enormous number of additional qubits to store.
+
+52
+00:12:49.785 --> 00:12:51.918
+How Claude got around the memory problem.
+
+53
+00:12:52.368 --> 00:13:04.883
+Claude recognized that this divsteps approach could be promising for quantum circuits, but only if there were a way around needing to store the full history. It had an idea: perhaps the record didn’t need to be stored at all.
+
+54
+00:13:05.003 --> 00:13:22.593
+Claude reasoned that it might be possible to directly infer (or “decode”) the branch information by carefully inspecting the pair of numbers after each iteration. In essence, the numbers themselves would store the record. The circuit could then be run backward without needing any extra qubits.
+
+55
+00:13:23.043 --> 00:13:38.424
+To test this idea, Claude explored a number of simple candidate rules for performing the decoding. These early rules worked on small test cases, but they failed when Claude tested them at the full problem size, on 256-bit numbers.
+
+56
+00:13:38.874 --> 00:13:55.675
+Claude then tried a more theoretical approach. Rather than guessing and testing rules, it set out to understand mathematically why divsteps behaves the way it does. It proved a series of results about the iteration process, including several new algebraic identities.
+
+57
+00:13:55.795 --> 00:14:13.080
+From these identities, Claude derived a precise formula for the decoding rule that would correctly recover the branch information from the numerical pairs. It then checked the formula, first by running it through large-scale numerical simulations, and then formalizing the claim in Lean.
+
+58
+00:14:13.200 --> 00:14:20.664
+With the full validation complete, Claude produced the first reversible implementation of divsteps with no stored branch history.
+
+59
+00:14:21.464 --> 00:14:22.821
+A family of designs.
+
+60
+00:14:23.271 --> 00:14:43.423
+Decoding saves qubits, but it costs time. So, as a further refinement, Claude looked for situations in which it would be cheaper to store the branch information than to decode it. By varying the threshold at which the circuit stores rather than decodes the branch information, Claude produced a new family of designs between the two extremes.
+
+61
+00:14:43.543 --> 00:15:01.463
+Compared with the smallest previous design, one circuit in the family uses 12 percent more qubits but 17 x fewer gates. More generally, the new designs expand the Pareto frontier, offering combinations of qubit count and runtime that weren’t available before (Table 1).
+
+62
+00:15:01.913 --> 00:15:18.120
+Figure 2: Table 1: Resources for elliptic-curve point addition. Bold rows are Claude’s designs; the others are the best previously published designs. Sources: Schrottenloher (2026), Luo and others (2026).
+
+63
+00:15:18.920 --> 00:15:21.024
+Optimizing a quantum optimizer.
+
+64
+00:15:21.474 --> 00:15:37.799
+Optimization problems are at the heart of a wide range of tasks, including scheduling, logistics, and materials design. An optimization problem presents a set of competing constraints and asks for the solution that satisfies as many of them as possible.
+
+65
+00:15:37.919 --> 00:15:59.014
+Many quantum algorithms have been proposed for problems like these, but most promise only modest or uncertain gains over ordinary computers. Decoded quantum interferometry (DQI) is one of the strongest candidates for offering a superpolynomial quantum speedup, an advantage that rapidly widens as the problems get larger.
+
+66
+00:15:59.464 --> 00:16:16.974
+When a quantum computer finishes a computation, reading out its qubits produces just one answer, selected at random from the possibilities they were holding in superposition. DQI works by preparing a quantum state in which good solutions are more likely to be read out than bad ones.
+
+67
+00:16:17.094 --> 00:16:32.332
+Doing this involves using an error-correcting decoder, which recovers a short list of “errors” from a compact summary. This is the most expensive step in the algorithm. So, if we could make a faster decoder, we could also perform DQI faster.
+
+68
+00:16:33.132 --> 00:16:34.909
+A more efficient quantum decoder.
+
+69
+00:16:35.359 --> 00:16:59.547
+The researchers who introduced DQI demonstrated it on a problem called optimal polynomial intersection (OPI), a grid-based version of curve fitting (Figure 3). Imagine a grid in which each position x contains several acceptable values of y. The goal is to find a simple curve (a low-degree polynomial) that passes through an acceptable square for as many x positions as possible.
+
+70
+00:16:59.667 --> 00:17:07.202
+DQI tackles this optimization problem using a specific type of decoder, called a Reed to Solomon decoder.
+
+71
+00:17:07.652 --> 00:17:24.847
+Figure 3: Figure 3: Optimal Polynomial Intersection (OPI) as discrete curve fitting. Each column contains several acceptable values. The optimization problem is to find a polynomial that passes through as many of the acceptable values as possible.
+
+72
+00:17:25.297 --> 00:17:38.514
+Reed to Solomon decoding starts from the compact summary of errors mentioned above, which is known as a syndrome. The decoder’s job is to infer, from this summary, where in the data the errors occurred and what they were.
+
+73
+00:17:38.634 --> 00:17:52.247
+The previous state-of-the-art quantum circuit processed these syndromes using the extended Euclidean algorithm, a sequence of divisions and swaps in which the number and order of steps depend on the particular input it’s given.
+
+74
+00:17:52.367 --> 00:18:06.378
+Here, the constraints of quantum circuits reemerge: while an ordinary program can follow a different path for every input, a quantum circuit, working on many inputs at once, has to handle all of them with a single fixed sequence of gates.
+
+75
+00:18:06.498 --> 00:18:20.052
+To manage this, the previous design had to stretch the computation over many more rounds of iteration than any single input would need, and had to run every operation in every round, even when doing so was unnecessary.
+
+76
+00:18:20.502 --> 00:18:41.177
+Improving this decoder could substantially reduce DQI’s runtime. Estimates by researchers at Google Quantum A I imply that solving one particular OPI problem would take about three months on Frontier, one of the world’s most powerful supercomputers, compared with roughly an hour on a future quantum computer running DQI.
+
+77
+00:18:41.297 --> 00:18:44.936
+Most of that hour would be spent on Reed to Solomon decoding.
+
+78
+00:18:45.386 --> 00:18:56.573
+So, we asked Claude to design a more efficient quantum circuit for the decoding step. Claude quickly concluded that the extended Euclidean algorithm was a poor fit for a quantum circuit.
+
+79
+00:18:56.693 --> 00:19:16.959
+Instead, it organized its circuit around a different decoding method, known as Berlekamp to Massey decoding, which reads through syndromes (summaries of errors) one at a time and gradually works out the simplest rule that predicts each number in the list based on the ones that came before it. Once that rule is found, it reveals the errors.
+
+80
+00:19:17.079 --> 00:19:33.962
+Unlike the extended Euclidean algorithm, Berlekamp to Massey performs the same kind of step in every round and always runs the same number of rounds, which suits a quantum circuit’s single fixed sequence of gates, ultimately giving Claude a much more efficient foundation to build on.
+
+81
+00:19:34.762 --> 00:19:36.651
+A simplified approach to storage.
+
+82
+00:19:37.101 --> 00:19:51.327
+Switching to Berlekamp to Massey removed the need for the circuit to take different paths for different inputs. But making it reversible introduced another challenge, this time as a result of the uncomputing constraint discussed above.
+
+83
+00:19:51.447 --> 00:20:04.263
+In every round, the circuit calculates temporary values that it needs only briefly, but this information can’t simply be deleted: to uncompute it later, the circuit has to be able to recover that information.
+
+84
+00:20:04.713 --> 00:20:23.654
+Storing this information would have been prohibitively expensive. So Claude took the same kind of approach as it had for divsteps: it found a way to reconstruct most of this information from the circuit’s current state, so it didn’t need to be stored. However, a few exceptional values couldn’t be recovered in this way and had to be saved.
+
+85
+00:20:24.104 --> 00:20:46.909
+Setting aside enough memory for the worst possible case, in which an exceptional value arises in 35 different rounds, would take 665 qubits. Instead, Claude wrote a high-speed simulator and ran 403 million sample decodings to measure how often these exceptions actually occurred. Almost every run needed to save one value at most.
+
+86
+00:20:47.029 --> 00:21:06.107
+So Claude’s circuit sets aside room for just one saved value, or 19 qubits. About one run in 10000 needs more than that and fails, which is well within the error rate the task allows. These improvements replaced large, worst-case reserves with a small, fixed number of qubits and gates (Figure 4).
+
+87
+00:21:06.557 --> 00:21:14.602
+Together, these optimizations reduced the number of gates in the decoder by a factor of 12 relative to Google’s previous construction.
+
+88
+00:21:14.722 --> 00:21:36.322
+The improvement came from redesigning the computation at three levels: a different method (replacing the extended Euclidean algorithm with Berlekamp to Massey decoding), a different circuit architecture (reconstructing temporary values instead of storing them), and a different resource budget (measuring precisely how much memory and computation the circuit really needed).
+
+89
+00:21:36.442 --> 00:21:45.823
+No single change would have been enough on its own, but together, they make the most expensive step of DQI just a little over an order of magnitude cheaper.
+
+90
+00:21:46.273 --> 00:22:05.354
+Figure 4: Figure 4: Three designs for the locator step of the Reed to Solomon decoder. The designs are drawn to scale: each block’s width is proportional to its gate count. (a) The previous design, based on the extended Euclidean algorithm (Khattar and others, 2025).
+
+91
+00:22:05.474 --> 00:22:26.871
+(b) A design based on Berlekamp to Massey needs far fewer gates, but a naive reversible version has to store a 12-qubit record in every round, adding up to 840 qubits. (c) Claude’s circuit reconstructs most of the history from the updated state, so it needs to have room only for a single saved value of 19 qubits.
+
+92
+00:22:27.671 --> 00:22:28.490
+What we learned.
+
+93
+00:22:28.940 --> 00:22:41.621
+Scientific progress often comes from making theoretical ideas practical. One of the main ways this happens is by making a process that was once thought to be impractical fast and cheap enough to carry out.
+
+94
+00:22:41.741 --> 00:23:01.426
+Quantum circuit design is a prime example: the 150000-fold drop in the FeMoco estimate described above took many research groups eight years, with each step typically representing months of work. By contrast, Claude’s elliptic-curve design was the result of a single 53-hour run.
+
+95
+00:23:01.876 --> 00:23:17.321
+Our results suggest that A I can support the work of circuit design, producing implementations that bring useful quantum computations closer to the capabilities of real hardware. If A I can speed up that work, useful quantum computing could arrive sooner.
+
+96
+00:23:17.771 --> 00:23:35.949
+Despite Claude’s encouraging performance on these tasks, we also observed some limitations. In our early experiments, Claude was conservative by nature. It repeatedly second-guessed apparent improvements, and sometimes continued to double- and even triple-check results that were already well supported.
+
+97
+00:23:36.069 --> 00:23:50.483
+This caution was sometimes valuable: for example, it prompted Claude to write Lean proofs to verify its divsteps design. But it also manifested in a tendency to prefer existing, well-known approaches to more novel ones.
+
+98
+00:23:50.933 --> 00:24:09.962
+We took two steps to mitigate this. First, our setup required Claude to propose several qualitatively different approaches, and to develop them in parallel. Second, we also occasionally prompted Claude to broaden its search. These interventions succeeded in getting Claude to pursue more ambitious ideas.
+
+99
+00:24:10.082 --> 00:24:26.809
+The elliptic-curve result, for example, didn’t come from shaving gates off of a pre-existing design but from exploring a method of doing reversible modular inversion that hadn’t been possible previously, and then deriving the mathematical results needed to make it practical.
+
+100
+00:24:26.929 --> 00:24:33.973
+Once it had come up with the idea, Claude developed the approach, implemented it, and verified its correctness autonomously.
+
+101
+00:24:34.423 --> 00:24:52.578
+Circuit design is only one part of building a useful quantum computer. Because qubits are so fragile, the machine must also catch and fix its own errors as it runs, and that depends on many other components, ranging from error-correcting codes to fast decoders to control of the hardware itself.
+
+102
+00:24:52.698 --> 00:25:09.442
+These components all affect one another, but to manage complexity, each is usually designed separately. Many of them share the characteristics that made circuit design a good fit for Claude: a design can be written as code, checked for correctness, and scored by its cost.
+
+103
+00:25:09.892 --> 00:25:31.641
+This raises an intriguing possibility. Rather than designing each component on its own, A I could optimize all of them jointly, from the algorithm down to the hardware, to build an entire error-corrected quantum computer tailored to a specific problem. Such designs could also tell hardware builders which capabilities matter most for a given application.
+
+104
+00:25:31.761 --> 00:25:39.369
+That could put problems such as designing catalysts and understanding new materials within reach of the first fault-tolerant machines.
+
+105
+00:25:40.169 --> 00:25:41.146
+Acknowledgments.
+
+106
+00:25:41.596 --> 00:25:47.694
+We thank Arjun Kar and Vinay Ramasesh for helpful discussions in the early stages of the project.
+
+107
+00:25:48.694 --> 00:26:06.703
+That was Designing more efficient quantum circuits with Claude, from Anthropic Research, published October 16, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

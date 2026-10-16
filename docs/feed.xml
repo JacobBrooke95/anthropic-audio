@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 19:10:54 +0000</lastBuildDate>
-    <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:28:57 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,134 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Claude reveals ECDSA curve origins</title>
+      <itunes:title>Research: Claude reveals ECDSA curve origins</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ecdsa-curve-origins/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <description>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
+
+Source: https://www.anthropic.com/research/ecdsa-curve-origins
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• FIPS 186-2 Digital Signature Standard: https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf
+• Neal Koblitz: https://sites.math.washington.edu/~koblitz/
+• Alfred Menezes: https://uwaterloo.ca/scholar/ajmeneze
+• A Riddle Wrapped in an Enigma: https://eprint.iacr.org/2015/1018.pdf
+• amateur investigation into the origin of the seeds: https://saweis.net/posts/nist-curve-seed-origins.html
+• bounty for anyone who could find them: https://words.filippo.io/seeds-bounty/
+• lrand48: https://linux.die.net/man/3/lrand48
+• Lenstra–Lenstra–Lovász (LLL): https://en.wikipedia.org/wiki/Lenstra%E2%80%93Lenstra%E2%80%93Lov%C3%A1sz_lattice_basis_reduction_algorithm
+• srand48: https://linux.die.net/man/3/srand48
+• FreeLIP: https://cr.yp.to/speed/mult/freelip.html
+• Arjen Lenstra: https://en.wikipedia.org/wiki/Arjen_Lenstra
+• Victor Shoup: https://shoup.net/
+• NTL library: https://libntl.org/
+• Internet Security Research Group: https://www.abetterinternet.org/
+• evil Internet meme: https://cr.yp.to/papers/safecurves-20240809.pdf
+• Yo La Tengo of NSA bogeymen: https://sockpuppet.org/blog/2015/08/04/is-extended-random-malicious/
+• Filippo Valsorda: https://filippo.io/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ecdsa-curve-origins/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/ecdsa-curve-origins">https://www.anthropic.com/research/ecdsa-curve-origins</a><br/><strong>Published:</strong> October 16, 2026 · Anthropic Research<br/><strong>Category:</strong> Frontier Red Team<br/><strong>Length:</strong> 2,385 words · 14 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf">FIPS 186-2 Digital Signature Standard</a></li><li><a href="https://sites.math.washington.edu/~koblitz/">Neal Koblitz</a></li><li><a href="https://uwaterloo.ca/scholar/ajmeneze">Alfred Menezes</a></li><li><a href="https://eprint.iacr.org/2015/1018.pdf">A Riddle Wrapped in an Enigma</a></li><li><a href="https://saweis.net/posts/nist-curve-seed-origins.html">amateur investigation into the origin of the seeds</a></li><li><a href="https://words.filippo.io/seeds-bounty/">bounty for anyone who could find them</a></li><li><a href="https://linux.die.net/man/3/lrand48">lrand48</a></li><li><a href="https://en.wikipedia.org/wiki/Lenstra%E2%80%93Lenstra%E2%80%93Lov%C3%A1sz_lattice_basis_reduction_algorithm">Lenstra–Lenstra–Lovász (LLL)</a></li><li><a href="https://linux.die.net/man/3/srand48">srand48</a></li><li><a href="https://cr.yp.to/speed/mult/freelip.html">FreeLIP</a></li><li><a href="https://en.wikipedia.org/wiki/Arjen_Lenstra">Arjen Lenstra</a></li><li><a href="https://shoup.net/">Victor Shoup</a></li><li><a href="https://libntl.org/">NTL library</a></li><li><a href="https://www.abetterinternet.org/">Internet Security Research Group</a></li><li><a href="https://cr.yp.to/papers/safecurves-20240809.pdf">evil Internet meme</a></li><li><a href="https://sockpuppet.org/blog/2015/08/04/is-extended-random-malicious/">Yo La Tengo of NSA bogeymen</a></li><li><a href="https://filippo.io/">Filippo Valsorda</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ecdsa-curve-origins/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-16-ecdsa-curve-origins.mp3" length="7527779" type="audio/mpeg"/>
+      <itunes:duration>847</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-16-ecdsa-curve-origins.jpg?v=ff4e86d7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ecdsa-curve-origins.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-16-ecdsa-curve-origins.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.</itunes:subtitle>
+      <itunes:summary>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
+
+Source: https://www.anthropic.com/research/ecdsa-curve-origins
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• FIPS 186-2 Digital Signature Standard: https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf
+• Neal Koblitz: https://sites.math.washington.edu/~koblitz/
+• Alfred Menezes: https://uwaterloo.ca/scholar/ajmeneze
+• A Riddle Wrapped in an Enigma: https://eprint.iacr.org/2015/1018.pdf
+• amateur investigation into the origin of the seeds: https://saweis.net/posts/nist-curve-seed-origins.html
+• bounty for anyone who could find them: https://words.filippo.io/seeds-bounty/
+• lrand48: https://linux.die.net/man/3/lrand48
+• Lenstra–Lenstra–Lovász (LLL): https://en.wikipedia.org/wiki/Lenstra%E2%80%93Lenstra%E2%80%93Lov%C3%A1sz_lattice_basis_reduction_algorithm
+• srand48: https://linux.die.net/man/3/srand48
+• FreeLIP: https://cr.yp.to/speed/mult/freelip.html
+• Arjen Lenstra: https://en.wikipedia.org/wiki/Arjen_Lenstra
+• Victor Shoup: https://shoup.net/
+• NTL library: https://libntl.org/
+• Internet Security Research Group: https://www.abetterinternet.org/
+• evil Internet meme: https://cr.yp.to/papers/safecurves-20240809.pdf
+• Yo La Tengo of NSA bogeymen: https://sockpuppet.org/blog/2015/08/04/is-extended-random-malicious/
+• Filippo Valsorda: https://filippo.io/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-ecdsa-curve-origins/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>84</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ecdsa-curve-origins.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-ecdsa-curve-origins.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Designing more efficient quantum circuits with Claude</title>
+      <itunes:title>Research: Designing more efficient quantum circuits with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-designing-efficient-quantum-circuits/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.
+
+Source: https://www.anthropic.com/research/designing-efficient-quantum-circuits
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Read the full paper on arXiv: https://arxiv.org/abs/2610.22367
+• classical: https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling
+• algorithms: https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+• divsteps: https://tches.iacr.org/index.php/TCHES/article/view/8298
+• Schrottenloher: https://arxiv.org/abs/2606.02235
+• Luo et al.: https://arxiv.org/abs/2607.13816
+• Decoded quantum interferometry (DQI): https://arxiv.org/abs/2408.08292
+• Google Quantum AI: https://arxiv.org/abs/2510.10967
+• Frontier: https://www.olcf.ornl.gov/frontier/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-designing-efficient-quantum-circuits/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/designing-efficient-quantum-circuits">https://www.anthropic.com/research/designing-efficient-quantum-circuits</a><br/><strong>Published:</strong> October 16, 2026 · Anthropic Research<br/><strong>Category:</strong> Science<br/><strong>Length:</strong> 3,570 words · 26 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://arxiv.org/abs/2610.22367">Read the full paper on arXiv</a></li><li><a href="https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling">classical</a></li><li><a href="https://www.anthropic.com/engineering/AI-resistant-technical-evaluations">algorithms</a></li><li><a href="https://tches.iacr.org/index.php/TCHES/article/view/8298">divsteps</a></li><li><a href="https://arxiv.org/abs/2606.02235">Schrottenloher</a></li><li><a href="https://arxiv.org/abs/2607.13816">Luo et al.</a></li><li><a href="https://arxiv.org/abs/2408.08292">Decoded quantum interferometry (DQI)</a></li><li><a href="https://arxiv.org/abs/2510.10967">Google Quantum AI</a></li><li><a href="https://www.olcf.ornl.gov/frontier/">Frontier</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-designing-efficient-quantum-circuits/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-16-designing-efficient-quantum-circuits.mp3" length="13337566" type="audio/mpeg"/>
+      <itunes:duration>1571</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-16-designing-efficient-quantum-circuits.jpg?v=a4b106f9"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-designing-efficient-quantum-circuits.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-16-designing-efficient-quantum-circuits.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.</itunes:subtitle>
+      <itunes:summary>Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.
+
+Source: https://www.anthropic.com/research/designing-efficient-quantum-circuits
+Published October 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Read the full paper on arXiv: https://arxiv.org/abs/2610.22367
+• classical: https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling
+• algorithms: https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+• divsteps: https://tches.iacr.org/index.php/TCHES/article/view/8298
+• Schrottenloher: https://arxiv.org/abs/2606.02235
+• Luo et al.: https://arxiv.org/abs/2607.13816
+• Decoded quantum interferometry (DQI): https://arxiv.org/abs/2408.08292
+• Google Quantum AI: https://arxiv.org/abs/2510.10967
+• Frontier: https://www.olcf.ornl.gov/frontier/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-16-designing-efficient-quantum-circuits/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>85</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-designing-efficient-quantum-circuits.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-16-designing-efficient-quantum-circuits.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: An update on independent evaluators</title>
       <itunes:title>News: An update on independent evaluators</itunes:title>
