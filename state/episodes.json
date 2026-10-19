@@ -5015,6 +5015,14 @@
       "updated": "2026-10-16T22:56:12+00:00",
       "slug": "research-2026-10-16-expectations-for-the-future",
       "episode": 88
+    },
+    "https://www.anthropic.com/news/public-benefit-fund": {
+      "first_seen": "2026-10-19T20:36:56+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-19T20:36:56+00:00",
+      "slug": "news-2026-10-18-public-benefit-fund",
+      "episode": 89
     }
   },
   "episodes": [
@@ -10106,8 +10114,30 @@
       "episode": 88,
       "created": "2026-10-16T22:56:12+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/bb7d44b0b539fd7f179324bbb647b10c2d7bc833-2000x1125.jpg"
+    },
+    {
+      "slug": "news-2026-10-18-public-benefit-fund",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "news",
+      "title": "Investing in the public benefit",
+      "subtitle": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "date": "2026-10-18T16:00:00+00:00",
+      "authors": [],
+      "category": "Announcements",
+      "links": [
+        {
+          "text": "$200 million",
+          "href": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+        }
+      ],
+      "word_count": 438,
+      "duration": 213.400884,
+      "bytes": 2499792,
+      "episode": 89,
+      "created": "2026-10-19T20:36:56+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg"
     }
   ],
-  "next_episode": 89,
+  "next_episode": 90,
   "baseline_date": "2026-08-14"
 }
