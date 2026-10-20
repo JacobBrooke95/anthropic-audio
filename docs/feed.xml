@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 20:36:57 +0000</lastBuildDate>
-    <pubDate>Sun, 18 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2026 20:08:43 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,60 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: How Claude designed protein binders against scorpion neurotoxins</title>
+      <itunes:title>Research: How Claude designed protein binders against scorpion neurotoxins</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-claude-scorpion-toxin-binder-design/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.
+
+Source: https://www.anthropic.com/research/claude-scorpion-toxin-binder-design
+Published October 20, 2026 · Anthropic Research
+
+Links referenced in the post:
+• how Claude designed protein minibinders: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Citrini Research: https://www.citriniresearch.com/
+• described as: https://gh.bmj.com/content/10/11/e020682
+• technical report: https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf
+• all 211 designs and their data available: https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design
+• an earlier effort: https://www.nature.com/articles/s41586-024-08393-x
+• has been reported to neutralize Cn2: https://pmc.ncbi.nlm.nih.gov/articles/PMC4722445/
+• uplifting biomolecular modeling: https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-claude-scorpion-toxin-binder-design/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design">https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</a><br/><strong>Published:</strong> October 20, 2026 · Anthropic Research<br/><strong>Length:</strong> 2,388 words · 17 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">how Claude designed protein minibinders</a></li><li><a href="https://www.citriniresearch.com/">Citrini Research</a></li><li><a href="https://gh.bmj.com/content/10/11/e020682">described as</a></li><li><a href="https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf">technical report</a></li><li><a href="https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design">all 211 designs and their data available</a></li><li><a href="https://www.nature.com/articles/s41586-024-08393-x">an earlier effort</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4722445/">has been reported to neutralize Cn2</a></li><li><a href="https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling">uplifting biomolecular modeling</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-claude-scorpion-toxin-binder-design/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-20-claude-scorpion-toxin-binder-design.mp3" length="9240750" type="audio/mpeg"/>
+      <itunes:duration>1061</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-20-claude-scorpion-toxin-binder-design.jpg?v=8335ed65"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-claude-scorpion-toxin-binder-design.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-20-claude-scorpion-toxin-binder-design.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.</itunes:subtitle>
+      <itunes:summary>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.
+
+Source: https://www.anthropic.com/research/claude-scorpion-toxin-binder-design
+Published October 20, 2026 · Anthropic Research
+
+Links referenced in the post:
+• how Claude designed protein minibinders: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Citrini Research: https://www.citriniresearch.com/
+• described as: https://gh.bmj.com/content/10/11/e020682
+• technical report: https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf
+• all 211 designs and their data available: https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design
+• an earlier effort: https://www.nature.com/articles/s41586-024-08393-x
+• has been reported to neutralize Cn2: https://pmc.ncbi.nlm.nih.gov/articles/PMC4722445/
+• uplifting biomolecular modeling: https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-claude-scorpion-toxin-binder-design/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>90</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-claude-scorpion-toxin-binder-design.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-claude-scorpion-toxin-binder-design.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Investing in the public benefit</title>
       <itunes:title>News: Investing in the public benefit</itunes:title>
@@ -535,6 +589,52 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>82</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-2026-us-midterms.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-14-2026-us-midterms.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Redesigning source control at Anthropic</title>
+      <itunes:title>Research: Redesigning source control at Anthropic</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-13-redesigning-source-control/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/redesigning-source-control</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.
+
+Source: https://www.anthropic.com/research/redesigning-source-control
+Published October 13, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Piper: https://en.wikipedia.org/wiki/Piper_(source_control_system)
+• Sapling: https://sapling-scm.com/
+• Claude Mythos Preview: https://www.anthropic.com/claude/mythos
+• Claude Tag: https://www.anthropic.com/news/introducing-claude-tag
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-13-redesigning-source-control/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/redesigning-source-control">https://www.anthropic.com/research/redesigning-source-control</a><br/><strong>Published:</strong> October 13, 2026 · Anthropic Research<br/><strong>Length:</strong> 3,604 words · 24 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://en.wikipedia.org/wiki/Piper_(source_control_system)">Piper</a></li><li><a href="https://sapling-scm.com/">Sapling</a></li><li><a href="https://www.anthropic.com/claude/mythos">Claude Mythos Preview</a></li><li><a href="https://www.anthropic.com/news/introducing-claude-tag">Claude Tag</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-13-redesigning-source-control/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-13-redesigning-source-control.mp3" length="12504527" type="audio/mpeg"/>
+      <itunes:duration>1463</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-13-redesigning-source-control.jpg?v=889ac264"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-13-redesigning-source-control.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-13-redesigning-source-control.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.</itunes:subtitle>
+      <itunes:summary>As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.
+
+Source: https://www.anthropic.com/research/redesigning-source-control
+Published October 13, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Piper: https://en.wikipedia.org/wiki/Piper_(source_control_system)
+• Sapling: https://sapling-scm.com/
+• Claude Mythos Preview: https://www.anthropic.com/claude/mythos
+• Claude Tag: https://www.anthropic.com/news/introducing-claude-tag
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-13-redesigning-source-control/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>92</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-13-redesigning-source-control.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-13-redesigning-source-control.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: AI models may be capable of self-replicating without access to a datacenter</title>
@@ -2215,6 +2315,64 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>54</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-claude-marketplace.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/claude-blog-2026-09-23-claude-marketplace.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Claude discovers a novel enzyme system with CRISPR-like repeats</title>
+      <itunes:title>Research: Claude discovers a novel enzyme system with CRISPR-like repeats</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-23-claude-discovers-novel-enzyme-system/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.
+
+Source: https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+Published September 23, 2026 · Anthropic Research
+
+Links referenced in the post:
+• accelerate such discoveries: https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health
+• here: https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1
+• evolution: https://www.science.org/doi/10.1126/science.aei0498
+• regulation: https://www.nature.com/articles/s41586-018-0557-5
+• enzymes: https://www.nature.com/articles/s41586-024-07552-4
+• cell and gene therapies: https://www.science.org/doi/10.1126/science.adz0276
+• tools: https://www.nature.com/articles/s41586-026-10176-5
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• Claude Science: https://claude.com/product/claude-science
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-23-claude-discovers-novel-enzyme-system/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/claude-discovers-novel-enzyme-system">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</a><br/><strong>Published:</strong> September 23, 2026 · Anthropic Research<br/><strong>Length:</strong> 1,555 words · 11 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health">accelerate such discoveries</a></li><li><a href="https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1">here</a></li><li><a href="https://www.science.org/doi/10.1126/science.aei0498">evolution</a></li><li><a href="https://www.nature.com/articles/s41586-018-0557-5">regulation</a></li><li><a href="https://www.nature.com/articles/s41586-024-07552-4">enzymes</a></li><li><a href="https://www.science.org/doi/10.1126/science.adz0276">cell and gene therapies</a></li><li><a href="https://www.nature.com/articles/s41586-026-10176-5">tools</a></li><li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://claude.com/product/claude-code">Claude Code</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-23-claude-discovers-novel-enzyme-system/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-09-23-claude-discovers-novel-enzyme-system.mp3" length="6459301" type="audio/mpeg"/>
+      <itunes:duration>696</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-09-23-claude-discovers-novel-enzyme-system.jpg?v=6acfde8f"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-23-claude-discovers-novel-enzyme-system.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-09-23-claude-discovers-novel-enzyme-system.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.</itunes:subtitle>
+      <itunes:summary>In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.
+
+Source: https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+Published September 23, 2026 · Anthropic Research
+
+Links referenced in the post:
+• accelerate such discoveries: https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health
+• here: https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1
+• evolution: https://www.science.org/doi/10.1126/science.aei0498
+• regulation: https://www.nature.com/articles/s41586-018-0557-5
+• enzymes: https://www.nature.com/articles/s41586-024-07552-4
+• cell and gene therapies: https://www.science.org/doi/10.1126/science.adz0276
+• tools: https://www.nature.com/articles/s41586-026-10176-5
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+• Claude Science: https://claude.com/product/claude-science
+• Claude Code: https://claude.com/product/claude-code
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-09-23-claude-discovers-novel-enzyme-system/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>91</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-23-claude-discovers-novel-enzyme-system.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-09-23-claude-discovers-novel-enzyme-system.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Claude Blog: What a task costs on Opus 5.5</title>

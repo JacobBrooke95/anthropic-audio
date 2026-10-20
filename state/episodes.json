@@ -5023,6 +5023,30 @@
       "updated": "2026-10-19T20:36:56+00:00",
       "slug": "news-2026-10-18-public-benefit-fund",
       "episode": 89
+    },
+    "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design": {
+      "first_seen": "2026-10-20T19:29:09+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-20T19:29:09+00:00",
+      "slug": "research-2026-10-20-claude-scorpion-toxin-binder-design",
+      "episode": 90
+    },
+    "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": {
+      "first_seen": "2026-10-20T19:42:34+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-20T19:42:34+00:00",
+      "slug": "research-2026-09-23-claude-discovers-novel-enzyme-system",
+      "episode": 91
+    },
+    "https://www.anthropic.com/research/redesigning-source-control": {
+      "first_seen": "2026-10-20T20:08:42+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-20T20:08:42+00:00",
+      "slug": "research-2026-10-13-redesigning-source-control",
+      "episode": 92
     }
   },
   "episodes": [
@@ -7658,6 +7682,64 @@
       "hero": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2b3cd0ef2a7b31c037352_og_what-a-task-costs-on-opus-5-5.jpg"
     },
     {
+      "slug": "research-2026-09-23-claude-discovers-novel-enzyme-system",
+      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+      "source": "research",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "subtitle": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "date": "2026-09-23T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "accelerate such discoveries",
+          "href": "https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health"
+        },
+        {
+          "text": "here",
+          "href": "https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1"
+        },
+        {
+          "text": "evolution",
+          "href": "https://www.science.org/doi/10.1126/science.aei0498"
+        },
+        {
+          "text": "regulation",
+          "href": "https://www.nature.com/articles/s41586-018-0557-5"
+        },
+        {
+          "text": "enzymes",
+          "href": "https://www.nature.com/articles/s41586-024-07552-4"
+        },
+        {
+          "text": "cell and gene therapies",
+          "href": "https://www.science.org/doi/10.1126/science.adz0276"
+        },
+        {
+          "text": "tools",
+          "href": "https://www.nature.com/articles/s41586-026-10176-5"
+        },
+        {
+          "text": "Model Hardware Standard",
+          "href": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://claude.com/product/claude-science"
+        },
+        {
+          "text": "Claude Code",
+          "href": "https://claude.com/product/claude-code"
+        }
+      ],
+      "word_count": 1555,
+      "duration": 696.122086,
+      "bytes": 6459301,
+      "episode": 91,
+      "created": "2026-10-20T19:42:34+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6767b35fae00316d8cd744f50a38fb72a01f6c75-1200x630.jpg"
+    },
+    {
       "slug": "news-2026-09-23-claude-discovers-novel-enzyme-system",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "source": "news",
@@ -9633,6 +9715,40 @@
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg"
     },
     {
+      "slug": "research-2026-10-13-redesigning-source-control",
+      "url": "https://www.anthropic.com/research/redesigning-source-control",
+      "source": "research",
+      "title": "Redesigning source control at Anthropic",
+      "subtitle": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+      "date": "2026-10-13T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Piper",
+          "href": "https://en.wikipedia.org/wiki/Piper_(source_control_system)"
+        },
+        {
+          "text": "Sapling",
+          "href": "https://sapling-scm.com/"
+        },
+        {
+          "text": "Claude Mythos Preview",
+          "href": "https://www.anthropic.com/claude/mythos"
+        },
+        {
+          "text": "Claude Tag",
+          "href": "https://www.anthropic.com/news/introducing-claude-tag"
+        }
+      ],
+      "word_count": 3604,
+      "duration": 1462.637846,
+      "bytes": 12504527,
+      "episode": 92,
+      "created": "2026-10-20T20:08:42+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f51d635fde176783a022c74b185a4dea2a54e8a0-1200x630.jpg"
+    },
+    {
       "slug": "news-2026-10-14-singapore-office-opening",
       "url": "https://www.anthropic.com/news/singapore-office-opening",
       "source": "news",
@@ -10136,8 +10252,58 @@
       "episode": 89,
       "created": "2026-10-19T20:36:56+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-10-20-claude-scorpion-toxin-binder-design",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "research",
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "subtitle": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+      "date": "2026-10-20T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "how Claude designed protein minibinders",
+          "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+        },
+        {
+          "text": "Citrini Research",
+          "href": "https://www.citriniresearch.com/"
+        },
+        {
+          "text": "described as",
+          "href": "https://gh.bmj.com/content/10/11/e020682"
+        },
+        {
+          "text": "technical report",
+          "href": "https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf"
+        },
+        {
+          "text": "all 211 designs and their data available",
+          "href": "https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design"
+        },
+        {
+          "text": "an earlier effort",
+          "href": "https://www.nature.com/articles/s41586-024-08393-x"
+        },
+        {
+          "text": "has been reported to neutralize Cn2",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4722445/"
+        },
+        {
+          "text": "uplifting biomolecular modeling",
+          "href": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+        }
+      ],
+      "word_count": 2388,
+      "duration": 1061.101519,
+      "bytes": 9240750,
+      "episode": 90,
+      "created": "2026-10-20T19:29:09+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg"
     }
   ],
-  "next_episode": 90,
+  "next_episode": 93,
   "baseline_date": "2026-08-14"
 }

@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 123.96,
+   "title": "Growing our monorepo"
+  },
+  {
+   "startTime": 279.03,
+   "title": "Principles for agent-scale source control"
+  },
+  {
+   "startTime": 517.04,
+   "title": "How Scion works"
+  },
+  {
+   "startTime": 533.12,
+   "title": "Data structures"
+  },
+  {
+   "startTime": 661.53,
+   "title": "Scaling Scion"
+  },
+  {
+   "startTime": 902.26,
+   "title": "What we learned building Scion"
+  },
+  {
+   "startTime": 1272.92,
+   "title": "Contributing to the wider ecosystem"
+  },
+  {
+   "startTime": 1441.42,
+   "title": "Outro"
+  }
+ ]
+}

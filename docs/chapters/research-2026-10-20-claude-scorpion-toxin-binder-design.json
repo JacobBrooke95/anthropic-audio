@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 293.38,
+   "title": "Designing de novo binders against five toxins from four species of scorpions"
+  },
+  {
+   "startTime": 566.47,
+   "title": "Claude ran the design campaign with considerable autonomy"
+  },
+  {
+   "startTime": 731.38,
+   "title": "Testing Claude's designs in the lab"
+  },
+  {
+   "startTime": 828.85,
+   "title": "Claude’s Cn2 binders likely bind the same site as a toxin-neutralizing antibody"
+  },
+  {
+   "startTime": 929.73,
+   "title": "A binder is only the first step to developing an antivenom"
+  },
+  {
+   "startTime": 1015.44,
+   "title": "Further reading"
+  },
+  {
+   "startTime": 1038.48,
+   "title": "Outro"
+  }
+ ]
+}
