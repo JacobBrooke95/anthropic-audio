@@ -1,0 +1,285 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.729
+This is Anthropic, Read Aloud. Today: Using Claude to reduce the attack surface of code.
+
+2
+00:00:09.029 --> 00:00:11.957
+Using Claude to reduce the attack surface of code.
+
+3
+00:00:12.407 --> 00:00:18.088
+From Anthropic Research, published October 20, 2026. By Chris Rohlf.
+
+4
+00:00:19.088 --> 00:00:37.989
+Over the past year, we’ve published lots of data that shows that frontier A I models are more than capable of discovering and exploiting security vulnerabilities. Showing how previously unknown vulnerabilities might be exploited is, however, only the start of what frontier A I models can do for cyber defense.
+
+5
+00:00:38.109 --> 00:00:55.147
+In this post, we summarize some of our initial research into automated attack surface analysis and reduction: the process of using A I models to map the code that is reachable, then removing or restricting access to anything than a given deployment doesn’t need to expose.
+
+6
+00:00:55.597 --> 00:01:14.414
+Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. Securing software by finding and fixing individual vulnerabilities alone scales poorly: fixing even a critical vulnerability tells you nothing about the vulnerabilities that remain.
+
+7
+00:01:14.534 --> 00:01:33.668
+By contrast, reducing code reachability can reduce the severity of unknown vulnerabilities, including the ones that might be under active exploitation. These techniques don’t remove the unknown vulnerabilities in the code, but they do make the vulnerabilities harder to reach, and thereby reduce their severity.
+
+8
+00:01:33.788 --> 00:01:42.236
+Minimizing codebases’ attack surface results in better security without ever having to find or fix an individual vulnerability.
+
+9
+00:01:42.686 --> 00:01:59.873
+Below, we preview some of the data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude. Our aim in doing so is to show that Claude can meaningfully, and economically, improve software security through the methods we outline.
+
+10
+00:01:59.993 --> 00:02:14.214
+Specifically, we ran Claude over 25 projects (in a variety of languages), and it discovered 493 issues. With these results in mind, we discuss how developers can apply similar techniques to their own code.
+
+11
+00:02:15.014 --> 00:02:18.065
+Methods for reducing codebases’ attack surface.
+
+12
+00:02:18.515 --> 00:02:34.953
+Over time, software has a tendency to become more complicated, with new layers of abstractions, new dependencies, and new features slowly piling on top of one-another. This can often cause it to function very differently to how its original developers intended.
+
+13
+00:02:35.073 --> 00:02:46.677
+And it is a big part of why attackers are often so successful: they study exactly how a piece of code behaves in practice, rather than how its developers intended or designed it to work.
+
+14
+00:02:47.127 --> 00:03:10.935
+Automated attack surface analysis and reduction techniques aim to discover unnecessary attack surfaces, then move that code behind an appropriate gate. This might involve moving code from pre-authentication to post-authentication, from 0-click to 1-click, from on-by-default to explicit opt-in, or from the first message of a protocol to deeper in the session state machine.
+
+15
+00:03:11.055 --> 00:03:25.412
+Some code is meant to be reachable before these stages, but a lot it is not, and, given the complexity that comes with code churn across thousands or millions of lines of code, unnecessary exposure of features often goes unnoticed.
+
+16
+00:03:25.862 --> 00:03:33.494
+There are numerous ways to reduce the attack surface of code. In our own research efforts, we focused on three methods in particular:
+
+17
+00:03:33.944 --> 00:03:44.157
+Default configuration. We identified code that was reachable in its shipped default configuration but wasn’t intended to be used by any default functionality.
+
+18
+00:03:44.397 --> 00:04:01.020
+Configuration interaction. We found pairs of options that looked reasonable on their own, but which caused issues when configured together (for instance, by silently disabling a security control, or leaving a features behavior undefined while its code remains reachable).
+
+19
+00:04:01.260 --> 00:04:15.582
+Early reachability. We identified security sensitive and complex code that runs either before an appropriate security control (such as authentication), without victim interaction, or before a protocol state transition.
+
+20
+00:04:16.032 --> 00:04:36.672
+We wanted to understand how well Claude could take these three descriptions of attack surface and discover real issues in large and complex codebases. We analyzed 25 open source projects (representing over five million lines of code), written in languages including C, C++, Java, PHP, and Python.
+
+21
+00:04:36.792 --> 00:04:51.318
+Claude created an inventory of over 17000 configuration options across these projects. Of those, 3842 related to the configuration of a control or feature that was security relevant.
+
+22
+00:04:51.768 --> 00:04:57.691
+For the purposes of our research, we broke down these open source projects into three broad categories:
+
+23
+00:04:58.141 --> 00:05:13.849
+Public. These projects are built to serve any user who can reach them, or to consume data authored by parties they cannot identify. (Examples include a DNS resolver parsing upstream answers, or a proxy parsing origin responses.).
+
+24
+00:05:14.089 --> 00:05:31.893
+Gated. These projects are intended to serve authenticated users (such as those with a password, key or certificate holders, or enrolled devices). The software still allows for arbitrary client requests, but no functionality is available until the user has been authenticated.
+
+25
+00:05:32.133 --> 00:05:44.378
+Private. These are built and deployed to serve the operator's own private environment. In these cases, adding a control like an authentication layer is optional, but outside the scope of the software.
+
+26
+00:05:44.828 --> 00:06:01.477
+These categories help to contextualize our results. For example, we’d expect a significant percentage of a Public codebase to be reachable in the default configuration (since it’s designed to serve any user), but the opposite to be true for projects in the Gated category.
+
+27
+00:06:02.277 --> 00:06:03.399
+Claude’s findings.
+
+28
+00:06:03.849 --> 00:06:11.950
+Claude found 493 issues using the three methods described above. Several themes stuck out to us from its results.
+
+29
+00:06:12.400 --> 00:06:24.411
+First, Claude found that all eleven gated projects had code that was unintentionally reachable (although this code wasn’t a significant percentage of the total lines of code for any of those projects).
+
+30
+00:06:24.531 --> 00:06:47.230
+Specifically, Claude discovered 93 unnecessary pre-authentication surfaces in the default configuration of the gated cohort, 37 locations where code executed, or state was recorded, before authentication, and 61 configuration combinations that silently weakened a pre-authentication control configured by the administrator.
+
+31
+00:06:47.350 --> 00:06:54.985
+None of these issues would have been immediately exploitable on their own, but they create a much larger attack surface than is necessary.
+
+32
+00:06:55.435 --> 00:07:12.263
+Figure 1: A breakdown of issues discovered per category for each technique. Of the 25 projects we assessed, 10 were Public, 11 Gated, and 4 Private. The Gated cohort contained the most surprising results with a high number of early reachability findings.
+
+33
+00:07:12.713 --> 00:07:34.555
+Second, Claude’s work mitigating configuration interaction issues produced some of the most interesting and impactful findings (across all project types). Claude found 162 security sensitive configuration combinations that were accepted both without an error or warning and without any documentation of the expected behavior of their interaction.
+
+34
+00:07:34.675 --> 00:07:39.799
+In 94 of those cases, the combination silently turned off a security control.
+
+35
+00:07:39.919 --> 00:07:59.369
+The other 68 cases were inconsistencies in the same security mechanisms (for example, a listener or login path would remain reachable even though the configuration would say it was disabled; two settings would conflict, and the one that would take precedence would depend on their order in the configuration file,
+
+36
+00:07:59.489 --> 00:08:04.917
+or a protection configured by the administrator would do nothing while its code remained reachable).
+
+37
+00:08:05.037 --> 00:08:17.035
+While some of these configuration combinations might be non-standard or infrequently used, there would be nothing preventing an administrator of these projects from configuring and deploying the code in this way.
+
+38
+00:08:17.485 --> 00:08:38.643
+Claude also found one specific pattern that turned up independently in four unrelated projects. This would work as follows. An administrator would write an access rule for remote clients using a hostname or a wildcard pattern, instead of an IP address. When a client connects, the server would compare that rule against the client’s hostname.
+
+39
+00:08:38.763 --> 00:08:59.514
+Whether the server ever learned that hostname would depend on a separate option that controlled reverse DNS lookups (which most projects had configured off). With lookups off, the server would only have the client’s IP address. The server would compare the rule against that address as plain text. But a hostname pattern can never match an IP address.
+
+40
+00:08:59.634 --> 00:09:16.686
+This means that a deny rule would never fire, and the list would fail open. Some of the affected projects mention in their documentation that hostname rules depend on DNS lookups being enabled, but none state that a deny list written this way would have fail open behavior.
+
+41
+00:09:17.136 --> 00:09:39.032
+Third, Claude often discovered that two configuration options would conflict in a way that silently dropped a security check. In one case, an administrator could require every connecting client to prove its identity with a certificate. In another, the code was only intended to delay that check until it was required, but in fact disabled the check entirely.
+
+42
+00:09:39.152 --> 00:09:54.402
+A server that was configured to accept only trusted clients would therefore accept a connection from anyone. This exposed a large body of request handling code (which was supposed to be behind the certificate check) to unauthenticated clients.
+
+43
+00:09:54.522 --> 00:10:11.525
+The software accepted both configuration options together with no warning under default settings; the documentation never mentioned that the certificate requirement had been dropped. This conflicting set of configuration options had been present in the software for 21 years.
+
+44
+00:10:11.975 --> 00:10:33.522
+Finally, Claude discovered an issue in a project that left authentication off by default (and expected the administrator to turn it on). The option that required TLS client certificates was honored on most of the project’s network endpoints, but silently ignored on a few others (ones which loaded their TLS settings through a path with a different namespace).
+
+45
+00:10:33.642 --> 00:10:50.608
+This meant that a client with no certificate could complete the TLS handshake and open a session on an affected endpoint. Nothing would be logged about the ignored setting. Whether the option takes effect would depend on the namespace used by the administrator in the configuration.
+
+46
+00:10:50.728 --> 00:10:58.685
+One form of the setting name works on every endpoint, but the shorter form, which most examples use, is dropped on the affected ones.
+
+47
+00:10:59.485 --> 00:11:01.423
+Case study: OpenSSH.
+
+48
+00:11:01.873 --> 00:11:17.724
+Surprisingly, when measured as a percentage of the total lines of code, the project for which Claude achieved the largest reduction in attack surface was OpenSSH. OpenSSH is a high quality C codebase that provides secure remote access.
+
+49
+00:11:17.844 --> 00:11:37.294
+Claude traced the input paths of the SSH daemon in the 10.4 release and found roughly 4500 lines of new and experimental code for M L-DSA-44, a post-quantum signature algorithm, that an unauthenticated client could reach in the default configuration.
+
+50
+00:11:37.414 --> 00:11:57.792
+M L-DSA is not enabled by default, but the code was reachable regardless, even when an administrator explicitly excluded the algorithm. The daemon parsed whichever key type the client sent, (and, for certificates, it also verified the embedded CA signature). Only then did it check whether that key type was allowed.
+
+51
+00:11:57.912 --> 00:12:23.448
+There is no good reason for this complex, memory unsafe code to be reachable when it hasn’t been enabled by the configuration. Those 4500 lines of code in M L-DSA-44 are about 16 percent of OpenSSH’s own pre-authentication code in a default sshd. We reported this to the OpenSSH developers along with patches. The 10.5 release moved the check before parsing.
+
+52
+00:12:23.898 --> 00:12:48.962
+Claude then noted two gaps in the 10.5 check. The first was a mismatch between what the client claimed and what it sent. The check looked at the algorithm name advertised by the client, but the parser was chosen by a type string embedded inside the key blob. A client could advertise ssh-ed25519, pass the check, and still send an M L-DSA key that would be parsed.
+
+53
+00:12:49.412 --> 00:13:10.031
+The second gap was in the 10.5 check’s certificates. Certificate key types were enabled by default. Given a certificate supplied by an attacker, sshd would deserialize the embedded CA public key and run a full signature verification with it, for any supported algorithm, before consulting the configuration.
+
+54
+00:13:10.151 --> 00:13:31.965
+The user key signature path was properly gated behind the list of public keys allowed to connect to the server, but the CA signature path was not. That made every public key signature verifier in the binary reachable by any client that could complete a key exchange. We built a proof of concept and worked through several iterations of a fix with the maintainers.
+
+55
+00:13:32.085 --> 00:13:48.330
+The resulting change placed the checks inside the parser itself. The encoded key type and the certificate’s CA signature algorithm are now compared against the configured allow lists before the corresponding deserialization or signature verification.
+
+56
+00:13:48.780 --> 00:14:11.308
+This fix removed roughly a fifth of the OpenSSH code that an unauthenticated client previously could have reached in a default build. Almost all of that was the new M L-DSA code, which is now unreachable even for a client that lies about its key type or hides an M L-DSA CA key inside an otherwise acceptable certificate.
+
+57
+00:14:11.428 --> 00:14:23.716
+Certificates signed with an allowed CA algorithm are still parsed and verified, but the check now runs before parsing. The maintainers shipped the changes described here in version 10.6.
+
+58
+00:14:24.166 --> 00:14:40.571
+OpenSSH is some of the most heavily audited code in the world. If unnecessary reachability survives there, it can survive anywhere. This suggests that reducing the attack surface of codebases is likely to pay dividends across many important codebases.
+
+59
+00:14:41.371 --> 00:14:42.184
+Conclusion.
+
+60
+00:14:42.634 --> 00:14:57.461
+It is perhaps impossible to measure how many unknown vulnerabilities are in any given codebase. And there is plenty of data that shows attackers can and will find those vulnerabilities with enough time (particularly if equipped with frontier A I models).
+
+61
+00:14:57.581 --> 00:15:14.007
+But a defender who reduces unnecessary attack surface in their code reduces the risk from all of the unknown vulnerabilities in that code at once, including any that are already being quietly exploited. OpenSSH is some of the most audited C code in the world.
+
+62
+00:15:14.127 --> 00:15:23.919
+Yet it shipped around 4500 lines of experimental signature parsing code that could have been reached by an attacker prior to any configuration check.
+
+63
+00:15:24.369 --> 00:15:44.764
+We have combined the attack surface reduction techniques we described above into one reusable Claude skill, which we are working to integrate into O S S-Scanner. The skill runs three passes on a codebase. Each time it starts fresh (with an empty context window), except for a short piece of context it receives from the prior pass.
+
+64
+00:15:45.214 --> 00:16:04.977
+In the first pass, the skill looks at whether there is code that the default configuration allows to be reached but which isn’t used by any intended functionality. In the second pass, it looks at the code that runs before any hard gates (like authentication) or before protocol state machine entry points, in any configuration.
+
+65
+00:16:05.097 --> 00:16:22.820
+Finally, third, the skill assesses which combinations of configurations silently switch a security control off or degrade its efficacy. In every pass, Claude creates an inventory of the entry points from the code and confirms each finding with a dynamic trace of the program.
+
+66
+00:16:22.940 --> 00:16:42.738
+For default configuration findings, it designs and implements a gate and ensures that this causes no change in the program’s default behavior. It does so by running the project's own test suite (along with a black box regression suite) against the baseline; it requires modified builds to have identical results.
+
+67
+00:16:42.858 --> 00:17:00.010
+Any gate that would change a non-default configuration is set aside for a human to decide. For the other two passes, it proposes changes like reordering a configuration check, adding a guard to enforce state ordering, or rejecting the combination at configuration load.
+
+68
+00:17:00.130 --> 00:17:06.789
+Even without using this specific skill, we think the broad methodology outlined here is likely to be effective.
+
+69
+00:17:07.239 --> 00:17:31.728
+The techniques outlined in this post offer only a very limited view into what is possible in attack surface reduction. For instance, Claude is also capable of analyzing and comparing runtime logs against configurations to ensure that only required functionality has been enabled: disabling unused parsers, legacy protocols, and dashboards reduces security risk at little cost.
+
+70
+00:17:32.178 --> 00:17:48.225
+We encourage organizations to explore using Claude to analyze and reduce the attack surface of the software they depend on. We expect this to be one of the most practical ways that developers can measurably improve the security of the code the world already runs on.
+
+71
+00:17:49.225 --> 00:18:06.838
+That was Using Claude to reduce the attack surface of code, from Anthropic Research, published October 20, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 20:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 23:23:45 +0000</lastBuildDate>
     <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -81,6 +81,54 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>90</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-claude-scorpion-toxin-binder-design.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-claude-scorpion-toxin-binder-design.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Using Claude to reduce the attack surface of code</title>
+      <itunes:title>Research: Using Claude to reduce the attack surface of code</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-attack-surface-reduction/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/attack-surface-reduction</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.
+
+Source: https://www.anthropic.com/research/attack-surface-reduction
+Published October 20, 2026 · Anthropic Research · by Chris Rohlf
+
+Links referenced in the post:
+• published: https://www.anthropic.com/research/mythos-preview
+• discovering: https://www.anthropic.com/news/mozilla-firefox-security
+• exploiting: https://www.anthropic.com/research/exploit-evals
+• 10.6: https://www.openssh.org/releasenotes.html#10.6
+• OSS-Scanner: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-attack-surface-reduction/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/attack-surface-reduction">https://www.anthropic.com/research/attack-surface-reduction</a><br/><strong>Published:</strong> October 20, 2026 · Anthropic Research<br/><strong>Authors:</strong> Chris Rohlf<br/><strong>Length:</strong> 2,510 words · 18 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/mythos-preview">published</a></li><li><a href="https://www.anthropic.com/news/mozilla-firefox-security">discovering</a></li><li><a href="https://www.anthropic.com/research/exploit-evals">exploiting</a></li><li><a href="https://www.openssh.org/releasenotes.html#10.6">10.6</a></li><li><a href="https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source">OSS-Scanner</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-attack-surface-reduction/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-20-attack-surface-reduction.mp3" length="9493483" type="audio/mpeg"/>
+      <itunes:duration>1091</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-20-attack-surface-reduction.jpg?v=509af97a"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-attack-surface-reduction.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-20-attack-surface-reduction.json" type="application/json+chapters"/>
+      <itunes:author>Chris Rohlf</itunes:author>
+      <itunes:subtitle>Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebase</itunes:subtitle>
+      <itunes:summary>Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.
+
+Source: https://www.anthropic.com/research/attack-surface-reduction
+Published October 20, 2026 · Anthropic Research · by Chris Rohlf
+
+Links referenced in the post:
+• published: https://www.anthropic.com/research/mythos-preview
+• discovering: https://www.anthropic.com/news/mozilla-firefox-security
+• exploiting: https://www.anthropic.com/research/exploit-evals
+• 10.6: https://www.openssh.org/releasenotes.html#10.6
+• OSS-Scanner: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-20-attack-surface-reduction/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>93</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-attack-surface-reduction.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-20-attack-surface-reduction.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Investing in the public benefit</title>
@@ -771,6 +819,68 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>80</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-12-distillation-defenses.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-12-distillation-defenses.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Strengthening our defenses against distillation attacks</title>
+      <itunes:title>News: Strengthening our defenses against distillation attacks</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-12-distillation-defenses/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/distillation-defenses</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+
+Source: https://www.anthropic.com/news/distillation-defenses
+Published October 12, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• wrote in September: https://www.anthropic.com/threat-intelligence-report-september-2026#illicit-distillation-sep-26
+• biology: https://www.anthropic.com/threat-intelligence-report-september-2026#biological-misuse-sep-26
+• cybersecurity: https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26
+• since assessed: https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities
+• Our own research has found: https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
+• military, intelligence, and surveillance systems: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
+• between conversations: https://www.anthropic.com/threat-intelligence-report-september-2026#gtg-16002-moonshot-serves-claude-instead-of-kimi-and-collects-exchanges-for-model-training
+• between models: https://arxiv.org/abs/2608.09867
+• proxy networks: https://www.anthropic.com/threat-intelligence-report-september-2026#how-unauthorized-labs-access-anthropics-models
+• preserved thinking: https://platform.claude.com/docs/en/build-with-claude/preserved-thinking
+• constitutional classifiers research: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• resumed charging for requests: https://x.com/ClaudeDevs/status/2103170368794185758
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-12-distillation-defenses/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/distillation-defenses">https://www.anthropic.com/news/distillation-defenses</a><br/><strong>Published:</strong> October 12, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 1,930 words · 15 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#illicit-distillation-sep-26">wrote in September</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#biological-misuse-sep-26">biology</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26">cybersecurity</a></li><li><a href="https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities">since assessed</a></li><li><a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities">Our own research has found</a></li><li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">military, intelligence, and surveillance systems</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#gtg-16002-moonshot-serves-claude-instead-of-kimi-and-collects-exchanges-for-model-training">between conversations</a></li><li><a href="https://arxiv.org/abs/2608.09867">between models</a></li><li><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#how-unauthorized-labs-access-anthropics-models">proxy networks</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/preserved-thinking">preserved thinking</a></li><li><a href="https://www.anthropic.com/research/next-generation-constitutional-classifiers">constitutional classifiers research</a></li><li><a href="https://x.com/ClaudeDevs/status/2103170368794185758">resumed charging for requests</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-12-distillation-defenses/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-12-distillation-defenses.mp3" length="8044025" type="audio/mpeg"/>
+      <itunes:duration>907</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-12-distillation-defenses.jpg?v=246e2f50"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-12-distillation-defenses.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-12-distillation-defenses.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.</itunes:subtitle>
+      <itunes:summary>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+
+Source: https://www.anthropic.com/news/distillation-defenses
+Published October 12, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• wrote in September: https://www.anthropic.com/threat-intelligence-report-september-2026#illicit-distillation-sep-26
+• biology: https://www.anthropic.com/threat-intelligence-report-september-2026#biological-misuse-sep-26
+• cybersecurity: https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26
+• since assessed: https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities
+• Our own research has found: https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
+• military, intelligence, and surveillance systems: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
+• between conversations: https://www.anthropic.com/threat-intelligence-report-september-2026#gtg-16002-moonshot-serves-claude-instead-of-kimi-and-collects-exchanges-for-model-training
+• between models: https://arxiv.org/abs/2608.09867
+• proxy networks: https://www.anthropic.com/threat-intelligence-report-september-2026#how-unauthorized-labs-access-anthropics-models
+• preserved thinking: https://platform.claude.com/docs/en/build-with-claude/preserved-thinking
+• constitutional classifiers research: https://www.anthropic.com/research/next-generation-constitutional-classifiers
+• resumed charging for requests: https://x.com/ClaudeDevs/status/2103170368794185758
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-12-distillation-defenses/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>94</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-12-distillation-defenses.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-12-distillation-defenses.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: Investigating unintended model actions in our evaluations and internal use</title>

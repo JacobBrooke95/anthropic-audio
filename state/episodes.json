@@ -5047,6 +5047,330 @@
       "updated": "2026-10-20T20:08:42+00:00",
       "slug": "research-2026-10-13-redesigning-source-control",
       "episode": 92
+    },
+    "https://www.anthropic.com/research/attack-surface-reduction": {
+      "first_seen": "2026-10-20T23:16:35+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-20T23:16:35+00:00",
+      "slug": "research-2026-10-20-attack-surface-reduction",
+      "episode": 93
+    },
+    "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship": {
+      "first_seen": "2026-10-20T23:16:35+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:35+00:00",
+      "reason": "published 2025-06-27 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/contextual-retrieval": {
+      "first_seen": "2026-10-20T23:16:35+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:35+00:00",
+      "reason": "published 2024-09-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents": {
+      "first_seen": "2026-10-20T23:16:36+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:36+00:00",
+      "reason": "published 2025-09-29 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues": {
+      "first_seen": "2026-10-20T23:16:36+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:36+00:00",
+      "reason": "published 2025-09-17 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills": {
+      "first_seen": "2026-10-20T23:16:36+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:36+00:00",
+      "reason": "published 2025-10-16 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-code-sandboxing": {
+      "first_seen": "2026-10-20T23:16:36+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:36+00:00",
+      "reason": "published 2025-10-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/advanced-tool-use": {
+      "first_seen": "2026-10-20T23:16:36+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:36+00:00",
+      "reason": "published 2025-11-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2025-11-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/infrastructure-noise": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2026-02-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/eval-awareness-browsecomp": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2026-03-06 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/managed-agents": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2026-04-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-code-auto-mode": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2026-03-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/april-23-postmortem": {
+      "first_seen": "2026-10-20T23:16:37+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:37+00:00",
+      "reason": "published 2026-04-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/how-we-contain-claude": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2026-05-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/demystifying-evals-for-ai-agents": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2026-01-09 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/building-c-compiler": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2026-02-05 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/code-execution-with-mcp": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2025-11-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/political-even-handedness": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2025-11-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-public-record": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2026-06-12 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude": {
+      "first_seen": "2026-10-20T23:16:38+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:38+00:00",
+      "reason": "published 2025-04-08 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/accelerating-scientific-research": {
+      "first_seen": "2026-10-20T23:16:39+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:39+00:00",
+      "reason": "published 2026-01-15 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/AI-resistant-technical-evaluations": {
+      "first_seen": "2026-10-20T23:16:39+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:39+00:00",
+      "reason": "published 2026-01-21 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/harness-design-long-running-apps": {
+      "first_seen": "2026-10-20T23:16:39+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:16:39+00:00",
+      "reason": "published 2026-03-24 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/distillation-defenses": {
+      "first_seen": "2026-10-20T23:23:41+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-20T23:23:41+00:00",
+      "slug": "news-2026-10-12-distillation-defenses",
+      "episode": 94
+    },
+    "https://www.anthropic.com/news/anthropic-institute-agenda": {
+      "first_seen": "2026-10-20T23:23:41+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:41+00:00",
+      "reason": "published 2026-05-07 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/deprecation-updates-opus-3": {
+      "first_seen": "2026-10-20T23:23:41+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:41+00:00",
+      "reason": "published 2026-02-25 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/2028-ai-leadership": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2026-05-14 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/writing-tools-for-agents": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2025-09-11 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/desktop-extensions": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2025-06-26 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-think-tool": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2025-03-20 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2025-03-19 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/long-running-claude": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2026-03-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/claude-code-best-practices": {
+      "first_seen": "2026-10-20T23:23:42+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:42+00:00",
+      "reason": "published 2025-04-18 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/multi-agent-research-system": {
+      "first_seen": "2026-10-20T23:23:43+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:43+00:00",
+      "reason": "published 2025-06-13 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/research/golden-gate-claude": {
+      "first_seen": "2026-10-20T23:23:43+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:43+00:00",
+      "reason": "published 2024-05-23 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/deprecation-commitments": {
+      "first_seen": "2026-10-20T23:23:43+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:43+00:00",
+      "reason": "published 2025-11-04 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/glasswing-initial-update": {
+      "first_seen": "2026-10-20T23:23:43+00:00",
+      "attempts": 0,
+      "status": "skipped",
+      "updated": "2026-10-20T23:23:43+00:00",
+      "reason": "published 2026-05-22 < baseline 2026-08-14"
+    },
+    "https://www.anthropic.com/news/announcements": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/features": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (9 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/models": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/partnerships": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/policy": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/product": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/safeguards": {
+      "first_seen": "2026-10-20T23:23:44+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:44+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
+    },
+    "https://www.anthropic.com/news/security": {
+      "first_seen": "2026-10-20T23:23:45+00:00",
+      "attempts": 1,
+      "status": "failed",
+      "updated": "2026-10-20T23:23:45+00:00",
+      "error": "article body too short (10 chars) — extraction probably failed"
     }
   },
   "episodes": [
@@ -9556,6 +9880,72 @@
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
     },
     {
+      "slug": "news-2026-10-12-distillation-defenses",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "source": "news",
+      "title": "Strengthening our defenses against distillation attacks",
+      "subtitle": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "date": "2026-10-12T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "wrote in September",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#illicit-distillation-sep-26"
+        },
+        {
+          "text": "biology",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#biological-misuse-sep-26"
+        },
+        {
+          "text": "cybersecurity",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26"
+        },
+        {
+          "text": "since assessed",
+          "href": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities"
+        },
+        {
+          "text": "Our own research has found",
+          "href": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+        },
+        {
+          "text": "military, intelligence, and surveillance systems",
+          "href": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+        },
+        {
+          "text": "between conversations",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#gtg-16002-moonshot-serves-claude-instead-of-kimi-and-collects-exchanges-for-model-training"
+        },
+        {
+          "text": "between models",
+          "href": "https://arxiv.org/abs/2608.09867"
+        },
+        {
+          "text": "proxy networks",
+          "href": "https://www.anthropic.com/threat-intelligence-report-september-2026#how-unauthorized-labs-access-anthropics-models"
+        },
+        {
+          "text": "preserved thinking",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking"
+        },
+        {
+          "text": "constitutional classifiers research",
+          "href": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+        },
+        {
+          "text": "resumed charging for requests",
+          "href": "https://x.com/ClaudeDevs/status/2103170368794185758"
+        }
+      ],
+      "word_count": 1930,
+      "duration": 907.441088,
+      "bytes": 8044025,
+      "episode": 94,
+      "created": "2026-10-20T23:23:41+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg"
+    },
+    {
       "slug": "research-2026-10-12-self-replicating-ai",
       "url": "https://www.anthropic.com/research/self-replicating-ai",
       "source": "research",
@@ -10302,8 +10692,48 @@
       "episode": 90,
       "created": "2026-10-20T19:29:09+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-10-20-attack-surface-reduction",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source": "research",
+      "title": "Using Claude to reduce the attack surface of code",
+      "subtitle": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.",
+      "date": "2026-10-20T00:00:00+00:00",
+      "authors": [
+        "Chris Rohlf"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "published",
+          "href": "https://www.anthropic.com/research/mythos-preview"
+        },
+        {
+          "text": "discovering",
+          "href": "https://www.anthropic.com/news/mozilla-firefox-security"
+        },
+        {
+          "text": "exploiting",
+          "href": "https://www.anthropic.com/research/exploit-evals"
+        },
+        {
+          "text": "10.6",
+          "href": "https://www.openssh.org/releasenotes.html#10.6"
+        },
+        {
+          "text": "OSS-Scanner",
+          "href": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        }
+      ],
+      "word_count": 2510,
+      "duration": 1090.787755,
+      "bytes": 9493483,
+      "episode": 93,
+      "created": "2026-10-20T23:16:35+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 93,
+  "next_episode": 95,
   "baseline_date": "2026-08-14"
 }

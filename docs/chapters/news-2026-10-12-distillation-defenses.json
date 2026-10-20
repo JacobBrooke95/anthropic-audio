@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 236.71,
+   "title": "Simple defenses are not enough"
+  },
+  {
+   "startTime": 451.72,
+   "title": "Our new methods"
+  },
+  {
+   "startTime": 676.68,
+   "title": "How well our new methods work"
+  },
+  {
+   "startTime": 802.36,
+   "title": "Distillation is a problem for every developer and platform"
+  },
+  {
+   "startTime": 885.84,
+   "title": "Outro"
+  }
+ ]
+}

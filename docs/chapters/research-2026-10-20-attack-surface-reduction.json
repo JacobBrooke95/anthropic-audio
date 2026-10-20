@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 135.01,
+   "title": "Methods for reducing codebases’ attack surface"
+  },
+  {
+   "startTime": 362.28,
+   "title": "Claude’s findings"
+  },
+  {
+   "startTime": 659.49,
+   "title": "Case study: OpenSSH"
+  },
+  {
+   "startTime": 881.37,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 1069.22,
+   "title": "Outro"
+  }
+ ]
+}
