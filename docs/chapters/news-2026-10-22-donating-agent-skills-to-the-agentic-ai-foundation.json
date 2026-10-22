@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 50.68,
+   "title": "Agent interoperability through simplicity"
+  },
+  {
+   "startTime": 97.72,
+   "title": "Donating Agent Skills to AAIF"
+  },
+  {
+   "startTime": 152.18,
+   "title": "What comes next"
+  },
+  {
+   "startTime": 189.16,
+   "title": "Outro"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.406
+This is Anthropic, Read Aloud. Today: Donating Agent Skills to the Agentic A I Foundation.
+
+2
+00:00:09.706 --> 00:00:13.201
+Donating Agent Skills to the Agentic A I Foundation.
+
+3
+00:00:13.651 --> 00:00:21.395
+Anthropic is an A I safety and research company that's working to build reliable, interpretable, and steerable A I systems.
+
+4
+00:00:21.845 --> 00:00:26.556
+From Anthropic Newsroom, published October 22, 2026.
+
+5
+00:00:27.556 --> 00:00:49.882
+Today, we’re donating Agent Skills, the open standard that gives A I agents specialized knowledge and workflows, to the Agentic A I Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.
+
+6
+00:00:50.682 --> 00:00:53.249
+Agent interoperability through simplicity.
+
+7
+00:00:53.699 --> 00:01:13.673
+A skill is a folder containing a SKILL.md file that teaches an agent a specific task or domain, along with any scripts or reference material it needs. We developed skills while working on Claude Code. It handled general knowledge work well, but often lacked the procedural knowledge that real business tasks need.
+
+8
+00:01:13.793 --> 00:01:36.919
+Within weeks of our October 2025 launch, developers published thousands of skills on GitHub and wrote loaders for Codex, Cursor, and OpenCode. We then published Agent Skills as an open standard, under its own GitHub organization and domain, so any agent could use it. So far, 1 million skills have been published and nearly 280 million installed.
+
+9
+00:01:37.719 --> 00:01:39.610
+Donating Agent Skills to AAIF.
+
+10
+00:01:40.060 --> 00:01:59.423
+We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic A I Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (M C P).
+
+11
+00:01:59.543 --> 00:02:07.074
+The AAIF will provide a neutral home to the standard going forward, ensuring the community has a say in where Agent Skills go next.
+
+12
+00:02:07.524 --> 00:02:19.588
+We are donating the Agent Skills name and logo, the GitHub organization, and the agentskills.io domain. You can continue to use the standard or contribute to it without joining the AAIF.
+
+13
+00:02:20.038 --> 00:02:31.378
+Engineers from Anthropic, Google, OpenAI, and other companies will maintain the standard as individuals, with David Soria Parra and Mahesh Murag as Lead Maintainers.
+
+14
+00:02:32.178 --> 00:02:33.216
+What comes next.
+
+15
+00:02:33.666 --> 00:02:55.530
+We’ve proposed starting with a roadmap covering versioned releases, a formal proposal process, and security guidance for people who write and install skills. As with M C P, the project will continue to prioritize community input and transparent decision-making. You can join the project’s Discord to give feedback on proposed specification changes.
+
+16
+00:02:55.980 --> 00:03:08.157
+Thank you to the developers who built with Agent Skills from the start, and to the teams who brought skills into their products. Read the specification at agentskills.io and join the discussion on GitHub.
+
+17
+00:03:09.157 --> 00:03:27.645
+That was Donating Agent Skills to the Agentic A I Foundation, from Anthropic Newsroom, published October 22, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

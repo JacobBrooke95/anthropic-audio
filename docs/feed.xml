@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 21 Oct 2026 19:16:57 +0000</lastBuildDate>
-    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2026 19:50:57 +0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,54 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Donating Agent Skills to the Agentic AI Foundation</title>
+      <itunes:title>News: Donating Agent Skills to the Agentic AI Foundation</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+Published October 22, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Agent Skills: https://agentskills.io/home
+• which we co-founded: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+• Discord: https://discord.gg/MKPE9g8aUy
+• agentskills.io: https://agentskills.io
+• GitHub: https://github.com/agentskills/agentskills
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation">https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</a><br/><strong>Published:</strong> October 22, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 378 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://agentskills.io/home">Agent Skills</a></li><li><a href="https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation">which we co-founded</a></li><li><a href="https://discord.gg/MKPE9g8aUy">Discord</a></li><li><a href="https://agentskills.io">agentskills.io</a></li><li><a href="https://github.com/agentskills/agentskills">GitHub</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.mp3" length="2453888" type="audio/mpeg"/>
+      <itunes:duration>212</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.jpg?v=0625052c"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+Published October 22, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• Agent Skills: https://agentskills.io/home
+• which we co-founded: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+• Discord: https://discord.gg/MKPE9g8aUy
+• agentskills.io: https://agentskills.io
+• GitHub: https://github.com/agentskills/agentskills
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>96</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</title>
       <itunes:title>News: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</itunes:title>

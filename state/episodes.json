@@ -5379,6 +5379,14 @@
       "updated": "2026-10-21T19:16:55+00:00",
       "slug": "news-2026-10-21-christopher-stubbs-joins-long-term-benefit-trust",
       "episode": 95
+    },
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
+      "first_seen": "2026-10-22T19:50:56+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-22T19:50:56+00:00",
+      "slug": "news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation",
+      "episode": 96
     }
   },
   "episodes": [
@@ -10766,8 +10774,46 @@
       "episode": 95,
       "created": "2026-10-21T19:16:55+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source": "news",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-10-22T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "Agent Skills",
+          "href": "https://agentskills.io/home"
+        },
+        {
+          "text": "which we co-founded",
+          "href": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+        },
+        {
+          "text": "Discord",
+          "href": "https://discord.gg/MKPE9g8aUy"
+        },
+        {
+          "text": "agentskills.io",
+          "href": "https://agentskills.io"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/agentskills/agentskills"
+        }
+      ],
+      "word_count": 378,
+      "duration": 211.595306,
+      "bytes": 2453888,
+      "episode": 96,
+      "created": "2026-10-22T19:50:56+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 96,
+  "next_episode": 97,
   "baseline_date": "2026-08-14"
 }
