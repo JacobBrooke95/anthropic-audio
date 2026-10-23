@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2026 00:09:00 +0000</lastBuildDate>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:27:34 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,64 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: An alignment assessment of the UK AISI cybertesting incident</title>
+      <itunes:title>Research: An alignment assessment of the UK AISI cybertesting incident</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-23-alignment-assessment-ukaisi/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-ukaisi</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.
+
+Source: https://www.anthropic.com/research/alignment-assessment-ukaisi
+Published October 23, 2026 · Anthropic Research
+
+Links referenced in the post:
+• UK AI Security Institute (AISI): https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• independent report: http://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident
+• discussed on September 9: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+• October 9 post: https://www.anthropic.com/research/investigating-unintended-model-actions
+• publicly committed: https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities
+• Claude Mythos 5 system card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+• Betley et al., 2026: https://arxiv.org/pdf/2607.14345
+• useful but imperfect tool: https://arxiv.org/abs/2507.11473
+• Prior work: https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety
+• August 31 post: https://www.anthropic.com/news/improving-alignment-security-efforts
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-23-alignment-assessment-ukaisi/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/alignment-assessment-ukaisi">https://www.anthropic.com/research/alignment-assessment-ukaisi</a><br/><strong>Published:</strong> October 23, 2026 · Anthropic Research<br/><strong>Length:</strong> 7,571 words · 1h 00m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">UK AI Security Institute (AISI)</a></li><li><a href="http://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident">independent report</a></li><li><a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">discussed on September 9</a></li><li><a href="https://www.anthropic.com/research/investigating-unintended-model-actions">October 9 post</a></li><li><a href="https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities">publicly committed</a></li><li><a href="https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf">Claude Mythos 5 system card</a></li><li><a href="https://arxiv.org/pdf/2607.14345">Betley et al., 2026</a></li><li><a href="https://arxiv.org/abs/2507.11473">useful but imperfect tool</a></li><li><a href="https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety">Prior work</a></li><li><a href="https://www.anthropic.com/news/improving-alignment-security-efforts">August 31 post</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-23-alignment-assessment-ukaisi/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-23-alignment-assessment-ukaisi.mp3" length="29788202" type="audio/mpeg"/>
+      <itunes:duration>3636</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-23-alignment-assessment-ukaisi.jpg?v=2ac2378f"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-23-alignment-assessment-ukaisi.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-23-alignment-assessment-ukaisi.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.</itunes:subtitle>
+      <itunes:summary>In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.
+
+Source: https://www.anthropic.com/research/alignment-assessment-ukaisi
+Published October 23, 2026 · Anthropic Research
+
+Links referenced in the post:
+• UK AI Security Institute (AISI): https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+• independent report: http://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident
+• discussed on September 9: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+• October 9 post: https://www.anthropic.com/research/investigating-unintended-model-actions
+• publicly committed: https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities
+• Claude Mythos 5 system card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+• Betley et al., 2026: https://arxiv.org/pdf/2607.14345
+• useful but imperfect tool: https://arxiv.org/abs/2507.11473
+• Prior work: https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety
+• August 31 post: https://www.anthropic.com/news/improving-alignment-security-efforts
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-23-alignment-assessment-ukaisi/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>99</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-23-alignment-assessment-ukaisi.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-23-alignment-assessment-ukaisi.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Donating Agent Skills to the Agentic AI Foundation</title>
       <itunes:title>News: Donating Agent Skills to the Agentic AI Foundation</itunes:title>

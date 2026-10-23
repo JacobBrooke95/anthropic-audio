@@ -5403,6 +5403,14 @@
       "updated": "2026-10-23T00:08:59+00:00",
       "slug": "news-2026-10-22-open-call-guest-investigators-life-sciences",
       "episode": 98
+    },
+    "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
+      "first_seen": "2026-10-23T20:27:33+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-23T20:27:33+00:00",
+      "slug": "research-2026-10-23-alignment-assessment-ukaisi",
+      "episode": 99
     }
   },
   "episodes": [
@@ -10974,8 +10982,66 @@
       "episode": 98,
       "created": "2026-10-23T00:08:59+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-10-23-alignment-assessment-ukaisi",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "source": "research",
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "subtitle": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
+      "date": "2026-10-23T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "UK AI Security Institute (AISI)",
+          "href": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing"
+        },
+        {
+          "text": "independent report",
+          "href": "http://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+        },
+        {
+          "text": "discussed on September 9",
+          "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+        },
+        {
+          "text": "October 9 post",
+          "href": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+        },
+        {
+          "text": "publicly committed",
+          "href": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities"
+        },
+        {
+          "text": "Claude Mythos 5 system card",
+          "href": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf"
+        },
+        {
+          "text": "Betley et al., 2026",
+          "href": "https://arxiv.org/pdf/2607.14345"
+        },
+        {
+          "text": "useful but imperfect tool",
+          "href": "https://arxiv.org/abs/2507.11473"
+        },
+        {
+          "text": "Prior work",
+          "href": "https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety"
+        },
+        {
+          "text": "August 31 post",
+          "href": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        }
+      ],
+      "word_count": 7571,
+      "duration": 3635.750204,
+      "bytes": 29788202,
+      "episode": 99,
+      "created": "2026-10-23T20:27:33+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/97d61b79f99af31d2596eced7533e6d5e3ef7731-2000x1125.jpg"
     }
   ],
-  "next_episode": 99,
+  "next_episode": 100,
   "baseline_date": "2026-08-14"
 }

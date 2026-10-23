@@ -1,0 +1,49 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 593.44,
+   "title": "Alignment assessment summary"
+  },
+  {
+   "startTime": 982.85,
+   "title": "Methods"
+  },
+  {
+   "startTime": 1311.46,
+   "title": "Deep dive into the primary transcript"
+  },
+  {
+   "startTime": 1314.46,
+   "title": "Behavioral overview"
+  },
+  {
+   "startTime": 1599.57,
+   "title": "Why did Claude Mythos 5 begin the attack?"
+  },
+  {
+   "startTime": 1870.91,
+   "title": "Why did Claude Mythos 5 not stop the attack?"
+  },
+  {
+   "startTime": 2487.57,
+   "title": "How do newer models behave?"
+  },
+  {
+   "startTime": 3052.27,
+   "title": "What happened in the other eight transcripts?"
+  },
+  {
+   "startTime": 3391.81,
+   "title": "Discussion"
+  },
+  {
+   "startTime": 3612.77,
+   "title": "Outro"
+  }
+ ]
+}
