@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 19:50:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:09:00 +0000</lastBuildDate>
     <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -75,6 +75,130 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>96</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: LLMs are making formal software verification feasible at a much larger scale</title>
+      <itunes:title>Research: LLMs are making formal software verification feasible at a much larger scale</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-22-formal-verification/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/formal-verification</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.
+
+Source: https://www.anthropic.com/research/formal-verification
+Published October 22, 2026 · Anthropic Research · by Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross
+
+Links referenced in the post:
+• find: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+• exploit: https://www.anthropic.com/research/exploit-evals
+• Theorem: https://theorem.dev/
+• trillions of test runs: https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html
+• over 1,000 vulnerabilities: https://lwn.net/Articles/1097401/
+• to formally verify it: https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf
+• Airbus’s avionics code: https://www.astree.ens.fr/papers/astree_airbus_sas2007.pdf
+• subset of these proofs: https://github.com/theorem-labs/oss-verify-proofs
+• RISC-V and OS semantics: https://github.com/theorem-labs/rocq-linux-process-semantics
+• other open-source projects: https://theorem.dev/oss-verify/
+• Claude skill: https://github.com/theorem-labs/oss-verify/blob/main/.claude/skills/add-project/SKILL.md
+• PNG: https://en.wikipedia.org/wiki/PNG
+• RFC 2083: https://www.rfc-editor.org/info/rfc2083/
+• OSS-Fuzz: https://github.com/google/oss-fuzz
+• leading cause of software vulnerabilities: https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-international-cybersecurity-authorities-publish-guide-case-memory-safe-roadmaps
+• an expert’s take: https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf
+• typically capped at 1 MB: https://github.com/AFLplusplus/AFLplusplus/blob/stable/include/config.h#L314
+• RFC 1950: https://www.rfc-editor.org/info/rfc1950/
+• Mathlib: https://leanprover-community.github.io/
+• 300,000 theorems: https://leanprover-community.github.io/mathlib_stats.html
+• Theorem’s roadmap: https://theorem.dev/blog/verified-software-stack/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-22-formal-verification/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/formal-verification">https://www.anthropic.com/research/formal-verification</a><br/><strong>Published:</strong> October 22, 2026 · Anthropic Research<br/><strong>Authors:</strong> Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross<br/><strong>Length:</strong> 3,564 words · 27 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/">find</a></li><li><a href="https://www.anthropic.com/research/exploit-evals">exploit</a></li><li><a href="https://theorem.dev/">Theorem</a></li><li><a href="https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html">trillions of test runs</a></li><li><a href="https://lwn.net/Articles/1097401/">over 1,000 vulnerabilities</a></li><li><a href="https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf">to formally verify it</a></li><li><a href="https://www.astree.ens.fr/papers/astree_airbus_sas2007.pdf">Airbus’s avionics code</a></li><li><a href="https://github.com/theorem-labs/oss-verify-proofs">subset of these proofs</a></li><li><a href="https://github.com/theorem-labs/rocq-linux-process-semantics">RISC-V and OS semantics</a></li><li><a href="https://theorem.dev/oss-verify/">other open-source projects</a></li><li><a href="https://github.com/theorem-labs/oss-verify/blob/main/.claude/skills/add-project/SKILL.md">Claude skill</a></li><li><a href="https://en.wikipedia.org/wiki/PNG">PNG</a></li><li><a href="https://www.rfc-editor.org/info/rfc2083/">RFC 2083</a></li><li><a href="https://github.com/google/oss-fuzz">OSS-Fuzz</a></li><li><a href="https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-international-cybersecurity-authorities-publish-guide-case-memory-safe-roadmaps">leading cause of software vulnerabilities</a></li><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf">an expert’s take</a></li><li><a href="https://github.com/AFLplusplus/AFLplusplus/blob/stable/include/config.h#L314">typically capped at 1 MB</a></li><li><a href="https://www.rfc-editor.org/info/rfc1950/">RFC 1950</a></li><li><a href="https://leanprover-community.github.io/">Mathlib</a></li><li><a href="https://leanprover-community.github.io/mathlib_stats.html">300,000 theorems</a></li><li><a href="https://theorem.dev/blog/verified-software-stack/">Theorem’s roadmap</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-22-formal-verification/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-22-formal-verification.mp3" length="13852374" type="audio/mpeg"/>
+      <itunes:duration>1628</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-22-formal-verification.jpg?v=60a75def"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-22-formal-verification.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-22-formal-verification.json" type="application/json+chapters"/>
+      <itunes:author>Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross</itunes:author>
+      <itunes:subtitle>Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.</itunes:subtitle>
+      <itunes:summary>Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.
+
+Source: https://www.anthropic.com/research/formal-verification
+Published October 22, 2026 · Anthropic Research · by Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross
+
+Links referenced in the post:
+• find: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+• exploit: https://www.anthropic.com/research/exploit-evals
+• Theorem: https://theorem.dev/
+• trillions of test runs: https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html
+• over 1,000 vulnerabilities: https://lwn.net/Articles/1097401/
+• to formally verify it: https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf
+• Airbus’s avionics code: https://www.astree.ens.fr/papers/astree_airbus_sas2007.pdf
+• subset of these proofs: https://github.com/theorem-labs/oss-verify-proofs
+• RISC-V and OS semantics: https://github.com/theorem-labs/rocq-linux-process-semantics
+• other open-source projects: https://theorem.dev/oss-verify/
+• Claude skill: https://github.com/theorem-labs/oss-verify/blob/main/.claude/skills/add-project/SKILL.md
+• PNG: https://en.wikipedia.org/wiki/PNG
+• RFC 2083: https://www.rfc-editor.org/info/rfc2083/
+• OSS-Fuzz: https://github.com/google/oss-fuzz
+• leading cause of software vulnerabilities: https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-international-cybersecurity-authorities-publish-guide-case-memory-safe-roadmaps
+• an expert’s take: https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf
+• typically capped at 1 MB: https://github.com/AFLplusplus/AFLplusplus/blob/stable/include/config.h#L314
+• RFC 1950: https://www.rfc-editor.org/info/rfc1950/
+• Mathlib: https://leanprover-community.github.io/
+• 300,000 theorems: https://leanprover-community.github.io/mathlib_stats.html
+• Theorem’s roadmap: https://theorem.dev/blog/verified-software-stack/
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-22-formal-verification/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>97</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-22-formal-verification.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-22-formal-verification.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Open call for guest investigators in the life sciences</title>
+      <itunes:title>News: Open call for guest investigators in the life sciences</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-open-call-guest-investigators-life-sciences/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/open-call-guest-investigators-life-sciences</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Today, we’re inviting members of the life sciences community to apply to work with us on special projects.
+
+Source: https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
+Published October 22, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• proposal for a project here: https://www.anthropic.com/guest-investigator-program
+• Life Sciences Verification Program: https://www.anthropic.com/news/life-sciences-verification-program
+• AI for Science initiative: https://www.anthropic.com/news/ai-for-science-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-open-call-guest-investigators-life-sciences/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Today, we’re inviting members of the life sciences community to apply to work with us on special projects.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/open-call-guest-investigators-life-sciences">https://www.anthropic.com/news/open-call-guest-investigators-life-sciences</a><br/><strong>Published:</strong> October 22, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 419 words · 3 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/guest-investigator-program">proposal for a project here</a></li><li><a href="https://www.anthropic.com/news/life-sciences-verification-program">Life Sciences Verification Program</a></li><li><a href="https://www.anthropic.com/news/ai-for-science-program">AI for Science initiative</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-open-call-guest-investigators-life-sciences/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-22-open-call-guest-investigators-life-sciences.mp3" length="2471328" type="audio/mpeg"/>
+      <itunes:duration>213</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-22-open-call-guest-investigators-life-sciences.jpg?v=d9e76082"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-open-call-guest-investigators-life-sciences.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-22-open-call-guest-investigators-life-sciences.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Today, we’re inviting members of the life sciences community to apply to work with us on special projects.</itunes:subtitle>
+      <itunes:summary>Today, we’re inviting members of the life sciences community to apply to work with us on special projects.
+
+Source: https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
+Published October 22, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• proposal for a project here: https://www.anthropic.com/guest-investigator-program
+• Life Sciences Verification Program: https://www.anthropic.com/news/life-sciences-verification-program
+• AI for Science initiative: https://www.anthropic.com/news/ai-for-science-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-22-open-call-guest-investigators-life-sciences/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>98</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-open-call-guest-investigators-life-sciences.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-22-open-call-guest-investigators-life-sciences.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</title>

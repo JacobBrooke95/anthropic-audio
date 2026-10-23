@@ -1,0 +1,53 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 122.95,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 364.33,
+   "title": "Turning tests into proofs"
+  },
+  {
+   "startTime": 755.82,
+   "title": "Finding and fixing bugs"
+  },
+  {
+   "startTime": 881.88,
+   "title": "Proving more than memory safety"
+  },
+  {
+   "startTime": 960.06,
+   "title": "Other formal verification case studies"
+  },
+  {
+   "startTime": 1104.69,
+   "title": "This is just the beginning"
+  },
+  {
+   "startTime": 1127.86,
+   "title": "Newer models need fewer tokens"
+  },
+  {
+   "startTime": 1185.0,
+   "title": "Proofs can be reused"
+  },
+  {
+   "startTime": 1392.61,
+   "title": "Limitations"
+  },
+  {
+   "startTime": 1536.71,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 1604.06,
+   "title": "Outro"
+  }
+ ]
+}

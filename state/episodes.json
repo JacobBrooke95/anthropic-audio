@@ -5387,6 +5387,22 @@
       "updated": "2026-10-22T19:50:56+00:00",
       "slug": "news-2026-10-22-donating-agent-skills-to-the-agentic-ai-foundation",
       "episode": 96
+    },
+    "https://www.anthropic.com/research/formal-verification": {
+      "first_seen": "2026-10-23T00:05:27+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-23T00:05:27+00:00",
+      "slug": "research-2026-10-22-formal-verification",
+      "episode": 97
+    },
+    "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences": {
+      "first_seen": "2026-10-23T00:08:59+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-23T00:08:59+00:00",
+      "slug": "news-2026-10-22-open-call-guest-investigators-life-sciences",
+      "episode": 98
     }
   },
   "episodes": [
@@ -10812,8 +10828,154 @@
       "episode": 96,
       "created": "2026-10-22T19:50:56+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "research-2026-10-22-formal-verification",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "research",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "subtitle": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
+      "date": "2026-10-22T00:00:00+00:00",
+      "authors": [
+        "Keane Lucas",
+        "Aengus Lynch",
+        "Luna Tong",
+        "Luke Champine",
+        "Zygi Straznickas",
+        "Dino Distefano",
+        "Harshikaa Agrawal Evyatar Ben Asher",
+        "Ava Howell",
+        "Sami Jawhar",
+        "Chris Rohlf",
+        "Nickolai Zeldovich Nicholas Carlini",
+        "Rajashree Agrawal",
+        "Jason Gross"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "find",
+          "href": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/"
+        },
+        {
+          "text": "exploit",
+          "href": "https://www.anthropic.com/research/exploit-evals"
+        },
+        {
+          "text": "Theorem",
+          "href": "https://theorem.dev/"
+        },
+        {
+          "text": "trillions of test runs",
+          "href": "https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html"
+        },
+        {
+          "text": "over 1,000 vulnerabilities",
+          "href": "https://lwn.net/Articles/1097401/"
+        },
+        {
+          "text": "to formally verify it",
+          "href": "https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf"
+        },
+        {
+          "text": "Airbus’s avionics code",
+          "href": "https://www.astree.ens.fr/papers/astree_airbus_sas2007.pdf"
+        },
+        {
+          "text": "subset of these proofs",
+          "href": "https://github.com/theorem-labs/oss-verify-proofs"
+        },
+        {
+          "text": "RISC-V and OS semantics",
+          "href": "https://github.com/theorem-labs/rocq-linux-process-semantics"
+        },
+        {
+          "text": "other open-source projects",
+          "href": "https://theorem.dev/oss-verify/"
+        },
+        {
+          "text": "Claude skill",
+          "href": "https://github.com/theorem-labs/oss-verify/blob/main/.claude/skills/add-project/SKILL.md"
+        },
+        {
+          "text": "PNG",
+          "href": "https://en.wikipedia.org/wiki/PNG"
+        },
+        {
+          "text": "RFC 2083",
+          "href": "https://www.rfc-editor.org/info/rfc2083/"
+        },
+        {
+          "text": "OSS-Fuzz",
+          "href": "https://github.com/google/oss-fuzz"
+        },
+        {
+          "text": "leading cause of software vulnerabilities",
+          "href": "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-international-cybersecurity-authorities-publish-guide-case-memory-safe-roadmaps"
+        },
+        {
+          "text": "an expert’s take",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf"
+        },
+        {
+          "text": "typically capped at 1 MB",
+          "href": "https://github.com/AFLplusplus/AFLplusplus/blob/stable/include/config.h#L314"
+        },
+        {
+          "text": "RFC 1950",
+          "href": "https://www.rfc-editor.org/info/rfc1950/"
+        },
+        {
+          "text": "Mathlib",
+          "href": "https://leanprover-community.github.io/"
+        },
+        {
+          "text": "300,000 theorems",
+          "href": "https://leanprover-community.github.io/mathlib_stats.html"
+        },
+        {
+          "text": "Theorem’s roadmap",
+          "href": "https://theorem.dev/blog/verified-software-stack/"
+        }
+      ],
+      "word_count": 3564,
+      "duration": 1628.218707,
+      "bytes": 13852374,
+      "episode": 97,
+      "created": "2026-10-23T00:05:27+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg"
+    },
+    {
+      "slug": "news-2026-10-22-open-call-guest-investigators-life-sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "source": "news",
+      "title": "Open call for guest investigators in the life sciences",
+      "subtitle": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+      "date": "2026-10-22T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "proposal for a project here",
+          "href": "https://www.anthropic.com/guest-investigator-program"
+        },
+        {
+          "text": "Life Sciences Verification Program",
+          "href": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
+        {
+          "text": "AI for Science initiative",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        }
+      ],
+      "word_count": 419,
+      "duration": 213.047642,
+      "bytes": 2471328,
+      "episode": 98,
+      "created": "2026-10-23T00:08:59+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg"
     }
   ],
-  "next_episode": 97,
+  "next_episode": 99,
   "baseline_date": "2026-08-14"
 }
