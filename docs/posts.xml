@@ -10,8 +10,21 @@
     <webfeeds:icon>https://jacobbrooke95.github.io/anthropic-audio/icon.png</webfeeds:icon>
     <webfeeds:cover image="https://jacobbrooke95.github.io/anthropic-audio/cover.jpg"/>
     <webfeeds:accentColor>b5532e</webfeeds:accentColor>
-    <lastBuildDate>Fri, 23 Oct 2026 20:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 20:28:38 +0000</lastBuildDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
+    <item>
+      <title>News: Anthropic files S-1 with the SEC for proposed initial public offering</title>
+      <link>https://www.anthropic.com/news/s1-sec</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/s1-sec</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Anthropic Newsroom</category>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. — Anthropic Newsroom. Audio edition: https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-26-s1-sec.mp3</description>
+      <content:encoded><![CDATA[<p><em>Anthropic Newsroom · October 26, 2026</em><br/>Original: <a href="https://www.anthropic.com/news/s1-sec">https://www.anthropic.com/news/s1-sec</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-26-s1-sec.mp3">Listen (2 min)</a> · <a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-26-s1-sec/">Episode page</a></p><p><strong>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</strong></p><p>Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.</p>
+<p>Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined.</p>
+<p><em>The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs &amp; Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley &amp; Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.</em></p>
+<p><em>A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.</em></p><hr/><p><em>Unofficial copy for the audio edition. Content © Anthropic, PBC.</em></p>]]></content:encoded>
+    </item>
     <item>
       <title>Research: An alignment assessment of the UK AISI cybertesting incident</title>
       <link>https://www.anthropic.com/research/alignment-assessment-ukaisi</link>
