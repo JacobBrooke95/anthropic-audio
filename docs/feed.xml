@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 20:28:38 +0000</lastBuildDate>
-    <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:42:26 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,116 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: How AI agents shape experts’ judgment calls</title>
+      <itunes:title>Research: How AI agents shape experts’ judgment calls</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-agents-judgment-calls/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/agents-judgment-calls</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.
+
+Source: https://www.anthropic.com/research/agents-judgment-calls
+Published October 27, 2026 · Anthropic Research · by Amaç Herdağdelen, Hailey Joren, Alex Tamkin
+
+Links referenced in the post:
+• in a new paper: https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf
+• discover: https://doi.org/10.1037/0003-066X.50.5.364
+• disempowerment: https://arxiv.org/abs/2501.16946
+• may no longer be independent: https://doi.org/10.1126/sciadv.adn5290
+• have begun to use AI agents: https://alignment.anthropic.com/2025/automated-auditing/
+• recent work: https://arxiv.org/abs/2605.29392
+• confidence and fluency: https://arxiv.org/abs/2405.00623
+• sway: https://arxiv.org/abs/2401.06730
+• development of their skills: https://www.anthropic.com/research/AI-assistance-coding-skills
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-agents-judgment-calls/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/agents-judgment-calls">https://www.anthropic.com/research/agents-judgment-calls</a><br/><strong>Published:</strong> October 27, 2026 · Anthropic Research<br/><strong>Authors:</strong> Amaç Herdağdelen, Hailey Joren, Alex Tamkin<br/><strong>Length:</strong> 3,092 words · 24 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf">in a new paper</a></li><li><a href="https://doi.org/10.1037/0003-066X.50.5.364">discover</a></li><li><a href="https://arxiv.org/abs/2501.16946">disempowerment</a></li><li><a href="https://doi.org/10.1126/sciadv.adn5290">may no longer be independent</a></li><li><a href="https://alignment.anthropic.com/2025/automated-auditing/">have begun to use AI agents</a></li><li><a href="https://arxiv.org/abs/2605.29392">recent work</a></li><li><a href="https://arxiv.org/abs/2405.00623">confidence and fluency</a></li><li><a href="https://arxiv.org/abs/2401.06730">sway</a></li><li><a href="https://www.anthropic.com/research/AI-assistance-coding-skills">development of their skills</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-agents-judgment-calls/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-27-agents-judgment-calls.mp3" length="12432239" type="audio/mpeg"/>
+      <itunes:duration>1454</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-27-agents-judgment-calls.jpg?v=6cf5d985"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-agents-judgment-calls.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-27-agents-judgment-calls.json" type="application/json+chapters"/>
+      <itunes:author>Amaç Herdağdelen, Hailey Joren, Alex Tamkin</itunes:author>
+      <itunes:subtitle>In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.</itunes:subtitle>
+      <itunes:summary>In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.
+
+Source: https://www.anthropic.com/research/agents-judgment-calls
+Published October 27, 2026 · Anthropic Research · by Amaç Herdağdelen, Hailey Joren, Alex Tamkin
+
+Links referenced in the post:
+• in a new paper: https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf
+• discover: https://doi.org/10.1037/0003-066X.50.5.364
+• disempowerment: https://arxiv.org/abs/2501.16946
+• may no longer be independent: https://doi.org/10.1126/sciadv.adn5290
+• have begun to use AI agents: https://alignment.anthropic.com/2025/automated-auditing/
+• recent work: https://arxiv.org/abs/2605.29392
+• confidence and fluency: https://arxiv.org/abs/2405.00623
+• sway: https://arxiv.org/abs/2401.06730
+• development of their skills: https://www.anthropic.com/research/AI-assistance-coding-skills
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-agents-judgment-calls/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>101</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-agents-judgment-calls.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-agents-judgment-calls.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Discovering and exploiting vulnerabilities in critical, real-world software with Claude</title>
+      <itunes:title>Research: Discovering and exploiting vulnerabilities in critical, real-world software with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-discovering-vulnerabilities-with-claude/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/discovering-vulnerabilities-with-claude</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.
+
+Source: https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
+Published October 27, 2026 · Anthropic Research
+
+Links referenced in the post:
+• find critical vulnerabilities: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+• coordinated vulnerability disclosure: https://www.anthropic.com/coordinated-vulnerability-disclosure
+• patched as of Chrome 156: https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html
+• That fix: https://support.apple.com/en-us/127594
+• CVE-2026-33096: https://nvd.nist.gov/vuln/detail/cve-2026-33096
+• CVE-2026-98432: https://www.tenable.com/cve/CVE-2026-98432
+• released publicly: https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
+• Cyber Verification Program: https://www.anthropic.com/news/cyber-verification-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-discovering-vulnerabilities-with-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">https://www.anthropic.com/research/discovering-vulnerabilities-with-claude</a><br/><strong>Published:</strong> October 27, 2026 · Anthropic Research<br/><strong>Length:</strong> 1,835 words · 13 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source">find critical vulnerabilities</a></li><li><a href="https://www.anthropic.com/coordinated-vulnerability-disclosure">coordinated vulnerability disclosure</a></li><li><a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html">patched as of Chrome 156</a></li><li><a href="https://support.apple.com/en-us/127594">That fix</a></li><li><a href="https://nvd.nist.gov/vuln/detail/cve-2026-33096">CVE-2026-33096</a></li><li><a href="https://www.tenable.com/cve/CVE-2026-98432">CVE-2026-98432</a></li><li><a href="https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance">released publicly</a></li><li><a href="https://www.anthropic.com/news/cyber-verification-program">Cyber Verification Program</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-discovering-vulnerabilities-with-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-27-discovering-vulnerabilities-with-claude.mp3" length="7368472" type="audio/mpeg"/>
+      <itunes:duration>823</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-27-discovering-vulnerabilities-with-claude.jpg?v=4b2e91ed"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-discovering-vulnerabilities-with-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-27-discovering-vulnerabilities-with-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chain</itunes:subtitle>
+      <itunes:summary>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.
+
+Source: https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
+Published October 27, 2026 · Anthropic Research
+
+Links referenced in the post:
+• find critical vulnerabilities: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+• coordinated vulnerability disclosure: https://www.anthropic.com/coordinated-vulnerability-disclosure
+• patched as of Chrome 156: https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html
+• That fix: https://support.apple.com/en-us/127594
+• CVE-2026-33096: https://nvd.nist.gov/vuln/detail/cve-2026-33096
+• CVE-2026-98432: https://www.tenable.com/cve/CVE-2026-98432
+• released publicly: https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
+• Cyber Verification Program: https://www.anthropic.com/news/cyber-verification-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-discovering-vulnerabilities-with-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>102</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-discovering-vulnerabilities-with-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-discovering-vulnerabilities-with-claude.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Anthropic files S-1 with the SEC for proposed initial public offering</title>
       <itunes:title>News: Anthropic files S-1 with the SEC for proposed initial public offering</itunes:title>

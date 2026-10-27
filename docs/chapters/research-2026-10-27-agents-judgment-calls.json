@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 321.19,
+   "title": "Study design"
+  },
+  {
+   "startTime": 539.97,
+   "title": "Results"
+  },
+  {
+   "startTime": 1050.5,
+   "title": "Our study’s limitations"
+  },
+  {
+   "startTime": 1145.77,
+   "title": "What this means"
+  },
+  {
+   "startTime": 1431.76,
+   "title": "Outro"
+  }
+ ]
+}

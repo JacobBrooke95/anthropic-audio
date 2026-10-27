@@ -5419,6 +5419,22 @@
       "updated": "2026-10-26T20:28:37+00:00",
       "slug": "news-2026-10-26-s1-sec",
       "episode": 100
+    },
+    "https://www.anthropic.com/research/agents-judgment-calls": {
+      "first_seen": "2026-10-27T20:30:29+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-27T20:30:29+00:00",
+      "slug": "research-2026-10-27-agents-judgment-calls",
+      "episode": 101
+    },
+    "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude": {
+      "first_seen": "2026-10-27T20:42:26+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-27T20:42:26+00:00",
+      "slug": "research-2026-10-27-discovering-vulnerabilities-with-claude",
+      "episode": 102
     }
   },
   "episodes": [
@@ -11065,8 +11081,116 @@
       "episode": 100,
       "created": "2026-10-26T20:28:37+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "research-2026-10-27-agents-judgment-calls",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "source": "research",
+      "title": "How AI agents shape experts’ judgment calls",
+      "subtitle": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
+      "date": "2026-10-27T00:00:00+00:00",
+      "authors": [
+        "Amaç Herdağdelen",
+        "Hailey Joren",
+        "Alex Tamkin"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "in a new paper",
+          "href": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+        },
+        {
+          "text": "discover",
+          "href": "https://doi.org/10.1037/0003-066X.50.5.364"
+        },
+        {
+          "text": "disempowerment",
+          "href": "https://arxiv.org/abs/2501.16946"
+        },
+        {
+          "text": "may no longer be independent",
+          "href": "https://doi.org/10.1126/sciadv.adn5290"
+        },
+        {
+          "text": "have begun to use AI agents",
+          "href": "https://alignment.anthropic.com/2025/automated-auditing/"
+        },
+        {
+          "text": "recent work",
+          "href": "https://arxiv.org/abs/2605.29392"
+        },
+        {
+          "text": "confidence and fluency",
+          "href": "https://arxiv.org/abs/2405.00623"
+        },
+        {
+          "text": "sway",
+          "href": "https://arxiv.org/abs/2401.06730"
+        },
+        {
+          "text": "development of their skills",
+          "href": "https://www.anthropic.com/research/AI-assistance-coding-skills"
+        }
+      ],
+      "word_count": 3092,
+      "duration": 1453.525624,
+      "bytes": 12432239,
+      "episode": 101,
+      "created": "2026-10-27T20:30:29+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-10-27-discovering-vulnerabilities-with-claude",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "source": "research",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "subtitle": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
+      "date": "2026-10-27T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "find critical vulnerabilities",
+          "href": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        },
+        {
+          "text": "coordinated vulnerability disclosure",
+          "href": "https://www.anthropic.com/coordinated-vulnerability-disclosure"
+        },
+        {
+          "text": "patched as of Chrome 156",
+          "href": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+        },
+        {
+          "text": "That fix",
+          "href": "https://support.apple.com/en-us/127594"
+        },
+        {
+          "text": "CVE-2026-33096",
+          "href": "https://nvd.nist.gov/vuln/detail/cve-2026-33096"
+        },
+        {
+          "text": "CVE-2026-98432",
+          "href": "https://www.tenable.com/cve/CVE-2026-98432"
+        },
+        {
+          "text": "released publicly",
+          "href": "https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://www.anthropic.com/news/cyber-verification-program"
+        }
+      ],
+      "word_count": 1835,
+      "duration": 822.873424,
+      "bytes": 7368472,
+      "episode": 102,
+      "created": "2026-10-27T20:42:26+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 101,
+  "next_episode": 103,
   "baseline_date": "2026-08-14"
 }

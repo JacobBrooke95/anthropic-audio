@@ -1,0 +1,41 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 83.94,
+   "title": "1. One-click remote code execution in Chrome"
+  },
+  {
+   "startTime": 179.82,
+   "title": "2. A one-click exploit chain in Safari"
+  },
+  {
+   "startTime": 319.05,
+   "title": "3. Android lock screen bypass"
+  },
+  {
+   "startTime": 412.42,
+   "title": "4. Windows remote denial of service"
+  },
+  {
+   "startTime": 513.33,
+   "title": "5. Zero-click remote code execution in Linux"
+  },
+  {
+   "startTime": 655.34,
+   "title": "What we learned"
+  },
+  {
+   "startTime": 737.14,
+   "title": "What this means for defenders"
+  },
+  {
+   "startTime": 798.72,
+   "title": "Outro"
+  }
+ ]
+}

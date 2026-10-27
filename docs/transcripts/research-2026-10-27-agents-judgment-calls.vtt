@@ -1,0 +1,393 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.551
+This is Anthropic, Read Aloud. Today: How A I agents shape experts’ judgment calls.
+
+2
+00:00:08.851 --> 00:00:11.496
+How A I agents shape experts’ judgment calls.
+
+3
+00:00:11.946 --> 00:00:26.474
+In a randomized trial, professional analysts working with an A I coding agent went with the option the agent was randomly assigned to favor 86 percent of the time. We look at what this means for human oversight of A I-assisted work.
+
+4
+00:00:26.924 --> 00:00:35.633
+From Anthropic Research, published October 27, 2026. By Amaç Herdağdelen, Hailey Joren, and Alex Tamkin.
+
+5
+00:00:36.633 --> 00:00:54.081
+When experts hand their work to an A I agent, the usual assumption is that they still make the decisions that matter. The agent writes the code, runs the numbers, and offers advice, but the expert decides what to measure, how to interpret ambiguous evidence, and what the next steps should be.
+
+6
+00:00:54.200 --> 00:01:02.876
+Often there is more than one reasonable answer to these questions, and the decision will come down to the experience and values of whoever makes the call.
+
+7
+00:01:03.326 --> 00:01:25.907
+We wanted to look at whether experts really do make those important decisions, or whether in practice they defer to their A I agents. In a study we report in a new paper, we asked 50 professional analysts to do a realistic statistical analysis with Claude Code. They all had experience in causal inference, that is, working out from data whether one thing causes another.
+
+8
+00:01:26.027 --> 00:01:34.051
+Their task was to advise a farming cooperative on whether an advisory service it was running was effective and should be expanded.
+
+9
+00:01:34.501 --> 00:01:48.118
+Along the way, the analysts had to make four choices between two reasonable options, such as whether to measure productivity as crop yield per hectare or as yield per unit of operating cost, and then make a final decision.
+
+10
+00:01:48.238 --> 00:02:09.376
+To see whether they were making these calls themselves, we set up each analyst’s agent to favor one option on each decision, which the analysts weren’t told about. Which way the agents would “lean” would be decided by coin flip. The agent was told to make the best honest case for its lean, to change its mind if the evidence demanded it, and never to mislead.
+
+11
+00:02:09.826 --> 00:02:31.502
+Across the four analytical choices, analysts went with their agent’s lean 86 percent of the time. If the agent’s input made no difference, we’d expect about 50 percent. When analysts had already expressed their own preference before the agent weighed in, they switched away from it 60 percent of the time if the agent disagreed, compared to 6 percent if it agreed.
+
+12
+00:02:31.952 --> 00:02:45.027
+Afterward, when asked to explain their choices, 77 percent of analysts used the agents’ own arguments, sometimes word for word, but only 15 percent credited the agent as the source of those arguments.
+
+13
+00:02:45.147 --> 00:02:56.369
+Analysts who followed the agents’ recommendations closely were about as confident in their final recommendation as the rest, and roughly as likely to call it the product of their own judgment.
+
+14
+00:02:56.819 --> 00:03:17.978
+Figure 1: Participants work through an analysis task with five open-ended decisions. For each participant and decision, a coin flip sets which option their A I leans toward, without telling the participant. We compare how often participants choose option A under each lean. Image description: Three-panel diagram of the study design.
+
+15
+00:03:18.098 --> 00:03:39.508
+Panel 1: each participant makes five open-ended decisions, each with two defensible options: outcome (yield per operating cost or crop yield per hectare), comparison method (levels adjustment or difference-in-differences), which farms the assessment covers (the full membership or enrolled farms), weighting (by production or per farm),
+
+16
+00:03:39.628 --> 00:03:42.453
+and recommendation (discontinue or roll out).
+
+17
+00:03:42.573 --> 00:04:00.557
+Panel 2: on each decision a coin flip secretly sets which option the participant’s A I favors, with example statements from an A I leaning each way. Panel 3: a hypothetical example showing that the gap in the share choosing option A between the two groups estimates the lean’s effect.
+
+18
+00:04:01.007 --> 00:04:20.547
+We don’t know how much this tells us about the real world. Real agents will sometimes lean one way or another, with no lean assigned, Claude Opus 4.8 made the same five choices in 112 out of 123 runs, but in this case we strengthened their preferences on purpose to measure their effect.
+
+19
+00:04:20.667 --> 00:04:25.912
+When agents aren’t given clear preferences and instructions to voice them, the effect might be smaller.
+
+20
+00:04:26.362 --> 00:04:43.300
+This isn’t a simple cautionary tale against working with A I. Analysts who used the agent finished the task faster and made far fewer serious errors than those who chose to work without it, although the latter group was small and less experienced, so we are wary of reading too much into it.
+
+21
+00:04:43.420 --> 00:04:51.689
+But as A I takes over more of the hands-on work, decisions like these are increasingly where human judgment and values will affect the result.
+
+22
+00:04:51.809 --> 00:05:11.145
+If experts defer to agents without realizing it, the agents’ preferences, which could be arbitrary or misaligned, could shape important decisions about policy proposals or research directions without anyone having chosen those preferences. This is particularly important for research into keeping A I safe.
+
+23
+00:05:11.265 --> 00:05:20.389
+Researchers have begun using agents to run and analyze experiments and a human reviewer is only an independent check if their judgment is their own.
+
+24
+00:05:21.189 --> 00:05:22.118
+Study design.
+
+25
+00:05:22.568 --> 00:05:45.787
+We recruited 61 analysts for a randomized controlled trial. All came from a pre-screened pool of professionals who had passed a causal-inference knowledge check, used the programming languages Python or R regularly, and had hands-on experience with observational causal analysis, which means studying cause and effect using real-world data rather than a controlled experiment.
+
+26
+00:05:46.237 --> 00:06:07.735
+The task was set at a fictional organization, the Greenfields Farming Cooperative, which runs an (equally fictitious) voluntary, paid advisory program to help its member farms improve their crop yields. About 40 percent of members have enrolled. The co-op’s board must decide whether to subsidize and expand the program, or discontinue it.
+
+27
+00:06:07.855 --> 00:06:18.693
+The board will expand the program only if it improves farms’ productivity by a set margin, roughly 3 to 4 percent, but it doesn’t say exactly how productivity should be measured.
+
+28
+00:06:19.143 --> 00:06:24.327
+We deliberately left four analytical decisions open, each with two reasonable options:
+
+29
+00:06:24.777 --> 00:06:30.964
+Outcome: measure productivity as crop yield per hectare, or as yield per unit of operating cost?.
+
+30
+00:06:31.204 --> 00:06:47.758
+Comparison method: look at how enrolled farms’ yields changed after joining compared with how other farms’ yields changed over the same period (a “difference-in-differences” design), or compare yields directly while adjusting statistically for differences between the farms?.
+
+31
+00:06:47.998 --> 00:06:55.761
+Which farms the assessment covers: measure the effect only in the enrolled farms, or across the cooperative’s entire membership?.
+
+32
+00:06:56.001 --> 00:07:00.275
+Weighting: count every farm equally, or give larger producers more weight?.
+
+33
+00:07:00.725 --> 00:07:12.640
+These four choices led into a final recommendation: whether to roll out the program to everyone, or to discontinue it. Analysts and agents could also propose a one-year extension.
+
+34
+00:07:13.090 --> 00:07:23.403
+Each of the analytical decisions could move the estimated productivity gain by several percentage points, which is important when the board’s threshold is 3 to 4 percent.
+
+35
+00:07:23.853 --> 00:07:42.499
+For each of the five decisions presented to each analyst, the agent’s lean was set by a coin flip. We gave the agent its leans in hidden instructions (a system prompt) that told it to hold each lean as its own view, to raise it when the decision came up, and to make the strongest case for it that the data allowed.
+
+36
+00:07:42.619 --> 00:07:54.224
+The same instructions told it to change its mind if the evidence turned decisively against it, and never to misrepresent results, hide data, or make an argument the numbers didn’t support.
+
+37
+00:07:54.674 --> 00:08:16.972
+Out of 61 participants, 11 chose not to use the agent and are left out of the analysis unless noted. Among the remaining 50, 65 percent held a master’s or doctorate or had six or more years of experience, and 90 percent rated themselves proficient or expert in observational causal inference (of the 48 who answered the survey).
+
+38
+00:08:17.092 --> 00:08:32.601
+The median time on the task was 65 minutes, and half of the analysts took between 50 and 79 minutes. They worked in a web-based version of the VS Code editor with Claude Code built in, running Claude Opus 4.8 at High effort.
+
+39
+00:08:33.051 --> 00:08:54.300
+When they finished, analysts submitted their four analytical choices and their final recommendation alongside an estimate of the program’s effect on productivity, with a confidence interval. They then completed a post-task survey. A separate A I model read each submission and its code to record which option the analyst had chosen on each decision.
+
+40
+00:08:54.420 --> 00:08:59.170
+Where its reading disagreed with the analyst’s own survey answer, we made the final call.
+
+41
+00:08:59.970 --> 00:09:00.712
+Results.
+
+42
+00:09:01.163 --> 00:09:24.558
+Analysts mostly went with their agents’ lean. On each of the four analytical decisions, analysts’ choices matched their agents’ lean the large majority of the time: 92 percent for the outcome measure, 82 percent for the comparison method, 81 percent for which farms the estimate covered, and 90 percent for weighting. Across all four combined, the result was 86 percent.
+
+43
+00:09:24.678 --> 00:09:32.029
+Figure 2 shows how much the agents’ lean shifted analysts’ choices on each decision, including the final recommendation.
+
+44
+00:09:32.479 --> 00:09:48.315
+Agents’ lean had a weaker effect on the final recommendation, but its earlier input still shaped the result. When the agent leaned toward rolling out the program, 54 percent of analysts recommended it, compared with 36 percent when it leaned the other way.
+
+45
+00:09:48.435 --> 00:10:09.694
+(A one-year extension counts as not rolling out.) We think the effect was weaker because, once the analysts had their estimate, the recommendation largely followed from whether it cleared the board’s 3 to 4 percent threshold, which left less room for judgment. But by then, an agent’s lean on the analytical decisions had already shaped the estimate itself.
+
+46
+00:10:09.814 --> 00:10:32.334
+Using only those four leans, a statistical model correctly predicted 82 percent of the analysts’ recommendations, compared with 61 percent for always guessing the most common recommendation. (This excludes analysts who proposed an extension.) So we could largely predict what an analyst would recommend from the coin flips alone, before they had even started the task.
+
+47
+00:10:32.784 --> 00:10:55.770
+Figure 2: The share of participants choosing option A on each decision, when their A I leaned A (green) and when it leaned B (violet). The four analytical decisions moved 62 to 82 percentage points and the final recommendation 17. Image description: Dot plot of the share of participants choosing option A when the A I leaned B versus when it leaned A.
+
+48
+00:10:55.890 --> 00:11:20.701
+Outcome: 0 percent versus 82 percent, a difference of 82 percentage points. Comparison method: 28 percent versus 92 percent, 64 points. Which farms the assessment covers: 38 percent versus 100 percent, 62 points. Weighting: 22 percent versus 100 percent, 78 points. Recommendation: 36 percent versus 54 percent, 17 points.
+
+49
+00:11:21.151 --> 00:11:41.176
+Analysts who had already picked an option often switched when their agent disagreed. In 38 cases, an analyst had expressed a preference on one of the analytical decisions before the agent expressed its lean. When the lean went against their choice, they switched 60 percent of the time, compared with 6 percent when it agreed with their choice.
+
+50
+00:11:41.296 --> 00:12:04.573
+That’s a gap of 54 percentage points, but because this rests on only 38 cases, the estimate is imprecise, and the 95 percent confidence interval runs from 24 to 82 percentage points. We also can’t be sure that the difference is caused by the A I’s influence: the analysts who expressed a preference may have been systematically different in some way from those who didn’t.
+
+51
+00:12:05.023 --> 00:12:08.308
+Experience and expertise did not predict who deferred.
+
+52
+00:12:08.428 --> 00:12:31.995
+In an exploratory analysis, we checked whether any of 10 characteristics predicted how often analysts’ decisions followed their agents’ lean: years of experience, self-rated expertise in causal inference, education, score on a causal-inference quiz, trust in A I, how often they used A I, “need for cognition” (a measure of how much people enjoy effortful thinking),
+
+53
+00:12:32.115 --> 00:12:34.316
+open-mindedness, gender, and age.
+
+54
+00:12:34.436 --> 00:12:51.414
+Only age showed a statistically significant link, with older analysts following the lean more often. But we don’t read very much into that: if you test many different things, you’re more likely to get one positive result just by chance, and when we adjusted for that the result disappeared.
+
+55
+00:12:51.534 --> 00:13:01.070
+Because most analysts followed their agent on most decisions, there was little variation to explain anyway, so even real differences would have been hard to detect.
+
+56
+00:13:01.520 --> 00:13:17.087
+Analysts who followed their agent’s lean still called the recommendation their own. On the post-task survey, 52 percent of analysts rated the final recommendation as more their own than their agent’s. The rest said it was more the agent’s recommendation.
+
+57
+00:13:17.207 --> 00:13:37.118
+But both groups were roughly equally influenced by their agents: the former’s choices shifted about 65 percentage points toward their agents’ lean, on average, compared to 79 percentage points for the latter, a difference within the margin of error. Analysts’ confidence in their own recommendation showed a similar pattern.
+
+58
+00:13:37.238 --> 00:13:52.506
+They were asked to rate their confidence from 0 (“it’s a coin flip”) to 100 (“I’d stake my professional reputation on it”). Those who followed the lean on all four analytical decisions averaged 71, compared to 73 for the rest.
+
+59
+00:13:52.956 --> 00:14:16.178
+Figure 3: On the post-task survey (n = 48), 52 percent called the recommendation more their own than the agent’s and 35 percent mostly or entirely their own, even though the agent’s leans had shifted their choices. Image description: Dot chart of 48 survey responses to “Whose judgment does the final recommendation mostly reflect?” on a six-point scale.
+
+60
+00:14:16.298 --> 00:14:26.011
+More the agent’s (23): entirely 0, mostly 9, slightly 14. More mine (25): slightly 8, mostly 13, entirely 4.
+
+61
+00:14:26.461 --> 00:14:43.877
+Analysts explained their choices in their agent’s words. After the task, the survey asked about each decision: “Briefly, why that choice rather than the alternative? If it wasn’t an active choice, just say so.” Analysts couldn’t look back at their conversations with the agent while answering.
+
+62
+00:14:43.997 --> 00:14:54.029
+Even so, 77 percent repeated their agent’s argument in at least one answer, sometimes word for word, and only 15 percent credited the agent anywhere.
+
+63
+00:14:54.479 --> 00:15:06.903
+When explicitly asked what they thought the study was about, six of the 48 correctly guessed that it was about the A I’s influence on their choices, but none suspected that the A I’s own preferences had been manipulated.
+
+64
+00:15:07.353 --> 00:15:26.972
+Figure 4: Agent statements during the task (orange) and the same participants’ answers afterward to “why that choice rather than the alternative?” (blue) share phrasing, sometimes verbatim. 77 percent of participants repeated their agent’s argument in at least one answer, 15 percent credited the agent.
+
+65
+00:15:27.092 --> 00:15:36.643
+Participants could not go back to review the agent transcripts when writing these answers. Image description: Two pairs of quotes with shared phrases highlighted.
+
+66
+00:15:36.763 --> 00:15:41.976
+First pair: the agent said “Since the subsidy is funded from surplus on total tonnage,
+
+67
+00:15:42.096 --> 00:16:01.787
+I’d area-weight the headline so it reflects the co-op’s hectares rather than counting a 3-ha plot equal to a 400-ha operation,” and the participant later wrote “The subsidy is funded from surplus on total tonnage so the decision relevant avg is over hectares not farms counted equally.” Second pair:
+
+68
+00:16:01.907 --> 00:16:21.839
+the agent said “But one post-program season is thin ground to scrap a program that might still help, so rather than discontinue outright, extend the voluntary program one more season,” and the participant later wrote “But one post program season, with a design the pre trend test complicates, felt thin ground for scrapping it outright.”.
+
+69
+00:16:22.289 --> 00:16:40.326
+Analysts who worked without A I made more serious errors and took longer. Of the 11 participants who chose not to use the agent, six (55 percent) made serious methodological errors that invalidated their results, compared with three of the 50 (6 percent) who did use it.
+
+70
+00:16:40.446 --> 00:16:56.432
+Two A I models flagged the errors, and one of the study’s authors checked each one without knowing which group the analyst was in. The analysts who worked without an agent also took longer, with a median time of 90 minutes, compared to 65 for the others.
+
+71
+00:16:56.882 --> 00:17:05.076
+The two groups were not directly comparable, so we can’t be sure whether the different outcomes were caused by the decision to use or not use A I.
+
+72
+00:17:05.196 --> 00:17:29.701
+Those who worked without A I were less experienced on average: fewer held a master’s degree or a doctorate (four out of 11, compared to 24 out of 46 who used the agent), more had two years or less in analysis roles (six out of 11, compared to 15 out of 48), and fewer rated themselves proficient or expert in causal inference (eight of 11, compared to 43 out of 48).
+
+73
+00:17:30.501 --> 00:17:32.015
+Our study’s limitations.
+
+74
+00:17:32.465 --> 00:17:40.956
+We deliberately strengthened the agents’ lean. Our instructions made the agent hold and voice a preference reliably, so that we could measure its effect.
+
+75
+00:17:41.076 --> 00:17:59.345
+The rates we report show what happens when an agent leans one way and says so, but how much that applies to real-world work will depend on how strong the expert’s own views are, how clearly the decisions involved are defined, and how the model behaves, including whether it has a preference and whether it volunteers it.
+
+76
+00:17:59.585 --> 00:18:18.985
+We studied one task, in one field, with one model. The task took about an hour, it was specifically about farming, and the agent ran on Claude Opus 4.8. The analysts were experts in causal inference but new to farming. In real work, they would know the field better, and probably have stronger views of their own.
+
+77
+00:18:19.105 --> 00:18:28.022
+They could also interview relevant people, talk to the board, and in other ways narrow down the reasonable options, which might reduce the agent’s influence.
+
+78
+00:18:28.262 --> 00:18:47.943
+Our estimates are averages across analysts. Because the coin flips differed between analysts, comparing analysts whose agents leaned in opposite ways tells us the lean’s average effect. We didn’t record each participant’s own view before the agent voiced its lean, so we can’t say how much any single participant was influenced.
+
+79
+00:18:48.183 --> 00:19:04.968
+We recorded which option analysts chose, but not how strongly they preferred it. One possible explanation for deferring is that the expert didn’t have strong opinions of their own. We measured only whether analysts’ choices shifted, not how confident they were in their choice.
+
+80
+00:19:05.768 --> 00:19:06.678
+What this means.
+
+81
+00:19:07.128 --> 00:19:26.221
+One reason analysts deferred so readily may be that experts don’t always arrive with their views fully formed. They often work out, or even discover, what they think while weighing the options. The agents in our study were told not to mislead, and they were often open about how the results would change under each option.
+
+82
+00:19:26.341 --> 00:19:41.180
+But they rarely made a strong case for why an expert might prefer the other option, which might have helped analysts make a better-informed choice. With only one side argued well, the analysts could adopt the agent’s assumptions without working out their own.
+
+83
+00:19:41.630 --> 00:19:58.248
+For individual experts, this could mean losing agency over their own work, a form of what researchers call disempowerment. The work still goes out under the expert’s name, but the decisions that most depend on their judgment are in reality settled by the agent’s prior beliefs.
+
+84
+00:19:58.698 --> 00:20:19.699
+The stakes extend beyond individuals, though, because so much of science and policy rests on judgment calls like these. When separate research teams reach the same result, we trust it more, because we assume each team reached it independently. If those teams all defer to models with the same preferences, their agreement may no longer be independent.
+
+85
+00:20:19.819 --> 00:20:29.931
+An apparent consensus might reflect one model’s preferences, and if those preferences are arbitrary or misaligned, the same bias would shape many results at once.
+
+86
+00:20:30.381 --> 00:20:48.121
+The same problem applies to A I safety research. Researchers have begun to use A I agents to run and analyze experiments, in part because there is more work than human staff can keep up with. Keeping a human in the loop assumes that the human’s judgment provides an independent check.
+
+87
+00:20:48.241 --> 00:21:05.244
+But in our study, analysts signed off on work in which judgment calls had largely been settled by the agent’s randomly assigned preferences. Our full paper also shows that agents without an assigned lean have weaker preferences of their own, and sometimes push back against users.
+
+88
+00:21:05.694 --> 00:21:26.513
+Deferral of this kind is hard to detect. Checking A I-assisted work for errors, or against a reference answer, assumes there is a correct answer. But where there isn’t one, as in judgment calls, the work can look sound whichever option is chosen. Asking experts afterward may not help either, because they may not notice the agent’s influence.
+
+89
+00:21:26.963 --> 00:21:36.857
+This isn’t an argument for using A I less. Used well, A I could expand people’s agency rather than eroding it. We suggest three areas for future study:
+
+90
+00:21:37.307 --> 00:21:58.994
+Measuring deferral. We could measure deferral in our study because we randomized the agent’s lean, which is rarely possible in real work, and our results suggest that people may not be able to report it accurately themselves. We need ways to measure it in everyday settings, and recent work that estimates how someone would have carried out a task without A I is a good start.
+
+91
+00:21:59.114 --> 00:22:07.902
+We also need a better picture of models’ default preferences and how they express them, so that people can engage with models in a more informed way.
+
+92
+00:22:08.352 --> 00:22:27.445
+Designing agents differently. Agents could make the best case for each option, or ask experts for their own view before offering one. But this could quickly become overwhelming for users. A single analysis can involve many open decisions, and much of the value of A I is that people don’t have to think through each one.
+
+93
+00:22:27.565 --> 00:22:48.259
+Agents would need to raise only the decisions that matter most, but picking those is itself a judgment call. How a model speaks probably matters too, since confidence and fluency can sway people. A model that sounds very sure of itself might tilt people more than is warranted, but a mealy-mouthed model will just irritate the people who try to use it.
+
+94
+00:22:48.709 --> 00:23:09.147
+Changing institutions. Institutions often treat an expert’s sign-off as evidence of independent judgment. As A I does more of the work, that assumption becomes shakier. Organizations will need to decide deliberately which decisions need a person’s own informed judgment, and give people the time and resources to form one.
+
+95
+00:23:09.267 --> 00:23:25.353
+Judgment also depends on skill, and people who stop making these decisions may lose the ability to make them. As models become more capable, institutions will need an explicit strategy for establishing the role of humans and the development of their skills.
+
+96
+00:23:25.473 --> 00:23:36.961
+Even with extremely capable A I systems, institutions may want to protect human skills and oversight for reasons of safety or resilience, or because they value them for their own sake.
+
+97
+00:23:37.411 --> 00:23:50.763
+There may be no single right division of labor between people and A I. Some decisions may be fine to hand over, and others worth keeping. With the right tools, that split can be something we choose, instead of something we drift into.
+
+98
+00:23:51.763 --> 00:24:09.576
+That was How A I agents shape experts’ judgment calls, from Anthropic Research, published October 27, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
