@@ -1,0 +1,165 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:09.020
+This is Anthropic, Read Aloud. Today: A I for Science expands to foundations and research institutions.
+
+2
+00:00:10.320 --> 00:00:14.532
+A I for Science expands to foundations and research institutions.
+
+3
+00:00:14.982 --> 00:00:19.669
+From Anthropic Newsroom, published October 28, 2026.
+
+4
+00:00:20.669 --> 00:00:36.627
+We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our A I for Science program, which gives free Claude credits to researchers working on high-impact scientific projects.
+
+5
+00:00:37.077 --> 00:00:53.816
+We started the A I for Science program in May 2025 with the belief that A I could significantly speed up scientific progress. Our goal is to increase access to A I tools and resources to enable researchers to deepen and expand their own scientific work.
+
+6
+00:00:53.936 --> 00:01:06.758
+(Over the last few months, we’ve also launched our discounted Team plan for scientists and have supported hundreds of projects across biology, medicine, physics, chemistry, climate science, and mathematics.)
+
+7
+00:01:07.208 --> 00:01:27.641
+Scientists have told us that they’re working with Claude to generate hypotheses, design experiments, swiftly analyze complex data, and communicate findings. With scientists at the center of this transformation, the field is setting the questions and developing the research projects that will help us tackle some of humanity’s toughest problems.
+
+8
+00:01:28.091 --> 00:01:51.749
+Over the past year, we’ve started to expand this work and partner with scientific organizations to build collaborative research projects. For instance, we partnered with HHMI Janelia Research Campus to develop the Model Hardware Standard (MHS), a shared specification that lets A I agents safely operate lab instruments. MHS is currently in research preview.
+
+9
+00:01:51.869 --> 00:02:09.457
+We also support the Allen Institute, a leader in creating large open datasets and tools to advance research on the brain, cells, and the immune system. The institute is building teams of A I agents to analyze that data, turning months of manual analysis into hours.
+
+10
+00:02:09.907 --> 00:02:24.078
+We’re sharing how this program has further scaled up from supporting individual scientists to developing a large number of scientific partnerships with institutions and foundations to support researchers across many scientific fields.
+
+11
+00:02:24.198 --> 00:02:42.609
+Many of these projects will also produce public goods that benefit the wider scientific community: open datasets, open-source software, open standards, and shared libraries. We look forward to seeing how A I resources can expand what scientists can attempt and lead to new discoveries.
+
+12
+00:02:43.409 --> 00:02:45.220
+Science funders and societies.
+
+13
+00:02:45.670 --> 00:03:02.795
+Science funders and societies play an enormous role in finding and funding original, high-impact projects. We’re sharing Claude credits with the following organizations, which will distribute these resources to ambitious researchers aiming to use A I for scientific research:
+
+14
+00:03:03.245 --> 00:03:15.458
+The Alfred P. Sloan Foundation. Founded in 1934, it supports original research and education in science, technology, engineering, mathematics, and economics.
+
+15
+00:03:15.698 --> 00:03:25.382
+The Simons Foundation. This foundation advances the frontiers of research in mathematics and basic sciences through grants and its Flatiron Institute.
+
+16
+00:03:25.622 --> 00:03:38.194
+Schmidt Sciences. Founded in 2024 by Eric and Wendy Schmidt, it works to accelerate scientific knowledge and breakthroughs with the most promising, advanced tools to support a thriving planet.
+
+17
+00:03:38.314 --> 00:03:54.322
+The organization prioritizes research in areas poised for impact, including A I and advanced computing, astrophysics, biosciences, climate, and space, and supports researchers in a variety of disciplines through its science systems program.
+
+18
+00:03:54.562 --> 00:04:08.160
+Open Source for Science Fund, a program of Renaissance Philanthropy. This is a time-bound philanthropic fund at Renaissance Philanthropy sustaining and evolving the open-source software stack that underpins science.
+
+19
+00:04:08.400 --> 00:04:31.546
+The U S National Science Foundation. This 9 dollarsbillion federal agency established by Congress in 1950 promotes the progress of science, advances national health and defense, and funds competitive research and education, accounting for about 25 percent of federal support for basic research at U S colleges and universities.
+
+20
+00:04:31.786 --> 00:04:46.186
+CAS, a division of the American Chemical Society. For more than a century, CAS has indexed the world’s published chemistry, and it maintains the CAS Registry, the standard system for identifying chemical substances.
+
+21
+00:04:46.986 --> 00:04:47.955
+Institutions.
+
+22
+00:04:48.405 --> 00:05:03.403
+Leading research institutions produce some of the world’s most important scientific advances, data, instruments, and tools. These institutional partners will use Claude credits inside their organizations to enable scientific discovery:
+
+23
+00:05:03.853 --> 00:05:24.898
+Space Telescope Science Institute. STScI runs science operations for NASA’s Hubble, James Webb, and Roman space telescopes. Managed by the Association of Universities for Research in Astronomy (AURA), STScI also holds one of the largest astronomy data archives used by scientists worldwide.
+
+24
+00:05:25.138 --> 00:05:37.896
+Wellcome Sanger Institute. One of the world’s leading genomics centers, it generates genomic and functional data at scale, with work that spans human genetics, biodiversity, and drug development.
+
+25
+00:05:38.136 --> 00:05:50.421
+The Francis Crick Institute. Based in London, it’s one of Europe’s largest biomedical research institutes, with more than 100 research groups studying the biology behind health and disease.
+
+26
+00:05:50.661 --> 00:06:06.747
+Imperial College London, Department of Life Sciences. One of Europe’s largest life science departments, it conducts research ranging from the structure of single molecules to whole ecosystems, with a focus on health, disease, and climate resilience.
+
+27
+00:06:06.987 --> 00:06:22.811
+EMBL. The European Molecular Biology Laboratory is Europe’s intergovernmental life science laboratory, with six sites across the continent delivering both research and services across experimental and computational approaches in biology.
+
+28
+00:06:22.931 --> 00:06:36.449
+EMBL’s European Bioinformatics Institute (EMBL-EBI) hosts a number of key open data resources that biologists use every day, such as Ensembl, Protein Data Bank in Europe, and Europe PMC.
+
+29
+00:06:36.689 --> 00:06:51.828
+Gladstone Institutes. An independent biomedical research institute in San Francisco, it integrates A I and data science across its work on cardiology, neurology, infectious diseases, cancer, and autoimmune diseases.
+
+30
+00:06:52.628 --> 00:06:54.635
+Research projects and initiatives.
+
+31
+00:06:55.085 --> 00:07:09.213
+As part of this work, we’re also continuing to support innovative research by providing Claude credits directly to specific research initiatives, focusing on problems with the potential for large public impact. The new projects are:
+
+32
+00:07:09.663 --> 00:07:26.785
+FlyWire, Princeton University (neuroscience). It produced the first complete wiring map of an adult fruit fly’s brain and develops open data and tools for connectomics, enabling researchers to discover how neural circuits give rise to perception and behavior.
+
+33
+00:07:27.025 --> 00:07:42.601
+LEAP, Columbia University (Earth system). Learning the Earth with Artificial Intelligence and Physics is a National Science Foundation center that combines machine learning with physics to improve how climate models capture clouds, oceans, and land.
+
+34
+00:07:42.841 --> 00:08:06.982
+AstroPath, Johns Hopkins University (cancer research). Built by a pathologist and an astrophysicist from the Mark Foundation Center for Advanced Genomics and Imaging and the Bloombergabout Kimmel Institute for Cancer Immunotherapy, AstroPath uses calibration methods from astronomical surveys to image tumors cell by cell, with measurements consistent across slides and labs.
+
+35
+00:08:07.222 --> 00:08:27.651
+gnomAD, Broad Institute (genomics and rare disease). The Genome Aggregation Database pools DNA data from over 800000 people into an open reference of human genetic variation that researchers and clinical labs around the world use to support rare disease discovery and diagnosis.
+
+36
+00:08:27.891 --> 00:08:39.922
+Tau Ceti (mathematics). This open, community-driven project is building a shared autoformalized library of mathematics in Lean, a language that lets computers check every proof.
+
+37
+00:08:40.162 --> 00:08:58.846
+Centre for Population Genomics. A joint initiative between Australia’s Garvan Institute of Medical Research and Murdoch Children’s Research Institute, it increases the inclusion of Australia’s multicultural communities in genomic resources and builds tools for rare disease diagnosis.
+
+38
+00:08:59.646 --> 00:09:00.540
+What’s next.
+
+39
+00:09:00.990 --> 00:09:16.173
+Many of these collaborations are still in their early stages, and we’re eager to see how they can support novel research and scientific discovery. We look forward to sharing the impact of this work and showcasing new ways of working in these scientific fields.
+
+40
+00:09:16.623 --> 00:09:30.403
+As A I changes how science is done, our A I for Science program will continue to support and collaborate with scientists, institutions, and foundations. We hope to expand these efforts to even more partners around the world.
+
+41
+00:09:31.403 --> 00:09:50.366
+That was A I for Science expands to foundations and research institutions, from Anthropic Newsroom, published October 28, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

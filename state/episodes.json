@@ -5451,6 +5451,14 @@
       "updated": "2026-10-28T00:00:10+00:00",
       "slug": "research-2026-10-27-early-progress-drug-development",
       "episode": 104
+    },
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions": {
+      "first_seen": "2026-10-28T20:24:58+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-28T20:24:58+00:00",
+      "slug": "news-2026-10-28-ai-for-science-expands-foundations-research-institutions",
+      "episode": 105
     }
   },
   "episodes": [
@@ -11321,8 +11329,38 @@
       "episode": 104,
       "created": "2026-10-28T00:00:10+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg"
+    },
+    {
+      "slug": "news-2026-10-28-ai-for-science-expands-foundations-research-institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source": "news",
+      "title": "AI for Science expands to foundations and research institutions",
+      "subtitle": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+      "date": "2026-10-28T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "AI for Science program",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "Team plan for scientists",
+          "href": "https://claude.com/programs/team-plan-for-scientists"
+        },
+        {
+          "text": "Model Hardware Standard",
+          "href": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        }
+      ],
+      "word_count": 1187,
+      "duration": 594.316168,
+      "bytes": 5547931,
+      "episode": 105,
+      "created": "2026-10-28T20:24:58+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg"
     }
   ],
-  "next_episode": 105,
+  "next_episode": 106,
   "baseline_date": "2026-08-14"
 }

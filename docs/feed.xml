@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 00:00:10 +0000</lastBuildDate>
-    <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:24:59 +0000</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,50 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: AI for Science expands to foundations and research institutions</title>
+      <itunes:title>News: AI for Science expands to foundations and research institutions</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-28-ai-for-science-expands-foundations-research-institutions/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.
+
+Source: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
+Published October 28, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• AI for Science program: https://www.anthropic.com/news/ai-for-science-program
+• Team plan for scientists: https://claude.com/programs/team-plan-for-scientists
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-28-ai-for-science-expands-foundations-research-institutions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</a><br/><strong>Published:</strong> October 28, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 1,187 words · 9 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/ai-for-science-program">AI for Science program</a></li><li><a href="https://claude.com/programs/team-plan-for-scientists">Team plan for scientists</a></li><li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-28-ai-for-science-expands-foundations-research-institutions/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.mp3" length="5547931" type="audio/mpeg"/>
+      <itunes:duration>594</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.jpg?v=f345a275"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.</itunes:subtitle>
+      <itunes:summary>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.
+
+Source: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
+Published October 28, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• AI for Science program: https://www.anthropic.com/news/ai-for-science-program
+• Team plan for scientists: https://claude.com/programs/team-plan-for-scientists
+• Model Hardware Standard: https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-28-ai-for-science-expands-foundations-research-institutions/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>105</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-28-ai-for-science-expands-foundations-research-institutions.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: How AI agents shape experts’ judgment calls</title>
       <itunes:title>Research: How AI agents shape experts’ judgment calls</itunes:title>
