@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:09.821
+This is Anthropic, Read Aloud. Today: Expanding our partnership with GSA to bring Claude to all levels of government.
+
+2
+00:00:11.121 --> 00:00:15.750
+Expanding our partnership with GSA to bring Claude to all levels of government.
+
+3
+00:00:16.200 --> 00:00:24.021
+Anthropic is an A I safety and research company that's working to build reliable, interpretable, and steerable A I systems.
+
+4
+00:00:24.471 --> 00:00:29.257
+From Anthropic Newsroom, published October 27, 2026.
+
+5
+00:00:30.257 --> 00:00:44.086
+We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40 percent discount on Claude Enterprise, Claude for Government, and the Claude A P I.
+
+6
+00:00:44.206 --> 00:00:59.749
+For the first time, the discount applies across every product surface, including when agencies buy from us directly today and through cloud providers in the coming months. The discount also extends to state, local, tribal and territorial governments.
+
+7
+00:01:00.199 --> 00:01:16.860
+We are also launching a dedicated program to help agencies implement and make the most of their Claude use. These programs are commonly leveraged by our private sector customers and we’re looking forward to bringing those best practices to our public sector partners in the coming weeks.
+
+8
+00:01:17.310 --> 00:01:34.218
+Approximately 500 U S federal, state, and local government organizations now use Claude. Weekly Claude for Government active users are up about eightfold since February, and usage across federal civilian agencies has grown about 20-fold in a year.
+
+9
+00:01:34.338 --> 00:01:49.939
+Those organizations run some of the most important systems in the country, usually on tight budgets and with long procurement cycles. This agreement is built to support that work, so they can apply Claude to hard problems without a large upfront commitment.
+
+10
+00:01:50.389 --> 00:02:02.475
+The discounts offered through the agreement are estimated to save the government 1 dollarsbillion. Agencies are not bound by a minimum spend commitment and will be able to pay for the usage they consume.
+
+11
+00:02:03.275 --> 00:02:05.910
+How Claude is helping public servants get more done.
+
+12
+00:02:06.360 --> 00:02:20.492
+Government agencies are using Claude to solve some of their most important challenges. Examples include managing backlogs, records and forms, and modernizing old code. Some of the ways agencies are using Claude include:
+
+13
+00:02:20.942 --> 00:02:34.894
+Utah gave Claude Code to 34 developers across 10 state agencies. 80 percent had a working environment within 30 minutes, 71 percent reported saving 20+ hours by the end of the four-week pilot.
+
+14
+00:02:35.134 --> 00:02:44.982
+A U S state CIO confirmed their team was able to respond to a ransomware attack in 8 minutes versus the usual 2 to 3 days thanks to Claude.
+
+15
+00:02:45.222 --> 00:02:59.521
+A U S federal security team used Claude Mythos to detect and patch the vulnerability that would have allowed for the takeover of a critical production system in about two days. A human penetration test the month before had missed it.
+
+16
+00:02:59.761 --> 00:03:06.289
+A cybersecurity professional at a major agency found and patched bugs in critical financial systems.
+
+17
+00:03:06.529 --> 00:03:15.793
+A U S state IT developer moved nearly 900 A P I methods to a new framework in two days. The project had been scoped for a month.
+
+18
+00:03:16.033 --> 00:03:28.049
+A U S state IT director used Claude Code to document 12 legacy code repositories, mapping 467 database tables and flagging 27 risks along the way.
+
+19
+00:03:28.289 --> 00:03:39.786
+More than half of the U S states, some of the largest localities, and some of the countries largest critical infrastructure operators participated in our SLTT cyber defense program.
+
+20
+00:03:40.586 --> 00:03:42.837
+Meeting government security requirements.
+
+21
+00:03:43.287 --> 00:04:01.613
+Agencies can use Claude for their most sensitive unclassified work. Claude for Government, which delivers Claude's coding and agentic work capabilities and provides near-feature parity with commercial offerings at a FedRAMP High authorization level, was made generally available on September 30.
+
+22
+00:04:02.063 --> 00:04:22.931
+Agencies building their own tools can use Claude through Amazon Bedrock or Google Cloud’s Vertex A I. On Bedrock, Claude is authorized for FedRAMP High, with select models authorized for DoD IL4 and IL5 workloads in A W S GovCloud. On Vertex A I, Claude is authorized for FedRAMP High.
+
+23
+00:04:23.381 --> 00:04:36.982
+Claude Enterprise is in process for FedRAMP Moderate authorization through the FedRAMP 20 x program, marking the next evolution of how we are bringing the same innovative technology available commercially to the government.
+
+24
+00:04:37.782 --> 00:04:38.794
+Getting started.
+
+25
+00:04:39.244 --> 00:04:54.540
+Government agencies can buy Claude at the OneGov discount through GSA's Multiple Award Schedule today. Whether your department or agency already uses Claude or is interested in using it, our Public Sector team will help discuss your options.
+
+26
+00:04:54.990 --> 00:04:57.174
+For more information, contact us here.
+
+27
+00:04:58.174 --> 00:05:17.625
+That was Expanding our partnership with GSA to bring Claude to all levels of government, from Anthropic Newsroom, published October 27, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

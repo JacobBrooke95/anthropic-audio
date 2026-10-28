@@ -1,0 +1,213 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.429
+This is Anthropic, Read Aloud. Today: Early progress on accelerating drug development with Claude.
+
+2
+00:00:09.729 --> 00:00:13.181
+Early progress on accelerating drug development with Claude.
+
+3
+00:00:13.631 --> 00:00:30.847
+Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.
+
+4
+00:00:31.297 --> 00:00:36.097
+From Anthropic Research, published October 27, 2026.
+
+5
+00:00:37.097 --> 00:01:00.718
+Anthropic’s life sciences team is working to accelerate curing disease. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines: BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, and The Column Group. We've also begun drug discovery efforts of our own.
+
+6
+00:01:00.838 --> 00:01:13.718
+In doing so, we've learned a lot about how Claude can support drug development, and how we’ll need to improve Claude further to realize A I's potential in medicine. We plan to scale this work up substantially from here.
+
+7
+00:01:14.168 --> 00:01:24.365
+There are many opportunities to speed up drug development, even beyond the most commonly discussed applications of A I, like proposing initial designs for new molecules.
+
+8
+00:01:24.485 --> 00:01:46.937
+Developing a drug involves many varied tasks: doing early research to identify a target for a drug and the right type of drug to engage it, designing a molecule with the right properties, optimizing it to be manufactured reliably at scale, drafting the regulatory filings needed to run clinical trials, designing and administering those trials, and much more.
+
+9
+00:01:47.387 --> 00:02:01.445
+Our strategy to realize A I’s medical benefits is based on having A I increasingly involved in all of these tasks. There is no single problem to solve; the bottlenecks are distributed all throughout the drug development process.
+
+10
+00:02:01.565 --> 00:02:11.963
+The best way to identify and work through these bottlenecks is to get deeply involved in real drug programs, across many different disease areas and stages of development.
+
+11
+00:02:12.413 --> 00:02:29.233
+So, over the past several months, we’ve partnered with six organizations to do so. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy, where Claude handles much of the scientific and operational work.
+
+12
+00:02:29.683 --> 00:02:51.943
+This work serves our goals in three ways. First, it lets us better understand the strengths and limitations of our models in relation to a much wider range of drug development tasks (we’ve already prioritized specific improvements to our models based on what we’ve learned so far). Second, these programs can serve as case studies for the wider life sciences community.
+
+13
+00:02:52.063 --> 00:03:09.233
+If Claude is to significantly increase the rate of new cures, we need to work with many more biotechnology firms and integrate Claude more deeply into their development processes. Third, these projects should, if their positive trajectories continue, have direct impact themselves.
+
+14
+00:03:09.353 --> 00:03:19.760
+We’re optimistic that some may result in effective new medicines for the diseases they target, including food allergies, rare childhood diseases, and several forms of cancer.
+
+15
+00:03:20.210 --> 00:03:34.930
+In this post, we provide an update on our progress with our partners, along with technical reports and preprints that describe our thought process, methods, and early results in more detail. We then briefly outline where our work is headed next.
+
+16
+00:03:35.730 --> 00:03:36.639
+Case studies.
+
+17
+00:03:37.089 --> 00:03:57.284
+Generate Biomedicines: modality engineering. Generate Biomedicines has been working on increasing the usefulness of a cancer treatment known as CAR T-cell therapy. This therapy has historically helped treat blood cell cancers; Generate aims to reengineer it so that it can treat solid tumor cancers too.
+
+18
+00:03:57.404 --> 00:04:12.652
+To do this, they’re aiming to shorten one part of the therapy’s genetic instructions, which would create room for additional instructions suited to other kinds of cancer. Six Generate scientists used Claude Code to propose new designs for this part.
+
+19
+00:04:12.772 --> 00:04:34.627
+One design was about 70 percent shorter than the standard version, and in lab tests it was more effective: it allowed immune cells to make roughly 10 times as many receptors (the proteins they use to spot cancer cells), it killed tumor cells more efficiently, and the immune cells remained active for longer. Read more, and see Generate’s technical report.
+
+20
+00:04:35.077 --> 00:04:51.669
+Divergence Labs: hit generation. Divergence Labs is working on a novel way to treat food allergies. Food allergies are set off by a reaction from a molecule called IgE, some of which is attached to our immune cells and some of which floats freely in our blood.
+
+21
+00:04:51.789 --> 00:05:03.813
+Divergence Labs is developing drugs that would detach the IgE from our immune cells entirely, rather than solely neutralizing the IgE circulating in our blood, as standard medications do.
+
+22
+00:05:03.933 --> 00:05:15.992
+This could provide a much more effective treatment, but it requires a precise design, with two “arms”: one that would bind tightly to IgE, and another that would help prise IgE from the immune cell.
+
+23
+00:05:16.112 --> 00:05:37.839
+Claude converted Divergence Labs’ goals into a detailed design plan, and then, largely autonomously, generated roughly 35000 antibody designs in about a month to be narrowed down and tested. In those early tests, Divergence found “hits” for both arms: three designs that could bind to IgE, and 20 that could dislodge it.
+
+24
+00:05:37.959 --> 00:05:50.170
+Three of those 20 appeared to dislodge IgE more than the standard medication. Its next step is to build a drug that combines the two arms. Read more, and see Divergence’s technical report.
+
+25
+00:05:50.620 --> 00:06:08.655
+BigHat Biosciences: lead optimization. BigHat Biosciences pairs A I with an automated lab to improve potential drugs (or “leads”), which must bind their target tightly, remain stable through manufacturing and storage, and avoid clumping together (among other criteria).
+
+26
+00:06:08.775 --> 00:06:25.007
+BigHat’s scientists and an Anthropic researcher worked with Claude to improve these three properties in two leads, both antibody fragments that could become parts of future drugs: one designed to target cancer cells, and one designed to keep a drug in the body longer.
+
+27
+00:06:25.127 --> 00:06:42.416
+Claude, connected to BigHat’s lab data system, Reccy, proposed changes to each molecule, and BigHat’s lab made and tested about 1010 variants in about 10 weeks. Partway through, the team suspected the standard heat-stability and clumping metrics were misleading.
+
+28
+00:06:42.536 --> 00:06:54.174
+Claude and the researcher reanalyzed the raw data, then proposed different metrics and a protocol change to test them. BigHat’s scientists refined and ran it, and the main predictions held.
+
+29
+00:06:54.294 --> 00:07:11.378
+Compared with the originals, the best versions bound more than 10 x more tightly, the cancer-targeting lead stayed in solution 18°C higher, and the lead for longer-lasting drugs clumped more than 100 x more slowly. Read more, and see BigHat’s technical report.
+
+30
+00:07:11.828 --> 00:07:32.197
+Enveda: manufacturing and filings. To conduct clinical trials, companies need records showing that each batch of a new drug has been made to strict quality standards, and to submit an application to regulators, among other requirements. At Enveda, manufacturing chemists spent up to 75 percent of their time on paperwork.
+
+31
+00:07:32.317 --> 00:07:50.806
+To ease the load, Enveda built a system that connects all of its manufacturing documents to Claude, then lets Claude flag any possible issues. Over tests on 1061 pages of documentation, Claude caught all 11 issues that human reviewers had spotted, and flagged seven they’d missed.
+
+32
+00:07:50.926 --> 00:08:14.614
+In the process, this method reduced human review time by 89 percent, from over 25 hours to less than three. Separately, Claude wrote the first drafts of two important regulatory documents. One took four hours, compared to about three months by hand. For the other, Enveda’s standard human review process found one minor error. Read more, and see Enveda’s technical report.
+
+33
+00:08:15.064 --> 00:08:32.874
+The Column Group (TCG): company creation. Because drug discovery can be slow, expensive, and prone to failure, investors in biotechnology companies have favored safer, previously validated ideas over riskier new ones, even when the latter could help more patients.
+
+34
+00:08:32.994 --> 00:08:54.332
+We’ve been working with TCG to see whether Claude can change this by cutting the time and cost of drug discovery so that investors can confidently support more ambitious ideas. Specifically, TCG is establishing Pleiades, a new company that will use Claude to run many more, and more complex, drug programs than is usual for a small team.
+
+35
+00:08:54.452 --> 00:09:11.561
+This could be a model for how Claude can reduce both the scientific and the operational and administrative overhead required to run a biotechnology company. If this works, this model could be replicated across the industry and direct investment toward harder problems in medicine.
+
+36
+00:09:11.681 --> 00:09:25.867
+Pleiades is currently developing new tools and workflows for Claude; its very first Claude skill, which helps Claude assess whether drug targets are worth pursuing, has been evaluated on 45 target-disease pairs. Read more.
+
+37
+00:09:26.317 --> 00:09:44.179
+More recently, we’ve also begun working with Bristol Myers Squibb (BMS) to find and address bottlenecks in clinical trial planning. BMS is using Claude to assess plans of an early-stage drug in clinical trials, and to estimate the likelihood of those trials succeeding.
+
+38
+00:09:44.299 --> 00:09:53.550
+Together, we plan to expand this work in 2027 to understand its potential for increasing the probability of success in early development.
+
+39
+00:09:54.000 --> 00:10:13.898
+Quote: “We use Claude at the clinical trial stage to analyze proprietary data, create a clinical study plan, and weigh the study’s chance of success. From a single prompt, Claude generated a robust initial analysis that helped inform our assessment of different development options, which would otherwise take days to complete.
+
+40
+00:10:14.018 --> 00:10:25.758
+We did all of this while ensuring the security of our highly sensitive data. We look forward to expanding this work across our pipeline to support portfolio-level decisions.”. End quote.
+
+41
+00:10:26.208 --> 00:10:34.459
+Michael Pourdehnad, MD, Senior Vice President, Head of Early Clinical Development, Hematology, Oncology and Cell Therapy.
+
+42
+00:10:34.909 --> 00:10:48.621
+In addition to our work with these partners, we’ve begun to run some research programs ourselves. We’ve acquired Mithril Medicine, a one-person company that has been developing treatments for two rare forms of muscular dystrophy.
+
+43
+00:10:48.741 --> 00:11:10.480
+Its founder, Cody Tranbarger, used Claude to organize contracts, logistics, and experiments with 11 external labs, and delegated many other aspects of Mithril’s operations to Claude. As a result, Mithril took a possible treatment for one form of muscular dystrophy from an idea to promising results in mice in less than 18 months.
+
+44
+00:11:10.600 --> 00:11:28.541
+Now at Anthropic, Cody is continuing this research, and plans to start several new programs. If his drug candidates continue to hold up, we expect a drug to be ready to start clinical trials in humans as soon as late 2028. Read more and see our technical report.
+
+45
+00:11:29.341 --> 00:11:31.502
+Extending our work in the life sciences.
+
+46
+00:11:31.952 --> 00:11:43.685
+All of this research is still at an early stage. In particular, so far it is mostly preclinical, that is, for the most part, it isn’t yet at the stage where the drugs are being tested in humans.
+
+47
+00:11:43.805 --> 00:11:56.406
+We plan to continue extending Claude’s role into clinical trials as these drug programs advance, and as we partner with more organizations whose drug development programs are already at the clinical stage.
+
+48
+00:11:56.856 --> 00:12:15.351
+This research is only one part of our efforts to accelerate drug discovery. Ultimately, we want to share our models with as many drug development researchers as possible. To that end, we’ve rolled out Claude Science, our A I workbench for researchers, and we’re providing Claude credits for life scientists.
+
+49
+00:12:15.471 --> 00:12:31.400
+We’ve also created the Life Sciences Verification Program to allow trusted organizations to use our most powerful models with more permissive versions of our safeguards, which are necessary to prevent misuse but which can impede legitimate biological research.
+
+50
+00:12:31.520 --> 00:12:45.323
+We’ve also recently launched an open call for guest investigators in the life sciences; we’re seeking proposals from research groups who want to use Claude to investigate key questions in drug discovery and other areas.
+
+51
+00:12:45.773 --> 00:12:59.511
+We’re looking forward to working with many more organizations as we expand our life sciences research. If you work at an organization focused on drug discovery and are interested in collaborating with us, you can get in touch below.
+
+52
+00:13:00.311 --> 00:13:01.494
+Get in touch with us.
+
+53
+00:13:02.494 --> 00:13:20.882
+That was Early progress on accelerating drug development with Claude, from Anthropic Research, published October 27, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

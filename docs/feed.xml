@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 20:42:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:10 +0000</lastBuildDate>
     <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -137,6 +137,122 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>102</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-discovering-vulnerabilities-with-claude.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-discovering-vulnerabilities-with-claude.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>News: Expanding our partnership with GSA to bring Claude to all levels of government</title>
+      <itunes:title>News: Expanding our partnership with GSA to bring Claude to all levels of government</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-27-expanding-partnership-gsa/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/expanding-partnership-gsa</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/expanding-partnership-gsa
+Published October 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• participated: https://www.anthropic.com/news/anthropic-cyber-mission
+• generally available: https://claude.com/resources/articles/claude-for-government-is-now-generally-available
+• here: https://claude.com/solutions/government
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-27-expanding-partnership-gsa/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/expanding-partnership-gsa">https://www.anthropic.com/news/expanding-partnership-gsa</a><br/><strong>Published:</strong> October 27, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 632 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/anthropic-cyber-mission">participated</a></li><li><a href="https://claude.com/resources/articles/claude-for-government-is-now-generally-available">generally available</a></li><li><a href="https://claude.com/solutions/government">here</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-27-expanding-partnership-gsa/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-10-27-expanding-partnership-gsa.mp3" length="3249387" type="audio/mpeg"/>
+      <itunes:duration>322</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-10-27-expanding-partnership-gsa.jpg?v=918ff274"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-27-expanding-partnership-gsa.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-10-27-expanding-partnership-gsa.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</itunes:subtitle>
+      <itunes:summary>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+Source: https://www.anthropic.com/news/expanding-partnership-gsa
+Published October 27, 2026 · Anthropic Newsroom
+
+Links referenced in the post:
+• participated: https://www.anthropic.com/news/anthropic-cyber-mission
+• generally available: https://claude.com/resources/articles/claude-for-government-is-now-generally-available
+• here: https://claude.com/solutions/government
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-10-27-expanding-partnership-gsa/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>103</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-27-expanding-partnership-gsa.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-10-27-expanding-partnership-gsa.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Early progress on accelerating drug development with Claude</title>
+      <itunes:title>Research: Early progress on accelerating drug development with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-early-progress-drug-development/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/early-progress-drug-development</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.
+
+Source: https://www.anthropic.com/research/early-progress-drug-development
+Published October 27, 2026 · Anthropic Research
+
+Links referenced in the post:
+• life sciences team: https://www.anthropic.com/science
+• BigHat Biosciences: https://www.bighatbio.com/
+• Bristol Myers Squibb: https://www.bms.com/
+• Divergence Labs: https://divergencelabs.com/
+• Enveda: https://enveda.com/
+• Generate Biomedicines: https://generatebiomedicines.com/
+• The Column Group: https://www.thecolumngroup.com/
+• proposing initial designs: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Generate’s technical report: https://generatebiomedicines.com/publications/refactored-intracellular-domains-enhance-car-expression-and-function/
+• Divergence’s technical report: https://divergencelabs.com/publications/ige-preprint.pdf
+• BigHat’s technical report: https://www.bighatbio.com/bighat-anthropic-collaboration-report-10-27-2026
+• Enveda’s technical report: https://enveda.com/CMC-Document-Processor/
+• our technical report: https://www-cdn.anthropic.com/52e1f5d50c47ca3818f56704c27cf19e59b62e77.pdf
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• Claude credits for life scientists: https://www.anthropic.com/news/ai-for-science-program
+• Life Sciences Verification Program: https://www.anthropic.com/news/life-sciences-verification-program
+• open call for guest investigators: https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-early-progress-drug-development/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/early-progress-drug-development">https://www.anthropic.com/research/early-progress-drug-development</a><br/><strong>Published:</strong> October 27, 2026 · Anthropic Research<br/><strong>Length:</strong> 1,861 words · 13 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/science">life sciences team</a></li><li><a href="https://www.bighatbio.com/">BigHat Biosciences</a></li><li><a href="https://www.bms.com/">Bristol Myers Squibb</a></li><li><a href="https://divergencelabs.com/">Divergence Labs</a></li><li><a href="https://enveda.com/">Enveda</a></li><li><a href="https://generatebiomedicines.com/">Generate Biomedicines</a></li><li><a href="https://www.thecolumngroup.com/">The Column Group</a></li><li><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">proposing initial designs</a></li><li><a href="https://generatebiomedicines.com/publications/refactored-intracellular-domains-enhance-car-expression-and-function/">Generate’s technical report</a></li><li><a href="https://divergencelabs.com/publications/ige-preprint.pdf">Divergence’s technical report</a></li><li><a href="https://www.bighatbio.com/bighat-anthropic-collaboration-report-10-27-2026">BigHat’s technical report</a></li><li><a href="https://enveda.com/CMC-Document-Processor/">Enveda’s technical report</a></li><li><a href="https://www-cdn.anthropic.com/52e1f5d50c47ca3818f56704c27cf19e59b62e77.pdf">our technical report</a></li><li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science</a></li><li><a href="https://www.anthropic.com/news/ai-for-science-program">Claude credits for life scientists</a></li><li><a href="https://www.anthropic.com/news/life-sciences-verification-program">Life Sciences Verification Program</a></li><li><a href="https://www.anthropic.com/news/open-call-guest-investigators-life-sciences">open call for guest investigators</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-early-progress-drug-development/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-10-27-early-progress-drug-development.mp3" length="7212544" type="audio/mpeg"/>
+      <itunes:duration>805</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-10-27-early-progress-drug-development.jpg?v=283f7d4c"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-early-progress-drug-development.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-10-27-early-progress-drug-development.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an up</itunes:subtitle>
+      <itunes:summary>Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.
+
+Source: https://www.anthropic.com/research/early-progress-drug-development
+Published October 27, 2026 · Anthropic Research
+
+Links referenced in the post:
+• life sciences team: https://www.anthropic.com/science
+• BigHat Biosciences: https://www.bighatbio.com/
+• Bristol Myers Squibb: https://www.bms.com/
+• Divergence Labs: https://divergencelabs.com/
+• Enveda: https://enveda.com/
+• Generate Biomedicines: https://generatebiomedicines.com/
+• The Column Group: https://www.thecolumngroup.com/
+• proposing initial designs: https://www.anthropic.com/research/Claude-accelerates-protein-design
+• Generate’s technical report: https://generatebiomedicines.com/publications/refactored-intracellular-domains-enhance-car-expression-and-function/
+• Divergence’s technical report: https://divergencelabs.com/publications/ige-preprint.pdf
+• BigHat’s technical report: https://www.bighatbio.com/bighat-anthropic-collaboration-report-10-27-2026
+• Enveda’s technical report: https://enveda.com/CMC-Document-Processor/
+• our technical report: https://www-cdn.anthropic.com/52e1f5d50c47ca3818f56704c27cf19e59b62e77.pdf
+• Claude Science: https://www.anthropic.com/news/claude-science-ai-workbench
+• Claude credits for life scientists: https://www.anthropic.com/news/ai-for-science-program
+• Life Sciences Verification Program: https://www.anthropic.com/news/life-sciences-verification-program
+• open call for guest investigators: https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-10-27-early-progress-drug-development/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>104</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-early-progress-drug-development.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-10-27-early-progress-drug-development.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>News: Anthropic files S-1 with the SEC for proposed initial public offering</title>

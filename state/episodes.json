@@ -5435,6 +5435,22 @@
       "updated": "2026-10-27T20:42:26+00:00",
       "slug": "research-2026-10-27-discovering-vulnerabilities-with-claude",
       "episode": 102
+    },
+    "https://www.anthropic.com/news/expanding-partnership-gsa": {
+      "first_seen": "2026-10-27T23:47:32+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-27T23:47:32+00:00",
+      "slug": "news-2026-10-27-expanding-partnership-gsa",
+      "episode": 103
+    },
+    "https://www.anthropic.com/research/early-progress-drug-development": {
+      "first_seen": "2026-10-28T00:00:10+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-10-28T00:00:10+00:00",
+      "slug": "research-2026-10-27-early-progress-drug-development",
+      "episode": 104
     }
   },
   "episodes": [
@@ -11189,8 +11205,124 @@
       "episode": 102,
       "created": "2026-10-27T20:42:26+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "news-2026-10-27-expanding-partnership-gsa",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source": "news",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "subtitle": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-10-27T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "participated",
+          "href": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        },
+        {
+          "text": "generally available",
+          "href": "https://claude.com/resources/articles/claude-for-government-is-now-generally-available"
+        },
+        {
+          "text": "here",
+          "href": "https://claude.com/solutions/government"
+        }
+      ],
+      "word_count": 632,
+      "duration": 321.574762,
+      "bytes": 3249387,
+      "episode": 103,
+      "created": "2026-10-27T23:47:32+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp"
+    },
+    {
+      "slug": "research-2026-10-27-early-progress-drug-development",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "research",
+      "title": "Early progress on accelerating drug development with Claude",
+      "subtitle": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
+      "date": "2026-10-27T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "life sciences team",
+          "href": "https://www.anthropic.com/science"
+        },
+        {
+          "text": "BigHat Biosciences",
+          "href": "https://www.bighatbio.com/"
+        },
+        {
+          "text": "Bristol Myers Squibb",
+          "href": "https://www.bms.com/"
+        },
+        {
+          "text": "Divergence Labs",
+          "href": "https://divergencelabs.com/"
+        },
+        {
+          "text": "Enveda",
+          "href": "https://enveda.com/"
+        },
+        {
+          "text": "Generate Biomedicines",
+          "href": "https://generatebiomedicines.com/"
+        },
+        {
+          "text": "The Column Group",
+          "href": "https://www.thecolumngroup.com/"
+        },
+        {
+          "text": "proposing initial designs",
+          "href": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+        },
+        {
+          "text": "Generate’s technical report",
+          "href": "https://generatebiomedicines.com/publications/refactored-intracellular-domains-enhance-car-expression-and-function/"
+        },
+        {
+          "text": "Divergence’s technical report",
+          "href": "https://divergencelabs.com/publications/ige-preprint.pdf"
+        },
+        {
+          "text": "BigHat’s technical report",
+          "href": "https://www.bighatbio.com/bighat-anthropic-collaboration-report-10-27-2026"
+        },
+        {
+          "text": "Enveda’s technical report",
+          "href": "https://enveda.com/CMC-Document-Processor/"
+        },
+        {
+          "text": "our technical report",
+          "href": "https://www-cdn.anthropic.com/52e1f5d50c47ca3818f56704c27cf19e59b62e77.pdf"
+        },
+        {
+          "text": "Claude Science",
+          "href": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "text": "Claude credits for life scientists",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "Life Sciences Verification Program",
+          "href": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
+        {
+          "text": "open call for guest investigators",
+          "href": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+        }
+      ],
+      "word_count": 1861,
+      "duration": 804.832041,
+      "bytes": 7212544,
+      "episode": 104,
+      "created": "2026-10-28T00:00:10+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg"
     }
   ],
-  "next_episode": 103,
+  "next_episode": 105,
   "baseline_date": "2026-08-14"
 }

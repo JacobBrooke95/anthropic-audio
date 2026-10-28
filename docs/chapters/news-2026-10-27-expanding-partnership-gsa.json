@@ -1,0 +1,25 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 123.28,
+   "title": "How Claude is helping public servants get more done"
+  },
+  {
+   "startTime": 220.59,
+   "title": "Meeting government security requirements"
+  },
+  {
+   "startTime": 277.78,
+   "title": "Getting started"
+  },
+  {
+   "startTime": 298.17,
+   "title": "Outro"
+  }
+ ]
+}
