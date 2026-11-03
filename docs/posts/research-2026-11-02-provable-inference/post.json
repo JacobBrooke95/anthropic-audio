@@ -1,0 +1,711 @@
+{
+ "url": "https://www.anthropic.com/research/provable-inference",
+ "source": "research",
+ "slug": "research-2026-11-02-provable-inference",
+ "title": "Progress on provable inference for large language models",
+ "subtitle": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
+ "date": "2026-11-02T00:00:00+00:00",
+ "authors": [
+  "Roy Rinberg (Anthropic)",
+  "Alex Allain (Anthropic); Alessandro Chiesa (EPFL",
+  "StarkWare)",
+  "Miranda Christ (MIT",
+  "RESI)",
+  "Rahul Dalal (Anthropic STEM Fellows Program",
+  "Succinct)",
+  "Giacomo Fenzi (EPFL)",
+  "Ben Mayer (Anthropic Fellows Program",
+  "MIT)",
+  "Guy Weissenberg (EPFL)"
+ ],
+ "category": "",
+ "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Executive summary",
+   "html": "Executive summary"
+  },
+  {
+   "type": "paragraph",
+   "text": "When you talk to a friend in person, you have many ways to know it is really them: you can see them, hear them, shake their hand. When you talk to an AI model, you have almost none. A user querying a model today cannot check that the responses came from the specific model that a developer claims is responding, as opposed to one secretly substituted in by a routing service for cost reasons, or even by an attacker who has tampered with the token stream. Judging from the model’s output alone is unreliable, even if it produces high-quality responses. Cryptographic proofs of inference solve this problem: they let a model provider commit to a model and then prove that each response was produced by that model. Such proofs could enable applications ranging from consumer products to internal security, and could contribute to a toolkit for verifying compliance with AI pacing requirements.",
+   "html": "When you talk to a friend in person, you have many ways to know it is really them: you can see them, hear them, shake their hand. When you talk to an AI model, you have almost none. A user querying a model today cannot check that the responses came from the specific model that a developer claims is responding, as opposed to one secretly substituted in by a routing service for cost reasons, or even by an attacker who has tampered with the token stream. Judging from the model’s output alone is unreliable, even if it produces high-quality responses. Cryptographic proofs of inference solve this problem: they let a model provider commit to a model and then prove that each response was produced by that model. Such proofs could enable applications ranging from consumer products to internal security, and could contribute to a toolkit for verifying compliance with AI pacing requirements."
+  },
+  {
+   "type": "paragraph",
+   "text": "Specifically, we have made progress on a powerful type of cryptographic proof known as a “zkSNARK”, which is uniquely fit for provable inference (owing to its strong hiding and efficiency properties). In this post, we share some of that progress, primarily through a system we call FlashProve. A brief technical summary is as follows:",
+   "html": "Specifically, we have made progress on a powerful type of cryptographic proof known as a “zkSNARK”, which is uniquely fit for <strong>provable inference</strong> (owing to its strong hiding and efficiency properties). In this post, we share some of that progress, primarily through a system we call FlashProve. A brief technical summary is as follows:"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    {
+     "text": "Claude has produced improvements on zkSNARKs for inference, building a system that is substantially faster than prior open-source systems. For a large model (Llama 4 Maverick, 400B-parameter mixture of experts), a single H100 GPU generates proofs at around 110 tokens/second, with a proof size of ~19 MB per 1,024-token request, when in 4-bit quantized weights, using integer arithmetic in prefill. This is ~70-95x the GPU time of running the model itself on vLLM, a common open-source library. Prior open-source systems are orders of magnitude slower, as we discuss in section 6 . Claude found novel ways to apply state-of-the-art tools in the cryptography and security literature, while relying on well-established design principles for cryptographic proof systems. The commitment to the model, and subsequent inference proofs, hide the weights of the model; hiding the architecture of the model is not a goal of this system.",
+     "html": "Claude has produced improvements on zkSNARKs for inference, building a system that is substantially faster than prior open-source systems. For a large model (Llama 4 Maverick, 400B-parameter mixture of experts), a single H100 GPU generates proofs at around 110 tokens/second, with a proof size of ~19 MB per 1,024-token request, when in 4-bit quantized weights, using integer arithmetic in prefill. This is ~70-95x the GPU time of running the model itself on vLLM, a common open-source library. Prior open-source systems are orders of magnitude slower, as we discuss in <a href=\"https://www.anthropic.com/research/provable-inference#prior-work\">section 6</a>. Claude found novel ways to apply state-of-the-art tools in the cryptography and security literature, while relying on well-established design principles for cryptographic proof systems. The commitment to the model, and subsequent inference proofs, hide the weights of the model; hiding the architecture of the model is not a goal of this system."
+    },
+    {
+     "text": "Claude is good at optimization, but often makes decisions that are hard to evaluate, especially in large complex systems. We counter this by providing top-level auditable statements in Lean (a formal verification language) for the claimed security guarantees.",
+     "html": "Claude is good at optimization, but often makes decisions that are hard to evaluate, especially in large complex systems. We counter this by providing top-level auditable statements in Lean (a formal verification language) for the claimed security guarantees."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Today we are releasing five artifacts:",
+   "html": "Today we are releasing five artifacts:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The current blog post, which outlines our system and its potential applications;",
+     "html": "The current blog post, which outlines our system and its potential applications;"
+    },
+    {
+     "text": "A technical report explaining the details of our system;",
+     "html": "A <a href=\"https://www.anthropic.com/document/flashprove-technical-report\">technical report</a> explaining the details of our system;"
+    },
+    {
+     "text": "A (Claude-written) protocol specification document;",
+     "html": "A (Claude-written) <a href=\"https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf\">protocol specification</a> document;"
+    },
+    {
+     "text": "Executable code that includes: a prover and two verifiers, a fast verifier in C++, and a provably correct verifier in Lean; and",
+     "html": "<a href=\"https://github.com/anthropics/FlashProve\">Executable code</a> that includes: a <a href=\"https://github.com/anthropics/FlashProve/tree/main/prover\">prover</a> and two verifiers, a <a href=\"https://github.com/anthropics/FlashProve/tree/main/verifier\">fast verifier</a> in C++, and a <a href=\"https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify\">provably correct verifier</a> in Lean; and"
+    },
+    {
+     "text": "Lean proofs for the top level mathematical statements, along with an interactive visualizer of the Lean theorems to aid with auditing.",
+     "html": "<a href=\"https://github.com/anthropics/FlashProve/tree/main/lean\">Lean proofs</a> for the top level mathematical statements, along with an <a href=\"https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html\">interactive visualizer</a> of the Lean theorems to aid with auditing."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "We release our code, Lean proofs, and documentation under the Apache 2.0 license. 1 This research post is meant to share intermediate progress, and not a completed research agenda. We are sharing this explicitly with the goal that others look at what we have done, take it, and improve it.",
+   "html": "We release our code, Lean proofs, and documentation under the Apache 2.0 license.<sup>1</sup> This research post is meant to share intermediate progress, and not a completed research agenda. We are sharing this explicitly with the goal that others look at what we have done, take it, and improve it."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction",
+   "html": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "When a user sends a request to an AI model, today they have no way of knowing for certain that the model they selected is the one that generated the response. For everyday uses, in which users mostly care about the output and not necessarily which specific model produced it, this is a less pressing concern. But there are several cases where such assurance would be useful. For example, independent evaluators who test AI models before and after release need to know that the model they are evaluating is the model being served. Clients who use a model through a third-party routing service want assurance that the tokens came from the model they paid for. And if a cyberattacker modifies the token stream while pretending to be a given model, a user has no way to detect it from the output alone.",
+   "html": "When a user sends a request to an AI model, today they have no way of knowing for certain that the model they selected is the one that generated the response. For everyday uses, in which users mostly care about the output and not necessarily which specific model produced it, this is a less pressing concern. But there are several cases where such assurance would be useful. For example, independent evaluators who test AI models before and after release need to know that the model they are evaluating is the model being served. Clients who use a model through a third-party routing service want assurance that the tokens came from the model they paid for. And if a cyberattacker modifies the token stream while pretending to be a given model, a user has no way to detect it from the output alone."
+  },
+  {
+   "type": "paragraph",
+   "text": "However, enabling verification of model responses is challenging. Most frontier models’ weights are kept private, and even if the user had access to the weights, checking that a given response was produced by a model with those weights would involve running the model, which requires computational resources far beyond what a typical user (or even evaluator) can afford.",
+   "html": "However, enabling verification of model responses is challenging. Most frontier models’ weights are kept private, and even if the user had access to the weights, checking that a given response was produced by a model with those weights would involve running the model, which requires computational resources far beyond what a typical user (or even evaluator) can afford."
+  },
+  {
+   "type": "paragraph",
+   "text": "The goal of provable inference (PI) is to enable a user with limited computational resources and without any information about the weights to verify that a response came from the requested model. PI is motivated both by a desire to increase customer trust in AI providers, and—because it can be used to provide assurances to independent evaluators and allows providers to demonstrate that they are meeting certain commitments and legal obligations—it also has implications for pacing the frontier of AI development and for AI regulation.",
+   "html": "The goal of <em>provable inference</em> (PI) is to enable a user with limited computational resources and without any information about the weights to verify that a response came from the requested model. PI is motivated both by a desire to increase customer trust in AI providers, and—because it can be used to provide assurances to independent evaluators and allows providers to demonstrate that they are meeting certain commitments and legal obligations—it also has implications for pacing the frontier of AI development and for AI regulation."
+  },
+  {
+   "type": "paragraph",
+   "text": "One way to implement PI is via a cryptographic object called a zero-knowledge succinct argument: the model provider sends, along with the claimed response, a short proof (say, a few megabytes) that the user can quickly verify (ideally, in seconds on a CPU). If the claimed response deviates from the specified model, the user’s check will fail. Importantly, cryptographic techniques ensure that the proof reveals nothing about the model’s weights.",
+   "html": "One way to implement PI is via a cryptographic object called a <em>zero-knowledge succinct argument: </em>the model provider sends, along with the claimed response, a short <em>proof </em>(say, a few megabytes) that the user can <em>quickly</em> verify (ideally, in seconds on a CPU). If the claimed response deviates from the specified model, the user’s check will fail. Importantly, cryptographic techniques ensure that the proof reveals <em>nothing</em> about the model’s weights."
+  },
+  {
+   "type": "paragraph",
+   "text": "Today, we release FlashProve: an open-source performant prototype for provable inference . For a 400B-parameter mixture-of-experts model (Llama 4 Maverick, 4-bit quantization), we show that a single H100 GPU generates proofs at over 100 tokens/second, with proof size of ~19 MB per 1,024-token request (~70-95 times the GPU time that vLLM, a common open-source library, takes to process prompts of the same length).",
+   "html": "Today, we release FlashProve: an <strong>open-source performant prototype for provable inference</strong>. For a 400B-parameter mixture-of-experts model (Llama 4 Maverick, 4-bit quantization), we show that a single H100 GPU generates proofs at over 100 tokens/second, with proof size of ~19 MB per 1,024-token request (~70-95 times the GPU time that vLLM, a common open-source library, takes to process prompts of the same length)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The release comes with executable code, Lean formalization, and a technical description of the protocol. Our aim is twofold: (i) accelerating and facilitating the development of provable inference; and (ii) demonstrating that zero-knowledge succinct arguments are practical for provable inference.",
+   "html": "The release comes with executable code, Lean formalization, and a technical description of the protocol. Our aim is twofold: (i) accelerating and facilitating the development of provable inference; and (ii) demonstrating that zero-knowledge succinct arguments are practical for provable inference."
+  },
+  {
+   "type": "paragraph",
+   "text": "We believe that this progress has meaningful implications for security, in pacing AI development , in providing AI customers with integrity guarantees , in facilitating tooling for auditors and regulators , and more.",
+   "html": "We believe that this progress has meaningful implications for security, in <strong>pacing AI development</strong>, in <strong>providing AI customers with integrity guarantees</strong>, in <strong>facilitating tooling for auditors and regulators</strong>, and more."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Trust challenges in AI proliferation",
+   "html": "Trust challenges in AI proliferation"
+  },
+  {
+   "type": "paragraph",
+   "text": "The development of artificial intelligence and its growing role in our digital infrastructure and economy raises trust challenges that AI providers must answer. Addressing these and other challenges is facilitated by relying on tools for provable inference (PI).",
+   "html": "The development of artificial intelligence and its growing role in our digital infrastructure and economy raises <a href=\"https://arxiv.org/abs/2004.07213\">trust challenges</a> that AI providers must answer. Addressing these and other challenges is facilitated by relying on tools for <em>provable inference (PI).</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools for PI include hardware approaches, software approaches, or a combination of both. Here, we focus on a software-only approach: a cryptographic tool known as a “zkSNARK” ( zero-knowledge succinct argument of knowledge ). Informally, a zkSNARK is a system allowing a prover to convince a verifier , by way of a short “certificate”, that a given computation was executed correctly; crucially, the certificate is zero-knowledge in that it reveals no information beyond what is implied by the computation’s correctness and is succinct in that it’s exponentially faster to verify compared to the proved computation.",
+   "html": "Tools for PI include hardware approaches, software approaches, or a combination of both. Here, we focus on a software-only approach: a cryptographic tool known as a “zkSNARK” (<em>zero-knowledge succinct argument of knowledge</em>). Informally, a zkSNARK is a system allowing a <em>prover </em>to convince a <em>verifier</em>, by way of a short “certificate”, that a given computation was executed correctly; crucially, the certificate is <em>zero-knowledge</em> in that it reveals no information beyond what is implied by the computation’s correctness and is <em>succinct</em> in that it’s exponentially faster to verify compared to the proved computation."
+  },
+  {
+   "type": "paragraph",
+   "text": "Below we outline several challenges and how zkSNARKs help in addressing them.",
+   "html": "Below we outline several challenges and how zkSNARKs help in addressing them."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Challenge 1: pacing",
+   "html": "Challenge 1: pacing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Some proposals to regulate and pace AI development rely on monitoring hardware and how it is used . For example, a provider might be required to devote its hardware to inference rather than to training a powerful new model. The provider might try to cheat by serving cheaper models or using compute in an unexpected way, freeing up resources for training. How can a regulator reliably ensure that the hardware is used for inference?",
+   "html": "Some proposals to <a href=\"https://thefuturesociety.org/international-ai-verification\">regulate</a> and <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">pace</a> AI development rely on <a href=\"https://arxiv.org/abs/2402.08797\">monitoring hardware and how it is used</a>. For example, a provider might be required to <a href=\"https://arxiv.org/abs/2506.15867\">devote its hardware to inference</a> rather than to training a powerful new model. The provider might try to cheat by serving cheaper models or using compute in an unexpected way, freeing up resources for training. How can a regulator reliably ensure that the hardware is used for inference?"
+  },
+  {
+   "type": "paragraph",
+   "text": "How zkSNARKs can help: The regulator can ask the provider for certificates covering the inference requests served in a given period. The certificates must show that the requests were generated by the claimed model. A malicious provider cannot satisfy this request unless its hardware was genuinely serving the right model. Using a zkSNARK, the regulator can check that the provider claims are valid without needing the elaborate hardware setup that the provider may have, and at the same time the provider has the guarantee that the regulator does not learn proprietary model information. 2 We note that although this verifies that the hardware is serving inference, it does not establish that the hardware is not, e.g., training on the side.",
+   "html": "<em>How zkSNARKs can help: </em>The regulator can ask the provider for certificates covering the inference requests served in a given period. The certificates must show that the requests were generated by the claimed model. A malicious provider cannot satisfy this request unless its hardware was genuinely serving the right model. Using a zkSNARK, the regulator can check that the provider claims are valid without needing the elaborate hardware setup that the provider may have, and at the same time the provider has the guarantee that the regulator does not learn proprietary model information.<sup>2</sup> We note that although this verifies that the hardware is serving inference, it does not establish that the hardware is not, e.g., training on the side."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Challenge 2: tamper detection",
+   "html": "Challenge 2: tamper detection"
+  },
+  {
+   "type": "paragraph",
+   "text": "As AI models grow more valuable, the servers that run them become prime targets . An attacker or rogue agent may compromise an inference server to exfiltrate the weights, serve users malicious responses (such as delivering malware to the user’s computer), and more, all while hiding among genuine responses . The adversary need not be external. As models become capable of improving and deploying themselves, a more advanced model could run in place of the one that was authorized and present itself as the weaker model, so as to avoid the classifiers and monitoring that would apply to it. In both cases the question is the same: how can a company be sure of which weights are actually running on its servers? In our Frontier Safety Roadmap , Anthropic set a public goal to produce a prototype for verifying inference traffic: “ We will develop a prototype by September 30, 2026 of provable inference, a technique for reliably, provably ‘signing’ AI model outputs in a way that makes them attributable to a specific set of model weights. ” As stated in our RSP updates, we met that goal through a separate but related project, which signs our inference traffic and recomputes inference on a trusted server; the work in this blog post pursues the same objective by a different method. 3",
+   "html": "As AI models grow more valuable, the servers that run them become <a href=\"https://www.rand.org/pubs/research_reports/RRA2849-1.html\">prime targets</a>. An attacker or rogue agent may <a href=\"https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server\">compromise an inference server</a> to exfiltrate the weights, serve users malicious responses (such as delivering malware to the user’s computer), and more, all while <a href=\"https://arxiv.org/abs/2511.02620\">hiding among genuine responses</a>. The adversary need not be external. As models become capable of improving and deploying themselves, a more advanced model could run in place of the one that was authorized and present itself as the weaker model, so as to avoid the classifiers and monitoring that would apply to it. In both cases the question is the same: how can a company be sure of <em>which weights</em> are actually running on its servers? In our <a href=\"https://www.anthropic.com/responsible-scaling-policy/roadmap\">Frontier Safety Roadmap</a>, Anthropic set a <a href=\"https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects\">public goal</a> to produce a prototype for verifying inference traffic: “<em>We will develop a prototype by September 30, 2026 of provable inference, a technique for reliably, provably ‘signing’ AI model outputs in a way that makes them attributable to a specific set of model weights.</em>” As stated in our RSP updates, we met that goal through a separate but related project, which signs our inference traffic and recomputes inference on a trusted server; the work in this blog post pursues the same objective by a different method.<sup>3</sup>"
+  },
+  {
+   "type": "paragraph",
+   "text": "How zkSNARKs can help: The provider can require a valid zkSNARK from the server on every response. A proof is bound to a specific commitment to the weights, so it certifies not just that some model produced the response but that the committed model did. An attacker who compromises a server, or a model that substitutes itself for another, must then produce valid proofs for the expected weights to avoid detection, which they cannot do. The user may receive the proofs as well, since they leak no internal information (by zero knowledge) and are cheap to check (by succinctness); this limits what an attacker can accomplish through the inference API.",
+   "html": "<em>How zkSNARKs can help:</em> The provider can require a valid zkSNARK from the server on every response. A proof is bound to a specific commitment to the weights, so it certifies not just that <em>some</em> model produced the response but that the <em>committed</em> model did. An attacker who compromises a server, or a model that substitutes itself for another, must then produce valid proofs for the expected weights to avoid detection, which they cannot do. The user may receive the proofs as well, since they leak no internal information (by zero knowledge) and are cheap to check (by succinctness); this limits what an attacker can accomplish through the inference API."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Challenge 3: text provenance",
+   "html": "Challenge 3: text provenance"
+  },
+  {
+   "type": "paragraph",
+   "text": "One may want to prove that considerable effort went into understanding/analyzing something. For example, a developer might claim that their software library was scanned for vulnerabilities by a frontier cybersecurity model, or a company might claim that its business plan was given the go-ahead by an appropriate model. How can a user verify these claims? The user might not have the resources to run the model itself (or they might not have the clearance to do so). Even publishing the chat logs gives no absolute guarantees; a developer might in theory fake them, generating them not with a frontier model but instead with a cheaper one or a degraded version . In general, how can users verify that they are being served by their chosen model ?",
+   "html": "One may want to prove that considerable effort went into understanding/analyzing something. For example, a developer might claim that their software library was scanned for vulnerabilities by a frontier cybersecurity model, or a company might claim that its business plan was given the go-ahead by an appropriate model. How can a user verify these claims? The user might not have the resources to run the model itself (or they might not have the clearance to do so). Even publishing the chat logs gives no absolute guarantees; a developer might in theory fake them, generating them not with a frontier model but instead with a <a href=\"https://arxiv.org/abs/2504.04715\">cheaper one</a> or a <a href=\"https://kimi.com/blog/kimi-vendor-verifier\">degraded version</a>. In general, how can users verify that they are being served by <a href=\"https://arxiv.org/abs/2410.20247\">their chosen model</a>?"
+  },
+  {
+   "type": "paragraph",
+   "text": "How zkSNARKs can help: The provider can append, along with each response, a zkSNARK proving that the output was produced by the claimed model on the given input. Succinctness lets the user check this certificate quickly, without specialized hardware, and zero-knowledge assures the provider that the user learns nothing about the proprietary weights. This complements existing mechanisms for verifying which model produced a response.",
+   "html": "<em>How zkSNARKs can help:</em> The provider can append, along with each response, a zkSNARK proving that the output was produced by the claimed model on the given input. Succinctness lets the user check this certificate quickly, without specialized hardware, and zero-knowledge assures the provider that the user learns nothing about the proprietary weights. This complements <a href=\"https://arxiv.org/abs/2511.20621\">existing mechanisms</a> for verifying which model produced a response."
+  },
+  {
+   "type": "paragraph",
+   "text": "For example, in a world where exploits are being found regularly, prior to releasing new code a model provider could provide the code-developer a Proof-of-Failure that the model-provider spent at least X tokens on a specific model, and did not achieve a specific result (for example, this specific model did not find any bugs in a specific patch, after trying for at least 1M tokens).",
+   "html": "For example, in a world where exploits are being found regularly, prior to releasing new code a model provider could provide the code-developer a Proof-of-Failure that the model-provider spent at least X tokens on a specific model, and did not achieve a specific result (for example, this specific model did not find any bugs in a specific patch, after trying for at least 1M tokens)."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Challenge 4: model approval",
+   "html": "Challenge 4: model approval"
+  },
+  {
+   "type": "paragraph",
+   "text": "Regulation might require providers to serve only models approved as safe , rather than models deemed a cybersecurity or safety risk. A provider might have an incentive to circumvent this, since risky models might outperform competitors or be cheaper to serve. How can a regulator ensure that only approved models are served ?",
+   "html": "Regulation might require providers to <a href=\"https://arxiv.org/abs/2307.03718\">serve only models approved as safe</a>, rather than models deemed a cybersecurity or safety risk. A provider might have an incentive to circumvent this, since risky models might outperform competitors or be cheaper to serve. How can a regulator ensure that <a href=\"https://arxiv.org/abs/2507.15916\">only approved models are served</a>?"
+  },
+  {
+   "type": "paragraph",
+   "text": "How zkSNARKs can help: The regulator can require the provider to attach a zkSNARK to its responses, enforcing the use of approved models. The proof binds each request to the used model, so it will not verify if the provider is using an unapproved model. The regulator can check this in a lightweight way thanks to succinctness without requiring to re-execute each request.",
+   "html": "<em>How zkSNARKs can help:</em> The regulator can require the provider to attach a zkSNARK to its responses, enforcing the use of approved models. The proof binds each request to the used model, so it will not verify if the provider is using an unapproved model. The regulator can check this in a lightweight way thanks to succinctness without requiring to re-execute each request."
+  },
+  {
+   "type": "paragraph",
+   "text": "A note on PI from trusted hardware. Prior work often focuses on trusted execution environments to achieve PI. These are hardware-based solutions that provide privacy and attestation that rely on the manufacturer producing tamper-resistant hardware. In this research, our focus is on software-only cryptographic solutions whose security and privacy relies on the hardness of computational problems. Even in the face of compromised environments (hardware, operating system and more) an adversary cannot produce a invalid proof without breaking a computationally infeasible problem. Trusted hardware and cryptography are complementary approaches with different guarantees and tradeoffs. Both will play a role in addressing the above trust challenges.",
+   "html": "<em>A note on PI from trusted hardware.</em> Prior work often focuses on <em>trusted execution environments</em> to achieve PI. These are hardware-based solutions that provide privacy and attestation that rely on the manufacturer producing tamper-resistant hardware. In this research, our focus is on software-only cryptographic solutions whose security and privacy relies on the hardness of computational problems. Even in the face of compromised environments (hardware, operating system and more) an adversary cannot produce a invalid proof without breaking a computationally infeasible problem. Trusted hardware and cryptography are complementary approaches with different guarantees and tradeoffs. Both will play a role in addressing the above trust challenges."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Our system: FlashProve",
+   "html": "Our system: FlashProve"
+  },
+  {
+   "type": "paragraph",
+   "text": "FlashProve is a system for provable inference of large Mixture-of-Experts (MoE) language models. More details are in our technical report ; here we outline the system.",
+   "html": "FlashProve is a system for provable inference of large Mixture-of-Experts (MoE) language models. More details are in our <a href=\"https://www.anthropic.com/document/flashprove-technical-report\">technical report</a>; here we outline the system."
+  },
+  {
+   "type": "paragraph",
+   "text": "FlashProve involves two parties: the model provider (the prover ) and a user (the verifier ). It is split into two phases:",
+   "html": "FlashProve involves two parties: the model provider (the <em>prover</em>) and a user (the <em>verifier</em>). It is split into two phases:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "In the offline phase , the prover publishes a commitment to the model weights, which is a short fingerprint to pin down one exact choice of weights while the weights themselves remain hidden. The later inference claims will be checked against that commitment, i.e., the weight model committed to in this phase.",
+     "html": "In the <strong>offline phase</strong>, the prover publishes a <em>commitment</em> to the model weights, which is a short fingerprint to pin down <em>one</em> exact choice of weights while the weights themselves remain hidden. The later inference claims will be checked against that commitment, i.e., the weight model committed to in this phase."
+    },
+    {
+     "text": "In the online phase , upon requests from the verifier (i.e., prompts and the corresponding output tokens), the prover produces a proof file proving the following statement:",
+     "html": "In the <strong>online phase</strong>, upon requests from the verifier (i.e., prompts and the corresponding output tokens), the prover produces a proof file proving the following statement:"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The committed model produces these output tokens when evaluated.",
+   "html": "<em>The committed model produces these output tokens when evaluated.</em>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Anyone who holds the commitment, the prompt, and the reply can check it, without the weights and with limited compute power, and be convinced that the committed weights, run on this prompt, produce exactly these tokens.",
+   "html": "Anyone who holds the commitment, the prompt, and the reply can check it, without the weights and with limited compute power, and be convinced that the committed weights, run on this prompt, produce exactly these tokens."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Guarantees",
+   "html": "Guarantees"
+  },
+  {
+   "type": "paragraph",
+   "text": "A proof file satisfies the following “completeness” and “soundness” properties:",
+   "html": "A proof file satisfies the following “completeness” and “soundness” properties:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A proof file is accepted if it is honest (completeness). An honest prover's proof is accepted by the verifier.",
+     "html": "<strong>A proof file is accepted if it is honest (completeness). </strong>An honest prover&#x27;s proof is accepted by the verifier."
+    },
+    {
+     "text": "A proof file cannot be forged (soundness). It is effectively impossible (i.e., tantamount to breaking widely believed cryptographic assumptions) to produce a valid proof of a false statement, so the verifier does not have to trust the prover.",
+     "html": "<strong>A proof file cannot be forged (soundness).</strong> It is effectively impossible (i.e., tantamount to breaking widely believed cryptographic assumptions) to produce a valid proof of a false statement, so the verifier does not have to trust the prover."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Completeness and soundness alone can be achieved by a computationally powerful verifier that knows the model weights (evaluate the model on the prompt and check whether the result matches the response). The next two properties are what makes the system non-trivial.",
+   "html": "Completeness and soundness alone can be achieved by a computationally powerful verifier that knows the model weights (evaluate the model on the prompt and check whether the result matches the response). The next two properties are what makes the system non-trivial."
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A proof file reveals nothing beyond the statement (zero-knowledge). The verifier learns nothing about the weights, the intermediate values of the computation, or which experts ran at every layer. The model architecture (excluding the weights) is not hidden.",
+     "html": "<strong>A proof file reveals nothing beyond the statement (zero-knowledge).</strong> The verifier learns <em>nothing</em> about the weights, the intermediate values of the computation, or which experts ran at every layer. The model architecture (excluding the weights) is not hidden."
+    },
+    {
+     "text": "A proof file is small and cheap to check (succinctness). The attested computation is a run of a 400B-parameter (about 232 GB for a quantized version) model on an H100 GPU, while the verifier receives a proof file of about 19 MB that takes seconds to check on a 24-core CPU. An auditor, or a user with far less hardware than the provider, can check proof files without access to elaborate infrastructure.",
+     "html": "<strong>A proof file is small and cheap to check (succinctness).</strong> The attested computation is a run of a 400B-parameter (about 232 GB for a quantized version) model on an H100 GPU, while the verifier receives a proof file of about 19 MB that takes seconds to check on a 24-core CPU. An auditor, or a user with far less hardware than the provider, can check proof files without access to elaborate infrastructure."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Evaluation",
+   "html": "Evaluation"
+  },
+  {
+   "type": "paragraph",
+   "text": "We measured an implementation of the protocol on Llama 4 Maverick (a 400B-parameter mixture of experts, with ~17B parameters used per token), using the publicly available 4-bit weights. Each verifier request is a window of 1,024 tokens, and each proof checks one token. The prover runs on a server with a single H100 and 24 CPU cores, and the verifier on a CPU.",
+   "html": "We measured an implementation of the protocol on <a href=\"https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct\">Llama 4 Maverick</a> (a 400B-parameter mixture of experts, with ~17B parameters used per token), using the publicly available 4-bit weights. Each verifier request is a window of 1,024 tokens, and each proof checks one token. The prover runs on a server with a single H100 and 24 CPU cores, and the verifier on a CPU."
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Prover. The prover runs on a server with a single H100 and 24 CPU cores. The offline phase runs once per model and takes about 39 minutes. (For technical reasons we discuss in the technical report , the resulting commitment is good for about 16 million requests, after which the provider has to commit again.) The online phase , on a batch of 24 requests, takes the prover about 223 seconds, which is 110 tokens per second, and each proof is 18.78 MB.",
+     "html": "<strong>Prover.</strong> The prover runs on a server with a single H100 and 24 CPU cores. The <em>offline phase</em> runs once per model and takes about 39 minutes. (For technical reasons we discuss in the <a href=\"https://www.anthropic.com/document/flashprove-technical-report\">technical report</a>, the resulting commitment is good for about 16 million requests, after which the provider has to commit again.) The <em>online phase</em>, on a batch of 24 requests, takes the prover about 223 seconds, which is 110 tokens per second, and each proof is 18.78 MB."
+    },
+    {
+     "text": "Verifier. The verifier runs on the client's CPU. It needs no GPU and only has access to a commitment to the weights. The client downloads the commitment, ~6.5 MB in all, and then one proof per request. Checking a proof takes 17 seconds on 24 threads (and 21 seconds on a single thread), including the offline phase's checks.",
+     "html": "<strong>Verifier.</strong> The verifier runs on the client&#x27;s CPU. It needs no GPU and only has access to a commitment to the weights. The client downloads the commitment, ~6.5 MB in all, and then one proof per request. Checking a proof takes 17 seconds on 24 threads (and 21 seconds on a single thread), including the offline phase&#x27;s checks."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Comparison with plain inference: We ran vLLM , a widely used inference engine, with the FP8 release of the same model on eight H100s, and found that, per GPU, proving a batch of 24 requests takes about 72 times longer than vLLM takes to process the same 24 requests at once (66 to 77 across runs), and about 94 times longer when vLLM runs at the highest load we tried.",
+   "html": "Comparison with plain inference: We ran <a href=\"https://vllm.ai/\">vLLM</a>, a widely used inference engine, with the FP8 release of the same model on eight H100s, and found that, per GPU, proving a batch of 24 requests takes about 72 times longer than vLLM takes to process the same 24 requests at once (66 to 77 across runs), and about 94 times longer when vLLM runs at the highest load we tried."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inside the system. The underlying mechanism behind FlashProve is a zkSNARK of the kind deployed in peer-to-peer systems (e.g., L2 networks such as Starknet or Mantle for blockchains like Ethereum). Our zkSNARK is built according to a well-established recipe: an underlying information-theoretic object called an interactive oracle proof (IOP) is compiled into a cryptographic proof by relying on hash functions (and offers even post-quantum security). Our IOP is assembled from state-of-the-art building blocks using tools such as code proximity tests with linear constraints and lookup arguments , which are based on techniques from coding theory and complexity theory. Combining these pieces into a bespoke IOP for inference is a delicate task; more details about the construction can be found in the technical report.",
+   "html": "<strong>Inside the system.</strong> The underlying mechanism behind FlashProve is a zkSNARK of the kind deployed in peer-to-peer systems (e.g., <a href=\"https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D\">L2 networks</a> such as <a href=\"https://www.starknet.io/\">Starknet</a> or <a href=\"https://www.mantle.xyz/\">Mantle</a> for blockchains like Ethereum). Our zkSNARK is built according to a well-established recipe: an underlying information-theoretic object called an <em>interactive oracle proof</em> (IOP) is compiled<em> </em>into a cryptographic proof by relying on hash functions (and offers even post-quantum security). Our IOP is assembled from state-of-the-art building blocks using tools such as <em>code proximity tests with linear constraints</em> and <em>lookup arguments</em>, which are based on techniques from coding theory and complexity theory. Combining these pieces into a bespoke IOP for inference is a delicate task; more details about the construction can be found in the technical report."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Engineering the system",
+   "html": "Engineering the system"
+  },
+  {
+   "type": "paragraph",
+   "text": "FlashProve benefits from architectural decisions that we took, and which are discussed in detail in the technical report . Here we highlight a few:",
+   "html": "FlashProve benefits from architectural decisions that we took, and which are discussed in detail in the <a href=\"https://www.anthropic.com/document/flashprove-technical-report\">technical report</a>. Here we highlight a few:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The prover's work is proportional to the experts that actually ran. In a MoE model a token uses ~17B of the 400B parameters, and the prover's work per token is proportional to those ~17B instead of all parameters (the proof still hides which experts were chosen).",
+     "html": "The prover&#x27;s work is proportional to the experts that actually ran. In a MoE model a token uses ~17B of the 400B parameters, and the prover&#x27;s work per token is proportional to those ~17B instead of all parameters (the proof still hides which experts were chosen)."
+    },
+    {
+     "text": "Requests are proved in batches, after the fact. The prover reads finished text in one parallel pass (as in prefill), and it opens the commitment to the weights once per batch instead of once per request.",
+     "html": "Requests are proved in batches, after the fact. The prover reads finished text in one parallel pass (as in prefill), and it opens the commitment to the weights once per batch instead of once per request."
+    },
+    {
+     "text": "The system is designed to fit on a single GPU. The model weights at each layer are split to segments and are proven one segment of layers at a time. The weights are kept in ordinary memory and streamed in, so a single 80 GB GPU, with ~290 GB of host memory beside it, suffices.",
+     "html": "The system is designed to fit on a single GPU. The model weights at each layer are split to segments and are proven one segment of layers at a time. The weights are kept in ordinary memory and streamed in, so a single 80 GB GPU, with ~290 GB of host memory beside it, suffices."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Post-hoc versus in-line",
+   "html": "Post-hoc versus in-line"
+  },
+  {
+   "type": "paragraph",
+   "text": "When integrating proving mechanisms into inference servers there is a choice: in-line proving (i.e. proving alongside the inference) versus post-hoc proving (i.e. proving after-the-fact, for a subset of tokens). Our system follows the latter. In-line solutions are expected to be ultra-fast and may sacrifice security for efficiency, whereas post-hoc solutions are allowed to be slower and may not suffer such a tradeoff. On the other hand, post-hoc proving has limitations: added complexity of recomputation, the delay in getting guarantees about your traffic, and inherent “non-determinism”. We elaborate on the motivation and implications of post-hoc proving in the technical report .",
+   "html": "When integrating proving mechanisms into inference servers there is a choice: in-line proving (i.e. proving alongside the inference) versus post-hoc proving (i.e. proving after-the-fact, for a subset of tokens). Our system follows the latter. In-line solutions are expected to be ultra-fast and may sacrifice security for efficiency, whereas post-hoc solutions are allowed to be slower and may not suffer such a tradeoff. On the other hand, post-hoc proving has limitations: added complexity of recomputation, the delay in getting guarantees about your traffic, and inherent “non-determinism”. We elaborate on the motivation and implications of post-hoc proving in the <a href=\"https://www.anthropic.com/document/flashprove-technical-report\">technical report</a>."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Trustworthiness from formal verification",
+   "html": "Trustworthiness from formal verification"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cryptographic code is notoriously brittle and error-prone. How can users trust the code we’re releasing today?",
+   "html": "Cryptographic code is notoriously brittle and error-prone. How can users trust the code we’re releasing today?"
+  },
+  {
+   "type": "paragraph",
+   "text": "The answer is formal verification : we use the Lean proof assistant to specify the protocol and the desired security properties. We prove these properties in a form that is machine-checkable and guaranteed to be correct (up to compiler errors). We target three top-level properties:",
+   "html": "The answer is <strong>formal verification</strong>: we use the Lean proof assistant to specify the protocol and the desired security properties. We prove these properties in a form that is machine-checkable and guaranteed to be correct (up to compiler errors). We target three top-level properties:"
+  },
+  {
+   "type": "list",
+   "ordered": true,
+   "items": [
+    {
+     "text": "Completeness : if the statement is correct, the resulting proof is accepted by the verifier.",
+     "html": "<strong>Completeness</strong>: if the statement is correct, the resulting proof is accepted by the verifier."
+    },
+    {
+     "text": "Soundness : any fake proof is rejected by the verifier (except with negligible probability).",
+     "html": "<strong>Soundness</strong>: any fake proof is rejected by the verifier (except with negligible probability)."
+    },
+    {
+     "text": "Zero knowledge : the proof reveals no information about the weights of the model, beyond what the verifier can infer from the response itself. 4",
+     "html": "<strong>Zero knowledge</strong>: the proof reveals no information about the weights of the model, beyond what the verifier can infer from the response itself.<sup>4</sup>"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "These properties are stated in the so-called random oracle model, an information-theoretic way to analyze cryptographic protocols that rely on hash functions.",
+   "html": "These properties are stated in the so-called random oracle model, an information-theoretic way to analyze cryptographic protocols that rely on hash functions."
+  },
+  {
+   "type": "paragraph",
+   "text": "Formal verification leaves two important trust gaps. First, the formal statements must be audited to ensure that they match their intent. This has to be done manually (though it is dramatically less onerous than auditing proofs); we provide an interactive visualizer to assist with this.",
+   "html": "Formal verification leaves two important trust gaps. First, the formal statements must be audited to ensure that they match their intent. This has to be done manually (though it is dramatically less onerous than auditing proofs); we provide an <a href=\"https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html\">interactive visualizer</a> to assist with this."
+  },
+  {
+   "type": "paragraph",
+   "text": "Second, the executable code must be audited to ensure it matches the formally-defined protocol for which the security properties are proven. How to best assist with this depends on the property, because soundness depends solely on the verifier, zero-knowledge depends solely on the prover, and completeness depends on their interaction.",
+   "html": "Second, the executable code must be audited to ensure it matches the formally-defined protocol for which the security properties are proven. How to best assist with this depends on the property, because soundness depends solely on the verifier, zero-knowledge depends solely on the prover, and completeness depends on their interaction."
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "For soundness, we only need the verifier code to be correct (the entire value of having “proofs” is that you can fully distrust the prover if you trust the verifier). We provide an executable Lean verifier, alongside the C++ verifier. The Lean verifier runs more slowly, but Lean proves that it accepts only what the verifier in our soundness theorem accepts. Nevertheless, the C++ verifier is the one to use day to day: it carries no formal guarantee, and it agrees with the Lean verifier on every proof in our tests.",
+     "html": "For soundness, we only need the verifier code to be correct (the entire value of having “proofs” is that you can fully distrust the prover if you trust the verifier). We provide an executable Lean verifier, alongside the C++ verifier. The Lean verifier runs more slowly, but Lean proves that it accepts only what the verifier in our soundness theorem accepts. Nevertheless, the C++ verifier is the one to use day to day: it carries no formal guarantee, and it agrees with the Lean verifier on every proof in our tests."
+    },
+    {
+     "text": "For completeness, the threat model does not assume adversarial attacks (the prover and verifier are honest). Therefore, a Lean verifier lets us gain confidence through standard software testing that the honest prover produces accepting proofs: run the prover on a correct statement, and then the Lean verifier on the resulting proof.",
+     "html": "For completeness, the threat model does not assume adversarial attacks (the prover and verifier are honest). Therefore, a Lean verifier lets us gain confidence through standard software testing that the honest prover produces accepting proofs: run the prover on a correct statement, and then the Lean verifier on the resulting proof."
+    },
+    {
+     "text": "For zero knowledge, we only need the prover to be correct. However, unlike the verifier, the prover is an expensive procedure, and it would be impractical to run a Lean prover. We do not provide facilitations here: we expect that any prover that wants to hide the weights of a model they are serving has access to enough resources for careful agentic and/or human security audits to ensure equivalence to the Lean prover.",
+     "html": "For zero knowledge, we only need the prover to be correct. However, unlike the verifier, the prover is an expensive procedure, and it would be impractical to run a Lean prover. We do not provide facilitations here: we expect that any prover that wants to hide the weights of a model they are serving has access to enough resources for careful agentic and/or human security audits to ensure equivalence to the Lean prover."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Prior work",
+   "html": "Prior work"
+  },
+  {
+   "type": "paragraph",
+   "text": "Achieving provable inference is the objective of a line of work colloquially termed “zkML”. Early works, such as SafetyNets (2017) verified a two-conv-layer MNIST CNN and a small fully connected speech model, zkCNN (2021) reached VGG-16 (15M parameters) at 88.3 s per proof, and Kang et al . (2022) proved MobileNet v2 on full-resolution ImageNet.",
+   "html": "Achieving provable inference is the objective of a line of work colloquially termed “zkML”. Early works, such as <a href=\"https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf\">SafetyNets</a> (2017) verified a two-conv-layer MNIST CNN and a small fully connected speech model, <a href=\"https://eprint.iacr.org/2021/673\">zkCNN</a> (2021) reached VGG-16 (15M parameters) at 88.3 s per proof, and <a href=\"https://arxiv.org/abs/2210.08674\">Kang et al</a>. (2022) proved MobileNet v2 on full-resolution ImageNet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Transformer proofs followed: ZKML’s GPT-2 took about 159 s per token for 117M parameters (≈0.006 tok/s), and Modulus Labs’ 1.5B-parameter GPT-2 XL needed over 90 hours. EZKL (2023) proved a 1M-parameter GPT-style transformer in about 966 s per token (≈0.001 tok/s). Performance progressively improved: zkLLM (2024) proved LLaMA-2-13B on a 2,048-token input in about 15 minutes on GPU, which is ≈0.001 tok/s per new token, or ~2.5 tok/s in the batch. In 2025, zkGPT reduced GPT-2 to 21.8 s (≈0.05 tok/s), zkPyTorch proved Llama-3 8B at ~150 s per token on one CPU core (≈0.007 tok/s), and ZKTorch proved GPT-J (6B) in about 20 minutes (≈0.001 tok/s). VerInf proved Llama 4 Maverick (the same 400B-parameter MoE model we prove) at ≈0.02 tok/s. DeepProve , a current peer-reviewed state of the art, certifies an entire generated sequence with a single forward pass. It reaches about 2.9 tok/s for GPT-2 and 1.4 tok/s for Gemma 3 on one machine, and 31 tok/s distributed. SASH's prover (2026) reached ≈1.25 tok/s on Llama 3.1 8B on a single H100.",
+   "html": "Transformer proofs followed: <a href=\"https://ddkang.github.io/papers/2024/zkml-eurosys.pdf\">ZKML’s GPT-2</a> took about 159 s per token for 117M parameters (≈0.006 tok/s), and <a href=\"https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e\">Modulus Labs’</a> 1.5B-parameter GPT-2 XL needed over 90 hours. EZKL (2023) proved a 1M-parameter GPT-style transformer in about 966 s per token (≈0.001 tok/s). Performance progressively improved: <a href=\"https://arxiv.org/abs/2404.16109\">zkLLM</a> (2024) proved LLaMA-2-13B on a 2,048-token input in about 15 minutes on GPU, which is ≈0.001 tok/s per new token, or ~2.5 tok/s in the batch. In 2025, <a href=\"https://eprint.iacr.org/2025/1184.pdf\">zkGPT</a> reduced GPT-2 to 21.8 s (≈0.05 tok/s), <a href=\"https://eprint.iacr.org/2025/535\">zkPyTorch</a> proved Llama-3 8B at ~150 s per token on one CPU core (≈0.007 tok/s), and <a href=\"https://arxiv.org/abs/2507.07031\">ZKTorch</a> proved GPT-J (6B) in about 20 minutes (≈0.001 tok/s). <a href=\"https://github.com/JamesPetrie/VerInf\">VerInf</a> proved Llama 4 Maverick (the same 400B-parameter MoE model we prove) at ≈0.02 tok/s. <a href=\"https://eprint.iacr.org/2026/1112\">DeepProve</a>, a current peer-reviewed state of the art, certifies an entire generated sequence with a single forward pass. It reaches about 2.9 tok/s for GPT-2 and 1.4 tok/s for Gemma 3 on one machine, and 31 tok/s distributed. <a href=\"https://www.aisafety.sg/research/what-proving-llm-inference-actually-costs-research-note\">SASH&#x27;s prover</a> (2026) reached ≈1.25 tok/s on Llama 3.1 8B on a single H100."
+  },
+  {
+   "type": "paragraph",
+   "text": "Recently commercial efforts have reached impressive numbers, with Attestable proving Gemma 4 31B at 53–77 tok/s on a single H100; at the time of writing, Attestable has not released a corresponding open source library.",
+   "html": "Recently commercial efforts have reached impressive numbers, with <a href=\"https://attestable.com/blog/proving-llms-scale\">Attestable</a> proving Gemma 4 31B at 53–77 tok/s on a single H100; at the time of writing, Attestable has not released a corresponding open source library."
+  },
+  {
+   "type": "paragraph",
+   "text": "The above numbers speak to the precipitous progress of provable inference in the past years. They should update our priors on what it is possible to prove in zero-knowledge.",
+   "html": "The above numbers speak to the precipitous progress of provable inference in the past years. They should update our priors on what it is possible to prove in zero-knowledge."
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "In 2024, zkLLM proved a 13B model at about 2.5 tokens/second on one A100. The only earlier proof of Llama 4 Maverick that we know of, VerInf, reports 14.3 hours for 1,000 tokens on a DGX Spark, with a 93.6 GB proof which took almost a day to verify.",
+     "html": "In 2024, zkLLM proved a 13B model at about 2.5 tokens/second on one A100. The only earlier proof of Llama 4 Maverick that we know of, VerInf, reports 14.3 hours for 1,000 tokens on a DGX Spark, with a 93.6 GB proof which took almost a day to verify."
+    },
+    {
+     "text": "FlashProve proves the same model at 110 tokens/second on a single H100, with 19 MB proofs that can be verified in seconds. Attestable independently reports 53–77 tokens/second for a dense 31B model.",
+     "html": "FlashProve proves the same model at 110 tokens/second on a single H100, with 19 MB proofs that can be verified in seconds. Attestable independently reports 53–77 tokens/second for a dense 31B model."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "We believe that the progress should transfer to more models and architectures, yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected.",
+   "html": "We believe that the progress should transfer to more models and architectures, yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Limitations",
+   "html": "Limitations"
+  },
+  {
+   "type": "paragraph",
+   "text": "This release is a research prototype, and has the following technical limitations:",
+   "html": "This release is a research prototype, and has the following technical limitations:"
+  },
+  {
+   "type": "list",
+   "ordered": false,
+   "items": [
+    {
+     "text": "No formal guarantees on fast executable code. We provide a Lean implementation of the protocol (including an executable “slow” Lean verifier), along with security properties proved in Lean. The paper and the fast executable code are derived from the Lean protocol, but we do not guarantee that all three (Lean, paper, code) match each other.",
+     "html": "<strong>No formal guarantees on fast executable code.</strong> We provide a Lean implementation of the protocol (including an executable “slow” Lean verifier), along with security properties proved in Lean. The paper and the fast executable code are derived from the Lean protocol, but we do not guarantee that all three (Lean, paper, code) match each other."
+    },
+    {
+     "text": "The proof is about an integer model under greedy decoding. We prove an exact integer version of the published weights, and a proof asserts that each checked token is that model’s greedy choice. A reply from a floating-point implementation, or sampled decoding, could depart at some position and no longer exactly match the computation proved. The integer version is generally expected and empirically tested to be within some small error rate of true floating-point inference generically (even taking into account non-determinism of floating-point computations), though this does not cover adversarially designed prompts.",
+     "html": "<strong>The proof is about an integer model under greedy decoding.</strong> We prove an exact integer version of the published weights, and a proof asserts that each checked token is that model’s greedy choice. A reply from a floating-point implementation, or sampled decoding, could depart at some position and no longer exactly match the computation proved. The integer version is generally expected and empirically tested to be within some small error rate of true floating-point inference generically (even taking into account non-determinism of floating-point computations), though this does not cover adversarially designed prompts."
+    },
+    {
+     "text": "Architecture hiding. Our system assumes the served model uses a Mixture-of-Experts (MoE) architecture, in which each transformer layer’s feed-forward block is replaced by multiple expert sub-networks and a router that activates only a small subset of experts for each token and our system uses the MoE structure for efficiency gains. Other architectures, such as the dense models, are also widely used and its description may contain intellectual-property the model provider would like to keep secret. Indeed, one could also imagine a system that further hides the architecture of the model: the prover commits to both the weights and the architecture (i.e., the “executable code” for inference) via a hiding commitment and the verifier’s claim is about checking the execution of that committed executable on the commitment model.",
+     "html": "<strong>Architecture hiding.</strong> Our system assumes the served model uses a Mixture-of-Experts (MoE) architecture, in which each transformer layer’s feed-forward block is replaced by multiple expert sub-networks and a <em>router</em> that activates only a small subset of experts for each token and our system uses the MoE structure for efficiency gains. Other architectures, such as the dense models, are also widely used and its description may contain intellectual-property the model provider would like to keep secret. Indeed, one could also imagine a system that further hides the architecture of the model: the prover commits to both the weights and the architecture (i.e., the “executable code” for inference) via a hiding commitment and the verifier’s claim is about checking the execution of that committed executable on the commitment model."
+    },
+    {
+     "text": "Side channel attacks. The current guarantee of the protocol is that the proof itself reveals nothing about the weights of the committed model. However, “side channel attacks”, such as measuring the time it takes to produce a proof, could potentially reveal information about the weights. We consider this out of scope for this release.",
+     "html": "<strong>Side channel attacks.</strong> The current guarantee of the protocol is that the proof itself reveals nothing about the weights of the committed model. However, “side channel attacks”, such as measuring the time it takes to produce a proof, could potentially reveal information about the weights. We consider this out of scope for this release."
+    },
+    {
+     "text": "Longer contexts. The system currently proves inference over contexts of up to 1,024 tokens. This is quite short in comparison to the contexts accumulated in chat settings. Ideally, this context length could be increased to full context windows for frontier models (which regularly have context windows of 100s of thousands to millions of tokens).",
+     "html": "<strong>Longer contexts. </strong>The system currently proves inference over contexts of up to 1,024 tokens. This is quite short in comparison to the contexts accumulated in chat settings. Ideally, this context length could be increased to full context windows for frontier models (which regularly have context windows of 100s of thousands to millions of tokens)."
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "text": "section 6",
+   "href": "https://www.anthropic.com/research/provable-inference#prior-work"
+  },
+  {
+   "text": "technical report",
+   "href": "https://www.anthropic.com/document/flashprove-technical-report"
+  },
+  {
+   "text": "protocol specification",
+   "href": "https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf"
+  },
+  {
+   "text": "Executable code",
+   "href": "https://github.com/anthropics/FlashProve"
+  },
+  {
+   "text": "prover",
+   "href": "https://github.com/anthropics/FlashProve/tree/main/prover"
+  },
+  {
+   "text": "fast verifier",
+   "href": "https://github.com/anthropics/FlashProve/tree/main/verifier"
+  },
+  {
+   "text": "provably correct verifier",
+   "href": "https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify"
+  },
+  {
+   "text": "Lean proofs",
+   "href": "https://github.com/anthropics/FlashProve/tree/main/lean"
+  },
+  {
+   "text": "interactive visualizer",
+   "href": "https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html"
+  },
+  {
+   "text": "trust challenges",
+   "href": "https://arxiv.org/abs/2004.07213"
+  },
+  {
+   "text": "regulate",
+   "href": "https://thefuturesociety.org/international-ai-verification"
+  },
+  {
+   "text": "pace",
+   "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+  },
+  {
+   "text": "monitoring hardware and how it is used",
+   "href": "https://arxiv.org/abs/2402.08797"
+  },
+  {
+   "text": "devote its hardware to inference",
+   "href": "https://arxiv.org/abs/2506.15867"
+  },
+  {
+   "text": "prime targets",
+   "href": "https://www.rand.org/pubs/research_reports/RRA2849-1.html"
+  },
+  {
+   "text": "compromise an inference server",
+   "href": "https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server"
+  },
+  {
+   "text": "hiding among genuine responses",
+   "href": "https://arxiv.org/abs/2511.02620"
+  },
+  {
+   "text": "Frontier Safety Roadmap",
+   "href": "https://www.anthropic.com/responsible-scaling-policy/roadmap"
+  },
+  {
+   "text": "public goal",
+   "href": "https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects"
+  },
+  {
+   "text": "cheaper one",
+   "href": "https://arxiv.org/abs/2504.04715"
+  },
+  {
+   "text": "degraded version",
+   "href": "https://kimi.com/blog/kimi-vendor-verifier"
+  },
+  {
+   "text": "their chosen model",
+   "href": "https://arxiv.org/abs/2410.20247"
+  },
+  {
+   "text": "existing mechanisms",
+   "href": "https://arxiv.org/abs/2511.20621"
+  },
+  {
+   "text": "serve only models approved as safe",
+   "href": "https://arxiv.org/abs/2307.03718"
+  },
+  {
+   "text": "only approved models are served",
+   "href": "https://arxiv.org/abs/2507.15916"
+  },
+  {
+   "text": "Llama 4 Maverick",
+   "href": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+  },
+  {
+   "text": "vLLM",
+   "href": "https://vllm.ai/"
+  },
+  {
+   "text": "L2 networks",
+   "href": "https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D"
+  },
+  {
+   "text": "Starknet",
+   "href": "https://www.starknet.io/"
+  },
+  {
+   "text": "Mantle",
+   "href": "https://www.mantle.xyz/"
+  },
+  {
+   "text": "SafetyNets",
+   "href": "https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf"
+  },
+  {
+   "text": "zkCNN",
+   "href": "https://eprint.iacr.org/2021/673"
+  },
+  {
+   "text": "Kang et al",
+   "href": "https://arxiv.org/abs/2210.08674"
+  },
+  {
+   "text": "ZKML’s GPT-2",
+   "href": "https://ddkang.github.io/papers/2024/zkml-eurosys.pdf"
+  },
+  {
+   "text": "Modulus Labs’",
+   "href": "https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e"
+  },
+  {
+   "text": "zkLLM",
+   "href": "https://arxiv.org/abs/2404.16109"
+  },
+  {
+   "text": "zkGPT",
+   "href": "https://eprint.iacr.org/2025/1184.pdf"
+  },
+  {
+   "text": "zkPyTorch",
+   "href": "https://eprint.iacr.org/2025/535"
+  },
+  {
+   "text": "ZKTorch",
+   "href": "https://arxiv.org/abs/2507.07031"
+  },
+  {
+   "text": "VerInf",
+   "href": "https://github.com/JamesPetrie/VerInf"
+  },
+  {
+   "text": "DeepProve",
+   "href": "https://eprint.iacr.org/2026/1112"
+  },
+  {
+   "text": "SASH's prover",
+   "href": "https://www.aisafety.sg/research/what-proving-llm-inference-actually-costs-research-note"
+  },
+  {
+   "text": "Attestable",
+   "href": "https://attestable.com/blog/proving-llms-scale"
+  }
+ ],
+ "word_count": 4496,
+ "fetched_at": "2026-11-03T20:59:41+00:00"
+}

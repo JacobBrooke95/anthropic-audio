@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 20:24:59 +0000</lastBuildDate>
-    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:34:48 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,124 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Progress on provable inference for large language models</title>
+      <itunes:title>Research: Progress on provable inference for large language models</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-02-provable-inference/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/provable-inference</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.
+
+Source: https://www.anthropic.com/research/provable-inference
+Published November 2, 2026 · Anthropic Research · by Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL)
+
+Links referenced in the post:
+• section 6: https://www.anthropic.com/research/provable-inference#prior-work
+• technical report: https://www.anthropic.com/document/flashprove-technical-report
+• protocol specification: https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf
+• Executable code: https://github.com/anthropics/FlashProve
+• prover: https://github.com/anthropics/FlashProve/tree/main/prover
+• fast verifier: https://github.com/anthropics/FlashProve/tree/main/verifier
+• provably correct verifier: https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify
+• Lean proofs: https://github.com/anthropics/FlashProve/tree/main/lean
+• interactive visualizer: https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html
+• trust challenges: https://arxiv.org/abs/2004.07213
+• regulate: https://thefuturesociety.org/international-ai-verification
+• pace: https://darioamodei.com/post/we-must-pace-the-frontier
+• monitoring hardware and how it is used: https://arxiv.org/abs/2402.08797
+• devote its hardware to inference: https://arxiv.org/abs/2506.15867
+• prime targets: https://www.rand.org/pubs/research_reports/RRA2849-1.html
+• compromise an inference server: https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server
+• hiding among genuine responses: https://arxiv.org/abs/2511.02620
+• Frontier Safety Roadmap: https://www.anthropic.com/responsible-scaling-policy/roadmap
+• public goal: https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects
+• cheaper one: https://arxiv.org/abs/2504.04715
+• degraded version: https://kimi.com/blog/kimi-vendor-verifier
+• their chosen model: https://arxiv.org/abs/2410.20247
+• existing mechanisms: https://arxiv.org/abs/2511.20621
+• serve only models approved as safe: https://arxiv.org/abs/2307.03718
+• only approved models are served: https://arxiv.org/abs/2507.15916
+• Llama 4 Maverick: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+• vLLM: https://vllm.ai/
+• L2 networks: https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D
+• Starknet: https://www.starknet.io/
+• Mantle: https://www.mantle.xyz/
+• SafetyNets: https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf
+• zkCNN: https://eprint.iacr.org/2021/673
+• Kang et al: https://arxiv.org/abs/2210.08674
+• ZKML’s GPT-2: https://ddkang.github.io/papers/2024/zkml-eurosys.pdf
+• Modulus Labs’: https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e
+• zkLLM: https://arxiv.org/abs/2404.16109
+• zkGPT: https://eprint.iacr.org/2025/1184.pdf
+• zkPyTorch: https://eprint.iacr.org/2025/535
+• ZKTorch: https://arxiv.org/abs/2507.07031
+• VerInf: https://github.com/JamesPetrie/VerInf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-02-provable-inference/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/provable-inference">https://www.anthropic.com/research/provable-inference</a><br/><strong>Published:</strong> November 2, 2026 · Anthropic Research<br/><strong>Authors:</strong> Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL)<br/><strong>Length:</strong> 4,496 words · 32 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/provable-inference#prior-work">section 6</a></li><li><a href="https://www.anthropic.com/document/flashprove-technical-report">technical report</a></li><li><a href="https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf">protocol specification</a></li><li><a href="https://github.com/anthropics/FlashProve">Executable code</a></li><li><a href="https://github.com/anthropics/FlashProve/tree/main/prover">prover</a></li><li><a href="https://github.com/anthropics/FlashProve/tree/main/verifier">fast verifier</a></li><li><a href="https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify">provably correct verifier</a></li><li><a href="https://github.com/anthropics/FlashProve/tree/main/lean">Lean proofs</a></li><li><a href="https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html">interactive visualizer</a></li><li><a href="https://arxiv.org/abs/2004.07213">trust challenges</a></li><li><a href="https://thefuturesociety.org/international-ai-verification">regulate</a></li><li><a href="https://darioamodei.com/post/we-must-pace-the-frontier">pace</a></li><li><a href="https://arxiv.org/abs/2402.08797">monitoring hardware and how it is used</a></li><li><a href="https://arxiv.org/abs/2506.15867">devote its hardware to inference</a></li><li><a href="https://www.rand.org/pubs/research_reports/RRA2849-1.html">prime targets</a></li><li><a href="https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server">compromise an inference server</a></li><li><a href="https://arxiv.org/abs/2511.02620">hiding among genuine responses</a></li><li><a href="https://www.anthropic.com/responsible-scaling-policy/roadmap">Frontier Safety Roadmap</a></li><li><a href="https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects">public goal</a></li><li><a href="https://arxiv.org/abs/2504.04715">cheaper one</a></li><li><a href="https://kimi.com/blog/kimi-vendor-verifier">degraded version</a></li><li><a href="https://arxiv.org/abs/2410.20247">their chosen model</a></li><li><a href="https://arxiv.org/abs/2511.20621">existing mechanisms</a></li><li><a href="https://arxiv.org/abs/2307.03718">serve only models approved as safe</a></li><li><a href="https://arxiv.org/abs/2507.15916">only approved models are served</a></li><li><a href="https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct">Llama 4 Maverick</a></li><li><a href="https://vllm.ai/">vLLM</a></li><li><a href="https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D">L2 networks</a></li><li><a href="https://www.starknet.io/">Starknet</a></li><li><a href="https://www.mantle.xyz/">Mantle</a></li><li><a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf">SafetyNets</a></li><li><a href="https://eprint.iacr.org/2021/673">zkCNN</a></li><li><a href="https://arxiv.org/abs/2210.08674">Kang et al</a></li><li><a href="https://ddkang.github.io/papers/2024/zkml-eurosys.pdf">ZKML’s GPT-2</a></li><li><a href="https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e">Modulus Labs’</a></li><li><a href="https://arxiv.org/abs/2404.16109">zkLLM</a></li><li><a href="https://eprint.iacr.org/2025/1184.pdf">zkGPT</a></li><li><a href="https://eprint.iacr.org/2025/535">zkPyTorch</a></li><li><a href="https://arxiv.org/abs/2507.07031">ZKTorch</a></li><li><a href="https://github.com/JamesPetrie/VerInf">VerInf</a></li><li><a href="https://eprint.iacr.org/2026/1112">DeepProve</a></li><li><a href="https://www.aisafety.sg/research/what-proving-llm-inference-actually-costs-research-note">SASH&#x27;s prover</a></li><li><a href="https://attestable.com/blog/proving-llms-scale">Attestable</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-02-provable-inference/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-02-provable-inference.mp3" length="16543575" type="audio/mpeg"/>
+      <itunes:duration>1974</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-02-provable-inference.jpg?v=3f6be9db"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-02-provable-inference.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-02-provable-inference.json" type="application/json+chapters"/>
+      <itunes:author>Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL)</itunes:author>
+      <itunes:subtitle>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.</itunes:subtitle>
+      <itunes:summary>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.
+
+Source: https://www.anthropic.com/research/provable-inference
+Published November 2, 2026 · Anthropic Research · by Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL)
+
+Links referenced in the post:
+• section 6: https://www.anthropic.com/research/provable-inference#prior-work
+• technical report: https://www.anthropic.com/document/flashprove-technical-report
+• protocol specification: https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf
+• Executable code: https://github.com/anthropics/FlashProve
+• prover: https://github.com/anthropics/FlashProve/tree/main/prover
+• fast verifier: https://github.com/anthropics/FlashProve/tree/main/verifier
+• provably correct verifier: https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify
+• Lean proofs: https://github.com/anthropics/FlashProve/tree/main/lean
+• interactive visualizer: https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html
+• trust challenges: https://arxiv.org/abs/2004.07213
+• regulate: https://thefuturesociety.org/international-ai-verification
+• pace: https://darioamodei.com/post/we-must-pace-the-frontier
+• monitoring hardware and how it is used: https://arxiv.org/abs/2402.08797
+• devote its hardware to inference: https://arxiv.org/abs/2506.15867
+• prime targets: https://www.rand.org/pubs/research_reports/RRA2849-1.html
+• compromise an inference server: https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server
+• hiding among genuine responses: https://arxiv.org/abs/2511.02620
+• Frontier Safety Roadmap: https://www.anthropic.com/responsible-scaling-policy/roadmap
+• public goal: https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects
+• cheaper one: https://arxiv.org/abs/2504.04715
+• degraded version: https://kimi.com/blog/kimi-vendor-verifier
+• their chosen model: https://arxiv.org/abs/2410.20247
+• existing mechanisms: https://arxiv.org/abs/2511.20621
+• serve only models approved as safe: https://arxiv.org/abs/2307.03718
+• only approved models are served: https://arxiv.org/abs/2507.15916
+• Llama 4 Maverick: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+• vLLM: https://vllm.ai/
+• L2 networks: https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D
+• Starknet: https://www.starknet.io/
+• Mantle: https://www.mantle.xyz/
+• SafetyNets: https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf
+• zkCNN: https://eprint.iacr.org/2021/673
+• Kang et al: https://arxiv.org/abs/2210.08674
+• ZKML’s GPT-2: https://ddkang.github.io/papers/2024/zkml-eurosys.pdf
+• Modulus Labs’: https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e
+• zkLLM: https://arxiv.org/abs/2404.16109
+• zkGPT: https://eprint.iacr.org/2025/1184.pdf
+• zkPyTorch: https://eprint.iacr.org/2025/535
+• ZKTorch: https://arxiv.org/abs/2507.07031
+• VerInf: https://github.com/JamesPetrie/VerInf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-02-provable-inference/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>106</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-02-provable-inference.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-02-provable-inference.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: AI for Science expands to foundations and research institutions</title>
       <itunes:title>News: AI for Science expands to foundations and research institutions</itunes:title>

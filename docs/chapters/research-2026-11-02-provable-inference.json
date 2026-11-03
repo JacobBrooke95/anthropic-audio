@@ -1,0 +1,73 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 45.43,
+   "title": "Executive summary"
+  },
+  {
+   "startTime": 258.54,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 460.78,
+   "title": "Trust challenges in A I proliferation"
+  },
+  {
+   "startTime": 527.34,
+   "title": "Challenge 1: pacing"
+  },
+  {
+   "startTime": 601.88,
+   "title": "Challenge 2: tamper detection"
+  },
+  {
+   "startTime": 725.24,
+   "title": "Challenge 3: text provenance"
+  },
+  {
+   "startTime": 823.9,
+   "title": "Challenge 4: model approval"
+  },
+  {
+   "startTime": 921.58,
+   "title": "Our system: FlashProve"
+  },
+  {
+   "startTime": 990.16,
+   "title": "Guarantees"
+  },
+  {
+   "startTime": 1082.23,
+   "title": "Evaluation"
+  },
+  {
+   "startTime": 1253.17,
+   "title": "Engineering the system"
+  },
+  {
+   "startTime": 1317.28,
+   "title": "Post-hoc versus in-line"
+  },
+  {
+   "startTime": 1363.73,
+   "title": "Trustworthiness from formal verification"
+  },
+  {
+   "startTime": 1544.39,
+   "title": "Prior work"
+  },
+  {
+   "startTime": 1787.95,
+   "title": "Limitations"
+  },
+  {
+   "startTime": 1951.57,
+   "title": "Outro"
+  }
+ ]
+}

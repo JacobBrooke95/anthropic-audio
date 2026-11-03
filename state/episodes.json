@@ -5459,6 +5459,14 @@
       "updated": "2026-10-28T20:24:58+00:00",
       "slug": "news-2026-10-28-ai-for-science-expands-foundations-research-institutions",
       "episode": 105
+    },
+    "https://www.anthropic.com/research/provable-inference": {
+      "first_seen": "2026-11-03T21:34:48+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-03T21:34:48+00:00",
+      "slug": "research-2026-11-02-provable-inference",
+      "episode": 106
     }
   },
   "episodes": [
@@ -11359,8 +11367,210 @@
       "episode": 105,
       "created": "2026-10-28T20:24:58+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-11-02-provable-inference",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": "research",
+      "title": "Progress on provable inference for large language models",
+      "subtitle": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
+      "date": "2026-11-02T00:00:00+00:00",
+      "authors": [
+        "Roy Rinberg (Anthropic)",
+        "Alex Allain (Anthropic); Alessandro Chiesa (EPFL",
+        "StarkWare)",
+        "Miranda Christ (MIT",
+        "RESI)",
+        "Rahul Dalal (Anthropic STEM Fellows Program",
+        "Succinct)",
+        "Giacomo Fenzi (EPFL)",
+        "Ben Mayer (Anthropic Fellows Program",
+        "MIT)",
+        "Guy Weissenberg (EPFL)"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "section 6",
+          "href": "https://www.anthropic.com/research/provable-inference#prior-work"
+        },
+        {
+          "text": "technical report",
+          "href": "https://www.anthropic.com/document/flashprove-technical-report"
+        },
+        {
+          "text": "protocol specification",
+          "href": "https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf"
+        },
+        {
+          "text": "Executable code",
+          "href": "https://github.com/anthropics/FlashProve"
+        },
+        {
+          "text": "prover",
+          "href": "https://github.com/anthropics/FlashProve/tree/main/prover"
+        },
+        {
+          "text": "fast verifier",
+          "href": "https://github.com/anthropics/FlashProve/tree/main/verifier"
+        },
+        {
+          "text": "provably correct verifier",
+          "href": "https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify"
+        },
+        {
+          "text": "Lean proofs",
+          "href": "https://github.com/anthropics/FlashProve/tree/main/lean"
+        },
+        {
+          "text": "interactive visualizer",
+          "href": "https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html"
+        },
+        {
+          "text": "trust challenges",
+          "href": "https://arxiv.org/abs/2004.07213"
+        },
+        {
+          "text": "regulate",
+          "href": "https://thefuturesociety.org/international-ai-verification"
+        },
+        {
+          "text": "pace",
+          "href": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "text": "monitoring hardware and how it is used",
+          "href": "https://arxiv.org/abs/2402.08797"
+        },
+        {
+          "text": "devote its hardware to inference",
+          "href": "https://arxiv.org/abs/2506.15867"
+        },
+        {
+          "text": "prime targets",
+          "href": "https://www.rand.org/pubs/research_reports/RRA2849-1.html"
+        },
+        {
+          "text": "compromise an inference server",
+          "href": "https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server"
+        },
+        {
+          "text": "hiding among genuine responses",
+          "href": "https://arxiv.org/abs/2511.02620"
+        },
+        {
+          "text": "Frontier Safety Roadmap",
+          "href": "https://www.anthropic.com/responsible-scaling-policy/roadmap"
+        },
+        {
+          "text": "public goal",
+          "href": "https://www.anthropic.com/responsible-scaling-policy/roadmap#moonshot-r-d-projects"
+        },
+        {
+          "text": "cheaper one",
+          "href": "https://arxiv.org/abs/2504.04715"
+        },
+        {
+          "text": "degraded version",
+          "href": "https://kimi.com/blog/kimi-vendor-verifier"
+        },
+        {
+          "text": "their chosen model",
+          "href": "https://arxiv.org/abs/2410.20247"
+        },
+        {
+          "text": "existing mechanisms",
+          "href": "https://arxiv.org/abs/2511.20621"
+        },
+        {
+          "text": "serve only models approved as safe",
+          "href": "https://arxiv.org/abs/2307.03718"
+        },
+        {
+          "text": "only approved models are served",
+          "href": "https://arxiv.org/abs/2507.15916"
+        },
+        {
+          "text": "Llama 4 Maverick",
+          "href": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+        },
+        {
+          "text": "vLLM",
+          "href": "https://vllm.ai/"
+        },
+        {
+          "text": "L2 networks",
+          "href": "https://l2beat.com/layer2s/summary?filters=%7B%22ProofSystem%22%3A%7B%22values%22%3A%5B%22Validity%22%5D%7D%7D"
+        },
+        {
+          "text": "Starknet",
+          "href": "https://www.starknet.io/"
+        },
+        {
+          "text": "Mantle",
+          "href": "https://www.mantle.xyz/"
+        },
+        {
+          "text": "SafetyNets",
+          "href": "https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf"
+        },
+        {
+          "text": "zkCNN",
+          "href": "https://eprint.iacr.org/2021/673"
+        },
+        {
+          "text": "Kang et al",
+          "href": "https://arxiv.org/abs/2210.08674"
+        },
+        {
+          "text": "ZKML’s GPT-2",
+          "href": "https://ddkang.github.io/papers/2024/zkml-eurosys.pdf"
+        },
+        {
+          "text": "Modulus Labs’",
+          "href": "https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e"
+        },
+        {
+          "text": "zkLLM",
+          "href": "https://arxiv.org/abs/2404.16109"
+        },
+        {
+          "text": "zkGPT",
+          "href": "https://eprint.iacr.org/2025/1184.pdf"
+        },
+        {
+          "text": "zkPyTorch",
+          "href": "https://eprint.iacr.org/2025/535"
+        },
+        {
+          "text": "ZKTorch",
+          "href": "https://arxiv.org/abs/2507.07031"
+        },
+        {
+          "text": "VerInf",
+          "href": "https://github.com/JamesPetrie/VerInf"
+        },
+        {
+          "text": "DeepProve",
+          "href": "https://eprint.iacr.org/2026/1112"
+        },
+        {
+          "text": "SASH's prover",
+          "href": "https://www.aisafety.sg/research/what-proving-llm-inference-actually-costs-research-note"
+        },
+        {
+          "text": "Attestable",
+          "href": "https://attestable.com/blog/proving-llms-scale"
+        }
+      ],
+      "word_count": 4496,
+      "duration": 1973.532177,
+      "bytes": 16543575,
+      "episode": 106,
+      "created": "2026-11-03T21:34:48+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg"
     }
   ],
-  "next_episode": 106,
+  "next_episode": 107,
   "baseline_date": "2026-08-14"
 }

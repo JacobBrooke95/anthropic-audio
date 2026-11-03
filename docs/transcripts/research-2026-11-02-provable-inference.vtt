@@ -1,0 +1,561 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:08.462
+This is Anthropic, Read Aloud. Today: Progress on provable inference for large language models.
+
+2
+00:00:09.762 --> 00:00:13.210
+Progress on provable inference for large language models.
+
+3
+00:00:13.660 --> 00:00:21.713
+Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.
+
+4
+00:00:22.163 --> 00:00:44.425
+From Anthropic Research, published November 2, 2026. By Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), and Guy Weissenberg (EPFL).
+
+5
+00:00:45.425 --> 00:00:46.638
+Executive summary.
+
+6
+00:00:47.088 --> 00:00:57.097
+When you talk to a friend in person, you have many ways to know it is really them: you can see them, hear them, shake their hand. When you talk to an A I model, you have almost none.
+
+7
+00:00:57.217 --> 00:01:20.492
+A user querying a model today cannot check that the responses came from the specific model that a developer claims is responding, as opposed to one secretly substituted in by a routing service for cost reasons, or even by an attacker who has tampered with the token stream. Judging from the model’s output alone is unreliable, even if it produces high-quality responses.
+
+8
+00:01:20.612 --> 00:01:41.109
+Cryptographic proofs of inference solve this problem: they let a model provider commit to a model and then prove that each response was produced by that model. Such proofs could enable applications ranging from consumer products to internal security, and could contribute to a toolkit for verifying compliance with A I pacing requirements.
+
+9
+00:01:41.559 --> 00:02:02.052
+Specifically, we have made progress on a powerful type of cryptographic proof known as a “zkSNARK”, which is uniquely fit for provable inference (owing to its strong hiding and efficiency properties). In this post, we share some of that progress, primarily through a system we call FlashProve. A brief technical summary is as follows:
+
+10
+00:02:02.502 --> 00:02:11.782
+1. Claude has produced improvements on zkSNARKs for inference, building a system that is substantially faster than prior open-source systems.
+
+11
+00:02:11.902 --> 00:02:34.187
+For a large model (Llama 4 Maverick, 400 billion-parameter mixture of experts), a single H100 G P U generates proofs at around 110 tokens per second, with a proof size of about 19 megabytes per 1024-token request, when in 4-bit quantized weights, using integer arithmetic in prefill.
+
+12
+00:02:34.307 --> 00:02:59.480
+This is about 70 to 95 x the G P U time of running the model itself on vLLM, a common open-source library. Prior open-source systems are orders of magnitude slower, as we discuss in section 6. Claude found novel ways to apply state-of-the-art tools in the cryptography and security literature, while relying on well-established design principles for cryptographic proof systems.
+
+13
+00:02:59.600 --> 00:03:08.388
+The commitment to the model, and subsequent inference proofs, hide the weights of the model; hiding the architecture of the model is not a goal of this system.
+
+14
+00:03:08.628 --> 00:03:26.057
+2. Claude is good at optimization, but often makes decisions that are hard to evaluate, especially in large complex systems. We counter this by providing top-level auditable statements in Lean (a formal verification language) for the claimed security guarantees.
+
+15
+00:03:26.507 --> 00:03:28.768
+Today we are releasing five artifacts:
+
+16
+00:03:29.218 --> 00:03:33.807
+The current blog post, which outlines our system and its potential applications.
+
+17
+00:03:34.047 --> 00:03:37.311
+A technical report explaining the details of our system.
+
+18
+00:03:37.551 --> 00:03:40.630
+A (Claude-written) protocol specification document.
+
+19
+00:03:40.870 --> 00:03:50.533
+Executable code that includes: a prover and two verifiers, a fast verifier in C++, and a provably correct verifier in Lean; and.
+
+20
+00:03:50.773 --> 00:03:58.938
+Lean proofs for the top level mathematical statements, along with an interactive visualizer of the Lean theorems to aid with auditing.
+
+21
+00:03:59.388 --> 00:04:17.736
+We release our code, Lean proofs, and documentation under the Apache 2.0 license. 1 This research post is meant to share intermediate progress, and not a completed research agenda. We are sharing this explicitly with the goal that others look at what we have done, take it, and improve it.
+
+22
+00:04:18.536 --> 00:04:19.380
+Introduction.
+
+23
+00:04:19.830 --> 00:04:41.886
+When a user sends a request to an A I model, today they have no way of knowing for certain that the model they selected is the one that generated the response. For everyday uses, in which users mostly care about the output and not necessarily which specific model produced it, this is a less pressing concern. But there are several cases where such assurance would be useful.
+
+24
+00:04:42.006 --> 00:04:59.227
+For example, independent evaluators who test A I models before and after release need to know that the model they are evaluating is the model being served. Clients who use a model through a third-party routing service want assurance that the tokens came from the model they paid for.
+
+25
+00:04:59.347 --> 00:05:07.787
+And if a cyberattacker modifies the token stream while pretending to be a given model, a user has no way to detect it from the output alone.
+
+26
+00:05:08.237 --> 00:05:31.089
+However, enabling verification of model responses is challenging. Most frontier models’ weights are kept private, and even if the user had access to the weights, checking that a given response was produced by a model with those weights would involve running the model, which requires computational resources far beyond what a typical user (or even evaluator) can afford.
+
+27
+00:05:31.539 --> 00:05:43.552
+The goal of provable inference (PI) is to enable a user with limited computational resources and without any information about the weights to verify that a response came from the requested model.
+
+28
+00:05:43.672 --> 00:06:05.639
+PI is motivated both by a desire to increase customer trust in A I providers, and, because it can be used to provide assurances to independent evaluators and allows providers to demonstrate that they are meeting certain commitments and legal obligations, it also has implications for pacing the frontier of A I development and for A I regulation.
+
+29
+00:06:06.089 --> 00:06:28.280
+One way to implement PI is via a cryptographic object called a zero-knowledge succinct argument: the model provider sends, along with the claimed response, a short proof (say, a few megabytes) that the user can quickly verify (ideally, in seconds on a C P U). If the claimed response deviates from the specified model, the user’s check will fail.
+
+30
+00:06:28.400 --> 00:06:33.690
+Importantly, cryptographic techniques ensure that the proof reveals nothing about the model’s weights.
+
+31
+00:06:34.140 --> 00:06:39.535
+Today, we release FlashProve: an open-source performant prototype for provable inference.
+
+32
+00:06:39.655 --> 00:07:05.858
+For a 400 billion-parameter mixture-of-experts model (Llama 4 Maverick, 4-bit quantization), we show that a single H100 G P U generates proofs at over 100 tokens per second, with proof size of about 19 megabytes per 1024-token request (about 70 to 95 times the G P U time that vLLM, a common open-source library, takes to process prompts of the same length).
+
+33
+00:07:06.308 --> 00:07:26.126
+The release comes with executable code, Lean formalization, and a technical description of the protocol. Our aim is twofold: (i) accelerating and facilitating the development of provable inference; and (ii) demonstrating that zero-knowledge succinct arguments are practical for provable inference.
+
+34
+00:07:26.576 --> 00:07:39.983
+We believe that this progress has meaningful implications for security, in pacing A I development, in providing A I customers with integrity guarantees, in facilitating tooling for auditors and regulators, and more.
+
+35
+00:07:40.783 --> 00:07:43.124
+Trust challenges in A I proliferation.
+
+36
+00:07:43.574 --> 00:08:00.597
+The development of artificial intelligence and its growing role in our digital infrastructure and economy raises trust challenges that A I providers must answer. Addressing these and other challenges is facilitated by relying on tools for provable inference (PI).
+
+37
+00:08:01.047 --> 00:08:16.791
+Tools for PI include hardware approaches, software approaches, or a combination of both. Here, we focus on a software-only approach: a cryptographic tool known as a “zkSNARK” ( zero-knowledge succinct argument of knowledge ).
+
+38
+00:08:16.911 --> 00:08:27.861
+Informally, a zkSNARK is a system allowing a prover to convince a verifier, by way of a short “certificate”, that a given computation was executed correctly; crucially,
+
+39
+00:08:27.981 --> 00:08:41.447
+the certificate is zero-knowledge in that it reveals no information beyond what is implied by the computation’s correctness and is succinct in that it’s exponentially faster to verify compared to the proved computation.
+
+40
+00:08:41.897 --> 00:08:46.544
+Below we outline several challenges and how zkSNARKs help in addressing them.
+
+41
+00:08:47.344 --> 00:08:48.883
+Challenge 1: pacing.
+
+42
+00:08:49.333 --> 00:09:11.516
+Some proposals to regulate and pace A I development rely on monitoring hardware and how it is used. For example, a provider might be required to devote its hardware to inference rather than to training a powerful new model. The provider might try to cheat by serving cheaper models or using compute in an unexpected way, freeing up resources for training.
+
+43
+00:09:11.636 --> 00:09:15.918
+How can a regulator reliably ensure that the hardware is used for inference?
+
+44
+00:09:16.368 --> 00:09:35.989
+How zkSNARKs can help: The regulator can ask the provider for certificates covering the inference requests served in a given period. The certificates must show that the requests were generated by the claimed model. A malicious provider cannot satisfy this request unless its hardware was genuinely serving the right model.
+
+45
+00:09:36.109 --> 00:09:51.836
+Using a zkSNARK, the regulator can check that the provider claims are valid without needing the elaborate hardware setup that the provider may have, and at the same time the provider has the guarantee that the regulator does not learn proprietary model information.
+
+46
+00:09:51.956 --> 00:10:01.081
+2 We note that although this verifies that the hardware is serving inference, it does not establish that the hardware is not, for example, training on the side.
+
+47
+00:10:01.880 --> 00:10:03.815
+Challenge 2: tamper detection.
+
+48
+00:10:04.265 --> 00:10:25.473
+As A I models grow more valuable, the servers that run them become prime targets. An attacker or rogue agent may compromise an inference server to exfiltrate the weights, serve users malicious responses (such as delivering malware to the user’s computer), and more, all while hiding among genuine responses. The adversary need not be external.
+
+49
+00:10:25.593 --> 00:10:47.076
+As models become capable of improving and deploying themselves, a more advanced model could run in place of the one that was authorized and present itself as the weaker model, so as to avoid the classifiers and monitoring that would apply to it. In both cases the question is the same: how can a company be sure of which weights are actually running on its servers?
+
+50
+00:10:47.196 --> 00:11:10.164
+In our Frontier Safety Roadmap, Anthropic set a public goal to produce a prototype for verifying inference traffic: “ We will develop a prototype by September 30, 2026 of provable inference, a technique for reliably, provably ‘signing’ A I model outputs in a way that makes them attributable to a specific set of model weights. ” As stated in our RSP updates,
+
+51
+00:11:10.284 --> 00:11:22.874
+we met that goal through a separate but related project, which signs our inference traffic and recomputes inference on a trusted server; the work in this blog post pursues the same objective by a different method.
+
+52
+00:11:22.994 --> 00:11:23.588
+3
+
+53
+00:11:24.038 --> 00:11:40.079
+How zkSNARKs can help: The provider can require a valid zkSNARK from the server on every response. A proof is bound to a specific commitment to the weights, so it certifies not just that some model produced the response but that the committed model did.
+
+54
+00:11:40.199 --> 00:11:51.304
+An attacker who compromises a server, or a model that substitutes itself for another, must then produce valid proofs for the expected weights to avoid detection, which they cannot do.
+
+55
+00:11:51.424 --> 00:12:04.437
+The user may receive the proofs as well, since they leak no internal information (by zero knowledge) and are cheap to check (by succinctness); this limits what an attacker can accomplish through the inference A P I.
+
+56
+00:12:05.237 --> 00:12:07.059
+Challenge 3: text provenance.
+
+57
+00:12:07.509 --> 00:12:29.056
+One may want to prove that considerable effort went into understanding/analyzing something. For example, a developer might claim that their software library was scanned for vulnerabilities by a frontier cybersecurity model, or a company might claim that its business plan was given the go-ahead by an appropriate model. How can a user verify these claims?
+
+58
+00:12:29.176 --> 00:12:47.425
+The user might not have the resources to run the model itself (or they might not have the clearance to do so). Even publishing the chat logs gives no absolute guarantees; a developer might in theory fake them, generating them not with a frontier model but instead with a cheaper one or a degraded version.
+
+59
+00:12:47.545 --> 00:12:52.036
+In general, how can users verify that they are being served by their chosen model?
+
+60
+00:12:52.486 --> 00:13:13.901
+How zkSNARKs can help: The provider can append, along with each response, a zkSNARK proving that the output was produced by the claimed model on the given input. Succinctness lets the user check this certificate quickly, without specialized hardware, and zero-knowledge assures the provider that the user learns nothing about the proprietary weights.
+
+61
+00:13:14.021 --> 00:13:19.176
+This complements existing mechanisms for verifying which model produced a response.
+
+62
+00:13:19.626 --> 00:13:40.383
+For example, in a world where exploits are being found regularly, prior to releasing new code a model provider could provide the code-developer a Proof-of-Failure that the model-provider spent at least X tokens on a specific model, and did not achieve a specific result (for example, this specific model did not find any bugs in a specific patch,
+
+63
+00:13:40.503 --> 00:13:43.098
+after trying for at least 1 million tokens).
+
+64
+00:13:43.898 --> 00:13:45.798
+Challenge 4: model approval.
+
+65
+00:13:46.248 --> 00:14:06.643
+Regulation might require providers to serve only models approved as safe, rather than models deemed a cybersecurity or safety risk. A provider might have an incentive to circumvent this, since risky models might outperform competitors or be cheaper to serve. How can a regulator ensure that only approved models are served?
+
+66
+00:14:07.093 --> 00:14:30.794
+How zkSNARKs can help: The regulator can require the provider to attach a zkSNARK to its responses, enforcing the use of approved models. The proof binds each request to the used model, so it will not verify if the provider is using an unapproved model. The regulator can check this in a lightweight way thanks to succinctness without requiring to re-execute each request.
+
+67
+00:14:31.244 --> 00:14:48.410
+A note on PI from trusted hardware. Prior work often focuses on trusted execution environments to achieve PI. These are hardware-based solutions that provide privacy and attestation that rely on the manufacturer producing tamper-resistant hardware.
+
+68
+00:14:48.530 --> 00:15:10.382
+In this research, our focus is on software-only cryptographic solutions whose security and privacy relies on the hardness of computational problems. Even in the face of compromised environments (hardware, operating system and more) an adversary cannot produce a invalid proof without breaking a computationally infeasible problem.
+
+69
+00:15:10.502 --> 00:15:20.783
+Trusted hardware and cryptography are complementary approaches with different guarantees and tradeoffs. Both will play a role in addressing the above trust challenges.
+
+70
+00:15:21.583 --> 00:15:23.238
+Our system: FlashProve.
+
+71
+00:15:23.688 --> 00:15:35.521
+FlashProve is a system for provable inference of large Mixture-of-Experts (mixture of experts) language models. More details are in our technical report; here we outline the system.
+
+72
+00:15:35.971 --> 00:15:43.556
+FlashProve involves two parties: the model provider (the prover ) and a user (the verifier ). It is split into two phases:
+
+73
+00:15:44.006 --> 00:16:01.393
+In the offline phase, the prover publishes a commitment to the model weights, which is a short fingerprint to pin down one exact choice of weights while the weights themselves remain hidden. The later inference claims will be checked against that commitment, that is, the weight model committed to in this phase.
+
+74
+00:16:01.633 --> 00:16:12.095
+In the online phase, upon requests from the verifier (that is, prompts and the corresponding output tokens), the prover produces a proof file proving the following statement:.
+
+75
+00:16:12.545 --> 00:16:16.505
+The committed model produces these output tokens when evaluated.
+
+76
+00:16:16.955 --> 00:16:29.363
+Anyone who holds the commitment, the prompt, and the reply can check it, without the weights and with limited compute power, and be convinced that the committed weights, run on this prompt, produce exactly these tokens.
+
+77
+00:16:30.163 --> 00:16:31.062
+Guarantees.
+
+78
+00:16:31.512 --> 00:16:35.990
+A proof file satisfies the following “completeness” and “soundness” properties:
+
+79
+00:16:36.440 --> 00:16:43.253
+A proof file is accepted if it is honest (completeness). An honest prover's proof is accepted by the verifier.
+
+80
+00:16:43.493 --> 00:16:58.690
+A proof file cannot be forged (soundness). It is effectively impossible (that is, tantamount to breaking widely believed cryptographic assumptions) to produce a valid proof of a false statement, so the verifier does not have to trust the prover.
+
+81
+00:16:59.140 --> 00:17:15.116
+Completeness and soundness alone can be achieved by a computationally powerful verifier that knows the model weights (evaluate the model on the prompt and check whether the result matches the response). The next two properties are what makes the system non-trivial.
+
+82
+00:17:15.566 --> 00:17:31.234
+A proof file reveals nothing beyond the statement (zero-knowledge). The verifier learns nothing about the weights, the intermediate values of the computation, or which experts ran at every layer. The model architecture (excluding the weights) is not hidden.
+
+83
+00:17:31.474 --> 00:17:53.510
+A proof file is small and cheap to check (succinctness). The attested computation is a run of a 400 billion-parameter (about 232 gigabytes for a quantized version) model on an H100 G P U, while the verifier receives a proof file of about 19 megabytes that takes seconds to check on a 24-core C P U.
+
+84
+00:17:53.630 --> 00:18:01.431
+An auditor, or a user with far less hardware than the provider, can check proof files without access to elaborate infrastructure.
+
+85
+00:18:02.231 --> 00:18:03.168
+Evaluation.
+
+86
+00:18:03.618 --> 00:18:23.490
+We measured an implementation of the protocol on Llama 4 Maverick (a 400 billion-parameter mixture of experts, with about 17 billion parameters used per token), using the publicly available 4-bit weights. Each verifier request is a window of 1024 tokens, and each proof checks one token.
+
+87
+00:18:23.610 --> 00:18:31.254
+The prover runs on a server with a single H100 and 24 C P U cores, and the verifier on a C P U.
+
+88
+00:18:31.704 --> 00:18:42.563
+Prover. The prover runs on a server with a single H100 and 24 C P U cores. The offline phase runs once per model and takes about 39 minutes.
+
+89
+00:18:42.683 --> 00:19:04.481
+(For technical reasons we discuss in the technical report, the resulting commitment is good for about 16 million requests, after which the provider has to commit again.) The online phase, on a batch of 24 requests, takes the prover about 223 seconds, which is 110 tokens per second, and each proof is 18.78 megabytes.
+
+90
+00:19:04.721 --> 00:19:27.484
+Verifier. The verifier runs on the client's C P U. It needs no G P U and only has access to a commitment to the weights. The client downloads the commitment, about 6.5 megabytes in all, and then one proof per request. Checking a proof takes 17 seconds on 24 threads (and 21 seconds on a single thread), including the offline phase's checks.
+
+91
+00:19:27.934 --> 00:19:57.842
+Comparison with plain inference: We ran vLLM, a widely used inference engine, with the FP8 release of the same model on eight H100s, and found that, per G P U, proving a batch of 24 requests takes about 72 times longer than vLLM takes to process the same 24 requests at once (66 to 77 across runs), and about 94 times longer when vLLM runs at the highest load we tried.
+
+92
+00:19:58.292 --> 00:20:12.361
+Inside the system. The underlying mechanism behind FlashProve is a zkSNARK of the kind deployed in peer-to-peer systems (for example, L2 networks such as Starknet or Mantle for blockchains like Ethereum).
+
+93
+00:20:12.481 --> 00:20:29.698
+Our zkSNARK is built according to a well-established recipe: an underlying information-theoretic object called an interactive oracle proof (IOP) is compiled into a cryptographic proof by relying on hash functions (and offers even post-quantum security).
+
+94
+00:20:29.818 --> 00:20:52.367
+Our IOP is assembled from state-of-the-art building blocks using tools such as code proximity tests with linear constraints and lookup arguments, which are based on techniques from coding theory and complexity theory. Combining these pieces into a bespoke IOP for inference is a delicate task; more details about the construction can be found in the technical report.
+
+95
+00:20:53.167 --> 00:20:54.462
+Engineering the system.
+
+96
+00:20:54.912 --> 00:21:03.505
+FlashProve benefits from architectural decisions that we took, and which are discussed in detail in the technical report. Here we highlight a few:
+
+97
+00:21:03.955 --> 00:21:23.618
+The prover's work is proportional to the experts that actually ran. In a mixture of experts model a token uses about 17 billion of the 400 billion parameters, and the prover's work per token is proportional to those about 17 billion instead of all parameters (the proof still hides which experts were chosen).
+
+98
+00:21:23.858 --> 00:21:36.243
+Requests are proved in batches, after the fact. The prover reads finished text in one parallel pass (as in prefill), and it opens the commitment to the weights once per batch instead of once per request.
+
+99
+00:21:36.483 --> 00:21:56.483
+The system is designed to fit on a single G P U. The model weights at each layer are split to segments and are proven one segment of layers at a time. The weights are kept in ordinary memory and streamed in, so a single 80 gigabytes G P U, with about 290 gigabytes of host memory beside it, suffices.
+
+100
+00:21:57.283 --> 00:21:58.835
+Post-hoc versus in-line.
+
+101
+00:21:59.285 --> 00:22:15.123
+When integrating proving mechanisms into inference servers there is a choice: in-line proving (that is, proving alongside the inference) versus post-hoc proving (that is, proving after-the-fact, for a subset of tokens). Our system follows the latter.
+
+102
+00:22:15.243 --> 00:22:37.239
+In-line solutions are expected to be ultra-fast and may sacrifice security for efficiency, whereas post-hoc solutions are allowed to be slower and may not suffer such a tradeoff. On the other hand, post-hoc proving has limitations: added complexity of recomputation, the delay in getting guarantees about your traffic, and inherent “non-determinism”.
+
+103
+00:22:37.359 --> 00:22:42.927
+We elaborate on the motivation and implications of post-hoc proving in the technical report.
+
+104
+00:22:43.727 --> 00:22:46.041
+Trustworthiness from formal verification.
+
+105
+00:22:46.491 --> 00:22:53.110
+Cryptographic code is notoriously brittle and error-prone. How can users trust the code we’re releasing today?
+
+106
+00:22:53.560 --> 00:23:11.416
+The answer is formal verification: we use the Lean proof assistant to specify the protocol and the desired security properties. We prove these properties in a form that is machine-checkable and guaranteed to be correct (up to compiler errors). We target three top-level properties:
+
+107
+00:23:11.866 --> 00:23:17.735
+1. Completeness: if the statement is correct, the resulting proof is accepted by the verifier.
+
+108
+00:23:17.975 --> 00:23:24.378
+2. Soundness: any fake proof is rejected by the verifier (except with negligible probability).
+
+109
+00:23:24.618 --> 00:23:34.254
+3. Zero knowledge: the proof reveals no information about the weights of the model, beyond what the verifier can infer from the response itself. 4.
+
+110
+00:23:34.704 --> 00:23:44.999
+These properties are stated in the so-called random oracle model, an information-theoretic way to analyze cryptographic protocols that rely on hash functions.
+
+111
+00:23:45.449 --> 00:24:03.071
+Formal verification leaves two important trust gaps. First, the formal statements must be audited to ensure that they match their intent. This has to be done manually (though it is dramatically less onerous than auditing proofs); we provide an interactive visualizer to assist with this.
+
+112
+00:24:03.521 --> 00:24:23.812
+Second, the executable code must be audited to ensure it matches the formally-defined protocol for which the security properties are proven. How to best assist with this depends on the property, because soundness depends solely on the verifier, zero-knowledge depends solely on the prover, and completeness depends on their interaction.
+
+113
+00:24:24.262 --> 00:24:46.747
+For soundness, we only need the verifier code to be correct (the entire value of having “proofs” is that you can fully distrust the prover if you trust the verifier). We provide an executable Lean verifier, alongside the C++ verifier. The Lean verifier runs more slowly, but Lean proves that it accepts only what the verifier in our soundness theorem accepts.
+
+114
+00:24:46.867 --> 00:24:57.278
+Nevertheless, the C++ verifier is the one to use day to day: it carries no formal guarantee, and it agrees with the Lean verifier on every proof in our tests.
+
+115
+00:24:57.518 --> 00:25:17.390
+For completeness, the threat model does not assume adversarial attacks (the prover and verifier are honest). Therefore, a Lean verifier lets us gain confidence through standard software testing that the honest prover produces accepting proofs: run the prover on a correct statement, and then the Lean verifier on the resulting proof.
+
+116
+00:25:17.630 --> 00:25:28.253
+For zero knowledge, we only need the prover to be correct. However, unlike the verifier, the prover is an expensive procedure, and it would be impractical to run a Lean prover.
+
+117
+00:25:28.373 --> 00:25:43.589
+We do not provide facilitations here: we expect that any prover that wants to hide the weights of a model they are serving has access to enough resources for careful agentic and/or human security audits to ensure equivalence to the Lean prover.
+
+118
+00:25:44.389 --> 00:25:45.235
+Prior work.
+
+119
+00:25:45.685 --> 00:26:14.248
+Achieving provable inference is the objective of a line of work colloquially termed “zkML”. Early works, such as SafetyNets (2017) verified a two-conv-layer MNIST CNN and a small fully connected speech model, zkCNN (2021) reached VGG-16 (15 million parameters) at 88.3 s per proof, and Kang et al. (2022) proved MobileNet v2 on full-resolution ImageNet.
+
+120
+00:26:14.698 --> 00:26:48.932
+Transformer proofs followed: ZKML’s GPT-2 took about 159 s per token for 117 million parameters ( approximately 0.006 tok/s), and Modulus Labs’ 1.5 billion-parameter GPT-2 XL needed over 90 hours. EZKL (2023) proved a 1 million-parameter GPT-style transformer in about 966 s per token ( approximately 0.001 tok/s).
+
+121
+00:26:49.052 --> 00:27:09.980
+Performance progressively improved: zkLLM (2024) proved LLaMA-2 to 13 billion on a 2048-token input in about 15 minutes on G P U, which is approximately 0.001 tok/s per new token, or about 2.5 tok/s in the batch.
+
+122
+00:27:10.100 --> 00:27:41.342
+In 2025, zkGPT reduced GPT-2 to 21.8 s ( approximately 0.05 tok/s), zkPyTorch proved Llama-3 8 billion at about 150 s per token on one C P U core ( approximately 0.007 tok/s), and ZKTorch proved GPT-J (6 billion) in about 20 minutes ( approximately 0.001 tok/s).
+
+123
+00:27:41.462 --> 00:28:10.953
+VerInf proved Llama 4 Maverick (the same 400 billion-parameter mixture of experts model we prove) at approximately 0.02 tok/s. DeepProve, a current peer-reviewed state of the art, certifies an entire generated sequence with a single forward pass. It reaches about 2.9 tok/s for GPT-2 and 1.4 tok/s for Gemma 3 on one machine, and 31 tok/s distributed.
+
+124
+00:28:11.073 --> 00:28:21.095
+SASH's prover (2026) reached approximately 1.25 tok/s on Llama 3.1 8 billion on a single H100.
+
+125
+00:28:21.545 --> 00:28:38.833
+Recently commercial efforts have reached impressive numbers, with Attestable proving Gemma 4 31 billion at 53 to 77 tok/s on a single H100; at the time of writing, Attestable has not released a corresponding open source library.
+
+126
+00:28:39.283 --> 00:28:48.904
+The above numbers speak to the precipitous progress of provable inference in the past years. They should update our priors on what it is possible to prove in zero-knowledge.
+
+127
+00:28:49.354 --> 00:29:11.933
+In 2024, zkLLM proved a 13 billion model at about 2.5 tokens per second on one A100. The only earlier proof of Llama 4 Maverick that we know of, VerInf, reports 14.3 hours for 1000 tokens on a DGX Spark, with a 93.6 gigabytes proof which took almost a day to verify.
+
+128
+00:29:12.173 --> 00:29:29.665
+FlashProve proves the same model at 110 tokens per second on a single H100, with 19 megabytes proofs that can be verified in seconds. Attestable independently reports 53 to 77 tokens per second for a dense 31 billion model.
+
+129
+00:29:30.115 --> 00:29:47.153
+We believe that the progress should transfer to more models and architectures, yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected.
+
+130
+00:29:47.953 --> 00:29:48.940
+Limitations.
+
+131
+00:29:49.390 --> 00:29:54.228
+This release is a research prototype, and has the following technical limitations:
+
+132
+00:29:54.678 --> 00:30:16.644
+No formal guarantees on fast executable code. We provide a Lean implementation of the protocol (including an executable “slow” Lean verifier), along with security properties proved in Lean. The paper and the fast executable code are derived from the Lean protocol, but we do not guarantee that all three (Lean, paper, code) match each other.
+
+133
+00:30:16.884 --> 00:30:37.578
+The proof is about an integer model under greedy decoding. We prove an exact integer version of the published weights, and a proof asserts that each checked token is that model’s greedy choice. A reply from a floating-point implementation, or sampled decoding, could depart at some position and no longer exactly match the computation proved.
+
+134
+00:30:37.698 --> 00:30:54.860
+The integer version is generally expected and empirically tested to be within some small error rate of true floating-point inference generically (even taking into account non-determinism of floating-point computations), though this does not cover adversarially designed prompts.
+
+135
+00:30:55.100 --> 00:31:17.812
+Architecture hiding. Our system assumes the served model uses a Mixture-of-Experts (mixture of experts) architecture, in which each transformer layer’s feed-forward block is replaced by multiple expert sub-networks and a router that activates only a small subset of experts for each token and our system uses the mixture of experts structure for efficiency gains.
+
+136
+00:31:17.932 --> 00:31:27.790
+Other architectures, such as the dense models, are also widely used and its description may contain intellectual-property the model provider would like to keep secret.
+
+137
+00:31:27.910 --> 00:31:48.084
+Indeed, one could also imagine a system that further hides the architecture of the model: the prover commits to both the weights and the architecture (that is, the “executable code” for inference) via a hiding commitment and the verifier’s claim is about checking the execution of that committed executable on the commitment model.
+
+138
+00:31:48.324 --> 00:32:07.246
+Side channel attacks. The current guarantee of the protocol is that the proof itself reveals nothing about the weights of the committed model. However, “side channel attacks”, such as measuring the time it takes to produce a proof, could potentially reveal information about the weights. We consider this out of scope for this release.
+
+139
+00:32:07.486 --> 00:32:30.569
+Longer contexts. The system currently proves inference over contexts of up to 1024 tokens. This is quite short in comparison to the contexts accumulated in chat settings. Ideally, this context length could be increased to full context windows for frontier models (which regularly have context windows of 100s of thousands to millions of tokens).
+
+140
+00:32:31.569 --> 00:32:49.582
+That was Progress on provable inference for large language models, from Anthropic Research, published November 2, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.
