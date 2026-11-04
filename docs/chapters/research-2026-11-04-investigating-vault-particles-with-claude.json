@@ -1,0 +1,29 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 408.59,
+   "title": "A vault-like structure in prokaryotes"
+  },
+  {
+   "startTime": 578.37,
+   "title": "Finding, isolating, and mapping a new vault with Claude"
+  },
+  {
+   "startTime": 873.32,
+   "title": "A new way of doing science"
+  },
+  {
+   "startTime": 1025.03,
+   "title": "Work with us"
+  },
+  {
+   "startTime": 1042.16,
+   "title": "Outro"
+  }
+ ]
+}

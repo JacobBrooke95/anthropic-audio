@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 21:34:48 +0000</lastBuildDate>
-    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 21:34:55 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,94 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Investigating vault particles with Claude</title>
+      <itunes:title>Research: Investigating vault particles with Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-04-investigating-vault-particles-with-claude/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/investigating-vault-particles-with-claude</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.
+
+Source: https://www.anthropic.com/research/investigating-vault-particles-with-claude
+Published November 4, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Anthropic’s biology research lab: https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+• in our preprint: https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf
+• the existence of some crucial components: https://pubmed.ncbi.nlm.nih.gov/12360195/
+• their function: https://pmc.ncbi.nlm.nih.gov/articles/PMC3184113/
+• remain poorly understood: https://pmc.ncbi.nlm.nih.gov/articles/PMC6412132/
+• It was discovered in 1986: https://rupress.org/jcb/article-abstract/103/3/699/13490/Isolation-and-characterization-of-a-novel?redirectedFrom=fulltext
+• found across most of the eukaryotic tree: https://doi.org/10.1093/gbe/evt113
+• transporting molecules between the nucleus and cytoplasm: https://doi.org/10.1242/jcs.106.1.23
+• protecting cells from toxic compounds such as cancer drugs: https://doi.org/10.1038/nm0695-578
+• supporting innate immunity: https://doi.org/10.1126/science.1142311
+• mice lacking vaults still survive: https://doi.org/10.1128/MCB.24.12.5314-5323.2004
+• already been found: https://www.biorxiv.org/content/10.1101/2023.11.10.566534v1.abstract
+• cGAS–STING signaling: https://doi.org/10.1038/s41586-019-1605-5
+• gasdermins: https://doi.org/10.1126/science.abj8432
+• viperins: https://doi.org/10.1038/s41586-020-2762-2
+• biotechnology: https://www.science.org/doi/10.1126/science.adz9353
+• nanocapsules for delivering enzymes: https://www.pnas.org/doi/abs/10.1073/pnas.0500929102
+• megadaltons: https://en.wikipedia.org/wiki/Dalton_(unit)
+• the vault RNA: https://doi.org/10.1261/rna.080161.124
+• identified distant relatives: https://doi.org/10.1101/872010
+• Claude Science: https://claude.com/product/claude-science
+• a cell-free system: https://en.wikipedia.org/wiki/Cell-free_system
+• the first group to isolate vaults on sizing columns: https://pubmed.ncbi.nlm.nih.gov/30036602/
+• mdurrant[at]anthropic.com: mailto:mdurrant@anthropic.com
+• nicholasp[at]anthropic.com: mailto:nicholasp@anthropic.com
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-04-investigating-vault-particles-with-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/investigating-vault-particles-with-claude">https://www.anthropic.com/research/investigating-vault-particles-with-claude</a><br/><strong>Published:</strong> November 4, 2026 · Anthropic Research<br/><strong>Length:</strong> 2,448 words · 17 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/claude-discovers-novel-enzyme-system">Anthropic’s biology research lab</a></li><li><a href="https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf">in our preprint</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/12360195/">the existence of some crucial components</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3184113/">their function</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6412132/">remain poorly understood</a></li><li><a href="https://rupress.org/jcb/article-abstract/103/3/699/13490/Isolation-and-characterization-of-a-novel?redirectedFrom=fulltext">It was discovered in 1986</a></li><li><a href="https://doi.org/10.1093/gbe/evt113">found across most of the eukaryotic tree</a></li><li><a href="https://doi.org/10.1242/jcs.106.1.23">transporting molecules between the nucleus and cytoplasm</a></li><li><a href="https://doi.org/10.1038/nm0695-578">protecting cells from toxic compounds such as cancer drugs</a></li><li><a href="https://doi.org/10.1126/science.1142311">supporting innate immunity</a></li><li><a href="https://doi.org/10.1128/MCB.24.12.5314-5323.2004">mice lacking vaults still survive</a></li><li><a href="https://www.biorxiv.org/content/10.1101/2023.11.10.566534v1.abstract">already been found</a></li><li><a href="https://doi.org/10.1038/s41586-019-1605-5">cGAS–STING signaling</a></li><li><a href="https://doi.org/10.1126/science.abj8432">gasdermins</a></li><li><a href="https://doi.org/10.1038/s41586-020-2762-2">viperins</a></li><li><a href="https://www.science.org/doi/10.1126/science.adz9353">biotechnology</a></li><li><a href="https://www.pnas.org/doi/abs/10.1073/pnas.0500929102">nanocapsules for delivering enzymes</a></li><li><a href="https://en.wikipedia.org/wiki/Dalton_(unit)">megadaltons</a></li><li><a href="https://doi.org/10.1261/rna.080161.124">the vault RNA</a></li><li><a href="https://doi.org/10.1101/872010">identified distant relatives</a></li><li><a href="https://claude.com/product/claude-science">Claude Science</a></li><li><a href="https://en.wikipedia.org/wiki/Cell-free_system">a cell-free system</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/30036602/">the first group to isolate vaults on sizing columns</a></li><li><a href="mailto:mdurrant@anthropic.com">mdurrant[at]anthropic.com</a></li><li><a href="mailto:nicholasp@anthropic.com">nicholasp[at]anthropic.com</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-04-investigating-vault-particles-with-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-04-investigating-vault-particles-with-claude.mp3" length="9237709" type="audio/mpeg"/>
+      <itunes:duration>1063</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-04-investigating-vault-particles-with-claude.jpg?v=8b3a80f4"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-04-investigating-vault-particles-with-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-04-investigating-vault-particles-with-claude.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.</itunes:subtitle>
+      <itunes:summary>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.
+
+Source: https://www.anthropic.com/research/investigating-vault-particles-with-claude
+Published November 4, 2026 · Anthropic Research
+
+Links referenced in the post:
+• Anthropic’s biology research lab: https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+• in our preprint: https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf
+• the existence of some crucial components: https://pubmed.ncbi.nlm.nih.gov/12360195/
+• their function: https://pmc.ncbi.nlm.nih.gov/articles/PMC3184113/
+• remain poorly understood: https://pmc.ncbi.nlm.nih.gov/articles/PMC6412132/
+• It was discovered in 1986: https://rupress.org/jcb/article-abstract/103/3/699/13490/Isolation-and-characterization-of-a-novel?redirectedFrom=fulltext
+• found across most of the eukaryotic tree: https://doi.org/10.1093/gbe/evt113
+• transporting molecules between the nucleus and cytoplasm: https://doi.org/10.1242/jcs.106.1.23
+• protecting cells from toxic compounds such as cancer drugs: https://doi.org/10.1038/nm0695-578
+• supporting innate immunity: https://doi.org/10.1126/science.1142311
+• mice lacking vaults still survive: https://doi.org/10.1128/MCB.24.12.5314-5323.2004
+• already been found: https://www.biorxiv.org/content/10.1101/2023.11.10.566534v1.abstract
+• cGAS–STING signaling: https://doi.org/10.1038/s41586-019-1605-5
+• gasdermins: https://doi.org/10.1126/science.abj8432
+• viperins: https://doi.org/10.1038/s41586-020-2762-2
+• biotechnology: https://www.science.org/doi/10.1126/science.adz9353
+• nanocapsules for delivering enzymes: https://www.pnas.org/doi/abs/10.1073/pnas.0500929102
+• megadaltons: https://en.wikipedia.org/wiki/Dalton_(unit)
+• the vault RNA: https://doi.org/10.1261/rna.080161.124
+• identified distant relatives: https://doi.org/10.1101/872010
+• Claude Science: https://claude.com/product/claude-science
+• a cell-free system: https://en.wikipedia.org/wiki/Cell-free_system
+• the first group to isolate vaults on sizing columns: https://pubmed.ncbi.nlm.nih.gov/30036602/
+• mdurrant[at]anthropic.com: mailto:mdurrant@anthropic.com
+• nicholasp[at]anthropic.com: mailto:nicholasp@anthropic.com
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-04-investigating-vault-particles-with-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>107</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-04-investigating-vault-particles-with-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-04-investigating-vault-particles-with-claude.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Progress on provable inference for large language models</title>
       <itunes:title>Research: Progress on provable inference for large language models</itunes:title>
