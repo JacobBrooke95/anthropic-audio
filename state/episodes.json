@@ -5475,6 +5475,14 @@
       "updated": "2026-11-04T21:34:54+00:00",
       "slug": "research-2026-11-04-investigating-vault-particles-with-claude",
       "episode": 107
+    },
+    "https://www.anthropic.com/research/how-researchers-use-claude": {
+      "first_seen": "2026-11-05T22:46:32+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-05T22:46:32+00:00",
+      "slug": "research-2026-11-05-how-researchers-use-claude",
+      "episode": 108
     }
   },
   "episodes": [
@@ -11695,8 +11703,108 @@
       "episode": 107,
       "created": "2026-11-04T21:34:54+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg"
+    },
+    {
+      "slug": "research-2026-11-05-how-researchers-use-claude",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "source": "research",
+      "title": "AI for scientific discovery : How researchers use Claude",
+      "subtitle": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
+      "date": "2026-11-05T00:00:00+00:00",
+      "authors": [
+        "Johannes Hermle*",
+        "Ben Jones*",
+        "Lukas Althoff*",
+        "Ryan Heller",
+        "Thomas Lyttelton",
+        "Carolyn Stein",
+        "Nathan Wilmers",
+        "Maxim Massenkoff",
+        "Peter McCrory"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "Appendix",
+          "href": "https://www-cdn.anthropic.com/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf"
+        },
+        {
+          "text": "Appendix",
+          "href": "https://cdn.sanity.io/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf"
+        },
+        {
+          "text": "prior work",
+          "href": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+        },
+        {
+          "text": "https://www.anatomyofscience.com/",
+          "href": "https://www.anatomyofscience.com/"
+        },
+        {
+          "text": "https://darioamodei.com/essay/machines-of-loving-grace",
+          "href": "https://darioamodei.com/essay/machines-of-loving-grace"
+        },
+        {
+          "text": "https://www.anthropic.com/research/riemann-zeta",
+          "href": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "text": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+          "href": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+        },
+        {
+          "text": "https://arxiv.org/abs/2609.28504",
+          "href": "https://arxiv.org/abs/2609.28504"
+        },
+        {
+          "text": "https://forecastingresearch.org/research/existential-risk-persuasion-tournament",
+          "href": "https://forecastingresearch.org/research/existential-risk-persuasion-tournament"
+        },
+        {
+          "text": "https://arxiv.org/abs/2411.15124",
+          "href": "https://arxiv.org/abs/2411.15124"
+        },
+        {
+          "text": "https://www.anthropic.com/research/economic-index-june-2026-report",
+          "href": "https://www.anthropic.com/research/economic-index-june-2026-report"
+        },
+        {
+          "text": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+          "href": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+        },
+        {
+          "text": "https://openai.com/index/navier-stokes-solution/",
+          "href": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "text": "https://www2.gwu.edu/~forcpgm/2026-005.pdf",
+          "href": "https://www2.gwu.edu/~forcpgm/2026-005.pdf"
+        },
+        {
+          "text": "https://forecastingresearch.org/research/ai-progress-accuracy-update",
+          "href": "https://forecastingresearch.org/research/ai-progress-accuracy-update"
+        },
+        {
+          "text": "https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf",
+          "href": "https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf"
+        },
+        {
+          "text": "https://arxiv.org/abs/1406.6618",
+          "href": "https://arxiv.org/abs/1406.6618"
+        },
+        {
+          "text": "https://arxiv.org/abs/2605.02598",
+          "href": "https://arxiv.org/abs/2605.02598"
+        }
+      ],
+      "word_count": 7542,
+      "duration": 4582.645873,
+      "bytes": 37403927,
+      "episode": 108,
+      "created": "2026-11-05T22:46:32+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0c1a04cc7042949252ee54565755780fe21d5ecf-1200x630.jpg"
     }
   ],
-  "next_episode": 108,
+  "next_episode": 109,
   "baseline_date": "2026-08-14"
 }

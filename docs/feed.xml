@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Wed, 04 Nov 2026 21:34:55 +0000</lastBuildDate>
-    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2026 22:46:33 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,80 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: AI for scientific discovery : How researchers use Claude</title>
+      <itunes:title>Research: AI for scientific discovery : How researchers use Claude</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-05-how-researchers-use-claude/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/how-researchers-use-claude</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.
+
+Source: https://www.anthropic.com/research/how-researchers-use-claude
+Published November 5, 2026 · Anthropic Research · by Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• Appendix: https://www-cdn.anthropic.com/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf
+• Appendix: https://cdn.sanity.io/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf
+• prior work: https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
+• https://www.anatomyofscience.com/: https://www.anatomyofscience.com/
+• https://darioamodei.com/essay/machines-of-loving-grace: https://darioamodei.com/essay/machines-of-loving-grace
+• https://www.anthropic.com/research/riemann-zeta: https://www.anthropic.com/research/riemann-zeta
+• https://www.anthropic.com/research/formalizing-fermats-last-theorem: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+• https://arxiv.org/abs/2609.28504: https://arxiv.org/abs/2609.28504
+• https://forecastingresearch.org/research/existential-risk-persuasion-tournament: https://forecastingresearch.org/research/existential-risk-persuasion-tournament
+• https://arxiv.org/abs/2411.15124: https://arxiv.org/abs/2411.15124
+• https://www.anthropic.com/research/economic-index-june-2026-report: https://www.anthropic.com/research/economic-index-june-2026-report
+• https://openai.com/index/model-disproves-discrete-geometry-conjecture/: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+• https://openai.com/index/navier-stokes-solution/: https://openai.com/index/navier-stokes-solution/
+• https://www2.gwu.edu/~forcpgm/2026-005.pdf: https://www2.gwu.edu/~forcpgm/2026-005.pdf
+• https://forecastingresearch.org/research/ai-progress-accuracy-update: https://forecastingresearch.org/research/ai-progress-accuracy-update
+• https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf: https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf
+• https://arxiv.org/abs/1406.6618: https://arxiv.org/abs/1406.6618
+• https://arxiv.org/abs/2605.02598: https://arxiv.org/abs/2605.02598
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-05-how-researchers-use-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/how-researchers-use-claude">https://www.anthropic.com/research/how-researchers-use-claude</a><br/><strong>Published:</strong> November 5, 2026 · Anthropic Research<br/><strong>Authors:</strong> Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory<br/><strong>Length:</strong> 7,542 words · 1h 16m</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf">Appendix</a></li><li><a href="https://cdn.sanity.io/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf">Appendix</a></li><li><a href="https://www.anthropic.com/research/anthropic-economic-index-january-2026-report">prior work</a></li><li><a href="https://www.anatomyofscience.com/">https://www.anatomyofscience.com/</a></li><li><a href="https://darioamodei.com/essay/machines-of-loving-grace">https://darioamodei.com/essay/machines-of-loving-grace</a></li><li><a href="https://www.anthropic.com/research/riemann-zeta">https://www.anthropic.com/research/riemann-zeta</a></li><li><a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem">https://www.anthropic.com/research/formalizing-fermats-last-theorem</a></li><li><a href="https://arxiv.org/abs/2609.28504">https://arxiv.org/abs/2609.28504</a></li><li><a href="https://forecastingresearch.org/research/existential-risk-persuasion-tournament">https://forecastingresearch.org/research/existential-risk-persuasion-tournament</a></li><li><a href="https://arxiv.org/abs/2411.15124">https://arxiv.org/abs/2411.15124</a></li><li><a href="https://www.anthropic.com/research/economic-index-june-2026-report">https://www.anthropic.com/research/economic-index-june-2026-report</a></li><li><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">https://openai.com/index/model-disproves-discrete-geometry-conjecture/</a></li><li><a href="https://openai.com/index/navier-stokes-solution/">https://openai.com/index/navier-stokes-solution/</a></li><li><a href="https://www2.gwu.edu/~forcpgm/2026-005.pdf">https://www2.gwu.edu/~forcpgm/2026-005.pdf</a></li><li><a href="https://forecastingresearch.org/research/ai-progress-accuracy-update">https://forecastingresearch.org/research/ai-progress-accuracy-update</a></li><li><a href="https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf">https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf</a></li><li><a href="https://arxiv.org/abs/1406.6618">https://arxiv.org/abs/1406.6618</a></li><li><a href="https://arxiv.org/abs/2605.02598">https://arxiv.org/abs/2605.02598</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-05-how-researchers-use-claude/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-05-how-researchers-use-claude.mp3" length="37403927" type="audio/mpeg"/>
+      <itunes:duration>4583</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-05-how-researchers-use-claude.jpg?v=ccfb6ccf"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-05-how-researchers-use-claude.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-05-how-researchers-use-claude.json" type="application/json+chapters"/>
+      <itunes:author>Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory</itunes:author>
+      <itunes:subtitle>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, an</itunes:subtitle>
+      <itunes:summary>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.
+
+Source: https://www.anthropic.com/research/how-researchers-use-claude
+Published November 5, 2026 · Anthropic Research · by Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• Appendix: https://www-cdn.anthropic.com/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf
+• Appendix: https://cdn.sanity.io/files/4zrzovbb/website/fafb3d4237f9b53fe114fef4fb5109b9cf5b5e60.pdf
+• prior work: https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
+• https://www.anatomyofscience.com/: https://www.anatomyofscience.com/
+• https://darioamodei.com/essay/machines-of-loving-grace: https://darioamodei.com/essay/machines-of-loving-grace
+• https://www.anthropic.com/research/riemann-zeta: https://www.anthropic.com/research/riemann-zeta
+• https://www.anthropic.com/research/formalizing-fermats-last-theorem: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+• https://arxiv.org/abs/2609.28504: https://arxiv.org/abs/2609.28504
+• https://forecastingresearch.org/research/existential-risk-persuasion-tournament: https://forecastingresearch.org/research/existential-risk-persuasion-tournament
+• https://arxiv.org/abs/2411.15124: https://arxiv.org/abs/2411.15124
+• https://www.anthropic.com/research/economic-index-june-2026-report: https://www.anthropic.com/research/economic-index-june-2026-report
+• https://openai.com/index/model-disproves-discrete-geometry-conjecture/: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+• https://openai.com/index/navier-stokes-solution/: https://openai.com/index/navier-stokes-solution/
+• https://www2.gwu.edu/~forcpgm/2026-005.pdf: https://www2.gwu.edu/~forcpgm/2026-005.pdf
+• https://forecastingresearch.org/research/ai-progress-accuracy-update: https://forecastingresearch.org/research/ai-progress-accuracy-update
+• https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf: https://thefdp.org/wp-content/uploads/FDP-FWS-2018-Primary-Report.pdf
+• https://arxiv.org/abs/1406.6618: https://arxiv.org/abs/1406.6618
+• https://arxiv.org/abs/2605.02598: https://arxiv.org/abs/2605.02598
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-05-how-researchers-use-claude/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>108</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-05-how-researchers-use-claude.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-05-how-researchers-use-claude.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Investigating vault particles with Claude</title>
       <itunes:title>Research: Investigating vault particles with Claude</itunes:title>
