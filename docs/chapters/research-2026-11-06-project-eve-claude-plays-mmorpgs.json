@@ -1,0 +1,57 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 203.59,
+   "title": "Claude trades on an EVE Online market"
+  },
+  {
+   "startTime": 326.08,
+   "title": "Can agents make money?"
+  },
+  {
+   "startTime": 430.53,
+   "title": "How do agents trade?"
+  },
+  {
+   "startTime": 646.6,
+   "title": "Can agents make directional bets?"
+  },
+  {
+   "startTime": 773.7,
+   "title": "Claude fleets in EVE Frontier"
+  },
+  {
+   "startTime": 917.61,
+   "title": "Can agents overcome poor reaction times and spatial awareness?"
+  },
+  {
+   "startTime": 1048.69,
+   "title": "How do agents cooperate?"
+  },
+  {
+   "startTime": 1134.97,
+   "title": "Interacting with agents instructed to sabotage"
+  },
+  {
+   "startTime": 1279.11,
+   "title": "Selected reasoning examples of agents instructed to sabotage"
+  },
+  {
+   "startTime": 1622.08,
+   "title": "Reflections from New Eden"
+  },
+  {
+   "startTime": 1728.34,
+   "title": "Footnotes"
+  },
+  {
+   "startTime": 1738.49,
+   "title": "Outro"
+  }
+ ]
+}

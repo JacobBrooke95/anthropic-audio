@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 22:46:33 +0000</lastBuildDate>
-    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:13:58 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,160 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Project EVE : Claude plays MMORPGs</title>
+      <itunes:title>Research: Project EVE : Claude plays MMORPGs</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-project-eve-claude-plays-mmorpgs/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.
+
+Source: https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• run a shop in our office: https://www.anthropic.com/research/project-vend-1
+• haggled on behalf of colleagues: https://www.anthropic.com/features/project-deal
+• fly a drone: https://www.anthropic.com/research/project-pilot
+• partnered with: http://lab.eve.com/
+• Fenris Creations: https://fenris.com/
+• megaprojects: https://www.youtube.com/watch?v=YUNYQl0hlyk
+• war economies: https://en.wikipedia.org/wiki/Battle_of_B-R5RB
+• tax havens: https://podcasts.apple.com/kz/podcast/why-eve-onlines-market-system-might-be-too-efficient/id1804342486?i=1000738699844
+• corporate infiltration: https://arstechnica.com/gaming/2023/04/when-a-plan-comes-together-inside-a-massive-eve-online-corporate-heist/
+• was based on the NASDAQ,: https://www.thegamer.com/eve-online-short-squeeze-economy-gamestop/
+• game’s largest and most competitive trading hub: https://ipog.fandom.com/wiki/Jita
+• Expert human traders: https://www.youtube.com/watch?v=ix_lxPkwbE8
+• raised its sales tax in March 2025: https://wiki.eveuniversity.org/Tax
+• multi-agent configurations: https://www.anthropic.com/research/multiagent-systems
+• in robotics: https://www.anthropic.com/research/claude-plays-robotics
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-project-eve-claude-plays-mmorpgs/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs">https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</a><br/><strong>Published:</strong> November 6, 2026 · Anthropic Research<br/><strong>Length:</strong> 4,212 words · 29 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/research/project-vend-1">run a shop in our office</a></li><li><a href="https://www.anthropic.com/features/project-deal">haggled on behalf of colleagues</a></li><li><a href="https://www.anthropic.com/research/project-pilot">fly a drone</a></li><li><a href="http://lab.eve.com/">partnered with</a></li><li><a href="https://fenris.com/">Fenris Creations</a></li><li><a href="https://www.youtube.com/watch?v=YUNYQl0hlyk">megaprojects</a></li><li><a href="https://en.wikipedia.org/wiki/Battle_of_B-R5RB">war economies</a></li><li><a href="https://podcasts.apple.com/kz/podcast/why-eve-onlines-market-system-might-be-too-efficient/id1804342486?i=1000738699844">tax havens</a></li><li><a href="https://arstechnica.com/gaming/2023/04/when-a-plan-comes-together-inside-a-massive-eve-online-corporate-heist/">corporate infiltration</a></li><li><a href="https://www.thegamer.com/eve-online-short-squeeze-economy-gamestop/">was based on the NASDAQ,</a></li><li><a href="https://ipog.fandom.com/wiki/Jita">game’s largest and most competitive trading hub</a></li><li><a href="https://www.youtube.com/watch?v=ix_lxPkwbE8">Expert human traders</a></li><li><a href="https://wiki.eveuniversity.org/Tax">raised its sales tax in March 2025</a></li><li><a href="https://www.anthropic.com/research/multiagent-systems">multi-agent configurations</a></li><li><a href="https://www.anthropic.com/research/claude-plays-robotics">in robotics</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-project-eve-claude-plays-mmorpgs/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-06-project-eve-claude-plays-mmorpgs.mp3" length="14922335" type="audio/mpeg"/>
+      <itunes:duration>1761</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-06-project-eve-claude-plays-mmorpgs.jpg?v=4387250e"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-project-eve-claude-plays-mmorpgs.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-06-project-eve-claude-plays-mmorpgs.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.</itunes:subtitle>
+      <itunes:summary>We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.
+
+Source: https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• run a shop in our office: https://www.anthropic.com/research/project-vend-1
+• haggled on behalf of colleagues: https://www.anthropic.com/features/project-deal
+• fly a drone: https://www.anthropic.com/research/project-pilot
+• partnered with: http://lab.eve.com/
+• Fenris Creations: https://fenris.com/
+• megaprojects: https://www.youtube.com/watch?v=YUNYQl0hlyk
+• war economies: https://en.wikipedia.org/wiki/Battle_of_B-R5RB
+• tax havens: https://podcasts.apple.com/kz/podcast/why-eve-onlines-market-system-might-be-too-efficient/id1804342486?i=1000738699844
+• corporate infiltration: https://arstechnica.com/gaming/2023/04/when-a-plan-comes-together-inside-a-massive-eve-online-corporate-heist/
+• was based on the NASDAQ,: https://www.thegamer.com/eve-online-short-squeeze-economy-gamestop/
+• game’s largest and most competitive trading hub: https://ipog.fandom.com/wiki/Jita
+• Expert human traders: https://www.youtube.com/watch?v=ix_lxPkwbE8
+• raised its sales tax in March 2025: https://wiki.eveuniversity.org/Tax
+• multi-agent configurations: https://www.anthropic.com/research/multiagent-systems
+• in robotics: https://www.anthropic.com/research/claude-plays-robotics
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-project-eve-claude-plays-mmorpgs/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>109</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-project-eve-claude-plays-mmorpgs.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-project-eve-claude-plays-mmorpgs.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: Teaching AI to build scientific models</title>
+      <itunes:title>Research: Teaching AI to build scientific models</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-teaching-ai-to-build-scientific-models/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.
+
+Source: https://www.anthropic.com/research/teaching-ai-to-build-scientific-models
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• AI for Science: https://www.anthropic.com/news/ai-for-science-program
+• Jakob Macke: https://www.mackelab.org/
+• Daniel Gedon: https://dgedon.github.io/
+• Stefan Wahl: https://scholar.google.com/citations?user=-aivjt0AAAAJ
+• ELLIS Institute Tübingen: https://institute-tue.ellis.eu/
+• found the structure of a related potassium channel protein: https://www.science.org/doi/10.1126/science.280.5360.69
+• around a central pore: https://doi.org/10.1126/science.1116270
+• the Hodgkin-Huxley model: https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/
+• go through these steps repeatedly: https://www.jstor.org/stable/2286841
+• simulation-based inference (SBI): https://www.pnas.org/doi/10.1073/pnas.1912789117
+• perhaps 100,000 times for a model like Hodgkin-Huxley: https://elifesciences.org/articles/56261
+• two neutron stars collide: https://www.nature.com/articles/s41586-025-08593-z
+• cosmology: https://journals.aps.org/prd/abstract/10.1103/3sj1-1l9f
+• structural biology: https://www.pnas.org/doi/10.1073/pnas.2420158122
+• geophysics: https://academic.oup.com/gji/article/241/3/1741/8099925
+• nerve cell models: https://www.nature.com/articles/s41586-022-04428-3
+• newer LLMs perform better at research tasks: https://www.terminal-bench-science.ai
+• call a theory “intelligible”: https://academic.oup.com/book/36363
+• One proposal: https://link.springer.com/article/10.1007/s11023-024-09657-1
+• help human scientists better understand the problem: http://nature.com/articles/s42254-022-00518-3
+• designing quantum experiments: http://nature.com/articles/s42256-025-01153-0
+• building large-scale models on top of it: https://www.nature.com/articles/s41586-024-07939-3
+• George Box wrote: https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780124381506500182?via%3Dihub
+• male CNS connectome: https://www.janelia.org/project-team/flyem/male-cns-connectome
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-teaching-ai-to-build-scientific-models/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/teaching-ai-to-build-scientific-models">https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</a><br/><strong>Published:</strong> November 6, 2026 · Anthropic Research<br/><strong>Length:</strong> 3,390 words · 22 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://www.anthropic.com/news/ai-for-science-program">AI for Science</a></li><li><a href="https://www.mackelab.org/">Jakob Macke</a></li><li><a href="https://dgedon.github.io/">Daniel Gedon</a></li><li><a href="https://scholar.google.com/citations?user=-aivjt0AAAAJ">Stefan Wahl</a></li><li><a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a></li><li><a href="https://www.science.org/doi/10.1126/science.280.5360.69">found the structure of a related potassium channel protein</a></li><li><a href="https://doi.org/10.1126/science.1116270">around a central pore</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/">the Hodgkin-Huxley model</a></li><li><a href="https://www.jstor.org/stable/2286841">go through these steps repeatedly</a></li><li><a href="https://www.pnas.org/doi/10.1073/pnas.1912789117">simulation-based inference (SBI)</a></li><li><a href="https://elifesciences.org/articles/56261">perhaps 100,000 times for a model like Hodgkin-Huxley</a></li><li><a href="https://www.nature.com/articles/s41586-025-08593-z">two neutron stars collide</a></li><li><a href="https://journals.aps.org/prd/abstract/10.1103/3sj1-1l9f">cosmology</a></li><li><a href="https://www.pnas.org/doi/10.1073/pnas.2420158122">structural biology</a></li><li><a href="https://academic.oup.com/gji/article/241/3/1741/8099925">geophysics</a></li><li><a href="https://www.nature.com/articles/s41586-022-04428-3">nerve cell models</a></li><li><a href="https://www.terminal-bench-science.ai">newer LLMs perform better at research tasks</a></li><li><a href="https://academic.oup.com/book/36363">call a theory “intelligible”</a></li><li><a href="https://link.springer.com/article/10.1007/s11023-024-09657-1">One proposal</a></li><li><a href="http://nature.com/articles/s42254-022-00518-3">help human scientists better understand the problem</a></li><li><a href="http://nature.com/articles/s42256-025-01153-0">designing quantum experiments</a></li><li><a href="https://www.nature.com/articles/s41586-024-07939-3">building large-scale models on top of it</a></li><li><a href="https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780124381506500182?via%3Dihub">George Box wrote</a></li><li><a href="https://www.janelia.org/project-team/flyem/male-cns-connectome">male CNS connectome</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-teaching-ai-to-build-scientific-models/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-06-teaching-ai-to-build-scientific-models.mp3" length="11696489" type="audio/mpeg"/>
+      <itunes:duration>1367</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-06-teaching-ai-to-build-scientific-models.jpg?v=ccf6da77"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-teaching-ai-to-build-scientific-models.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-06-teaching-ai-to-build-scientific-models.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.</itunes:subtitle>
+      <itunes:summary>AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.
+
+Source: https://www.anthropic.com/research/teaching-ai-to-build-scientific-models
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• AI for Science: https://www.anthropic.com/news/ai-for-science-program
+• Jakob Macke: https://www.mackelab.org/
+• Daniel Gedon: https://dgedon.github.io/
+• Stefan Wahl: https://scholar.google.com/citations?user=-aivjt0AAAAJ
+• ELLIS Institute Tübingen: https://institute-tue.ellis.eu/
+• found the structure of a related potassium channel protein: https://www.science.org/doi/10.1126/science.280.5360.69
+• around a central pore: https://doi.org/10.1126/science.1116270
+• the Hodgkin-Huxley model: https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/
+• go through these steps repeatedly: https://www.jstor.org/stable/2286841
+• simulation-based inference (SBI): https://www.pnas.org/doi/10.1073/pnas.1912789117
+• perhaps 100,000 times for a model like Hodgkin-Huxley: https://elifesciences.org/articles/56261
+• two neutron stars collide: https://www.nature.com/articles/s41586-025-08593-z
+• cosmology: https://journals.aps.org/prd/abstract/10.1103/3sj1-1l9f
+• structural biology: https://www.pnas.org/doi/10.1073/pnas.2420158122
+• geophysics: https://academic.oup.com/gji/article/241/3/1741/8099925
+• nerve cell models: https://www.nature.com/articles/s41586-022-04428-3
+• newer LLMs perform better at research tasks: https://www.terminal-bench-science.ai
+• call a theory “intelligible”: https://academic.oup.com/book/36363
+• One proposal: https://link.springer.com/article/10.1007/s11023-024-09657-1
+• help human scientists better understand the problem: http://nature.com/articles/s42254-022-00518-3
+• designing quantum experiments: http://nature.com/articles/s42256-025-01153-0
+• building large-scale models on top of it: https://www.nature.com/articles/s41586-024-07939-3
+• George Box wrote: https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780124381506500182?via%3Dihub
+• male CNS connectome: https://www.janelia.org/project-team/flyem/male-cns-connectome
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-teaching-ai-to-build-scientific-models/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>110</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-teaching-ai-to-build-scientific-models.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-teaching-ai-to-build-scientific-models.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: AI for scientific discovery : How researchers use Claude</title>
       <itunes:title>Research: AI for scientific discovery : How researchers use Claude</itunes:title>

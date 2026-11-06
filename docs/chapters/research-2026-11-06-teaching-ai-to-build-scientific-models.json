@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 234.17,
+   "title": "A three-step program"
+  },
+  {
+   "startTime": 334.77,
+   "title": "Splitting the bill, or how to constrain models"
+  },
+  {
+   "startTime": 623.28,
+   "title": "The bill, one level up, or how to build models"
+  },
+  {
+   "startTime": 861.47,
+   "title": "Lost in translation, or how to interpret models"
+  },
+  {
+   "startTime": 1081.97,
+   "title": "Cells and scales"
+  },
+  {
+   "startTime": 1346.12,
+   "title": "Outro"
+  }
+ ]
+}

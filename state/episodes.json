@@ -5483,6 +5483,22 @@
       "updated": "2026-11-05T22:46:32+00:00",
       "slug": "research-2026-11-05-how-researchers-use-claude",
       "episode": 108
+    },
+    "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs": {
+      "first_seen": "2026-11-06T21:03:09+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-06T21:03:09+00:00",
+      "slug": "research-2026-11-06-project-eve-claude-plays-mmorpgs",
+      "episode": 109
+    },
+    "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": {
+      "first_seen": "2026-11-06T21:13:57+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-06T21:13:57+00:00",
+      "slug": "research-2026-11-06-teaching-ai-to-build-scientific-models",
+      "episode": 110
     }
   },
   "episodes": [
@@ -11803,8 +11819,200 @@
       "episode": 108,
       "created": "2026-11-05T22:46:32+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0c1a04cc7042949252ee54565755780fe21d5ecf-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-11-06-project-eve-claude-plays-mmorpgs",
+      "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+      "source": "research",
+      "title": "Project EVE : Claude plays MMORPGs",
+      "subtitle": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.",
+      "date": "2026-11-06T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "run a shop in our office",
+          "href": "https://www.anthropic.com/research/project-vend-1"
+        },
+        {
+          "text": "haggled on behalf of colleagues",
+          "href": "https://www.anthropic.com/features/project-deal"
+        },
+        {
+          "text": "fly a drone",
+          "href": "https://www.anthropic.com/research/project-pilot"
+        },
+        {
+          "text": "partnered with",
+          "href": "http://lab.eve.com/"
+        },
+        {
+          "text": "Fenris Creations",
+          "href": "https://fenris.com/"
+        },
+        {
+          "text": "megaprojects",
+          "href": "https://www.youtube.com/watch?v=YUNYQl0hlyk"
+        },
+        {
+          "text": "war economies",
+          "href": "https://en.wikipedia.org/wiki/Battle_of_B-R5RB"
+        },
+        {
+          "text": "tax havens",
+          "href": "https://podcasts.apple.com/kz/podcast/why-eve-onlines-market-system-might-be-too-efficient/id1804342486?i=1000738699844"
+        },
+        {
+          "text": "corporate infiltration",
+          "href": "https://arstechnica.com/gaming/2023/04/when-a-plan-comes-together-inside-a-massive-eve-online-corporate-heist/"
+        },
+        {
+          "text": "was based on the NASDAQ,",
+          "href": "https://www.thegamer.com/eve-online-short-squeeze-economy-gamestop/"
+        },
+        {
+          "text": "game’s largest and most competitive trading hub",
+          "href": "https://ipog.fandom.com/wiki/Jita"
+        },
+        {
+          "text": "Expert human traders",
+          "href": "https://www.youtube.com/watch?v=ix_lxPkwbE8"
+        },
+        {
+          "text": "raised its sales tax in March 2025",
+          "href": "https://wiki.eveuniversity.org/Tax"
+        },
+        {
+          "text": "multi-agent configurations",
+          "href": "https://www.anthropic.com/research/multiagent-systems"
+        },
+        {
+          "text": "in robotics",
+          "href": "https://www.anthropic.com/research/claude-plays-robotics"
+        }
+      ],
+      "word_count": 4212,
+      "duration": 1760.531633,
+      "bytes": 14922335,
+      "episode": 109,
+      "created": "2026-11-06T21:03:09+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/3412bc3ca96f5ba0b24b3d2284c81a70b0e574df-1668x1238.png"
+    },
+    {
+      "slug": "research-2026-11-06-teaching-ai-to-build-scientific-models",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "source": "research",
+      "title": "Teaching AI to build scientific models",
+      "subtitle": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.",
+      "date": "2026-11-06T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "AI for Science",
+          "href": "https://www.anthropic.com/news/ai-for-science-program"
+        },
+        {
+          "text": "Jakob Macke",
+          "href": "https://www.mackelab.org/"
+        },
+        {
+          "text": "Daniel Gedon",
+          "href": "https://dgedon.github.io/"
+        },
+        {
+          "text": "Stefan Wahl",
+          "href": "https://scholar.google.com/citations?user=-aivjt0AAAAJ"
+        },
+        {
+          "text": "ELLIS Institute Tübingen",
+          "href": "https://institute-tue.ellis.eu/"
+        },
+        {
+          "text": "found the structure of a related potassium channel protein",
+          "href": "https://www.science.org/doi/10.1126/science.280.5360.69"
+        },
+        {
+          "text": "around a central pore",
+          "href": "https://doi.org/10.1126/science.1116270"
+        },
+        {
+          "text": "the Hodgkin-Huxley model",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/"
+        },
+        {
+          "text": "go through these steps repeatedly",
+          "href": "https://www.jstor.org/stable/2286841"
+        },
+        {
+          "text": "simulation-based inference (SBI)",
+          "href": "https://www.pnas.org/doi/10.1073/pnas.1912789117"
+        },
+        {
+          "text": "perhaps 100,000 times for a model like Hodgkin-Huxley",
+          "href": "https://elifesciences.org/articles/56261"
+        },
+        {
+          "text": "two neutron stars collide",
+          "href": "https://www.nature.com/articles/s41586-025-08593-z"
+        },
+        {
+          "text": "cosmology",
+          "href": "https://journals.aps.org/prd/abstract/10.1103/3sj1-1l9f"
+        },
+        {
+          "text": "structural biology",
+          "href": "https://www.pnas.org/doi/10.1073/pnas.2420158122"
+        },
+        {
+          "text": "geophysics",
+          "href": "https://academic.oup.com/gji/article/241/3/1741/8099925"
+        },
+        {
+          "text": "nerve cell models",
+          "href": "https://www.nature.com/articles/s41586-022-04428-3"
+        },
+        {
+          "text": "newer LLMs perform better at research tasks",
+          "href": "https://www.terminal-bench-science.ai"
+        },
+        {
+          "text": "call a theory “intelligible”",
+          "href": "https://academic.oup.com/book/36363"
+        },
+        {
+          "text": "One proposal",
+          "href": "https://link.springer.com/article/10.1007/s11023-024-09657-1"
+        },
+        {
+          "text": "help human scientists better understand the problem",
+          "href": "http://nature.com/articles/s42254-022-00518-3"
+        },
+        {
+          "text": "designing quantum experiments",
+          "href": "http://nature.com/articles/s42256-025-01153-0"
+        },
+        {
+          "text": "building large-scale models on top of it",
+          "href": "https://www.nature.com/articles/s41586-024-07939-3"
+        },
+        {
+          "text": "George Box wrote",
+          "href": "https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780124381506500182?via%3Dihub"
+        },
+        {
+          "text": "male CNS connectome",
+          "href": "https://www.janelia.org/project-team/flyem/male-cns-connectome"
+        }
+      ],
+      "word_count": 3390,
+      "duration": 1367.262381,
+      "bytes": 11696489,
+      "episode": 110,
+      "created": "2026-11-06T21:13:57+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ef92f028259401d07c41e3ea51f5ec32b958584d-2000x1125.jpg"
     }
   ],
-  "next_episode": 109,
+  "next_episode": 111,
   "baseline_date": "2026-08-14"
 }
