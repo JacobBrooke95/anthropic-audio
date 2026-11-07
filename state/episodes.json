@@ -5499,6 +5499,14 @@
       "updated": "2026-11-06T21:13:57+00:00",
       "slug": "research-2026-11-06-teaching-ai-to-build-scientific-models",
       "episode": 110
+    },
+    "https://www.anthropic.com/research/components-of-agent-memory": {
+      "first_seen": "2026-11-07T01:25:51+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-07T01:25:51+00:00",
+      "slug": "research-2026-11-06-components-of-agent-memory",
+      "episode": 111
     }
   },
   "episodes": [
@@ -12011,8 +12019,110 @@
       "episode": 110,
       "created": "2026-11-06T21:13:57+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ef92f028259401d07c41e3ea51f5ec32b958584d-2000x1125.jpg"
+    },
+    {
+      "slug": "research-2026-11-06-components-of-agent-memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "research",
+      "title": "The components of agent memory",
+      "subtitle": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+      "date": "2026-11-06T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "The hippocampus",
+          "href": "https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf"
+        },
+        {
+          "text": "some experiences",
+          "href": "https://www.science.org/doi/10.1126/science.adk8261?referrer=https%3A%2F%2Fwww.google.com%2F"
+        },
+        {
+          "text": "rest",
+          "href": "https://www.nature.com/articles/s41467-018-06213-1"
+        },
+        {
+          "text": "those experiences and integrate them",
+          "href": "https://www.nature.com/articles/s41593-019-0467-3"
+        },
+        {
+          "text": "sleep-time compute",
+          "href": "https://arxiv.org/abs/2504.13171"
+        },
+        {
+          "text": "called",
+          "href": "https://platform.claude.com/docs/en/managed-agents/dreams"
+        },
+        {
+          "text": "dreaming",
+          "href": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+        },
+        {
+          "text": "in-context learning",
+          "href": "https://www.anthropic.com/research/in-context-learning-and-induction-heads"
+        },
+        {
+          "text": "compaction",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/compaction"
+        },
+        {
+          "text": "mark a memory",
+          "href": "https://www.nature.com/articles/385533a0"
+        },
+        {
+          "text": "write",
+          "href": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool"
+        },
+        {
+          "text": "Continual Learning Bench (CL-Bench) 1.0",
+          "href": "https://continual-learning-bench.com/news/cl-bench-1-0/"
+        },
+        {
+          "text": "Claude Managed Agents",
+          "href": "https://platform.claude.com/docs/en/managed-agents/overview"
+        },
+        {
+          "text": "memory directory",
+          "href": "https://platform.claude.com/docs/en/managed-agents/memory"
+        },
+        {
+          "text": "challenges Claude to navigate",
+          "href": "https://www.youtube.com/watch?v=CXhYDOvgpuU"
+        },
+        {
+          "text": "wiki",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+        },
+        {
+          "text": "Harvey LAB",
+          "href": "https://github.com/harveyai/harvey-labs"
+        },
+        {
+          "text": "Claude Code",
+          "href": "https://code.claude.com/docs/en/memory"
+        },
+        {
+          "text": "Claude Duet",
+          "href": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+        },
+        {
+          "text": "getting started with dreaming",
+          "href": "https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow"
+        },
+        {
+          "text": "knowledge wikis",
+          "href": "https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/knowledge-wiki"
+        }
+      ],
+      "word_count": 3627,
+      "duration": 1948.310794,
+      "bytes": 16396189,
+      "episode": 111,
+      "created": "2026-11-07T01:25:51+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg"
     }
   ],
-  "next_episode": 111,
+  "next_episode": 112,
   "baseline_date": "2026-08-14"
 }

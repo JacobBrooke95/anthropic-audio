@@ -7,7 +7,7 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 21:13:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:25:52 +0000</lastBuildDate>
     <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
@@ -181,6 +181,86 @@ Unofficial audio edition, generated automatically. Post content © Anthropic, PB
       <itunes:episode>110</itunes:episode>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-teaching-ai-to-build-scientific-models.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-teaching-ai-to-build-scientific-models.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Research: The components of agent memory</title>
+      <itunes:title>Research: The components of agent memory</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-components-of-agent-memory/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/components-of-agent-memory</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.
+
+Source: https://www.anthropic.com/research/components-of-agent-memory
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• The hippocampus: https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf
+• some experiences: https://www.science.org/doi/10.1126/science.adk8261?referrer=https%3A%2F%2Fwww.google.com%2F
+• rest: https://www.nature.com/articles/s41467-018-06213-1
+• those experiences and integrate them: https://www.nature.com/articles/s41593-019-0467-3
+• sleep-time compute: https://arxiv.org/abs/2504.13171
+• called: https://platform.claude.com/docs/en/managed-agents/dreams
+• dreaming: https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/
+• in-context learning: https://www.anthropic.com/research/in-context-learning-and-induction-heads
+• compaction: https://platform.claude.com/docs/en/build-with-claude/compaction
+• mark a memory: https://www.nature.com/articles/385533a0
+• write: https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool
+• Continual Learning Bench (CL-Bench) 1.0: https://continual-learning-bench.com/news/cl-bench-1-0/
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+• memory directory: https://platform.claude.com/docs/en/managed-agents/memory
+• challenges Claude to navigate: https://www.youtube.com/watch?v=CXhYDOvgpuU
+• wiki: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+• Harvey LAB: https://github.com/harveyai/harvey-labs
+• Claude Code: https://code.claude.com/docs/en/memory
+• Claude Duet: https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+• getting started with dreaming: https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow
+• knowledge wikis: https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/knowledge-wiki
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-components-of-agent-memory/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/components-of-agent-memory">https://www.anthropic.com/research/components-of-agent-memory</a><br/><strong>Published:</strong> November 6, 2026 · Anthropic Research<br/><strong>Length:</strong> 3,627 words · 32 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf">The hippocampus</a></li><li><a href="https://www.science.org/doi/10.1126/science.adk8261?referrer=https%3A%2F%2Fwww.google.com%2F">some experiences</a></li><li><a href="https://www.nature.com/articles/s41467-018-06213-1">rest</a></li><li><a href="https://www.nature.com/articles/s41593-019-0467-3">those experiences and integrate them</a></li><li><a href="https://arxiv.org/abs/2504.13171">sleep-time compute</a></li><li><a href="https://platform.claude.com/docs/en/managed-agents/dreams">called</a></li><li><a href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/">dreaming</a></li><li><a href="https://www.anthropic.com/research/in-context-learning-and-induction-heads">in-context learning</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/compaction">compaction</a></li><li><a href="https://www.nature.com/articles/385533a0">mark a memory</a></li><li><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool">write</a></li><li><a href="https://continual-learning-bench.com/news/cl-bench-1-0/">Continual Learning Bench (CL-Bench) 1.0</a></li><li><a href="https://platform.claude.com/docs/en/managed-agents/overview">Claude Managed Agents</a></li><li><a href="https://platform.claude.com/docs/en/managed-agents/memory">memory directory</a></li><li><a href="https://www.youtube.com/watch?v=CXhYDOvgpuU">challenges Claude to navigate</a></li><li><a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f">wiki</a></li><li><a href="https://github.com/harveyai/harvey-labs">Harvey LAB</a></li><li><a href="https://code.claude.com/docs/en/memory">Claude Code</a></li><li><a href="https://support.claude.com/en/articles/17631495-get-started-with-claude-duet">Claude Duet</a></li><li><a href="https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow">getting started with dreaming</a></li><li><a href="https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/knowledge-wiki">knowledge wikis</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-components-of-agent-memory/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-06-components-of-agent-memory.mp3" length="16396189" type="audio/mpeg"/>
+      <itunes:duration>1948</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-06-components-of-agent-memory.jpg?v=31926ee0"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-components-of-agent-memory.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-06-components-of-agent-memory.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.</itunes:subtitle>
+      <itunes:summary>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.
+
+Source: https://www.anthropic.com/research/components-of-agent-memory
+Published November 6, 2026 · Anthropic Research
+
+Links referenced in the post:
+• The hippocampus: https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf
+• some experiences: https://www.science.org/doi/10.1126/science.adk8261?referrer=https%3A%2F%2Fwww.google.com%2F
+• rest: https://www.nature.com/articles/s41467-018-06213-1
+• those experiences and integrate them: https://www.nature.com/articles/s41593-019-0467-3
+• sleep-time compute: https://arxiv.org/abs/2504.13171
+• called: https://platform.claude.com/docs/en/managed-agents/dreams
+• dreaming: https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/
+• in-context learning: https://www.anthropic.com/research/in-context-learning-and-induction-heads
+• compaction: https://platform.claude.com/docs/en/build-with-claude/compaction
+• mark a memory: https://www.nature.com/articles/385533a0
+• write: https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool
+• Continual Learning Bench (CL-Bench) 1.0: https://continual-learning-bench.com/news/cl-bench-1-0/
+• Claude Managed Agents: https://platform.claude.com/docs/en/managed-agents/overview
+• memory directory: https://platform.claude.com/docs/en/managed-agents/memory
+• challenges Claude to navigate: https://www.youtube.com/watch?v=CXhYDOvgpuU
+• wiki: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+• Harvey LAB: https://github.com/harveyai/harvey-labs
+• Claude Code: https://code.claude.com/docs/en/memory
+• Claude Duet: https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+• getting started with dreaming: https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow
+• knowledge wikis: https://github.com/anthropics/claude-quickstarts/tree/main/managed-agents/knowledge-wiki
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-06-components-of-agent-memory/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>111</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-components-of-agent-memory.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-06-components-of-agent-memory.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Research: AI for scientific discovery : How researchers use Claude</title>

@@ -1,0 +1,53 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 163.4,
+   "title": "Memory notes"
+  },
+  {
+   "startTime": 251.88,
+   "title": "Memory can be a prediction about what the future will need"
+  },
+  {
+   "startTime": 454.7,
+   "title": "Claude has learned to judge salience"
+  },
+  {
+   "startTime": 690.71,
+   "title": "Steering Claude to write memory"
+  },
+  {
+   "startTime": 847.91,
+   "title": "Dreaming can correct memory"
+  },
+  {
+   "startTime": 1073.18,
+   "title": "Dreaming can build new memory representations"
+  },
+  {
+   "startTime": 1466.92,
+   "title": "Dreaming can promote notes up the memory hierarchy"
+  },
+  {
+   "startTime": 1568.54,
+   "title": "Dreaming can focus memory on a specific goal"
+  },
+  {
+   "startTime": 1730.51,
+   "title": "Dreaming can fill in gaps a session leaves behind"
+  },
+  {
+   "startTime": 1802.08,
+   "title": "Thinking backward, looking forward"
+  },
+  {
+   "startTime": 1927.77,
+   "title": "Outro"
+  }
+ ]
+}
