@@ -5515,6 +5515,14 @@
       "updated": "2026-11-10T00:03:06+00:00",
       "slug": "research-2026-11-09-claude-electronics-design",
       "episode": 112
+    },
+    "https://www.anthropic.com/news/roadshow-launch": {
+      "first_seen": "2026-11-10T21:19:13+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-10T21:19:13+00:00",
+      "slug": "news-2026-11-10-roadshow-launch",
+      "episode": 113
     }
   },
   "episodes": [
@@ -12159,8 +12167,25 @@
       "episode": 112,
       "created": "2026-11-10T00:03:06+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b953cc611ebe78f0b84e996dd54a614efd38b3f4-2000x1125.jpg"
+    },
+    {
+      "slug": "news-2026-11-10-roadshow-launch",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "news",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "subtitle": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "date": "2026-11-10T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [],
+      "word_count": 290,
+      "duration": 184.753061,
+      "bytes": 2255657,
+      "episode": 113,
+      "created": "2026-11-10T21:19:13+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
-  "next_episode": 113,
+  "next_episode": 114,
   "baseline_date": "2026-08-14"
 }

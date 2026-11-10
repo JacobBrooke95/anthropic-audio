@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 00:03:07 +0000</lastBuildDate>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 21:19:14 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,40 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>News: Anthropic launches roadshow for proposed initial public offering</title>
+      <itunes:title>News: Anthropic launches roadshow for proposed initial public offering</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-11-10-roadshow-launch/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/roadshow-launch</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.
+
+Source: https://www.anthropic.com/news/roadshow-launch
+Published November 10, 2026 · Anthropic Newsroom
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-11-10-roadshow-launch/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/news/roadshow-launch">https://www.anthropic.com/news/roadshow-launch</a><br/><strong>Published:</strong> November 10, 2026 · Anthropic Newsroom<br/><strong>Length:</strong> 290 words · 3 min</p><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-11-10-roadshow-launch/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/news-2026-11-10-roadshow-launch.mp3" length="2255657" type="audio/mpeg"/>
+      <itunes:duration>185</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/news-2026-11-10-roadshow-launch.jpg?v=87fd51c5"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-11-10-roadshow-launch.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/news-2026-11-10-roadshow-launch.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</itunes:subtitle>
+      <itunes:summary>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.
+
+Source: https://www.anthropic.com/news/roadshow-launch
+Published November 10, 2026 · Anthropic Newsroom
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/news-2026-11-10-roadshow-launch/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>113</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-11-10-roadshow-launch.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/news-2026-11-10-roadshow-launch.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Testing Claude on real-world electronics design</title>
       <itunes:title>Research: Testing Claude on real-world electronics design</itunes:title>
