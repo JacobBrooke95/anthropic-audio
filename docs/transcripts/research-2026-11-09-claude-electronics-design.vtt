@@ -1,0 +1,329 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:07.815
+This is Anthropic, Read Aloud. Today: Testing Claude on real-world electronics design.
+
+2
+00:00:09.115 --> 00:00:12.064
+Testing Claude on real-world electronics design.
+
+3
+00:00:12.514 --> 00:00:23.792
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+
+4
+00:00:24.242 --> 00:00:28.671
+From Anthropic Research, published November 9, 2026.
+
+5
+00:00:29.671 --> 00:00:49.538
+A little over a year ago, we began testing how well Claude could design basic electronic circuits. We collaborated with Diode Computers, 1 a company that designs and manufactures circuit boards, to train Claude on simple tasks, for example, on reading a chip’s datasheet and working out which parts a chip needs in order to run.
+
+6
+00:00:49.658 --> 00:01:03.994
+The models we experimented with back then couldn’t reliably lay out a circuit board; they also struggled to design components that fit together. Now, Claude can both design and prototype electronic hardware from start to finish.
+
+7
+00:01:04.444 --> 00:01:10.716
+Engineering an electronic device requires working through many complex steps and practical constraints.
+
+8
+00:01:10.836 --> 00:01:27.252
+You have to not only design and simulate a circuit board, but also reason about the board’s physical layout and how it will behave, model the mechanical components, and write firmware, all while keeping track of which parts are readily available and what a factory is set up to build.
+
+9
+00:01:27.702 --> 00:01:29.520
+Figure 1: Video thumbnail.
+
+10
+00:01:29.970 --> 00:01:45.315
+To see how newer Claude models have improved in this area, we collaborated with Diode again, this time asking Claude Fable 5.2 to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet.
+
+11
+00:01:45.435 --> 00:02:08.304
+With minimal prompting, Claude was able to use geometric reasoning to lay out each circuit board, anticipate manufacturing constraints, and make sure its designs would work within them. It revised its own work, modeled its designs in computer-aided design (CAD) software, and, finally, directed human engineers to build prototypes that worked without any fixes to their circuitry.
+
+12
+00:02:08.754 --> 00:02:17.181
+For each design, we began by giving Claude a simple prompt that outlined what kind of device to build and its main hardware requirements.
+
+13
+00:02:17.301 --> 00:02:38.189
+The prompt for the speakerphone, for example, asked for “a puck that plugs into a computer over USB-C and includes microphones and a speaker, supporting Bluetooth with a PCB antenna.” Claude proceeded to write the device’s specifications, draw clean visual schematics, choose where to place the components on a printed circuit board (PCB),
+
+14
+00:02:38.309 --> 00:02:45.682
+route the copper connections between them, design a 3D-printable enclosure, code the firmware, and prepare a parts list.
+
+15
+00:02:45.802 --> 00:02:56.037
+Diode assembled the circuit boards and ran the firmware, under Claude’s direction. The final result was a prototype of a speakerphone that still works after weeks of use.
+
+16
+00:02:56.487 --> 00:03:13.329
+Claude went through a similar process to build the voice-assistant hub and the virtual pet, and both are also still in good working order. Because the devices are early prototypes, we don’t yet know how they’ll hold up with continued use or whether they would pass commercial certifications.
+
+17
+00:03:13.779 --> 00:03:29.234
+Figure 2: The three devices built from Claude’s designs, from left to right: a battery-powered handheld pet, a home voice-assistant hub, and a USB speakerphone. Claude engineered the electronics and the enclosures and wrote firmware for each one.
+
+18
+00:03:29.354 --> 00:03:40.255
+Image description: Three small electronic devices on a wooden table: a handheld virtual pet, a dark voice-assistant hub, and a round white USB speakerphone.
+
+19
+00:03:41.055 --> 00:03:43.306
+Reasoning through geometric problems.
+
+20
+00:03:43.756 --> 00:04:01.207
+The most substantial difference between Fable 5.2 and the models we used in our earlier tests was in how well Fable 5.2 reasoned through complex geometric problems, such as where to place components on a circuit board and how to route the copper connections between them.
+
+21
+00:04:01.657 --> 00:04:18.400
+Earlier models had struggled to decide how to arrange basic components, placing supporting parts too far from the chips they served, for example, or orienting connectors incorrectly. Fable 5.2, by contrast, produced more compact, practical layouts.
+
+22
+00:04:18.520 --> 00:04:37.894
+It routed the most important connections first: those that carry high-speed signals or high currents, or that are sensitive to noise. For example, for the voice-assistant hub, Claude started by routing the USB and Ethernet connections, which transmit signals along pairs of tracks, thin strips of copper on the board.
+
+23
+00:04:38.014 --> 00:04:55.290
+It routed one pair of tracks at a time, keeping the two tracks in each pair the same length and correctly spaced. It also added tuning patterns, small zigzags that lengthen a track so that signals arrive at the same time, and arranged the parts of the power supply to make it more efficient.
+
+24
+00:04:55.740 --> 00:05:20.715
+To demonstrate how much better Fable 5.2 is than earlier models at laying out circuit boards, we asked Diode to run PCB Gym, an internal benchmark that scores models based on how well they can place components and reroute connections on board designs whose layouts have been removed. Fable 5.2 scored 69 percent on the benchmark, compared with 25 percent for Fable 5 (Figure 2).
+
+25
+00:05:20.835 --> 00:05:41.130
+It also performed better on BenchCAD 2.1, a public benchmark that tests whether models can rebuild 3D parts, assemblies, and circuit boards from engineering drawings and rendered images. Fable 5.2 scored 83.5 percent, nearly double the score of its predecessor, Claude Fable 5.1.
+
+26
+00:05:41.580 --> 00:06:03.468
+Figure 3: Scores plotted against total A P I cost for recent frontier models on Diode PCB Gym, a benchmark that instructs models to place components and route connections on circuit boards whose layouts have been removed. Image description: Scatter plot of Diode PCB Gym score against total A P I cost for recent frontier models.
+
+27
+00:06:04.268 --> 00:06:05.531
+Revising designs.
+
+28
+00:06:05.981 --> 00:06:24.410
+Earlier models rarely revised their own work when designing PCB layouts, even when it became clear that their placement choices would never let them finish routing the connections. Over the past year, Diode designed many boards with these models that were 95 percent complete but still unusable.
+
+29
+00:06:24.860 --> 00:06:39.921
+When Claude noticed one of its designs wasn’t working, it would change course without being prompted to do so. For instance, when designing the speakerphone’s circuit board, which has four layers of copper, it reassigned signals to different pins on two of the chips.
+
+30
+00:06:40.041 --> 00:07:00.006
+This allowed the tracks under the speakerphone’s touch-sensitive controls to stay on a single layer without crossing one another. Later, when the back of the board became too crowded, Claude swapped the signals on interchangeable pins and laid out a whole corner of the board again, rather than patching the problem with extra jumps between layers.
+
+31
+00:07:00.456 --> 00:07:19.569
+And when placing tracks in its design file for the voice-assistant hub, Claude noticed that the copper connections were “getting too tangled to trace visually” and reasoned, “I should just rip these traces [tracks] and start fresh.” It proceeded to delete and reroute copper connections dozens of times until it found an arrangement that worked.
+
+32
+00:07:20.019 --> 00:07:40.819
+Figure 4: The routing for the voice-assistant hub before and after Claude reorganized the connections. Left: the microphone’s power track (blue lines) loops around the ground ring at the sound port, a front-side track (red) crosses the ring, and a via, a small hole that connects layers of copper, is placed between the microphone’s pads.
+
+33
+00:07:40.939 --> 00:08:00.289
+Right: the same area after Claude rerouted the power track, with the ring clear and grounded. Claude’s reasoning for redoing the version on the left: “That’s risky placement under a bottom-port MEMS mic, even if clearance is technically fine, so I want to redo the local routing cleanly for both identical mic footprints.”.
+
+34
+00:08:00.409 --> 00:08:14.878
+Image description: Two close-up views of microphone routing on the hub circuit board. On the left, a blue power track loops around the ground ring and a red track crosses it; on the right, the same area after rerouting, with the ring clear.
+
+35
+00:08:15.678 --> 00:08:17.901
+Using software and documentation.
+
+36
+00:08:18.351 --> 00:08:28.992
+When a design decision for one of the devices depended on the details of a particular part, Claude often checked that part’s datasheet, a technical document published by the manufacturer.
+
+37
+00:08:29.112 --> 00:08:45.400
+When asked whether the handheld pet would work without a battery, Claude read the charger’s datasheet and answered that it would run on USB power but predicted that the charging light would flicker, because the charger keeps recharging a small capacitor in the battery’s place. 2
+
+38
+00:08:45.850 --> 00:09:04.175
+To route the connections on the voice-assistant hub, Claude started with the design software Diode provided, which let it run the router (a tool for drawing tracks) built into KiCad, a widely used circuit board design program. KiCad’s router drew one track at a time between two points Claude chose.
+
+39
+00:09:04.295 --> 00:09:13.426
+But the hub had long tracks running from a 100-pin connector, and Claude judged that routing these one by one would take too much step-by-step guidance.
+
+40
+00:09:13.876 --> 00:09:27.700
+Instead, Claude wrote its own router: an algorithm that divides the board into a grid and searches it to find a clear path for each track. Within about half an hour, Claude had a router that could lay each long track in roughly a second.
+
+41
+00:09:27.820 --> 00:09:36.439
+When Claude spotted an audio clock track running too close to the Ethernet tracks, it adjusted the router to leave more room around sensitive tracks.
+
+42
+00:09:37.239 --> 00:09:40.033
+Keeping track of constraints and downstream effects.
+
+43
+00:09:40.483 --> 00:09:56.030
+Decisions made in one part of a design have downstream effects, which Claude kept track of. While designing each device’s enclosure, it wrote code to check that a 3D model of the circuit board would fit inside the enclosure without any components colliding.
+
+44
+00:09:56.150 --> 00:10:14.962
+For example, it found that the speakerphone’s board couldn’t be lowered straight into the enclosure, because the mute switch would hit the back wall. Claude worked out that the board would fit if it was tilted by about 25 degrees during installation. It tested this in its 3D model and added the step to the assembly instructions.
+
+45
+00:10:15.412 --> 00:10:35.825
+When designing the enclosure for the voice-assistant hub, Claude calculated that a 25 mm-long microphone port, the opening that lets sound reach the microphone, would resonate near 3.4 kHz. That is “right in the voice band,” it reasoned, “which is not ideal though still usable for voice assistant purposes.
+
+46
+00:10:35.945 --> 00:10:52.436
+A better approach is a wedge-shaped enclosure that’s tall at the rear and steps down low at the front.” The wedge shape shortened the ports to about 10 mm, which raised the resonant frequency to about 8.9 kHz, at the very edge of the range used for speech.
+
+47
+00:10:52.556 --> 00:11:04.834
+Claude also wrote firmware for the speakerphone that dims its ring of LED lights as the audio becomes louder, to keep the device under the electrical current limit Claude had designed into the board.
+
+48
+00:11:05.284 --> 00:11:27.394
+Figure 5: Claude’s designs for the home voice-assistant hub and the finished prototype. Claude wrote the code that modeled the case in CAD, laid out the circuit board, and wrote the firmware. Image description: Claude’s design for the voice-assistant hub, showing the schematic, the circuit board layout, a model of the wedge-shaped enclosure, and the finished dark prototype.
+
+49
+00:11:28.194 --> 00:11:30.452
+Designing for real-world manufacturing.
+
+50
+00:11:30.902 --> 00:11:40.921
+In electronics design, engineers have to work within the constraints of the real world. That is, they have to make sure a factory can actually make the thing they want to build.
+
+51
+00:11:41.041 --> 00:11:56.589
+They do this by running two kinds of checks: design-for-manufacturing (DFM) checks, which compare a circuit board’s geometry with the factory’s manufacturing limits, and sourcing checks, which confirm that their distributors have the parts in stock.
+
+52
+00:11:57.039 --> 00:12:18.170
+Claude ran these checks itself and sorted the results into problems that needed fixing and flags it could ignore. Its checks for the voice-assistant hub flagged six slivers of solder mask (the protective coating on a circuit board) as too thin to manufacture. Claude fixed them by widening the openings in the solder mask, without moving any parts.
+
+53
+00:12:18.290 --> 00:12:34.534
+The checks also flagged a connection between two grounds (shared return paths for electrical current) as an error, because the automated checker hadn’t recognized that the connection was deliberate. Claude correctly reasoned that it wouldn’t affect performance and ignored the flag.
+
+54
+00:12:34.985 --> 00:12:52.736
+Diode manufactured all three boards directly from Claude’s design files, without any back-and-forth over adjustments. Factories and engineers often have to work through multiple rounds of manufacturing changes, and the Diode team told us they were surprised that they didn’t have to do this with Claude.
+
+55
+00:12:53.186 --> 00:13:09.728
+Figure 6: The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode.
+
+56
+00:13:09.848 --> 00:13:29.671
+To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
+
+57
+00:13:29.791 --> 00:13:35.328
+Image description: Speakerphone circuit board, layer 1 (front): parts and signal tracks.
+
+58
+00:13:35.778 --> 00:13:52.246
+Figure 7: The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode.
+
+59
+00:13:52.366 --> 00:14:12.189
+To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
+
+60
+00:14:12.309 --> 00:14:17.292
+Image description: Speakerphone circuit board, layer 2 (inner 1): ground plane.
+
+61
+00:14:17.742 --> 00:14:34.211
+Figure 8: The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode.
+
+62
+00:14:34.331 --> 00:14:54.155
+To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
+
+63
+00:14:54.275 --> 00:15:01.181
+Image description: Speakerphone circuit board, layer 3 (inner 2): ground, hatched under the touch wheel, and power.
+
+64
+00:15:01.631 --> 00:15:18.173
+Figure 9: The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode.
+
+65
+00:15:18.293 --> 00:15:38.116
+To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
+
+66
+00:15:38.236 --> 00:15:43.823
+Image description: Speakerphone circuit board, layer 4 (back): the touch wheel's electrodes.
+
+67
+00:15:44.273 --> 00:16:02.663
+Figure 10: The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
+
+68
+00:16:02.783 --> 00:16:10.172
+Image description: Voice-assistant hub circuit board, layer 1 (front): parts and signals, with ground poured between them.
+
+69
+00:16:10.622 --> 00:16:28.883
+Figure 11: The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
+
+70
+00:16:29.003 --> 00:16:36.465
+Image description: Voice-assistant hub circuit board, layer 2 (inner 1): solid ground under the front-side signals.
+
+71
+00:16:36.915 --> 00:16:55.280
+Figure 12: The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
+
+72
+00:16:55.400 --> 00:17:04.983
+Image description: Voice-assistant hub circuit board, layer 3 (inner 2): 5 V and 3.3 V power, with two areas of ground in green.
+
+73
+00:17:05.433 --> 00:17:23.902
+Figure 13: The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
+
+74
+00:17:24.022 --> 00:17:31.203
+Image description: Voice-assistant hub circuit board, layer 4 (back): signals and ground; the microphones' side.
+
+75
+00:17:31.653 --> 00:17:49.486
+Figure 14: The speakerphone’s circuit board can’t be lowered straight into the enclosure, because the mute switch’s knob would hit the back wall (red). Claude worked out how to install the board by tilting it about 25 degrees and then swinging it flat, and added this step to the assembly instructions.
+
+76
+00:17:49.606 --> 00:18:03.050
+Image description: Cutaway drawing of the speakerphone enclosure showing the circuit board tilted at about 25 degrees as it is installed, with the point where the mute switch knob would meet the back wall marked in red.
+
+77
+00:18:03.850 --> 00:18:05.548
+Limitations and next steps.
+
+78
+00:18:05.998 --> 00:18:27.735
+All three of these devices are still prototypes: they haven’t been through electrical validation, antenna tuning, thermal testing, or certification, and they weren’t designed for mass production. Since Claude wasn’t connected to test equipment or to the machines that make and assemble circuit boards, engineers at Diode had to physically build and test the prototypes.
+
+79
+00:18:27.855 --> 00:18:49.679
+Even so, over the past year, Claude has improved substantially at reasoning through decisions about component placement and routing, and it can now design electronics with minimal human guidance and help people build the prototypes. Other models are making progress here, too: OpenAI recently wrote about using its models to design a handheld device.
+
+80
+00:18:49.799 --> 00:18:54.352
+Work like this could help engineers build and test new hardware designs faster.
+
+81
+00:18:54.802 --> 00:19:06.036
+Next, we plan to investigate whether Claude can design denser, faster, and more complex boards, check them in simulation, and learn from measurements taken on the finished devices.
+
+82
+00:19:07.036 --> 00:19:24.774
+That was Testing Claude on real-world electronics design, from Anthropic Research, published November 9, 2026. Read the original at anthropic dot com. This unofficial audio edition was generated automatically for the podcast Anthropic, Read Aloud.

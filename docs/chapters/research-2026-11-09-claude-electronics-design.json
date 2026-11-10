@@ -1,0 +1,37 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 221.05,
+   "title": "Reasoning through geometric problems"
+  },
+  {
+   "startTime": 364.27,
+   "title": "Revising designs"
+  },
+  {
+   "startTime": 495.68,
+   "title": "Using software and documentation"
+  },
+  {
+   "startTime": 577.24,
+   "title": "Keeping track of constraints and downstream effects"
+  },
+  {
+   "startTime": 688.19,
+   "title": "Designing for real-world manufacturing"
+  },
+  {
+   "startTime": 1083.85,
+   "title": "Limitations and next steps"
+  },
+  {
+   "startTime": 1147.04,
+   "title": "Outro"
+  }
+ ]
+}

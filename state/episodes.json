@@ -5507,6 +5507,14 @@
       "updated": "2026-11-07T01:25:51+00:00",
       "slug": "research-2026-11-06-components-of-agent-memory",
       "episode": 111
+    },
+    "https://www.anthropic.com/research/claude-electronics-design": {
+      "first_seen": "2026-11-10T00:03:06+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-10T00:03:06+00:00",
+      "slug": "research-2026-11-09-claude-electronics-design",
+      "episode": 112
     }
   },
   "episodes": [
@@ -12121,8 +12129,38 @@
       "episode": 111,
       "created": "2026-11-07T01:25:51+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg"
+    },
+    {
+      "slug": "research-2026-11-09-claude-electronics-design",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "source": "research",
+      "title": "Testing Claude on real-world electronics design",
+      "subtitle": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+      "date": "2026-11-09T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "collaborated with Diode Computers",
+          "href": "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer"
+        },
+        {
+          "text": "BenchCAD 2.1",
+          "href": "https://github.com/BenchCAD-org/benchcad-2-main/releases/tag/v2.1"
+        },
+        {
+          "text": "wrote about using its models",
+          "href": "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+        }
+      ],
+      "word_count": 1745,
+      "duration": 1168.723673,
+      "bytes": 10026954,
+      "episode": 112,
+      "created": "2026-11-10T00:03:06+00:00",
+      "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b953cc611ebe78f0b84e996dd54a614efd38b3f4-2000x1125.jpg"
     }
   ],
-  "next_episode": 112,
+  "next_episode": 113,
   "baseline_date": "2026-08-14"
 }
