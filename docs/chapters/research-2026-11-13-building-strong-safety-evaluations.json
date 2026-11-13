@@ -1,0 +1,93 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 198.92,
+   "title": "Safety first"
+  },
+  {
+   "startTime": 200.76,
+   "title": "Build a team with the right skills"
+  },
+  {
+   "startTime": 262.71,
+   "title": "Run evals safely"
+  },
+  {
+   "startTime": 316.31,
+   "title": "Design"
+  },
+  {
+   "startTime": 317.8,
+   "title": "Match the design to the question"
+  },
+  {
+   "startTime": 382.9,
+   "title": "Measure what you mean to measure"
+  },
+  {
+   "startTime": 667.15,
+   "title": "Make sure the results generalize"
+  },
+  {
+   "startTime": 687.25,
+   "title": "Capture nuance via multi-turn simulations"
+  },
+  {
+   "startTime": 766.33,
+   "title": "Design scenarios that model a range of conditions"
+  },
+  {
+   "startTime": 1055.03,
+   "title": "Take real-world interaction patterns into account"
+  },
+  {
+   "startTime": 1149.09,
+   "title": "Run"
+  },
+  {
+   "startTime": 1150.42,
+   "title": "Keep measures internally valid"
+  },
+  {
+   "startTime": 1170.22,
+   "title": "Don’t make it too easy (or too hard) for models to pass"
+  },
+  {
+   "startTime": 1295.11,
+   "title": "Carefully calibrate your grader"
+  },
+  {
+   "startTime": 1653.44,
+   "title": "Preregister"
+  },
+  {
+   "startTime": 1722.4,
+   "title": "Report"
+  },
+  {
+   "startTime": 1723.97,
+   "title": "Report statistics fully"
+  },
+  {
+   "startTime": 1831.86,
+   "title": "Document everything"
+  },
+  {
+   "startTime": 1942.72,
+   "title": "Disclose flaws responsibly"
+  },
+  {
+   "startTime": 2037.63,
+   "title": "Where to start"
+  },
+  {
+   "startTime": 2076.81,
+   "title": "Outro"
+  }
+ ]
+}

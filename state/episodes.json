@@ -5523,6 +5523,14 @@
       "updated": "2026-11-10T21:19:13+00:00",
       "slug": "news-2026-11-10-roadshow-launch",
       "episode": 113
+    },
+    "https://www.anthropic.com/research/building-strong-safety-evaluations": {
+      "first_seen": "2026-11-13T21:38:54+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-13T21:38:54+00:00",
+      "slug": "research-2026-11-13-building-strong-safety-evaluations",
+      "episode": 114
     }
   },
   "episodes": [
@@ -12184,8 +12192,110 @@
       "episode": 113,
       "created": "2026-11-10T21:19:13+00:00",
       "hero": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "slug": "research-2026-11-13-building-strong-safety-evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "source": "research",
+      "title": "Building strong safety evaluations",
+      "subtitle": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+      "date": "2026-11-13T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "easy to",
+          "href": "https://arxiv.org/abs/2504.20879"
+        },
+        {
+          "text": "game",
+          "href": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f316275b44ee2de533102913828a8107-Paper-Datasets_and_Benchmarks_Track.pdf"
+        },
+        {
+          "text": "documented well enough to reproduce",
+          "href": "https://arxiv.org/abs/2411.12990"
+        },
+        {
+          "text": "multiple-choice or open-ended",
+          "href": "https://arxiv.org/abs/2402.16786"
+        },
+        {
+          "text": "how answer options are ordered",
+          "href": "https://arxiv.org/abs/2306.07951"
+        },
+        {
+          "text": "large-scale replication projects",
+          "href": "https://doi.org/10.1126/science.aac4716"
+        },
+        {
+          "text": "building evals at Anthropic",
+          "href": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+        },
+        {
+          "text": "system cards",
+          "href": "https://www.anthropic.com/system-cards"
+        },
+        {
+          "text": "unintended actions",
+          "href": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+        },
+        {
+          "text": "our own incidents",
+          "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+        },
+        {
+          "text": "hardened our evaluation environments",
+          "href": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        },
+        {
+          "text": "construct validity",
+          "href": "https://arxiv.org/abs/2511.04703"
+        },
+        {
+          "text": "points them toward human support",
+          "href": "https://www.anthropic.com/news/protecting-well-being-of-users"
+        },
+        {
+          "text": "multi-turn evaluations for suicide and self-harm",
+          "href": "https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "text": "one audit of a leading coding benchmark",
+          "href": "https://openai.com/index/introducing-swe-bench-verified/"
+        },
+        {
+          "text": "recognize and favor their own outputs",
+          "href": "https://arxiv.org/abs/2404.13076"
+        },
+        {
+          "text": "favor longer responses",
+          "href": "https://arxiv.org/abs/2306.05685"
+        },
+        {
+          "text": "paired comparisons",
+          "href": "https://www.anthropic.com/research/statistical-approach-to-model-evals"
+        },
+        {
+          "text": "Inspect framework",
+          "href": "https://inspect.aisi.org.uk/"
+        },
+        {
+          "text": "Petri toolkit",
+          "href": "https://www.anthropic.com/research/petri-open-source-auditing"
+        },
+        {
+          "text": "responsible disclosure",
+          "href": "https://www.anthropic.com/responsible-disclosure-policy"
+        }
+      ],
+      "word_count": 4511,
+      "duration": 2097.927506,
+      "bytes": 17627503,
+      "episode": 114,
+      "created": "2026-11-13T21:38:54+00:00",
+      "hero": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg"
     }
   ],
-  "next_episode": 114,
+  "next_episode": 115,
   "baseline_date": "2026-08-14"
 }
