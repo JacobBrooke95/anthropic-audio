@@ -82,3 +82,14 @@ docs/
 ```
 
 Slug = `<source>-<YYYY-MM-DD>-<post-path>`; episode GUID = the original post URL.
+
+## Moving to a new Mac
+
+The voice models are not in git. `models/kokoro-v1.0.int8.onnx` and `models/voices-v1.0.bin` (about 120 MB together) must be downloaded again on the new machine, and the virtual environment rebuilt:
+
+```bash
+uv sync
+bash scripts/fetch-models.sh
+```
+
+The hosted pipeline (GitHub Actions) fetches its own copy and is not affected. Anything that borrows this checkout for local speech, such as Loophouse Radio, which uses this folder’s `.venv` and `models/`, will not synthesize until both steps are done. Added 2026-11-14 ahead of the M1 to M6 iMac move.
