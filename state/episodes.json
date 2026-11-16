@@ -5531,6 +5531,14 @@
       "updated": "2026-11-13T21:38:54+00:00",
       "slug": "research-2026-11-13-building-strong-safety-evaluations",
       "episode": 114
+    },
+    "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": {
+      "first_seen": "2026-11-16T23:48:23+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-16T23:48:23+00:00",
+      "slug": "research-2026-11-16-coordinated-vulnerability-disclosure-timelines",
+      "episode": 115
     }
   },
   "episodes": [
@@ -12294,8 +12302,46 @@
       "episode": 114,
       "created": "2026-11-13T21:38:54+00:00",
       "hero": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg"
+    },
+    {
+      "slug": "research-2026-11-16-coordinated-vulnerability-disclosure-timelines",
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "source": "research",
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "subtitle": "We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
+      "date": "2026-11-16T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "discovering vulnerabilities",
+          "href": "https://red.anthropic.com/2026/cvd/"
+        },
+        {
+          "text": "coordinated vulnerability disclosure (CVD) policy",
+          "href": "https://www.anthropic.com/coordinated-vulnerability-disclosure"
+        },
+        {
+          "text": "OSS Scanner",
+          "href": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        },
+        {
+          "text": "Claude for Open Source Program",
+          "href": "https://claude.com/contact-sales/claude-for-oss"
+        },
+        {
+          "text": "Cyber Verification Program",
+          "href": "https://www.anthropic.com/news/cyber-verification-program"
+        }
+      ],
+      "word_count": 610,
+      "duration": 305.321519,
+      "bytes": 3296023,
+      "episode": 115,
+      "created": "2026-11-16T23:48:23+00:00",
+      "hero": "https://assets.claude.com/87317c13cd86cd0b62244c430e91d0bb13b920a1.jpg"
     }
   ],
-  "next_episode": 115,
+  "next_episode": 116,
   "baseline_date": "2026-08-14"
 }

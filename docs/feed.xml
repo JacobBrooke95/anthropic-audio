@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 21:38:55 +0000</lastBuildDate>
-    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2026 23:48:23 +0000</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,54 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Updating our coordinated vulnerability disclosure policy timelines</title>
+      <itunes:title>Research: Updating our coordinated vulnerability disclosure policy timelines</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-16-coordinated-vulnerability-disclosure-timelines/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.
+
+Source: https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines
+Published November 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• discovering vulnerabilities: https://red.anthropic.com/2026/cvd/
+• coordinated vulnerability disclosure (CVD) policy: https://www.anthropic.com/coordinated-vulnerability-disclosure
+• OSS Scanner: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+• Claude for Open Source Program: https://claude.com/contact-sales/claude-for-oss
+• Cyber Verification Program: https://www.anthropic.com/news/cyber-verification-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-16-coordinated-vulnerability-disclosure-timelines/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines">https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</a><br/><strong>Published:</strong> November 16, 2026 · Anthropic Research<br/><strong>Length:</strong> 610 words · 5 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://red.anthropic.com/2026/cvd/">discovering vulnerabilities</a></li><li><a href="https://www.anthropic.com/coordinated-vulnerability-disclosure">coordinated vulnerability disclosure (CVD) policy</a></li><li><a href="https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source">OSS Scanner</a></li><li><a href="https://claude.com/contact-sales/claude-for-oss">Claude for Open Source Program</a></li><li><a href="https://www.anthropic.com/news/cyber-verification-program">Cyber Verification Program</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-16-coordinated-vulnerability-disclosure-timelines/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.mp3" length="3296023" type="audio/mpeg"/>
+      <itunes:duration>305</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.jpg?v=ee0697b7"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.</itunes:subtitle>
+      <itunes:summary>We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.
+
+Source: https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines
+Published November 16, 2026 · Anthropic Research
+
+Links referenced in the post:
+• discovering vulnerabilities: https://red.anthropic.com/2026/cvd/
+• coordinated vulnerability disclosure (CVD) policy: https://www.anthropic.com/coordinated-vulnerability-disclosure
+• OSS Scanner: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+• Claude for Open Source Program: https://claude.com/contact-sales/claude-for-oss
+• Cyber Verification Program: https://www.anthropic.com/news/cyber-verification-program
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-16-coordinated-vulnerability-disclosure-timelines/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>115</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-16-coordinated-vulnerability-disclosure-timelines.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Building strong safety evaluations</title>
       <itunes:title>Research: Building strong safety evaluations</itunes:title>
