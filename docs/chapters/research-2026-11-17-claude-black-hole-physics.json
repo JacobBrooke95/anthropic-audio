@@ -1,0 +1,33 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 73.07,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 371.01,
+   "title": "A note about Claude’s methods"
+  },
+  {
+   "startTime": 492.27,
+   "title": "The Hawking-Page transition"
+  },
+  {
+   "startTime": 1196.61,
+   "title": "The modular bootstrap"
+  },
+  {
+   "startTime": 1866.86,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 1908.09,
+   "title": "Outro"
+  }
+ ]
+}

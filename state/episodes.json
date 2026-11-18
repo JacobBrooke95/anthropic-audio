@@ -5539,6 +5539,14 @@
       "updated": "2026-11-16T23:48:23+00:00",
       "slug": "research-2026-11-16-coordinated-vulnerability-disclosure-timelines",
       "episode": 115
+    },
+    "https://www.anthropic.com/research/claude-black-hole-physics": {
+      "first_seen": "2026-11-18T23:04:39+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-18T23:04:39+00:00",
+      "slug": "research-2026-11-17-claude-black-hole-physics",
+      "episode": 116
     }
   },
   "episodes": [
@@ -12340,8 +12348,62 @@
       "episode": 115,
       "created": "2026-11-16T23:48:23+00:00",
       "hero": "https://assets.claude.com/87317c13cd86cd0b62244c430e91d0bb13b920a1.jpg"
+    },
+    {
+      "slug": "research-2026-11-17-claude-black-hole-physics",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "source": "research",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "subtitle": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+      "date": "2026-11-17T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "here",
+          "href": "https://hexagonmath.org/2611.00175v1"
+        },
+        {
+          "text": "here",
+          "href": "https://hexagonmath.org/2611.00174v1"
+        },
+        {
+          "text": "set out the calculation that would settle the question",
+          "href": "https://arxiv.org/abs/hep-th/0310285"
+        },
+        {
+          "text": "recently proved by an OpenAI model",
+          "href": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+        },
+        {
+          "text": "to a new level of precision",
+          "href": "https://www.anthropic.com/news/yes-claude-can-do-nine-loops"
+        },
+        {
+          "text": "3D critical Ising model",
+          "href": "https://arxiv.org/abs/1203.6064"
+        },
+        {
+          "text": "modular bootstrap",
+          "href": "https://arxiv.org/abs/0902.2790"
+        },
+        {
+          "text": "results",
+          "href": "https://arxiv.org/abs/1903.06272"
+        },
+        {
+          "text": "ceiling",
+          "href": "https://arxiv.org/abs/1905.01319"
+        }
+      ],
+      "word_count": 4638,
+      "duration": 1930.781519,
+      "bytes": 16176562,
+      "episode": 116,
+      "created": "2026-11-18T23:04:39+00:00",
+      "hero": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg"
     }
   ],
-  "next_episode": 116,
+  "next_episode": 117,
   "baseline_date": "2026-08-14"
 }

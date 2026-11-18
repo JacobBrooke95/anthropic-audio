@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 23:48:23 +0000</lastBuildDate>
-    <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2026 23:04:40 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,62 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Claude solves two open problems in the physics of black holes</title>
+      <itunes:title>Research: Claude solves two open problems in the physics of black holes</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-17-claude-black-hole-physics/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-black-hole-physics</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.
+
+Source: https://www.anthropic.com/research/claude-black-hole-physics
+Published November 17, 2026 · Anthropic Research
+
+Links referenced in the post:
+• here: https://hexagonmath.org/2611.00175v1
+• here: https://hexagonmath.org/2611.00174v1
+• set out the calculation that would settle the question: https://arxiv.org/abs/hep-th/0310285
+• recently proved by an OpenAI model: https://cdn.openai.com/pdf/ten-proofs-oai.pdf
+• to a new level of precision: https://www.anthropic.com/news/yes-claude-can-do-nine-loops
+• 3D critical Ising model: https://arxiv.org/abs/1203.6064
+• modular bootstrap: https://arxiv.org/abs/0902.2790
+• results: https://arxiv.org/abs/1903.06272
+• ceiling: https://arxiv.org/abs/1905.01319
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-17-claude-black-hole-physics/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/claude-black-hole-physics">https://www.anthropic.com/research/claude-black-hole-physics</a><br/><strong>Published:</strong> November 17, 2026 · Anthropic Research<br/><strong>Length:</strong> 4,638 words · 32 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://hexagonmath.org/2611.00175v1">here</a></li><li><a href="https://hexagonmath.org/2611.00174v1">here</a></li><li><a href="https://arxiv.org/abs/hep-th/0310285">set out the calculation that would settle the question</a></li><li><a href="https://cdn.openai.com/pdf/ten-proofs-oai.pdf">recently proved by an OpenAI model</a></li><li><a href="https://www.anthropic.com/news/yes-claude-can-do-nine-loops">to a new level of precision</a></li><li><a href="https://arxiv.org/abs/1203.6064">3D critical Ising model</a></li><li><a href="https://arxiv.org/abs/0902.2790">modular bootstrap</a></li><li><a href="https://arxiv.org/abs/1903.06272">results</a></li><li><a href="https://arxiv.org/abs/1905.01319">ceiling</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-17-claude-black-hole-physics/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-17-claude-black-hole-physics.mp3" length="16176562" type="audio/mpeg"/>
+      <itunes:duration>1931</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-17-claude-black-hole-physics.jpg?v=c3a90968"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-17-claude-black-hole-physics.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-17-claude-black-hole-physics.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.</itunes:subtitle>
+      <itunes:summary>Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.
+
+Source: https://www.anthropic.com/research/claude-black-hole-physics
+Published November 17, 2026 · Anthropic Research
+
+Links referenced in the post:
+• here: https://hexagonmath.org/2611.00175v1
+• here: https://hexagonmath.org/2611.00174v1
+• set out the calculation that would settle the question: https://arxiv.org/abs/hep-th/0310285
+• recently proved by an OpenAI model: https://cdn.openai.com/pdf/ten-proofs-oai.pdf
+• to a new level of precision: https://www.anthropic.com/news/yes-claude-can-do-nine-loops
+• 3D critical Ising model: https://arxiv.org/abs/1203.6064
+• modular bootstrap: https://arxiv.org/abs/0902.2790
+• results: https://arxiv.org/abs/1903.06272
+• ceiling: https://arxiv.org/abs/1905.01319
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-17-claude-black-hole-physics/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>116</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-17-claude-black-hole-physics.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-17-claude-black-hole-physics.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Updating our coordinated vulnerability disclosure policy timelines</title>
       <itunes:title>Research: Updating our coordinated vulnerability disclosure policy timelines</itunes:title>
