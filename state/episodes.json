@@ -5547,6 +5547,14 @@
       "updated": "2026-11-18T23:04:39+00:00",
       "slug": "research-2026-11-17-claude-black-hole-physics",
       "episode": 116
+    },
+    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering": {
+      "first_seen": "2026-11-19T22:46:01+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-19T22:46:01+00:00",
+      "slug": "news-2026-11-18-anthropic-prices-initial-public-offering",
+      "episode": 117
     }
   },
   "episodes": [
@@ -12402,8 +12410,25 @@
       "episode": 116,
       "created": "2026-11-18T23:04:39+00:00",
       "hero": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg"
+    },
+    {
+      "slug": "news-2026-11-18-anthropic-prices-initial-public-offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source": "news",
+      "title": "Anthropic prices initial public offering",
+      "subtitle": "Today Anthropic, PBC priced its initial public offering of its Class A common stock.",
+      "date": "2026-11-18T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [],
+      "word_count": 274,
+      "duration": 179.447959,
+      "bytes": 2179889,
+      "episode": 117,
+      "created": "2026-11-19T22:46:01+00:00",
+      "hero": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
     }
   ],
-  "next_episode": 117,
+  "next_episode": 118,
   "baseline_date": "2026-08-14"
 }
