@@ -5563,6 +5563,14 @@
       "updated": "2026-11-20T22:19:43+00:00",
       "slug": "news-2026-11-20-ipo-close",
       "episode": 118
+    },
+    "https://www.anthropic.com/research/working-with-ai": {
+      "first_seen": "2026-11-24T02:55:10+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-24T02:55:10+00:00",
+      "slug": "research-2026-11-23-working-with-ai",
+      "episode": 119
     }
   },
   "episodes": [
@@ -12452,8 +12460,106 @@
       "episode": 118,
       "created": "2026-11-20T22:19:43+00:00",
       "hero": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
+    },
+    {
+      "slug": "research-2026-11-23-working-with-ai",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source": "research",
+      "title": "Working with AI",
+      "subtitle": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.",
+      "date": "2026-11-23T00:00:00+00:00",
+      "authors": [
+        "Nathan Wilmers",
+        "Maxim Massenkoff",
+        "Peter McCrory"
+      ],
+      "category": "",
+      "links": [
+        {
+          "text": "derive value",
+          "href": "https://doi.org/10.1257/jep.14.4.23"
+        },
+        {
+          "text": "transformative technologies",
+          "href": "https://doi.org/10.1257/mac.20180386"
+        },
+        {
+          "text": "take more breaks or have more leisure time",
+          "href": "https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf"
+        },
+        {
+          "text": "AI-native startups employ fewer workers",
+          "href": "https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf"
+        },
+        {
+          "text": "resistance",
+          "href": "https://www.hachettebookgroup.com/titles/richards-edwards/contested-terrain/9780465014132/?lens=basic-books"
+        },
+        {
+          "text": "from employees",
+          "href": "https://journals.aom.org/doi/10.5465/annals.2018.0174"
+        },
+        {
+          "text": "prior research on Claude Code usage",
+          "href": "https://www.anthropic.com/research/claude-code-expertise"
+        },
+        {
+          "text": "Paul David’s mill buildings",
+          "href": "https://www.jstor.org/stable/2006600"
+        },
+        {
+          "text": "coordination costs",
+          "href": "https://doi.org/10.1086/209962"
+        },
+        {
+          "text": "benefit of role broadening",
+          "href": "https://cepr.org/publications/dp21453"
+        },
+        {
+          "text": "need active expert engagement and input to develop",
+          "href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7088100"
+        },
+        {
+          "text": "code review became a critical bottleneck",
+          "href": "https://fion.ac/jellyfish.pdf"
+        },
+        {
+          "text": "new tasks emerge",
+          "href": "https://doi.org/10.1093/qje/qjae008"
+        },
+        {
+          "text": "measured in input tokens",
+          "href": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report#chapter-3-api-enterprise-deployment-of-claude"
+        },
+        {
+          "text": "Prior research has found",
+          "href": "https://doi.org/10.1287/mnsc.2014.2013"
+        },
+        {
+          "text": "a given technology",
+          "href": "https://doi.org/10.2307/2392767"
+        },
+        {
+          "text": "internal worker reallocation",
+          "href": "https://www.anthropic.com/research/employment-at-anthropic"
+        },
+        {
+          "text": "must support these practices",
+          "href": "https://www.anthropic.com/policy-on-the-ai-exponential/epf"
+        },
+        {
+          "text": "report PDF",
+          "href": "https://assets.claude.com/0cb09418f04d09baf72922e53a3f17383ef838c9.pdf"
+        }
+      ],
+      "word_count": 7590,
+      "duration": 3244.941134,
+      "bytes": 26663171,
+      "episode": 119,
+      "created": "2026-11-24T02:55:10+00:00",
+      "hero": "https://assets.claude.com/cd30ce2e82eb423476801098073b39e025839018.jpg"
     }
   ],
-  "next_episode": 119,
+  "next_episode": 120,
   "baseline_date": "2026-08-14"
 }

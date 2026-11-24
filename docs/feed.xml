@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 22:19:44 +0000</lastBuildDate>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2026 02:55:10 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,82 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Working with AI</title>
+      <itunes:title>Research: Working with AI</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-23-working-with-ai/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/working-with-ai</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.
+
+Source: https://www.anthropic.com/research/working-with-ai
+Published November 23, 2026 · Anthropic Research · by Nathan Wilmers, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• derive value: https://doi.org/10.1257/jep.14.4.23
+• transformative technologies: https://doi.org/10.1257/mac.20180386
+• take more breaks or have more leisure time: https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf
+• AI-native startups employ fewer workers: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+• resistance: https://www.hachettebookgroup.com/titles/richards-edwards/contested-terrain/9780465014132/?lens=basic-books
+• from employees: https://journals.aom.org/doi/10.5465/annals.2018.0174
+• prior research on Claude Code usage: https://www.anthropic.com/research/claude-code-expertise
+• Paul David’s mill buildings: https://www.jstor.org/stable/2006600
+• coordination costs: https://doi.org/10.1086/209962
+• benefit of role broadening: https://cepr.org/publications/dp21453
+• need active expert engagement and input to develop: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7088100
+• code review became a critical bottleneck: https://fion.ac/jellyfish.pdf
+• new tasks emerge: https://doi.org/10.1093/qje/qjae008
+• measured in input tokens: https://www.anthropic.com/research/anthropic-economic-index-september-2025-report#chapter-3-api-enterprise-deployment-of-claude
+• Prior research has found: https://doi.org/10.1287/mnsc.2014.2013
+• a given technology: https://doi.org/10.2307/2392767
+• internal worker reallocation: https://www.anthropic.com/research/employment-at-anthropic
+• must support these practices: https://www.anthropic.com/policy-on-the-ai-exponential/epf
+• report PDF: https://assets.claude.com/0cb09418f04d09baf72922e53a3f17383ef838c9.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-23-working-with-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/working-with-ai">https://www.anthropic.com/research/working-with-ai</a><br/><strong>Published:</strong> November 23, 2026 · Anthropic Research<br/><strong>Authors:</strong> Nathan Wilmers, Maxim Massenkoff, Peter McCrory<br/><strong>Length:</strong> 7,590 words · 54 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://doi.org/10.1257/jep.14.4.23">derive value</a></li><li><a href="https://doi.org/10.1257/mac.20180386">transformative technologies</a></li><li><a href="https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf">take more breaks or have more leisure time</a></li><li><a href="https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf">AI-native startups employ fewer workers</a></li><li><a href="https://www.hachettebookgroup.com/titles/richards-edwards/contested-terrain/9780465014132/?lens=basic-books">resistance</a></li><li><a href="https://journals.aom.org/doi/10.5465/annals.2018.0174">from employees</a></li><li><a href="https://www.anthropic.com/research/claude-code-expertise">prior research on Claude Code usage</a></li><li><a href="https://www.jstor.org/stable/2006600">Paul David’s mill buildings</a></li><li><a href="https://doi.org/10.1086/209962">coordination costs</a></li><li><a href="https://cepr.org/publications/dp21453">benefit of role broadening</a></li><li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7088100">need active expert engagement and input to develop</a></li><li><a href="https://fion.ac/jellyfish.pdf">code review became a critical bottleneck</a></li><li><a href="https://doi.org/10.1093/qje/qjae008">new tasks emerge</a></li><li><a href="https://www.anthropic.com/research/anthropic-economic-index-september-2025-report#chapter-3-api-enterprise-deployment-of-claude">measured in input tokens</a></li><li><a href="https://doi.org/10.1287/mnsc.2014.2013">Prior research has found</a></li><li><a href="https://doi.org/10.2307/2392767">a given technology</a></li><li><a href="https://www.anthropic.com/research/employment-at-anthropic">internal worker reallocation</a></li><li><a href="https://www.anthropic.com/policy-on-the-ai-exponential/epf">must support these practices</a></li><li><a href="https://assets.claude.com/0cb09418f04d09baf72922e53a3f17383ef838c9.pdf">report PDF</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-23-working-with-ai/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-23-working-with-ai.mp3" length="26663171" type="audio/mpeg"/>
+      <itunes:duration>3245</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-23-working-with-ai.jpg?v=0567dcff"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-23-working-with-ai.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-23-working-with-ai.json" type="application/json+chapters"/>
+      <itunes:author>Nathan Wilmers, Maxim Massenkoff, Peter McCrory</itunes:author>
+      <itunes:subtitle>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.</itunes:subtitle>
+      <itunes:summary>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.
+
+Source: https://www.anthropic.com/research/working-with-ai
+Published November 23, 2026 · Anthropic Research · by Nathan Wilmers, Maxim Massenkoff, Peter McCrory
+
+Links referenced in the post:
+• derive value: https://doi.org/10.1257/jep.14.4.23
+• transformative technologies: https://doi.org/10.1257/mac.20180386
+• take more breaks or have more leisure time: https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf
+• AI-native startups employ fewer workers: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+• resistance: https://www.hachettebookgroup.com/titles/richards-edwards/contested-terrain/9780465014132/?lens=basic-books
+• from employees: https://journals.aom.org/doi/10.5465/annals.2018.0174
+• prior research on Claude Code usage: https://www.anthropic.com/research/claude-code-expertise
+• Paul David’s mill buildings: https://www.jstor.org/stable/2006600
+• coordination costs: https://doi.org/10.1086/209962
+• benefit of role broadening: https://cepr.org/publications/dp21453
+• need active expert engagement and input to develop: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7088100
+• code review became a critical bottleneck: https://fion.ac/jellyfish.pdf
+• new tasks emerge: https://doi.org/10.1093/qje/qjae008
+• measured in input tokens: https://www.anthropic.com/research/anthropic-economic-index-september-2025-report#chapter-3-api-enterprise-deployment-of-claude
+• Prior research has found: https://doi.org/10.1287/mnsc.2014.2013
+• a given technology: https://doi.org/10.2307/2392767
+• internal worker reallocation: https://www.anthropic.com/research/employment-at-anthropic
+• must support these practices: https://www.anthropic.com/policy-on-the-ai-exponential/epf
+• report PDF: https://assets.claude.com/0cb09418f04d09baf72922e53a3f17383ef838c9.pdf
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-23-working-with-ai/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>119</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-23-working-with-ai.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-23-working-with-ai.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>News: Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</title>
       <itunes:title>News: Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</itunes:title>

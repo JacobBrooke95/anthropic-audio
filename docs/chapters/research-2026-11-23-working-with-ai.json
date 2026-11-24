@@ -1,0 +1,57 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 33.24,
+   "title": "Summary"
+  },
+  {
+   "startTime": 203.84,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 455.92,
+   "title": "How are businesses adapting to A I?"
+  },
+  {
+   "startTime": 967.92,
+   "title": "Top-down automation"
+  },
+  {
+   "startTime": 1658.15,
+   "title": "Bottom-up experimentation"
+  },
+  {
+   "startTime": 2194.6,
+   "title": "Reorganizing around A I"
+  },
+  {
+   "startTime": 2252.56,
+   "title": "Broadening roles"
+  },
+  {
+   "startTime": 2475.37,
+   "title": "Redeploying employees toward bottleneck tasks"
+  },
+  {
+   "startTime": 2797.58,
+   "title": "Building common infrastructure"
+  },
+  {
+   "startTime": 3010.61,
+   "title": "Conclusion"
+  },
+  {
+   "startTime": 3212.25,
+   "title": "Appendix and references"
+  },
+  {
+   "startTime": 3225.13,
+   "title": "Outro"
+  }
+ ]
+}
