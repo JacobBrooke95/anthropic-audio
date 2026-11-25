@@ -1,0 +1,61 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 180.27,
+   "title": "Why migrate?"
+  },
+  {
+   "startTime": 286.04,
+   "title": "Incremental or all at once?"
+  },
+  {
+   "startTime": 423.36,
+   "title": "How we verified the migration"
+  },
+  {
+   "startTime": 425.85,
+   "title": "General approaches"
+  },
+  {
+   "startTime": 507.43,
+   "title": "Tests"
+  },
+  {
+   "startTime": 631.55,
+   "title": "Detecting parity with production"
+  },
+  {
+   "startTime": 1075.67,
+   "title": "Verification loops"
+  },
+  {
+   "startTime": 1165.17,
+   "title": "Inner loop"
+  },
+  {
+   "startTime": 1444.24,
+   "title": "Outer loop"
+  },
+  {
+   "startTime": 1557.52,
+   "title": "Memory loop"
+  },
+  {
+   "startTime": 1697.99,
+   "title": "Looking ahead"
+  },
+  {
+   "startTime": 1760.4,
+   "title": "Lessons learned"
+  },
+  {
+   "startTime": 2024.84,
+   "title": "Outro"
+  }
+ ]
+}

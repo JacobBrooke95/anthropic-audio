@@ -5571,6 +5571,14 @@
       "updated": "2026-11-24T02:55:10+00:00",
       "slug": "research-2026-11-23-working-with-ai",
       "episode": 119
+    },
+    "https://www.anthropic.com/research/migrating-api-to-rust": {
+      "first_seen": "2026-11-25T23:50:05+00:00",
+      "attempts": 0,
+      "status": "published",
+      "updated": "2026-11-25T23:50:05+00:00",
+      "slug": "research-2026-11-25-migrating-api-to-rust",
+      "episode": 120
     }
   },
   "episodes": [
@@ -12558,8 +12566,70 @@
       "episode": 119,
       "created": "2026-11-24T02:55:10+00:00",
       "hero": "https://assets.claude.com/cd30ce2e82eb423476801098073b39e025839018.jpg"
+    },
+    {
+      "slug": "research-2026-11-25-migrating-api-to-rust",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "research",
+      "title": "Migrating our Messages API to Rust",
+      "subtitle": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.",
+      "date": "2026-11-25T00:00:00+00:00",
+      "authors": [],
+      "category": "",
+      "links": [
+        {
+          "text": "proofs",
+          "href": "https://alpo.ge/remark.pdf"
+        },
+        {
+          "text": "migrating",
+          "href": "https://bun.com/blog/bun-in-rust"
+        },
+        {
+          "text": "fall outside the test suite",
+          "href": "https://github.blog/2016-02-03-scientist/"
+        },
+        {
+          "text": "a definition of “correct” that covers everything",
+          "href": "https://www.anthropic.com/research/formal-verification"
+        },
+        {
+          "text": "Messages API",
+          "href": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages"
+        },
+        {
+          "text": "more than 80% of the code Anthropic merged",
+          "href": "https://www.anthropic.com/institute/recursive-self-improvement"
+        },
+        {
+          "text": "theorem in mathematics",
+          "href": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/"
+        },
+        {
+          "text": "tools",
+          "href": "https://blog.x.com/en/engineering/diffy-testing-services-without-writing-tests"
+        },
+        {
+          "text": "can differ for the same input",
+          "href": "https://platform.claude.com/docs/en/about-claude/glossary"
+        },
+        {
+          "text": "memory",
+          "href": "https://www.anthropic.com/research/components-of-agent-memory"
+        },
+        {
+          "text": "CLAUDE.md",
+          "href": "https://code.claude.com/docs/en/memory"
+        }
+      ],
+      "word_count": 3970,
+      "duration": 2046.40517,
+      "bytes": 17135218,
+      "episode": 120,
+      "created": "2026-11-25T23:50:05+00:00",
+      "hero": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg"
     }
   ],
-  "next_episode": 120,
+  "next_episode": 121,
   "baseline_date": "2026-08-14"
 }

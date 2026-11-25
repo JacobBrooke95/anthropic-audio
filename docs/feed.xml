@@ -7,8 +7,8 @@
     <description>Unofficial, automatically generated audio versions of posts from Anthropic's research blog (anthropic.com/research), newsroom (anthropic.com/news), and the Claude blog (claude.com/blog). Each episode is a complete, faithful reading of one post, published within an hour of the original during Pacific business hours. Show notes carry the source link and every link referenced in the post. Not affiliated with or endorsed by Anthropic; all post content is the property of Anthropic, PBC.</description>
     <language>en-us</language>
     <copyright>Post content © Anthropic, PBC. Audio edition assembled by Jacob Brooke.</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 02:55:10 +0000</lastBuildDate>
-    <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2026 23:50:05 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     <generator>anthropic-audio (https://github.com/JacobBrooke95/anthropic-audio)</generator>
     <itunes:author>Jacob Brooke</itunes:author>
     <itunes:subtitle>Unofficial audio editions of Anthropic's research, news, and Claude blog posts</itunes:subtitle>
@@ -28,6 +28,66 @@
     <podcast:medium>podcast</podcast:medium>
     <podcast:locked>no</podcast:locked>
     <podcast:txt purpose="ai-content">Audio generated automatically with Kokoro text-to-speech from Anthropic's published posts.</podcast:txt>
+    <item>
+      <title>Research: Migrating our Messages API to Rust</title>
+      <itunes:title>Research: Migrating our Messages API to Rust</itunes:title>
+      <link>https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-25-migrating-api-to-rust/</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <description>How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.
+
+Source: https://www.anthropic.com/research/migrating-api-to-rust
+Published November 25, 2026 · Anthropic Research
+
+Links referenced in the post:
+• proofs: https://alpo.ge/remark.pdf
+• migrating: https://bun.com/blog/bun-in-rust
+• fall outside the test suite: https://github.blog/2016-02-03-scientist/
+• a definition of “correct” that covers everything: https://www.anthropic.com/research/formal-verification
+• Messages API: https://platform.claude.com/docs/en/build-with-claude/working-with-messages
+• more than 80% of the code Anthropic merged: https://www.anthropic.com/institute/recursive-self-improvement
+• theorem in mathematics: https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/
+• tools: https://blog.x.com/en/engineering/diffy-testing-services-without-writing-tests
+• can differ for the same input: https://platform.claude.com/docs/en/about-claude/glossary
+• memory: https://www.anthropic.com/research/components-of-agent-memory
+• CLAUDE.md: https://code.claude.com/docs/en/memory
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-25-migrating-api-to-rust/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</description>
+      <content:encoded><![CDATA[<p>How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.</p><p><strong>Source:</strong> <a href="https://www.anthropic.com/research/migrating-api-to-rust">https://www.anthropic.com/research/migrating-api-to-rust</a><br/><strong>Published:</strong> November 25, 2026 · Anthropic Research<br/><strong>Length:</strong> 3,970 words · 34 min</p><p><strong>Links referenced in the post:</strong></p><ul><li><a href="https://alpo.ge/remark.pdf">proofs</a></li><li><a href="https://bun.com/blog/bun-in-rust">migrating</a></li><li><a href="https://github.blog/2016-02-03-scientist/">fall outside the test suite</a></li><li><a href="https://www.anthropic.com/research/formal-verification">a definition of “correct” that covers everything</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/working-with-messages">Messages API</a></li><li><a href="https://www.anthropic.com/institute/recursive-self-improvement">more than 80% of the code Anthropic merged</a></li><li><a href="https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/">theorem in mathematics</a></li><li><a href="https://blog.x.com/en/engineering/diffy-testing-services-without-writing-tests">tools</a></li><li><a href="https://platform.claude.com/docs/en/about-claude/glossary">can differ for the same input</a></li><li><a href="https://www.anthropic.com/research/components-of-agent-memory">memory</a></li><li><a href="https://code.claude.com/docs/en/memory">CLAUDE.md</a></li></ul><p><a href="https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-25-migrating-api-to-rust/">Full text copy, transcript, and player</a> on the episode page.</p><p><em>Unofficial audio edition generated automatically with Kokoro text-to-speech. Post content © Anthropic, PBC; this feed is not affiliated with or endorsed by Anthropic.</em></p>]]></content:encoded>
+      <enclosure url="https://jacobbrooke95.github.io/anthropic-audio/audio/research-2026-11-25-migrating-api-to-rust.mp3" length="17135218" type="audio/mpeg"/>
+      <itunes:duration>2046</itunes:duration>
+      <itunes:image href="https://jacobbrooke95.github.io/anthropic-audio/art/research-2026-11-25-migrating-api-to-rust.jpg?v=f6d070f6"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-25-migrating-api-to-rust.vtt" type="text/vtt"/>
+      <podcast:chapters url="https://jacobbrooke95.github.io/anthropic-audio/chapters/research-2026-11-25-migrating-api-to-rust.json" type="application/json+chapters"/>
+      <itunes:author>Anthropic</itunes:author>
+      <itunes:subtitle>How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.</itunes:subtitle>
+      <itunes:summary>How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.
+
+Source: https://www.anthropic.com/research/migrating-api-to-rust
+Published November 25, 2026 · Anthropic Research
+
+Links referenced in the post:
+• proofs: https://alpo.ge/remark.pdf
+• migrating: https://bun.com/blog/bun-in-rust
+• fall outside the test suite: https://github.blog/2016-02-03-scientist/
+• a definition of “correct” that covers everything: https://www.anthropic.com/research/formal-verification
+• Messages API: https://platform.claude.com/docs/en/build-with-claude/working-with-messages
+• more than 80% of the code Anthropic merged: https://www.anthropic.com/institute/recursive-self-improvement
+• theorem in mathematics: https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/
+• tools: https://blog.x.com/en/engineering/diffy-testing-services-without-writing-tests
+• can differ for the same input: https://platform.claude.com/docs/en/about-claude/glossary
+• memory: https://www.anthropic.com/research/components-of-agent-memory
+• CLAUDE.md: https://code.claude.com/docs/en/memory
+
+Full text + transcript: https://jacobbrooke95.github.io/anthropic-audio/episodes/research-2026-11-25-migrating-api-to-rust/
+Unofficial audio edition, generated automatically. Post content © Anthropic, PBC.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>120</itunes:episode>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-25-migrating-api-to-rust.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://jacobbrooke95.github.io/anthropic-audio/transcripts/research-2026-11-25-migrating-api-to-rust.txt" type="text/plain" language="en"/>
+    </item>
     <item>
       <title>Research: Working with AI</title>
       <itunes:title>Research: Working with AI</itunes:title>
